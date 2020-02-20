@@ -1,0 +1,1556 @@
+{
+  "homepages": [],
+  "source_base_path": "C:/Users/jldub/dev/PluginSdk/docfx_project",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "type": "Resource",
+      "output": {
+        "resource": {
+          "relative_path": "index.json"
+        }
+      },
+      "is_incremental": false
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HomeSeer.Jui.Types.EInputType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HomeSeer.Jui.Types.EInputType.html",
+          "hash": "Dk2I59o8e7q3rZg2CT1duw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HomeSeer.Jui.Types.ELabelStyleType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HomeSeer.Jui.Types.ELabelStyleType.html",
+          "hash": "r5HR+533x4NGvfSfb1UArw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HomeSeer.Jui.Types.EPageType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HomeSeer.Jui.Types.EPageType.html",
+          "hash": "FEqQZlJvJApII03pFtaYjA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HomeSeer.Jui.Types.ESelectListType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HomeSeer.Jui.Types.ESelectListType.html",
+          "hash": "DZlIgw3kF044wun02YfqBQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HomeSeer.Jui.Types.EToggleType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HomeSeer.Jui.Types.EToggleType.html",
+          "hash": "zl+GCJtCMHIWno8j2Y+Nuw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HomeSeer.Jui.Types.EViewType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HomeSeer.Jui.Types.EViewType.html",
+          "hash": "7CrfJThvxvjejKLgqT1QIw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HomeSeer.Jui.Types.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HomeSeer.Jui.Types.html",
+          "hash": "wOXjHj3SiSG4cxTBhJhaiA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HomeSeer.Jui.Views.AbstractView.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HomeSeer.Jui.Views.AbstractView.html",
+          "hash": "lVH7HEb9blJbLEyITA116A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HomeSeer.Jui.Views.InputView.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HomeSeer.Jui.Views.InputView.html",
+          "hash": "VdYp8mRT+Mh3/BDgMWgvnw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HomeSeer.Jui.Views.InvalidValueForTypeException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HomeSeer.Jui.Views.InvalidValueForTypeException.html",
+          "hash": "NGahqnZb4WwO9GtcWdDmZA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HomeSeer.Jui.Views.JsonDataException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HomeSeer.Jui.Views.JsonDataException.html",
+          "hash": "3+TFxLkLc6R1R4YA5Z/rVg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HomeSeer.Jui.Views.LabelView.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HomeSeer.Jui.Views.LabelView.html",
+          "hash": "0X+iPw+huQDEA6B5xKRiZg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HomeSeer.Jui.Views.Page.Factory.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HomeSeer.Jui.Views.Page.Factory.html",
+          "hash": "JEnEDIqyDHd+4QjAHZ86LA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HomeSeer.Jui.Views.Page.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HomeSeer.Jui.Views.Page.html",
+          "hash": "SUfmS85jGOavkBZMlm9a3g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HomeSeer.Jui.Views.PageFactory.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HomeSeer.Jui.Views.PageFactory.html",
+          "hash": "hbbnDuWprdjj4I8LwPRbhg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HomeSeer.Jui.Views.SelectListView.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HomeSeer.Jui.Views.SelectListView.html",
+          "hash": "aI9G08L83KxnJtZGSfO/7w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HomeSeer.Jui.Views.SettingsCollection.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HomeSeer.Jui.Views.SettingsCollection.html",
+          "hash": "1cLg7pghYbSvb4FuCzqTCg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HomeSeer.Jui.Views.ToggleView.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HomeSeer.Jui.Views.ToggleView.html",
+          "hash": "cTGGfhOS8vh7cwvs9iXazg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HomeSeer.Jui.Views.ViewGroup.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HomeSeer.Jui.Views.ViewGroup.html",
+          "hash": "QWoHBKXnYkOuFJdGlCGfXw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HomeSeer.Jui.Views.ViewNotFoundException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HomeSeer.Jui.Views.ViewNotFoundException.html",
+          "hash": "tqCYCQIAdnHbQp2PPN7T0w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HomeSeer.Jui.Views.ViewTypeMismatchException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HomeSeer.Jui.Views.ViewTypeMismatchException.html",
+          "hash": "wPyOQevdAaHnJa+Qp7UIdQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HomeSeer.Jui.Views.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HomeSeer.Jui.Views.html",
+          "hash": "Hw9r+62i6me7wTa5DFqMbg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HomeSeer.PluginSdk.AbstractPlugin.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HomeSeer.PluginSdk.AbstractPlugin.html",
+          "hash": "STIdb+j7oFll/owif+W3sA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HomeSeer.PluginSdk.Constants.CAPIControlButtonImage.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HomeSeer.PluginSdk.Constants.CAPIControlButtonImage.html",
+          "hash": "56YXTs1YAhMGSCc645P5rg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HomeSeer.PluginSdk.Constants.CAPIControlResponse.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HomeSeer.PluginSdk.Constants.CAPIControlResponse.html",
+          "hash": "ET8Is5HvLcTdKH1nDMwKjw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HomeSeer.PluginSdk.Constants.ConfigDevicePostReturn.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HomeSeer.PluginSdk.Constants.ConfigDevicePostReturn.html",
+          "hash": "tDePSxgwJI5XPMxv5ivVDg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HomeSeer.PluginSdk.Constants.DeviceScriptChange.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HomeSeer.PluginSdk.Constants.DeviceScriptChange.html",
+          "hash": "YjTUMLCSvXOE/qMVjVy2XA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HomeSeer.PluginSdk.Constants.Device_Constants.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HomeSeer.PluginSdk.Constants.Device_Constants.html",
+          "hash": "n4XMTW54kf8SF+ux1RIr/g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HomeSeer.PluginSdk.Constants.EOsType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HomeSeer.PluginSdk.Constants.EOsType.html",
+          "hash": "nSAAjHOlgI/hm7JMhcirYQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HomeSeer.PluginSdk.Constants.HSEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HomeSeer.PluginSdk.Constants.HSEvent.html",
+          "hash": "Xxl3yXetG81OCco961cWZg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HomeSeer.PluginSdk.Constants.REGISTRATION_MODES.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HomeSeer.PluginSdk.Constants.REGISTRATION_MODES.html",
+          "hash": "wywaFYCjxFl9ZTF15QsT+A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HomeSeer.PluginSdk.Constants.TunnelCommand.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HomeSeer.PluginSdk.Constants.TunnelCommand.html",
+          "hash": "ngiMjoEqZe/p26A/6vUH5A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HomeSeer.PluginSdk.Constants.eDeviceSubType_SecurityArea.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HomeSeer.PluginSdk.Constants.eDeviceSubType_SecurityArea.html",
+          "hash": "y7fhHGfc4d4hzIqnlTe5Hg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HomeSeer.PluginSdk.Constants.eDeviceSubType_Setpoint.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HomeSeer.PluginSdk.Constants.eDeviceSubType_Setpoint.html",
+          "hash": "b0Ry52kOHzbmMStvTfjlgw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HomeSeer.PluginSdk.Constants.eDeviceSubType_Temperature.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HomeSeer.PluginSdk.Constants.eDeviceSubType_Temperature.html",
+          "hash": "kdLXhDlMHezNtSKCPgg6MA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HomeSeer.PluginSdk.Constants.eDeviceType_Energy.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HomeSeer.PluginSdk.Constants.eDeviceType_Energy.html",
+          "hash": "zUve3YINSqWWxiE2Ujhb3A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HomeSeer.PluginSdk.Constants.eDeviceType_Security.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HomeSeer.PluginSdk.Constants.eDeviceType_Security.html",
+          "hash": "j7IV+QSRkpV2R02Kz5RZjw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HomeSeer.PluginSdk.Constants.eDeviceType_Thermostat.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HomeSeer.PluginSdk.Constants.eDeviceType_Thermostat.html",
+          "hash": "bgObKbBeroLA+oC3jEy+fw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HomeSeer.PluginSdk.Constants.eGraphInterval.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HomeSeer.PluginSdk.Constants.eGraphInterval.html",
+          "hash": "boISPfhsLLaPzqj+VcfA1w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HomeSeer.PluginSdk.Constants.eGraphType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HomeSeer.PluginSdk.Constants.eGraphType.html",
+          "hash": "4yObwFdy2gsJWX+58dUXQQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HomeSeer.PluginSdk.Constants.editions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HomeSeer.PluginSdk.Constants.editions.html",
+          "hash": "QEYntOUBJ2KrimwQ7NTYHA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HomeSeer.PluginSdk.Constants.enumEnergyDevice.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HomeSeer.PluginSdk.Constants.enumEnergyDevice.html",
+          "hash": "uslek/cei64dE4/KshHYOQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HomeSeer.PluginSdk.Constants.enumEnergyDirection.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HomeSeer.PluginSdk.Constants.enumEnergyDirection.html",
+          "hash": "c8S0t8X8JTlt6lW9Sb0tUw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HomeSeer.PluginSdk.Constants.enumVCMDType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HomeSeer.PluginSdk.Constants.enumVCMDType.html",
+          "hash": "MP4LvBAc0FjEgFegZUvRMA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HomeSeer.PluginSdk.Constants.speak_error_values.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HomeSeer.PluginSdk.Constants.speak_error_values.html",
+          "hash": "6xjaGtDwZIPabFDHX6/DrQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HomeSeer.PluginSdk.Constants.speak_type_values.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HomeSeer.PluginSdk.Constants.speak_type_values.html",
+          "hash": "iwFixkuhKud7OMt3u7yU4g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HomeSeer.PluginSdk.Constants.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HomeSeer.PluginSdk.Constants.html",
+          "hash": "z0FeQDtw1gHVqU1Dkqiibg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HomeSeer.PluginSdk.Devices.AbstractHsDevice.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HomeSeer.PluginSdk.Devices.AbstractHsDevice.html",
+          "hash": "RFyuCFRq9vyWM7nYoio4/A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HomeSeer.PluginSdk.Devices.AbstractStatus.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HomeSeer.PluginSdk.Devices.AbstractStatus.html",
+          "hash": "cs2Pd44rJsXQwnRLG3MrEw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HomeSeer.PluginSdk.Devices.Controls.ControlEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HomeSeer.PluginSdk.Devices.Controls.ControlEvent.html",
+          "hash": "cFYcApHM9AGz3MeNAEsDgQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HomeSeer.PluginSdk.Devices.Controls.ControlLocation.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HomeSeer.PluginSdk.Devices.Controls.ControlLocation.html",
+          "hash": "SBpbaBbpXnfMqUVlZf1wyA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HomeSeer.PluginSdk.Devices.Controls.EControlFlag.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HomeSeer.PluginSdk.Devices.Controls.EControlFlag.html",
+          "hash": "IeCfJanrmfMuklQ3Pxnodw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HomeSeer.PluginSdk.Devices.Controls.EControlType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HomeSeer.PluginSdk.Devices.Controls.EControlType.html",
+          "hash": "GNFwMGY6J0bRrTA9OWjxGA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HomeSeer.PluginSdk.Devices.Controls.EControlUse.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HomeSeer.PluginSdk.Devices.Controls.EControlUse.html",
+          "hash": "o1zI5a6oUluWKJ8/9XscXA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HomeSeer.PluginSdk.Devices.Controls.StatusControl.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HomeSeer.PluginSdk.Devices.Controls.StatusControl.html",
+          "hash": "ta+U6WJBIUtL7zoRC599wQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HomeSeer.PluginSdk.Devices.Controls.StatusControlCollection.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HomeSeer.PluginSdk.Devices.Controls.StatusControlCollection.html",
+          "hash": "dCrLbtSFSI5Hp55hnwNu6A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HomeSeer.PluginSdk.Devices.Controls.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HomeSeer.PluginSdk.Devices.Controls.html",
+          "hash": "57o0KhGU9KG6+6+JaOaEBA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HomeSeer.PluginSdk.Devices.DeviceFactory.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HomeSeer.PluginSdk.Devices.DeviceFactory.html",
+          "hash": "W0mV/NKow822yhjqdTORIQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HomeSeer.PluginSdk.Devices.EEnergyFeatureSubType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HomeSeer.PluginSdk.Devices.EEnergyFeatureSubType.html",
+          "hash": "f5Ue62ICKmh+3ofM4IvuiQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HomeSeer.PluginSdk.Devices.EMiscFlag.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HomeSeer.PluginSdk.Devices.EMiscFlag.html",
+          "hash": "78Y/12gNnQFHqXQyBAtpvg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HomeSeer.PluginSdk.Devices.EPollResponse.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HomeSeer.PluginSdk.Devices.EPollResponse.html",
+          "hash": "iCIYKzBcimEv1Fxwa5Lmkw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HomeSeer.PluginSdk.Devices.EProperty.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HomeSeer.PluginSdk.Devices.EProperty.html",
+          "hash": "Kof4Dl9qHjbnVAJo2urKsQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HomeSeer.PluginSdk.Devices.EventUpdateReturnData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HomeSeer.PluginSdk.Devices.EventUpdateReturnData.html",
+          "hash": "Jc9qlAZPfxKFqohhoEdVZA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HomeSeer.PluginSdk.Devices.FeatureFactory.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HomeSeer.PluginSdk.Devices.FeatureFactory.html",
+          "hash": "YGb3+d1QiNCFZVmgibS+JQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HomeSeer.PluginSdk.Devices.HsDevice.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HomeSeer.PluginSdk.Devices.HsDevice.html",
+          "hash": "u97zvhkBIxQn1itTqgp5QQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HomeSeer.PluginSdk.Devices.HsFeature.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HomeSeer.PluginSdk.Devices.HsFeature.html",
+          "hash": "OGXtzORHL1IVbTLXsLOwEw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HomeSeer.PluginSdk.Devices.Identification.DeviceRelationshipException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HomeSeer.PluginSdk.Devices.Identification.DeviceRelationshipException.html",
+          "hash": "BE4XvNTLWFNvHau+2jr5gw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HomeSeer.PluginSdk.Devices.Identification.EApiType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HomeSeer.PluginSdk.Devices.Identification.EApiType.html",
+          "hash": "ETPY87Nkx5pqNMM8F8u+2Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HomeSeer.PluginSdk.Devices.Identification.EDeviceType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HomeSeer.PluginSdk.Devices.Identification.EDeviceType.html",
+          "hash": "7juPZL646QHArvFTuecPVw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HomeSeer.PluginSdk.Devices.Identification.EFeatureType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HomeSeer.PluginSdk.Devices.Identification.EFeatureType.html",
+          "hash": "R8RjiY4iEzrIgNZov9ASbg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HomeSeer.PluginSdk.Devices.Identification.EGenericDeviceSubType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HomeSeer.PluginSdk.Devices.Identification.EGenericDeviceSubType.html",
+          "hash": "E7OUUrnFBnCEqf9SeWEW8w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HomeSeer.PluginSdk.Devices.Identification.EGenericFeatureSubType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HomeSeer.PluginSdk.Devices.Identification.EGenericFeatureSubType.html",
+          "hash": "1NwjyyIOtKyp4f0u/HwTYA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HomeSeer.PluginSdk.Devices.Identification.EMediaFeatureSubType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HomeSeer.PluginSdk.Devices.Identification.EMediaFeatureSubType.html",
+          "hash": "Tf4Ir75nqX0kzGqxhhwT/w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HomeSeer.PluginSdk.Devices.Identification.ERelationship.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HomeSeer.PluginSdk.Devices.Identification.ERelationship.html",
+          "hash": "vYSA4VVIpFI1pPpy/mqWPg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HomeSeer.PluginSdk.Devices.Identification.EThermostatControlFeatureSubType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HomeSeer.PluginSdk.Devices.Identification.EThermostatControlFeatureSubType.html",
+          "hash": "1BadvIWsdtDsdJcZGJ2fhQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HomeSeer.PluginSdk.Devices.Identification.EThermostatStatusFeatureSubType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HomeSeer.PluginSdk.Devices.Identification.EThermostatStatusFeatureSubType.html",
+          "hash": "4ssJfQ7MeyQ/qWzc2hNPWA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HomeSeer.PluginSdk.Devices.Identification.TypeInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HomeSeer.PluginSdk.Devices.Identification.TypeInfo.html",
+          "hash": "0rNC+HC13tt9pEFFgVd/Mg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HomeSeer.PluginSdk.Devices.Identification.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HomeSeer.PluginSdk.Devices.Identification.html",
+          "hash": "XCNxRuaF5Vi6q9KQOsFy9g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HomeSeer.PluginSdk.Devices.NewDeviceData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HomeSeer.PluginSdk.Devices.NewDeviceData.html",
+          "hash": "hnJoCTr5rOoewyCt2ybMgw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HomeSeer.PluginSdk.Devices.NewFeatureData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HomeSeer.PluginSdk.Devices.NewFeatureData.html",
+          "hash": "k3IhujOvhzv32z7mN2+puQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HomeSeer.PluginSdk.Devices.PlugExtraData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HomeSeer.PluginSdk.Devices.PlugExtraData.html",
+          "hash": "KK9iQZfCY6Sef1IOvUHPKA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HomeSeer.PluginSdk.Devices.StatusGraphic.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HomeSeer.PluginSdk.Devices.StatusGraphic.html",
+          "hash": "4c27voYyqPsnocv4OgSVOA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HomeSeer.PluginSdk.Devices.StatusGraphicCollection.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HomeSeer.PluginSdk.Devices.StatusGraphicCollection.html",
+          "hash": "Tkhw+TTStd7GSjytXDqlPA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HomeSeer.PluginSdk.Devices.ValueRange.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HomeSeer.PluginSdk.Devices.ValueRange.html",
+          "hash": "kPFSeGwcRs8+bFp66YWPJg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HomeSeer.PluginSdk.Devices.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HomeSeer.PluginSdk.Devices.html",
+          "hash": "plAfWK7Dg6r6iO9Dn3jPQw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HomeSeer.PluginSdk.EHsSystemEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HomeSeer.PluginSdk.EHsSystemEvent.html",
+          "hash": "e2PJuMg1ebBoN5aW+ToV4g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HomeSeer.PluginSdk.Energy.EnergyCalcData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HomeSeer.PluginSdk.Energy.EnergyCalcData.html",
+          "hash": "0bRcHTfKgOepPKiwNqSdgw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HomeSeer.PluginSdk.Energy.EnergyData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HomeSeer.PluginSdk.Energy.EnergyData.html",
+          "hash": "1k33UekaRpSCNzUXPWT/rw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HomeSeer.PluginSdk.Energy.EnergyGraph.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HomeSeer.PluginSdk.Energy.EnergyGraph.html",
+          "hash": "/DLUmkFs5UAiUMjeKSi/iw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HomeSeer.PluginSdk.Energy.EnergyGraphData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HomeSeer.PluginSdk.Energy.EnergyGraphData.html",
+          "hash": "twtD15meA/oPr5AFE0WKrw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HomeSeer.PluginSdk.Energy.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HomeSeer.PluginSdk.Energy.html",
+          "hash": "rmCzwY0pUZZEGe1nE2Cg9A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HomeSeer.PluginSdk.Events.AbstractActionType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HomeSeer.PluginSdk.Events.AbstractActionType.html",
+          "hash": "0ohNHwH+WXVbsJa4l9eR9g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HomeSeer.PluginSdk.Events.AbstractTriggerType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HomeSeer.PluginSdk.Events.AbstractTriggerType.html",
+          "hash": "7FaXmw4GD4PuwGZNroQOaQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HomeSeer.PluginSdk.Events.ActionTypeCollection.IActionTypeListener.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HomeSeer.PluginSdk.Events.ActionTypeCollection.IActionTypeListener.html",
+          "hash": "RGSu+5wBCp9EOMYTUE+a2Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HomeSeer.PluginSdk.Events.ActionTypeCollection.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HomeSeer.PluginSdk.Events.ActionTypeCollection.html",
+          "hash": "JBmhNfbW7MCg1tH/7B5rzA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HomeSeer.PluginSdk.Events.BaseTypeCollection-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HomeSeer.PluginSdk.Events.BaseTypeCollection-1.html",
+          "hash": "LEFH1LrTPipLFzCnMLhk8w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HomeSeer.PluginSdk.Events.EEventFlag.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HomeSeer.PluginSdk.Events.EEventFlag.html",
+          "hash": "9/NI2df7y/gOuaSGNz6vbA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HomeSeer.PluginSdk.Events.EventData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HomeSeer.PluginSdk.Events.EventData.html",
+          "hash": "XTiljhEXL60a2RLCyr45LQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HomeSeer.PluginSdk.Events.EventGroupData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HomeSeer.PluginSdk.Events.EventGroupData.html",
+          "hash": "vIR8xPXyhAagfG54vFdSlw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HomeSeer.PluginSdk.Events.EventTriggerGroupData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HomeSeer.PluginSdk.Events.EventTriggerGroupData.html",
+          "hash": "ZsgEANdcjWJtbt5ZSKydBA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HomeSeer.PluginSdk.Events.TrigActInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HomeSeer.PluginSdk.Events.TrigActInfo.html",
+          "hash": "V6NLOhX6AOTDJHH6eM0uJA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HomeSeer.PluginSdk.Events.TriggerTypeCollection.ITriggerTypeListener.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HomeSeer.PluginSdk.Events.TriggerTypeCollection.ITriggerTypeListener.html",
+          "hash": "nK88FxSOqBnxPi/8Ccdc/Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HomeSeer.PluginSdk.Events.TriggerTypeCollection.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HomeSeer.PluginSdk.Events.TriggerTypeCollection.html",
+          "hash": "O2Ivqy7v4lcl9Hp/mPW7IQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HomeSeer.PluginSdk.Events.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HomeSeer.PluginSdk.Events.html",
+          "hash": "apzwvubLM9258xtKDbPX9A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HomeSeer.PluginSdk.IHsController.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HomeSeer.PluginSdk.IHsController.html",
+          "hash": "KOiWeE542u3g1kf39l/Qxw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HomeSeer.PluginSdk.IPlugin.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HomeSeer.PluginSdk.IPlugin.html",
+          "hash": "BSeTOpLQfBANs9sN8VIdyw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HomeSeer.PluginSdk.Logging.ELogType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HomeSeer.PluginSdk.Logging.ELogType.html",
+          "hash": "FxdsfK7ANAIq7cl997O3Zg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HomeSeer.PluginSdk.Logging.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HomeSeer.PluginSdk.Logging.html",
+          "hash": "wJpfB9aq5Ds3CcaSAQyHeA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HomeSeer.PluginSdk.PluginStatus.EPluginStatus.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HomeSeer.PluginSdk.PluginStatus.EPluginStatus.html",
+          "hash": "VkXWDin7XSn4QdX7JmfvzA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HomeSeer.PluginSdk.PluginStatus.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HomeSeer.PluginSdk.PluginStatus.html",
+          "hash": "ka+54NfZg/INduAHefVc5Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HomeSeer.PluginSdk.Speech.AbstractSpeakerClient.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HomeSeer.PluginSdk.Speech.AbstractSpeakerClient.html",
+          "hash": "h7tE2s+yBSKCFHECSXI3LQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HomeSeer.PluginSdk.Speech.EMediaOperation.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HomeSeer.PluginSdk.Speech.EMediaOperation.html",
+          "hash": "d7aNFpX0keNJuy1+KIBPVw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HomeSeer.PluginSdk.Speech.IFromSpeaker.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HomeSeer.PluginSdk.Speech.IFromSpeaker.html",
+          "hash": "vXEUugasAvTm3SLfMs+GRQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HomeSeer.PluginSdk.Speech.ISpeechAPI.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HomeSeer.PluginSdk.Speech.ISpeechAPI.html",
+          "hash": "Bz6jZdkISpC10IFNlqCNqQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HomeSeer.PluginSdk.Speech.RemoteHost.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HomeSeer.PluginSdk.Speech.RemoteHost.html",
+          "hash": "O9EdnQQEmQz1HfRxYxuIkA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HomeSeer.PluginSdk.Speech.clsLastVR.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HomeSeer.PluginSdk.Speech.clsLastVR.html",
+          "hash": "2pO/giTYOKv1h+50hS6pUw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HomeSeer.PluginSdk.Speech.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HomeSeer.PluginSdk.Speech.html",
+          "hash": "VKYdSe47Om+siMdVw8SfQA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HomeSeer.PluginSdk.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HomeSeer.PluginSdk.html",
+          "hash": "Ft7oCdySbGSXKW8IYzsSEg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "api/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "api/index.html",
+          "hash": "kxPlU3QP2vAPsVCLtEVAgw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "api/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/toc.html",
+          "hash": "Rc0CMAds9zXavgQGgqP5Xg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/HomeSeer_Full_Logo.svg",
+      "output": {
+        "resource": {
+          "relative_path": "images/HomeSeer_Full_Logo.svg"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/favicon.ico",
+      "output": {
+        "resource": {
+          "relative_path": "images/favicon.ico"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "index.md",
+      "output": {
+        ".html": {
+          "relative_path": "index.html",
+          "hash": "QkK1l/UldmQzGWitsjELcw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "toc.html",
+          "hash": "Ia7bm9oh1Y5fl8rYPwX/TQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    }
+  ],
+  "incremental_info": [
+    {
+      "status": {
+        "can_incremental": true,
+        "incrementalPhase": "build",
+        "total_file_count": 0,
+        "skipped_file_count": 0
+      },
+      "processors": {
+        "ResourceDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor ResourceDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "incrementalPhase": "build",
+          "total_file_count": 0,
+          "skipped_file_count": 0
+        },
+        "TocDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor TocDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "incrementalPhase": "build",
+          "total_file_count": 0,
+          "skipped_file_count": 0
+        },
+        "ConceptualDocumentProcessor": {
+          "can_incremental": true,
+          "incrementalPhase": "build",
+          "total_file_count": 2,
+          "skipped_file_count": 2
+        },
+        "ManagedReferenceDocumentProcessor": {
+          "can_incremental": true,
+          "incrementalPhase": "build",
+          "total_file_count": 118,
+          "skipped_file_count": 118
+        }
+      }
+    },
+    {
+      "status": {
+        "can_incremental": false,
+        "details": "Cannot support incremental post processing, the reason is: should not trace intermediate info.",
+        "incrementalPhase": "postProcessing",
+        "total_file_count": 0,
+        "skipped_file_count": 0
+      },
+      "processors": {}
+    }
+  ],
+  "version_info": {},
+  "groups": [
+    {
+      "xrefmap": "xrefmap.yml"
+    }
+  ]
+}

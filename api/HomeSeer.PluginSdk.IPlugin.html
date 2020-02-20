@@ -1,0 +1,2595 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Interface IPlugin
+   | HomeSeer PluginSdk Docs </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Interface IPlugin
+   | HomeSeer PluginSdk Docs ">
+    <meta name="generator" content="docfx 2.49.0.0">
+    
+    <link rel="shortcut icon" href="../images/favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet"> 
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    <meta property="docfx:rel" content="../">
+    
+  </head>  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../images/HomeSeer_Full_Logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div class="container body-content">
+        
+        <div id="search-results">
+          <div class="search-list"></div>
+          <div class="sr-items">
+            <p><i class="glyphicon glyphicon-refresh index-loading"></i></p>
+          </div>
+          <ul id="pagination"></ul>
+        </div>
+      </div>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="HomeSeer.PluginSdk.IPlugin">
+  
+  
+  <h1 id="HomeSeer_PluginSdk_IPlugin" data-uid="HomeSeer.PluginSdk.IPlugin" class="text-break">Interface IPlugin
+  </h1>
+  <div class="markdown level0 summary"><p>The core plugin interface used by HomeSeer to interact with third-party plugins.</p>
+<p>
+The <a class="xref" href="HomeSeer.PluginSdk.AbstractPlugin.html">AbstractPlugin</a> class provides a default implementation of this interface
+ that should be used to develop plugins.
+</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="HomeSeer.PluginSdk.html">HomeSeer.PluginSdk</a></h6>
+  <h6><strong>Assembly</strong>: PluginSdk.dll</h6>
+  <h5 id="HomeSeer_PluginSdk_IPlugin_syntax">Syntax</h5>
+  <div class="tabGroup" id="tabgroup_syntax">
+      <ul role="tablist">
+          <li role="presentation">
+              <a href="#tabpanel_syntax_cs" tabindex="0" role="tab" aria-controls="tabpanel_syntax_cs" data-tab="cs" aria-selected="true">C#</a>
+          </li>
+          <li role="presentation">
+              <a href="#tabpanel_syntax_vb" tabindex="-1" role="tab" aria-controls="tabpanel_syntax_vb" data-tab="vb">Visual Basic</a>
+          </li>
+      </ul>
+      <section id="tabpanel_syntax_cs" role="tabpanel" data-tab="cs">
+          <div class="codewrapper">
+            <pre><code class="lang-System.Object[] hljs">public interface IPlugin</code></pre>
+          </div>
+      </section>
+      <section id="tabpanel_syntax_vb" role="tabpanel" data-tab="vb" aria-hidden="true" hidden="">
+          <div class="codewrapper">
+            <pre><code class="lang-System.Object[] hljs">Public Interface IPlugin</code></pre>
+          </div>
+      </section>
+  </div>
+  
+  <h3 id="properties">Properties
+  </h3>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/IPlugin.cs/#L62">View Source</a>
+  </span>
+  <a id="HomeSeer_PluginSdk_IPlugin_AccessLevel_" data-uid="HomeSeer.PluginSdk.IPlugin.AccessLevel*"></a>
+  <h4 id="HomeSeer_PluginSdk_IPlugin_AccessLevel" data-uid="HomeSeer.PluginSdk.IPlugin.AccessLevel">AccessLevel</h4>
+  <div class="markdown level1 summary"><p>Return the access level of this plug-in. Access level is the licensing mode.</p>
+<p>
+1 = Plug-in is not licensed and may be enabled and run without purchasing a license. Use this value for free plug-ins.
+2 = Plug-in is licensed and a user must purchase a license in order to use this plug-in. When the plug-in Is first enabled, it will will run as a trial for 30 days.
+</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="tabGroup" id="tabgroup_syntax">
+      <ul role="tablist">
+          <li role="presentation">
+              <a href="#tabpanel_syntax_cs" tabindex="0" role="tab" aria-controls="tabpanel_syntax_cs" data-tab="cs" aria-selected="true">C#</a>
+          </li>
+          <li role="presentation">
+              <a href="#tabpanel_syntax_vb" tabindex="-1" role="tab" aria-controls="tabpanel_syntax_vb" data-tab="vb">Visual Basic</a>
+          </li>
+      </ul>
+      <section id="tabpanel_syntax_cs" role="tabpanel" data-tab="cs">
+          <div class="codewrapper">
+            <pre><code class="lang-csharp hljs">int AccessLevel { get; }</code></pre>
+          </div>
+      </section>
+      <section id="tabpanel_syntax_vb" role="tabpanel" data-tab="vb" aria-hidden="true" hidden="">
+          <div class="codewrapper">
+            <pre><code class="lang-vb hljs">ReadOnly Property AccessLevel As Integer</code></pre>
+          </div>
+      </section>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/IPlugin.cs/#L84">View Source</a>
+  </span>
+  <a id="HomeSeer_PluginSdk_IPlugin_ActionCount_" data-uid="HomeSeer.PluginSdk.IPlugin.ActionCount*"></a>
+  <h4 id="HomeSeer_PluginSdk_IPlugin_ActionCount" data-uid="HomeSeer.PluginSdk.IPlugin.ActionCount">ActionCount</h4>
+  <div class="markdown level1 summary"><p>The number of unique event actions the plugin supports</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="tabGroup" id="tabgroup_syntax">
+      <ul role="tablist">
+          <li role="presentation">
+              <a href="#tabpanel_syntax_cs" tabindex="0" role="tab" aria-controls="tabpanel_syntax_cs" data-tab="cs" aria-selected="true">C#</a>
+          </li>
+          <li role="presentation">
+              <a href="#tabpanel_syntax_vb" tabindex="-1" role="tab" aria-controls="tabpanel_syntax_vb" data-tab="vb">Visual Basic</a>
+          </li>
+      </ul>
+      <section id="tabpanel_syntax_cs" role="tabpanel" data-tab="cs">
+          <div class="codewrapper">
+            <pre><code class="lang-csharp hljs">int ActionCount { get; }</code></pre>
+          </div>
+      </section>
+      <section id="tabpanel_syntax_vb" role="tabpanel" data-tab="vb" aria-hidden="true" hidden="">
+          <div class="codewrapper">
+            <pre><code class="lang-vb hljs">ReadOnly Property ActionCount As Integer</code></pre>
+          </div>
+      </section>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/IPlugin.cs/#L52">View Source</a>
+  </span>
+  <a id="HomeSeer_PluginSdk_IPlugin_HasSettings_" data-uid="HomeSeer.PluginSdk.IPlugin.HasSettings*"></a>
+  <h4 id="HomeSeer_PluginSdk_IPlugin_HasSettings" data-uid="HomeSeer.PluginSdk.IPlugin.HasSettings">HasSettings</h4>
+  <div class="markdown level1 summary"><p>Whether the plugin has settings pages or not.</p>
+<p>
+If this is TRUE, you must return valid JUI data in GetJuiSettingsPages()
+</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="tabGroup" id="tabgroup_syntax">
+      <ul role="tablist">
+          <li role="presentation">
+              <a href="#tabpanel_syntax_cs" tabindex="0" role="tab" aria-controls="tabpanel_syntax_cs" data-tab="cs" aria-selected="true">C#</a>
+          </li>
+          <li role="presentation">
+              <a href="#tabpanel_syntax_vb" tabindex="-1" role="tab" aria-controls="tabpanel_syntax_vb" data-tab="vb">Visual Basic</a>
+          </li>
+      </ul>
+      <section id="tabpanel_syntax_cs" role="tabpanel" data-tab="cs">
+          <div class="codewrapper">
+            <pre><code class="lang-csharp hljs">bool HasSettings { get; }</code></pre>
+          </div>
+      </section>
+      <section id="tabpanel_syntax_vb" role="tabpanel" data-tab="vb" aria-hidden="true" hidden="">
+          <div class="codewrapper">
+            <pre><code class="lang-vb hljs">ReadOnly Property HasSettings As Boolean</code></pre>
+          </div>
+      </section>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/IPlugin.cs/#L32">View Source</a>
+  </span>
+  <a id="HomeSeer_PluginSdk_IPlugin_Id_" data-uid="HomeSeer.PluginSdk.IPlugin.Id*"></a>
+  <h4 id="HomeSeer_PluginSdk_IPlugin_Id" data-uid="HomeSeer.PluginSdk.IPlugin.Id">Id</h4>
+  <div class="markdown level1 summary"><p>Unique ID for this plugin, needs to be unique for all plugins.</p>
+<p>
+Do NOT use special characters in your plugin name with the exception of &quot;-&quot; and &quot;.&quot;
+</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="tabGroup" id="tabgroup_syntax">
+      <ul role="tablist">
+          <li role="presentation">
+              <a href="#tabpanel_syntax_cs" tabindex="0" role="tab" aria-controls="tabpanel_syntax_cs" data-tab="cs" aria-selected="true">C#</a>
+          </li>
+          <li role="presentation">
+              <a href="#tabpanel_syntax_vb" tabindex="-1" role="tab" aria-controls="tabpanel_syntax_vb" data-tab="vb">Visual Basic</a>
+          </li>
+      </ul>
+      <section id="tabpanel_syntax_cs" role="tabpanel" data-tab="cs">
+          <div class="codewrapper">
+            <pre><code class="lang-csharp hljs">string Id { get; }</code></pre>
+          </div>
+      </section>
+      <section id="tabpanel_syntax_vb" role="tabpanel" data-tab="vb" aria-hidden="true" hidden="">
+          <div class="codewrapper">
+            <pre><code class="lang-vb hljs">ReadOnly Property Id As String</code></pre>
+          </div>
+      </section>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="HomeSeer_PluginSdk_IPlugin_Id_remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>The ID is used throughout the HomeSeer platform to target this plugin specifically via URL or internal code.
+HomeSeer recommends using the name your plugin (replacing any spaces with hyphens &quot;-&quot;) as the ID to make it
+easy to match them with one-another.</p>
+</div>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/IPlugin.cs/#L44">View Source</a>
+  </span>
+  <a id="HomeSeer_PluginSdk_IPlugin_Name_" data-uid="HomeSeer.PluginSdk.IPlugin.Name*"></a>
+  <h4 id="HomeSeer_PluginSdk_IPlugin_Name" data-uid="HomeSeer.PluginSdk.IPlugin.Name">Name</h4>
+  <div class="markdown level1 summary"><p>The name of the plugin</p>
+<p>
+Do NOT use special characters in your plugin name with the exception of &quot;-&quot;, &quot;.&quot;, and &quot; &quot; (space).
+</p>
+<p>
+This is used to identify your plug-in to HomeSeer and your users. 
+Keep the name to 16 characters or less. 
+</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="tabGroup" id="tabgroup_syntax">
+      <ul role="tablist">
+          <li role="presentation">
+              <a href="#tabpanel_syntax_cs" tabindex="0" role="tab" aria-controls="tabpanel_syntax_cs" data-tab="cs" aria-selected="true">C#</a>
+          </li>
+          <li role="presentation">
+              <a href="#tabpanel_syntax_vb" tabindex="-1" role="tab" aria-controls="tabpanel_syntax_vb" data-tab="vb">Visual Basic</a>
+          </li>
+      </ul>
+      <section id="tabpanel_syntax_cs" role="tabpanel" data-tab="cs">
+          <div class="codewrapper">
+            <pre><code class="lang-csharp hljs">string Name { get; }</code></pre>
+          </div>
+      </section>
+      <section id="tabpanel_syntax_vb" role="tabpanel" data-tab="vb" aria-hidden="true" hidden="">
+          <div class="codewrapper">
+            <pre><code class="lang-vb hljs">ReadOnly Property Name As String</code></pre>
+          </div>
+      </section>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/IPlugin.cs/#L71">View Source</a>
+  </span>
+  <a id="HomeSeer_PluginSdk_IPlugin_SupportsConfigDevice_" data-uid="HomeSeer.PluginSdk.IPlugin.SupportsConfigDevice*"></a>
+  <h4 id="HomeSeer_PluginSdk_IPlugin_SupportsConfigDevice" data-uid="HomeSeer.PluginSdk.IPlugin.SupportsConfigDevice">SupportsConfigDevice</h4>
+  <div class="markdown level1 summary"><p>Whether this plugin supports a device configuration page for devices created/managed by it</p>
+<p>
+TRUE will cause HomeSeer to call GetJuiDeviceConfigPage() for devices this plugin manages.
+  FALSE means HomeSeer will not call GetJuiDeviceConfigPage() for any devices
+</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="tabGroup" id="tabgroup_syntax">
+      <ul role="tablist">
+          <li role="presentation">
+              <a href="#tabpanel_syntax_cs" tabindex="0" role="tab" aria-controls="tabpanel_syntax_cs" data-tab="cs" aria-selected="true">C#</a>
+          </li>
+          <li role="presentation">
+              <a href="#tabpanel_syntax_vb" tabindex="-1" role="tab" aria-controls="tabpanel_syntax_vb" data-tab="vb">Visual Basic</a>
+          </li>
+      </ul>
+      <section id="tabpanel_syntax_cs" role="tabpanel" data-tab="cs">
+          <div class="codewrapper">
+            <pre><code class="lang-csharp hljs">bool SupportsConfigDevice { get; }</code></pre>
+          </div>
+      </section>
+      <section id="tabpanel_syntax_vb" role="tabpanel" data-tab="vb" aria-hidden="true" hidden="">
+          <div class="codewrapper">
+            <pre><code class="lang-vb hljs">ReadOnly Property SupportsConfigDevice As Boolean</code></pre>
+          </div>
+      </section>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/IPlugin.cs/#L79">View Source</a>
+  </span>
+  <a id="HomeSeer_PluginSdk_IPlugin_SupportsConfigDeviceAll_" data-uid="HomeSeer.PluginSdk.IPlugin.SupportsConfigDeviceAll*"></a>
+  <h4 id="HomeSeer_PluginSdk_IPlugin_SupportsConfigDeviceAll" data-uid="HomeSeer.PluginSdk.IPlugin.SupportsConfigDeviceAll">SupportsConfigDeviceAll</h4>
+  <div class="markdown level1 summary"><p>Whether this plugin supports a device configuration page for all devices</p>
+<p>
+TRUE will cause HomeSeer to call GetJuiDeviceConfigPage() for every device.
+  FALSE means HomeSeer will not call GetJuiDeviceConfigPage() for all devices
+</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="tabGroup" id="tabgroup_syntax">
+      <ul role="tablist">
+          <li role="presentation">
+              <a href="#tabpanel_syntax_cs" tabindex="0" role="tab" aria-controls="tabpanel_syntax_cs" data-tab="cs" aria-selected="true">C#</a>
+          </li>
+          <li role="presentation">
+              <a href="#tabpanel_syntax_vb" tabindex="-1" role="tab" aria-controls="tabpanel_syntax_vb" data-tab="vb">Visual Basic</a>
+          </li>
+      </ul>
+      <section id="tabpanel_syntax_cs" role="tabpanel" data-tab="cs">
+          <div class="codewrapper">
+            <pre><code class="lang-csharp hljs">bool SupportsConfigDeviceAll { get; }</code></pre>
+          </div>
+      </section>
+      <section id="tabpanel_syntax_vb" role="tabpanel" data-tab="vb" aria-hidden="true" hidden="">
+          <div class="codewrapper">
+            <pre><code class="lang-vb hljs">ReadOnly Property SupportsConfigDeviceAll As Boolean</code></pre>
+          </div>
+      </section>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/IPlugin.cs/#L89">View Source</a>
+  </span>
+  <a id="HomeSeer_PluginSdk_IPlugin_TriggerCount_" data-uid="HomeSeer.PluginSdk.IPlugin.TriggerCount*"></a>
+  <h4 id="HomeSeer_PluginSdk_IPlugin_TriggerCount" data-uid="HomeSeer.PluginSdk.IPlugin.TriggerCount">TriggerCount</h4>
+  <div class="markdown level1 summary"><p>The number of unique event triggers the plugin supports</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="tabGroup" id="tabgroup_syntax">
+      <ul role="tablist">
+          <li role="presentation">
+              <a href="#tabpanel_syntax_cs" tabindex="0" role="tab" aria-controls="tabpanel_syntax_cs" data-tab="cs" aria-selected="true">C#</a>
+          </li>
+          <li role="presentation">
+              <a href="#tabpanel_syntax_vb" tabindex="-1" role="tab" aria-controls="tabpanel_syntax_vb" data-tab="vb">Visual Basic</a>
+          </li>
+      </ul>
+      <section id="tabpanel_syntax_cs" role="tabpanel" data-tab="cs">
+          <div class="codewrapper">
+            <pre><code class="lang-csharp hljs">int TriggerCount { get; }</code></pre>
+          </div>
+      </section>
+      <section id="tabpanel_syntax_vb" role="tabpanel" data-tab="vb" aria-hidden="true" hidden="">
+          <div class="codewrapper">
+            <pre><code class="lang-vb hljs">ReadOnly Property TriggerCount As Integer</code></pre>
+          </div>
+      </section>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+  </h3>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/IPlugin.cs/#L225">View Source</a>
+  </span>
+  <a id="HomeSeer_PluginSdk_IPlugin_ActionBuildUI_" data-uid="HomeSeer.PluginSdk.IPlugin.ActionBuildUI*"></a>
+  <h4 id="HomeSeer_PluginSdk_IPlugin_ActionBuildUI_HomeSeer_PluginSdk_Events_TrigActInfo_" data-uid="HomeSeer.PluginSdk.IPlugin.ActionBuildUI(HomeSeer.PluginSdk.Events.TrigActInfo)">ActionBuildUI(TrigActInfo)</h4>
+  <div class="markdown level1 summary"><p>Called by the HomeSeer system when an event is in edit mode and in need of HTML controls for the user.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="tabGroup" id="tabgroup_syntax">
+      <ul role="tablist">
+          <li role="presentation">
+              <a href="#tabpanel_syntax_cs" tabindex="0" role="tab" aria-controls="tabpanel_syntax_cs" data-tab="cs" aria-selected="true">C#</a>
+          </li>
+          <li role="presentation">
+              <a href="#tabpanel_syntax_vb" tabindex="-1" role="tab" aria-controls="tabpanel_syntax_vb" data-tab="vb">Visual Basic</a>
+          </li>
+      </ul>
+      <section id="tabpanel_syntax_cs" role="tabpanel" data-tab="cs">
+          <div class="codewrapper">
+            <pre><code class="lang-csharp hljs">string ActionBuildUI(TrigActInfo actInfo)</code></pre>
+          </div>
+      </section>
+      <section id="tabpanel_syntax_vb" role="tabpanel" data-tab="vb" aria-hidden="true" hidden="">
+          <div class="codewrapper">
+            <pre><code class="lang-vb hljs">Function ActionBuildUI(actInfo As TrigActInfo) As String</code></pre>
+          </div>
+      </section>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="HomeSeer.PluginSdk.Events.TrigActInfo.html">TrigActInfo</a></td>
+        <td><span class="parametername">actInfo</span></td>
+        <td><p>Object that contains information about the action like current selections.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><p>HTML controls that need to be displayed so the user can select the action parameters.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/IPlugin.cs/#L232">View Source</a>
+  </span>
+  <a id="HomeSeer_PluginSdk_IPlugin_ActionConfigured_" data-uid="HomeSeer.PluginSdk.IPlugin.ActionConfigured*"></a>
+  <h4 id="HomeSeer_PluginSdk_IPlugin_ActionConfigured_HomeSeer_PluginSdk_Events_TrigActInfo_" data-uid="HomeSeer.PluginSdk.IPlugin.ActionConfigured(HomeSeer.PluginSdk.Events.TrigActInfo)">ActionConfigured(TrigActInfo)</h4>
+  <div class="markdown level1 summary"><p>Called by the HomeSeer system to verify that the configuration is valid and can be saved</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="tabGroup" id="tabgroup_syntax">
+      <ul role="tablist">
+          <li role="presentation">
+              <a href="#tabpanel_syntax_cs" tabindex="0" role="tab" aria-controls="tabpanel_syntax_cs" data-tab="cs" aria-selected="true">C#</a>
+          </li>
+          <li role="presentation">
+              <a href="#tabpanel_syntax_vb" tabindex="-1" role="tab" aria-controls="tabpanel_syntax_vb" data-tab="vb">Visual Basic</a>
+          </li>
+      </ul>
+      <section id="tabpanel_syntax_cs" role="tabpanel" data-tab="cs">
+          <div class="codewrapper">
+            <pre><code class="lang-csharp hljs">bool ActionConfigured(TrigActInfo actInfo)</code></pre>
+          </div>
+      </section>
+      <section id="tabpanel_syntax_vb" role="tabpanel" data-tab="vb" aria-hidden="true" hidden="">
+          <div class="codewrapper">
+            <pre><code class="lang-vb hljs">Function ActionConfigured(actInfo As TrigActInfo) As Boolean</code></pre>
+          </div>
+      </section>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="HomeSeer.PluginSdk.Events.TrigActInfo.html">TrigActInfo</a></td>
+        <td><span class="parametername">actInfo</span></td>
+        <td><p>Object describing the action.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p>TRUE if the given action is configured properly; FALSE if the action shouldn't be saved</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/IPlugin.cs/#L240">View Source</a>
+  </span>
+  <a id="HomeSeer_PluginSdk_IPlugin_ActionFormatUI_" data-uid="HomeSeer.PluginSdk.IPlugin.ActionFormatUI*"></a>
+  <h4 id="HomeSeer_PluginSdk_IPlugin_ActionFormatUI_HomeSeer_PluginSdk_Events_TrigActInfo_" data-uid="HomeSeer.PluginSdk.IPlugin.ActionFormatUI(HomeSeer.PluginSdk.Events.TrigActInfo)">ActionFormatUI(TrigActInfo)</h4>
+  <div class="markdown level1 summary"><p>Called by the HomeSeer system when an event action is finished being configured and needs to be displayed
+in an easy to read format.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="tabGroup" id="tabgroup_syntax">
+      <ul role="tablist">
+          <li role="presentation">
+              <a href="#tabpanel_syntax_cs" tabindex="0" role="tab" aria-controls="tabpanel_syntax_cs" data-tab="cs" aria-selected="true">C#</a>
+          </li>
+          <li role="presentation">
+              <a href="#tabpanel_syntax_vb" tabindex="-1" role="tab" aria-controls="tabpanel_syntax_vb" data-tab="vb">Visual Basic</a>
+          </li>
+      </ul>
+      <section id="tabpanel_syntax_cs" role="tabpanel" data-tab="cs">
+          <div class="codewrapper">
+            <pre><code class="lang-csharp hljs">string ActionFormatUI(TrigActInfo actInfo)</code></pre>
+          </div>
+      </section>
+      <section id="tabpanel_syntax_vb" role="tabpanel" data-tab="vb" aria-hidden="true" hidden="">
+          <div class="codewrapper">
+            <pre><code class="lang-vb hljs">Function ActionFormatUI(actInfo As TrigActInfo) As String</code></pre>
+          </div>
+      </section>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="HomeSeer.PluginSdk.Events.TrigActInfo.html">TrigActInfo</a></td>
+        <td><span class="parametername">actInfo</span></td>
+        <td><p>Object that contains information about the current configuration of the trigger.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><p>HTML representing easy to read text describing the action</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/IPlugin.cs/#L248">View Source</a>
+  </span>
+  <a id="HomeSeer_PluginSdk_IPlugin_ActionProcessPostUI_" data-uid="HomeSeer.PluginSdk.IPlugin.ActionProcessPostUI*"></a>
+  <h4 id="HomeSeer_PluginSdk_IPlugin_ActionProcessPostUI_System_Collections_Generic_Dictionary_System_String_System_String__HomeSeer_PluginSdk_Events_TrigActInfo_" data-uid="HomeSeer.PluginSdk.IPlugin.ActionProcessPostUI(System.Collections.Generic.Dictionary{System.String,System.String},HomeSeer.PluginSdk.Events.TrigActInfo)">ActionProcessPostUI(Dictionary&lt;String, String&gt;, TrigActInfo)</h4>
+  <div class="markdown level1 summary"><p>Called by the HomeSeer system to process selections when a user edits your event actions.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="tabGroup" id="tabgroup_syntax">
+      <ul role="tablist">
+          <li role="presentation">
+              <a href="#tabpanel_syntax_cs" tabindex="0" role="tab" aria-controls="tabpanel_syntax_cs" data-tab="cs" aria-selected="true">C#</a>
+          </li>
+          <li role="presentation">
+              <a href="#tabpanel_syntax_vb" tabindex="-1" role="tab" aria-controls="tabpanel_syntax_vb" data-tab="vb">Visual Basic</a>
+          </li>
+      </ul>
+      <section id="tabpanel_syntax_cs" role="tabpanel" data-tab="cs">
+          <div class="codewrapper">
+            <pre><code class="lang-csharp hljs">EventUpdateReturnData ActionProcessPostUI(Dictionary&lt;string, string&gt; postData, TrigActInfo trigInfoIn)</code></pre>
+          </div>
+      </section>
+      <section id="tabpanel_syntax_vb" role="tabpanel" data-tab="vb" aria-hidden="true" hidden="">
+          <div class="codewrapper">
+            <pre><code class="lang-vb hljs">Function ActionProcessPostUI(postData As Dictionary(Of String, String), trigInfoIn As TrigActInfo) As EventUpdateReturnData</code></pre>
+          </div>
+      </section>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.Dictionary</span>&lt;<span class="xref">System.String</span>, <span class="xref">System.String</span>&gt;</td>
+        <td><span class="parametername">postData</span></td>
+        <td><p>A collection of name value pairs that include the user's selections.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="HomeSeer.PluginSdk.Events.TrigActInfo.html">TrigActInfo</a></td>
+        <td><span class="parametername">trigInfoIn</span></td>
+        <td><p>Object that contains information about the action.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="HomeSeer.PluginSdk.Devices.EventUpdateReturnData.html">EventUpdateReturnData</a></td>
+        <td><p>Object the holds the parsed information for the action. HomeSeer will save this information for you in the database.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/IPlugin.cs/#L256">View Source</a>
+  </span>
+  <a id="HomeSeer_PluginSdk_IPlugin_ActionReferencesDevice_" data-uid="HomeSeer.PluginSdk.IPlugin.ActionReferencesDevice*"></a>
+  <h4 id="HomeSeer_PluginSdk_IPlugin_ActionReferencesDevice_HomeSeer_PluginSdk_Events_TrigActInfo_System_Int32_" data-uid="HomeSeer.PluginSdk.IPlugin.ActionReferencesDevice(HomeSeer.PluginSdk.Events.TrigActInfo,System.Int32)">ActionReferencesDevice(TrigActInfo, Int32)</h4>
+  <div class="markdown level1 summary"><p>Called by the HomeSeer system to determine if a specified device is referenced by a certain action.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="tabGroup" id="tabgroup_syntax">
+      <ul role="tablist">
+          <li role="presentation">
+              <a href="#tabpanel_syntax_cs" tabindex="0" role="tab" aria-controls="tabpanel_syntax_cs" data-tab="cs" aria-selected="true">C#</a>
+          </li>
+          <li role="presentation">
+              <a href="#tabpanel_syntax_vb" tabindex="-1" role="tab" aria-controls="tabpanel_syntax_vb" data-tab="vb">Visual Basic</a>
+          </li>
+      </ul>
+      <section id="tabpanel_syntax_cs" role="tabpanel" data-tab="cs">
+          <div class="codewrapper">
+            <pre><code class="lang-csharp hljs">bool ActionReferencesDevice(TrigActInfo actInfo, int devRef)</code></pre>
+          </div>
+      </section>
+      <section id="tabpanel_syntax_vb" role="tabpanel" data-tab="vb" aria-hidden="true" hidden="">
+          <div class="codewrapper">
+            <pre><code class="lang-vb hljs">Function ActionReferencesDevice(actInfo As TrigActInfo, devRef As Integer) As Boolean</code></pre>
+          </div>
+      </section>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="HomeSeer.PluginSdk.Events.TrigActInfo.html">TrigActInfo</a></td>
+        <td><span class="parametername">actInfo</span></td>
+        <td><p>Object describing the action.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">devRef</span></td>
+        <td><p>The reference ID of the device to check</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p>TRUE if the action references the device; FALSE if it does not</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/IPlugin.cs/#L218">View Source</a>
+  </span>
+  <a id="HomeSeer_PluginSdk_IPlugin_GetActionNameByNumber_" data-uid="HomeSeer.PluginSdk.IPlugin.GetActionNameByNumber*"></a>
+  <h4 id="HomeSeer_PluginSdk_IPlugin_GetActionNameByNumber_System_Int32_" data-uid="HomeSeer.PluginSdk.IPlugin.GetActionNameByNumber(System.Int32)">GetActionNameByNumber(Int32)</h4>
+  <div class="markdown level1 summary"><p>Return the name of the action given an action number</p>
+<p>The name of the action will be displayed in the HomeSeer events actions list.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="tabGroup" id="tabgroup_syntax">
+      <ul role="tablist">
+          <li role="presentation">
+              <a href="#tabpanel_syntax_cs" tabindex="0" role="tab" aria-controls="tabpanel_syntax_cs" data-tab="cs" aria-selected="true">C#</a>
+          </li>
+          <li role="presentation">
+              <a href="#tabpanel_syntax_vb" tabindex="-1" role="tab" aria-controls="tabpanel_syntax_vb" data-tab="vb">Visual Basic</a>
+          </li>
+      </ul>
+      <section id="tabpanel_syntax_cs" role="tabpanel" data-tab="cs">
+          <div class="codewrapper">
+            <pre><code class="lang-csharp hljs">string GetActionNameByNumber(int actionNum)</code></pre>
+          </div>
+      </section>
+      <section id="tabpanel_syntax_vb" role="tabpanel" data-tab="vb" aria-hidden="true" hidden="">
+          <div class="codewrapper">
+            <pre><code class="lang-vb hljs">Function GetActionNameByNumber(actionNum As Integer) As String</code></pre>
+          </div>
+      </section>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">actionNum</span></td>
+        <td><p>The number of the action to get the name for</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><p>The name of the action associated with the action number</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/IPlugin.cs/#L143">View Source</a>
+  </span>
+  <a id="HomeSeer_PluginSdk_IPlugin_GetJuiDeviceConfigPage_" data-uid="HomeSeer.PluginSdk.IPlugin.GetJuiDeviceConfigPage*"></a>
+  <h4 id="HomeSeer_PluginSdk_IPlugin_GetJuiDeviceConfigPage_System_Int32_" data-uid="HomeSeer.PluginSdk.IPlugin.GetJuiDeviceConfigPage(System.Int32)">GetJuiDeviceConfigPage(Int32)</h4>
+  <div class="markdown level1 summary"><p>Called by the HomeSeer software to obtain a HS-JUI device configuration page for a specific device</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="tabGroup" id="tabgroup_syntax">
+      <ul role="tablist">
+          <li role="presentation">
+              <a href="#tabpanel_syntax_cs" tabindex="0" role="tab" aria-controls="tabpanel_syntax_cs" data-tab="cs" aria-selected="true">C#</a>
+          </li>
+          <li role="presentation">
+              <a href="#tabpanel_syntax_vb" tabindex="-1" role="tab" aria-controls="tabpanel_syntax_vb" data-tab="vb">Visual Basic</a>
+          </li>
+      </ul>
+      <section id="tabpanel_syntax_cs" role="tabpanel" data-tab="cs">
+          <div class="codewrapper">
+            <pre><code class="lang-csharp hljs">string GetJuiDeviceConfigPage(int deviceRef)</code></pre>
+          </div>
+      </section>
+      <section id="tabpanel_syntax_vb" role="tabpanel" data-tab="vb" aria-hidden="true" hidden="">
+          <div class="codewrapper">
+            <pre><code class="lang-vb hljs">Function GetJuiDeviceConfigPage(deviceRef As Integer) As String</code></pre>
+          </div>
+      </section>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">deviceRef</span></td>
+        <td><p>The device reference to get the page for</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><p>A JSON serialized Jui.Page</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/IPlugin.cs/#L178">View Source</a>
+  </span>
+  <a id="HomeSeer_PluginSdk_IPlugin_GetJuiSettingsPages_" data-uid="HomeSeer.PluginSdk.IPlugin.GetJuiSettingsPages*"></a>
+  <h4 id="HomeSeer_PluginSdk_IPlugin_GetJuiSettingsPages" data-uid="HomeSeer.PluginSdk.IPlugin.GetJuiSettingsPages">GetJuiSettingsPages()</h4>
+  <div class="markdown level1 summary"><p>Called by the HomeSeer software to obtain a list of settings pages</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="tabGroup" id="tabgroup_syntax">
+      <ul role="tablist">
+          <li role="presentation">
+              <a href="#tabpanel_syntax_cs" tabindex="0" role="tab" aria-controls="tabpanel_syntax_cs" data-tab="cs" aria-selected="true">C#</a>
+          </li>
+          <li role="presentation">
+              <a href="#tabpanel_syntax_vb" tabindex="-1" role="tab" aria-controls="tabpanel_syntax_vb" data-tab="vb">Visual Basic</a>
+          </li>
+      </ul>
+      <section id="tabpanel_syntax_cs" role="tabpanel" data-tab="cs">
+          <div class="codewrapper">
+            <pre><code class="lang-csharp hljs">string GetJuiSettingsPages()</code></pre>
+          </div>
+      </section>
+      <section id="tabpanel_syntax_vb" role="tabpanel" data-tab="vb" aria-hidden="true" hidden="">
+          <div class="codewrapper">
+            <pre><code class="lang-vb hljs">Function GetJuiSettingsPages As String</code></pre>
+          </div>
+      </section>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><p>A SettingsCollection serialized to a JSON string</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/IPlugin.cs/#L281">View Source</a>
+  </span>
+  <a id="HomeSeer_PluginSdk_IPlugin_GetSubTriggerCount_" data-uid="HomeSeer.PluginSdk.IPlugin.GetSubTriggerCount*"></a>
+  <h4 id="HomeSeer_PluginSdk_IPlugin_GetSubTriggerCount_System_Int32_" data-uid="HomeSeer.PluginSdk.IPlugin.GetSubTriggerCount(System.Int32)">GetSubTriggerCount(Int32)</h4>
+  <div class="markdown level1 summary"><p>Returns the number of sub triggers the plugin supports for the specified trigger number</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="tabGroup" id="tabgroup_syntax">
+      <ul role="tablist">
+          <li role="presentation">
+              <a href="#tabpanel_syntax_cs" tabindex="0" role="tab" aria-controls="tabpanel_syntax_cs" data-tab="cs" aria-selected="true">C#</a>
+          </li>
+          <li role="presentation">
+              <a href="#tabpanel_syntax_vb" tabindex="-1" role="tab" aria-controls="tabpanel_syntax_vb" data-tab="vb">Visual Basic</a>
+          </li>
+      </ul>
+      <section id="tabpanel_syntax_cs" role="tabpanel" data-tab="cs">
+          <div class="codewrapper">
+            <pre><code class="lang-csharp hljs">int GetSubTriggerCount(int triggerNum)</code></pre>
+          </div>
+      </section>
+      <section id="tabpanel_syntax_vb" role="tabpanel" data-tab="vb" aria-hidden="true" hidden="">
+          <div class="codewrapper">
+            <pre><code class="lang-vb hljs">Function GetSubTriggerCount(triggerNum As Integer) As Integer</code></pre>
+          </div>
+      </section>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">triggerNum</span></td>
+        <td><p>The number of the trigger to check</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><p>The number of sub triggers the specified trigger number supports</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/IPlugin.cs/#L289">View Source</a>
+  </span>
+  <a id="HomeSeer_PluginSdk_IPlugin_GetSubTriggerNameByNumber_" data-uid="HomeSeer.PluginSdk.IPlugin.GetSubTriggerNameByNumber*"></a>
+  <h4 id="HomeSeer_PluginSdk_IPlugin_GetSubTriggerNameByNumber_System_Int32_System_Int32_" data-uid="HomeSeer.PluginSdk.IPlugin.GetSubTriggerNameByNumber(System.Int32,System.Int32)">GetSubTriggerNameByNumber(Int32, Int32)</h4>
+  <div class="markdown level1 summary"><p>The name of the sub trigger with the specified number of the trigger with the specified number</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="tabGroup" id="tabgroup_syntax">
+      <ul role="tablist">
+          <li role="presentation">
+              <a href="#tabpanel_syntax_cs" tabindex="0" role="tab" aria-controls="tabpanel_syntax_cs" data-tab="cs" aria-selected="true">C#</a>
+          </li>
+          <li role="presentation">
+              <a href="#tabpanel_syntax_vb" tabindex="-1" role="tab" aria-controls="tabpanel_syntax_vb" data-tab="vb">Visual Basic</a>
+          </li>
+      </ul>
+      <section id="tabpanel_syntax_cs" role="tabpanel" data-tab="cs">
+          <div class="codewrapper">
+            <pre><code class="lang-csharp hljs">string GetSubTriggerNameByNumber(int triggerNum, int subTriggerNum)</code></pre>
+          </div>
+      </section>
+      <section id="tabpanel_syntax_vb" role="tabpanel" data-tab="vb" aria-hidden="true" hidden="">
+          <div class="codewrapper">
+            <pre><code class="lang-vb hljs">Function GetSubTriggerNameByNumber(triggerNum As Integer, subTriggerNum As Integer) As String</code></pre>
+          </div>
+      </section>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">triggerNum</span></td>
+        <td><p>The number of the trigger to check</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">subTriggerNum</span></td>
+        <td><p>The number of the sub trigger to check</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><p>The name of the sub trigger</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/IPlugin.cs/#L303">View Source</a>
+  </span>
+  <a id="HomeSeer_PluginSdk_IPlugin_GetTriggerNameByNumber_" data-uid="HomeSeer.PluginSdk.IPlugin.GetTriggerNameByNumber*"></a>
+  <h4 id="HomeSeer_PluginSdk_IPlugin_GetTriggerNameByNumber_System_Int32_" data-uid="HomeSeer.PluginSdk.IPlugin.GetTriggerNameByNumber(System.Int32)">GetTriggerNameByNumber(Int32)</h4>
+  <div class="markdown level1 summary"><p>Return the name of the given trigger based on the specified trigger number</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="tabGroup" id="tabgroup_syntax">
+      <ul role="tablist">
+          <li role="presentation">
+              <a href="#tabpanel_syntax_cs" tabindex="0" role="tab" aria-controls="tabpanel_syntax_cs" data-tab="cs" aria-selected="true">C#</a>
+          </li>
+          <li role="presentation">
+              <a href="#tabpanel_syntax_vb" tabindex="-1" role="tab" aria-controls="tabpanel_syntax_vb" data-tab="vb">Visual Basic</a>
+          </li>
+      </ul>
+      <section id="tabpanel_syntax_cs" role="tabpanel" data-tab="cs">
+          <div class="codewrapper">
+            <pre><code class="lang-csharp hljs">string GetTriggerNameByNumber(int triggerNum)</code></pre>
+          </div>
+      </section>
+      <section id="tabpanel_syntax_vb" role="tabpanel" data-tab="vb" aria-hidden="true" hidden="">
+          <div class="codewrapper">
+            <pre><code class="lang-vb hljs">Function GetTriggerNameByNumber(triggerNum As Integer) As String</code></pre>
+          </div>
+      </section>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">triggerNum</span></td>
+        <td><p>The trigger number to get the name for</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><p>The name of the trigger</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/IPlugin.cs/#L263">View Source</a>
+  </span>
+  <a id="HomeSeer_PluginSdk_IPlugin_HandleAction_" data-uid="HomeSeer.PluginSdk.IPlugin.HandleAction*"></a>
+  <h4 id="HomeSeer_PluginSdk_IPlugin_HandleAction_HomeSeer_PluginSdk_Events_TrigActInfo_" data-uid="HomeSeer.PluginSdk.IPlugin.HandleAction(HomeSeer.PluginSdk.Events.TrigActInfo)">HandleAction(TrigActInfo)</h4>
+  <div class="markdown level1 summary"><p>Called by the HomeSeer system when an event is triggered and the plugin needs to carry out a specific action.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="tabGroup" id="tabgroup_syntax">
+      <ul role="tablist">
+          <li role="presentation">
+              <a href="#tabpanel_syntax_cs" tabindex="0" role="tab" aria-controls="tabpanel_syntax_cs" data-tab="cs" aria-selected="true">C#</a>
+          </li>
+          <li role="presentation">
+              <a href="#tabpanel_syntax_vb" tabindex="-1" role="tab" aria-controls="tabpanel_syntax_vb" data-tab="vb">Visual Basic</a>
+          </li>
+      </ul>
+      <section id="tabpanel_syntax_cs" role="tabpanel" data-tab="cs">
+          <div class="codewrapper">
+            <pre><code class="lang-csharp hljs">bool HandleAction(TrigActInfo actInfo)</code></pre>
+          </div>
+      </section>
+      <section id="tabpanel_syntax_vb" role="tabpanel" data-tab="vb" aria-hidden="true" hidden="">
+          <div class="codewrapper">
+            <pre><code class="lang-vb hljs">Function HandleAction(actInfo As TrigActInfo) As Boolean</code></pre>
+          </div>
+      </section>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="HomeSeer.PluginSdk.Events.TrigActInfo.html">TrigActInfo</a></td>
+        <td><span class="parametername">actInfo</span></td>
+        <td><p>Object describing the trigger and action.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p>TRUE if the action was executed successfully; FALSE if there was an error</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/IPlugin.cs/#L208">View Source</a>
+  </span>
+  <a id="HomeSeer_PluginSdk_IPlugin_HsEvent_" data-uid="HomeSeer.PluginSdk.IPlugin.HsEvent*"></a>
+  <h4 id="HomeSeer_PluginSdk_IPlugin_HsEvent_HomeSeer_PluginSdk_Constants_HSEvent_System_Object___" data-uid="HomeSeer.PluginSdk.IPlugin.HsEvent(HomeSeer.PluginSdk.Constants.HSEvent,System.Object[])">HsEvent(Constants.HSEvent, Object[])</h4>
+  <div class="markdown level1 summary"><p>When you wish to have HomeSeer call back in to your plug-in or application when certain events
+happen in the system, call the RegisterEventCB procedure and provide it with event you wish to monitor.<br>
+See RegisterEventCB for more information and an example and event types.</p>
+<p>
+The parameters are passed in an array of objects.  Each entry in the array is a parameter.  
+The number of entries depends on the type of event and are described below.  
+The event type is always present in the first entry or params(0).
+</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="tabGroup" id="tabgroup_syntax">
+      <ul role="tablist">
+          <li role="presentation">
+              <a href="#tabpanel_syntax_cs" tabindex="0" role="tab" aria-controls="tabpanel_syntax_cs" data-tab="cs" aria-selected="true">C#</a>
+          </li>
+          <li role="presentation">
+              <a href="#tabpanel_syntax_vb" tabindex="-1" role="tab" aria-controls="tabpanel_syntax_vb" data-tab="vb">Visual Basic</a>
+          </li>
+      </ul>
+      <section id="tabpanel_syntax_cs" role="tabpanel" data-tab="cs">
+          <div class="codewrapper">
+            <pre><code class="lang-csharp hljs">void HsEvent(Constants.HSEvent eventType, object[] params)</code></pre>
+          </div>
+      </section>
+      <section id="tabpanel_syntax_vb" role="tabpanel" data-tab="vb" aria-hidden="true" hidden="">
+          <div class="codewrapper">
+            <pre><code class="lang-vb hljs">Sub HsEvent(eventType As Constants.HSEvent, params As Object())</code></pre>
+          </div>
+      </section>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="HomeSeer.PluginSdk.Constants.HSEvent.html">Constants.HSEvent</a></td>
+        <td><span class="parametername">eventType</span></td>
+        <td><p>The type of event that has occurred</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Object</span>[]</td>
+        <td><span class="parametername">params</span></td>
+        <td><p>The data associated with the event</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/IPlugin.cs/#L108">View Source</a>
+  </span>
+  <a id="HomeSeer_PluginSdk_IPlugin_InitIO_" data-uid="HomeSeer.PluginSdk.IPlugin.InitIO*"></a>
+  <h4 id="HomeSeer_PluginSdk_IPlugin_InitIO" data-uid="HomeSeer.PluginSdk.IPlugin.InitIO">InitIO()</h4>
+  <div class="markdown level1 summary"><p>Called by the HomeSeer system to initialize the plugin.</p>
+<p>
+This is the primary entry point for all plugins.  Start the plugin and get it ready for use.
+</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="tabGroup" id="tabgroup_syntax">
+      <ul role="tablist">
+          <li role="presentation">
+              <a href="#tabpanel_syntax_cs" tabindex="0" role="tab" aria-controls="tabpanel_syntax_cs" data-tab="cs" aria-selected="true">C#</a>
+          </li>
+          <li role="presentation">
+              <a href="#tabpanel_syntax_vb" tabindex="-1" role="tab" aria-controls="tabpanel_syntax_vb" data-tab="vb">Visual Basic</a>
+          </li>
+      </ul>
+      <section id="tabpanel_syntax_cs" role="tabpanel" data-tab="cs">
+          <div class="codewrapper">
+            <pre><code class="lang-csharp hljs">bool InitIO()</code></pre>
+          </div>
+      </section>
+      <section id="tabpanel_syntax_vb" role="tabpanel" data-tab="vb" aria-hidden="true" hidden="">
+          <div class="codewrapper">
+            <pre><code class="lang-vb hljs">Function InitIO As Boolean</code></pre>
+          </div>
+      </section>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p>TRUE if the plugin started successfully; FALSE if it did not</p>
+<p>
+You should opt for throwing an exception that contains a detailed messaged over
+ returning FALSE whenever possible.
+</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/IPlugin.cs/#L296">View Source</a>
+  </span>
+  <a id="HomeSeer_PluginSdk_IPlugin_IsTriggerConfigValid_" data-uid="HomeSeer.PluginSdk.IPlugin.IsTriggerConfigValid*"></a>
+  <h4 id="HomeSeer_PluginSdk_IPlugin_IsTriggerConfigValid_HomeSeer_PluginSdk_Events_TrigActInfo_" data-uid="HomeSeer.PluginSdk.IPlugin.IsTriggerConfigValid(HomeSeer.PluginSdk.Events.TrigActInfo)">IsTriggerConfigValid(TrigActInfo)</h4>
+  <div class="markdown level1 summary"><p>Given a TrigActInfo object, detect if this trigger is configured properly</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="tabGroup" id="tabgroup_syntax">
+      <ul role="tablist">
+          <li role="presentation">
+              <a href="#tabpanel_syntax_cs" tabindex="0" role="tab" aria-controls="tabpanel_syntax_cs" data-tab="cs" aria-selected="true">C#</a>
+          </li>
+          <li role="presentation">
+              <a href="#tabpanel_syntax_vb" tabindex="-1" role="tab" aria-controls="tabpanel_syntax_vb" data-tab="vb">Visual Basic</a>
+          </li>
+      </ul>
+      <section id="tabpanel_syntax_cs" role="tabpanel" data-tab="cs">
+          <div class="codewrapper">
+            <pre><code class="lang-csharp hljs">bool IsTriggerConfigValid(TrigActInfo trigInfo)</code></pre>
+          </div>
+      </section>
+      <section id="tabpanel_syntax_vb" role="tabpanel" data-tab="vb" aria-hidden="true" hidden="">
+          <div class="codewrapper">
+            <pre><code class="lang-vb hljs">Function IsTriggerConfigValid(trigInfo As TrigActInfo) As Boolean</code></pre>
+          </div>
+      </section>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="HomeSeer.PluginSdk.Events.TrigActInfo.html">TrigActInfo</a></td>
+        <td><span class="parametername">trigInfo</span></td>
+        <td><p>The trigger info to validate</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p>TRUE if the trigger is configured properly, FALSE otherwise</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/IPlugin.cs/#L115">View Source</a>
+  </span>
+  <a id="HomeSeer_PluginSdk_IPlugin_OnStatusCheck_" data-uid="HomeSeer.PluginSdk.IPlugin.OnStatusCheck*"></a>
+  <h4 id="HomeSeer_PluginSdk_IPlugin_OnStatusCheck" data-uid="HomeSeer.PluginSdk.IPlugin.OnStatusCheck">OnStatusCheck()</h4>
+  <div class="markdown level1 summary"><p>Called by the HomeSeer system to determine the status of the plugin.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="tabGroup" id="tabgroup_syntax">
+      <ul role="tablist">
+          <li role="presentation">
+              <a href="#tabpanel_syntax_cs" tabindex="0" role="tab" aria-controls="tabpanel_syntax_cs" data-tab="cs" aria-selected="true">C#</a>
+          </li>
+          <li role="presentation">
+              <a href="#tabpanel_syntax_vb" tabindex="-1" role="tab" aria-controls="tabpanel_syntax_vb" data-tab="vb">Visual Basic</a>
+          </li>
+      </ul>
+      <section id="tabpanel_syntax_cs" role="tabpanel" data-tab="cs">
+          <div class="codewrapper">
+            <pre><code class="lang-csharp hljs">PluginStatus OnStatusCheck()</code></pre>
+          </div>
+      </section>
+      <section id="tabpanel_syntax_vb" role="tabpanel" data-tab="vb" aria-hidden="true" hidden="">
+          <div class="codewrapper">
+            <pre><code class="lang-vb hljs">Function OnStatusCheck As PluginStatus</code></pre>
+          </div>
+      </section>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="HomeSeer.PluginSdk.PluginStatus.html">PluginStatus</a></td>
+        <td><p>A PluginStatus object describing the state of the plugin</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="HomeSeer_PluginSdk_IPlugin_OnStatusCheck_seealso">See Also</h5>
+  <div class="seealso">
+      <div><a class="xref" href="HomeSeer.PluginSdk.PluginStatus.html">PluginStatus</a></div>
+  </div>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/IPlugin.cs/#L356">View Source</a>
+  </span>
+  <a id="HomeSeer_PluginSdk_IPlugin_PluginFunction_" data-uid="HomeSeer.PluginSdk.IPlugin.PluginFunction*"></a>
+  <h4 id="HomeSeer_PluginSdk_IPlugin_PluginFunction_System_String_System_Object___" data-uid="HomeSeer.PluginSdk.IPlugin.PluginFunction(System.String,System.Object[])">PluginFunction(String, Object[])</h4>
+  <div class="markdown level1 summary"><p>Called by the HomeSeer system to run a plugin function by name using reflection</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="tabGroup" id="tabgroup_syntax">
+      <ul role="tablist">
+          <li role="presentation">
+              <a href="#tabpanel_syntax_cs" tabindex="0" role="tab" aria-controls="tabpanel_syntax_cs" data-tab="cs" aria-selected="true">C#</a>
+          </li>
+          <li role="presentation">
+              <a href="#tabpanel_syntax_vb" tabindex="-1" role="tab" aria-controls="tabpanel_syntax_vb" data-tab="vb">Visual Basic</a>
+          </li>
+      </ul>
+      <section id="tabpanel_syntax_cs" role="tabpanel" data-tab="cs">
+          <div class="codewrapper">
+            <pre><code class="lang-csharp hljs">object PluginFunction(string procName, object[] params)</code></pre>
+          </div>
+      </section>
+      <section id="tabpanel_syntax_vb" role="tabpanel" data-tab="vb" aria-hidden="true" hidden="">
+          <div class="codewrapper">
+            <pre><code class="lang-vb hljs">Function PluginFunction(procName As String, params As Object()) As Object</code></pre>
+          </div>
+      </section>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">procName</span></td>
+        <td><p>The name of the method to execute</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Object</span>[]</td>
+        <td><span class="parametername">params</span></td>
+        <td><p>The parameters to execute the method with</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Object</span></td>
+        <td><p>The result of the method execution</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/IPlugin.cs/#L363">View Source</a>
+  </span>
+  <a id="HomeSeer_PluginSdk_IPlugin_PluginPropertyGet_" data-uid="HomeSeer.PluginSdk.IPlugin.PluginPropertyGet*"></a>
+  <h4 id="HomeSeer_PluginSdk_IPlugin_PluginPropertyGet_System_String_System_Object___" data-uid="HomeSeer.PluginSdk.IPlugin.PluginPropertyGet(System.String,System.Object[])">PluginPropertyGet(String, Object[])</h4>
+  <div class="markdown level1 summary"><p>Called by the HomeSeer system to get the value of a property by name using reflection</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="tabGroup" id="tabgroup_syntax">
+      <ul role="tablist">
+          <li role="presentation">
+              <a href="#tabpanel_syntax_cs" tabindex="0" role="tab" aria-controls="tabpanel_syntax_cs" data-tab="cs" aria-selected="true">C#</a>
+          </li>
+          <li role="presentation">
+              <a href="#tabpanel_syntax_vb" tabindex="-1" role="tab" aria-controls="tabpanel_syntax_vb" data-tab="vb">Visual Basic</a>
+          </li>
+      </ul>
+      <section id="tabpanel_syntax_cs" role="tabpanel" data-tab="cs">
+          <div class="codewrapper">
+            <pre><code class="lang-csharp hljs">object PluginPropertyGet(string propName, object[] params)</code></pre>
+          </div>
+      </section>
+      <section id="tabpanel_syntax_vb" role="tabpanel" data-tab="vb" aria-hidden="true" hidden="">
+          <div class="codewrapper">
+            <pre><code class="lang-vb hljs">Function PluginPropertyGet(propName As String, params As Object()) As Object</code></pre>
+          </div>
+      </section>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">propName</span></td>
+        <td><p>The name of the property</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Object</span>[]</td>
+        <td><span class="parametername">params</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Object</span></td>
+        <td><p>The value of the property</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/IPlugin.cs/#L369">View Source</a>
+  </span>
+  <a id="HomeSeer_PluginSdk_IPlugin_PluginPropertySet_" data-uid="HomeSeer.PluginSdk.IPlugin.PluginPropertySet*"></a>
+  <h4 id="HomeSeer_PluginSdk_IPlugin_PluginPropertySet_System_String_System_Object_" data-uid="HomeSeer.PluginSdk.IPlugin.PluginPropertySet(System.String,System.Object)">PluginPropertySet(String, Object)</h4>
+  <div class="markdown level1 summary"><p>Called by the HomeSeer system to set the value of a property by name using reflection</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="tabGroup" id="tabgroup_syntax">
+      <ul role="tablist">
+          <li role="presentation">
+              <a href="#tabpanel_syntax_cs" tabindex="0" role="tab" aria-controls="tabpanel_syntax_cs" data-tab="cs" aria-selected="true">C#</a>
+          </li>
+          <li role="presentation">
+              <a href="#tabpanel_syntax_vb" tabindex="-1" role="tab" aria-controls="tabpanel_syntax_vb" data-tab="vb">Visual Basic</a>
+          </li>
+      </ul>
+      <section id="tabpanel_syntax_cs" role="tabpanel" data-tab="cs">
+          <div class="codewrapper">
+            <pre><code class="lang-csharp hljs">void PluginPropertySet(string propName, object value)</code></pre>
+          </div>
+      </section>
+      <section id="tabpanel_syntax_vb" role="tabpanel" data-tab="vb" aria-hidden="true" hidden="">
+          <div class="codewrapper">
+            <pre><code class="lang-vb hljs">Sub PluginPropertySet(propName As String, value As Object)</code></pre>
+          </div>
+      </section>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">propName</span></td>
+        <td><p>The name of the property</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Object</span></td>
+        <td><span class="parametername">value</span></td>
+        <td><p>The new value of the property</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/IPlugin.cs/#L382">View Source</a>
+  </span>
+  <a id="HomeSeer_PluginSdk_IPlugin_PostBackProc_" data-uid="HomeSeer.PluginSdk.IPlugin.PostBackProc*"></a>
+  <h4 id="HomeSeer_PluginSdk_IPlugin_PostBackProc_System_String_System_String_System_String_System_Int32_" data-uid="HomeSeer.PluginSdk.IPlugin.PostBackProc(System.String,System.String,System.String,System.Int32)">PostBackProc(String, String, String, Int32)</h4>
+  <div class="markdown level1 summary"><p>Called by the HomeSeer system when a page owned by this plugin receives an HTTP POST request</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="tabGroup" id="tabgroup_syntax">
+      <ul role="tablist">
+          <li role="presentation">
+              <a href="#tabpanel_syntax_cs" tabindex="0" role="tab" aria-controls="tabpanel_syntax_cs" data-tab="cs" aria-selected="true">C#</a>
+          </li>
+          <li role="presentation">
+              <a href="#tabpanel_syntax_vb" tabindex="-1" role="tab" aria-controls="tabpanel_syntax_vb" data-tab="vb">Visual Basic</a>
+          </li>
+      </ul>
+      <section id="tabpanel_syntax_cs" role="tabpanel" data-tab="cs">
+          <div class="codewrapper">
+            <pre><code class="lang-csharp hljs">string PostBackProc(string page, string data, string user, int userRights)</code></pre>
+          </div>
+      </section>
+      <section id="tabpanel_syntax_vb" role="tabpanel" data-tab="vb" aria-hidden="true" hidden="">
+          <div class="codewrapper">
+            <pre><code class="lang-vb hljs">Function PostBackProc(page As String, data As String, user As String, userRights As Integer) As String</code></pre>
+          </div>
+      </section>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">page</span></td>
+        <td><p>The page that received the POST request</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">data</span></td>
+        <td><p>The data included in the request</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">user</span></td>
+        <td><p>The user responsible for initiating the request</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">userRights</span></td>
+        <td><p>The user's rights</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><p>A string of data that is returned to the requester</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/IPlugin.cs/#L156">View Source</a>
+  </span>
+  <a id="HomeSeer_PluginSdk_IPlugin_SaveJuiDeviceConfigPage_" data-uid="HomeSeer.PluginSdk.IPlugin.SaveJuiDeviceConfigPage*"></a>
+  <h4 id="HomeSeer_PluginSdk_IPlugin_SaveJuiDeviceConfigPage_System_String_System_Int32_" data-uid="HomeSeer.PluginSdk.IPlugin.SaveJuiDeviceConfigPage(System.String,System.Int32)">SaveJuiDeviceConfigPage(String, Int32)</h4>
+  <div class="markdown level1 summary"><p>Save updated values for a HS-JUI formatted device config page</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="tabGroup" id="tabgroup_syntax">
+      <ul role="tablist">
+          <li role="presentation">
+              <a href="#tabpanel_syntax_cs" tabindex="0" role="tab" aria-controls="tabpanel_syntax_cs" data-tab="cs" aria-selected="true">C#</a>
+          </li>
+          <li role="presentation">
+              <a href="#tabpanel_syntax_vb" tabindex="-1" role="tab" aria-controls="tabpanel_syntax_vb" data-tab="vb">Visual Basic</a>
+          </li>
+      </ul>
+      <section id="tabpanel_syntax_cs" role="tabpanel" data-tab="cs">
+          <div class="codewrapper">
+            <pre><code class="lang-csharp hljs">bool SaveJuiDeviceConfigPage(string pageContent, int deviceRef)</code></pre>
+          </div>
+      </section>
+      <section id="tabpanel_syntax_vb" role="tabpanel" data-tab="vb" aria-hidden="true" hidden="">
+          <div class="codewrapper">
+            <pre><code class="lang-vb hljs">Function SaveJuiDeviceConfigPage(pageContent As String, deviceRef As Integer) As Boolean</code></pre>
+          </div>
+      </section>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">pageContent</span></td>
+        <td><p>A JSON serialized Jui.Page describing what has changed about the page</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">deviceRef</span></td>
+        <td><p>The reference of the device the config page is for</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p>TRUE if the save was successful; FALSE if it was unsuccessful.</p>
+<p>
+An exception should be thrown with details about the error if it was unsuccessful
+</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/IPlugin.cs/#L190">View Source</a>
+  </span>
+  <a id="HomeSeer_PluginSdk_IPlugin_SaveJuiSettingsPages_" data-uid="HomeSeer.PluginSdk.IPlugin.SaveJuiSettingsPages*"></a>
+  <h4 id="HomeSeer_PluginSdk_IPlugin_SaveJuiSettingsPages_System_String_" data-uid="HomeSeer.PluginSdk.IPlugin.SaveJuiSettingsPages(System.String)">SaveJuiSettingsPages(String)</h4>
+  <div class="markdown level1 summary"><p>Called by the HomeSeer system when settings changes need to be saved</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="tabGroup" id="tabgroup_syntax">
+      <ul role="tablist">
+          <li role="presentation">
+              <a href="#tabpanel_syntax_cs" tabindex="0" role="tab" aria-controls="tabpanel_syntax_cs" data-tab="cs" aria-selected="true">C#</a>
+          </li>
+          <li role="presentation">
+              <a href="#tabpanel_syntax_vb" tabindex="-1" role="tab" aria-controls="tabpanel_syntax_vb" data-tab="vb">Visual Basic</a>
+          </li>
+      </ul>
+      <section id="tabpanel_syntax_cs" role="tabpanel" data-tab="cs">
+          <div class="codewrapper">
+            <pre><code class="lang-csharp hljs">bool SaveJuiSettingsPages(string jsonString)</code></pre>
+          </div>
+      </section>
+      <section id="tabpanel_syntax_vb" role="tabpanel" data-tab="vb" aria-hidden="true" hidden="">
+          <div class="codewrapper">
+            <pre><code class="lang-vb hljs">Function SaveJuiSettingsPages(jsonString As String) As Boolean</code></pre>
+          </div>
+      </section>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">jsonString</span></td>
+        <td><p>A List of Jui.Pages containing views that have changed, serialized as JSON</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p>TRUE if the save was successful; FALSE if it was unsuccessful.</p>
+<p>
+An exception should be thrown with details about the error if it was unsuccessful
+</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/IPlugin.cs/#L136">View Source</a>
+  </span>
+  <a id="HomeSeer_PluginSdk_IPlugin_SetIOMulti_" data-uid="HomeSeer.PluginSdk.IPlugin.SetIOMulti*"></a>
+  <h4 id="HomeSeer_PluginSdk_IPlugin_SetIOMulti_System_Collections_Generic_List_HomeSeer_PluginSdk_Devices_Controls_ControlEvent__" data-uid="HomeSeer.PluginSdk.IPlugin.SetIOMulti(System.Collections.Generic.List{HomeSeer.PluginSdk.Devices.Controls.ControlEvent})">SetIOMulti(List&lt;ControlEvent&gt;)</h4>
+  <div class="markdown level1 summary"><p>Called by the HomeSeer system when a device that this plugin owns is controlled.</p>
+<p>
+A plugin owns a device when its Interface property is set to the plugin ID.
+</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="tabGroup" id="tabgroup_syntax">
+      <ul role="tablist">
+          <li role="presentation">
+              <a href="#tabpanel_syntax_cs" tabindex="0" role="tab" aria-controls="tabpanel_syntax_cs" data-tab="cs" aria-selected="true">C#</a>
+          </li>
+          <li role="presentation">
+              <a href="#tabpanel_syntax_vb" tabindex="-1" role="tab" aria-controls="tabpanel_syntax_vb" data-tab="vb">Visual Basic</a>
+          </li>
+      </ul>
+      <section id="tabpanel_syntax_cs" role="tabpanel" data-tab="cs">
+          <div class="codewrapper">
+            <pre><code class="lang-csharp hljs">void SetIOMulti(List&lt;ControlEvent&gt; controlEvents)</code></pre>
+          </div>
+      </section>
+      <section id="tabpanel_syntax_vb" role="tabpanel" data-tab="vb" aria-hidden="true" hidden="">
+          <div class="codewrapper">
+            <pre><code class="lang-vb hljs">Sub SetIOMulti(controlEvents As List(Of ControlEvent))</code></pre>
+          </div>
+      </section>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.List</span>&lt;<a class="xref" href="HomeSeer.PluginSdk.Devices.Controls.ControlEvent.html">ControlEvent</a>&gt;</td>
+        <td><span class="parametername">controlEvents</span></td>
+        <td><p>A collection of <a class="xref" href="HomeSeer.PluginSdk.Devices.Controls.ControlEvent.html">ControlEvent</a> objects,
+one for each device being controlled</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/IPlugin.cs/#L120">View Source</a>
+  </span>
+  <a id="HomeSeer_PluginSdk_IPlugin_ShutdownIO_" data-uid="HomeSeer.PluginSdk.IPlugin.ShutdownIO*"></a>
+  <h4 id="HomeSeer_PluginSdk_IPlugin_ShutdownIO" data-uid="HomeSeer.PluginSdk.IPlugin.ShutdownIO">ShutdownIO()</h4>
+  <div class="markdown level1 summary"><p>Called by the HomeSeer system to shutdown the plugin and its operations</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="tabGroup" id="tabgroup_syntax">
+      <ul role="tablist">
+          <li role="presentation">
+              <a href="#tabpanel_syntax_cs" tabindex="0" role="tab" aria-controls="tabpanel_syntax_cs" data-tab="cs" aria-selected="true">C#</a>
+          </li>
+          <li role="presentation">
+              <a href="#tabpanel_syntax_vb" tabindex="-1" role="tab" aria-controls="tabpanel_syntax_vb" data-tab="vb">Visual Basic</a>
+          </li>
+      </ul>
+      <section id="tabpanel_syntax_cs" role="tabpanel" data-tab="cs">
+          <div class="codewrapper">
+            <pre><code class="lang-csharp hljs">void ShutdownIO()</code></pre>
+          </div>
+      </section>
+      <section id="tabpanel_syntax_vb" role="tabpanel" data-tab="vb" aria-hidden="true" hidden="">
+          <div class="codewrapper">
+            <pre><code class="lang-vb hljs">Sub ShutdownIO</code></pre>
+          </div>
+      </section>
+  </div>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/IPlugin.cs/#L414">View Source</a>
+  </span>
+  <a id="HomeSeer_PluginSdk_IPlugin_SpeakIn_" data-uid="HomeSeer.PluginSdk.IPlugin.SpeakIn*"></a>
+  <h4 id="HomeSeer_PluginSdk_IPlugin_SpeakIn_System_Int32_System_String_System_Boolean_System_String_" data-uid="HomeSeer.PluginSdk.IPlugin.SpeakIn(System.Int32,System.String,System.Boolean,System.String)">SpeakIn(Int32, String, Boolean, String)</h4>
+  <div class="markdown level1 summary"><p>If your plug-in is registered as a Speak proxy plug-in, then when HomeSeer is asked to speak something.
+It will pass the speak information to your plug-in using this procedure.
+When your plug-in is ready to do the actual speaking, it should call SpeakProxy, and pass the information
+that it got from this procedure to SpeakProxy.
+It may be necessary or a feature of your plug-in to modify the text being spoken or the host/instance
+list provided in the host parameter - this is acceptable.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="tabGroup" id="tabgroup_syntax">
+      <ul role="tablist">
+          <li role="presentation">
+              <a href="#tabpanel_syntax_cs" tabindex="0" role="tab" aria-controls="tabpanel_syntax_cs" data-tab="cs" aria-selected="true">C#</a>
+          </li>
+          <li role="presentation">
+              <a href="#tabpanel_syntax_vb" tabindex="-1" role="tab" aria-controls="tabpanel_syntax_vb" data-tab="vb">Visual Basic</a>
+          </li>
+      </ul>
+      <section id="tabpanel_syntax_cs" role="tabpanel" data-tab="cs">
+          <div class="codewrapper">
+            <pre><code class="lang-csharp hljs">void SpeakIn(int speechDevice, string spokenText, bool wait, string host)</code></pre>
+          </div>
+      </section>
+      <section id="tabpanel_syntax_vb" role="tabpanel" data-tab="vb" aria-hidden="true" hidden="">
+          <div class="codewrapper">
+            <pre><code class="lang-vb hljs">Sub SpeakIn(speechDevice As Integer, spokenText As String, wait As Boolean, host As String)</code></pre>
+          </div>
+      </section>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">speechDevice</span></td>
+        <td><p>This is the device that is to be used for the speaking.  In older versions of HomeSeer, this value was
+used to indicate the sound card to use, and if it was over 100, then it indicated that it was speaking
+for HomeSeer Phone (device - 100 = phone line), or the WAV audio device to use.
+Although this is still used for HomeSeer Phone, speaks for HomeSeer phone are never proxied and so
+values &gt;= 100 should never been seen in the device parameter.
+Pass the device parameter unchanged to SpeakProxy.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">spokenText</span></td>
+        <td><p>This is the text to be spoken, or if it is a WAV file to be played, then the characters &quot;:&amp;quot; will be
+found starting at position 2 of the string as playing a WAV file with the speak command in HomeSeer
+REQUIRES a fully qualified path and filename of the WAV file to play.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">wait</span></td>
+        <td><p>This parameter tells HomeSeer whether to continue processing commands immediately or to wait until
+the speak command is finished - pass this parameter unchanged to SpeakProxy.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">host</span></td>
+        <td><p>This is a list of host:instances to speak or play the WAV file on.
+An empty string or a single asterisk (*) indicates all connected speaker clients on all hosts.
+Normally this parameter is passed to SpeakProxy unchanged.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/IPlugin.cs/#L310">View Source</a>
+  </span>
+  <a id="HomeSeer_PluginSdk_IPlugin_TriggerBuildUI_" data-uid="HomeSeer.PluginSdk.IPlugin.TriggerBuildUI*"></a>
+  <h4 id="HomeSeer_PluginSdk_IPlugin_TriggerBuildUI_HomeSeer_PluginSdk_Events_TrigActInfo_" data-uid="HomeSeer.PluginSdk.IPlugin.TriggerBuildUI(HomeSeer.PluginSdk.Events.TrigActInfo)">TriggerBuildUI(TrigActInfo)</h4>
+  <div class="markdown level1 summary"><p>Called by the HomeSeer system when an event is in edit mode and in need of HTML controls for the user.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="tabGroup" id="tabgroup_syntax">
+      <ul role="tablist">
+          <li role="presentation">
+              <a href="#tabpanel_syntax_cs" tabindex="0" role="tab" aria-controls="tabpanel_syntax_cs" data-tab="cs" aria-selected="true">C#</a>
+          </li>
+          <li role="presentation">
+              <a href="#tabpanel_syntax_vb" tabindex="-1" role="tab" aria-controls="tabpanel_syntax_vb" data-tab="vb">Visual Basic</a>
+          </li>
+      </ul>
+      <section id="tabpanel_syntax_cs" role="tabpanel" data-tab="cs">
+          <div class="codewrapper">
+            <pre><code class="lang-csharp hljs">string TriggerBuildUI(TrigActInfo trigInfo)</code></pre>
+          </div>
+      </section>
+      <section id="tabpanel_syntax_vb" role="tabpanel" data-tab="vb" aria-hidden="true" hidden="">
+          <div class="codewrapper">
+            <pre><code class="lang-vb hljs">Function TriggerBuildUI(trigInfo As TrigActInfo) As String</code></pre>
+          </div>
+      </section>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="HomeSeer.PluginSdk.Events.TrigActInfo.html">TrigActInfo</a></td>
+        <td><span class="parametername">trigInfo</span></td>
+        <td><p>Object that contains information about the current configuration of the trigger.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><p>HTML controls that need to be displayed so the user can select the trigger parameters.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/IPlugin.cs/#L274">View Source</a>
+  </span>
+  <a id="HomeSeer_PluginSdk_IPlugin_TriggerCanBeCondition_" data-uid="HomeSeer.PluginSdk.IPlugin.TriggerCanBeCondition*"></a>
+  <h4 id="HomeSeer_PluginSdk_IPlugin_TriggerCanBeCondition_System_Int32_" data-uid="HomeSeer.PluginSdk.IPlugin.TriggerCanBeCondition(System.Int32)">TriggerCanBeCondition(Int32)</h4>
+  <div class="markdown level1 summary"><p>Called by HomeSeer to determine if a given trigger can also be used as a condition</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="tabGroup" id="tabgroup_syntax">
+      <ul role="tablist">
+          <li role="presentation">
+              <a href="#tabpanel_syntax_cs" tabindex="0" role="tab" aria-controls="tabpanel_syntax_cs" data-tab="cs" aria-selected="true">C#</a>
+          </li>
+          <li role="presentation">
+              <a href="#tabpanel_syntax_vb" tabindex="-1" role="tab" aria-controls="tabpanel_syntax_vb" data-tab="vb">Visual Basic</a>
+          </li>
+      </ul>
+      <section id="tabpanel_syntax_cs" role="tabpanel" data-tab="cs">
+          <div class="codewrapper">
+            <pre><code class="lang-csharp hljs">bool TriggerCanBeCondition(int triggerNum)</code></pre>
+          </div>
+      </section>
+      <section id="tabpanel_syntax_vb" role="tabpanel" data-tab="vb" aria-hidden="true" hidden="">
+          <div class="codewrapper">
+            <pre><code class="lang-vb hljs">Function TriggerCanBeCondition(triggerNum As Integer) As Boolean</code></pre>
+          </div>
+      </section>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">triggerNum</span></td>
+        <td><p>The number of the trigger to check</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p>TRUE if the given trigger can also be used as a condition, for the given trigger number.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/IPlugin.cs/#L318">View Source</a>
+  </span>
+  <a id="HomeSeer_PluginSdk_IPlugin_TriggerFormatUI_" data-uid="HomeSeer.PluginSdk.IPlugin.TriggerFormatUI*"></a>
+  <h4 id="HomeSeer_PluginSdk_IPlugin_TriggerFormatUI_HomeSeer_PluginSdk_Events_TrigActInfo_" data-uid="HomeSeer.PluginSdk.IPlugin.TriggerFormatUI(HomeSeer.PluginSdk.Events.TrigActInfo)">TriggerFormatUI(TrigActInfo)</h4>
+  <div class="markdown level1 summary"><p>Called by the HomeSeer system when an event trigger is finished being configured and needs to be displayed
+in an easy to read format.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="tabGroup" id="tabgroup_syntax">
+      <ul role="tablist">
+          <li role="presentation">
+              <a href="#tabpanel_syntax_cs" tabindex="0" role="tab" aria-controls="tabpanel_syntax_cs" data-tab="cs" aria-selected="true">C#</a>
+          </li>
+          <li role="presentation">
+              <a href="#tabpanel_syntax_vb" tabindex="-1" role="tab" aria-controls="tabpanel_syntax_vb" data-tab="vb">Visual Basic</a>
+          </li>
+      </ul>
+      <section id="tabpanel_syntax_cs" role="tabpanel" data-tab="cs">
+          <div class="codewrapper">
+            <pre><code class="lang-csharp hljs">string TriggerFormatUI(TrigActInfo trigInfo)</code></pre>
+          </div>
+      </section>
+      <section id="tabpanel_syntax_vb" role="tabpanel" data-tab="vb" aria-hidden="true" hidden="">
+          <div class="codewrapper">
+            <pre><code class="lang-vb hljs">Function TriggerFormatUI(trigInfo As TrigActInfo) As String</code></pre>
+          </div>
+      </section>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="HomeSeer.PluginSdk.Events.TrigActInfo.html">TrigActInfo</a></td>
+        <td><span class="parametername">trigInfo</span></td>
+        <td><p>Object that contains information about the current configuration of the trigger.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><p>HTML representing easy to read text describing the trigger</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/IPlugin.cs/#L326">View Source</a>
+  </span>
+  <a id="HomeSeer_PluginSdk_IPlugin_TriggerProcessPostUI_" data-uid="HomeSeer.PluginSdk.IPlugin.TriggerProcessPostUI*"></a>
+  <h4 id="HomeSeer_PluginSdk_IPlugin_TriggerProcessPostUI_System_Collections_Generic_Dictionary_System_String_System_String__HomeSeer_PluginSdk_Events_TrigActInfo_" data-uid="HomeSeer.PluginSdk.IPlugin.TriggerProcessPostUI(System.Collections.Generic.Dictionary{System.String,System.String},HomeSeer.PluginSdk.Events.TrigActInfo)">TriggerProcessPostUI(Dictionary&lt;String, String&gt;, TrigActInfo)</h4>
+  <div class="markdown level1 summary"><p>Called by the HomeSeer system to process selections when a user edits your event triggers.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="tabGroup" id="tabgroup_syntax">
+      <ul role="tablist">
+          <li role="presentation">
+              <a href="#tabpanel_syntax_cs" tabindex="0" role="tab" aria-controls="tabpanel_syntax_cs" data-tab="cs" aria-selected="true">C#</a>
+          </li>
+          <li role="presentation">
+              <a href="#tabpanel_syntax_vb" tabindex="-1" role="tab" aria-controls="tabpanel_syntax_vb" data-tab="vb">Visual Basic</a>
+          </li>
+      </ul>
+      <section id="tabpanel_syntax_cs" role="tabpanel" data-tab="cs">
+          <div class="codewrapper">
+            <pre><code class="lang-csharp hljs">EventUpdateReturnData TriggerProcessPostUI(Dictionary&lt;string, string&gt; postData, TrigActInfo trigInfoIn)</code></pre>
+          </div>
+      </section>
+      <section id="tabpanel_syntax_vb" role="tabpanel" data-tab="vb" aria-hidden="true" hidden="">
+          <div class="codewrapper">
+            <pre><code class="lang-vb hljs">Function TriggerProcessPostUI(postData As Dictionary(Of String, String), trigInfoIn As TrigActInfo) As EventUpdateReturnData</code></pre>
+          </div>
+      </section>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.Dictionary</span>&lt;<span class="xref">System.String</span>, <span class="xref">System.String</span>&gt;</td>
+        <td><span class="parametername">postData</span></td>
+        <td><p>A collection of name value pairs that include the user's selections.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="HomeSeer.PluginSdk.Events.TrigActInfo.html">TrigActInfo</a></td>
+        <td><span class="parametername">trigInfoIn</span></td>
+        <td><p>Object that contains information about the trigger.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="HomeSeer.PluginSdk.Devices.EventUpdateReturnData.html">EventUpdateReturnData</a></td>
+        <td><p>Object the holds the parsed information for the trigger. HomeSeer will save this information for you in the database.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/IPlugin.cs/#L334">View Source</a>
+  </span>
+  <a id="HomeSeer_PluginSdk_IPlugin_TriggerReferencesDeviceOrFeature_" data-uid="HomeSeer.PluginSdk.IPlugin.TriggerReferencesDeviceOrFeature*"></a>
+  <h4 id="HomeSeer_PluginSdk_IPlugin_TriggerReferencesDeviceOrFeature_HomeSeer_PluginSdk_Events_TrigActInfo_System_Int32_" data-uid="HomeSeer.PluginSdk.IPlugin.TriggerReferencesDeviceOrFeature(HomeSeer.PluginSdk.Events.TrigActInfo,System.Int32)">TriggerReferencesDeviceOrFeature(TrigActInfo, Int32)</h4>
+  <div class="markdown level1 summary"><p>Called by the HomeSeer system to determine if a specified device is referenced by a certain trigger.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="tabGroup" id="tabgroup_syntax">
+      <ul role="tablist">
+          <li role="presentation">
+              <a href="#tabpanel_syntax_cs" tabindex="0" role="tab" aria-controls="tabpanel_syntax_cs" data-tab="cs" aria-selected="true">C#</a>
+          </li>
+          <li role="presentation">
+              <a href="#tabpanel_syntax_vb" tabindex="-1" role="tab" aria-controls="tabpanel_syntax_vb" data-tab="vb">Visual Basic</a>
+          </li>
+      </ul>
+      <section id="tabpanel_syntax_cs" role="tabpanel" data-tab="cs">
+          <div class="codewrapper">
+            <pre><code class="lang-csharp hljs">bool TriggerReferencesDeviceOrFeature(TrigActInfo trigInfo, int devOrFeatRef)</code></pre>
+          </div>
+      </section>
+      <section id="tabpanel_syntax_vb" role="tabpanel" data-tab="vb" aria-hidden="true" hidden="">
+          <div class="codewrapper">
+            <pre><code class="lang-vb hljs">Function TriggerReferencesDeviceOrFeature(trigInfo As TrigActInfo, devOrFeatRef As Integer) As Boolean</code></pre>
+          </div>
+      </section>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="HomeSeer.PluginSdk.Events.TrigActInfo.html">TrigActInfo</a></td>
+        <td><span class="parametername">trigInfo</span></td>
+        <td><p>Object describing the trigger.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">devOrFeatRef</span></td>
+        <td><p>The reference ID of the device or feature to check</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p>TRUE if the trigger references the device; FALSE if it does not</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/IPlugin.cs/#L342">View Source</a>
+  </span>
+  <a id="HomeSeer_PluginSdk_IPlugin_TriggerTrue_" data-uid="HomeSeer.PluginSdk.IPlugin.TriggerTrue*"></a>
+  <h4 id="HomeSeer_PluginSdk_IPlugin_TriggerTrue_HomeSeer_PluginSdk_Events_TrigActInfo_System_Boolean_" data-uid="HomeSeer.PluginSdk.IPlugin.TriggerTrue(HomeSeer.PluginSdk.Events.TrigActInfo,System.Boolean)">TriggerTrue(TrigActInfo, Boolean)</h4>
+  <div class="markdown level1 summary"><p>Called by HomeSeer when a trigger needs to be evaluated as a condition</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="tabGroup" id="tabgroup_syntax">
+      <ul role="tablist">
+          <li role="presentation">
+              <a href="#tabpanel_syntax_cs" tabindex="0" role="tab" aria-controls="tabpanel_syntax_cs" data-tab="cs" aria-selected="true">C#</a>
+          </li>
+          <li role="presentation">
+              <a href="#tabpanel_syntax_vb" tabindex="-1" role="tab" aria-controls="tabpanel_syntax_vb" data-tab="vb">Visual Basic</a>
+          </li>
+      </ul>
+      <section id="tabpanel_syntax_cs" role="tabpanel" data-tab="cs">
+          <div class="codewrapper">
+            <pre><code class="lang-csharp hljs">bool TriggerTrue(TrigActInfo trigInfo, bool isCondition = false)</code></pre>
+          </div>
+      </section>
+      <section id="tabpanel_syntax_vb" role="tabpanel" data-tab="vb" aria-hidden="true" hidden="">
+          <div class="codewrapper">
+            <pre><code class="lang-vb hljs">Function TriggerTrue(trigInfo As TrigActInfo, isCondition As Boolean = False) As Boolean</code></pre>
+          </div>
+      </section>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="HomeSeer.PluginSdk.Events.TrigActInfo.html">TrigActInfo</a></td>
+        <td><span class="parametername">trigInfo</span></td>
+        <td><p>Object describing the trigger</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">isCondition</span></td>
+        <td><p>TRUE if the trigger represents a condition, FALSE if it is a trigger</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p>TRUE if the conditions are met; FALSE if they are not</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/IPlugin.cs/#L166">View Source</a>
+  </span>
+  <a id="HomeSeer_PluginSdk_IPlugin_UpdateStatusNow_" data-uid="HomeSeer.PluginSdk.IPlugin.UpdateStatusNow*"></a>
+  <h4 id="HomeSeer_PluginSdk_IPlugin_UpdateStatusNow_System_Int32_" data-uid="HomeSeer.PluginSdk.IPlugin.UpdateStatusNow(System.Int32)">UpdateStatusNow(Int32)</h4>
+  <div class="markdown level1 summary"><p>Called by the HomeSeer system when it needs the current status for a device/feature owned by the plugin.</p>
+<p>
+This should force the device/feature to update its current status on HomeSeer.
+</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="tabGroup" id="tabgroup_syntax">
+      <ul role="tablist">
+          <li role="presentation">
+              <a href="#tabpanel_syntax_cs" tabindex="0" role="tab" aria-controls="tabpanel_syntax_cs" data-tab="cs" aria-selected="true">C#</a>
+          </li>
+          <li role="presentation">
+              <a href="#tabpanel_syntax_vb" tabindex="-1" role="tab" aria-controls="tabpanel_syntax_vb" data-tab="vb">Visual Basic</a>
+          </li>
+      </ul>
+      <section id="tabpanel_syntax_cs" role="tabpanel" data-tab="cs">
+          <div class="codewrapper">
+            <pre><code class="lang-csharp hljs">EPollResponse UpdateStatusNow(int devOrFeatRef)</code></pre>
+          </div>
+      </section>
+      <section id="tabpanel_syntax_vb" role="tabpanel" data-tab="vb" aria-hidden="true" hidden="">
+          <div class="codewrapper">
+            <pre><code class="lang-vb hljs">Function UpdateStatusNow(devOrFeatRef As Integer) As EPollResponse</code></pre>
+          </div>
+      </section>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">devOrFeatRef</span></td>
+        <td><p>The reference ID of the device/feature to poll</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="HomeSeer.PluginSdk.Devices.EPollResponse.html">EPollResponse</a></td>
+        <td><p>An <a class="xref" href="HomeSeer.PluginSdk.Devices.EPollResponse.html">EPollResponse</a> describing the result of the request</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/IPlugin.cs/#L17" class="contribution-link">View Source</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            HomeSeer Technologies
+            
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>
