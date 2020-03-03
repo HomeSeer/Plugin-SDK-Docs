@@ -179,12 +179,14 @@
       </ul>
       <section id="tabpanel_syntax_cs" role="tabpanel" data-tab="cs">
           <div class="codewrapper">
-            <pre><code class="lang-csharp hljs">protected ViewGroup(string id)</code></pre>
+            <pre><code class="lang-csharp hljs">[JsonConstructor]
+protected ViewGroup(string id)</code></pre>
           </div>
       </section>
       <section id="tabpanel_syntax_vb" role="tabpanel" data-tab="vb" aria-hidden="true" hidden="">
           <div class="codewrapper">
-            <pre><code class="lang-vb hljs">Protected Sub New(id As String)</code></pre>
+            <pre><code class="lang-vb hljs">&lt;JsonConstructor&gt;
+Protected Sub New(id As String)</code></pre>
           </div>
       </section>
   </div>
@@ -315,12 +317,14 @@
       </ul>
       <section id="tabpanel_syntax_cs" role="tabpanel" data-tab="cs">
           <div class="codewrapper">
-            <pre><code class="lang-csharp hljs">public int ViewCount { get; }</code></pre>
+            <pre><code class="lang-csharp hljs">[JsonIgnore]
+public int ViewCount { get; }</code></pre>
           </div>
       </section>
       <section id="tabpanel_syntax_vb" role="tabpanel" data-tab="vb" aria-hidden="true" hidden="">
           <div class="codewrapper">
-            <pre><code class="lang-vb hljs">Public ReadOnly Property ViewCount As Integer</code></pre>
+            <pre><code class="lang-vb hljs">&lt;JsonIgnore&gt;
+Public ReadOnly Property ViewCount As Integer</code></pre>
           </div>
       </section>
   </div>
@@ -360,12 +364,14 @@
       </ul>
       <section id="tabpanel_syntax_cs" role="tabpanel" data-tab="cs">
           <div class="codewrapper">
-            <pre><code class="lang-csharp hljs">public ReadOnlyCollection&lt;string&gt; ViewIds { get; }</code></pre>
+            <pre><code class="lang-csharp hljs">[JsonIgnore]
+public ReadOnlyCollection&lt;string&gt; ViewIds { get; }</code></pre>
           </div>
       </section>
       <section id="tabpanel_syntax_vb" role="tabpanel" data-tab="vb" aria-hidden="true" hidden="">
           <div class="codewrapper">
-            <pre><code class="lang-vb hljs">Public ReadOnly Property ViewIds As ReadOnlyCollection(Of String)</code></pre>
+            <pre><code class="lang-vb hljs">&lt;JsonIgnore&gt;
+Public ReadOnly Property ViewIds As ReadOnlyCollection(Of String)</code></pre>
           </div>
       </section>
   </div>
@@ -406,12 +412,14 @@ Use <a class="xref" href="HomeSeer.Jui.Views.ViewGroup.html#HomeSeer_Jui_Views_V
       </ul>
       <section id="tabpanel_syntax_cs" role="tabpanel" data-tab="cs">
           <div class="codewrapper">
-            <pre><code class="lang-csharp hljs">public ReadOnlyCollection&lt;AbstractView&gt; Views { get; }</code></pre>
+            <pre><code class="lang-csharp hljs">[JsonIgnore]
+public ReadOnlyCollection&lt;AbstractView&gt; Views { get; }</code></pre>
           </div>
       </section>
       <section id="tabpanel_syntax_vb" role="tabpanel" data-tab="vb" aria-hidden="true" hidden="">
           <div class="codewrapper">
-            <pre><code class="lang-vb hljs">Public ReadOnly Property Views As ReadOnlyCollection(Of AbstractView)</code></pre>
+            <pre><code class="lang-vb hljs">&lt;JsonIgnore&gt;
+Public ReadOnly Property Views As ReadOnlyCollection(Of AbstractView)</code></pre>
           </div>
       </section>
   </div>

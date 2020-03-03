@@ -165,7 +165,7 @@ that a particular property is set to a given value.</p>
   </h3>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Jui/Views/LabelView.cs/#L28">View Source</a>
+    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Jui/Views/LabelView.cs/#L34">View Source</a>
   </span>
   <a id="HomeSeer_Jui_Views_LabelView__ctor_" data-uid="HomeSeer.Jui.Views.LabelView.#ctor*"></a>
   <h4 id="HomeSeer_Jui_Views_LabelView__ctor_System_String_System_String_" data-uid="HomeSeer.Jui.Views.LabelView.#ctor(System.String,System.String)">LabelView(String, String)</h4>
@@ -184,12 +184,14 @@ that a particular property is set to a given value.</p>
       </ul>
       <section id="tabpanel_syntax_cs" role="tabpanel" data-tab="cs">
           <div class="codewrapper">
-            <pre><code class="lang-csharp hljs">public LabelView(string id, string name)</code></pre>
+            <pre><code class="lang-csharp hljs">[JsonConstructor]
+public LabelView(string id, string name)</code></pre>
           </div>
       </section>
       <section id="tabpanel_syntax_vb" role="tabpanel" data-tab="vb" aria-hidden="true" hidden="">
           <div class="codewrapper">
-            <pre><code class="lang-vb hljs">Public Sub New(id As String, name As String)</code></pre>
+            <pre><code class="lang-vb hljs">&lt;JsonConstructor&gt;
+Public Sub New(id As String, name As String)</code></pre>
           </div>
       </section>
   </div>
@@ -235,7 +237,7 @@ that a particular property is set to a given value.</p>
   </table>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Jui/Views/LabelView.cs/#L42">View Source</a>
+    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Jui/Views/LabelView.cs/#L49">View Source</a>
   </span>
   <a id="HomeSeer_Jui_Views_LabelView__ctor_" data-uid="HomeSeer.Jui.Views.LabelView.#ctor*"></a>
   <h4 id="HomeSeer_Jui_Views_LabelView__ctor_System_String_System_String_System_String_" data-uid="HomeSeer.Jui.Views.LabelView.#ctor(System.String,System.String,System.String)">LabelView(String, String, String)</h4>
@@ -315,6 +317,53 @@ that a particular property is set to a given value.</p>
   <span class="small pull-right mobile-hide">
     <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Jui/Views/LabelView.cs/#L19">View Source</a>
   </span>
+  <a id="HomeSeer_Jui_Views_LabelView_LabelType_" data-uid="HomeSeer.Jui.Views.LabelView.LabelType*"></a>
+  <h4 id="HomeSeer_Jui_Views_LabelView_LabelType" data-uid="HomeSeer.Jui.Views.LabelView.LabelType">LabelType</h4>
+  <div class="markdown level1 summary"><p>The type of the label</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="tabGroup" id="tabgroup_syntax">
+      <ul role="tablist">
+          <li role="presentation">
+              <a href="#tabpanel_syntax_cs" tabindex="0" role="tab" aria-controls="tabpanel_syntax_cs" data-tab="cs" aria-selected="true">C#</a>
+          </li>
+          <li role="presentation">
+              <a href="#tabpanel_syntax_vb" tabindex="-1" role="tab" aria-controls="tabpanel_syntax_vb" data-tab="vb">Visual Basic</a>
+          </li>
+      </ul>
+      <section id="tabpanel_syntax_cs" role="tabpanel" data-tab="cs">
+          <div class="codewrapper">
+            <pre><code class="lang-csharp hljs">[JsonProperty(&quot;label_type&quot;)]
+public ELabelType LabelType { get; set; }</code></pre>
+          </div>
+      </section>
+      <section id="tabpanel_syntax_vb" role="tabpanel" data-tab="vb" aria-hidden="true" hidden="">
+          <div class="codewrapper">
+            <pre><code class="lang-vb hljs">&lt;JsonProperty(&quot;label_type&quot;)&gt;
+Public Property LabelType As ELabelType</code></pre>
+          </div>
+      </section>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="HomeSeer.Jui.Types.ELabelType.html">ELabelType</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Jui/Views/LabelView.cs/#L25">View Source</a>
+  </span>
   <a id="HomeSeer_Jui_Views_LabelView_Value_" data-uid="HomeSeer.Jui.Views.LabelView.Value*"></a>
   <h4 id="HomeSeer_Jui_Views_LabelView_Value" data-uid="HomeSeer.Jui.Views.LabelView.Value">Value</h4>
   <div class="markdown level1 summary"><p>The value displayed; leave blank to just show the name</p>
@@ -332,12 +381,14 @@ that a particular property is set to a given value.</p>
       </ul>
       <section id="tabpanel_syntax_cs" role="tabpanel" data-tab="cs">
           <div class="codewrapper">
-            <pre><code class="lang-csharp hljs">public string Value { get; set; }</code></pre>
+            <pre><code class="lang-csharp hljs">[JsonProperty(&quot;value&quot;)]
+public string Value { get; set; }</code></pre>
           </div>
       </section>
       <section id="tabpanel_syntax_vb" role="tabpanel" data-tab="vb" aria-hidden="true" hidden="">
           <div class="codewrapper">
-            <pre><code class="lang-vb hljs">Public Property Value As String</code></pre>
+            <pre><code class="lang-vb hljs">&lt;JsonProperty(&quot;value&quot;)&gt;
+Public Property Value As String</code></pre>
           </div>
       </section>
   </div>
@@ -360,7 +411,7 @@ that a particular property is set to a given value.</p>
   </h3>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Jui/Views/LabelView.cs/#L53">View Source</a>
+    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Jui/Views/LabelView.cs/#L61">View Source</a>
   </span>
   <a id="HomeSeer_Jui_Views_LabelView_GetStringValue_" data-uid="HomeSeer.Jui.Views.LabelView.GetStringValue*"></a>
   <h4 id="HomeSeer_Jui_Views_LabelView_GetStringValue" data-uid="HomeSeer.Jui.Views.LabelView.GetStringValue">GetStringValue()</h4>
@@ -408,7 +459,7 @@ that a particular property is set to a given value.</p>
   <div><a class="xref" href="HomeSeer.Jui.Views.AbstractView.html#HomeSeer_Jui_Views_AbstractView_GetStringValue">AbstractView.GetStringValue()</a></div>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Jui/Views/LabelView.cs/#L58">View Source</a>
+    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Jui/Views/LabelView.cs/#L66">View Source</a>
   </span>
   <a id="HomeSeer_Jui_Views_LabelView_ToHtml_" data-uid="HomeSeer.Jui.Views.LabelView.ToHtml*"></a>
   <h4 id="HomeSeer_Jui_Views_LabelView_ToHtml_System_Int32_" data-uid="HomeSeer.Jui.Views.LabelView.ToHtml(System.Int32)">ToHtml(Int32)</h4>

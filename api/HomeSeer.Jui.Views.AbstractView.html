@@ -311,12 +311,14 @@ might have an id of HomeSeer.ZWave.Settings1.InterfaceName
       </ul>
       <section id="tabpanel_syntax_cs" role="tabpanel" data-tab="cs">
           <div class="codewrapper">
-            <pre><code class="lang-csharp hljs">public string Id { get; protected set; }</code></pre>
+            <pre><code class="lang-csharp hljs">[JsonProperty(&quot;id&quot;, Required = Required.Always)]
+public string Id { get; protected set; }</code></pre>
           </div>
       </section>
       <section id="tabpanel_syntax_vb" role="tabpanel" data-tab="vb" aria-hidden="true" hidden="">
           <div class="codewrapper">
-            <pre><code class="lang-vb hljs">Public Property Id As String</code></pre>
+            <pre><code class="lang-vb hljs">&lt;JsonProperty(&quot;id&quot;, Required:=Required.Always)&gt;
+Public Property Id As String</code></pre>
           </div>
       </section>
   </div>
@@ -356,12 +358,14 @@ might have an id of HomeSeer.ZWave.Settings1.InterfaceName
       </ul>
       <section id="tabpanel_syntax_cs" role="tabpanel" data-tab="cs">
           <div class="codewrapper">
-            <pre><code class="lang-csharp hljs">public string Name { get; protected set; }</code></pre>
+            <pre><code class="lang-csharp hljs">[JsonProperty(&quot;name&quot;)]
+public string Name { get; protected set; }</code></pre>
           </div>
       </section>
       <section id="tabpanel_syntax_vb" role="tabpanel" data-tab="vb" aria-hidden="true" hidden="">
           <div class="codewrapper">
-            <pre><code class="lang-vb hljs">Public Property Name As String</code></pre>
+            <pre><code class="lang-vb hljs">&lt;JsonProperty(&quot;name&quot;)&gt;
+Public Property Name As String</code></pre>
           </div>
       </section>
   </div>
@@ -404,12 +408,14 @@ This is automatically configured
       </ul>
       <section id="tabpanel_syntax_cs" role="tabpanel" data-tab="cs">
           <div class="codewrapper">
-            <pre><code class="lang-csharp hljs">public EViewType Type { get; protected set; }</code></pre>
+            <pre><code class="lang-csharp hljs">[JsonProperty(&quot;type&quot;, Required = Required.Always)]
+public EViewType Type { get; protected set; }</code></pre>
           </div>
       </section>
       <section id="tabpanel_syntax_vb" role="tabpanel" data-tab="vb" aria-hidden="true" hidden="">
           <div class="codewrapper">
-            <pre><code class="lang-vb hljs">Public Property Type As EViewType</code></pre>
+            <pre><code class="lang-vb hljs">&lt;JsonProperty(&quot;type&quot;, Required:=Required.Always)&gt;
+Public Property Type As EViewType</code></pre>
           </div>
       </section>
   </div>

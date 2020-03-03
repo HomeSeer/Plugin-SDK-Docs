@@ -5,11 +5,9 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Namespace HomeSeer.Jui.Types
-   | HomeSeer PluginSdk Docs </title>
+    <title>Plugin SDK v1.0.7.1 Release Notes | HomeSeer PluginSdk Docs </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Namespace HomeSeer.Jui.Types
-   | HomeSeer PluginSdk Docs ">
+    <meta name="title" content="Plugin SDK v1.0.7.1 Release Notes | HomeSeer PluginSdk Docs ">
     <meta name="generator" content="docfx 2.49.0.0">
     
     <link rel="shortcut icon" href="../images/favicon.ico">
@@ -78,40 +76,41 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="HomeSeer.Jui.Types">
-  
-  <h1 id="HomeSeer_Jui_Types" data-uid="HomeSeer.Jui.Types" class="text-break">Namespace HomeSeer.Jui.Types
-  </h1>
-  <div class="markdown level0 summary"></div>
-  <div class="markdown level0 conceptual"></div>
-  <div class="markdown level0 remarks"></div>
-    <h3 id="enums">Enums
-  </h3>
-      <h4><a class="xref" href="HomeSeer.Jui.Types.EInputType.html">EInputType</a></h4>
-      <section><p>The input type determines the type of data that will be accepted by an input
-view and the keyboard that is shown to the user when they are typing in it.</p>
-</section>
-      <h4><a class="xref" href="HomeSeer.Jui.Types.ELabelType.html">ELabelType</a></h4>
-      <section><p>The label type determines how a label view is displayed</p>
-</section>
-      <h4><a class="xref" href="HomeSeer.Jui.Types.EPageType.html">EPageType</a></h4>
-      <section><p>A page's type determines where it is published in HomeSeer and what kinds of tasks it is used for</p>
-</section>
-      <h4><a class="xref" href="HomeSeer.Jui.Types.ESelectListType.html">ESelectListType</a></h4>
-      <section><p>The select list type determines how a select list view is displayed</p>
-</section>
-      <h4><a class="xref" href="HomeSeer.Jui.Types.EToggleType.html">EToggleType</a></h4>
-      <section><p>The toggle type determines how it is displayed</p>
-</section>
-      <h4><a class="xref" href="HomeSeer.Jui.Types.EViewType.html">EViewType</a></h4>
-      <section><p>The type that a view is set to determines what class a client application will deserialize it as.
-Each view type has a different set of properties that specifies how it behaves and how it should
-be displayed to the user</p>
-<p>
-Some view types are ignored by different page types.
-Refer to the page type you are using to determine what views are available for use.
-</p>
-</section>
+            <article class="content wrap" id="_content" data-uid="">
+<h1 id="plugin-sdk-v1071-release-notes">Plugin SDK v1.0.7.1 Release Notes</h1>
+
+<ul>
+<li>Modify IHsController interface
+<ul>
+<li>Add IHsController.SpeakToFile method</li>
+<li>Add IHsController.GetLocation1Name method</li>
+<li>Add IHsController.GetLocation2Name method</li>
+<li>Add IHsController.IsLocation1First method</li>
+<li>Add IHsController.GetFirstLocationName method</li>
+<li>Add IHsController.GetSecondLocationName Method</li>
+</ul>
+</li>
+<li>Update InputView.IsValueValidForType method
+<ul>
+<li>Fixes GitHub Issue #30 IsValueValidForType does not allow empty strings</li>
+<li>Fixes GitHub Issue #33 Error while saving value on action config page</li>
+<li>Fixes GitHub Issue #34 EInputType.Decimal does not work as expected with triggers/actions</li>
+</ul>
+</li>
+<li>Add FeatureFactory.AddColorPicker method signature
+<ul>
+<li>Fixes GitHub Issue #39 New ColorPicker controls default to 0-16777215 incorrectly and cannot be changed</li>
+</ul>
+</li>
+<li>Add SelectListView.GetSelectedOptionKey method</li>
+<li>Add Page.GetViewById<tviewtype> method</tviewtype></li>
+<li>Combine shared code for ActionTypeCollection and TriggerTypeCollection into BaseTypeCollection<titemtype> class
+<ul>
+<li>New shared code eliminates the need to implement all constructor signatures for classes inheriting from AbstractActionType or AbstractTriggerType</li>
+</ul>
+</titemtype></li>
+<li>Add AbstractActionType.SelectedSubActionIndex property</li>
+</ul>
 </article>
           </div>
           

@@ -176,12 +176,14 @@
       </ul>
       <section id="tabpanel_syntax_cs" role="tabpanel" data-tab="cs">
           <div class="codewrapper">
-            <pre><code class="lang-csharp hljs">public ToggleView(string id, string name, bool isEnabled = false)</code></pre>
+            <pre><code class="lang-csharp hljs">[JsonConstructor]
+public ToggleView(string id, string name, bool isEnabled = false)</code></pre>
           </div>
       </section>
       <section id="tabpanel_syntax_vb" role="tabpanel" data-tab="vb" aria-hidden="true" hidden="">
           <div class="codewrapper">
-            <pre><code class="lang-vb hljs">Public Sub New(id As String, name As String, isEnabled As Boolean = False)</code></pre>
+            <pre><code class="lang-vb hljs">&lt;JsonConstructor&gt;
+Public Sub New(id As String, name As String, isEnabled As Boolean = False)</code></pre>
           </div>
       </section>
   </div>
@@ -238,12 +240,14 @@
       </ul>
       <section id="tabpanel_syntax_cs" role="tabpanel" data-tab="cs">
           <div class="codewrapper">
-            <pre><code class="lang-csharp hljs">public bool IsEnabled { get; set; }</code></pre>
+            <pre><code class="lang-csharp hljs">[JsonProperty(&quot;enabled&quot;)]
+public bool IsEnabled { get; set; }</code></pre>
           </div>
       </section>
       <section id="tabpanel_syntax_vb" role="tabpanel" data-tab="vb" aria-hidden="true" hidden="">
           <div class="codewrapper">
-            <pre><code class="lang-vb hljs">Public Property IsEnabled As Boolean</code></pre>
+            <pre><code class="lang-vb hljs">&lt;JsonProperty(&quot;enabled&quot;)&gt;
+Public Property IsEnabled As Boolean</code></pre>
           </div>
       </section>
   </div>
@@ -283,12 +287,14 @@
       </ul>
       <section id="tabpanel_syntax_cs" role="tabpanel" data-tab="cs">
           <div class="codewrapper">
-            <pre><code class="lang-csharp hljs">public EToggleType ToggleType { get; set; }</code></pre>
+            <pre><code class="lang-csharp hljs">[JsonProperty(&quot;toggle_style&quot;)]
+public EToggleType ToggleType { get; set; }</code></pre>
           </div>
       </section>
       <section id="tabpanel_syntax_vb" role="tabpanel" data-tab="vb" aria-hidden="true" hidden="">
           <div class="codewrapper">
-            <pre><code class="lang-vb hljs">Public Property ToggleType As EToggleType</code></pre>
+            <pre><code class="lang-vb hljs">&lt;JsonProperty(&quot;toggle_style&quot;)&gt;
+Public Property ToggleType As EToggleType</code></pre>
           </div>
       </section>
   </div>

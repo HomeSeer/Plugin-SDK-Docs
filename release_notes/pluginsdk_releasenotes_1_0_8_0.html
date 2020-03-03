@@ -5,11 +5,9 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Namespace HomeSeer.Jui.Types
-   | HomeSeer PluginSdk Docs </title>
+    <title>Plugin SDK v1.0.8.0 Release Notes | HomeSeer PluginSdk Docs </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Namespace HomeSeer.Jui.Types
-   | HomeSeer PluginSdk Docs ">
+    <meta name="title" content="Plugin SDK v1.0.8.0 Release Notes | HomeSeer PluginSdk Docs ">
     <meta name="generator" content="docfx 2.49.0.0">
     
     <link rel="shortcut icon" href="../images/favicon.ico">
@@ -78,40 +76,19 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="HomeSeer.Jui.Types">
-  
-  <h1 id="HomeSeer_Jui_Types" data-uid="HomeSeer.Jui.Types" class="text-break">Namespace HomeSeer.Jui.Types
-  </h1>
-  <div class="markdown level0 summary"></div>
-  <div class="markdown level0 conceptual"></div>
-  <div class="markdown level0 remarks"></div>
-    <h3 id="enums">Enums
-  </h3>
-      <h4><a class="xref" href="HomeSeer.Jui.Types.EInputType.html">EInputType</a></h4>
-      <section><p>The input type determines the type of data that will be accepted by an input
-view and the keyboard that is shown to the user when they are typing in it.</p>
-</section>
-      <h4><a class="xref" href="HomeSeer.Jui.Types.ELabelType.html">ELabelType</a></h4>
-      <section><p>The label type determines how a label view is displayed</p>
-</section>
-      <h4><a class="xref" href="HomeSeer.Jui.Types.EPageType.html">EPageType</a></h4>
-      <section><p>A page's type determines where it is published in HomeSeer and what kinds of tasks it is used for</p>
-</section>
-      <h4><a class="xref" href="HomeSeer.Jui.Types.ESelectListType.html">ESelectListType</a></h4>
-      <section><p>The select list type determines how a select list view is displayed</p>
-</section>
-      <h4><a class="xref" href="HomeSeer.Jui.Types.EToggleType.html">EToggleType</a></h4>
-      <section><p>The toggle type determines how it is displayed</p>
-</section>
-      <h4><a class="xref" href="HomeSeer.Jui.Types.EViewType.html">EViewType</a></h4>
-      <section><p>The type that a view is set to determines what class a client application will deserialize it as.
-Each view type has a different set of properties that specifies how it behaves and how it should
-be displayed to the user</p>
-<p>
-Some view types are ignored by different page types.
-Refer to the page type you are using to determine what views are available for use.
-</p>
-</section>
+            <article class="content wrap" id="_content" data-uid="">
+<h1 id="plugin-sdk-v1080-release-notes">Plugin SDK v1.0.8.0 Release Notes</h1>
+
+<ul>
+<li>Fix EInputType.Decimal by switching to number type with the step attribute (HS-81)</li>
+<li>Add GetAllDevices methods to IHsController (HS-146)</li>
+<li>Change default locations set in factories to Plugin-PLUGINID (HS-194)</li>
+<li>Add bitwise flags to StatusControl; Add control only flag to EControlFlag; Move StatusControl.HasAdditionalData to EControlFlag (HS-219)</li>
+<li>Add summary to TypeInfo</li>
+<li>Deprecate Constants.DeviceScriptChange and Constants.CAPIControlButtonImage</li>
+<li>Remove AbstractHsDevice.ProductImage</li>
+<li>Update StatusGraphic so blank labels are acceptable - a single space</li>
+</ul>
 </article>
           </div>
           

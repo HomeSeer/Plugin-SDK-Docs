@@ -67,12 +67,24 @@ references:
   commentId: F:HomeSeer.Jui.Types.EInputType.Url
   fullName: HomeSeer.Jui.Types.EInputType.Url
   nameWithType: EInputType.Url
-- uid: HomeSeer.Jui.Types.ELabelStyleType
-  name: ELabelStyleType
-  href: api/HomeSeer.Jui.Types.ELabelStyleType.html
-  commentId: T:HomeSeer.Jui.Types.ELabelStyleType
-  fullName: HomeSeer.Jui.Types.ELabelStyleType
-  nameWithType: ELabelStyleType
+- uid: HomeSeer.Jui.Types.ELabelType
+  name: ELabelType
+  href: api/HomeSeer.Jui.Types.ELabelType.html
+  commentId: T:HomeSeer.Jui.Types.ELabelType
+  fullName: HomeSeer.Jui.Types.ELabelType
+  nameWithType: ELabelType
+- uid: HomeSeer.Jui.Types.ELabelType.Default
+  name: Default
+  href: api/HomeSeer.Jui.Types.ELabelType.html#HomeSeer_Jui_Types_ELabelType_Default
+  commentId: F:HomeSeer.Jui.Types.ELabelType.Default
+  fullName: HomeSeer.Jui.Types.ELabelType.Default
+  nameWithType: ELabelType.Default
+- uid: HomeSeer.Jui.Types.ELabelType.Preformatted
+  name: Preformatted
+  href: api/HomeSeer.Jui.Types.ELabelType.html#HomeSeer_Jui_Types_ELabelType_Preformatted
+  commentId: F:HomeSeer.Jui.Types.ELabelType.Preformatted
+  fullName: HomeSeer.Jui.Types.ELabelType.Preformatted
+  nameWithType: ELabelType.Preformatted
 - uid: HomeSeer.Jui.Types.EPageType
   name: EPageType
   href: api/HomeSeer.Jui.Types.EPageType.html
@@ -544,6 +556,19 @@ references:
   isSpec: "True"
   fullName: HomeSeer.Jui.Views.LabelView.GetStringValue
   nameWithType: LabelView.GetStringValue
+- uid: HomeSeer.Jui.Views.LabelView.LabelType
+  name: LabelType
+  href: api/HomeSeer.Jui.Views.LabelView.html#HomeSeer_Jui_Views_LabelView_LabelType
+  commentId: P:HomeSeer.Jui.Views.LabelView.LabelType
+  fullName: HomeSeer.Jui.Views.LabelView.LabelType
+  nameWithType: LabelView.LabelType
+- uid: HomeSeer.Jui.Views.LabelView.LabelType*
+  name: LabelType
+  href: api/HomeSeer.Jui.Views.LabelView.html#HomeSeer_Jui_Views_LabelView_LabelType_
+  commentId: Overload:HomeSeer.Jui.Views.LabelView.LabelType
+  isSpec: "True"
+  fullName: HomeSeer.Jui.Views.LabelView.LabelType
+  nameWithType: LabelView.LabelType
 - uid: HomeSeer.Jui.Views.LabelView.ToHtml(System.Int32)
   name: ToHtml(Int32)
   href: api/HomeSeer.Jui.Views.LabelView.html#HomeSeer_Jui_Views_LabelView_ToHtml_System_Int32_
