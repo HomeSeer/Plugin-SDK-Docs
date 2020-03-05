@@ -16,6 +16,7 @@
     <link rel="stylesheet" href="../styles/docfx.vendor.css">
     <link rel="stylesheet" href="../styles/docfx.css">
     <link rel="stylesheet" href="../styles/main.css">
+    <link rel="stylesheet" href="../styles/perfect-scrollbar.css">
     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet"> 
     <meta property="docfx:navrel" content="../toc.html">
     <meta property="docfx:tocrel" content="toc.html">
@@ -68,7 +69,7 @@
           <ul id="pagination"></ul>
         </div>
       </div>
-      <div role="main" class="container body-content hide-when-search">
+      <div role="main" class="container-fluid body-content hide-when-search">
         
         <div class="sidenav hide-when-search">
           <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
@@ -77,20 +78,37 @@
           </div>
         </div>
         <div class="article row grid-right">
-          <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="HomeSeer.PluginSdk.Devices.Identification.TypeInfo">
+      <div class="col-md-2"></div>
+      <div class="col-md-8 card">
+        <article class="content wrap" id="_content" data-uid="HomeSeer.PluginSdk.Devices.Identification.TypeInfo">
   
   
   <h1 id="HomeSeer_PluginSdk_Devices_Identification_TypeInfo" data-uid="HomeSeer.PluginSdk.Devices.Identification.TypeInfo" class="text-break">Class TypeInfo
   </h1>
-  <div class="markdown level0 summary"><p>A bundle of information describing the type of a device or feature.</p>
-<p>
-This is used to describe the device/feature in a manner that is easily understood by UI generation engines
- and other smart home platforms. When these systems can understand what this device/feature is, they are
- better able to tailor the experience of the user to their expectations.
-</p>
-</div>
-  <div class="markdown level0 conceptual"></div>
+  <div class="tabGroup" id="tabgroup_syntax">
+      <ul role="tablist">
+          <li role="presentation">
+              <a href="#tabpanel_syntax_cs" tabindex="0" role="tab" aria-controls="tabpanel_syntax_cs" data-tab="cs" aria-selected="true">C#</a>
+          </li>
+          <li role="presentation">
+              <a href="#tabpanel_syntax_vb" tabindex="-1" role="tab" aria-controls="tabpanel_syntax_vb" data-tab="vb">Visual Basic</a>
+          </li>
+      </ul>
+      <section id="tabpanel_syntax_cs" role="tabpanel" data-tab="cs">
+          <div class="codewrapper">
+            <pre><code class="lang-System.Object[] hljs">[Obfuscation(Exclude = true, ApplyToMembers = true)]
+[Serializable]
+public class TypeInfo</code></pre>
+          </div>
+      </section>
+      <section id="tabpanel_syntax_vb" role="tabpanel" data-tab="vb" aria-hidden="true" hidden="">
+          <div class="codewrapper">
+            <pre><code class="lang-System.Object[] hljs">&lt;Obfuscation(Exclude:=True, ApplyToMembers:=True)&gt;
+&lt;Serializable&gt;
+Public Class TypeInfo</code></pre>
+          </div>
+      </section>
+  </div>
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><span class="xref">System.Object</span></div>
@@ -120,34 +138,21 @@ This is used to describe the device/feature in a manner that is easily understoo
       <span class="xref">System.Object.MemberwiseClone()</span>
     </div>
   </div>
+  <div>
   <h6><strong>Namespace</strong>: <a class="xref" href="HomeSeer.PluginSdk.Devices.Identification.html">HomeSeer.PluginSdk.Devices.Identification</a></h6>
   <h6><strong>Assembly</strong>: PluginSdk.dll</h6>
-  <h5 id="HomeSeer_PluginSdk_Devices_Identification_TypeInfo_syntax">Syntax</h5>
-  <div class="tabGroup" id="tabgroup_syntax">
-      <ul role="tablist">
-          <li role="presentation">
-              <a href="#tabpanel_syntax_cs" tabindex="0" role="tab" aria-controls="tabpanel_syntax_cs" data-tab="cs" aria-selected="true">C#</a>
-          </li>
-          <li role="presentation">
-              <a href="#tabpanel_syntax_vb" tabindex="-1" role="tab" aria-controls="tabpanel_syntax_vb" data-tab="vb">Visual Basic</a>
-          </li>
-      </ul>
-      <section id="tabpanel_syntax_cs" role="tabpanel" data-tab="cs">
-          <div class="codewrapper">
-            <pre><code class="lang-System.Object[] hljs">[Obfuscation(Exclude = true, ApplyToMembers = true)]
-[Serializable]
-public class TypeInfo</code></pre>
-          </div>
-      </section>
-      <section id="tabpanel_syntax_vb" role="tabpanel" data-tab="vb" aria-hidden="true" hidden="">
-          <div class="codewrapper">
-            <pre><code class="lang-System.Object[] hljs">&lt;Obfuscation(Exclude:=True, ApplyToMembers:=True)&gt;
-&lt;Serializable&gt;
-Public Class TypeInfo</code></pre>
-          </div>
-      </section>
   </div>
-  
+  <hr>
+  <br>
+  <div class="markdown level0 summary"><p>A bundle of information describing the type of a device or feature.</p>
+<p>
+This is used to describe the device/feature in a manner that is easily understood by UI generation engines
+ and other smart home platforms. When these systems can understand what this device/feature is, they are
+ better able to tailor the experience of the user to their expectations.
+</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <br>
   <h3 id="properties">Properties
   </h3>
   
@@ -384,22 +389,22 @@ This should always represent whether the item is a device or feature.</p>
       <div><a class="xref" href="HomeSeer.PluginSdk.Devices.Identification.EFeatureType.html">EFeatureType</a></div>
   </div>
 </article>
-          </div>
-          
-          <div class="hidden-sm col-md-2" role="complementary">
-            <div class="sideaffix">
-              <div class="contribution">
-                <ul class="nav">
-                  <li>
-                    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Devices/Identification/TypeInfo.cs/#L16" class="contribution-link">View Source</a>
-                  </li>
-                </ul>
-              </div>
-              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
-              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
-              </nav>
+      </div>
+        
+        <div class="hidden-sm col-md-2" role="complementary">
+          <div class="sideaffix" id="ps-sideaffix">
+            <div class="contribution">
+              <ul class="nav">
+                <li>
+                  <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Devices/Identification/TypeInfo.cs/#L16" class="contribution-link">View Source</a>
+                </li>
+              </ul>
             </div>
+            <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+            <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+            </nav>
           </div>
+        </div>
         </div>
       </div>
       
@@ -420,5 +425,8 @@ This should always represent whether the item is a device or feature.</p>
     <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
     <script type="text/javascript" src="../styles/docfx.js"></script>
     <script type="text/javascript" src="../styles/main.js"></script>
-  </body>
+    <script type="text/javascript" src="../styles/perfect-scrollbar.js"></script>
+    <script type="text/javascript">
+        const ps = new PerfectScrollbar('#ps-sideaffix');
+    </script>  </body>
 </html>

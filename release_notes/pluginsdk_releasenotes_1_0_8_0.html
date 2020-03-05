@@ -14,6 +14,7 @@
     <link rel="stylesheet" href="../styles/docfx.vendor.css">
     <link rel="stylesheet" href="../styles/docfx.css">
     <link rel="stylesheet" href="../styles/main.css">
+    <link rel="stylesheet" href="../styles/perfect-scrollbar.css">
     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet"> 
     <meta property="docfx:navrel" content="../toc.html">
     <meta property="docfx:tocrel" content="toc.html">
@@ -66,7 +67,7 @@
           <ul id="pagination"></ul>
         </div>
       </div>
-      <div role="main" class="container body-content hide-when-search">
+      <div role="main" class="container-fluid body-content hide-when-search">
         
         <div class="sidenav hide-when-search">
           <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
@@ -75,8 +76,9 @@
           </div>
         </div>
         <div class="article row grid-right">
-          <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="">
+      <div class="col-md-2"></div>
+      <div class="col-md-8 card">
+        <article class="content wrap" id="_content" data-uid="">
 <h1 id="plugin-sdk-v1080-release-notes">Plugin SDK v1.0.8.0 Release Notes</h1>
 
 <ul>
@@ -90,19 +92,19 @@
 <li>Update StatusGraphic so blank labels are acceptable - a single space</li>
 </ul>
 </article>
-          </div>
-          
-          <div class="hidden-sm col-md-2" role="complementary">
-            <div class="sideaffix">
-              <div class="contribution">
-                <ul class="nav">
-                </ul>
-              </div>
-              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
-              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
-              </nav>
+      </div>
+        
+        <div class="hidden-sm col-md-2" role="complementary">
+          <div class="sideaffix" id="ps-sideaffix">
+            <div class="contribution">
+              <ul class="nav">
+              </ul>
             </div>
+            <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+            <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+            </nav>
           </div>
+        </div>
         </div>
       </div>
       
@@ -123,5 +125,8 @@
     <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
     <script type="text/javascript" src="../styles/docfx.js"></script>
     <script type="text/javascript" src="../styles/main.js"></script>
-  </body>
+    <script type="text/javascript" src="../styles/perfect-scrollbar.js"></script>
+    <script type="text/javascript">
+        const ps = new PerfectScrollbar('#ps-sideaffix');
+    </script>  </body>
 </html>

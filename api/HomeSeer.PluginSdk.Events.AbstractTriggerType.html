@@ -16,6 +16,7 @@
     <link rel="stylesheet" href="../styles/docfx.vendor.css">
     <link rel="stylesheet" href="../styles/docfx.css">
     <link rel="stylesheet" href="../styles/main.css">
+    <link rel="stylesheet" href="../styles/perfect-scrollbar.css">
     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet"> 
     <meta property="docfx:navrel" content="../toc.html">
     <meta property="docfx:tocrel" content="toc.html">
@@ -68,7 +69,7 @@
           <ul id="pagination"></ul>
         </div>
       </div>
-      <div role="main" class="container body-content hide-when-search">
+      <div role="main" class="container-fluid body-content hide-when-search">
         
         <div class="sidenav hide-when-search">
           <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
@@ -77,18 +78,33 @@
           </div>
         </div>
         <div class="article row grid-right">
-          <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="HomeSeer.PluginSdk.Events.AbstractTriggerType">
+      <div class="col-md-2"></div>
+      <div class="col-md-8 card">
+        <article class="content wrap" id="_content" data-uid="HomeSeer.PluginSdk.Events.AbstractTriggerType">
   
   
   <h1 id="HomeSeer_PluginSdk_Events_AbstractTriggerType" data-uid="HomeSeer.PluginSdk.Events.AbstractTriggerType" class="text-break">Class AbstractTriggerType
   </h1>
-  <div class="markdown level0 summary"><p>The base implementation of a plugin trigger type available for users to select in HomeSeer</p>
-<p>
-Inherit from this class to define your own trigger types and store them in your plugin&apos;s <a class="xref" href="HomeSeer.PluginSdk.Events.TriggerTypeCollection.html">TriggerTypeCollection</a>
-</p>
-</div>
-  <div class="markdown level0 conceptual"></div>
+  <div class="tabGroup" id="tabgroup_syntax">
+      <ul role="tablist">
+          <li role="presentation">
+              <a href="#tabpanel_syntax_cs" tabindex="0" role="tab" aria-controls="tabpanel_syntax_cs" data-tab="cs" aria-selected="true">C#</a>
+          </li>
+          <li role="presentation">
+              <a href="#tabpanel_syntax_vb" tabindex="-1" role="tab" aria-controls="tabpanel_syntax_vb" data-tab="vb">Visual Basic</a>
+          </li>
+      </ul>
+      <section id="tabpanel_syntax_cs" role="tabpanel" data-tab="cs">
+          <div class="codewrapper">
+            <pre><code class="lang-System.Object[] hljs">public abstract class AbstractTriggerType</code></pre>
+          </div>
+      </section>
+      <section id="tabpanel_syntax_vb" role="tabpanel" data-tab="vb" aria-hidden="true" hidden="">
+          <div class="codewrapper">
+            <pre><code class="lang-System.Object[] hljs">Public MustInherit Class AbstractTriggerType</code></pre>
+          </div>
+      </section>
+  </div>
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><span class="xref">System.Object</span></div>
@@ -118,30 +134,77 @@ Inherit from this class to define your own trigger types and store them in your 
       <span class="xref">System.Object.MemberwiseClone()</span>
     </div>
   </div>
+  <div>
   <h6><strong>Namespace</strong>: <a class="xref" href="HomeSeer.PluginSdk.Events.html">HomeSeer.PluginSdk.Events</a></h6>
   <h6><strong>Assembly</strong>: PluginSdk.dll</h6>
-  <h5 id="HomeSeer_PluginSdk_Events_AbstractTriggerType_syntax">Syntax</h5>
-  <div class="tabGroup" id="tabgroup_syntax">
-      <ul role="tablist">
-          <li role="presentation">
-              <a href="#tabpanel_syntax_cs" tabindex="0" role="tab" aria-controls="tabpanel_syntax_cs" data-tab="cs" aria-selected="true">C#</a>
-          </li>
-          <li role="presentation">
-              <a href="#tabpanel_syntax_vb" tabindex="-1" role="tab" aria-controls="tabpanel_syntax_vb" data-tab="vb">Visual Basic</a>
-          </li>
-      </ul>
-      <section id="tabpanel_syntax_cs" role="tabpanel" data-tab="cs">
-          <div class="codewrapper">
-            <pre><code class="lang-System.Object[] hljs">public abstract class AbstractTriggerType</code></pre>
-          </div>
-      </section>
-      <section id="tabpanel_syntax_vb" role="tabpanel" data-tab="vb" aria-hidden="true" hidden="">
-          <div class="codewrapper">
-            <pre><code class="lang-System.Object[] hljs">Public MustInherit Class AbstractTriggerType</code></pre>
-          </div>
-      </section>
   </div>
-  
+  <hr>
+  <br>
+  <div class="markdown level0 summary"><p>The base implementation of a plugin trigger type available for users to select in HomeSeer</p>
+<p>
+Inherit from this class to define your own trigger types and store them in your plugin&apos;s <a class="xref" href="HomeSeer.PluginSdk.Events.TriggerTypeCollection.html">TriggerTypeCollection</a>
+</p>
+</div>
+  <div class="markdown level0 conceptual"><h3 id="basic-usage">Basic Usage</h3>
+<p>Define a class in your plugin that inherits from <code>AbstractTriggerType</code> and implements the required members</p>
+<ul>
+<li><a class="xref" href="HomeSeer.PluginSdk.Events.AbstractTriggerType.html#HomeSeer_PluginSdk_Events_AbstractTriggerType_GetName_"><code>AbstractTriggerType.GetName()</code></a></li>
+<li><a class="xref" href="HomeSeer.PluginSdk.Events.AbstractTriggerType.html#HomeSeer_PluginSdk_Events_AbstractTriggerType_OnNewTrigger_"><code>AbstractTriggerType.OnNewTrigger()</code></a></li>
+<li><a class="xref" href="HomeSeer.PluginSdk.Events.AbstractTriggerType.html#HomeSeer_PluginSdk_Events_AbstractTriggerType_IsFullyConfigured_"><code>AbstractTriggerType.IsFullyConfigured()</code></a></li>
+<li><a class="xref" href="HomeSeer.PluginSdk.Events.AbstractTriggerType.html#HomeSeer_PluginSdk_Events_AbstractTriggerType_OnConfigItemUpdate_"><code>AbstractTriggerType.OnConfigItemUpdate(AbstractView)</code></a></li>
+<li><a class="xref" href="HomeSeer.PluginSdk.Events.AbstractTriggerType.html#HomeSeer_PluginSdk_Events_AbstractTriggerType_GetPrettyString_"><code>AbstractTriggerType.GetPrettyString()</code></a></li>
+<li><a class="xref" href="HomeSeer.PluginSdk.Events.AbstractTriggerType.html#HomeSeer_PluginSdk_Events_AbstractTriggerType_IsTriggerTrue_"><code>AbstractTriggerType.IsTriggerTrue()</code></a></li>
+<li><a class="xref" href="HomeSeer.PluginSdk.Events.AbstractTriggerType.html#HomeSeer_PluginSdk_Events_AbstractTriggerType_ReferencesDeviceOrFeature_"><code>AbstractTriggerType.ReferencesDeviceOrFeature()</code></a></li>
+</ul>
+<pre><code class="lang-cs">public class MyCustomTriggerType : AbstractTriggerType {
+    
+	//All of these constructors must be implemented as is
+	protected MyCustomTriggerType(int id, int subTypeNumber, int eventRef, byte[] dataIn, TriggerTypeCollection.ITriggerTypeListener listener) : base(id, subTypeNumber, eventRef, dataIn, listener) { }
+	protected MyCustomTriggerType() {}
+	//No code should be contained within these constructors
+	
+	//Return the display name of this trigger type
+	protected override string GetName() =&gt; &quot;My Custom Trigger Type&quot;;
+	
+	protected override void OnNewTrigger() {
+		//Initialize the config page for a new trigger of this type
+	}
+	
+	public override bool IsFullyConfigured() {
+		//Return whether the trigger is fully configured or not
+	}
+	
+	protected override bool OnConfigItemUpdate(AbstractView configViewChange) {
+		//React to changes to the trigger configuration
+	}
+	
+	public override string GetPrettyString() {
+		//Return a string describing the trigger to take
+	}
+	
+	public override bool IsTriggerTrue() {
+		//Return whether the trigger condition has been met or not
+	}
+	
+	public override bool ReferencesDeviceOrFeature(int devOrFeatRef) =&gt; false;
+}
+</code></pre>
+<p>and add it to the <a class="xref" href="HomeSeer.PluginSdk.Events.TriggerTypeCollection.html"><code>TriggerTypeCollection</code></a> implementation in your plugin class</p>
+<pre><code class="lang-cs">protected override void Initialize() {
+    ...
+    TriggerTypes.AddTriggerType(typeof(MyCustomTriggerType));
+    ...
+ }
+</code></pre>
+<h3 id="lifecycle">Lifecycle</h3>
+<p>It is important to not include any additional code in the constructors for custom trigger types because the lifecycle of triggers is managed by the HomeSeer platform.  Methods like <a class="xref" href="HomeSeer.PluginSdk.Events.AbstractTriggerType.html#HomeSeer_PluginSdk_Events_AbstractTriggerType_OnNewTrigger_"><code>AbstractTriggerType.OnNewTrigger()</code></a>, <a class="xref" href="HomeSeer.PluginSdk.Events.AbstractTriggerType.html#HomeSeer_PluginSdk_Events_AbstractTriggerType_IsFullyConfigured_"><code>AbstractTriggerType.IsFullyConfigured()</code></a>, and <a class="xref" href="HomeSeer.PluginSdk.Events.AbstractTriggerType.html#HomeSeer_PluginSdk_Events_AbstractTriggerType_OnConfigItemUpdate_"><code>AbstractTriggerType.OnConfigItemUpdate(AbstractView)</code></a> are called by HomeSeer throughout the life of the trigger.  Include the corresponding logic for your custom trigger type in the relevant methods.</p>
+<p>The typical lifecycle of an trigger can be seen in the following diagram.</p>
+<p><img src="../images/Event_Trigger_Lifecycle.png" alt="Event Trigger Lifecycle"></p>
+<blockquote>
+<p>** Edits made to <a class="xref" href="HomeSeer.Jui.Views.InputView.html">InputViews</a> are not automatically captured like other <a class="xref" href="HomeSeer.Jui.Types.EViewType.html">ViewTypes</a> and will only call <a class="xref" href="HomeSeer.PluginSdk.Events.AbstractTriggerType.html#HomeSeer_PluginSdk_Events_AbstractTriggerType_OnConfigItemUpdate_">OnConfigItemUpdate()</a> when the user clicks the Save button.</p>
+</blockquote>
+</div>
+  <br>
   <h3 id="constructors">Constructors
   </h3>
   
@@ -1598,22 +1661,22 @@ This HTML is automatically generated by the <a class="xref" href="HomeSeer.Plugi
     </tbody>
   </table>
 </article>
-          </div>
-          
-          <div class="hidden-sm col-md-2" role="complementary">
-            <div class="sideaffix">
-              <div class="contribution">
-                <ul class="nav">
-                  <li>
-                    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Events/AbstractTriggerType.cs/#L16" class="contribution-link">View Source</a>
-                  </li>
-                </ul>
-              </div>
-              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
-              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
-              </nav>
+      </div>
+        
+        <div class="hidden-sm col-md-2" role="complementary">
+          <div class="sideaffix" id="ps-sideaffix">
+            <div class="contribution">
+              <ul class="nav">
+                <li>
+                  <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Events/AbstractTriggerType.cs/#L16" class="contribution-link">View Source</a>
+                </li>
+              </ul>
             </div>
+            <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+            <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+            </nav>
           </div>
+        </div>
         </div>
       </div>
       
@@ -1634,5 +1697,8 @@ This HTML is automatically generated by the <a class="xref" href="HomeSeer.Plugi
     <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
     <script type="text/javascript" src="../styles/docfx.js"></script>
     <script type="text/javascript" src="../styles/main.js"></script>
-  </body>
+    <script type="text/javascript" src="../styles/perfect-scrollbar.js"></script>
+    <script type="text/javascript">
+        const ps = new PerfectScrollbar('#ps-sideaffix');
+    </script>  </body>
 </html>

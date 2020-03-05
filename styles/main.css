@@ -253,10 +253,37 @@ pre {
   background-color: #fffaef;
   border-radius: 4px;
   border: none;
-  box-shadow: var(--custom-box-shadow);
+  /*box-shadow: var(--custom-box-shadow);*/
 }
 
 /* HOMESEER CUSTOM */
 .contribution-link[href~="SDK/blob/dev"] {
 	display: none !important;
+}
+
+h5.syntax {
+  border-bottom: 1px solid #ccc;
+}
+
+pre {
+  overflow-x: auto !important;
+}
+
+pre::-webkit-scrollbar {
+  -webkit-appearance: none;
+  height: 8px;
+}
+
+pre::-webkit-scrollbar-thumb {
+  border-radius: 4px;
+  background-color: rgba(0,64,105,0.44);
+  -webkit-box-shadow: 0 0 1px rgba(255, 255, 255, .75);
+}
+
+pre code {
+  white-space: pre;
+}
+
+div.card {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
 }

@@ -16,6 +16,7 @@
     <link rel="stylesheet" href="../styles/docfx.vendor.css">
     <link rel="stylesheet" href="../styles/docfx.css">
     <link rel="stylesheet" href="../styles/main.css">
+    <link rel="stylesheet" href="../styles/perfect-scrollbar.css">
     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet"> 
     <meta property="docfx:navrel" content="../toc.html">
     <meta property="docfx:tocrel" content="toc.html">
@@ -68,7 +69,7 @@
           <ul id="pagination"></ul>
         </div>
       </div>
-      <div role="main" class="container body-content hide-when-search">
+      <div role="main" class="container-fluid body-content hide-when-search">
         
         <div class="sidenav hide-when-search">
           <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
@@ -77,22 +78,34 @@
           </div>
         </div>
         <div class="article row grid-right">
-          <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="HomeSeer.PluginSdk.AbstractPlugin">
+      <div class="col-md-2"></div>
+      <div class="col-md-8 card">
+        <article class="content wrap" id="_content" data-uid="HomeSeer.PluginSdk.AbstractPlugin">
   
   
   <h1 id="HomeSeer_PluginSdk_AbstractPlugin" data-uid="HomeSeer.PluginSdk.AbstractPlugin" class="text-break">Class AbstractPlugin
   </h1>
-  <div class="markdown level0 summary"><p>The base implementation of the <a class="xref" href="HomeSeer.PluginSdk.IPlugin.html">IPlugin</a> interface.</p>
-<p>
-It includes default implementations for most of the IPlugin members and wraps others
- with convenience methods and objects that make it simpler to interface with the HomeSeer system.
-<p>Once the containing plugin application is started, initiate a connection
-to the HomeSeer system by calling <a class="xref" href="HomeSeer.PluginSdk.AbstractPlugin.html#HomeSeer_PluginSdk_AbstractPlugin_Connect_System_String___">Connect(String[])</a>.</p>
-</p>
-<p>All plugins (the HSPI class) should derive from this class.</p>
-</div>
-  <div class="markdown level0 conceptual"></div>
+  <div class="tabGroup" id="tabgroup_syntax">
+      <ul role="tablist">
+          <li role="presentation">
+              <a href="#tabpanel_syntax_cs" tabindex="0" role="tab" aria-controls="tabpanel_syntax_cs" data-tab="cs" aria-selected="true">C#</a>
+          </li>
+          <li role="presentation">
+              <a href="#tabpanel_syntax_vb" tabindex="-1" role="tab" aria-controls="tabpanel_syntax_vb" data-tab="vb">Visual Basic</a>
+          </li>
+      </ul>
+      <section id="tabpanel_syntax_cs" role="tabpanel" data-tab="cs">
+          <div class="codewrapper">
+            <pre><code class="lang-System.Object[] hljs">public abstract class AbstractPlugin : IPlugin, ActionTypeCollection.IActionTypeListener, TriggerTypeCollection.ITriggerTypeListener</code></pre>
+          </div>
+      </section>
+      <section id="tabpanel_syntax_vb" role="tabpanel" data-tab="vb" aria-hidden="true" hidden="">
+          <div class="codewrapper">
+            <pre><code class="lang-System.Object[] hljs">Public MustInherit Class AbstractPlugin
+    Implements IPlugin, ActionTypeCollection.IActionTypeListener, TriggerTypeCollection.ITriggerTypeListener</code></pre>
+          </div>
+      </section>
+  </div>
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><span class="xref">System.Object</span></div>
@@ -128,31 +141,58 @@ to the HomeSeer system by calling <a class="xref" href="HomeSeer.PluginSdk.Abstr
       <span class="xref">System.Object.MemberwiseClone()</span>
     </div>
   </div>
+  <div>
   <h6><strong>Namespace</strong>: <a class="xref" href="HomeSeer.PluginSdk.html">HomeSeer.PluginSdk</a></h6>
   <h6><strong>Assembly</strong>: PluginSdk.dll</h6>
-  <h5 id="HomeSeer_PluginSdk_AbstractPlugin_syntax">Syntax</h5>
-  <div class="tabGroup" id="tabgroup_syntax">
-      <ul role="tablist">
-          <li role="presentation">
-              <a href="#tabpanel_syntax_cs" tabindex="0" role="tab" aria-controls="tabpanel_syntax_cs" data-tab="cs" aria-selected="true">C#</a>
-          </li>
-          <li role="presentation">
-              <a href="#tabpanel_syntax_vb" tabindex="-1" role="tab" aria-controls="tabpanel_syntax_vb" data-tab="vb">Visual Basic</a>
-          </li>
-      </ul>
-      <section id="tabpanel_syntax_cs" role="tabpanel" data-tab="cs">
-          <div class="codewrapper">
-            <pre><code class="lang-System.Object[] hljs">public abstract class AbstractPlugin : IPlugin, ActionTypeCollection.IActionTypeListener, TriggerTypeCollection.ITriggerTypeListener</code></pre>
-          </div>
-      </section>
-      <section id="tabpanel_syntax_vb" role="tabpanel" data-tab="vb" aria-hidden="true" hidden="">
-          <div class="codewrapper">
-            <pre><code class="lang-System.Object[] hljs">Public MustInherit Class AbstractPlugin
-    Implements IPlugin, ActionTypeCollection.IActionTypeListener, TriggerTypeCollection.ITriggerTypeListener</code></pre>
-          </div>
-      </section>
   </div>
-  
+  <hr>
+  <br>
+  <div class="markdown level0 summary"><p>The base implementation of the <a class="xref" href="HomeSeer.PluginSdk.IPlugin.html">IPlugin</a> interface.</p>
+<p>
+It includes default implementations for most of the IPlugin members and wraps others
+ with convenience methods and objects that make it simpler to interface with the HomeSeer system.
+<p>Once the containing plugin application is started, initiate a connection
+to the HomeSeer system by calling <a class="xref" href="HomeSeer.PluginSdk.AbstractPlugin.html#HomeSeer_PluginSdk_AbstractPlugin_Connect_System_String___">Connect(String[])</a>.</p>
+</p>
+<p>All plugins (the HSPI class) should derive from this class.</p>
+</div>
+  <div class="markdown level0 conceptual"><h3 id="basic-usage">Basic Usage</h3>
+<p>Define a class in your plugin called <code>HSPI</code> that inherits from <code>AbstractPlugin</code> and implement the required members:</p>
+<ul>
+<li><a class="xref" href="HomeSeer.PluginSdk.AbstractPlugin.html#HomeSeer_PluginSdk_AbstractPlugin_Id"><code>AbstractPlugin.Id</code></a></li>
+<li><a class="xref" href="HomeSeer.PluginSdk.AbstractPlugin.html#HomeSeer_PluginSdk_AbstractPlugin_Name"><code>AbstractPlugin.Name</code></a></li>
+<li><a class="xref" href="HomeSeer.PluginSdk.AbstractPlugin.html#HomeSeer_PluginSdk_AbstractPlugin_Initialize_"><code>AbstractPlugin.Initialize()</code></a></li>
+<li><a class="xref" href="HomeSeer.PluginSdk.AbstractPlugin.html#HomeSeer_PluginSdk_AbstractPlugin_OnSettingChange_"><code>AbstractPlugin.OnSettingChange(string, AbstractView, AbstractView)</code></a></li>
+<li><a class="xref" href="HomeSeer.PluginSdk.AbstractPlugin.html#HomeSeer_PluginSdk_AbstractPlugin_BeforeReturnStatus_"><code>AbstractPlugin.BeforeReturnStatus()</code></a></li>
+<li><a class="xref" href="HomeSeer.PluginSdk.AbstractPlugin.html#HomeSeer_PluginSdk_AbstractPlugin_PostBackProc_"><code>AbstractPlugin.PostBackProc(string, string, string, int)</code></a></li>
+</ul>
+<pre><code class="lang-cs">public class HSPI : AbstractPlugin {
+    
+	public override string Id { get; } = &quot;PLUGINID&quot;;
+	public override string Name { get; } = &quot;PLUGINNAME&quot;
+	
+	public HSPI() {	}
+	
+	protected override void Initialize() {
+		//Initialize the starting state of the plugin
+		Status = PluginStatus.Ok();
+	}
+	
+	protected override bool OnSettingChange(string pageId, AbstractView currentView, AbstractView changedView) {
+		//React to changes to your plugin settings
+	}
+	
+	protected override void BeforeReturnStatus() {
+		//Update the status of your plugin before it is returned to HomeSeer
+	}
+	
+	public override string PostBackProc(string page, string data, string user, int userRights) {
+		//React to HTTP POST methods sent to feature pages owned by this plugin
+	}
+}
+</code></pre>
+</div>
+  <br>
   <h3 id="constructors">Constructors
   </h3>
   
@@ -3501,22 +3541,22 @@ This should force the device/feature to update its current status on HomeSeer.
       <a class="xref" href="HomeSeer.PluginSdk.Events.TriggerTypeCollection.ITriggerTypeListener.html">TriggerTypeCollection.ITriggerTypeListener</a>
   </div>
 </article>
-          </div>
-          
-          <div class="hidden-sm col-md-2" role="complementary">
-            <div class="sideaffix">
-              <div class="contribution">
-                <ul class="nav">
-                  <li>
-                    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/AbstractPlugin.cs/#L30" class="contribution-link">View Source</a>
-                  </li>
-                </ul>
-              </div>
-              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
-              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
-              </nav>
+      </div>
+        
+        <div class="hidden-sm col-md-2" role="complementary">
+          <div class="sideaffix" id="ps-sideaffix">
+            <div class="contribution">
+              <ul class="nav">
+                <li>
+                  <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/AbstractPlugin.cs/#L30" class="contribution-link">View Source</a>
+                </li>
+              </ul>
             </div>
+            <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+            <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+            </nav>
           </div>
+        </div>
         </div>
       </div>
       
@@ -3537,5 +3577,8 @@ This should force the device/feature to update its current status on HomeSeer.
     <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
     <script type="text/javascript" src="../styles/docfx.js"></script>
     <script type="text/javascript" src="../styles/main.js"></script>
-  </body>
+    <script type="text/javascript" src="../styles/perfect-scrollbar.js"></script>
+    <script type="text/javascript">
+        const ps = new PerfectScrollbar('#ps-sideaffix');
+    </script>  </body>
 </html>
