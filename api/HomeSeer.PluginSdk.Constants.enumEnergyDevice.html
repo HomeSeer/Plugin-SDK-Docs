@@ -111,7 +111,10 @@
   </div>
   <hr>
   <br>
-  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 summary"><p>PLEASE NOTE: Code related to the Energy components in HomeSeer were ported from the HS3 plugin API and
+have not been fully tested to verify full functionality from the new SDK. The Energy API may undergo
+significant changes in the near future. Please use with caution.</p>
+</div>
   <div class="markdown level0 conceptual"></div>
   <br>
   <h3 id="fields">Fields
@@ -126,127 +129,158 @@
     <tbody>
       <tr>
         <td id="HomeSeer_PluginSdk_Constants_enumEnergyDevice__Undefined_">_Undefined_</td>
-        <td></td>
+        <td><p>Not defined</p>
+</td>
       </tr>
       <tr>
         <td id="HomeSeer_PluginSdk_Constants_enumEnergyDevice_Appliance">Appliance</td>
-        <td></td>
+        <td><p>Any appliance</p>
+</td>
       </tr>
       <tr>
         <td id="HomeSeer_PluginSdk_Constants_enumEnergyDevice_Appliance_Large">Appliance_Large</td>
-        <td></td>
+        <td><p>A large appliance such as an oven</p>
+</td>
       </tr>
       <tr>
         <td id="HomeSeer_PluginSdk_Constants_enumEnergyDevice_Appliance_Small">Appliance_Small</td>
-        <td></td>
+        <td><p>A small appliance such as a toaster</p>
+</td>
       </tr>
       <tr>
         <td id="HomeSeer_PluginSdk_Constants_enumEnergyDevice_Electric_AC">Electric_AC</td>
-        <td></td>
+        <td><p>An Air Conditioning device</p>
+</td>
       </tr>
       <tr>
         <td id="HomeSeer_PluginSdk_Constants_enumEnergyDevice_Electric_Heat">Electric_Heat</td>
-        <td></td>
+        <td><p>An electric heating device</p>
+</td>
       </tr>
       <tr>
         <td id="HomeSeer_PluginSdk_Constants_enumEnergyDevice_Entertainment">Entertainment</td>
-        <td></td>
+        <td><p>An entertainment device</p>
+</td>
       </tr>
       <tr>
         <td id="HomeSeer_PluginSdk_Constants_enumEnergyDevice_Entertainment_Large">Entertainment_Large</td>
-        <td></td>
+        <td><p>A large entertainment device such as a home theatre system</p>
+</td>
       </tr>
       <tr>
         <td id="HomeSeer_PluginSdk_Constants_enumEnergyDevice_Entertainment_Small">Entertainment_Small</td>
-        <td></td>
+        <td><p>A small entertainment device such as a radio</p>
+</td>
       </tr>
       <tr>
         <td id="HomeSeer_PluginSdk_Constants_enumEnergyDevice_Generator">Generator</td>
-        <td></td>
+        <td><p>An electricity producing generator.</p>
+</td>
       </tr>
       <tr>
         <td id="HomeSeer_PluginSdk_Constants_enumEnergyDevice_HVAC">HVAC</td>
-        <td></td>
+        <td><p>An HVAC device</p>
+</td>
       </tr>
       <tr>
         <td id="HomeSeer_PluginSdk_Constants_enumEnergyDevice_Light_Large">Light_Large</td>
-        <td></td>
+        <td><p>A large light or several lights</p>
+</td>
       </tr>
       <tr>
         <td id="HomeSeer_PluginSdk_Constants_enumEnergyDevice_Light_Small">Light_Small</td>
-        <td></td>
+        <td><p>A small light</p>
+</td>
       </tr>
       <tr>
         <td id="HomeSeer_PluginSdk_Constants_enumEnergyDevice_Meter">Meter</td>
-        <td></td>
+        <td><p>An electric meter measuring usage for an unspecified or general purpose.</p>
+</td>
       </tr>
       <tr>
         <td id="HomeSeer_PluginSdk_Constants_enumEnergyDevice_Meter_Device">Meter_Device</td>
-        <td></td>
+        <td><p>An electric meter measuring usage for a single device.</p>
+</td>
       </tr>
       <tr>
         <td id="HomeSeer_PluginSdk_Constants_enumEnergyDevice_Meter_Service">Meter_Service</td>
-        <td></td>
+        <td><p>An electric meter measuring usage for electrical service such as a house service entrance.</p>
+</td>
       </tr>
       <tr>
         <td id="HomeSeer_PluginSdk_Constants_enumEnergyDevice_Other">Other</td>
-        <td></td>
+        <td><p>A device (consumer or producer) that does not fit any other device type.</p>
+</td>
       </tr>
       <tr>
         <td id="HomeSeer_PluginSdk_Constants_enumEnergyDevice_Panel">Panel</td>
-        <td></td>
+        <td><p>An electrical panel providing several branches of electrical service to the home.</p>
+</td>
       </tr>
       <tr>
         <td id="HomeSeer_PluginSdk_Constants_enumEnergyDevice_Panel_A">Panel_A</td>
-        <td></td>
+        <td><p>An electrical panel providing several branches of electrical service to the home.</p>
+</td>
       </tr>
       <tr>
         <td id="HomeSeer_PluginSdk_Constants_enumEnergyDevice_Panel_B">Panel_B</td>
-        <td></td>
+        <td><p>An electrical panel providing several branches of electrical service to the home.</p>
+</td>
       </tr>
       <tr>
         <td id="HomeSeer_PluginSdk_Constants_enumEnergyDevice_Panel_C">Panel_C</td>
-        <td></td>
+        <td><p>An electrical panel providing several branches of electrical service to the home.</p>
+</td>
       </tr>
       <tr>
         <td id="HomeSeer_PluginSdk_Constants_enumEnergyDevice_Panel_D">Panel_D</td>
-        <td></td>
+        <td><p>An electrical panel providing several branches of electrical service to the home.</p>
+</td>
       </tr>
       <tr>
         <td id="HomeSeer_PluginSdk_Constants_enumEnergyDevice_Panel_E">Panel_E</td>
-        <td></td>
+        <td><p>An electrical panel providing several branches of electrical service to the home.</p>
+</td>
       </tr>
       <tr>
         <td id="HomeSeer_PluginSdk_Constants_enumEnergyDevice_Panel_F">Panel_F</td>
-        <td></td>
+        <td><p>An electrical panel providing several branches of electrical service to the home.</p>
+</td>
       </tr>
       <tr>
         <td id="HomeSeer_PluginSdk_Constants_enumEnergyDevice_Root">Root</td>
-        <td></td>
+        <td><p>The root device for child energy devices.</p>
+</td>
       </tr>
       <tr>
         <td id="HomeSeer_PluginSdk_Constants_enumEnergyDevice_Solar_Panel">Solar_Panel</td>
-        <td></td>
+        <td><p>An electricity producing solar panel.</p>
+</td>
       </tr>
       <tr>
         <td id="HomeSeer_PluginSdk_Constants_enumEnergyDevice_Utility">Utility</td>
-        <td></td>
+        <td><p>A utility device</p>
+</td>
       </tr>
       <tr>
         <td id="HomeSeer_PluginSdk_Constants_enumEnergyDevice_Utility_Large">Utility_Large</td>
-        <td></td>
+        <td><p>A large utility device such as a well pump</p>
+</td>
       </tr>
       <tr>
         <td id="HomeSeer_PluginSdk_Constants_enumEnergyDevice_Utility_Small">Utility_Small</td>
-        <td></td>
+        <td><p>A small utility device such as a water filter</p>
+</td>
       </tr>
       <tr>
         <td id="HomeSeer_PluginSdk_Constants_enumEnergyDevice_Water_Turbine">Water_Turbine</td>
-        <td></td>
+        <td><p>An electricity producing water (wave) turbine.</p>
+</td>
       </tr>
       <tr>
         <td id="HomeSeer_PluginSdk_Constants_enumEnergyDevice_Wind_Turbine">Wind_Turbine</td>
-        <td></td>
+        <td><p>An electricity producing wind turbine.</p>
+</td>
       </tr>
     </tbody>
   </thead></thead></table>
@@ -258,7 +292,7 @@
             <div class="contribution">
               <ul class="nav">
                 <li>
-                  <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Constants.cs/#L188" class="contribution-link">View Source</a>
+                  <a href="https://github.com/HomeSeer/Plugin-SDK/blob/github-master/Constants.cs/#L270" class="contribution-link">View Source</a>
                 </li>
               </ul>
             </div>

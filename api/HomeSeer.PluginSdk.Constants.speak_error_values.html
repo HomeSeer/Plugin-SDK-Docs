@@ -96,12 +96,14 @@
       </ul>
       <section id="tabpanel_syntax_cs" role="tabpanel" data-tab="cs">
           <div class="codewrapper">
-            <pre><code class="lang-System.Object[] hljs">public enum speak_error_values</code></pre>
+            <pre><code class="lang-System.Object[] hljs">[Obsolete(&quot;This will be removed in a future release. Please use Speech.ESpeakErrorValue as of v1.0.8.1&quot;, false)]
+public enum speak_error_values</code></pre>
           </div>
       </section>
       <section id="tabpanel_syntax_vb" role="tabpanel" data-tab="vb" aria-hidden="true" hidden="">
           <div class="codewrapper">
-            <pre><code class="lang-System.Object[] hljs">Public Enum speak_error_values</code></pre>
+            <pre><code class="lang-System.Object[] hljs">&lt;Obsolete(&quot;This will be removed in a future release. Please use Speech.ESpeakErrorValue as of v1.0.8.1&quot;, False)&gt;
+Public Enum speak_error_values</code></pre>
           </div>
       </section>
   </div>
@@ -111,7 +113,10 @@
   </div>
   <hr>
   <br>
-  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 summary"><p>PLEASE NOTE: Code related to the Speech components in HomeSeer were ported from the HS3 plugin API and
+have not been fully tested to verify full functionality from the new SDK. The Speech API may undergo
+significant changes in the near future. Please use with caution.</p>
+</div>
   <div class="markdown level0 conceptual"></div>
   <br>
   <h3 id="fields">Fields
@@ -146,7 +151,7 @@
             <div class="contribution">
               <ul class="nav">
                 <li>
-                  <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Constants.cs/#L238" class="contribution-link">View Source</a>
+                  <a href="https://github.com/HomeSeer/Plugin-SDK/blob/github-master/Constants.cs/#L428" class="contribution-link">View Source</a>
                 </li>
               </ul>
             </div>

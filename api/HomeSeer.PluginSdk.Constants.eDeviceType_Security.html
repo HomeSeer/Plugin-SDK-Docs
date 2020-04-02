@@ -96,12 +96,14 @@
       </ul>
       <section id="tabpanel_syntax_cs" role="tabpanel" data-tab="cs">
           <div class="codewrapper">
-            <pre><code class="lang-System.Object[] hljs">public enum eDeviceType_Security</code></pre>
+            <pre><code class="lang-System.Object[] hljs">[Obsolete(&quot;Do not use this Enum. This is only available to aid in upgrading legacy plugins. Use Devices.Identification instead&quot;, false)]
+public enum eDeviceType_Security</code></pre>
           </div>
       </section>
       <section id="tabpanel_syntax_vb" role="tabpanel" data-tab="vb" aria-hidden="true" hidden="">
           <div class="codewrapper">
-            <pre><code class="lang-System.Object[] hljs">Public Enum eDeviceType_Security</code></pre>
+            <pre><code class="lang-System.Object[] hljs">&lt;Obsolete(&quot;Do not use this Enum. This is only available to aid in upgrading legacy plugins. Use Devices.Identification instead&quot;, False)&gt;
+Public Enum eDeviceType_Security</code></pre>
           </div>
       </section>
   </div>
@@ -134,7 +136,8 @@
       </tr>
       <tr>
         <td id="HomeSeer_PluginSdk_Constants_eDeviceType_Security_Communicator">Communicator</td>
-        <td></td>
+        <td><p>Communicator status and (if available) control</p>
+</td>
       </tr>
       <tr>
         <td id="HomeSeer_PluginSdk_Constants_eDeviceType_Security_Keypad">Keypad</td>
@@ -142,59 +145,73 @@
       </tr>
       <tr>
         <td id="HomeSeer_PluginSdk_Constants_eDeviceType_Security_Output_Other">Output_Other</td>
-        <td></td>
+        <td><p>A general purpose output (could be virtual as in a 'flag' output)</p>
+</td>
       </tr>
       <tr>
         <td id="HomeSeer_PluginSdk_Constants_eDeviceType_Security_Output_Relay">Output_Relay</td>
-        <td></td>
+        <td><p>A general purpose output relay</p>
+</td>
       </tr>
       <tr>
         <td id="HomeSeer_PluginSdk_Constants_eDeviceType_Security_Root">Root</td>
-        <td></td>
+        <td><p>Indicates a root device of a root/child grouping.</p>
+</td>
       </tr>
       <tr>
         <td id="HomeSeer_PluginSdk_Constants_eDeviceType_Security_Siren">Siren</td>
-        <td></td>
+        <td><p>Siren output - status usually - control follows alarm state.</p>
+</td>
       </tr>
       <tr>
         <td id="HomeSeer_PluginSdk_Constants_eDeviceType_Security_Zone_Auxiliary">Zone_Auxiliary</td>
-        <td></td>
+        <td><p>An aux zone, not usually included in any arming mode</p>
+</td>
       </tr>
       <tr>
         <td id="HomeSeer_PluginSdk_Constants_eDeviceType_Security_Zone_Interior">Zone_Interior</td>
-        <td></td>
+        <td><p>An interior zone (not normally armed in stay mode)</p>
+</td>
       </tr>
       <tr>
         <td id="HomeSeer_PluginSdk_Constants_eDeviceType_Security_Zone_Interior_Delay">Zone_Interior_Delay</td>
-        <td></td>
+        <td><p>An interior zone (with a violation alarm delay when armed)</p>
+</td>
       </tr>
       <tr>
         <td id="HomeSeer_PluginSdk_Constants_eDeviceType_Security_Zone_Other">Zone_Other</td>
-        <td></td>
+        <td><p>A zone that does not fit any other zone description</p>
+</td>
       </tr>
       <tr>
         <td id="HomeSeer_PluginSdk_Constants_eDeviceType_Security_Zone_Perimeter">Zone_Perimeter</td>
-        <td></td>
+        <td><p>A perimeter zone</p>
+</td>
       </tr>
       <tr>
         <td id="HomeSeer_PluginSdk_Constants_eDeviceType_Security_Zone_Perimeter_Delay">Zone_Perimeter_Delay</td>
-        <td></td>
+        <td><p>A perimeter zone with a violation alarm delay</p>
+</td>
       </tr>
       <tr>
         <td id="HomeSeer_PluginSdk_Constants_eDeviceType_Security_Zone_Safety_CO">Zone_Safety_CO</td>
-        <td></td>
+        <td><p>A Carbon Monoxide zone (not allowed to be bypassed)</p>
+</td>
       </tr>
       <tr>
         <td id="HomeSeer_PluginSdk_Constants_eDeviceType_Security_Zone_Safety_CO2">Zone_Safety_CO2</td>
-        <td></td>
+        <td><p>A Carbon Dioxide zone (not allowed to be bypassed)</p>
+</td>
       </tr>
       <tr>
         <td id="HomeSeer_PluginSdk_Constants_eDeviceType_Security_Zone_Safety_Other">Zone_Safety_Other</td>
-        <td></td>
+        <td><p>A zone for some other safety sensor that cannot be bypassed</p>
+</td>
       </tr>
       <tr>
         <td id="HomeSeer_PluginSdk_Constants_eDeviceType_Security_Zone_Safety_Smoke">Zone_Safety_Smoke</td>
-        <td></td>
+        <td><p>A smoke detector zone (not allowed to be bypassed)</p>
+</td>
       </tr>
     </tbody>
   </thead></thead></table>
@@ -206,7 +223,7 @@
             <div class="contribution">
               <ul class="nav">
                 <li>
-                  <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Constants.cs/#L86" class="contribution-link">View Source</a>
+                  <a href="https://github.com/HomeSeer/Plugin-SDK/blob/github-master/Constants.cs/#L82" class="contribution-link">View Source</a>
                 </li>
               </ul>
             </div>

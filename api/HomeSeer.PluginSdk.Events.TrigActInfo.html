@@ -144,14 +144,19 @@ Public Class TrigActInfo</code></pre>
   </div>
   <hr>
   <br>
-  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 summary"><p>The internal data stored by HomeSeer describing a particular event action or trigger.
+Instances of this class are created and managed by HomeSeer and are passed through the <a class="xref" href="HomeSeer.PluginSdk.AbstractPlugin.html">AbstractPlugin</a>
+to the <a class="xref" href="HomeSeer.PluginSdk.Events.ActionTypeCollection.html">ActionTypeCollection</a> and <a class="xref" href="HomeSeer.PluginSdk.Events.TriggerTypeCollection.html">TriggerTypeCollection</a> respectively.
+You shouldn't need to work with this class directly and can rely on the decoded pieces exposed through the
+<a class="xref" href="HomeSeer.PluginSdk.Events.AbstractActionType.html">AbstractActionType</a> and <a class="xref" href="HomeSeer.PluginSdk.Events.AbstractTriggerType.html">AbstractTriggerType</a> classes in most situations.</p>
+</div>
   <div class="markdown level0 conceptual"></div>
   <br>
   <h3 id="fields">Fields
   </h3>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Events/TrigActInfo.cs/#L54">View Source</a>
+    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/github-master/Events/TrigActInfo.cs/#L61">View Source</a>
   </span>
   <h4 id="HomeSeer_PluginSdk_Events_TrigActInfo_DataIn" data-uid="HomeSeer.PluginSdk.Events.TrigActInfo.DataIn">DataIn</h4>
   <div class="markdown level1 summary"><p>This is exclusively for plug-ins.  Using a serialization procedure, the data for this plug-in
@@ -202,7 +207,7 @@ the serialized object after the plug-in updated it or made changes to it.</p>
   </table>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Events/TrigActInfo.cs/#L15">View Source</a>
+    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/github-master/Events/TrigActInfo.cs/#L22">View Source</a>
   </span>
   <h4 id="HomeSeer_PluginSdk_Events_TrigActInfo_evRef" data-uid="HomeSeer.PluginSdk.Events.TrigActInfo.evRef">evRef</h4>
   <div class="markdown level1 summary"><p>This is the unique event reference ID number for the event that this trigger is a part of.</p>
@@ -246,7 +251,7 @@ the serialized object after the plug-in updated it or made changes to it.</p>
   </table>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Events/TrigActInfo.cs/#L61">View Source</a>
+    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/github-master/Events/TrigActInfo.cs/#L68">View Source</a>
   </span>
   <h4 id="HomeSeer_PluginSdk_Events_TrigActInfo_Instance" data-uid="HomeSeer.PluginSdk.Events.TrigActInfo.Instance">Instance</h4>
   <div class="markdown level1 summary"><p>If the plug-in supports multiple instances and this trigger or action is for one of the instances,
@@ -291,7 +296,7 @@ then this field will have the instance name in it.</p>
   </table>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Events/TrigActInfo.cs/#L41">View Source</a>
+    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/github-master/Events/TrigActInfo.cs/#L48">View Source</a>
   </span>
   <h4 id="HomeSeer_PluginSdk_Events_TrigActInfo_SubTANumber" data-uid="HomeSeer.PluginSdk.Events.TrigActInfo.SubTANumber">SubTANumber</h4>
   <div class="markdown level1 summary"><p>When a trigger or action has sub-types, this is used to identify which sub-trigger or trigger sub-type,
@@ -337,7 +342,7 @@ TIME trigger - the sub-ID might identify whether it is the type AT, BEFORE, or A
   </table>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Events/TrigActInfo.cs/#L32">View Source</a>
+    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/github-master/Events/TrigActInfo.cs/#L39">View Source</a>
   </span>
   <h4 id="HomeSeer_PluginSdk_Events_TrigActInfo_TANumber" data-uid="HomeSeer.PluginSdk.Events.TrigActInfo.TANumber">TANumber</h4>
   <div class="markdown level1 summary"><p>This is for plug-ins only since plug-ins can support multiple types of different triggers or actions.
@@ -383,7 +388,7 @@ or action is.</p>
   </table>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Events/TrigActInfo.cs/#L24">View Source</a>
+    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/github-master/Events/TrigActInfo.cs/#L31">View Source</a>
   </span>
   <h4 id="HomeSeer_PluginSdk_Events_TrigActInfo_UID" data-uid="HomeSeer.PluginSdk.Events.TrigActInfo.UID">UID</h4>
   <div class="markdown level1 summary"><p>This is the unique ID for this trigger or action.  When the trigger is true, the plug-in will pass this
@@ -432,7 +437,7 @@ if there is action information stored by the plug-in, this property can be used 
   </h3>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Events/TrigActInfo.cs/#L71">View Source</a>
+    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/github-master/Events/TrigActInfo.cs/#L78">View Source</a>
   </span>
   <a id="HomeSeer_PluginSdk_Events_TrigActInfo_DeserializeLegacyData_" data-uid="HomeSeer.PluginSdk.Events.TrigActInfo.DeserializeLegacyData*"></a>
   <h4 id="HomeSeer_PluginSdk_Events_TrigActInfo_DeserializeLegacyData__1_System_Byte___System_Boolean_" data-uid="HomeSeer.PluginSdk.Events.TrigActInfo.DeserializeLegacyData``1(System.Byte[],System.Boolean)">DeserializeLegacyData&lt;TOutObject&gt;(Byte[], Boolean)</h4>
@@ -526,7 +531,7 @@ HomeSeer method for deserializing trigger/action data.</p>
             <div class="contribution">
               <ul class="nav">
                 <li>
-                  <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Events/TrigActInfo.cs/#L7" class="contribution-link">View Source</a>
+                  <a href="https://github.com/HomeSeer/Plugin-SDK/blob/github-master/Events/TrigActInfo.cs/#L14" class="contribution-link">View Source</a>
                 </li>
               </ul>
             </div>

@@ -144,14 +144,17 @@ Public Class EnergyData</code></pre>
   </div>
   <hr>
   <br>
-  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 summary"><p>PLEASE NOTE: Code related to the Energy components in HomeSeer were ported from the HS3 plugin API and
+have not been fully tested to verify full functionality from the new SDK. The Energy API may undergo
+significant changes in the near future. Please use with caution.</p>
+</div>
   <div class="markdown level0 conceptual"></div>
   <br>
   <h3 id="constructors">Constructors
   </h3>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Energy/EnergyData.cs/#L59">View Source</a>
+    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/github-master/Energy/EnergyData.cs/#L64">View Source</a>
   </span>
   <a id="HomeSeer_PluginSdk_Energy_EnergyData__ctor_" data-uid="HomeSeer.PluginSdk.Energy.EnergyData.#ctor*"></a>
   <h4 id="HomeSeer_PluginSdk_Energy_EnergyData__ctor_HomeSeer_PluginSdk_Constants_enumEnergyDirection_" data-uid="HomeSeer.PluginSdk.Energy.EnergyData.#ctor(HomeSeer.PluginSdk.Constants.enumEnergyDirection)">EnergyData(Constants.enumEnergyDirection)</h4>
@@ -199,7 +202,7 @@ Public Class EnergyData</code></pre>
   </h3>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Energy/EnergyData.cs/#L21">View Source</a>
+    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/github-master/Energy/EnergyData.cs/#L26">View Source</a>
   </span>
   <h4 id="HomeSeer_PluginSdk_Energy_EnergyData_Amount" data-uid="HomeSeer.PluginSdk.Energy.EnergyData.Amount">Amount</h4>
   <div class="markdown level1 summary"><p>Always measured in Watts</p>
@@ -243,7 +246,7 @@ Public Class EnergyData</code></pre>
   </table>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Energy/EnergyData.cs/#L29">View Source</a>
+    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/github-master/Energy/EnergyData.cs/#L34">View Source</a>
   </span>
   <h4 id="HomeSeer_PluginSdk_Energy_EnergyData_Amount_End" data-uid="HomeSeer.PluginSdk.Energy.EnergyData.Amount_End">Amount_End</h4>
   <div class="markdown level1 summary"><p>The end of the time period this measurement is for.</p>
@@ -287,7 +290,7 @@ Public Class EnergyData</code></pre>
   </table>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Energy/EnergyData.cs/#L25">View Source</a>
+    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/github-master/Energy/EnergyData.cs/#L30">View Source</a>
   </span>
   <h4 id="HomeSeer_PluginSdk_Energy_EnergyData_Amount_Start" data-uid="HomeSeer.PluginSdk.Energy.EnergyData.Amount_Start">Amount_Start</h4>
   <div class="markdown level1 summary"><p>The start of the time period this measurement is for.</p>
@@ -331,7 +334,7 @@ Public Class EnergyData</code></pre>
   </table>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Energy/EnergyData.cs/#L57">View Source</a>
+    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/github-master/Energy/EnergyData.cs/#L62">View Source</a>
   </span>
   <h4 id="HomeSeer_PluginSdk_Energy_EnergyData_Device" data-uid="HomeSeer.PluginSdk.Energy.EnergyData.Device">Device</h4>
   <div class="markdown level1 summary"><p>Indicates the type of device.</p>
@@ -375,7 +378,7 @@ Public Class EnergyData</code></pre>
   </table>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Energy/EnergyData.cs/#L17">View Source</a>
+    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/github-master/Energy/EnergyData.cs/#L22">View Source</a>
   </span>
   <h4 id="HomeSeer_PluginSdk_Energy_EnergyData_Direction" data-uid="HomeSeer.PluginSdk.Energy.EnergyData.Direction">Direction</h4>
   <div class="markdown level1 summary"><p>Indicates whether the energy was consumed (used) or produced (created).</p>
@@ -419,7 +422,7 @@ Public Class EnergyData</code></pre>
   </table>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Energy/EnergyData.cs/#L45">View Source</a>
+    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/github-master/Energy/EnergyData.cs/#L50">View Source</a>
   </span>
   <h4 id="HomeSeer_PluginSdk_Energy_EnergyData_Duration" data-uid="HomeSeer.PluginSdk.Energy.EnergyData.Duration">Duration</h4>
   <div class="markdown level1 summary"><p>When the data is compacted, time periods missed (perhaps HS was shut down) end up having the actual amounts averaged across the missing time period.</p>
@@ -475,7 +478,7 @@ record which only reflects the start period and end period.
   </table>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Energy/EnergyData.cs/#L13">View Source</a>
+    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/github-master/Energy/EnergyData.cs/#L18">View Source</a>
   </span>
   <h4 id="HomeSeer_PluginSdk_Energy_EnergyData_dvRef" data-uid="HomeSeer.PluginSdk.Energy.EnergyData.dvRef">dvRef</h4>
   <div class="markdown level1 summary"><p>Device reference ID number for the device this energy data is for.</p>
@@ -519,7 +522,7 @@ record which only reflects the start period and end period.
   </table>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Energy/EnergyData.cs/#L9">View Source</a>
+    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/github-master/Energy/EnergyData.cs/#L14">View Source</a>
   </span>
   <h4 id="HomeSeer_PluginSdk_Energy_EnergyData_ID" data-uid="HomeSeer.PluginSdk.Energy.EnergyData.ID">ID</h4>
   <div class="markdown level1 summary"></div>
@@ -562,7 +565,7 @@ record which only reflects the start period and end period.
   </table>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Energy/EnergyData.cs/#L49">View Source</a>
+    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/github-master/Energy/EnergyData.cs/#L54">View Source</a>
   </span>
   <h4 id="HomeSeer_PluginSdk_Energy_EnergyData_Rate" data-uid="HomeSeer.PluginSdk.Energy.EnergyData.Rate">Rate</h4>
   <div class="markdown level1 summary"><p>Always measured in kWH</p>
@@ -606,7 +609,7 @@ record which only reflects the start period and end period.
   </table>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Energy/EnergyData.cs/#L53">View Source</a>
+    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/github-master/Energy/EnergyData.cs/#L58">View Source</a>
   </span>
   <h4 id="HomeSeer_PluginSdk_Energy_EnergyData_UserCode" data-uid="HomeSeer.PluginSdk.Energy.EnergyData.UserCode">UserCode</h4>
   <div class="markdown level1 summary"><p>For the user to indicate something about this reading.</p>
@@ -656,7 +659,7 @@ record which only reflects the start period and end period.
             <div class="contribution">
               <ul class="nav">
                 <li>
-                  <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Energy/EnergyData.cs/#L5" class="contribution-link">View Source</a>
+                  <a href="https://github.com/HomeSeer/Plugin-SDK/blob/github-master/Energy/EnergyData.cs/#L10" class="contribution-link">View Source</a>
                 </li>
               </ul>
             </div>
