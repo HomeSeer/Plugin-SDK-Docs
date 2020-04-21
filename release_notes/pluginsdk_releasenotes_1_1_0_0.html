@@ -5,9 +5,9 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Plugin SDK v1.0.7.1 Release Notes | HomeSeer PluginSdk Docs </title>
+    <title>Plugin SDK v1.1.0.0 Release Notes | HomeSeer PluginSdk Docs </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Plugin SDK v1.0.7.1 Release Notes | HomeSeer PluginSdk Docs ">
+    <meta name="title" content="Plugin SDK v1.1.0.0 Release Notes | HomeSeer PluginSdk Docs ">
     <meta name="generator" content="docfx 2.49.0.0">
     
     <link rel="shortcut icon" href="../images/favicon.ico">
@@ -79,39 +79,37 @@
       <div class="col-md-1"></div>
       <div class="col-md-8 card">
         <article class="content wrap" id="_content" data-uid="">
-<h1 id="plugin-sdk-v1071-release-notes">Plugin SDK v1.0.7.1 Release Notes</h1>
+<h1 id="plugin-sdk-v1100-release-notes">Plugin SDK v1.1.0.0 Release Notes</h1>
 
+<p>This release is focused on enhancing cross-plugin interactions directly through the SDK so plugins do not have to communicate using the JSON API.
+It also includes optimizations to JUI pages and event action and trigger type data processing.</p>
 <ul>
-<li>Modify IHsController interface
+<li>Add <a class="xref" href="../api/HomeSeer.PluginSdk.IHsController.html#HomeSeer_PluginSdk_IHsController_PluginFunction_"><code>IHsController.PluginFunction()</code></a> and <a class="xref" href="../api/HomeSeer.PluginSdk.IHsController.html#HomeSeer_PluginSdk_IHsController_LegacyPluginFunction_"><code>IHsController.LegacyPluginFunction()</code></a> (PSDK-75)</li>
+<li>Add <a class="xref" href="../api/HomeSeer.PluginSdk.IHsController.html#HomeSeer_PluginSdk_IHsController_SendControlForFeatureByValue_"><code>IHsController.SendControlForFeatureByValue()</code></a>
+for triggering the <a class="xref" href="../api/HomeSeer.PluginSdk.AbstractPlugin.html#HomeSeer_PluginSdk_AbstractPlugin_SetIOMulti_"><code>AbstractPlugin.SetIOMulti()</code></a> method for the
+plugin that owns a particular device/feature. This replaces the CAPIControlHandler method from the legacy API. (PSDK-40)</li>
+<li>Add <a class="xref" href="../api/HomeSeer.PluginSdk.IHsController.html#HomeSeer_PluginSdk_IHsController_GetPluginVersionById_"><code>IHsController.GetPluginVersionById()</code></a> and
+<a class="xref" href="../api/HomeSeer.PluginSdk.IHsController.html#HomeSeer_PluginSdk_IHsController_GetPluginVersionByName_"><code>IHsController.GetPluginVersionByName()</code></a> (PSDK-76)</li>
+<li>Add <a class="xref" href="../api/HomeSeer.PluginSdk.Types.EAccessLevel.html"><code>EAccessLevel</code></a> for use with <a class="xref" href="../api/HomeSeer.PluginSdk.AbstractPlugin.html#HomeSeer_PluginSdk_AbstractPlugin_AccessLevel"><code>AbstractPlugin.AccessLevel</code></a> (PSDK-81)
 <ul>
-<li>Add IHsController.SpeakToFile method</li>
-<li>Add IHsController.GetLocation1Name method</li>
-<li>Add IHsController.GetLocation2Name method</li>
-<li>Add IHsController.IsLocation1First method</li>
-<li>Add IHsController.GetFirstLocationName method</li>
-<li>Add IHsController.GetSecondLocationName Method</li>
+<li>The licensing mode <a class="xref" href="../api/HomeSeer.PluginSdk.Types.EAccessLevel.html#HomeSeer_PluginSdk_Types_EAccessLevel_AcceptsLegacyLicense"><code>EAccessLevel.AcceptsLegacyLicense</code></a>
+has been added if you would like licenses for a legacy version of your plugin to to also be accepted.</li>
 </ul>
 </li>
-<li>Update InputView.IsValueValidForType method
+<li>Optimize event action and trigger life-cycle to prevent unnecessary calls to <a class="xref" href="../api/HomeSeer.PluginSdk.Events.TrigActInfo.html#HomeSeer_PluginSdk_Events_TrigActInfo_DeserializeLegacyData_"><code>TrigActInfo.DeserializeLegacyData()</code></a> (PSDK-54)
 <ul>
-<li>Fixes GitHub Issue #30 IsValueValidForType does not allow empty strings</li>
-<li>Fixes GitHub Issue #33 Error while saving value on action config page</li>
-<li>Fixes GitHub Issue #34 EInputType.Decimal does not work as expected with triggers/actions</li>
+<li><a href="xref:HomeSeer.PluginSdk.Events.AbstractActionType.ProcessData*"><code>AbstractActionType.ProcessData()</code></a> is no longer virtual and cannot be overriden.
+Please override <a class="xref" href="../api/HomeSeer.PluginSdk.Events.AbstractActionType.html#HomeSeer_PluginSdk_Events_AbstractActionType_ConvertLegacyData_"><code>AbstractActionType.ConvertLegacyData()</code></a> instead
+if you need to support action types from a legacy version of your plugin.</li>
+<li><a href="xref:HomeSeer.PluginSdk.Events.AbstractTriggerType.ProcessData*"><code>AbstractTriggerType.ProcessData()</code></a> is no longer virtual and cannot be overriden.
+Please override <a class="xref" href="../api/HomeSeer.PluginSdk.Events.AbstractTriggerType.html#HomeSeer_PluginSdk_Events_AbstractTriggerType_ConvertLegacyData_"><code>AbstractTriggerType.ConvertLegacyData()</code></a> instead
+if you need to support trigger types from a legacy version of your plugin.</li>
 </ul>
 </li>
-<li>Add FeatureFactory.AddColorPicker method signature
-<ul>
-<li>Fixes GitHub Issue #39 New ColorPicker controls default to 0-16777215 incorrectly and cannot be changed</li>
-</ul>
-</li>
-<li>Add SelectListView.GetSelectedOptionKey method</li>
-<li>Add Page.GetViewById<tviewtype> method</tviewtype></li>
-<li>Combine shared code for ActionTypeCollection and TriggerTypeCollection into BaseTypeCollection<titemtype> class
-<ul>
-<li>New shared code eliminates the need to implement all constructor signatures for classes inheriting from AbstractActionType or AbstractTriggerType</li>
-</ul>
-</titemtype></li>
-<li>Add AbstractActionType.SelectedSubActionIndex property</li>
+<li>Radio button style <a class="xref" href="../api/HomeSeer.Jui.Views.SelectListView.html"><code>SelectListView</code></a> value is not saved to <plugin>.ini when
+updated on JUI pages (PSDK-45) <a href="https://github.com/HomeSeer/Plugin-SDK/issues/73">(GitHub Issue 73)</a></plugin></li>
+<li>Prevent update view being called when selecting the already selected choice from a <a class="xref" href="../api/HomeSeer.Jui.Views.SelectListView.html"><code>SelectListView</code></a>
+on JUI pages (PSDK-53)</li>
 </ul>
 </article>
       </div>

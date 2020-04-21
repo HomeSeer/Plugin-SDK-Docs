@@ -78,7 +78,7 @@
           </div>
         </div>
         <div class="article row grid-right">
-      <div class="col-md-2"></div>
+      <div class="col-md-1"></div>
       <div class="col-md-8 card">
         <article class="content wrap" id="_content" data-uid="HomeSeer.PluginSdk.Features.AbstractFeaturePage">
   
@@ -148,50 +148,13 @@
   <div class="markdown level0 summary"><p>An abstract implementation of the <a class="xref" href="HomeSeer.PluginSdk.Features.IFeaturePage.html">IFeaturePage</a> interface establishing a basic structure to build
 a feature page from.</p>
 </div>
-  <div class="markdown level0 conceptual"><h3 id="basic-usage">Basic Usage</h3>
-<p>The AbstractFeaturePage is a simple implementation for a feature page that accepts POST data as a serialized <a class="xref" href="HomeSeer.PluginSdk.Features.JsonRequest.html"><code>JsonRequest</code></a> and responds with <a class="xref" href="HomeSeer.PluginSdk.Features.Responses.JsonResponse.html"><code>JsonRsponse</code></a>.</p>
-<p>Define a class in your plugin that inherits from <code>AbstractFeaturePage</code> and implements the required members</p>
-<ul>
-<li><a class="xref" href="HomeSeer.PluginSdk.Features.AbstractFeaturePage.html#HomeSeer_PluginSdk_Features_AbstractFeaturePage_Title"><code>AbstractFeaturePage.Title</code></a></li>
-<li><a class="xref" href="HomeSeer.PluginSdk.Features.AbstractFeaturePage.html#HomeSeer_PluginSdk_Features_AbstractFeaturePage_FileName"><code>AbstractFeaturePage.FileName</code></a></li>
-</ul>
-<pre><code class="lang-cs">public class MyFeaturePage : AbstractFeaturePage {
-    
-    public override string Title { get; set; } = &quot;My Feature Page&quot;;
-    public override string FileName { get; set; } = &quot;feature-page.html&quot;;
-}
-</code></pre>
-<p>In the constructor for your class, call <a class="xref" href="HomeSeer.PluginSdk.Features.AbstractFeaturePage.html#HomeSeer_PluginSdk_Features_AbstractFeaturePage_RegisterRequestCallback_"><code>AbstractFeaturePage.RegisterRequestCallback()</code></a> for each <a class="xref" href="HomeSeer.PluginSdk.Features.JsonRequest.html#HomeSeer_PluginSdk_Features_JsonRequest_Request"><code>JsonRequest.Request</code></a> keyword you want to listen for.</p>
-<pre><code class="lang-cs">public class MyFeaturePage : AbstractFeaturePage {
-
-    private const string LoadPageKey = &quot;load-page&quot;;
-    
-    public override string Title { get; set; } = &quot;My Feature Page&quot;;
-    public override string FileName { get; set; } = &quot;feature-page.html&quot;;
-
-    public MyFeaturePage() {
-        RegisterRequestCallback(LoadPageKey, LoadPage);
-    }
-
-    private JsonResponse LoadPage(JsonRequest request) {
-        try {
-            return new JsonResponse(request, &quot;page loaded successfully&quot;);
-        }
-        catch (Exception exception) {
-            exception.Log();
-            throw;
-        }
-    }
-}
-</code></pre>
-<p>See <a class="xref" href="HomeSeer.PluginSdk.Features.Responses.PageActions.PageActionResponse.html"><code>PageActionResponse</code></a> for default actions that you can execute through JavaScript from your plugin application.</p>
-</div>
+  <div class="markdown level0 conceptual"></div>
   <br>
   <h3 id="constructors">Constructors
   </h3>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/github-master/Features/AbstractFeaturePage.cs/#L31">View Source</a>
+    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Features/AbstractFeaturePage.cs/#L31">View Source</a>
   </span>
   <a id="HomeSeer_PluginSdk_Features_AbstractFeaturePage__ctor_" data-uid="HomeSeer.PluginSdk.Features.AbstractFeaturePage.#ctor*"></a>
   <h4 id="HomeSeer_PluginSdk_Features_AbstractFeaturePage__ctor" data-uid="HomeSeer.PluginSdk.Features.AbstractFeaturePage.#ctor">AbstractFeaturePage()</h4>
@@ -224,7 +187,7 @@ Register the <span class="xref">HomeSeer.PluginSdk.Features.AbstractFeaturePage.
   </h3>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/github-master/Features/AbstractFeaturePage.cs/#L19">View Source</a>
+    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Features/AbstractFeaturePage.cs/#L19">View Source</a>
   </span>
   <a id="HomeSeer_PluginSdk_Features_AbstractFeaturePage_FileName_" data-uid="HomeSeer.PluginSdk.Features.AbstractFeaturePage.FileName*"></a>
   <h4 id="HomeSeer_PluginSdk_Features_AbstractFeaturePage_FileName" data-uid="HomeSeer.PluginSdk.Features.AbstractFeaturePage.FileName">FileName</h4>
@@ -269,7 +232,7 @@ Register the <span class="xref">HomeSeer.PluginSdk.Features.AbstractFeaturePage.
   </table>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/github-master/Features/AbstractFeaturePage.cs/#L25">View Source</a>
+    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Features/AbstractFeaturePage.cs/#L25">View Source</a>
   </span>
   <a id="HomeSeer_PluginSdk_Features_AbstractFeaturePage_RequestMap_" data-uid="HomeSeer.PluginSdk.Features.AbstractFeaturePage.RequestMap*"></a>
   <h4 id="HomeSeer_PluginSdk_Features_AbstractFeaturePage_RequestMap" data-uid="HomeSeer.PluginSdk.Features.AbstractFeaturePage.RequestMap">RequestMap</h4>
@@ -315,7 +278,7 @@ Use <a class="xref" href="HomeSeer.PluginSdk.Features.AbstractFeaturePage.html#H
   </table>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/github-master/Features/AbstractFeaturePage.cs/#L16">View Source</a>
+    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Features/AbstractFeaturePage.cs/#L16">View Source</a>
   </span>
   <a id="HomeSeer_PluginSdk_Features_AbstractFeaturePage_Title_" data-uid="HomeSeer.PluginSdk.Features.AbstractFeaturePage.Title*"></a>
   <h4 id="HomeSeer_PluginSdk_Features_AbstractFeaturePage_Title" data-uid="HomeSeer.PluginSdk.Features.AbstractFeaturePage.Title">Title</h4>
@@ -362,7 +325,7 @@ Use <a class="xref" href="HomeSeer.PluginSdk.Features.AbstractFeaturePage.html#H
   </h3>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/github-master/Features/AbstractFeaturePage.cs/#L36">View Source</a>
+    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Features/AbstractFeaturePage.cs/#L36">View Source</a>
   </span>
   <a id="HomeSeer_PluginSdk_Features_AbstractFeaturePage_GetHtmlFragment_" data-uid="HomeSeer.PluginSdk.Features.AbstractFeaturePage.GetHtmlFragment*"></a>
   <h4 id="HomeSeer_PluginSdk_Features_AbstractFeaturePage_GetHtmlFragment_System_String_" data-uid="HomeSeer.PluginSdk.Features.AbstractFeaturePage.GetHtmlFragment(System.String)">GetHtmlFragment(String)</h4>
@@ -429,7 +392,7 @@ Use <a class="xref" href="HomeSeer.PluginSdk.Features.AbstractFeaturePage.html#H
 </div>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/github-master/Features/AbstractFeaturePage.cs/#L39">View Source</a>
+    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Features/AbstractFeaturePage.cs/#L39">View Source</a>
   </span>
   <a id="HomeSeer_PluginSdk_Features_AbstractFeaturePage_PostBackProc_" data-uid="HomeSeer.PluginSdk.Features.AbstractFeaturePage.PostBackProc*"></a>
   <h4 id="HomeSeer_PluginSdk_Features_AbstractFeaturePage_PostBackProc_System_String_System_String_System_Int32_" data-uid="HomeSeer.PluginSdk.Features.AbstractFeaturePage.PostBackProc(System.String,System.String,System.Int32)">PostBackProc(String, String, Int32)</h4>
@@ -503,7 +466,7 @@ Use <a class="xref" href="HomeSeer.PluginSdk.Features.AbstractFeaturePage.html#H
   </table>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/github-master/Features/AbstractFeaturePage.cs/#L87">View Source</a>
+    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Features/AbstractFeaturePage.cs/#L87">View Source</a>
   </span>
   <a id="HomeSeer_PluginSdk_Features_AbstractFeaturePage_RegisterRequestCallback_" data-uid="HomeSeer.PluginSdk.Features.AbstractFeaturePage.RegisterRequestCallback*"></a>
   <h4 id="HomeSeer_PluginSdk_Features_AbstractFeaturePage_RegisterRequestCallback_System_String_System_Func_HomeSeer_PluginSdk_Features_JsonRequest_HomeSeer_PluginSdk_Features_Responses_JsonResponse__" data-uid="HomeSeer.PluginSdk.Features.AbstractFeaturePage.RegisterRequestCallback(System.String,System.Func{HomeSeer.PluginSdk.Features.JsonRequest,HomeSeer.PluginSdk.Features.Responses.JsonResponse})">RegisterRequestCallback(String, Func&lt;JsonRequest, JsonResponse&gt;)</h4>
@@ -560,7 +523,7 @@ Use <a class="xref" href="HomeSeer.PluginSdk.Features.AbstractFeaturePage.html#H
 </div>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/github-master/Features/AbstractFeaturePage.cs/#L105">View Source</a>
+    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Features/AbstractFeaturePage.cs/#L105">View Source</a>
   </span>
   <a id="HomeSeer_PluginSdk_Features_AbstractFeaturePage_UnregisterRequestCallback_" data-uid="HomeSeer.PluginSdk.Features.AbstractFeaturePage.UnregisterRequestCallback*"></a>
   <h4 id="HomeSeer_PluginSdk_Features_AbstractFeaturePage_UnregisterRequestCallback_System_String_" data-uid="HomeSeer.PluginSdk.Features.AbstractFeaturePage.UnregisterRequestCallback(System.String)">UnregisterRequestCallback(String)</h4>
@@ -618,7 +581,7 @@ Use <a class="xref" href="HomeSeer.PluginSdk.Features.AbstractFeaturePage.html#H
             <div class="contribution">
               <ul class="nav">
                 <li>
-                  <a href="https://github.com/HomeSeer/Plugin-SDK/blob/github-master/Features/AbstractFeaturePage.cs/#L11" class="contribution-link">View Source</a>
+                  <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Features/AbstractFeaturePage.cs/#L11" class="contribution-link">View Source</a>
                 </li>
               </ul>
             </div>
@@ -646,9 +609,5 @@ Use <a class="xref" href="HomeSeer.PluginSdk.Features.AbstractFeaturePage.html#H
     
     <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
     <script type="text/javascript" src="../styles/docfx.js"></script>
-    <script type="text/javascript" src="../styles/main.js"></script>
-    <script type="text/javascript" src="../styles/perfect-scrollbar.js"></script>
-    <script type="text/javascript">
-        const ps = new PerfectScrollbar('#ps-sideaffix');
-    </script>  </body>
+    <script type="text/javascript" src="../styles/main.js"></script>  </body>
 </html>

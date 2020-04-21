@@ -8664,6 +8664,22 @@ references:
   isSpec: "True"
   fullName: HomeSeer.PluginSdk.Events.AbstractActionType.ConfigPage
   nameWithType: AbstractActionType.ConfigPage
+- uid: HomeSeer.PluginSdk.Events.AbstractActionType.ConvertLegacyData(System.Byte[])
+  name: ConvertLegacyData(Byte[])
+  href: api/HomeSeer.PluginSdk.Events.AbstractActionType.html#HomeSeer_PluginSdk_Events_AbstractActionType_ConvertLegacyData_System_Byte___
+  commentId: M:HomeSeer.PluginSdk.Events.AbstractActionType.ConvertLegacyData(System.Byte[])
+  name.vb: ConvertLegacyData(Byte())
+  fullName: HomeSeer.PluginSdk.Events.AbstractActionType.ConvertLegacyData(System.Byte[])
+  fullName.vb: HomeSeer.PluginSdk.Events.AbstractActionType.ConvertLegacyData(System.Byte())
+  nameWithType: AbstractActionType.ConvertLegacyData(Byte[])
+  nameWithType.vb: AbstractActionType.ConvertLegacyData(Byte())
+- uid: HomeSeer.PluginSdk.Events.AbstractActionType.ConvertLegacyData*
+  name: ConvertLegacyData
+  href: api/HomeSeer.PluginSdk.Events.AbstractActionType.html#HomeSeer_PluginSdk_Events_AbstractActionType_ConvertLegacyData_
+  commentId: Overload:HomeSeer.PluginSdk.Events.AbstractActionType.ConvertLegacyData
+  isSpec: "True"
+  fullName: HomeSeer.PluginSdk.Events.AbstractActionType.ConvertLegacyData
+  nameWithType: AbstractActionType.ConvertLegacyData
 - uid: HomeSeer.PluginSdk.Events.AbstractActionType.Data
   name: Data
   href: api/HomeSeer.PluginSdk.Events.AbstractActionType.html#HomeSeer_PluginSdk_Events_AbstractActionType_Data
@@ -8859,22 +8875,6 @@ references:
   isSpec: "True"
   fullName: HomeSeer.PluginSdk.Events.AbstractActionType.PageId
   nameWithType: AbstractActionType.PageId
-- uid: HomeSeer.PluginSdk.Events.AbstractActionType.ProcessData(System.Byte[])
-  name: ProcessData(Byte[])
-  href: api/HomeSeer.PluginSdk.Events.AbstractActionType.html#HomeSeer_PluginSdk_Events_AbstractActionType_ProcessData_System_Byte___
-  commentId: M:HomeSeer.PluginSdk.Events.AbstractActionType.ProcessData(System.Byte[])
-  name.vb: ProcessData(Byte())
-  fullName: HomeSeer.PluginSdk.Events.AbstractActionType.ProcessData(System.Byte[])
-  fullName.vb: HomeSeer.PluginSdk.Events.AbstractActionType.ProcessData(System.Byte())
-  nameWithType: AbstractActionType.ProcessData(Byte[])
-  nameWithType.vb: AbstractActionType.ProcessData(Byte())
-- uid: HomeSeer.PluginSdk.Events.AbstractActionType.ProcessData*
-  name: ProcessData
-  href: api/HomeSeer.PluginSdk.Events.AbstractActionType.html#HomeSeer_PluginSdk_Events_AbstractActionType_ProcessData_
-  commentId: Overload:HomeSeer.PluginSdk.Events.AbstractActionType.ProcessData
-  isSpec: "True"
-  fullName: HomeSeer.PluginSdk.Events.AbstractActionType.ProcessData
-  nameWithType: AbstractActionType.ProcessData
 - uid: HomeSeer.PluginSdk.Events.AbstractActionType.ReferencesDeviceOrFeature(System.Int32)
   name: ReferencesDeviceOrFeature(Int32)
   href: api/HomeSeer.PluginSdk.Events.AbstractActionType.html#HomeSeer_PluginSdk_Events_AbstractActionType_ReferencesDeviceOrFeature_System_Int32_
@@ -8983,6 +8983,22 @@ references:
   isSpec: "True"
   fullName: HomeSeer.PluginSdk.Events.AbstractTriggerType.ConfigPage
   nameWithType: AbstractTriggerType.ConfigPage
+- uid: HomeSeer.PluginSdk.Events.AbstractTriggerType.ConvertLegacyData(System.Byte[])
+  name: ConvertLegacyData(Byte[])
+  href: api/HomeSeer.PluginSdk.Events.AbstractTriggerType.html#HomeSeer_PluginSdk_Events_AbstractTriggerType_ConvertLegacyData_System_Byte___
+  commentId: M:HomeSeer.PluginSdk.Events.AbstractTriggerType.ConvertLegacyData(System.Byte[])
+  name.vb: ConvertLegacyData(Byte())
+  fullName: HomeSeer.PluginSdk.Events.AbstractTriggerType.ConvertLegacyData(System.Byte[])
+  fullName.vb: HomeSeer.PluginSdk.Events.AbstractTriggerType.ConvertLegacyData(System.Byte())
+  nameWithType: AbstractTriggerType.ConvertLegacyData(Byte[])
+  nameWithType.vb: AbstractTriggerType.ConvertLegacyData(Byte())
+- uid: HomeSeer.PluginSdk.Events.AbstractTriggerType.ConvertLegacyData*
+  name: ConvertLegacyData
+  href: api/HomeSeer.PluginSdk.Events.AbstractTriggerType.html#HomeSeer_PluginSdk_Events_AbstractTriggerType_ConvertLegacyData_
+  commentId: Overload:HomeSeer.PluginSdk.Events.AbstractTriggerType.ConvertLegacyData
+  isSpec: "True"
+  fullName: HomeSeer.PluginSdk.Events.AbstractTriggerType.ConvertLegacyData
+  nameWithType: AbstractTriggerType.ConvertLegacyData
 - uid: HomeSeer.PluginSdk.Events.AbstractTriggerType.Data
   name: Data
   href: api/HomeSeer.PluginSdk.Events.AbstractTriggerType.html#HomeSeer_PluginSdk_Events_AbstractTriggerType_Data
@@ -9165,22 +9181,6 @@ references:
   isSpec: "True"
   fullName: HomeSeer.PluginSdk.Events.AbstractTriggerType.PageId
   nameWithType: AbstractTriggerType.PageId
-- uid: HomeSeer.PluginSdk.Events.AbstractTriggerType.ProcessData(System.Byte[])
-  name: ProcessData(Byte[])
-  href: api/HomeSeer.PluginSdk.Events.AbstractTriggerType.html#HomeSeer_PluginSdk_Events_AbstractTriggerType_ProcessData_System_Byte___
-  commentId: M:HomeSeer.PluginSdk.Events.AbstractTriggerType.ProcessData(System.Byte[])
-  name.vb: ProcessData(Byte())
-  fullName: HomeSeer.PluginSdk.Events.AbstractTriggerType.ProcessData(System.Byte[])
-  fullName.vb: HomeSeer.PluginSdk.Events.AbstractTriggerType.ProcessData(System.Byte())
-  nameWithType: AbstractTriggerType.ProcessData(Byte[])
-  nameWithType.vb: AbstractTriggerType.ProcessData(Byte())
-- uid: HomeSeer.PluginSdk.Events.AbstractTriggerType.ProcessData*
-  name: ProcessData
-  href: api/HomeSeer.PluginSdk.Events.AbstractTriggerType.html#HomeSeer_PluginSdk_Events_AbstractTriggerType_ProcessData_
-  commentId: Overload:HomeSeer.PluginSdk.Events.AbstractTriggerType.ProcessData
-  isSpec: "True"
-  fullName: HomeSeer.PluginSdk.Events.AbstractTriggerType.ProcessData
-  nameWithType: AbstractTriggerType.ProcessData
 - uid: HomeSeer.PluginSdk.Events.AbstractTriggerType.ReferencesDeviceOrFeature(System.Int32)
   name: ReferencesDeviceOrFeature(Int32)
   href: api/HomeSeer.PluginSdk.Events.AbstractTriggerType.html#HomeSeer_PluginSdk_Events_AbstractTriggerType_ReferencesDeviceOrFeature_System_Int32_
@@ -11939,6 +11939,32 @@ references:
   isSpec: "True"
   fullName: HomeSeer.PluginSdk.IHsController.GetOsType
   nameWithType: IHsController.GetOsType
+- uid: HomeSeer.PluginSdk.IHsController.GetPluginVersionById(System.String)
+  name: GetPluginVersionById(String)
+  href: api/HomeSeer.PluginSdk.IHsController.html#HomeSeer_PluginSdk_IHsController_GetPluginVersionById_System_String_
+  commentId: M:HomeSeer.PluginSdk.IHsController.GetPluginVersionById(System.String)
+  fullName: HomeSeer.PluginSdk.IHsController.GetPluginVersionById(System.String)
+  nameWithType: IHsController.GetPluginVersionById(String)
+- uid: HomeSeer.PluginSdk.IHsController.GetPluginVersionById*
+  name: GetPluginVersionById
+  href: api/HomeSeer.PluginSdk.IHsController.html#HomeSeer_PluginSdk_IHsController_GetPluginVersionById_
+  commentId: Overload:HomeSeer.PluginSdk.IHsController.GetPluginVersionById
+  isSpec: "True"
+  fullName: HomeSeer.PluginSdk.IHsController.GetPluginVersionById
+  nameWithType: IHsController.GetPluginVersionById
+- uid: HomeSeer.PluginSdk.IHsController.GetPluginVersionByName(System.String)
+  name: GetPluginVersionByName(String)
+  href: api/HomeSeer.PluginSdk.IHsController.html#HomeSeer_PluginSdk_IHsController_GetPluginVersionByName_System_String_
+  commentId: M:HomeSeer.PluginSdk.IHsController.GetPluginVersionByName(System.String)
+  fullName: HomeSeer.PluginSdk.IHsController.GetPluginVersionByName(System.String)
+  nameWithType: IHsController.GetPluginVersionByName(String)
+- uid: HomeSeer.PluginSdk.IHsController.GetPluginVersionByName*
+  name: GetPluginVersionByName
+  href: api/HomeSeer.PluginSdk.IHsController.html#HomeSeer_PluginSdk_IHsController_GetPluginVersionByName_
+  commentId: Overload:HomeSeer.PluginSdk.IHsController.GetPluginVersionByName
+  isSpec: "True"
+  fullName: HomeSeer.PluginSdk.IHsController.GetPluginVersionByName
+  nameWithType: IHsController.GetPluginVersionByName
 - uid: HomeSeer.PluginSdk.IHsController.GetPropertyByInterface(System.String,HomeSeer.PluginSdk.Devices.EProperty,System.Boolean)
   name: GetPropertyByInterface(String, EProperty, Boolean)
   href: api/HomeSeer.PluginSdk.IHsController.html#HomeSeer_PluginSdk_IHsController_GetPropertyByInterface_System_String_HomeSeer_PluginSdk_Devices_EProperty_System_Boolean_
@@ -12264,6 +12290,22 @@ references:
   isSpec: "True"
   fullName: HomeSeer.PluginSdk.IHsController.IsRegistered
   nameWithType: IHsController.IsRegistered
+- uid: HomeSeer.PluginSdk.IHsController.LegacyPluginFunction(System.String,System.String,System.String,System.Object[])
+  name: LegacyPluginFunction(String, String, String, Object[])
+  href: api/HomeSeer.PluginSdk.IHsController.html#HomeSeer_PluginSdk_IHsController_LegacyPluginFunction_System_String_System_String_System_String_System_Object___
+  commentId: M:HomeSeer.PluginSdk.IHsController.LegacyPluginFunction(System.String,System.String,System.String,System.Object[])
+  name.vb: LegacyPluginFunction(String, String, String, Object())
+  fullName: HomeSeer.PluginSdk.IHsController.LegacyPluginFunction(System.String, System.String, System.String, System.Object[])
+  fullName.vb: HomeSeer.PluginSdk.IHsController.LegacyPluginFunction(System.String, System.String, System.String, System.Object())
+  nameWithType: IHsController.LegacyPluginFunction(String, String, String, Object[])
+  nameWithType.vb: IHsController.LegacyPluginFunction(String, String, String, Object())
+- uid: HomeSeer.PluginSdk.IHsController.LegacyPluginFunction*
+  name: LegacyPluginFunction
+  href: api/HomeSeer.PluginSdk.IHsController.html#HomeSeer_PluginSdk_IHsController_LegacyPluginFunction_
+  commentId: Overload:HomeSeer.PluginSdk.IHsController.LegacyPluginFunction
+  isSpec: "True"
+  fullName: HomeSeer.PluginSdk.IHsController.LegacyPluginFunction
+  nameWithType: IHsController.LegacyPluginFunction
 - uid: HomeSeer.PluginSdk.IHsController.PlayWavFile(System.String,System.String,System.Boolean)
   name: PlayWavFile(String, String, Boolean)
   href: api/HomeSeer.PluginSdk.IHsController.html#HomeSeer_PluginSdk_IHsController_PlayWavFile_System_String_System_String_System_Boolean_
@@ -12277,6 +12319,22 @@ references:
   isSpec: "True"
   fullName: HomeSeer.PluginSdk.IHsController.PlayWavFile
   nameWithType: IHsController.PlayWavFile
+- uid: HomeSeer.PluginSdk.IHsController.PluginFunction(System.String,System.String,System.Object[])
+  name: PluginFunction(String, String, Object[])
+  href: api/HomeSeer.PluginSdk.IHsController.html#HomeSeer_PluginSdk_IHsController_PluginFunction_System_String_System_String_System_Object___
+  commentId: M:HomeSeer.PluginSdk.IHsController.PluginFunction(System.String,System.String,System.Object[])
+  name.vb: PluginFunction(String, String, Object())
+  fullName: HomeSeer.PluginSdk.IHsController.PluginFunction(System.String, System.String, System.Object[])
+  fullName.vb: HomeSeer.PluginSdk.IHsController.PluginFunction(System.String, System.String, System.Object())
+  nameWithType: IHsController.PluginFunction(String, String, Object[])
+  nameWithType.vb: IHsController.PluginFunction(String, String, Object())
+- uid: HomeSeer.PluginSdk.IHsController.PluginFunction*
+  name: PluginFunction
+  href: api/HomeSeer.PluginSdk.IHsController.html#HomeSeer_PluginSdk_IHsController_PluginFunction_
+  commentId: Overload:HomeSeer.PluginSdk.IHsController.PluginFunction
+  isSpec: "True"
+  fullName: HomeSeer.PluginSdk.IHsController.PluginFunction
+  nameWithType: IHsController.PluginFunction
 - uid: HomeSeer.PluginSdk.IHsController.RaiseGenericEventCB(System.String,System.Object[],System.String)
   name: RaiseGenericEventCB(String, Object[], String)
   href: api/HomeSeer.PluginSdk.IHsController.html#HomeSeer_PluginSdk_IHsController_RaiseGenericEventCB_System_String_System_Object___System_String_
@@ -12439,6 +12497,19 @@ references:
   isSpec: "True"
   fullName: HomeSeer.PluginSdk.IHsController.SaveINISetting
   nameWithType: IHsController.SaveINISetting
+- uid: HomeSeer.PluginSdk.IHsController.SendControlForFeatureByValue(System.Int32,System.Double)
+  name: SendControlForFeatureByValue(Int32, Double)
+  href: api/HomeSeer.PluginSdk.IHsController.html#HomeSeer_PluginSdk_IHsController_SendControlForFeatureByValue_System_Int32_System_Double_
+  commentId: M:HomeSeer.PluginSdk.IHsController.SendControlForFeatureByValue(System.Int32,System.Double)
+  fullName: HomeSeer.PluginSdk.IHsController.SendControlForFeatureByValue(System.Int32, System.Double)
+  nameWithType: IHsController.SendControlForFeatureByValue(Int32, Double)
+- uid: HomeSeer.PluginSdk.IHsController.SendControlForFeatureByValue*
+  name: SendControlForFeatureByValue
+  href: api/HomeSeer.PluginSdk.IHsController.html#HomeSeer_PluginSdk_IHsController_SendControlForFeatureByValue_
+  commentId: Overload:HomeSeer.PluginSdk.IHsController.SendControlForFeatureByValue
+  isSpec: "True"
+  fullName: HomeSeer.PluginSdk.IHsController.SendControlForFeatureByValue
+  nameWithType: IHsController.SendControlForFeatureByValue
 - uid: HomeSeer.PluginSdk.IHsController.SetVolume(System.Int32,System.String)
   name: SetVolume(Int32, String)
   href: api/HomeSeer.PluginSdk.IHsController.html#HomeSeer_PluginSdk_IHsController_SetVolume_System_Int32_System_String_
@@ -15182,6 +15253,36 @@ references:
   commentId: N:HomeSeer.PluginSdk.Types
   fullName: HomeSeer.PluginSdk.Types
   nameWithType: HomeSeer.PluginSdk.Types
+- uid: HomeSeer.PluginSdk.Types.EAccessLevel
+  name: EAccessLevel
+  href: api/HomeSeer.PluginSdk.Types.EAccessLevel.html
+  commentId: T:HomeSeer.PluginSdk.Types.EAccessLevel
+  fullName: HomeSeer.PluginSdk.Types.EAccessLevel
+  nameWithType: EAccessLevel
+- uid: HomeSeer.PluginSdk.Types.EAccessLevel.AcceptsLegacyLicense
+  name: AcceptsLegacyLicense
+  href: api/HomeSeer.PluginSdk.Types.EAccessLevel.html#HomeSeer_PluginSdk_Types_EAccessLevel_AcceptsLegacyLicense
+  commentId: F:HomeSeer.PluginSdk.Types.EAccessLevel.AcceptsLegacyLicense
+  fullName: HomeSeer.PluginSdk.Types.EAccessLevel.AcceptsLegacyLicense
+  nameWithType: EAccessLevel.AcceptsLegacyLicense
+- uid: HomeSeer.PluginSdk.Types.EAccessLevel.DoNotUse
+  name: DoNotUse
+  href: api/HomeSeer.PluginSdk.Types.EAccessLevel.html#HomeSeer_PluginSdk_Types_EAccessLevel_DoNotUse
+  commentId: F:HomeSeer.PluginSdk.Types.EAccessLevel.DoNotUse
+  fullName: HomeSeer.PluginSdk.Types.EAccessLevel.DoNotUse
+  nameWithType: EAccessLevel.DoNotUse
+- uid: HomeSeer.PluginSdk.Types.EAccessLevel.LicenseNotRequired
+  name: LicenseNotRequired
+  href: api/HomeSeer.PluginSdk.Types.EAccessLevel.html#HomeSeer_PluginSdk_Types_EAccessLevel_LicenseNotRequired
+  commentId: F:HomeSeer.PluginSdk.Types.EAccessLevel.LicenseNotRequired
+  fullName: HomeSeer.PluginSdk.Types.EAccessLevel.LicenseNotRequired
+  nameWithType: EAccessLevel.LicenseNotRequired
+- uid: HomeSeer.PluginSdk.Types.EAccessLevel.RequiresLicense
+  name: RequiresLicense
+  href: api/HomeSeer.PluginSdk.Types.EAccessLevel.html#HomeSeer_PluginSdk_Types_EAccessLevel_RequiresLicense
+  commentId: F:HomeSeer.PluginSdk.Types.EAccessLevel.RequiresLicense
+  fullName: HomeSeer.PluginSdk.Types.EAccessLevel.RequiresLicense
+  nameWithType: EAccessLevel.RequiresLicense
 - uid: HomeSeer.PluginSdk.Types.EHsSystemEvent
   name: EHsSystemEvent
   href: api/HomeSeer.PluginSdk.Types.EHsSystemEvent.html

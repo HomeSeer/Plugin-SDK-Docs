@@ -287,3 +287,24 @@ pre code {
 div.card {
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
 }
+
+/*Fix side-affix table of contents scrolling*/
+div.sideaffix {
+  overflow: visible !important;
+}
+div.sideaffix::-webkit-scrollbar {
+  display: none !important;
+}
+ul.level1.bs-docs-sidenav {
+  overflow-x: hidden !important;
+  overflow-y: scroll !important;
+}
+ul.level1.bs-docs-sidenav::-webkit-scrollbar {
+  -webkit-appearance: none;
+  width: 6px;
+}
+ul.level1.bs-docs-sidenav::-webkit-scrollbar-thumb {
+  border-radius: 3px;
+  background-color: rgba(0,64,105,0.44);
+  -webkit-box-shadow: 0 0 1px rgba(255, 255, 255, .75);
+}
