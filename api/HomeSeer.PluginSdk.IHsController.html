@@ -540,6 +540,178 @@ Please use with caution.</p>
 </div>
   
   <span class="small pull-right mobile-hide">
+    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/IHsController.cs/#L1660">View Source</a>
+  </span>
+  <a id="HomeSeer_PluginSdk_IHsController_AddRefsToCategory_" data-uid="HomeSeer.PluginSdk.IHsController.AddRefsToCategory*"></a>
+  <h4 id="HomeSeer_PluginSdk_IHsController_AddRefsToCategory_System_String_System_Collections_Generic_List_System_Int32__" data-uid="HomeSeer.PluginSdk.IHsController.AddRefsToCategory(System.String,System.Collections.Generic.List{System.Int32})">AddRefsToCategory(String, List&lt;Int32&gt;)</h4>
+  <div class="markdown level1 summary"><p>Add a collection of refs to a category</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="tabGroup" id="tabgroup_syntax">
+      <ul role="tablist">
+          <li role="presentation">
+              <a href="#tabpanel_syntax_cs" tabindex="0" role="tab" aria-controls="tabpanel_syntax_cs" data-tab="cs" aria-selected="true">C#</a>
+          </li>
+          <li role="presentation">
+              <a href="#tabpanel_syntax_vb" tabindex="-1" role="tab" aria-controls="tabpanel_syntax_vb" data-tab="vb">Visual Basic</a>
+          </li>
+      </ul>
+      <section id="tabpanel_syntax_cs" role="tabpanel" data-tab="cs">
+          <div class="codewrapper">
+            <pre><code class="lang-csharp hljs">List&lt;int&gt; AddRefsToCategory(string id, List&lt;int&gt; devRefs)</code></pre>
+          </div>
+      </section>
+      <section id="tabpanel_syntax_vb" role="tabpanel" data-tab="vb" aria-hidden="true" hidden="">
+          <div class="codewrapper">
+            <pre><code class="lang-vb hljs">Function AddRefsToCategory(id As String, devRefs As List(Of Integer)) As List(Of Integer)</code></pre>
+          </div>
+      </section>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">id</span></td>
+        <td><p>The ID of the category</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.List</span>&lt;<span class="xref">System.Int32</span>&gt;</td>
+        <td><span class="parametername">devRefs</span></td>
+        <td><p>A list of refs to add to the category</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.List</span>&lt;<span class="xref">System.Int32</span>&gt;</td>
+        <td><p>The current list of refs on the category after adding the ones specified</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.KeyNotFoundException</span></td>
+        <td><p>Thrown if a category with that ID isn't found</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/IHsController.cs/#L1651">View Source</a>
+  </span>
+  <a id="HomeSeer_PluginSdk_IHsController_AddRefToCategory_" data-uid="HomeSeer.PluginSdk.IHsController.AddRefToCategory*"></a>
+  <h4 id="HomeSeer_PluginSdk_IHsController_AddRefToCategory_System_String_System_Int32_" data-uid="HomeSeer.PluginSdk.IHsController.AddRefToCategory(System.String,System.Int32)">AddRefToCategory(String, Int32)</h4>
+  <div class="markdown level1 summary"><p>Add a ref to a category</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="tabGroup" id="tabgroup_syntax">
+      <ul role="tablist">
+          <li role="presentation">
+              <a href="#tabpanel_syntax_cs" tabindex="0" role="tab" aria-controls="tabpanel_syntax_cs" data-tab="cs" aria-selected="true">C#</a>
+          </li>
+          <li role="presentation">
+              <a href="#tabpanel_syntax_vb" tabindex="-1" role="tab" aria-controls="tabpanel_syntax_vb" data-tab="vb">Visual Basic</a>
+          </li>
+      </ul>
+      <section id="tabpanel_syntax_cs" role="tabpanel" data-tab="cs">
+          <div class="codewrapper">
+            <pre><code class="lang-csharp hljs">List&lt;int&gt; AddRefToCategory(string id, int devRef)</code></pre>
+          </div>
+      </section>
+      <section id="tabpanel_syntax_vb" role="tabpanel" data-tab="vb" aria-hidden="true" hidden="">
+          <div class="codewrapper">
+            <pre><code class="lang-vb hljs">Function AddRefToCategory(id As String, devRef As Integer) As List(Of Integer)</code></pre>
+          </div>
+      </section>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">id</span></td>
+        <td><p>The ID of the category</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">devRef</span></td>
+        <td><p>The ref to add to the category</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.List</span>&lt;<span class="xref">System.Int32</span>&gt;</td>
+        <td><p>The current list of refs on the category after adding the one specified</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.KeyNotFoundException</span></td>
+        <td><p>Thrown if a category with that ID isn't found</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <span class="small pull-right mobile-hide">
     <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/IHsController.cs/#L436">View Source</a>
   </span>
   <a id="HomeSeer_PluginSdk_IHsController_AddStatusControlToFeature_" data-uid="HomeSeer.PluginSdk.IHsController.AddStatusControlToFeature*"></a>
@@ -852,6 +1024,92 @@ Please use with caution.</p>
   </table>
   
   <span class="small pull-right mobile-hide">
+    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/IHsController.cs/#L1588">View Source</a>
+  </span>
+  <a id="HomeSeer_PluginSdk_IHsController_CreateCategory_" data-uid="HomeSeer.PluginSdk.IHsController.CreateCategory*"></a>
+  <h4 id="HomeSeer_PluginSdk_IHsController_CreateCategory_System_String_System_String_" data-uid="HomeSeer.PluginSdk.IHsController.CreateCategory(System.String,System.String)">CreateCategory(String, String)</h4>
+  <div class="markdown level1 summary"><p>Create a new category with the specified name and image path</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="tabGroup" id="tabgroup_syntax">
+      <ul role="tablist">
+          <li role="presentation">
+              <a href="#tabpanel_syntax_cs" tabindex="0" role="tab" aria-controls="tabpanel_syntax_cs" data-tab="cs" aria-selected="true">C#</a>
+          </li>
+          <li role="presentation">
+              <a href="#tabpanel_syntax_vb" tabindex="-1" role="tab" aria-controls="tabpanel_syntax_vb" data-tab="vb">Visual Basic</a>
+          </li>
+      </ul>
+      <section id="tabpanel_syntax_cs" role="tabpanel" data-tab="cs">
+          <div class="codewrapper">
+            <pre><code class="lang-csharp hljs">string CreateCategory(string name, string image)</code></pre>
+          </div>
+      </section>
+      <section id="tabpanel_syntax_vb" role="tabpanel" data-tab="vb" aria-hidden="true" hidden="">
+          <div class="codewrapper">
+            <pre><code class="lang-vb hljs">Function CreateCategory(name As String, image As String) As String</code></pre>
+          </div>
+      </section>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">name</span></td>
+        <td><p>The display name of the category</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">image</span></td>
+        <td><p>The path to the image for the category. Use the files in /html/images/Categories/</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><p>The ID of the newly created category</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentException</span></td>
+        <td><p>Thrown when the name is already in use by another category</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <span class="small pull-right mobile-hide">
     <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/IHsController.cs/#L142">View Source</a>
   </span>
   <a id="HomeSeer_PluginSdk_IHsController_CreateDevice_" data-uid="HomeSeer.PluginSdk.IHsController.CreateDevice*"></a>
@@ -1155,6 +1413,54 @@ Please use with caution.</p>
 proper compatibility and support through this SDK.  This may undergo significant change in the near future.
 Please use with caution.</p>
 </div>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/IHsController.cs/#L1684">View Source</a>
+  </span>
+  <a id="HomeSeer_PluginSdk_IHsController_DeleteCategoryById_" data-uid="HomeSeer.PluginSdk.IHsController.DeleteCategoryById*"></a>
+  <h4 id="HomeSeer_PluginSdk_IHsController_DeleteCategoryById_System_String_" data-uid="HomeSeer.PluginSdk.IHsController.DeleteCategoryById(System.String)">DeleteCategoryById(String)</h4>
+  <div class="markdown level1 summary"><p>Delete a category by ID</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="tabGroup" id="tabgroup_syntax">
+      <ul role="tablist">
+          <li role="presentation">
+              <a href="#tabpanel_syntax_cs" tabindex="0" role="tab" aria-controls="tabpanel_syntax_cs" data-tab="cs" aria-selected="true">C#</a>
+          </li>
+          <li role="presentation">
+              <a href="#tabpanel_syntax_vb" tabindex="-1" role="tab" aria-controls="tabpanel_syntax_vb" data-tab="vb">Visual Basic</a>
+          </li>
+      </ul>
+      <section id="tabpanel_syntax_cs" role="tabpanel" data-tab="cs">
+          <div class="codewrapper">
+            <pre><code class="lang-csharp hljs">void DeleteCategoryById(string id)</code></pre>
+          </div>
+      </section>
+      <section id="tabpanel_syntax_vb" role="tabpanel" data-tab="vb" aria-hidden="true" hidden="">
+          <div class="codewrapper">
+            <pre><code class="lang-vb hljs">Sub DeleteCategoryById(id As String)</code></pre>
+          </div>
+      </section>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">id</span></td>
+        <td><p>The ID of the category to delete</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
   
   <span class="small pull-right mobile-hide">
     <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/IHsController.cs/#L457">View Source</a>
@@ -3323,6 +3629,52 @@ Please use with caution.</p>
 </div>
   
   <span class="small pull-right mobile-hide">
+    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/IHsController.cs/#L1594">View Source</a>
+  </span>
+  <a id="HomeSeer_PluginSdk_IHsController_GetAllCategories_" data-uid="HomeSeer.PluginSdk.IHsController.GetAllCategories*"></a>
+  <h4 id="HomeSeer_PluginSdk_IHsController_GetAllCategories" data-uid="HomeSeer.PluginSdk.IHsController.GetAllCategories">GetAllCategories()</h4>
+  <div class="markdown level1 summary"><p>Get a Dictionary of all categories on the HomeSeer system where the key is the ID and the value is the name of each category</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="tabGroup" id="tabgroup_syntax">
+      <ul role="tablist">
+          <li role="presentation">
+              <a href="#tabpanel_syntax_cs" tabindex="0" role="tab" aria-controls="tabpanel_syntax_cs" data-tab="cs" aria-selected="true">C#</a>
+          </li>
+          <li role="presentation">
+              <a href="#tabpanel_syntax_vb" tabindex="-1" role="tab" aria-controls="tabpanel_syntax_vb" data-tab="vb">Visual Basic</a>
+          </li>
+      </ul>
+      <section id="tabpanel_syntax_cs" role="tabpanel" data-tab="cs">
+          <div class="codewrapper">
+            <pre><code class="lang-csharp hljs">Dictionary&lt;string, string&gt; GetAllCategories()</code></pre>
+          </div>
+      </section>
+      <section id="tabpanel_syntax_vb" role="tabpanel" data-tab="vb" aria-hidden="true" hidden="">
+          <div class="codewrapper">
+            <pre><code class="lang-vb hljs">Function GetAllCategories As Dictionary(Of String, String)</code></pre>
+          </div>
+      </section>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.Dictionary</span>&lt;<span class="xref">System.String</span>, <span class="xref">System.String</span>&gt;</td>
+        <td><p>A Dictionary of category names by ID</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <span class="small pull-right mobile-hide">
     <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/IHsController.cs/#L265">View Source</a>
   </span>
   <a id="HomeSeer_PluginSdk_IHsController_GetAllDeviceRefs_" data-uid="HomeSeer.PluginSdk.IHsController.GetAllDeviceRefs*"></a>
@@ -3683,6 +4035,134 @@ To get just a list of devices, call <a class="xref" href="HomeSeer.PluginSdk.IHs
       <tr>
         <td><span class="xref">System.String</span></td>
         <td><p>The path to the HomeSeer executable</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/IHsController.cs/#L1608">View Source</a>
+  </span>
+  <a id="HomeSeer_PluginSdk_IHsController_GetCategoryImageById_" data-uid="HomeSeer.PluginSdk.IHsController.GetCategoryImageById*"></a>
+  <h4 id="HomeSeer_PluginSdk_IHsController_GetCategoryImageById_System_String_" data-uid="HomeSeer.PluginSdk.IHsController.GetCategoryImageById(System.String)">GetCategoryImageById(String)</h4>
+  <div class="markdown level1 summary"><p>Get the image path of a category by its ID</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="tabGroup" id="tabgroup_syntax">
+      <ul role="tablist">
+          <li role="presentation">
+              <a href="#tabpanel_syntax_cs" tabindex="0" role="tab" aria-controls="tabpanel_syntax_cs" data-tab="cs" aria-selected="true">C#</a>
+          </li>
+          <li role="presentation">
+              <a href="#tabpanel_syntax_vb" tabindex="-1" role="tab" aria-controls="tabpanel_syntax_vb" data-tab="vb">Visual Basic</a>
+          </li>
+      </ul>
+      <section id="tabpanel_syntax_cs" role="tabpanel" data-tab="cs">
+          <div class="codewrapper">
+            <pre><code class="lang-csharp hljs">string GetCategoryImageById(string id)</code></pre>
+          </div>
+      </section>
+      <section id="tabpanel_syntax_vb" role="tabpanel" data-tab="vb" aria-hidden="true" hidden="">
+          <div class="codewrapper">
+            <pre><code class="lang-vb hljs">Function GetCategoryImageById(id As String) As String</code></pre>
+          </div>
+      </section>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">id</span></td>
+        <td><p>The ID of the category</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><p>The image path of the category. Null if the category doesn't exist. Empty string if there is no image path for that category</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/IHsController.cs/#L1601">View Source</a>
+  </span>
+  <a id="HomeSeer_PluginSdk_IHsController_GetCategoryNameById_" data-uid="HomeSeer.PluginSdk.IHsController.GetCategoryNameById*"></a>
+  <h4 id="HomeSeer_PluginSdk_IHsController_GetCategoryNameById_System_String_" data-uid="HomeSeer.PluginSdk.IHsController.GetCategoryNameById(System.String)">GetCategoryNameById(String)</h4>
+  <div class="markdown level1 summary"><p>Get the name of a category by its ID</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="tabGroup" id="tabgroup_syntax">
+      <ul role="tablist">
+          <li role="presentation">
+              <a href="#tabpanel_syntax_cs" tabindex="0" role="tab" aria-controls="tabpanel_syntax_cs" data-tab="cs" aria-selected="true">C#</a>
+          </li>
+          <li role="presentation">
+              <a href="#tabpanel_syntax_vb" tabindex="-1" role="tab" aria-controls="tabpanel_syntax_vb" data-tab="vb">Visual Basic</a>
+          </li>
+      </ul>
+      <section id="tabpanel_syntax_cs" role="tabpanel" data-tab="cs">
+          <div class="codewrapper">
+            <pre><code class="lang-csharp hljs">string GetCategoryNameById(string id)</code></pre>
+          </div>
+      </section>
+      <section id="tabpanel_syntax_vb" role="tabpanel" data-tab="vb" aria-hidden="true" hidden="">
+          <div class="codewrapper">
+            <pre><code class="lang-vb hljs">Function GetCategoryNameById(id As String) As String</code></pre>
+          </div>
+      </section>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">id</span></td>
+        <td><p>The ID of the category</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><p>The name of the category. Null or empty string if the category does not exist</p>
 </td>
       </tr>
     </tbody>
@@ -5539,6 +6019,71 @@ interface with HS4 plugins.</p>
       <tr>
         <td><span class="xref">System.Object</span></td>
         <td><p>The value of the requested <a class="xref" href="HomeSeer.PluginSdk.Devices.EProperty.html">EProperty</a> of the <a class="xref" href="HomeSeer.PluginSdk.Devices.AbstractHsDevice.html">AbstractHsDevice</a></p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/IHsController.cs/#L1618">View Source</a>
+  </span>
+  <a id="HomeSeer_PluginSdk_IHsController_GetRefsByCategoryId_" data-uid="HomeSeer.PluginSdk.IHsController.GetRefsByCategoryId*"></a>
+  <h4 id="HomeSeer_PluginSdk_IHsController_GetRefsByCategoryId_System_String_" data-uid="HomeSeer.PluginSdk.IHsController.GetRefsByCategoryId(System.String)">GetRefsByCategoryId(String)</h4>
+  <div class="markdown level1 summary"><p>Get a list of <a class="xref" href="HomeSeer.PluginSdk.Devices.AbstractHsDevice.html#HomeSeer_PluginSdk_Devices_AbstractHsDevice_Ref">Ref</a>s of devices and features included in the category</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="tabGroup" id="tabgroup_syntax">
+      <ul role="tablist">
+          <li role="presentation">
+              <a href="#tabpanel_syntax_cs" tabindex="0" role="tab" aria-controls="tabpanel_syntax_cs" data-tab="cs" aria-selected="true">C#</a>
+          </li>
+          <li role="presentation">
+              <a href="#tabpanel_syntax_vb" tabindex="-1" role="tab" aria-controls="tabpanel_syntax_vb" data-tab="vb">Visual Basic</a>
+          </li>
+      </ul>
+      <section id="tabpanel_syntax_cs" role="tabpanel" data-tab="cs">
+          <div class="codewrapper">
+            <pre><code class="lang-csharp hljs">List&lt;int&gt; GetRefsByCategoryId(string id)</code></pre>
+          </div>
+      </section>
+      <section id="tabpanel_syntax_vb" role="tabpanel" data-tab="vb" aria-hidden="true" hidden="">
+          <div class="codewrapper">
+            <pre><code class="lang-vb hljs">Function GetRefsByCategoryId(id As String) As List(Of Integer)</code></pre>
+          </div>
+      </section>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">id</span></td>
+        <td><p>The ID of the category</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.List</span>&lt;<span class="xref">System.Int32</span>&gt;</td>
+        <td><p>A List of <a class="xref" href="HomeSeer.PluginSdk.Devices.AbstractHsDevice.html#HomeSeer_PluginSdk_Devices_AbstractHsDevice_Ref">Ref</a>s of devices and features included in the category.
+Null if the category doesn't exist. Empty list if no devices or features are included in the category.</p>
 </td>
       </tr>
     </tbody>
@@ -7653,6 +8198,178 @@ FALSE if there was a problem with registration</p>
   </table>
   
   <span class="small pull-right mobile-hide">
+    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/IHsController.cs/#L1669">View Source</a>
+  </span>
+  <a id="HomeSeer_PluginSdk_IHsController_RemoveRefFromCategory_" data-uid="HomeSeer.PluginSdk.IHsController.RemoveRefFromCategory*"></a>
+  <h4 id="HomeSeer_PluginSdk_IHsController_RemoveRefFromCategory_System_String_System_Int32_" data-uid="HomeSeer.PluginSdk.IHsController.RemoveRefFromCategory(System.String,System.Int32)">RemoveRefFromCategory(String, Int32)</h4>
+  <div class="markdown level1 summary"><p>Remove a ref from a category</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="tabGroup" id="tabgroup_syntax">
+      <ul role="tablist">
+          <li role="presentation">
+              <a href="#tabpanel_syntax_cs" tabindex="0" role="tab" aria-controls="tabpanel_syntax_cs" data-tab="cs" aria-selected="true">C#</a>
+          </li>
+          <li role="presentation">
+              <a href="#tabpanel_syntax_vb" tabindex="-1" role="tab" aria-controls="tabpanel_syntax_vb" data-tab="vb">Visual Basic</a>
+          </li>
+      </ul>
+      <section id="tabpanel_syntax_cs" role="tabpanel" data-tab="cs">
+          <div class="codewrapper">
+            <pre><code class="lang-csharp hljs">List&lt;int&gt; RemoveRefFromCategory(string id, int devRef)</code></pre>
+          </div>
+      </section>
+      <section id="tabpanel_syntax_vb" role="tabpanel" data-tab="vb" aria-hidden="true" hidden="">
+          <div class="codewrapper">
+            <pre><code class="lang-vb hljs">Function RemoveRefFromCategory(id As String, devRef As Integer) As List(Of Integer)</code></pre>
+          </div>
+      </section>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">id</span></td>
+        <td><p>The ID of the category</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">devRef</span></td>
+        <td><p>The ref to remove from the category</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.List</span>&lt;<span class="xref">System.Int32</span>&gt;</td>
+        <td><p>The current list of refs on the category after removing the one specified</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.KeyNotFoundException</span></td>
+        <td><p>Thrown if a category with that ID isn't found</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/IHsController.cs/#L1678">View Source</a>
+  </span>
+  <a id="HomeSeer_PluginSdk_IHsController_RemoveRefsFromCategory_" data-uid="HomeSeer.PluginSdk.IHsController.RemoveRefsFromCategory*"></a>
+  <h4 id="HomeSeer_PluginSdk_IHsController_RemoveRefsFromCategory_System_String_System_Collections_Generic_List_System_Int32__" data-uid="HomeSeer.PluginSdk.IHsController.RemoveRefsFromCategory(System.String,System.Collections.Generic.List{System.Int32})">RemoveRefsFromCategory(String, List&lt;Int32&gt;)</h4>
+  <div class="markdown level1 summary"><p>Remove a list of refs from a category</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="tabGroup" id="tabgroup_syntax">
+      <ul role="tablist">
+          <li role="presentation">
+              <a href="#tabpanel_syntax_cs" tabindex="0" role="tab" aria-controls="tabpanel_syntax_cs" data-tab="cs" aria-selected="true">C#</a>
+          </li>
+          <li role="presentation">
+              <a href="#tabpanel_syntax_vb" tabindex="-1" role="tab" aria-controls="tabpanel_syntax_vb" data-tab="vb">Visual Basic</a>
+          </li>
+      </ul>
+      <section id="tabpanel_syntax_cs" role="tabpanel" data-tab="cs">
+          <div class="codewrapper">
+            <pre><code class="lang-csharp hljs">List&lt;int&gt; RemoveRefsFromCategory(string id, List&lt;int&gt; devRefs)</code></pre>
+          </div>
+      </section>
+      <section id="tabpanel_syntax_vb" role="tabpanel" data-tab="vb" aria-hidden="true" hidden="">
+          <div class="codewrapper">
+            <pre><code class="lang-vb hljs">Function RemoveRefsFromCategory(id As String, devRefs As List(Of Integer)) As List(Of Integer)</code></pre>
+          </div>
+      </section>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">id</span></td>
+        <td><p>The ID of the category</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.List</span>&lt;<span class="xref">System.Int32</span>&gt;</td>
+        <td><span class="parametername">devRefs</span></td>
+        <td><p>The refs to remove from the category</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.List</span>&lt;<span class="xref">System.Int32</span>&gt;</td>
+        <td><p>The current list of refs on the category after removing the ones specified</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.KeyNotFoundException</span></td>
+        <td><p>Thrown if a category with that ID isn't found</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <span class="small pull-right mobile-hide">
     <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/IHsController.cs/#L1415">View Source</a>
   </span>
   <a id="HomeSeer_PluginSdk_IHsController_ReplaceVariables_" data-uid="HomeSeer.PluginSdk.IHsController.ReplaceVariables*"></a>
@@ -8160,6 +8877,216 @@ If you own the device being controlled, you should be calling <a class="xref" hr
   <h5 id="HomeSeer_PluginSdk_IHsController_SendControlForFeatureByValue_System_Int32_System_Double__remarks">Remarks</h5>
   <div class="markdown level1 remarks"><p>This is the same as the legacy method CAPIControlHandler(CAPIControl)</p>
 </div>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/IHsController.cs/#L1626">View Source</a>
+  </span>
+  <a id="HomeSeer_PluginSdk_IHsController_SetImageForCategoryById_" data-uid="HomeSeer.PluginSdk.IHsController.SetImageForCategoryById*"></a>
+  <h4 id="HomeSeer_PluginSdk_IHsController_SetImageForCategoryById_System_String_System_String_" data-uid="HomeSeer.PluginSdk.IHsController.SetImageForCategoryById(System.String,System.String)">SetImageForCategoryById(String, String)</h4>
+  <div class="markdown level1 summary"><p>Set the image path for a category</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="tabGroup" id="tabgroup_syntax">
+      <ul role="tablist">
+          <li role="presentation">
+              <a href="#tabpanel_syntax_cs" tabindex="0" role="tab" aria-controls="tabpanel_syntax_cs" data-tab="cs" aria-selected="true">C#</a>
+          </li>
+          <li role="presentation">
+              <a href="#tabpanel_syntax_vb" tabindex="-1" role="tab" aria-controls="tabpanel_syntax_vb" data-tab="vb">Visual Basic</a>
+          </li>
+      </ul>
+      <section id="tabpanel_syntax_cs" role="tabpanel" data-tab="cs">
+          <div class="codewrapper">
+            <pre><code class="lang-csharp hljs">void SetImageForCategoryById(string id, string image)</code></pre>
+          </div>
+      </section>
+      <section id="tabpanel_syntax_vb" role="tabpanel" data-tab="vb" aria-hidden="true" hidden="">
+          <div class="codewrapper">
+            <pre><code class="lang-vb hljs">Sub SetImageForCategoryById(id As String, image As String)</code></pre>
+          </div>
+      </section>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">id</span></td>
+        <td><p>The ID of the category</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">image</span></td>
+        <td><p>The path to the image for the category. Use /html/images/Categories/</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.KeyNotFoundException</span></td>
+        <td><p>Thrown if a category with that ID isn't found</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/IHsController.cs/#L1634">View Source</a>
+  </span>
+  <a id="HomeSeer_PluginSdk_IHsController_SetNameForCategoryById_" data-uid="HomeSeer.PluginSdk.IHsController.SetNameForCategoryById*"></a>
+  <h4 id="HomeSeer_PluginSdk_IHsController_SetNameForCategoryById_System_String_System_String_" data-uid="HomeSeer.PluginSdk.IHsController.SetNameForCategoryById(System.String,System.String)">SetNameForCategoryById(String, String)</h4>
+  <div class="markdown level1 summary"><p>Set the name for a category</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="tabGroup" id="tabgroup_syntax">
+      <ul role="tablist">
+          <li role="presentation">
+              <a href="#tabpanel_syntax_cs" tabindex="0" role="tab" aria-controls="tabpanel_syntax_cs" data-tab="cs" aria-selected="true">C#</a>
+          </li>
+          <li role="presentation">
+              <a href="#tabpanel_syntax_vb" tabindex="-1" role="tab" aria-controls="tabpanel_syntax_vb" data-tab="vb">Visual Basic</a>
+          </li>
+      </ul>
+      <section id="tabpanel_syntax_cs" role="tabpanel" data-tab="cs">
+          <div class="codewrapper">
+            <pre><code class="lang-csharp hljs">void SetNameForCategoryById(string id, string name)</code></pre>
+          </div>
+      </section>
+      <section id="tabpanel_syntax_vb" role="tabpanel" data-tab="vb" aria-hidden="true" hidden="">
+          <div class="codewrapper">
+            <pre><code class="lang-vb hljs">Sub SetNameForCategoryById(id As String, name As String)</code></pre>
+          </div>
+      </section>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">id</span></td>
+        <td><p>The ID of the category</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">name</span></td>
+        <td><p>The new name for the category</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.KeyNotFoundException</span></td>
+        <td><p>Thrown if a category with that ID isn't found</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/IHsController.cs/#L1642">View Source</a>
+  </span>
+  <a id="HomeSeer_PluginSdk_IHsController_SetRefsForCategoryById_" data-uid="HomeSeer.PluginSdk.IHsController.SetRefsForCategoryById*"></a>
+  <h4 id="HomeSeer_PluginSdk_IHsController_SetRefsForCategoryById_System_String_System_Collections_Generic_List_System_Int32__" data-uid="HomeSeer.PluginSdk.IHsController.SetRefsForCategoryById(System.String,System.Collections.Generic.List{System.Int32})">SetRefsForCategoryById(String, List&lt;Int32&gt;)</h4>
+  <div class="markdown level1 summary"><p>Set the list of refs for a category</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="tabGroup" id="tabgroup_syntax">
+      <ul role="tablist">
+          <li role="presentation">
+              <a href="#tabpanel_syntax_cs" tabindex="0" role="tab" aria-controls="tabpanel_syntax_cs" data-tab="cs" aria-selected="true">C#</a>
+          </li>
+          <li role="presentation">
+              <a href="#tabpanel_syntax_vb" tabindex="-1" role="tab" aria-controls="tabpanel_syntax_vb" data-tab="vb">Visual Basic</a>
+          </li>
+      </ul>
+      <section id="tabpanel_syntax_cs" role="tabpanel" data-tab="cs">
+          <div class="codewrapper">
+            <pre><code class="lang-csharp hljs">void SetRefsForCategoryById(string id, List&lt;int&gt; devRefs)</code></pre>
+          </div>
+      </section>
+      <section id="tabpanel_syntax_vb" role="tabpanel" data-tab="vb" aria-hidden="true" hidden="">
+          <div class="codewrapper">
+            <pre><code class="lang-vb hljs">Sub SetRefsForCategoryById(id As String, devRefs As List(Of Integer))</code></pre>
+          </div>
+      </section>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">id</span></td>
+        <td><p>The ID of the category</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.List</span>&lt;<span class="xref">System.Int32</span>&gt;</td>
+        <td><span class="parametername">devRefs</span></td>
+        <td><p>The new list of refs for the category</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.KeyNotFoundException</span></td>
+        <td><p>Thrown if a category with that ID isn't found</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
   
   <span class="small pull-right mobile-hide">
     <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/IHsController.cs/#L1380">View Source</a>

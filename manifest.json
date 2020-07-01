@@ -282,7 +282,7 @@
       "output": {
         ".html": {
           "relative_path": "api/HomeSeer.PluginSdk.AbstractPlugin.html",
-          "hash": "xOm4hkCbYBWdLhqSAlw0lw=="
+          "hash": "dujdUR9Pw2D7Y9+TqdLRvQ=="
         }
       },
       "is_incremental": false,
@@ -558,7 +558,7 @@
       "output": {
         ".html": {
           "relative_path": "api/HomeSeer.PluginSdk.Devices.AbstractHsDevice.html",
-          "hash": "4KSVbuNd7z5fb/VmQj5X0w=="
+          "hash": "t0DMPRTalq9vPPKtG58e5w=="
         }
       },
       "is_incremental": false,
@@ -750,7 +750,7 @@
       "output": {
         ".html": {
           "relative_path": "api/HomeSeer.PluginSdk.Devices.FeatureFactory.html",
-          "hash": "kfpQWnUSHe3T0VIOWT5lJw=="
+          "hash": "IjB2FUzO8BzoD6jQYE/HQQ=="
         }
       },
       "is_incremental": false,
@@ -762,7 +762,7 @@
       "output": {
         ".html": {
           "relative_path": "api/HomeSeer.PluginSdk.Devices.HsDevice.html",
-          "hash": "QhUsDsirv8GahWx4aITDZw=="
+          "hash": "4MkXx+10wF+7N5BstBkgGg=="
         }
       },
       "is_incremental": false,
@@ -774,7 +774,7 @@
       "output": {
         ".html": {
           "relative_path": "api/HomeSeer.PluginSdk.Devices.HsFeature.html",
-          "hash": "3Rrqro280SxX1yl+jYIE9Q=="
+          "hash": "hStWMPx/UmcM6564ibIPog=="
         }
       },
       "is_incremental": false,
@@ -954,7 +954,7 @@
       "output": {
         ".html": {
           "relative_path": "api/HomeSeer.PluginSdk.Devices.PlugExtraData.html",
-          "hash": "t1M7P1Aw1ZeK0eSPiRKUIg=="
+          "hash": "pvRXCN73uEv5bwE5mlq5JQ=="
         }
       },
       "is_incremental": false,
@@ -1086,7 +1086,7 @@
       "output": {
         ".html": {
           "relative_path": "api/HomeSeer.PluginSdk.Events.AbstractActionType.html",
-          "hash": "oLMSKX2VzcjS4ZkP9ZEAgw=="
+          "hash": "OW8Woja8LV/xhijl0izI0w=="
         }
       },
       "is_incremental": false,
@@ -1098,7 +1098,7 @@
       "output": {
         ".html": {
           "relative_path": "api/HomeSeer.PluginSdk.Events.AbstractTriggerType.html",
-          "hash": "/kmP91UL356UD8rJqnppzQ=="
+          "hash": "d0WzX/fPyZdD0fLp0R2DYw=="
         }
       },
       "is_incremental": false,
@@ -1242,7 +1242,7 @@
       "output": {
         ".html": {
           "relative_path": "api/HomeSeer.PluginSdk.Features.AbstractFeaturePage.html",
-          "hash": "gKkfTTDqJHwCBbBOUHkw2Q=="
+          "hash": "8f956PPRIXvdclbPBRWJsA=="
         }
       },
       "is_incremental": false,
@@ -1506,7 +1506,7 @@
       "output": {
         ".html": {
           "relative_path": "api/HomeSeer.PluginSdk.IHsController.html",
-          "hash": "ylcD2AqSHrAXL71rE2LbDQ=="
+          "hash": "fQvNs3ZwDGZRw+khT1TV5g=="
         }
       },
       "is_incremental": false,
@@ -1518,7 +1518,7 @@
       "output": {
         ".html": {
           "relative_path": "api/HomeSeer.PluginSdk.IPlugin.html",
-          "hash": "iGX9lKE5csweZs3iopuvjw=="
+          "hash": "rCJfxRZ0wevxIHe6L9F/7g=="
         }
       },
       "is_incremental": false,
@@ -1917,12 +1917,24 @@
       "version": ""
     },
     {
+      "type": "Conceptual",
+      "source_relative_path": "release_notes/pluginsdk_releasenotes_1_2_0_0.md",
+      "output": {
+        ".html": {
+          "relative_path": "release_notes/pluginsdk_releasenotes_1_2_0_0.html",
+          "hash": "lqLz1jAzzVgxecJiI9gZ8Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
       "type": "Toc",
       "source_relative_path": "release_notes/toc.yml",
       "output": {
         ".html": {
           "relative_path": "release_notes/toc.html",
-          "hash": "GiC6y6Ma/DoqarbZW7xyPw=="
+          "hash": "dq1EE8VKWsuVHrR/Un+N8A=="
         }
       },
       "is_incremental": false,
@@ -1967,8 +1979,8 @@
         "ConceptualDocumentProcessor": {
           "can_incremental": true,
           "incrementalPhase": "build",
-          "total_file_count": 9,
-          "skipped_file_count": 9
+          "total_file_count": 10,
+          "skipped_file_count": 10
         },
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": true,

@@ -2386,6 +2386,19 @@ references:
   isSpec: "True"
   fullName: HomeSeer.PluginSdk.AbstractPlugin.HandleAction
   nameWithType: AbstractPlugin.HandleAction
+- uid: HomeSeer.PluginSdk.AbstractPlugin.HasJuiDeviceConfigPage(System.Int32)
+  name: HasJuiDeviceConfigPage(Int32)
+  href: api/HomeSeer.PluginSdk.AbstractPlugin.html#HomeSeer_PluginSdk_AbstractPlugin_HasJuiDeviceConfigPage_System_Int32_
+  commentId: M:HomeSeer.PluginSdk.AbstractPlugin.HasJuiDeviceConfigPage(System.Int32)
+  fullName: HomeSeer.PluginSdk.AbstractPlugin.HasJuiDeviceConfigPage(System.Int32)
+  nameWithType: AbstractPlugin.HasJuiDeviceConfigPage(Int32)
+- uid: HomeSeer.PluginSdk.AbstractPlugin.HasJuiDeviceConfigPage*
+  name: HasJuiDeviceConfigPage
+  href: api/HomeSeer.PluginSdk.AbstractPlugin.html#HomeSeer_PluginSdk_AbstractPlugin_HasJuiDeviceConfigPage_
+  commentId: Overload:HomeSeer.PluginSdk.AbstractPlugin.HasJuiDeviceConfigPage
+  isSpec: "True"
+  fullName: HomeSeer.PluginSdk.AbstractPlugin.HasJuiDeviceConfigPage
+  nameWithType: AbstractPlugin.HasJuiDeviceConfigPage
 - uid: HomeSeer.PluginSdk.AbstractPlugin.HasSettings
   name: HasSettings
   href: api/HomeSeer.PluginSdk.AbstractPlugin.html#HomeSeer_PluginSdk_AbstractPlugin_HasSettings
@@ -4302,6 +4315,22 @@ references:
   isSpec: "True"
   fullName: HomeSeer.PluginSdk.Devices.AbstractHsDevice.ContainsMiscFlag
   nameWithType: AbstractHsDevice.ContainsMiscFlag
+- uid: HomeSeer.PluginSdk.Devices.AbstractHsDevice.GetMiscForFlags(HomeSeer.PluginSdk.Devices.EMiscFlag[])
+  name: GetMiscForFlags(EMiscFlag[])
+  href: api/HomeSeer.PluginSdk.Devices.AbstractHsDevice.html#HomeSeer_PluginSdk_Devices_AbstractHsDevice_GetMiscForFlags_HomeSeer_PluginSdk_Devices_EMiscFlag___
+  commentId: M:HomeSeer.PluginSdk.Devices.AbstractHsDevice.GetMiscForFlags(HomeSeer.PluginSdk.Devices.EMiscFlag[])
+  name.vb: GetMiscForFlags(EMiscFlag())
+  fullName: HomeSeer.PluginSdk.Devices.AbstractHsDevice.GetMiscForFlags(HomeSeer.PluginSdk.Devices.EMiscFlag[])
+  fullName.vb: HomeSeer.PluginSdk.Devices.AbstractHsDevice.GetMiscForFlags(HomeSeer.PluginSdk.Devices.EMiscFlag())
+  nameWithType: AbstractHsDevice.GetMiscForFlags(EMiscFlag[])
+  nameWithType.vb: AbstractHsDevice.GetMiscForFlags(EMiscFlag())
+- uid: HomeSeer.PluginSdk.Devices.AbstractHsDevice.GetMiscForFlags*
+  name: GetMiscForFlags
+  href: api/HomeSeer.PluginSdk.Devices.AbstractHsDevice.html#HomeSeer_PluginSdk_Devices_AbstractHsDevice_GetMiscForFlags_
+  commentId: Overload:HomeSeer.PluginSdk.Devices.AbstractHsDevice.GetMiscForFlags
+  isSpec: "True"
+  fullName: HomeSeer.PluginSdk.Devices.AbstractHsDevice.GetMiscForFlags
+  nameWithType: AbstractHsDevice.GetMiscForFlags
 - uid: HomeSeer.PluginSdk.Devices.AbstractHsDevice.Image
   name: Image
   href: api/HomeSeer.PluginSdk.Devices.AbstractHsDevice.html#HomeSeer_PluginSdk_Devices_AbstractHsDevice_Image
@@ -10922,6 +10951,35 @@ references:
   isSpec: "True"
   fullName: HomeSeer.PluginSdk.IHsController.AddDeviceActionToEvent
   nameWithType: IHsController.AddDeviceActionToEvent
+- uid: HomeSeer.PluginSdk.IHsController.AddRefsToCategory(System.String,System.Collections.Generic.List{System.Int32})
+  name: AddRefsToCategory(String, List<Int32>)
+  href: api/HomeSeer.PluginSdk.IHsController.html#HomeSeer_PluginSdk_IHsController_AddRefsToCategory_System_String_System_Collections_Generic_List_System_Int32__
+  commentId: M:HomeSeer.PluginSdk.IHsController.AddRefsToCategory(System.String,System.Collections.Generic.List{System.Int32})
+  name.vb: AddRefsToCategory(String, List(Of Int32))
+  fullName: HomeSeer.PluginSdk.IHsController.AddRefsToCategory(System.String, System.Collections.Generic.List<System.Int32>)
+  fullName.vb: HomeSeer.PluginSdk.IHsController.AddRefsToCategory(System.String, System.Collections.Generic.List(Of System.Int32))
+  nameWithType: IHsController.AddRefsToCategory(String, List<Int32>)
+  nameWithType.vb: IHsController.AddRefsToCategory(String, List(Of Int32))
+- uid: HomeSeer.PluginSdk.IHsController.AddRefsToCategory*
+  name: AddRefsToCategory
+  href: api/HomeSeer.PluginSdk.IHsController.html#HomeSeer_PluginSdk_IHsController_AddRefsToCategory_
+  commentId: Overload:HomeSeer.PluginSdk.IHsController.AddRefsToCategory
+  isSpec: "True"
+  fullName: HomeSeer.PluginSdk.IHsController.AddRefsToCategory
+  nameWithType: IHsController.AddRefsToCategory
+- uid: HomeSeer.PluginSdk.IHsController.AddRefToCategory(System.String,System.Int32)
+  name: AddRefToCategory(String, Int32)
+  href: api/HomeSeer.PluginSdk.IHsController.html#HomeSeer_PluginSdk_IHsController_AddRefToCategory_System_String_System_Int32_
+  commentId: M:HomeSeer.PluginSdk.IHsController.AddRefToCategory(System.String,System.Int32)
+  fullName: HomeSeer.PluginSdk.IHsController.AddRefToCategory(System.String, System.Int32)
+  nameWithType: IHsController.AddRefToCategory(String, Int32)
+- uid: HomeSeer.PluginSdk.IHsController.AddRefToCategory*
+  name: AddRefToCategory
+  href: api/HomeSeer.PluginSdk.IHsController.html#HomeSeer_PluginSdk_IHsController_AddRefToCategory_
+  commentId: Overload:HomeSeer.PluginSdk.IHsController.AddRefToCategory
+  isSpec: "True"
+  fullName: HomeSeer.PluginSdk.IHsController.AddRefToCategory
+  nameWithType: IHsController.AddRefToCategory
 - uid: HomeSeer.PluginSdk.IHsController.AddStatusControlToFeature(System.Int32,HomeSeer.PluginSdk.Devices.Controls.StatusControl)
   name: AddStatusControlToFeature(Int32, StatusControl)
   href: api/HomeSeer.PluginSdk.IHsController.html#HomeSeer_PluginSdk_IHsController_AddStatusControlToFeature_System_Int32_HomeSeer_PluginSdk_Devices_Controls_StatusControl_
@@ -11013,6 +11071,19 @@ references:
   isSpec: "True"
   fullName: HomeSeer.PluginSdk.IHsController.ClearStatusGraphicsByRef
   nameWithType: IHsController.ClearStatusGraphicsByRef
+- uid: HomeSeer.PluginSdk.IHsController.CreateCategory(System.String,System.String)
+  name: CreateCategory(String, String)
+  href: api/HomeSeer.PluginSdk.IHsController.html#HomeSeer_PluginSdk_IHsController_CreateCategory_System_String_System_String_
+  commentId: M:HomeSeer.PluginSdk.IHsController.CreateCategory(System.String,System.String)
+  fullName: HomeSeer.PluginSdk.IHsController.CreateCategory(System.String, System.String)
+  nameWithType: IHsController.CreateCategory(String, String)
+- uid: HomeSeer.PluginSdk.IHsController.CreateCategory*
+  name: CreateCategory
+  href: api/HomeSeer.PluginSdk.IHsController.html#HomeSeer_PluginSdk_IHsController_CreateCategory_
+  commentId: Overload:HomeSeer.PluginSdk.IHsController.CreateCategory
+  isSpec: "True"
+  fullName: HomeSeer.PluginSdk.IHsController.CreateCategory
+  nameWithType: IHsController.CreateCategory
 - uid: HomeSeer.PluginSdk.IHsController.CreateDevice(HomeSeer.PluginSdk.Devices.NewDeviceData)
   name: CreateDevice(NewDeviceData)
   href: api/HomeSeer.PluginSdk.IHsController.html#HomeSeer_PluginSdk_IHsController_CreateDevice_HomeSeer_PluginSdk_Devices_NewDeviceData_
@@ -11078,6 +11149,19 @@ references:
   isSpec: "True"
   fullName: HomeSeer.PluginSdk.IHsController.DeleteAfterTrigger_Set
   nameWithType: IHsController.DeleteAfterTrigger_Set
+- uid: HomeSeer.PluginSdk.IHsController.DeleteCategoryById(System.String)
+  name: DeleteCategoryById(String)
+  href: api/HomeSeer.PluginSdk.IHsController.html#HomeSeer_PluginSdk_IHsController_DeleteCategoryById_System_String_
+  commentId: M:HomeSeer.PluginSdk.IHsController.DeleteCategoryById(System.String)
+  fullName: HomeSeer.PluginSdk.IHsController.DeleteCategoryById(System.String)
+  nameWithType: IHsController.DeleteCategoryById(String)
+- uid: HomeSeer.PluginSdk.IHsController.DeleteCategoryById*
+  name: DeleteCategoryById
+  href: api/HomeSeer.PluginSdk.IHsController.html#HomeSeer_PluginSdk_IHsController_DeleteCategoryById_
+  commentId: Overload:HomeSeer.PluginSdk.IHsController.DeleteCategoryById
+  isSpec: "True"
+  fullName: HomeSeer.PluginSdk.IHsController.DeleteCategoryById
+  nameWithType: IHsController.DeleteCategoryById
 - uid: HomeSeer.PluginSdk.IHsController.DeleteDevice(System.Int32)
   name: DeleteDevice(Int32)
   href: api/HomeSeer.PluginSdk.IHsController.html#HomeSeer_PluginSdk_IHsController_DeleteDevice_System_Int32_
@@ -11523,6 +11607,19 @@ references:
   isSpec: "True"
   fullName: HomeSeer.PluginSdk.IHsController.GetActionsByInterface
   nameWithType: IHsController.GetActionsByInterface
+- uid: HomeSeer.PluginSdk.IHsController.GetAllCategories
+  name: GetAllCategories()
+  href: api/HomeSeer.PluginSdk.IHsController.html#HomeSeer_PluginSdk_IHsController_GetAllCategories
+  commentId: M:HomeSeer.PluginSdk.IHsController.GetAllCategories
+  fullName: HomeSeer.PluginSdk.IHsController.GetAllCategories()
+  nameWithType: IHsController.GetAllCategories()
+- uid: HomeSeer.PluginSdk.IHsController.GetAllCategories*
+  name: GetAllCategories
+  href: api/HomeSeer.PluginSdk.IHsController.html#HomeSeer_PluginSdk_IHsController_GetAllCategories_
+  commentId: Overload:HomeSeer.PluginSdk.IHsController.GetAllCategories
+  isSpec: "True"
+  fullName: HomeSeer.PluginSdk.IHsController.GetAllCategories
+  nameWithType: IHsController.GetAllCategories
 - uid: HomeSeer.PluginSdk.IHsController.GetAllDeviceRefs
   name: GetAllDeviceRefs()
   href: api/HomeSeer.PluginSdk.IHsController.html#HomeSeer_PluginSdk_IHsController_GetAllDeviceRefs
@@ -11614,6 +11711,32 @@ references:
   isSpec: "True"
   fullName: HomeSeer.PluginSdk.IHsController.GetAppPath
   nameWithType: IHsController.GetAppPath
+- uid: HomeSeer.PluginSdk.IHsController.GetCategoryImageById(System.String)
+  name: GetCategoryImageById(String)
+  href: api/HomeSeer.PluginSdk.IHsController.html#HomeSeer_PluginSdk_IHsController_GetCategoryImageById_System_String_
+  commentId: M:HomeSeer.PluginSdk.IHsController.GetCategoryImageById(System.String)
+  fullName: HomeSeer.PluginSdk.IHsController.GetCategoryImageById(System.String)
+  nameWithType: IHsController.GetCategoryImageById(String)
+- uid: HomeSeer.PluginSdk.IHsController.GetCategoryImageById*
+  name: GetCategoryImageById
+  href: api/HomeSeer.PluginSdk.IHsController.html#HomeSeer_PluginSdk_IHsController_GetCategoryImageById_
+  commentId: Overload:HomeSeer.PluginSdk.IHsController.GetCategoryImageById
+  isSpec: "True"
+  fullName: HomeSeer.PluginSdk.IHsController.GetCategoryImageById
+  nameWithType: IHsController.GetCategoryImageById
+- uid: HomeSeer.PluginSdk.IHsController.GetCategoryNameById(System.String)
+  name: GetCategoryNameById(String)
+  href: api/HomeSeer.PluginSdk.IHsController.html#HomeSeer_PluginSdk_IHsController_GetCategoryNameById_System_String_
+  commentId: M:HomeSeer.PluginSdk.IHsController.GetCategoryNameById(System.String)
+  fullName: HomeSeer.PluginSdk.IHsController.GetCategoryNameById(System.String)
+  nameWithType: IHsController.GetCategoryNameById(String)
+- uid: HomeSeer.PluginSdk.IHsController.GetCategoryNameById*
+  name: GetCategoryNameById
+  href: api/HomeSeer.PluginSdk.IHsController.html#HomeSeer_PluginSdk_IHsController_GetCategoryNameById_
+  commentId: Overload:HomeSeer.PluginSdk.IHsController.GetCategoryNameById
+  isSpec: "True"
+  fullName: HomeSeer.PluginSdk.IHsController.GetCategoryNameById
+  nameWithType: IHsController.GetCategoryNameById
 - uid: HomeSeer.PluginSdk.IHsController.GetDeviceByAddress(System.String)
   name: GetDeviceByAddress(String)
   href: api/HomeSeer.PluginSdk.IHsController.html#HomeSeer_PluginSdk_IHsController_GetDeviceByAddress_System_String_
@@ -11991,6 +12114,19 @@ references:
   isSpec: "True"
   fullName: HomeSeer.PluginSdk.IHsController.GetPropertyByRef
   nameWithType: IHsController.GetPropertyByRef
+- uid: HomeSeer.PluginSdk.IHsController.GetRefsByCategoryId(System.String)
+  name: GetRefsByCategoryId(String)
+  href: api/HomeSeer.PluginSdk.IHsController.html#HomeSeer_PluginSdk_IHsController_GetRefsByCategoryId_System_String_
+  commentId: M:HomeSeer.PluginSdk.IHsController.GetRefsByCategoryId(System.String)
+  fullName: HomeSeer.PluginSdk.IHsController.GetRefsByCategoryId(System.String)
+  nameWithType: IHsController.GetRefsByCategoryId(String)
+- uid: HomeSeer.PluginSdk.IHsController.GetRefsByCategoryId*
+  name: GetRefsByCategoryId
+  href: api/HomeSeer.PluginSdk.IHsController.html#HomeSeer_PluginSdk_IHsController_GetRefsByCategoryId_
+  commentId: Overload:HomeSeer.PluginSdk.IHsController.GetRefsByCategoryId
+  isSpec: "True"
+  fullName: HomeSeer.PluginSdk.IHsController.GetRefsByCategoryId
+  nameWithType: IHsController.GetRefsByCategoryId
 - uid: HomeSeer.PluginSdk.IHsController.GetRefsByInterface(System.String,System.Boolean)
   name: GetRefsByInterface(String, Boolean)
   href: api/HomeSeer.PluginSdk.IHsController.html#HomeSeer_PluginSdk_IHsController_GetRefsByInterface_System_String_System_Boolean_
@@ -12416,6 +12552,35 @@ references:
   isSpec: "True"
   fullName: HomeSeer.PluginSdk.IHsController.RegisterPlugin
   nameWithType: IHsController.RegisterPlugin
+- uid: HomeSeer.PluginSdk.IHsController.RemoveRefFromCategory(System.String,System.Int32)
+  name: RemoveRefFromCategory(String, Int32)
+  href: api/HomeSeer.PluginSdk.IHsController.html#HomeSeer_PluginSdk_IHsController_RemoveRefFromCategory_System_String_System_Int32_
+  commentId: M:HomeSeer.PluginSdk.IHsController.RemoveRefFromCategory(System.String,System.Int32)
+  fullName: HomeSeer.PluginSdk.IHsController.RemoveRefFromCategory(System.String, System.Int32)
+  nameWithType: IHsController.RemoveRefFromCategory(String, Int32)
+- uid: HomeSeer.PluginSdk.IHsController.RemoveRefFromCategory*
+  name: RemoveRefFromCategory
+  href: api/HomeSeer.PluginSdk.IHsController.html#HomeSeer_PluginSdk_IHsController_RemoveRefFromCategory_
+  commentId: Overload:HomeSeer.PluginSdk.IHsController.RemoveRefFromCategory
+  isSpec: "True"
+  fullName: HomeSeer.PluginSdk.IHsController.RemoveRefFromCategory
+  nameWithType: IHsController.RemoveRefFromCategory
+- uid: HomeSeer.PluginSdk.IHsController.RemoveRefsFromCategory(System.String,System.Collections.Generic.List{System.Int32})
+  name: RemoveRefsFromCategory(String, List<Int32>)
+  href: api/HomeSeer.PluginSdk.IHsController.html#HomeSeer_PluginSdk_IHsController_RemoveRefsFromCategory_System_String_System_Collections_Generic_List_System_Int32__
+  commentId: M:HomeSeer.PluginSdk.IHsController.RemoveRefsFromCategory(System.String,System.Collections.Generic.List{System.Int32})
+  name.vb: RemoveRefsFromCategory(String, List(Of Int32))
+  fullName: HomeSeer.PluginSdk.IHsController.RemoveRefsFromCategory(System.String, System.Collections.Generic.List<System.Int32>)
+  fullName.vb: HomeSeer.PluginSdk.IHsController.RemoveRefsFromCategory(System.String, System.Collections.Generic.List(Of System.Int32))
+  nameWithType: IHsController.RemoveRefsFromCategory(String, List<Int32>)
+  nameWithType.vb: IHsController.RemoveRefsFromCategory(String, List(Of Int32))
+- uid: HomeSeer.PluginSdk.IHsController.RemoveRefsFromCategory*
+  name: RemoveRefsFromCategory
+  href: api/HomeSeer.PluginSdk.IHsController.html#HomeSeer_PluginSdk_IHsController_RemoveRefsFromCategory_
+  commentId: Overload:HomeSeer.PluginSdk.IHsController.RemoveRefsFromCategory
+  isSpec: "True"
+  fullName: HomeSeer.PluginSdk.IHsController.RemoveRefsFromCategory
+  nameWithType: IHsController.RemoveRefsFromCategory
 - uid: HomeSeer.PluginSdk.IHsController.ReplaceVariables(System.String)
   name: ReplaceVariables(String)
   href: api/HomeSeer.PluginSdk.IHsController.html#HomeSeer_PluginSdk_IHsController_ReplaceVariables_System_String_
@@ -12510,6 +12675,48 @@ references:
   isSpec: "True"
   fullName: HomeSeer.PluginSdk.IHsController.SendControlForFeatureByValue
   nameWithType: IHsController.SendControlForFeatureByValue
+- uid: HomeSeer.PluginSdk.IHsController.SetImageForCategoryById(System.String,System.String)
+  name: SetImageForCategoryById(String, String)
+  href: api/HomeSeer.PluginSdk.IHsController.html#HomeSeer_PluginSdk_IHsController_SetImageForCategoryById_System_String_System_String_
+  commentId: M:HomeSeer.PluginSdk.IHsController.SetImageForCategoryById(System.String,System.String)
+  fullName: HomeSeer.PluginSdk.IHsController.SetImageForCategoryById(System.String, System.String)
+  nameWithType: IHsController.SetImageForCategoryById(String, String)
+- uid: HomeSeer.PluginSdk.IHsController.SetImageForCategoryById*
+  name: SetImageForCategoryById
+  href: api/HomeSeer.PluginSdk.IHsController.html#HomeSeer_PluginSdk_IHsController_SetImageForCategoryById_
+  commentId: Overload:HomeSeer.PluginSdk.IHsController.SetImageForCategoryById
+  isSpec: "True"
+  fullName: HomeSeer.PluginSdk.IHsController.SetImageForCategoryById
+  nameWithType: IHsController.SetImageForCategoryById
+- uid: HomeSeer.PluginSdk.IHsController.SetNameForCategoryById(System.String,System.String)
+  name: SetNameForCategoryById(String, String)
+  href: api/HomeSeer.PluginSdk.IHsController.html#HomeSeer_PluginSdk_IHsController_SetNameForCategoryById_System_String_System_String_
+  commentId: M:HomeSeer.PluginSdk.IHsController.SetNameForCategoryById(System.String,System.String)
+  fullName: HomeSeer.PluginSdk.IHsController.SetNameForCategoryById(System.String, System.String)
+  nameWithType: IHsController.SetNameForCategoryById(String, String)
+- uid: HomeSeer.PluginSdk.IHsController.SetNameForCategoryById*
+  name: SetNameForCategoryById
+  href: api/HomeSeer.PluginSdk.IHsController.html#HomeSeer_PluginSdk_IHsController_SetNameForCategoryById_
+  commentId: Overload:HomeSeer.PluginSdk.IHsController.SetNameForCategoryById
+  isSpec: "True"
+  fullName: HomeSeer.PluginSdk.IHsController.SetNameForCategoryById
+  nameWithType: IHsController.SetNameForCategoryById
+- uid: HomeSeer.PluginSdk.IHsController.SetRefsForCategoryById(System.String,System.Collections.Generic.List{System.Int32})
+  name: SetRefsForCategoryById(String, List<Int32>)
+  href: api/HomeSeer.PluginSdk.IHsController.html#HomeSeer_PluginSdk_IHsController_SetRefsForCategoryById_System_String_System_Collections_Generic_List_System_Int32__
+  commentId: M:HomeSeer.PluginSdk.IHsController.SetRefsForCategoryById(System.String,System.Collections.Generic.List{System.Int32})
+  name.vb: SetRefsForCategoryById(String, List(Of Int32))
+  fullName: HomeSeer.PluginSdk.IHsController.SetRefsForCategoryById(System.String, System.Collections.Generic.List<System.Int32>)
+  fullName.vb: HomeSeer.PluginSdk.IHsController.SetRefsForCategoryById(System.String, System.Collections.Generic.List(Of System.Int32))
+  nameWithType: IHsController.SetRefsForCategoryById(String, List<Int32>)
+  nameWithType.vb: IHsController.SetRefsForCategoryById(String, List(Of Int32))
+- uid: HomeSeer.PluginSdk.IHsController.SetRefsForCategoryById*
+  name: SetRefsForCategoryById
+  href: api/HomeSeer.PluginSdk.IHsController.html#HomeSeer_PluginSdk_IHsController_SetRefsForCategoryById_
+  commentId: Overload:HomeSeer.PluginSdk.IHsController.SetRefsForCategoryById
+  isSpec: "True"
+  fullName: HomeSeer.PluginSdk.IHsController.SetRefsForCategoryById
+  nameWithType: IHsController.SetRefsForCategoryById
 - uid: HomeSeer.PluginSdk.IHsController.SetVolume(System.Int32,System.String)
   name: SetVolume(Int32, String)
   href: api/HomeSeer.PluginSdk.IHsController.html#HomeSeer_PluginSdk_IHsController_SetVolume_System_Int32_System_String_
@@ -13032,6 +13239,19 @@ references:
   isSpec: "True"
   fullName: HomeSeer.PluginSdk.IPlugin.HandleAction
   nameWithType: IPlugin.HandleAction
+- uid: HomeSeer.PluginSdk.IPlugin.HasJuiDeviceConfigPage(System.Int32)
+  name: HasJuiDeviceConfigPage(Int32)
+  href: api/HomeSeer.PluginSdk.IPlugin.html#HomeSeer_PluginSdk_IPlugin_HasJuiDeviceConfigPage_System_Int32_
+  commentId: M:HomeSeer.PluginSdk.IPlugin.HasJuiDeviceConfigPage(System.Int32)
+  fullName: HomeSeer.PluginSdk.IPlugin.HasJuiDeviceConfigPage(System.Int32)
+  nameWithType: IPlugin.HasJuiDeviceConfigPage(Int32)
+- uid: HomeSeer.PluginSdk.IPlugin.HasJuiDeviceConfigPage*
+  name: HasJuiDeviceConfigPage
+  href: api/HomeSeer.PluginSdk.IPlugin.html#HomeSeer_PluginSdk_IPlugin_HasJuiDeviceConfigPage_
+  commentId: Overload:HomeSeer.PluginSdk.IPlugin.HasJuiDeviceConfigPage
+  isSpec: "True"
+  fullName: HomeSeer.PluginSdk.IPlugin.HasJuiDeviceConfigPage
+  nameWithType: IPlugin.HasJuiDeviceConfigPage
 - uid: HomeSeer.PluginSdk.IPlugin.HasSettings
   name: HasSettings
   href: api/HomeSeer.PluginSdk.IPlugin.html#HomeSeer_PluginSdk_IPlugin_HasSettings

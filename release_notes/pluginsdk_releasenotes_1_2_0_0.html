@@ -1,0 +1,143 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title> | HomeSeer PluginSdk Docs </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content=" | HomeSeer PluginSdk Docs ">
+    <meta name="generator" content="docfx 2.49.0.0">
+    
+    <link rel="shortcut icon" href="../images/favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <link rel="stylesheet" href="../styles/perfect-scrollbar.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet"> 
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    <meta property="docfx:rel" content="../">
+    
+  </head>  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../images/HomeSeer_Full_Logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div class="container body-content">
+        
+        <div id="search-results">
+          <div class="search-list"></div>
+          <div class="sr-items">
+            <p><i class="glyphicon glyphicon-refresh index-loading"></i></p>
+          </div>
+          <ul id="pagination"></ul>
+        </div>
+      </div>
+      <div role="main" class="container-fluid body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+      <div class="col-md-1"></div>
+      <div class="col-md-8 card">
+        <article class="content wrap" id="_content" data-uid="">
+
+<p>﻿# Plugin SDK v1.2.0.0 Release Notes</p>
+<p>This release is focused on supporting category management and enhancing the options for showing Device Configuration pages.</p>
+<ul>
+<li>Add methods for category management (PSDK-17) <a href="https://github.com/HomeSeer/Plugin-SDK/issues/47">(GitHub Issue 47)</a>
+<ul>
+<li>Add <a class="xref" href="../api/HomeSeer.PluginSdk.IHsController.html#HomeSeer_PluginSdk_IHsController_CreateCategory_"><code>IHsController.CreateCategory()</code></a></li>
+<li>Add <a class="xref" href="../api/HomeSeer.PluginSdk.IHsController.html#HomeSeer_PluginSdk_IHsController_GetAllCategories_"><code>IHsController.GetAllCategories()</code></a></li>
+<li>Add <a class="xref" href="../api/HomeSeer.PluginSdk.IHsController.html#HomeSeer_PluginSdk_IHsController_GetCategoryNameById_"><code>IHsController.GetCategoryNameById()</code></a></li>
+<li>Add <a class="xref" href="../api/HomeSeer.PluginSdk.IHsController.html#HomeSeer_PluginSdk_IHsController_GetCategoryImageById_"><code>IHsController.GetCategoryImageById()</code></a></li>
+<li>Add <a class="xref" href="../api/HomeSeer.PluginSdk.IHsController.html#HomeSeer_PluginSdk_IHsController_GetRefsByCategoryId_"><code>IHsController.GetRefsByCategoryId()</code></a></li>
+<li>Add <a class="xref" href="../api/HomeSeer.PluginSdk.IHsController.html#HomeSeer_PluginSdk_IHsController_SetImageForCategoryById_"><code>IHsController.SetImageForCategoryById()</code></a></li>
+<li>Add <a class="xref" href="../api/HomeSeer.PluginSdk.IHsController.html#HomeSeer_PluginSdk_IHsController_SetNameForCategoryById_"><code>IHsController.SetNameForCategoryById()</code></a></li>
+<li>Add <a class="xref" href="../api/HomeSeer.PluginSdk.IHsController.html#HomeSeer_PluginSdk_IHsController_SetRefsForCategoryById_"><code>IHsController.SetRefsForCategoryById()</code></a></li>
+<li>Add <a class="xref" href="../api/HomeSeer.PluginSdk.IHsController.html#HomeSeer_PluginSdk_IHsController_AddRefToCategory_"><code>IHsController.AddRefToCategory()</code></a></li>
+<li>Add <a class="xref" href="../api/HomeSeer.PluginSdk.IHsController.html#HomeSeer_PluginSdk_IHsController_AddRefsToCategory_"><code>IHsController.AddRefsToCategory()</code></a></li>
+<li>Add <a class="xref" href="../api/HomeSeer.PluginSdk.IHsController.html#HomeSeer_PluginSdk_IHsController_RemoveRefFromCategory_"><code>IHsController.RemoveRefFromCategory()</code></a></li>
+<li>Add <a class="xref" href="../api/HomeSeer.PluginSdk.IHsController.html#HomeSeer_PluginSdk_IHsController_RemoveRefsFromCategory_"><code>IHsController.RemoveRefsFromCategory()</code></a></li>
+</ul>
+</li>
+<li>Add <a class="xref" href="../api/HomeSeer.PluginSdk.AbstractPlugin.html#HomeSeer_PluginSdk_AbstractPlugin_HasJuiDeviceConfigPage_"><code>AbstractPlugin.HasJuiDeviceConfigPage()</code></a> to give a
+plugin the option to show a page for a particular device or not (PSDK-92)</li>
+<li>Fix KeyNotFoundException when accessing certain valid controls in a <a class="xref" href="../api/HomeSeer.PluginSdk.Devices.Controls.StatusControlCollection.html"><code>StatusControlCollection</code></a>
+(PSDK-87) <a href="https://github.com/HomeSeer/Plugin-SDK/issues/93">(GitHub Issue 93)</a></li>
+<li>Change default feature <a class="xref" href="../api/HomeSeer.PluginSdk.Devices.AbstractHsDevice.html#HomeSeer_PluginSdk_Devices_AbstractHsDevice_Misc"><code>Misc</code></a> flags to include
+<a class="xref" href="../api/HomeSeer.PluginSdk.Devices.EMiscFlag.html#HomeSeer_PluginSdk_Devices_EMiscFlag_SetDoesNotChangeLastChange"><code>EMiscFlag.SetDoesNotChangeLastChange</code></a> (PSDK-90)</li>
+</ul>
+</article>
+      </div>
+        
+        <div class="hidden-sm col-md-2" role="complementary">
+          <div class="sideaffix" id="ps-sideaffix">
+            <div class="contribution">
+              <ul class="nav">
+              </ul>
+            </div>
+            <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+            <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+            </nav>
+          </div>
+        </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            HomeSeer Technologies
+            
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>  </body>
+</html>

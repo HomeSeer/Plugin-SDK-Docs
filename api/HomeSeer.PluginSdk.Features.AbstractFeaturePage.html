@@ -148,7 +148,44 @@
   <div class="markdown level0 summary"><p>An abstract implementation of the <a class="xref" href="HomeSeer.PluginSdk.Features.IFeaturePage.html">IFeaturePage</a> interface establishing a basic structure to build
 a feature page from.</p>
 </div>
-  <div class="markdown level0 conceptual"></div>
+  <div class="markdown level0 conceptual"><h3 id="basic-usage">Basic Usage</h3>
+<p>The AbstractFeaturePage is a simple implementation for a feature page that accepts POST data as a serialized <a class="xref" href="HomeSeer.PluginSdk.Features.JsonRequest.html"><code>JsonRequest</code></a> and responds with <a class="xref" href="HomeSeer.PluginSdk.Features.Responses.JsonResponse.html"><code>JsonRsponse</code></a>.</p>
+<p>Define a class in your plugin that inherits from <code>AbstractFeaturePage</code> and implements the required members</p>
+<ul>
+<li><a class="xref" href="HomeSeer.PluginSdk.Features.AbstractFeaturePage.html#HomeSeer_PluginSdk_Features_AbstractFeaturePage_Title"><code>AbstractFeaturePage.Title</code></a></li>
+<li><a class="xref" href="HomeSeer.PluginSdk.Features.AbstractFeaturePage.html#HomeSeer_PluginSdk_Features_AbstractFeaturePage_FileName"><code>AbstractFeaturePage.FileName</code></a></li>
+</ul>
+<pre><code class="lang-cs">public class MyFeaturePage : AbstractFeaturePage {
+    
+    public override string Title { get; set; } = &quot;My Feature Page&quot;;
+    public override string FileName { get; set; } = &quot;feature-page.html&quot;;
+}
+</code></pre>
+<p>In the constructor for your class, call <a class="xref" href="HomeSeer.PluginSdk.Features.AbstractFeaturePage.html#HomeSeer_PluginSdk_Features_AbstractFeaturePage_RegisterRequestCallback_"><code>AbstractFeaturePage.RegisterRequestCallback()</code></a> for each <a class="xref" href="HomeSeer.PluginSdk.Features.JsonRequest.html#HomeSeer_PluginSdk_Features_JsonRequest_Request"><code>JsonRequest.Request</code></a> keyword you want to listen for.</p>
+<pre><code class="lang-cs">public class MyFeaturePage : AbstractFeaturePage {
+
+    private const string LoadPageKey = &quot;load-page&quot;;
+    
+    public override string Title { get; set; } = &quot;My Feature Page&quot;;
+    public override string FileName { get; set; } = &quot;feature-page.html&quot;;
+
+    public MyFeaturePage() {
+        RegisterRequestCallback(LoadPageKey, LoadPage);
+    }
+
+    private JsonResponse LoadPage(JsonRequest request) {
+        try {
+            return new JsonResponse(request, &quot;page loaded successfully&quot;);
+        }
+        catch (Exception exception) {
+            exception.Log();
+            throw;
+        }
+    }
+}
+</code></pre>
+<p>See <a class="xref" href="HomeSeer.PluginSdk.Features.Responses.PageActions.PageActionResponse.html"><code>PageActionResponse</code></a> for default actions that you can execute through JavaScript from your plugin application.</p>
+</div>
   <br>
   <h3 id="constructors">Constructors
   </h3>

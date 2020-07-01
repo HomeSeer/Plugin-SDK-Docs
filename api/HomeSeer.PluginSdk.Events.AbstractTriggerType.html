@@ -145,7 +145,65 @@
 Inherit from this class to define your own trigger types and store them in your plugin&apos;s <a class="xref" href="HomeSeer.PluginSdk.Events.TriggerTypeCollection.html">TriggerTypeCollection</a>
 </p>
 </div>
-  <div class="markdown level0 conceptual">*content</div>
+  <div class="markdown level0 conceptual"><h3 id="basic-usage">Basic Usage</h3>
+<p>Define a class in your plugin that inherits from <code>AbstractTriggerType</code> and implements the required members</p>
+<ul>
+<li><a class="xref" href="HomeSeer.PluginSdk.Events.AbstractTriggerType.html#HomeSeer_PluginSdk_Events_AbstractTriggerType_GetName_"><code>AbstractTriggerType.GetName()</code></a></li>
+<li><a class="xref" href="HomeSeer.PluginSdk.Events.AbstractTriggerType.html#HomeSeer_PluginSdk_Events_AbstractTriggerType_OnNewTrigger_"><code>AbstractTriggerType.OnNewTrigger()</code></a></li>
+<li><a class="xref" href="HomeSeer.PluginSdk.Events.AbstractTriggerType.html#HomeSeer_PluginSdk_Events_AbstractTriggerType_IsFullyConfigured_"><code>AbstractTriggerType.IsFullyConfigured()</code></a></li>
+<li><a class="xref" href="HomeSeer.PluginSdk.Events.AbstractTriggerType.html#HomeSeer_PluginSdk_Events_AbstractTriggerType_OnConfigItemUpdate_"><code>AbstractTriggerType.OnConfigItemUpdate(AbstractView)</code></a></li>
+<li><a class="xref" href="HomeSeer.PluginSdk.Events.AbstractTriggerType.html#HomeSeer_PluginSdk_Events_AbstractTriggerType_GetPrettyString_"><code>AbstractTriggerType.GetPrettyString()</code></a></li>
+<li><a class="xref" href="HomeSeer.PluginSdk.Events.AbstractTriggerType.html#HomeSeer_PluginSdk_Events_AbstractTriggerType_IsTriggerTrue_"><code>AbstractTriggerType.IsTriggerTrue()</code></a></li>
+<li><a class="xref" href="HomeSeer.PluginSdk.Events.AbstractTriggerType.html#HomeSeer_PluginSdk_Events_AbstractTriggerType_ReferencesDeviceOrFeature_"><code>AbstractTriggerType.ReferencesDeviceOrFeature()</code></a></li>
+</ul>
+<pre><code class="lang-cs">public class MyCustomTriggerType : AbstractTriggerType {
+    
+	//All of these constructors must be implemented as is
+	protected MyCustomTriggerType(int id, int subTypeNumber, int eventRef, byte[] dataIn, TriggerTypeCollection.ITriggerTypeListener listener) : base(id, subTypeNumber, eventRef, dataIn, listener) { }
+	protected MyCustomTriggerType() {}
+	//No code should be contained within these constructors
+	
+	//Return the display name of this trigger type
+	protected override string GetName() =&gt; &quot;My Custom Trigger Type&quot;;
+	
+	protected override void OnNewTrigger() {
+		//Initialize the config page for a new trigger of this type
+	}
+	
+	public override bool IsFullyConfigured() {
+		//Return whether the trigger is fully configured or not
+	}
+	
+	protected override bool OnConfigItemUpdate(AbstractView configViewChange) {
+		//React to changes to the trigger configuration
+	}
+	
+	public override string GetPrettyString() {
+		//Return a string describing the trigger to take
+	}
+	
+	public override bool IsTriggerTrue() {
+		//Return whether the trigger condition has been met or not
+	}
+	
+	public override bool ReferencesDeviceOrFeature(int devOrFeatRef) =&gt; false;
+}
+</code></pre>
+<p>and add it to the <a class="xref" href="HomeSeer.PluginSdk.Events.TriggerTypeCollection.html"><code>TriggerTypeCollection</code></a> implementation in your plugin class</p>
+<pre><code class="lang-cs">protected override void Initialize() {
+    ...
+    TriggerTypes.AddTriggerType(typeof(MyCustomTriggerType));
+    ...
+ }
+</code></pre>
+<h3 id="lifecycle">Lifecycle</h3>
+<p>It is important to not include any additional code in the constructors for custom trigger types because the lifecycle of triggers is managed by the HomeSeer platform.  Methods like <a class="xref" href="HomeSeer.PluginSdk.Events.AbstractTriggerType.html#HomeSeer_PluginSdk_Events_AbstractTriggerType_OnNewTrigger_"><code>AbstractTriggerType.OnNewTrigger()</code></a>, <a class="xref" href="HomeSeer.PluginSdk.Events.AbstractTriggerType.html#HomeSeer_PluginSdk_Events_AbstractTriggerType_IsFullyConfigured_"><code>AbstractTriggerType.IsFullyConfigured()</code></a>, and <a class="xref" href="HomeSeer.PluginSdk.Events.AbstractTriggerType.html#HomeSeer_PluginSdk_Events_AbstractTriggerType_OnConfigItemUpdate_"><code>AbstractTriggerType.OnConfigItemUpdate(AbstractView)</code></a> are called by HomeSeer throughout the life of the trigger.  Include the corresponding logic for your custom trigger type in the relevant methods.</p>
+<p>The typical lifecycle of an trigger can be seen in the following diagram.</p>
+<p><img src="../images/Event_Trigger_Lifecycle.png" alt="Event Trigger Lifecycle"></p>
+<blockquote>
+<p>** Edits made to <a class="xref" href="HomeSeer.Jui.Views.InputView.html">InputViews</a> are not automatically captured like other <a class="xref" href="HomeSeer.Jui.Types.EViewType.html">ViewTypes</a> and will only call <a class="xref" href="HomeSeer.PluginSdk.Events.AbstractTriggerType.html#HomeSeer_PluginSdk_Events_AbstractTriggerType_OnConfigItemUpdate_">OnConfigItemUpdate()</a> when the user clicks the Save button.</p>
+</blockquote>
+</div>
   <br>
   <h3 id="constructors">Constructors
   </h3>
