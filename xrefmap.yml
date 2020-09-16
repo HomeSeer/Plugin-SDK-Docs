@@ -5782,19 +5782,6 @@ references:
   isSpec: "True"
   fullName: HomeSeer.PluginSdk.Devices.DeviceFactory.WithName
   nameWithType: DeviceFactory.WithName
-- uid: HomeSeer.PluginSdk.Devices.DeviceFactory.WithProductImage(System.String)
-  name: WithProductImage(String)
-  href: api/HomeSeer.PluginSdk.Devices.DeviceFactory.html#HomeSeer_PluginSdk_Devices_DeviceFactory_WithProductImage_System_String_
-  commentId: M:HomeSeer.PluginSdk.Devices.DeviceFactory.WithProductImage(System.String)
-  fullName: HomeSeer.PluginSdk.Devices.DeviceFactory.WithProductImage(System.String)
-  nameWithType: DeviceFactory.WithProductImage(String)
-- uid: HomeSeer.PluginSdk.Devices.DeviceFactory.WithProductImage*
-  name: WithProductImage
-  href: api/HomeSeer.PluginSdk.Devices.DeviceFactory.html#HomeSeer_PluginSdk_Devices_DeviceFactory_WithProductImage_
-  commentId: Overload:HomeSeer.PluginSdk.Devices.DeviceFactory.WithProductImage
-  isSpec: "True"
-  fullName: HomeSeer.PluginSdk.Devices.DeviceFactory.WithProductImage
-  nameWithType: DeviceFactory.WithProductImage
 - uid: HomeSeer.PluginSdk.Devices.EEnergyFeatureSubType
   name: EEnergyFeatureSubType
   href: api/HomeSeer.PluginSdk.Devices.EEnergyFeatureSubType.html
@@ -6131,12 +6118,6 @@ references:
   commentId: F:HomeSeer.PluginSdk.Devices.EProperty.PlugExtraData
   fullName: HomeSeer.PluginSdk.Devices.EProperty.PlugExtraData
   nameWithType: EProperty.PlugExtraData
-- uid: HomeSeer.PluginSdk.Devices.EProperty.ProductImage
-  name: ProductImage
-  href: api/HomeSeer.PluginSdk.Devices.EProperty.html#HomeSeer_PluginSdk_Devices_EProperty_ProductImage
-  commentId: F:HomeSeer.PluginSdk.Devices.EProperty.ProductImage
-  fullName: HomeSeer.PluginSdk.Devices.EProperty.ProductImage
-  nameWithType: EProperty.ProductImage
 - uid: HomeSeer.PluginSdk.Devices.EProperty.Ref
   name: Ref
   href: api/HomeSeer.PluginSdk.Devices.EProperty.html#HomeSeer_PluginSdk_Devices_EProperty_Ref

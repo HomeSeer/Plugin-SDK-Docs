@@ -5,9 +5,9 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Plugin SDK v1.2.0.0 Release Notes | HomeSeer PluginSdk Docs </title>
+    <title>Plugin SDK v1.2.1.0 Release Notes | HomeSeer PluginSdk Docs </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Plugin SDK v1.2.0.0 Release Notes | HomeSeer PluginSdk Docs ">
+    <meta name="title" content="Plugin SDK v1.2.1.0 Release Notes | HomeSeer PluginSdk Docs ">
     <meta name="generator" content="docfx 2.49.0.0">
     
     <link rel="shortcut icon" href="../images/favicon.ico">
@@ -79,32 +79,20 @@
       <div class="col-md-1"></div>
       <div class="col-md-8 card">
         <article class="content wrap" id="_content" data-uid="">
-<h1 id="plugin-sdk-v1200-release-notes">Plugin SDK v1.2.0.0 Release Notes</h1>
+<h1 id="plugin-sdk-v1210-release-notes">Plugin SDK v1.2.1.0 Release Notes</h1>
 
-<p>This release is focused on supporting category management and enhancing the options for showing Device Configuration pages.</p>
+<p>This release is focused on bug fixes related to device management.</p>
 <ul>
-<li>Add methods for category management (PSDK-17) <a href="https://github.com/HomeSeer/Plugin-SDK/issues/47">(GitHub Issue 47)</a>
+<li><a class="xref" href="../api/HomeSeer.PluginSdk.IPlugin.html#HomeSeer_PluginSdk_IPlugin_HasJuiDeviceConfigPage_"><code>IPlugin.HasJuiDeviceConfigPage()</code></a> is now virtual. The virtual keyword was improperly left off in the last release. (PSDK-107)</li>
+<li>Changed the behavior of location methods in factory classes to permit empty strings. (PSDK-98)
 <ul>
-<li>Add <a class="xref" href="../api/HomeSeer.PluginSdk.IHsController.html#HomeSeer_PluginSdk_IHsController_CreateCategory_"><code>IHsController.CreateCategory()</code></a></li>
-<li>Add <a class="xref" href="../api/HomeSeer.PluginSdk.IHsController.html#HomeSeer_PluginSdk_IHsController_GetAllCategories_"><code>IHsController.GetAllCategories()</code></a></li>
-<li>Add <a class="xref" href="../api/HomeSeer.PluginSdk.IHsController.html#HomeSeer_PluginSdk_IHsController_GetCategoryNameById_"><code>IHsController.GetCategoryNameById()</code></a></li>
-<li>Add <a class="xref" href="../api/HomeSeer.PluginSdk.IHsController.html#HomeSeer_PluginSdk_IHsController_GetCategoryImageById_"><code>IHsController.GetCategoryImageById()</code></a></li>
-<li>Add <a class="xref" href="../api/HomeSeer.PluginSdk.IHsController.html#HomeSeer_PluginSdk_IHsController_GetRefsByCategoryId_"><code>IHsController.GetRefsByCategoryId()</code></a></li>
-<li>Add <a class="xref" href="../api/HomeSeer.PluginSdk.IHsController.html#HomeSeer_PluginSdk_IHsController_SetImageForCategoryById_"><code>IHsController.SetImageForCategoryById()</code></a></li>
-<li>Add <a class="xref" href="../api/HomeSeer.PluginSdk.IHsController.html#HomeSeer_PluginSdk_IHsController_SetNameForCategoryById_"><code>IHsController.SetNameForCategoryById()</code></a></li>
-<li>Add <a class="xref" href="../api/HomeSeer.PluginSdk.IHsController.html#HomeSeer_PluginSdk_IHsController_SetRefsForCategoryById_"><code>IHsController.SetRefsForCategoryById()</code></a></li>
-<li>Add <a class="xref" href="../api/HomeSeer.PluginSdk.IHsController.html#HomeSeer_PluginSdk_IHsController_AddRefToCategory_"><code>IHsController.AddRefToCategory()</code></a></li>
-<li>Add <a class="xref" href="../api/HomeSeer.PluginSdk.IHsController.html#HomeSeer_PluginSdk_IHsController_AddRefsToCategory_"><code>IHsController.AddRefsToCategory()</code></a></li>
-<li>Add <a class="xref" href="../api/HomeSeer.PluginSdk.IHsController.html#HomeSeer_PluginSdk_IHsController_RemoveRefFromCategory_"><code>IHsController.RemoveRefFromCategory()</code></a></li>
-<li>Add <a class="xref" href="../api/HomeSeer.PluginSdk.IHsController.html#HomeSeer_PluginSdk_IHsController_RemoveRefsFromCategory_"><code>IHsController.RemoveRefsFromCategory()</code></a></li>
+<li><a class="xref" href="../api/HomeSeer.PluginSdk.Devices.DeviceFactory.html#HomeSeer_PluginSdk_Devices_DeviceFactory_WithLocation_"><code>DeviceFactory.WithLocation()</code></a></li>
+<li><a class="xref" href="../api/HomeSeer.PluginSdk.Devices.DeviceFactory.html#HomeSeer_PluginSdk_Devices_DeviceFactory_WithLocation2_"><code>DeviceFactory.WithLocation2()</code></a></li>
+<li><a class="xref" href="../api/HomeSeer.PluginSdk.Devices.FeatureFactory.html#HomeSeer_PluginSdk_Devices_FeatureFactory_WithLocation_"><code>FeatureFactory.WithLocation()</code></a></li>
+<li><a class="xref" href="../api/HomeSeer.PluginSdk.Devices.FeatureFactory.html#HomeSeer_PluginSdk_Devices_FeatureFactory_WithLocation2_"><code>FeatureFactory.WithLocation2()</code></a></li>
 </ul>
 </li>
-<li>Add <a class="xref" href="../api/HomeSeer.PluginSdk.AbstractPlugin.html#HomeSeer_PluginSdk_AbstractPlugin_HasJuiDeviceConfigPage_"><code>AbstractPlugin.HasJuiDeviceConfigPage()</code></a> to give a
-plugin the option to show a page for a particular device or not (PSDK-92)</li>
-<li>Fix KeyNotFoundException when accessing certain valid controls in a <a class="xref" href="../api/HomeSeer.PluginSdk.Devices.Controls.StatusControlCollection.html"><code>StatusControlCollection</code></a>
-(PSDK-87) <a href="https://github.com/HomeSeer/Plugin-SDK/issues/93">(GitHub Issue 93)</a></li>
-<li>Change default feature <a class="xref" href="../api/HomeSeer.PluginSdk.Devices.AbstractHsDevice.html#HomeSeer_PluginSdk_Devices_AbstractHsDevice_Misc"><code>Misc</code></a> flags to include
-<a class="xref" href="../api/HomeSeer.PluginSdk.Devices.EMiscFlag.html#HomeSeer_PluginSdk_Devices_EMiscFlag_SetDoesNotChangeLastChange"><code>EMiscFlag.SetDoesNotChangeLastChange</code></a> (PSDK-90)</li>
+<li>Remove obsolete ProductImage references. (PSDK-109)</li>
 </ul>
 </article>
       </div>

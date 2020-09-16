@@ -678,7 +678,7 @@
       "output": {
         ".html": {
           "relative_path": "api/HomeSeer.PluginSdk.Devices.DeviceFactory.html",
-          "hash": "HuWHsqX/z/PZ4zRJalQXFw=="
+          "hash": "iuyhOCcd5lFwJAh40F7pVg=="
         }
       },
       "is_incremental": false,
@@ -726,7 +726,7 @@
       "output": {
         ".html": {
           "relative_path": "api/HomeSeer.PluginSdk.Devices.EProperty.html",
-          "hash": "vUGAvEPMTr3OaTR5K1G60g=="
+          "hash": "yi2rooV3/Kh2hIKTGvlxAw=="
         }
       },
       "is_incremental": false,
@@ -750,7 +750,7 @@
       "output": {
         ".html": {
           "relative_path": "api/HomeSeer.PluginSdk.Devices.FeatureFactory.html",
-          "hash": "IjB2FUzO8BzoD6jQYE/HQQ=="
+          "hash": "fb4lVDKlY8LYrmlAsGsHcQ=="
         }
       },
       "is_incremental": false,
@@ -1922,7 +1922,19 @@
       "output": {
         ".html": {
           "relative_path": "release_notes/pluginsdk_releasenotes_1_2_0_0.html",
-          "hash": "lqLz1jAzzVgxecJiI9gZ8Q=="
+          "hash": "sw7+3OzmVpsvsujhD8V1KA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "release_notes/pluginsdk_releasenotes_1_2_1_0.md",
+      "output": {
+        ".html": {
+          "relative_path": "release_notes/pluginsdk_releasenotes_1_2_1_0.html",
+          "hash": "AD+fC+D3YCnTWWIXbJwhUA=="
         }
       },
       "is_incremental": false,
@@ -1934,7 +1946,7 @@
       "output": {
         ".html": {
           "relative_path": "release_notes/toc.html",
-          "hash": "dq1EE8VKWsuVHrR/Un+N8A=="
+          "hash": "tTPQtY1bsKVwVkj712ScxQ=="
         }
       },
       "is_incremental": false,
@@ -1969,24 +1981,24 @@
           "total_file_count": 0,
           "skipped_file_count": 0
         },
-        "TocDocumentProcessor": {
-          "can_incremental": false,
-          "details": "Processor TocDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
-          "incrementalPhase": "build",
-          "total_file_count": 0,
-          "skipped_file_count": 0
-        },
         "ConceptualDocumentProcessor": {
           "can_incremental": true,
           "incrementalPhase": "build",
-          "total_file_count": 10,
-          "skipped_file_count": 10
+          "total_file_count": 11,
+          "skipped_file_count": 11
         },
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": true,
           "incrementalPhase": "build",
           "total_file_count": 149,
           "skipped_file_count": 149
+        },
+        "TocDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor TocDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "incrementalPhase": "build",
+          "total_file_count": 0,
+          "skipped_file_count": 0
         }
       }
     },
