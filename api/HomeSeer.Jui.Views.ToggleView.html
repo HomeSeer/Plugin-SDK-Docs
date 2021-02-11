@@ -102,6 +102,7 @@
       <section id="tabpanel_syntax_vb" role="tabpanel" data-tab="vb" aria-hidden="true" hidden="">
           <div class="codewrapper">
             <pre><code class="lang-System.Object[] hljs">Public NotInheritable Class ToggleView
+
     Inherits AbstractView</code></pre>
           </div>
       </section>
@@ -181,14 +182,12 @@
       </ul>
       <section id="tabpanel_syntax_cs" role="tabpanel" data-tab="cs">
           <div class="codewrapper">
-            <pre><code class="lang-csharp hljs">[JsonConstructor]
-public ToggleView(string id, string name, bool isEnabled = false)</code></pre>
+            <pre><code class="lang-csharp hljs">public ToggleView(string id, string name, bool isEnabled = false)</code></pre>
           </div>
       </section>
       <section id="tabpanel_syntax_vb" role="tabpanel" data-tab="vb" aria-hidden="true" hidden="">
           <div class="codewrapper">
-            <pre><code class="lang-vb hljs">&lt;JsonConstructor&gt;
-Public Sub New(id As String, name As String, isEnabled As Boolean = False)</code></pre>
+            <pre><code class="lang-vb hljs">Public Sub New(id As String, name As String, isEnabled As Boolean = False)</code></pre>
           </div>
       </section>
   </div>
@@ -245,14 +244,12 @@ Public Sub New(id As String, name As String, isEnabled As Boolean = False)</code
       </ul>
       <section id="tabpanel_syntax_cs" role="tabpanel" data-tab="cs">
           <div class="codewrapper">
-            <pre><code class="lang-csharp hljs">[JsonProperty(&quot;enabled&quot;)]
-public bool IsEnabled { get; set; }</code></pre>
+            <pre><code class="lang-csharp hljs">public bool IsEnabled { get; set; }</code></pre>
           </div>
       </section>
       <section id="tabpanel_syntax_vb" role="tabpanel" data-tab="vb" aria-hidden="true" hidden="">
           <div class="codewrapper">
-            <pre><code class="lang-vb hljs">&lt;JsonProperty(&quot;enabled&quot;)&gt;
-Public Property IsEnabled As Boolean</code></pre>
+            <pre><code class="lang-vb hljs">Public Property IsEnabled As Boolean</code></pre>
           </div>
       </section>
   </div>
@@ -292,14 +289,12 @@ Public Property IsEnabled As Boolean</code></pre>
       </ul>
       <section id="tabpanel_syntax_cs" role="tabpanel" data-tab="cs">
           <div class="codewrapper">
-            <pre><code class="lang-csharp hljs">[JsonProperty(&quot;toggle_style&quot;)]
-public EToggleType ToggleType { get; set; }</code></pre>
+            <pre><code class="lang-csharp hljs">public EToggleType ToggleType { get; set; }</code></pre>
           </div>
       </section>
       <section id="tabpanel_syntax_vb" role="tabpanel" data-tab="vb" aria-hidden="true" hidden="">
           <div class="codewrapper">
-            <pre><code class="lang-vb hljs">&lt;JsonProperty(&quot;toggle_style&quot;)&gt;
-Public Property ToggleType As EToggleType</code></pre>
+            <pre><code class="lang-vb hljs">Public Property ToggleType As EToggleType</code></pre>
           </div>
       </section>
   </div>
@@ -326,8 +321,7 @@ Public Property ToggleType As EToggleType</code></pre>
   </span>
   <a id="HomeSeer_Jui_Views_ToggleView_GetStringValue_" data-uid="HomeSeer.Jui.Views.ToggleView.GetStringValue*"></a>
   <h4 id="HomeSeer_Jui_Views_ToggleView_GetStringValue" data-uid="HomeSeer.Jui.Views.ToggleView.GetStringValue">GetStringValue()</h4>
-  <div class="markdown level1 summary"><p>Get the value associated with this view as a string if there is one.</p>
-</div>
+  <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="tabGroup" id="tabgroup_syntax">
@@ -361,8 +355,7 @@ Public Property ToggleType As EToggleType</code></pre>
     <tbody>
       <tr>
         <td><span class="xref">System.String</span></td>
-        <td><p>The value stored in this view as a string or NULL if there is no value stored.</p>
-</td>
+        <td></td>
       </tr>
     </tbody>
   </table>
@@ -374,8 +367,7 @@ Public Property ToggleType As EToggleType</code></pre>
   </span>
   <a id="HomeSeer_Jui_Views_ToggleView_ToHtml_" data-uid="HomeSeer.Jui.Views.ToggleView.ToHtml*"></a>
   <h4 id="HomeSeer_Jui_Views_ToggleView_ToHtml_System_Int32_" data-uid="HomeSeer.Jui.Views.ToggleView.ToHtml(System.Int32)">ToHtml(Int32)</h4>
-  <div class="markdown level1 summary"><p>Get a string representation of this view converted into HTML</p>
-</div>
+  <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="tabGroup" id="tabgroup_syntax">
@@ -426,8 +418,7 @@ Public Property ToggleType As EToggleType</code></pre>
     <tbody>
       <tr>
         <td><span class="xref">System.String</span></td>
-        <td><p>An HTML representation of the view as a string</p>
-</td>
+        <td></td>
       </tr>
     </tbody>
   </table>
@@ -476,9 +467,7 @@ Public Property ToggleType As EToggleType</code></pre>
       <tr>
         <td><a class="xref" href="HomeSeer.Jui.Views.AbstractView.html">AbstractView</a></td>
         <td><span class="parametername">newViewState</span></td>
-        <td><p>The new state of the view being updated.
-This view's ID and Type must match the calling view exactly</p>
-</td>
+        <td></td>
       </tr>
     </tbody>
   </table>
@@ -506,8 +495,7 @@ This view's ID and Type must match the calling view exactly</p>
   </span>
   <a id="HomeSeer_Jui_Views_ToggleView_UpdateValue_" data-uid="HomeSeer.Jui.Views.ToggleView.UpdateValue*"></a>
   <h4 id="HomeSeer_Jui_Views_ToggleView_UpdateValue_System_String_" data-uid="HomeSeer.Jui.Views.ToggleView.UpdateValue(System.String)">UpdateValue(String)</h4>
-  <div class="markdown level1 summary"><p>Update the value of the view</p>
-</div>
+  <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="tabGroup" id="tabgroup_syntax">
@@ -543,8 +531,7 @@ This view's ID and Type must match the calling view exactly</p>
       <tr>
         <td><span class="xref">System.String</span></td>
         <td><span class="parametername">value</span></td>
-        <td><p>The new value</p>
-</td>
+        <td></td>
       </tr>
     </tbody>
   </table>

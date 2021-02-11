@@ -102,6 +102,7 @@
       <section id="tabpanel_syntax_vb" role="tabpanel" data-tab="vb" aria-hidden="true" hidden="">
           <div class="codewrapper">
             <pre><code class="lang-System.Object[] hljs">Public MustInherit Class AbstractPlugin
+
     Implements IPlugin, ActionTypeCollection.IActionTypeListener, TriggerTypeCollection.ITriggerTypeListener</code></pre>
           </div>
       </section>
@@ -156,42 +157,7 @@ to the HomeSeer system by calling <a class="xref" href="HomeSeer.PluginSdk.Abstr
 </p>
 <p>All plugins (the HSPI class) should derive from this class.</p>
 </div>
-  <div class="markdown level0 conceptual"><h3 id="basic-usage">Basic Usage</h3>
-<p>Define a class in your plugin called <code>HSPI</code> that inherits from <code>AbstractPlugin</code> and implement the required members:</p>
-<ul>
-<li><a class="xref" href="HomeSeer.PluginSdk.AbstractPlugin.html#HomeSeer_PluginSdk_AbstractPlugin_Id"><code>AbstractPlugin.Id</code></a></li>
-<li><a class="xref" href="HomeSeer.PluginSdk.AbstractPlugin.html#HomeSeer_PluginSdk_AbstractPlugin_Name"><code>AbstractPlugin.Name</code></a></li>
-<li><a class="xref" href="HomeSeer.PluginSdk.AbstractPlugin.html#HomeSeer_PluginSdk_AbstractPlugin_Initialize_"><code>AbstractPlugin.Initialize()</code></a></li>
-<li><a class="xref" href="HomeSeer.PluginSdk.AbstractPlugin.html#HomeSeer_PluginSdk_AbstractPlugin_OnSettingChange_"><code>AbstractPlugin.OnSettingChange(string, AbstractView, AbstractView)</code></a></li>
-<li><a class="xref" href="HomeSeer.PluginSdk.AbstractPlugin.html#HomeSeer_PluginSdk_AbstractPlugin_BeforeReturnStatus_"><code>AbstractPlugin.BeforeReturnStatus()</code></a></li>
-<li><a class="xref" href="HomeSeer.PluginSdk.AbstractPlugin.html#HomeSeer_PluginSdk_AbstractPlugin_PostBackProc_"><code>AbstractPlugin.PostBackProc(string, string, string, int)</code></a></li>
-</ul>
-<pre><code class="lang-cs">public class HSPI : AbstractPlugin {
-    
-	public override string Id { get; } = &quot;PLUGINID&quot;;
-	public override string Name { get; } = &quot;PLUGINNAME&quot;
-	
-	public HSPI() {	}
-	
-	protected override void Initialize() {
-		//Initialize the starting state of the plugin
-		Status = PluginStatus.Ok();
-	}
-	
-	protected override bool OnSettingChange(string pageId, AbstractView currentView, AbstractView changedView) {
-		//React to changes to your plugin settings
-	}
-	
-	protected override void BeforeReturnStatus() {
-		//Update the status of your plugin before it is returned to HomeSeer
-	}
-	
-	public override string PostBackProc(string page, string data, string user, int userRights) {
-		//React to HTTP POST methods sent to feature pages owned by this plugin
-	}
-}
-</code></pre>
-</div>
+  <div class="markdown level0 conceptual">*content</div>
   <br>
   <h3 id="constructors">Constructors
   </h3>
@@ -279,9 +245,7 @@ to the HomeSeer system by calling <a class="xref" href="HomeSeer.PluginSdk.Abstr
   </span>
   <a id="HomeSeer_PluginSdk_AbstractPlugin_AccessLevel_" data-uid="HomeSeer.PluginSdk.AbstractPlugin.AccessLevel*"></a>
   <h4 id="HomeSeer_PluginSdk_AbstractPlugin_AccessLevel" data-uid="HomeSeer.PluginSdk.AbstractPlugin.AccessLevel">AccessLevel</h4>
-  <div class="markdown level1 summary"><p>Return the access level of this plug-in. Access level is the licensing mode.
-Use the integer value corresponding to the <a class="xref" href="HomeSeer.PluginSdk.Types.EAccessLevel.html">EAccessLevel</a> for your plugin</p>
-</div>
+  <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="tabGroup" id="tabgroup_syntax">
@@ -325,8 +289,7 @@ Use the integer value corresponding to the <a class="xref" href="HomeSeer.Plugin
   </span>
   <a id="HomeSeer_PluginSdk_AbstractPlugin_ActionCount_" data-uid="HomeSeer.PluginSdk.AbstractPlugin.ActionCount*"></a>
   <h4 id="HomeSeer_PluginSdk_AbstractPlugin_ActionCount" data-uid="HomeSeer.PluginSdk.AbstractPlugin.ActionCount">ActionCount</h4>
-  <div class="markdown level1 summary"><p>The number of unique event actions the plugin supports</p>
-</div>
+  <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="tabGroup" id="tabgroup_syntax">
@@ -415,11 +378,7 @@ Use the integer value corresponding to the <a class="xref" href="HomeSeer.Plugin
   </span>
   <a id="HomeSeer_PluginSdk_AbstractPlugin_HasSettings_" data-uid="HomeSeer.PluginSdk.AbstractPlugin.HasSettings*"></a>
   <h4 id="HomeSeer_PluginSdk_AbstractPlugin_HasSettings" data-uid="HomeSeer.PluginSdk.AbstractPlugin.HasSettings">HasSettings</h4>
-  <div class="markdown level1 summary"><p>Whether the plugin has settings pages or not.</p>
-<p>
-If this is TRUE, you must return valid JUI data in GetJuiSettingsPages()
-</p>
-</div>
+  <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="tabGroup" id="tabgroup_syntax">
@@ -516,11 +475,7 @@ Override this and always return TRUE if you plan on adding settings pages to the
   </span>
   <a id="HomeSeer_PluginSdk_AbstractPlugin_Id_" data-uid="HomeSeer.PluginSdk.AbstractPlugin.Id*"></a>
   <h4 id="HomeSeer_PluginSdk_AbstractPlugin_Id" data-uid="HomeSeer.PluginSdk.AbstractPlugin.Id">Id</h4>
-  <div class="markdown level1 summary"><p>Unique ID for this plugin, needs to be unique for all plugins.</p>
-<p>
-Do NOT use special characters in your plugin name with the exception of &quot;-&quot; and &quot;.&quot;
-</p>
-</div>
+  <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="tabGroup" id="tabgroup_syntax">
@@ -558,11 +513,6 @@ Do NOT use special characters in your plugin name with the exception of &quot;-&
       </tr>
     </tbody>
   </table>
-  <h5 id="HomeSeer_PluginSdk_AbstractPlugin_Id_remarks">Remarks</h5>
-  <div class="markdown level1 remarks"><p>The ID is used throughout the HomeSeer platform to target this plugin specifically via URL or internal code.
-HomeSeer recommends using the name your plugin (replacing any spaces with hyphens &quot;-&quot;) as the ID to make it
-easy to match them with one-another.</p>
-</div>
   
   <span class="small pull-right mobile-hide">
     <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/AbstractPlugin.cs/#L118">View Source</a>
@@ -662,15 +612,7 @@ When it is TRUE, log messages from the PluginSdk code will be written to the Con
   </span>
   <a id="HomeSeer_PluginSdk_AbstractPlugin_Name_" data-uid="HomeSeer.PluginSdk.AbstractPlugin.Name*"></a>
   <h4 id="HomeSeer_PluginSdk_AbstractPlugin_Name" data-uid="HomeSeer.PluginSdk.AbstractPlugin.Name">Name</h4>
-  <div class="markdown level1 summary"><p>The name of the plugin</p>
-<p>
-Do NOT use special characters in your plugin name with the exception of &quot;-&quot;, &quot;.&quot;, and &quot; &quot; (space).
-</p>
-<p>
-This is used to identify your plug-in to HomeSeer and your users. 
-Keep the name to 16 characters or less. 
-</p>
-</div>
+  <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="tabGroup" id="tabgroup_syntax">
@@ -865,12 +807,7 @@ the plugin may be inoperable. This is also queried when users navigate to the pl
   </span>
   <a id="HomeSeer_PluginSdk_AbstractPlugin_SupportsConfigDevice_" data-uid="HomeSeer.PluginSdk.AbstractPlugin.SupportsConfigDevice*"></a>
   <h4 id="HomeSeer_PluginSdk_AbstractPlugin_SupportsConfigDevice" data-uid="HomeSeer.PluginSdk.AbstractPlugin.SupportsConfigDevice">SupportsConfigDevice</h4>
-  <div class="markdown level1 summary"><p>Whether this plugin supports a device configuration page for devices created/managed by it</p>
-<p>
-TRUE will cause HomeSeer to call GetJuiDeviceConfigPage() for devices this plugin manages.
-  FALSE means HomeSeer will not call GetJuiDeviceConfigPage() for any devices
-</p>
-</div>
+  <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="tabGroup" id="tabgroup_syntax">
@@ -914,12 +851,7 @@ TRUE will cause HomeSeer to call GetJuiDeviceConfigPage() for devices this plugi
   </span>
   <a id="HomeSeer_PluginSdk_AbstractPlugin_SupportsConfigDeviceAll_" data-uid="HomeSeer.PluginSdk.AbstractPlugin.SupportsConfigDeviceAll*"></a>
   <h4 id="HomeSeer_PluginSdk_AbstractPlugin_SupportsConfigDeviceAll" data-uid="HomeSeer.PluginSdk.AbstractPlugin.SupportsConfigDeviceAll">SupportsConfigDeviceAll</h4>
-  <div class="markdown level1 summary"><p>Whether this plugin supports a device configuration page for all devices</p>
-<p>
-TRUE will cause HomeSeer to call GetJuiDeviceConfigPage() for every device.
-  FALSE means HomeSeer will not call GetJuiDeviceConfigPage() for all devices
-</p>
-</div>
+  <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="tabGroup" id="tabgroup_syntax">
@@ -963,8 +895,7 @@ TRUE will cause HomeSeer to call GetJuiDeviceConfigPage() for every device.
   </span>
   <a id="HomeSeer_PluginSdk_AbstractPlugin_TriggerCount_" data-uid="HomeSeer.PluginSdk.AbstractPlugin.TriggerCount*"></a>
   <h4 id="HomeSeer_PluginSdk_AbstractPlugin_TriggerCount" data-uid="HomeSeer.PluginSdk.AbstractPlugin.TriggerCount">TriggerCount</h4>
-  <div class="markdown level1 summary"><p>The number of unique event triggers the plugin supports</p>
-</div>
+  <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="tabGroup" id="tabgroup_syntax">
@@ -1055,8 +986,7 @@ TRUE will cause HomeSeer to call GetJuiDeviceConfigPage() for every device.
   </span>
   <a id="HomeSeer_PluginSdk_AbstractPlugin_ActionBuildUI_" data-uid="HomeSeer.PluginSdk.AbstractPlugin.ActionBuildUI*"></a>
   <h4 id="HomeSeer_PluginSdk_AbstractPlugin_ActionBuildUI_HomeSeer_PluginSdk_Events_TrigActInfo_" data-uid="HomeSeer.PluginSdk.AbstractPlugin.ActionBuildUI(HomeSeer.PluginSdk.Events.TrigActInfo)">ActionBuildUI(TrigActInfo)</h4>
-  <div class="markdown level1 summary"><p>Called by the HomeSeer system when an event is in edit mode and in need of HTML controls for the user.</p>
-</div>
+  <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="tabGroup" id="tabgroup_syntax">
@@ -1092,8 +1022,7 @@ TRUE will cause HomeSeer to call GetJuiDeviceConfigPage() for every device.
       <tr>
         <td><a class="xref" href="HomeSeer.PluginSdk.Events.TrigActInfo.html">TrigActInfo</a></td>
         <td><span class="parametername">actInfo</span></td>
-        <td><p>Object that contains information about the action like current selections.</p>
-</td>
+        <td></td>
       </tr>
     </tbody>
   </table>
@@ -1108,8 +1037,7 @@ TRUE will cause HomeSeer to call GetJuiDeviceConfigPage() for every device.
     <tbody>
       <tr>
         <td><span class="xref">System.String</span></td>
-        <td><p>HTML controls that need to be displayed so the user can select the action parameters.</p>
-</td>
+        <td></td>
       </tr>
     </tbody>
   </table>
@@ -1119,8 +1047,7 @@ TRUE will cause HomeSeer to call GetJuiDeviceConfigPage() for every device.
   </span>
   <a id="HomeSeer_PluginSdk_AbstractPlugin_ActionConfigured_" data-uid="HomeSeer.PluginSdk.AbstractPlugin.ActionConfigured*"></a>
   <h4 id="HomeSeer_PluginSdk_AbstractPlugin_ActionConfigured_HomeSeer_PluginSdk_Events_TrigActInfo_" data-uid="HomeSeer.PluginSdk.AbstractPlugin.ActionConfigured(HomeSeer.PluginSdk.Events.TrigActInfo)">ActionConfigured(TrigActInfo)</h4>
-  <div class="markdown level1 summary"><p>Called by the HomeSeer system to verify that the configuration is valid and can be saved</p>
-</div>
+  <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="tabGroup" id="tabgroup_syntax">
@@ -1156,8 +1083,7 @@ TRUE will cause HomeSeer to call GetJuiDeviceConfigPage() for every device.
       <tr>
         <td><a class="xref" href="HomeSeer.PluginSdk.Events.TrigActInfo.html">TrigActInfo</a></td>
         <td><span class="parametername">actInfo</span></td>
-        <td><p>Object describing the action.</p>
-</td>
+        <td></td>
       </tr>
     </tbody>
   </table>
@@ -1172,8 +1098,7 @@ TRUE will cause HomeSeer to call GetJuiDeviceConfigPage() for every device.
     <tbody>
       <tr>
         <td><span class="xref">System.Boolean</span></td>
-        <td><p>TRUE if the given action is configured properly; FALSE if the action shouldn't be saved</p>
-</td>
+        <td></td>
       </tr>
     </tbody>
   </table>
@@ -1183,9 +1108,7 @@ TRUE will cause HomeSeer to call GetJuiDeviceConfigPage() for every device.
   </span>
   <a id="HomeSeer_PluginSdk_AbstractPlugin_ActionFormatUI_" data-uid="HomeSeer.PluginSdk.AbstractPlugin.ActionFormatUI*"></a>
   <h4 id="HomeSeer_PluginSdk_AbstractPlugin_ActionFormatUI_HomeSeer_PluginSdk_Events_TrigActInfo_" data-uid="HomeSeer.PluginSdk.AbstractPlugin.ActionFormatUI(HomeSeer.PluginSdk.Events.TrigActInfo)">ActionFormatUI(TrigActInfo)</h4>
-  <div class="markdown level1 summary"><p>Called by the HomeSeer system when an event action is finished being configured and needs to be displayed
-in an easy to read format.</p>
-</div>
+  <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="tabGroup" id="tabgroup_syntax">
@@ -1221,8 +1144,7 @@ in an easy to read format.</p>
       <tr>
         <td><a class="xref" href="HomeSeer.PluginSdk.Events.TrigActInfo.html">TrigActInfo</a></td>
         <td><span class="parametername">actInfo</span></td>
-        <td><p>Object that contains information about the current configuration of the trigger.</p>
-</td>
+        <td></td>
       </tr>
     </tbody>
   </table>
@@ -1237,8 +1159,7 @@ in an easy to read format.</p>
     <tbody>
       <tr>
         <td><span class="xref">System.String</span></td>
-        <td><p>HTML representing easy to read text describing the action</p>
-</td>
+        <td></td>
       </tr>
     </tbody>
   </table>
@@ -1248,8 +1169,7 @@ in an easy to read format.</p>
   </span>
   <a id="HomeSeer_PluginSdk_AbstractPlugin_ActionProcessPostUI_" data-uid="HomeSeer.PluginSdk.AbstractPlugin.ActionProcessPostUI*"></a>
   <h4 id="HomeSeer_PluginSdk_AbstractPlugin_ActionProcessPostUI_System_Collections_Generic_Dictionary_System_String_System_String__HomeSeer_PluginSdk_Events_TrigActInfo_" data-uid="HomeSeer.PluginSdk.AbstractPlugin.ActionProcessPostUI(System.Collections.Generic.Dictionary{System.String,System.String},HomeSeer.PluginSdk.Events.TrigActInfo)">ActionProcessPostUI(Dictionary&lt;String, String&gt;, TrigActInfo)</h4>
-  <div class="markdown level1 summary"><p>Called by the HomeSeer system to process selections when a user edits your event actions.</p>
-</div>
+  <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="tabGroup" id="tabgroup_syntax">
@@ -1285,8 +1205,7 @@ in an easy to read format.</p>
       <tr>
         <td><span class="xref">System.Collections.Generic.Dictionary</span>&lt;<span class="xref">System.String</span>, <span class="xref">System.String</span>&gt;</td>
         <td><span class="parametername">postData</span></td>
-        <td><p>A collection of name value pairs that include the user's selections.</p>
-</td>
+        <td></td>
       </tr>
       <tr>
         <td><a class="xref" href="HomeSeer.PluginSdk.Events.TrigActInfo.html">TrigActInfo</a></td>
@@ -1306,8 +1225,7 @@ in an easy to read format.</p>
     <tbody>
       <tr>
         <td><a class="xref" href="HomeSeer.PluginSdk.Devices.EventUpdateReturnData.html">EventUpdateReturnData</a></td>
-        <td><p>Object the holds the parsed information for the action. HomeSeer will save this information for you in the database.</p>
-</td>
+        <td></td>
       </tr>
     </tbody>
   </table>
@@ -1317,8 +1235,7 @@ in an easy to read format.</p>
   </span>
   <a id="HomeSeer_PluginSdk_AbstractPlugin_ActionReferencesDevice_" data-uid="HomeSeer.PluginSdk.AbstractPlugin.ActionReferencesDevice*"></a>
   <h4 id="HomeSeer_PluginSdk_AbstractPlugin_ActionReferencesDevice_HomeSeer_PluginSdk_Events_TrigActInfo_System_Int32_" data-uid="HomeSeer.PluginSdk.AbstractPlugin.ActionReferencesDevice(HomeSeer.PluginSdk.Events.TrigActInfo,System.Int32)">ActionReferencesDevice(TrigActInfo, Int32)</h4>
-  <div class="markdown level1 summary"><p>Called by the HomeSeer system to determine if a specified device is referenced by a certain action.</p>
-</div>
+  <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="tabGroup" id="tabgroup_syntax">
@@ -1354,8 +1271,7 @@ in an easy to read format.</p>
       <tr>
         <td><a class="xref" href="HomeSeer.PluginSdk.Events.TrigActInfo.html">TrigActInfo</a></td>
         <td><span class="parametername">actInfo</span></td>
-        <td><p>Object describing the action.</p>
-</td>
+        <td></td>
       </tr>
       <tr>
         <td><span class="xref">System.Int32</span></td>
@@ -1375,8 +1291,7 @@ in an easy to read format.</p>
     <tbody>
       <tr>
         <td><span class="xref">System.Boolean</span></td>
-        <td><p>TRUE if the action references the device; FALSE if it does not</p>
-</td>
+        <td></td>
       </tr>
     </tbody>
   </table>
@@ -1475,9 +1390,7 @@ This connection will be maintained as long as the program is running
   </span>
   <a id="HomeSeer_PluginSdk_AbstractPlugin_GetActionNameByNumber_" data-uid="HomeSeer.PluginSdk.AbstractPlugin.GetActionNameByNumber*"></a>
   <h4 id="HomeSeer_PluginSdk_AbstractPlugin_GetActionNameByNumber_System_Int32_" data-uid="HomeSeer.PluginSdk.AbstractPlugin.GetActionNameByNumber(System.Int32)">GetActionNameByNumber(Int32)</h4>
-  <div class="markdown level1 summary"><p>Return the name of the action given an action number</p>
-<p>The name of the action will be displayed in the HomeSeer events actions list.</p>
-</div>
+  <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="tabGroup" id="tabgroup_syntax">
@@ -1513,8 +1426,7 @@ This connection will be maintained as long as the program is running
       <tr>
         <td><span class="xref">System.Int32</span></td>
         <td><span class="parametername">actionNum</span></td>
-        <td><p>The number of the action to get the name for</p>
-</td>
+        <td></td>
       </tr>
     </tbody>
   </table>
@@ -1529,8 +1441,7 @@ This connection will be maintained as long as the program is running
     <tbody>
       <tr>
         <td><span class="xref">System.String</span></td>
-        <td><p>The name of the action associated with the action number</p>
-</td>
+        <td></td>
       </tr>
     </tbody>
   </table>
@@ -1540,8 +1451,7 @@ This connection will be maintained as long as the program is running
   </span>
   <a id="HomeSeer_PluginSdk_AbstractPlugin_GetJuiDeviceConfigPage_" data-uid="HomeSeer.PluginSdk.AbstractPlugin.GetJuiDeviceConfigPage*"></a>
   <h4 id="HomeSeer_PluginSdk_AbstractPlugin_GetJuiDeviceConfigPage_System_Int32_" data-uid="HomeSeer.PluginSdk.AbstractPlugin.GetJuiDeviceConfigPage(System.Int32)">GetJuiDeviceConfigPage(Int32)</h4>
-  <div class="markdown level1 summary"><p>Called by the HomeSeer software to obtain a HS-JUI device configuration page for a specific device</p>
-</div>
+  <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="tabGroup" id="tabgroup_syntax">
@@ -1577,8 +1487,7 @@ This connection will be maintained as long as the program is running
       <tr>
         <td><span class="xref">System.Int32</span></td>
         <td><span class="parametername">deviceRef</span></td>
-        <td><p>The device reference to get the page for</p>
-</td>
+        <td></td>
       </tr>
     </tbody>
   </table>
@@ -1593,8 +1502,7 @@ This connection will be maintained as long as the program is running
     <tbody>
       <tr>
         <td><span class="xref">System.String</span></td>
-        <td><p>A JSON serialized Jui.Page</p>
-</td>
+        <td></td>
       </tr>
     </tbody>
   </table>
@@ -1604,8 +1512,7 @@ This connection will be maintained as long as the program is running
   </span>
   <a id="HomeSeer_PluginSdk_AbstractPlugin_GetJuiSettingsPages_" data-uid="HomeSeer.PluginSdk.AbstractPlugin.GetJuiSettingsPages*"></a>
   <h4 id="HomeSeer_PluginSdk_AbstractPlugin_GetJuiSettingsPages" data-uid="HomeSeer.PluginSdk.AbstractPlugin.GetJuiSettingsPages">GetJuiSettingsPages()</h4>
-  <div class="markdown level1 summary"><p>Called by the HomeSeer software to obtain a list of settings pages</p>
-</div>
+  <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="tabGroup" id="tabgroup_syntax">
@@ -1639,8 +1546,7 @@ This connection will be maintained as long as the program is running
     <tbody>
       <tr>
         <td><span class="xref">System.String</span></td>
-        <td><p>A SettingsCollection serialized to a JSON string</p>
-</td>
+        <td></td>
       </tr>
     </tbody>
   </table>
@@ -1650,8 +1556,7 @@ This connection will be maintained as long as the program is running
   </span>
   <a id="HomeSeer_PluginSdk_AbstractPlugin_GetSubTriggerCount_" data-uid="HomeSeer.PluginSdk.AbstractPlugin.GetSubTriggerCount*"></a>
   <h4 id="HomeSeer_PluginSdk_AbstractPlugin_GetSubTriggerCount_System_Int32_" data-uid="HomeSeer.PluginSdk.AbstractPlugin.GetSubTriggerCount(System.Int32)">GetSubTriggerCount(Int32)</h4>
-  <div class="markdown level1 summary"><p>Returns the number of sub triggers the plugin supports for the specified trigger number</p>
-</div>
+  <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="tabGroup" id="tabgroup_syntax">
@@ -1687,8 +1592,7 @@ This connection will be maintained as long as the program is running
       <tr>
         <td><span class="xref">System.Int32</span></td>
         <td><span class="parametername">triggerNum</span></td>
-        <td><p>The number of the trigger to check</p>
-</td>
+        <td></td>
       </tr>
     </tbody>
   </table>
@@ -1703,8 +1607,7 @@ This connection will be maintained as long as the program is running
     <tbody>
       <tr>
         <td><span class="xref">System.Int32</span></td>
-        <td><p>The number of sub triggers the specified trigger number supports</p>
-</td>
+        <td></td>
       </tr>
     </tbody>
   </table>
@@ -1714,8 +1617,7 @@ This connection will be maintained as long as the program is running
   </span>
   <a id="HomeSeer_PluginSdk_AbstractPlugin_GetSubTriggerNameByNumber_" data-uid="HomeSeer.PluginSdk.AbstractPlugin.GetSubTriggerNameByNumber*"></a>
   <h4 id="HomeSeer_PluginSdk_AbstractPlugin_GetSubTriggerNameByNumber_System_Int32_System_Int32_" data-uid="HomeSeer.PluginSdk.AbstractPlugin.GetSubTriggerNameByNumber(System.Int32,System.Int32)">GetSubTriggerNameByNumber(Int32, Int32)</h4>
-  <div class="markdown level1 summary"><p>The name of the sub trigger with the specified number of the trigger with the specified number</p>
-</div>
+  <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="tabGroup" id="tabgroup_syntax">
@@ -1751,14 +1653,12 @@ This connection will be maintained as long as the program is running
       <tr>
         <td><span class="xref">System.Int32</span></td>
         <td><span class="parametername">triggerNum</span></td>
-        <td><p>The number of the trigger to check</p>
-</td>
+        <td></td>
       </tr>
       <tr>
         <td><span class="xref">System.Int32</span></td>
         <td><span class="parametername">subTriggerNum</span></td>
-        <td><p>The number of the sub trigger to check</p>
-</td>
+        <td></td>
       </tr>
     </tbody>
   </table>
@@ -1773,8 +1673,7 @@ This connection will be maintained as long as the program is running
     <tbody>
       <tr>
         <td><span class="xref">System.String</span></td>
-        <td><p>The name of the sub trigger</p>
-</td>
+        <td></td>
       </tr>
     </tbody>
   </table>
@@ -1784,8 +1683,7 @@ This connection will be maintained as long as the program is running
   </span>
   <a id="HomeSeer_PluginSdk_AbstractPlugin_GetTriggerNameByNumber_" data-uid="HomeSeer.PluginSdk.AbstractPlugin.GetTriggerNameByNumber*"></a>
   <h4 id="HomeSeer_PluginSdk_AbstractPlugin_GetTriggerNameByNumber_System_Int32_" data-uid="HomeSeer.PluginSdk.AbstractPlugin.GetTriggerNameByNumber(System.Int32)">GetTriggerNameByNumber(Int32)</h4>
-  <div class="markdown level1 summary"><p>Return the name of the given trigger based on the specified trigger number</p>
-</div>
+  <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="tabGroup" id="tabgroup_syntax">
@@ -1821,8 +1719,7 @@ This connection will be maintained as long as the program is running
       <tr>
         <td><span class="xref">System.Int32</span></td>
         <td><span class="parametername">triggerNum</span></td>
-        <td><p>The trigger number to get the name for</p>
-</td>
+        <td></td>
       </tr>
     </tbody>
   </table>
@@ -1837,8 +1734,7 @@ This connection will be maintained as long as the program is running
     <tbody>
       <tr>
         <td><span class="xref">System.String</span></td>
-        <td><p>The name of the trigger</p>
-</td>
+        <td></td>
       </tr>
     </tbody>
   </table>
@@ -1848,8 +1744,7 @@ This connection will be maintained as long as the program is running
   </span>
   <a id="HomeSeer_PluginSdk_AbstractPlugin_HandleAction_" data-uid="HomeSeer.PluginSdk.AbstractPlugin.HandleAction*"></a>
   <h4 id="HomeSeer_PluginSdk_AbstractPlugin_HandleAction_HomeSeer_PluginSdk_Events_TrigActInfo_" data-uid="HomeSeer.PluginSdk.AbstractPlugin.HandleAction(HomeSeer.PluginSdk.Events.TrigActInfo)">HandleAction(TrigActInfo)</h4>
-  <div class="markdown level1 summary"><p>Called by the HomeSeer system when an event is triggered and the plugin needs to carry out a specific action.</p>
-</div>
+  <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="tabGroup" id="tabgroup_syntax">
@@ -1885,8 +1780,7 @@ This connection will be maintained as long as the program is running
       <tr>
         <td><a class="xref" href="HomeSeer.PluginSdk.Events.TrigActInfo.html">TrigActInfo</a></td>
         <td><span class="parametername">actInfo</span></td>
-        <td><p>Object describing the trigger and action.</p>
-</td>
+        <td></td>
       </tr>
     </tbody>
   </table>
@@ -1901,8 +1795,7 @@ This connection will be maintained as long as the program is running
     <tbody>
       <tr>
         <td><span class="xref">System.Boolean</span></td>
-        <td><p>TRUE if the action was executed successfully; FALSE if there was an error</p>
-</td>
+        <td></td>
       </tr>
     </tbody>
   </table>
@@ -1912,9 +1805,7 @@ This connection will be maintained as long as the program is running
   </span>
   <a id="HomeSeer_PluginSdk_AbstractPlugin_HasJuiDeviceConfigPage_" data-uid="HomeSeer.PluginSdk.AbstractPlugin.HasJuiDeviceConfigPage*"></a>
   <h4 id="HomeSeer_PluginSdk_AbstractPlugin_HasJuiDeviceConfigPage_System_Int32_" data-uid="HomeSeer.PluginSdk.AbstractPlugin.HasJuiDeviceConfigPage(System.Int32)">HasJuiDeviceConfigPage(Int32)</h4>
-  <div class="markdown level1 summary"><p>Called by HomeSeer Core to determine if a device configuration page is available for a particular device.
-Only called if <a class="xref" href="HomeSeer.PluginSdk.IPlugin.html#HomeSeer_PluginSdk_IPlugin_SupportsConfigDevice">SupportsConfigDevice</a> or <a class="xref" href="HomeSeer.PluginSdk.IPlugin.html#HomeSeer_PluginSdk_IPlugin_SupportsConfigDeviceAll">SupportsConfigDeviceAll</a> is set to TRUE.</p>
-</div>
+  <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="tabGroup" id="tabgroup_syntax">
@@ -1950,8 +1841,7 @@ Only called if <a class="xref" href="HomeSeer.PluginSdk.IPlugin.html#HomeSeer_Pl
       <tr>
         <td><span class="xref">System.Int32</span></td>
         <td><span class="parametername">deviceRef</span></td>
-        <td><p>The <a class="xref" href="HomeSeer.PluginSdk.Devices.AbstractHsDevice.html#HomeSeer_PluginSdk_Devices_AbstractHsDevice_Ref">Ref</a> of the device</p>
-</td>
+        <td></td>
       </tr>
     </tbody>
   </table>
@@ -1966,9 +1856,7 @@ Only called if <a class="xref" href="HomeSeer.PluginSdk.IPlugin.html#HomeSeer_Pl
     <tbody>
       <tr>
         <td><span class="xref">System.Boolean</span></td>
-        <td><p>True if there is a page available, false if not.
-Returning True will cause HomeSeer Core to call <a class="xref" href="HomeSeer.PluginSdk.IPlugin.html#HomeSeer_PluginSdk_IPlugin_GetJuiDeviceConfigPage_System_Int32_">GetJuiDeviceConfigPage(Int32)</a> for the device</p>
-</td>
+        <td></td>
       </tr>
     </tbody>
   </table>
@@ -1983,15 +1871,7 @@ Adjust this behavior if the plugin only shows a configuration page for some, but
   </span>
   <a id="HomeSeer_PluginSdk_AbstractPlugin_HsEvent_" data-uid="HomeSeer.PluginSdk.AbstractPlugin.HsEvent*"></a>
   <h4 id="HomeSeer_PluginSdk_AbstractPlugin_HsEvent_HomeSeer_PluginSdk_Constants_HSEvent_System_Object___" data-uid="HomeSeer.PluginSdk.AbstractPlugin.HsEvent(HomeSeer.PluginSdk.Constants.HSEvent,System.Object[])">HsEvent(Constants.HSEvent, Object[])</h4>
-  <div class="markdown level1 summary"><p>When you wish to have HomeSeer call back in to your plug-in or application when certain events
-happen in the system, call the RegisterEventCB procedure and provide it with event you wish to monitor.<br>
-See RegisterEventCB for more information and an example and event types.</p>
-<p>
-The parameters are passed in an array of objects.  Each entry in the array is a parameter.  
-The number of entries depends on the type of event and are described below.  
-The event type is always present in the first entry or params(0).
-</p>
-</div>
+  <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="tabGroup" id="tabgroup_syntax">
@@ -2027,14 +1907,12 @@ The event type is always present in the first entry or params(0).
       <tr>
         <td><a class="xref" href="HomeSeer.PluginSdk.Constants.HSEvent.html">Constants.HSEvent</a></td>
         <td><span class="parametername">eventType</span></td>
-        <td><p>The type of event that has occurred</p>
-</td>
+        <td></td>
       </tr>
       <tr>
         <td><span class="xref">System.Object</span>[]</td>
         <td><span class="parametername">params</span></td>
-        <td><p>The data associated with the event</p>
-</td>
+        <td></td>
       </tr>
     </tbody>
   </table>
@@ -2044,11 +1922,7 @@ The event type is always present in the first entry or params(0).
   </span>
   <a id="HomeSeer_PluginSdk_AbstractPlugin_Initialize_" data-uid="HomeSeer.PluginSdk.AbstractPlugin.Initialize*"></a>
   <h4 id="HomeSeer_PluginSdk_AbstractPlugin_Initialize" data-uid="HomeSeer.PluginSdk.AbstractPlugin.Initialize">Initialize()</h4>
-  <div class="markdown level1 summary"><p>Called by the HomeSeer system to initialize the plugin.</p>
-<p>
-This is the primary entry point for all plugins.  Start the plugin and get it ready for use.
-</p>
-</div>
+  <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="tabGroup" id="tabgroup_syntax">
@@ -2113,12 +1987,7 @@ This is the primary entry point for all plugins.  Start the plugin and get it re
     <tbody>
       <tr>
         <td><span class="xref">System.Boolean</span></td>
-        <td><p>TRUE if the plugin started successfully; FALSE if it did not</p>
-<p>
-You should opt for throwing an exception that contains a detailed messaged over
- returning FALSE whenever possible.
-</p>
-</td>
+        <td></td>
       </tr>
     </tbody>
   </table>
@@ -2128,8 +1997,7 @@ You should opt for throwing an exception that contains a detailed messaged over
   </span>
   <a id="HomeSeer_PluginSdk_AbstractPlugin_IsTriggerConfigValid_" data-uid="HomeSeer.PluginSdk.AbstractPlugin.IsTriggerConfigValid*"></a>
   <h4 id="HomeSeer_PluginSdk_AbstractPlugin_IsTriggerConfigValid_HomeSeer_PluginSdk_Events_TrigActInfo_" data-uid="HomeSeer.PluginSdk.AbstractPlugin.IsTriggerConfigValid(HomeSeer.PluginSdk.Events.TrigActInfo)">IsTriggerConfigValid(TrigActInfo)</h4>
-  <div class="markdown level1 summary"><p>Given a TrigActInfo object, detect if this trigger is configured properly</p>
-</div>
+  <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="tabGroup" id="tabgroup_syntax">
@@ -2165,8 +2033,7 @@ You should opt for throwing an exception that contains a detailed messaged over
       <tr>
         <td><a class="xref" href="HomeSeer.PluginSdk.Events.TrigActInfo.html">TrigActInfo</a></td>
         <td><span class="parametername">trigInfo</span></td>
-        <td><p>The trigger info to validate</p>
-</td>
+        <td></td>
       </tr>
     </tbody>
   </table>
@@ -2181,8 +2048,7 @@ You should opt for throwing an exception that contains a detailed messaged over
     <tbody>
       <tr>
         <td><span class="xref">System.Boolean</span></td>
-        <td><p>TRUE if the trigger is configured properly, FALSE otherwise</p>
-</td>
+        <td></td>
       </tr>
     </tbody>
   </table>
@@ -2503,8 +2369,7 @@ Use this if you need to process anything when the plugin settings are loaded.
   </span>
   <a id="HomeSeer_PluginSdk_AbstractPlugin_OnStatusCheck_" data-uid="HomeSeer.PluginSdk.AbstractPlugin.OnStatusCheck*"></a>
   <h4 id="HomeSeer_PluginSdk_AbstractPlugin_OnStatusCheck" data-uid="HomeSeer.PluginSdk.AbstractPlugin.OnStatusCheck">OnStatusCheck()</h4>
-  <div class="markdown level1 summary"><p>Called by the HomeSeer system to determine the status of the plugin.</p>
-</div>
+  <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="tabGroup" id="tabgroup_syntax">
@@ -2538,23 +2403,17 @@ Use this if you need to process anything when the plugin settings are loaded.
     <tbody>
       <tr>
         <td><a class="xref" href="HomeSeer.PluginSdk.PluginStatus.html">PluginStatus</a></td>
-        <td><p>A PluginStatus object describing the state of the plugin</p>
-</td>
+        <td></td>
       </tr>
     </tbody>
   </table>
-  <h5 id="HomeSeer_PluginSdk_AbstractPlugin_OnStatusCheck_seealso">See Also</h5>
-  <div class="seealso">
-      <div><a class="xref" href="HomeSeer.PluginSdk.PluginStatus.html">PluginStatus</a></div>
-  </div>
   
   <span class="small pull-right mobile-hide">
     <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/AbstractPlugin.cs/#L640">View Source</a>
   </span>
   <a id="HomeSeer_PluginSdk_AbstractPlugin_PluginFunction_" data-uid="HomeSeer.PluginSdk.AbstractPlugin.PluginFunction*"></a>
   <h4 id="HomeSeer_PluginSdk_AbstractPlugin_PluginFunction_System_String_System_Object___" data-uid="HomeSeer.PluginSdk.AbstractPlugin.PluginFunction(System.String,System.Object[])">PluginFunction(String, Object[])</h4>
-  <div class="markdown level1 summary"><p>Called by the HomeSeer system to run a plugin function by name using reflection</p>
-</div>
+  <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="tabGroup" id="tabgroup_syntax">
@@ -2590,14 +2449,12 @@ Use this if you need to process anything when the plugin settings are loaded.
       <tr>
         <td><span class="xref">System.String</span></td>
         <td><span class="parametername">procName</span></td>
-        <td><p>The name of the method to execute</p>
-</td>
+        <td></td>
       </tr>
       <tr>
         <td><span class="xref">System.Object</span>[]</td>
         <td><span class="parametername">params</span></td>
-        <td><p>The parameters to execute the method with</p>
-</td>
+        <td></td>
       </tr>
     </tbody>
   </table>
@@ -2612,8 +2469,7 @@ Use this if you need to process anything when the plugin settings are loaded.
     <tbody>
       <tr>
         <td><span class="xref">System.Object</span></td>
-        <td><p>The result of the method execution</p>
-</td>
+        <td></td>
       </tr>
     </tbody>
   </table>
@@ -2623,8 +2479,7 @@ Use this if you need to process anything when the plugin settings are loaded.
   </span>
   <a id="HomeSeer_PluginSdk_AbstractPlugin_PluginPropertyGet_" data-uid="HomeSeer.PluginSdk.AbstractPlugin.PluginPropertyGet*"></a>
   <h4 id="HomeSeer_PluginSdk_AbstractPlugin_PluginPropertyGet_System_String_System_Object___" data-uid="HomeSeer.PluginSdk.AbstractPlugin.PluginPropertyGet(System.String,System.Object[])">PluginPropertyGet(String, Object[])</h4>
-  <div class="markdown level1 summary"><p>Called by the HomeSeer system to get the value of a property by name using reflection</p>
-</div>
+  <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="tabGroup" id="tabgroup_syntax">
@@ -2660,8 +2515,7 @@ Use this if you need to process anything when the plugin settings are loaded.
       <tr>
         <td><span class="xref">System.String</span></td>
         <td><span class="parametername">propName</span></td>
-        <td><p>The name of the property</p>
-</td>
+        <td></td>
       </tr>
       <tr>
         <td><span class="xref">System.Object</span>[]</td>
@@ -2681,8 +2535,7 @@ Use this if you need to process anything when the plugin settings are loaded.
     <tbody>
       <tr>
         <td><span class="xref">System.Object</span></td>
-        <td><p>The value of the property</p>
-</td>
+        <td></td>
       </tr>
     </tbody>
   </table>
@@ -2692,8 +2545,7 @@ Use this if you need to process anything when the plugin settings are loaded.
   </span>
   <a id="HomeSeer_PluginSdk_AbstractPlugin_PluginPropertySet_" data-uid="HomeSeer.PluginSdk.AbstractPlugin.PluginPropertySet*"></a>
   <h4 id="HomeSeer_PluginSdk_AbstractPlugin_PluginPropertySet_System_String_System_Object_" data-uid="HomeSeer.PluginSdk.AbstractPlugin.PluginPropertySet(System.String,System.Object)">PluginPropertySet(String, Object)</h4>
-  <div class="markdown level1 summary"><p>Called by the HomeSeer system to set the value of a property by name using reflection</p>
-</div>
+  <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="tabGroup" id="tabgroup_syntax">
@@ -2729,14 +2581,12 @@ Use this if you need to process anything when the plugin settings are loaded.
       <tr>
         <td><span class="xref">System.String</span></td>
         <td><span class="parametername">propName</span></td>
-        <td><p>The name of the property</p>
-</td>
+        <td></td>
       </tr>
       <tr>
         <td><span class="xref">System.Object</span></td>
         <td><span class="parametername">value</span></td>
-        <td><p>The new value of the property</p>
-</td>
+        <td></td>
       </tr>
     </tbody>
   </table>
@@ -2746,8 +2596,7 @@ Use this if you need to process anything when the plugin settings are loaded.
   </span>
   <a id="HomeSeer_PluginSdk_AbstractPlugin_PostBackProc_" data-uid="HomeSeer.PluginSdk.AbstractPlugin.PostBackProc*"></a>
   <h4 id="HomeSeer_PluginSdk_AbstractPlugin_PostBackProc_System_String_System_String_System_String_System_Int32_" data-uid="HomeSeer.PluginSdk.AbstractPlugin.PostBackProc(System.String,System.String,System.String,System.Int32)">PostBackProc(String, String, String, Int32)</h4>
-  <div class="markdown level1 summary"><p>Called by the HomeSeer system when a page owned by this plugin receives an HTTP POST request</p>
-</div>
+  <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="tabGroup" id="tabgroup_syntax">
@@ -2783,26 +2632,22 @@ Use this if you need to process anything when the plugin settings are loaded.
       <tr>
         <td><span class="xref">System.String</span></td>
         <td><span class="parametername">page</span></td>
-        <td><p>The page that received the POST request</p>
-</td>
+        <td></td>
       </tr>
       <tr>
         <td><span class="xref">System.String</span></td>
         <td><span class="parametername">data</span></td>
-        <td><p>The data included in the request</p>
-</td>
+        <td></td>
       </tr>
       <tr>
         <td><span class="xref">System.String</span></td>
         <td><span class="parametername">user</span></td>
-        <td><p>The user responsible for initiating the request</p>
-</td>
+        <td></td>
       </tr>
       <tr>
         <td><span class="xref">System.Int32</span></td>
         <td><span class="parametername">userRights</span></td>
-        <td><p>The user's rights</p>
-</td>
+        <td></td>
       </tr>
     </tbody>
   </table>
@@ -2817,8 +2662,7 @@ Use this if you need to process anything when the plugin settings are loaded.
     <tbody>
       <tr>
         <td><span class="xref">System.String</span></td>
-        <td><p>A string of data that is returned to the requester</p>
-</td>
+        <td></td>
       </tr>
     </tbody>
   </table>
@@ -2828,8 +2672,7 @@ Use this if you need to process anything when the plugin settings are loaded.
   </span>
   <a id="HomeSeer_PluginSdk_AbstractPlugin_SaveJuiDeviceConfigPage_" data-uid="HomeSeer.PluginSdk.AbstractPlugin.SaveJuiDeviceConfigPage*"></a>
   <h4 id="HomeSeer_PluginSdk_AbstractPlugin_SaveJuiDeviceConfigPage_System_String_System_Int32_" data-uid="HomeSeer.PluginSdk.AbstractPlugin.SaveJuiDeviceConfigPage(System.String,System.Int32)">SaveJuiDeviceConfigPage(String, Int32)</h4>
-  <div class="markdown level1 summary"><p>Save updated values for a HS-JUI formatted device config page</p>
-</div>
+  <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="tabGroup" id="tabgroup_syntax">
@@ -2865,14 +2708,12 @@ Use this if you need to process anything when the plugin settings are loaded.
       <tr>
         <td><span class="xref">System.String</span></td>
         <td><span class="parametername">pageContent</span></td>
-        <td><p>A JSON serialized Jui.Page describing what has changed about the page</p>
-</td>
+        <td></td>
       </tr>
       <tr>
         <td><span class="xref">System.Int32</span></td>
         <td><span class="parametername">deviceRef</span></td>
-        <td><p>The reference of the device the config page is for</p>
-</td>
+        <td></td>
       </tr>
     </tbody>
   </table>
@@ -2887,11 +2728,7 @@ Use this if you need to process anything when the plugin settings are loaded.
     <tbody>
       <tr>
         <td><span class="xref">System.Boolean</span></td>
-        <td><p>TRUE if the save was successful; FALSE if it was unsuccessful.</p>
-<p>
-An exception should be thrown with details about the error if it was unsuccessful
-</p>
-</td>
+        <td></td>
       </tr>
     </tbody>
   </table>
@@ -2901,8 +2738,7 @@ An exception should be thrown with details about the error if it was unsuccessfu
   </span>
   <a id="HomeSeer_PluginSdk_AbstractPlugin_SaveJuiSettingsPages_" data-uid="HomeSeer.PluginSdk.AbstractPlugin.SaveJuiSettingsPages*"></a>
   <h4 id="HomeSeer_PluginSdk_AbstractPlugin_SaveJuiSettingsPages_System_String_" data-uid="HomeSeer.PluginSdk.AbstractPlugin.SaveJuiSettingsPages(System.String)">SaveJuiSettingsPages(String)</h4>
-  <div class="markdown level1 summary"><p>Called by the HomeSeer system when settings changes need to be saved</p>
-</div>
+  <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="tabGroup" id="tabgroup_syntax">
@@ -2938,8 +2774,7 @@ An exception should be thrown with details about the error if it was unsuccessfu
       <tr>
         <td><span class="xref">System.String</span></td>
         <td><span class="parametername">jsonString</span></td>
-        <td><p>A List of Jui.Pages containing views that have changed, serialized as JSON</p>
-</td>
+        <td></td>
       </tr>
     </tbody>
   </table>
@@ -2954,11 +2789,7 @@ An exception should be thrown with details about the error if it was unsuccessfu
     <tbody>
       <tr>
         <td><span class="xref">System.Boolean</span></td>
-        <td><p>TRUE if the save was successful; FALSE if it was unsuccessful.</p>
-<p>
-An exception should be thrown with details about the error if it was unsuccessful
-</p>
-</td>
+        <td></td>
       </tr>
     </tbody>
   </table>
@@ -2968,11 +2799,7 @@ An exception should be thrown with details about the error if it was unsuccessfu
   </span>
   <a id="HomeSeer_PluginSdk_AbstractPlugin_SetIOMulti_" data-uid="HomeSeer.PluginSdk.AbstractPlugin.SetIOMulti*"></a>
   <h4 id="HomeSeer_PluginSdk_AbstractPlugin_SetIOMulti_System_Collections_Generic_List_HomeSeer_PluginSdk_Devices_Controls_ControlEvent__" data-uid="HomeSeer.PluginSdk.AbstractPlugin.SetIOMulti(System.Collections.Generic.List{HomeSeer.PluginSdk.Devices.Controls.ControlEvent})">SetIOMulti(List&lt;ControlEvent&gt;)</h4>
-  <div class="markdown level1 summary"><p>Called by the HomeSeer system when a device that this plugin owns is controlled.</p>
-<p>
-A plugin owns a device when its Interface property is set to the plugin ID.
-</p>
-</div>
+  <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="tabGroup" id="tabgroup_syntax">
@@ -3023,8 +2850,7 @@ and <a class="xref" href="HomeSeer.PluginSdk.Devices.StatusGraphic.html">StatusG
   </span>
   <a id="HomeSeer_PluginSdk_AbstractPlugin_ShutdownIO_" data-uid="HomeSeer.PluginSdk.AbstractPlugin.ShutdownIO*"></a>
   <h4 id="HomeSeer_PluginSdk_AbstractPlugin_ShutdownIO" data-uid="HomeSeer.PluginSdk.AbstractPlugin.ShutdownIO">ShutdownIO()</h4>
-  <div class="markdown level1 summary"><p>Called by the HomeSeer system to shutdown the plugin and its operations</p>
-</div>
+  <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="tabGroup" id="tabgroup_syntax">
@@ -3053,13 +2879,7 @@ and <a class="xref" href="HomeSeer.PluginSdk.Devices.StatusGraphic.html">StatusG
   </span>
   <a id="HomeSeer_PluginSdk_AbstractPlugin_SpeakIn_" data-uid="HomeSeer.PluginSdk.AbstractPlugin.SpeakIn*"></a>
   <h4 id="HomeSeer_PluginSdk_AbstractPlugin_SpeakIn_System_Int32_System_String_System_Boolean_System_String_" data-uid="HomeSeer.PluginSdk.AbstractPlugin.SpeakIn(System.Int32,System.String,System.Boolean,System.String)">SpeakIn(Int32, String, Boolean, String)</h4>
-  <div class="markdown level1 summary"><p>If your plug-in is registered as a Speak proxy plug-in, then when HomeSeer is asked to speak something.
-It will pass the speak information to your plug-in using this procedure.
-When your plug-in is ready to do the actual speaking, it should call SpeakProxy, and pass the information
-that it got from this procedure to SpeakProxy.
-It may be necessary or a feature of your plug-in to modify the text being spoken or the host/instance
-list provided in the host parameter - this is acceptable.</p>
-</div>
+  <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="tabGroup" id="tabgroup_syntax">
@@ -3095,52 +2915,32 @@ list provided in the host parameter - this is acceptable.</p>
       <tr>
         <td><span class="xref">System.Int32</span></td>
         <td><span class="parametername">speechDevice</span></td>
-        <td><p>This is the device that is to be used for the speaking.  In older versions of HomeSeer, this value was
-used to indicate the sound card to use, and if it was over 100, then it indicated that it was speaking
-for HomeSeer Phone (device - 100 = phone line), or the WAV audio device to use.
-Although this is still used for HomeSeer Phone, speaks for HomeSeer phone are never proxied and so
-values &gt;= 100 should never been seen in the device parameter.
-Pass the device parameter unchanged to SpeakProxy.</p>
-</td>
+        <td></td>
       </tr>
       <tr>
         <td><span class="xref">System.String</span></td>
         <td><span class="parametername">spokenText</span></td>
-        <td><p>This is the text to be spoken, or if it is a WAV file to be played, then the characters &quot;:&amp;quot; will be
-found starting at position 2 of the string as playing a WAV file with the speak command in HomeSeer
-REQUIRES a fully qualified path and filename of the WAV file to play.</p>
-</td>
+        <td></td>
       </tr>
       <tr>
         <td><span class="xref">System.Boolean</span></td>
         <td><span class="parametername">wait</span></td>
-        <td><p>This parameter tells HomeSeer whether to continue processing commands immediately or to wait until
-the speak command is finished - pass this parameter unchanged to SpeakProxy.</p>
-</td>
+        <td></td>
       </tr>
       <tr>
         <td><span class="xref">System.String</span></td>
         <td><span class="parametername">host</span></td>
-        <td><p>This is a list of host:instances to speak or play the WAV file on.
-An empty string or a single asterisk (*) indicates all connected speaker clients on all hosts.
-Normally this parameter is passed to SpeakProxy unchanged.</p>
-</td>
+        <td></td>
       </tr>
     </tbody>
   </table>
-  <h5 id="HomeSeer_PluginSdk_AbstractPlugin_SpeakIn_System_Int32_System_String_System_Boolean_System_String__remarks">Remarks</h5>
-  <div class="markdown level1 remarks"><p>PLEASE NOTE: Code related to the Speech components in HomeSeer were ported from the HS3 plugin API and
-have not been fully tested to verify full functionality from the new SDK. The Speech API may undergo
-significant changes in the near future. Please use with caution.</p>
-</div>
   
   <span class="small pull-right mobile-hide">
     <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/AbstractPlugin.cs/#L580">View Source</a>
   </span>
   <a id="HomeSeer_PluginSdk_AbstractPlugin_TriggerBuildUI_" data-uid="HomeSeer.PluginSdk.AbstractPlugin.TriggerBuildUI*"></a>
   <h4 id="HomeSeer_PluginSdk_AbstractPlugin_TriggerBuildUI_HomeSeer_PluginSdk_Events_TrigActInfo_" data-uid="HomeSeer.PluginSdk.AbstractPlugin.TriggerBuildUI(HomeSeer.PluginSdk.Events.TrigActInfo)">TriggerBuildUI(TrigActInfo)</h4>
-  <div class="markdown level1 summary"><p>Called by the HomeSeer system when an event is in edit mode and in need of HTML controls for the user.</p>
-</div>
+  <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="tabGroup" id="tabgroup_syntax">
@@ -3176,8 +2976,7 @@ significant changes in the near future. Please use with caution.</p>
       <tr>
         <td><a class="xref" href="HomeSeer.PluginSdk.Events.TrigActInfo.html">TrigActInfo</a></td>
         <td><span class="parametername">trigInfo</span></td>
-        <td><p>Object that contains information about the current configuration of the trigger.</p>
-</td>
+        <td></td>
       </tr>
     </tbody>
   </table>
@@ -3192,8 +2991,7 @@ significant changes in the near future. Please use with caution.</p>
     <tbody>
       <tr>
         <td><span class="xref">System.String</span></td>
-        <td><p>HTML controls that need to be displayed so the user can select the trigger parameters.</p>
-</td>
+        <td></td>
       </tr>
     </tbody>
   </table>
@@ -3203,8 +3001,7 @@ significant changes in the near future. Please use with caution.</p>
   </span>
   <a id="HomeSeer_PluginSdk_AbstractPlugin_TriggerCanBeCondition_" data-uid="HomeSeer.PluginSdk.AbstractPlugin.TriggerCanBeCondition*"></a>
   <h4 id="HomeSeer_PluginSdk_AbstractPlugin_TriggerCanBeCondition_System_Int32_" data-uid="HomeSeer.PluginSdk.AbstractPlugin.TriggerCanBeCondition(System.Int32)">TriggerCanBeCondition(Int32)</h4>
-  <div class="markdown level1 summary"><p>Called by HomeSeer to determine if a given trigger can also be used as a condition</p>
-</div>
+  <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="tabGroup" id="tabgroup_syntax">
@@ -3240,8 +3037,7 @@ significant changes in the near future. Please use with caution.</p>
       <tr>
         <td><span class="xref">System.Int32</span></td>
         <td><span class="parametername">triggerNum</span></td>
-        <td><p>The number of the trigger to check</p>
-</td>
+        <td></td>
       </tr>
     </tbody>
   </table>
@@ -3256,8 +3052,7 @@ significant changes in the near future. Please use with caution.</p>
     <tbody>
       <tr>
         <td><span class="xref">System.Boolean</span></td>
-        <td><p>TRUE if the given trigger can also be used as a condition, for the given trigger number.</p>
-</td>
+        <td></td>
       </tr>
     </tbody>
   </table>
@@ -3267,9 +3062,7 @@ significant changes in the near future. Please use with caution.</p>
   </span>
   <a id="HomeSeer_PluginSdk_AbstractPlugin_TriggerFormatUI_" data-uid="HomeSeer.PluginSdk.AbstractPlugin.TriggerFormatUI*"></a>
   <h4 id="HomeSeer_PluginSdk_AbstractPlugin_TriggerFormatUI_HomeSeer_PluginSdk_Events_TrigActInfo_" data-uid="HomeSeer.PluginSdk.AbstractPlugin.TriggerFormatUI(HomeSeer.PluginSdk.Events.TrigActInfo)">TriggerFormatUI(TrigActInfo)</h4>
-  <div class="markdown level1 summary"><p>Called by the HomeSeer system when an event trigger is finished being configured and needs to be displayed
-in an easy to read format.</p>
-</div>
+  <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="tabGroup" id="tabgroup_syntax">
@@ -3305,8 +3098,7 @@ in an easy to read format.</p>
       <tr>
         <td><a class="xref" href="HomeSeer.PluginSdk.Events.TrigActInfo.html">TrigActInfo</a></td>
         <td><span class="parametername">trigInfo</span></td>
-        <td><p>Object that contains information about the current configuration of the trigger.</p>
-</td>
+        <td></td>
       </tr>
     </tbody>
   </table>
@@ -3321,8 +3113,7 @@ in an easy to read format.</p>
     <tbody>
       <tr>
         <td><span class="xref">System.String</span></td>
-        <td><p>HTML representing easy to read text describing the trigger</p>
-</td>
+        <td></td>
       </tr>
     </tbody>
   </table>
@@ -3332,8 +3123,7 @@ in an easy to read format.</p>
   </span>
   <a id="HomeSeer_PluginSdk_AbstractPlugin_TriggerProcessPostUI_" data-uid="HomeSeer.PluginSdk.AbstractPlugin.TriggerProcessPostUI*"></a>
   <h4 id="HomeSeer_PluginSdk_AbstractPlugin_TriggerProcessPostUI_System_Collections_Generic_Dictionary_System_String_System_String__HomeSeer_PluginSdk_Events_TrigActInfo_" data-uid="HomeSeer.PluginSdk.AbstractPlugin.TriggerProcessPostUI(System.Collections.Generic.Dictionary{System.String,System.String},HomeSeer.PluginSdk.Events.TrigActInfo)">TriggerProcessPostUI(Dictionary&lt;String, String&gt;, TrigActInfo)</h4>
-  <div class="markdown level1 summary"><p>Called by the HomeSeer system to process selections when a user edits your event triggers.</p>
-</div>
+  <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="tabGroup" id="tabgroup_syntax">
@@ -3369,14 +3159,12 @@ in an easy to read format.</p>
       <tr>
         <td><span class="xref">System.Collections.Generic.Dictionary</span>&lt;<span class="xref">System.String</span>, <span class="xref">System.String</span>&gt;</td>
         <td><span class="parametername">postData</span></td>
-        <td><p>A collection of name value pairs that include the user's selections.</p>
-</td>
+        <td></td>
       </tr>
       <tr>
         <td><a class="xref" href="HomeSeer.PluginSdk.Events.TrigActInfo.html">TrigActInfo</a></td>
         <td><span class="parametername">trigInfoIn</span></td>
-        <td><p>Object that contains information about the trigger.</p>
-</td>
+        <td></td>
       </tr>
     </tbody>
   </table>
@@ -3391,8 +3179,7 @@ in an easy to read format.</p>
     <tbody>
       <tr>
         <td><a class="xref" href="HomeSeer.PluginSdk.Devices.EventUpdateReturnData.html">EventUpdateReturnData</a></td>
-        <td><p>Object the holds the parsed information for the trigger. HomeSeer will save this information for you in the database.</p>
-</td>
+        <td></td>
       </tr>
     </tbody>
   </table>
@@ -3402,8 +3189,7 @@ in an easy to read format.</p>
   </span>
   <a id="HomeSeer_PluginSdk_AbstractPlugin_TriggerReferencesDeviceOrFeature_" data-uid="HomeSeer.PluginSdk.AbstractPlugin.TriggerReferencesDeviceOrFeature*"></a>
   <h4 id="HomeSeer_PluginSdk_AbstractPlugin_TriggerReferencesDeviceOrFeature_HomeSeer_PluginSdk_Events_TrigActInfo_System_Int32_" data-uid="HomeSeer.PluginSdk.AbstractPlugin.TriggerReferencesDeviceOrFeature(HomeSeer.PluginSdk.Events.TrigActInfo,System.Int32)">TriggerReferencesDeviceOrFeature(TrigActInfo, Int32)</h4>
-  <div class="markdown level1 summary"><p>Called by the HomeSeer system to determine if a specified device is referenced by a certain trigger.</p>
-</div>
+  <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="tabGroup" id="tabgroup_syntax">
@@ -3439,14 +3225,12 @@ in an easy to read format.</p>
       <tr>
         <td><a class="xref" href="HomeSeer.PluginSdk.Events.TrigActInfo.html">TrigActInfo</a></td>
         <td><span class="parametername">trigInfo</span></td>
-        <td><p>Object describing the trigger.</p>
-</td>
+        <td></td>
       </tr>
       <tr>
         <td><span class="xref">System.Int32</span></td>
         <td><span class="parametername">devOrFeatRef</span></td>
-        <td><p>The reference ID of the device or feature to check</p>
-</td>
+        <td></td>
       </tr>
     </tbody>
   </table>
@@ -3461,8 +3245,7 @@ in an easy to read format.</p>
     <tbody>
       <tr>
         <td><span class="xref">System.Boolean</span></td>
-        <td><p>TRUE if the trigger references the device; FALSE if it does not</p>
-</td>
+        <td></td>
       </tr>
     </tbody>
   </table>
@@ -3472,8 +3255,7 @@ in an easy to read format.</p>
   </span>
   <a id="HomeSeer_PluginSdk_AbstractPlugin_TriggerTrue_" data-uid="HomeSeer.PluginSdk.AbstractPlugin.TriggerTrue*"></a>
   <h4 id="HomeSeer_PluginSdk_AbstractPlugin_TriggerTrue_HomeSeer_PluginSdk_Events_TrigActInfo_System_Boolean_" data-uid="HomeSeer.PluginSdk.AbstractPlugin.TriggerTrue(HomeSeer.PluginSdk.Events.TrigActInfo,System.Boolean)">TriggerTrue(TrigActInfo, Boolean)</h4>
-  <div class="markdown level1 summary"><p>Called by HomeSeer when a trigger needs to be evaluated as a condition</p>
-</div>
+  <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="tabGroup" id="tabgroup_syntax">
@@ -3509,14 +3291,12 @@ in an easy to read format.</p>
       <tr>
         <td><a class="xref" href="HomeSeer.PluginSdk.Events.TrigActInfo.html">TrigActInfo</a></td>
         <td><span class="parametername">trigInfo</span></td>
-        <td><p>Object describing the trigger</p>
-</td>
+        <td></td>
       </tr>
       <tr>
         <td><span class="xref">System.Boolean</span></td>
         <td><span class="parametername">isCondition</span></td>
-        <td><p>TRUE if the trigger represents a condition, FALSE if it is a trigger</p>
-</td>
+        <td></td>
       </tr>
     </tbody>
   </table>
@@ -3531,8 +3311,7 @@ in an easy to read format.</p>
     <tbody>
       <tr>
         <td><span class="xref">System.Boolean</span></td>
-        <td><p>TRUE if the conditions are met; FALSE if they are not</p>
-</td>
+        <td></td>
       </tr>
     </tbody>
   </table>
@@ -3542,11 +3321,7 @@ in an easy to read format.</p>
   </span>
   <a id="HomeSeer_PluginSdk_AbstractPlugin_UpdateStatusNow_" data-uid="HomeSeer.PluginSdk.AbstractPlugin.UpdateStatusNow*"></a>
   <h4 id="HomeSeer_PluginSdk_AbstractPlugin_UpdateStatusNow_System_Int32_" data-uid="HomeSeer.PluginSdk.AbstractPlugin.UpdateStatusNow(System.Int32)">UpdateStatusNow(Int32)</h4>
-  <div class="markdown level1 summary"><p>Called by the HomeSeer system when it needs the current status for a device/feature owned by the plugin.</p>
-<p>
-This should force the device/feature to update its current status on HomeSeer.
-</p>
-</div>
+  <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="tabGroup" id="tabgroup_syntax">
@@ -3582,8 +3357,7 @@ This should force the device/feature to update its current status on HomeSeer.
       <tr>
         <td><span class="xref">System.Int32</span></td>
         <td><span class="parametername">devOrFeatRef</span></td>
-        <td><p>The reference ID of the device/feature to poll</p>
-</td>
+        <td></td>
       </tr>
     </tbody>
   </table>
@@ -3598,8 +3372,7 @@ This should force the device/feature to update its current status on HomeSeer.
     <tbody>
       <tr>
         <td><a class="xref" href="HomeSeer.PluginSdk.Devices.EPollResponse.html">EPollResponse</a></td>
-        <td><p>An <a class="xref" href="HomeSeer.PluginSdk.Devices.EPollResponse.html">EPollResponse</a> describing the result of the request</p>
-</td>
+        <td></td>
       </tr>
     </tbody>
   </table>

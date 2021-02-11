@@ -96,13 +96,17 @@
       </ul>
       <section id="tabpanel_syntax_cs" role="tabpanel" data-tab="cs">
           <div class="codewrapper">
-            <pre><code class="lang-System.Object[] hljs">public class JsonDataException : Exception, ISerializable, _Exception</code></pre>
+            <pre><code class="lang-System.Object[] hljs">[Serializable]
+public class JsonDataException : Exception, ISerializable, _Exception</code></pre>
           </div>
       </section>
       <section id="tabpanel_syntax_vb" role="tabpanel" data-tab="vb" aria-hidden="true" hidden="">
           <div class="codewrapper">
-            <pre><code class="lang-System.Object[] hljs">Public Class JsonDataException
+            <pre><code class="lang-System.Object[] hljs">&lt;Serializable&gt;
+Public Class JsonDataException
+
     Inherits Exception
+
     Implements ISerializable, _Exception</code></pre>
           </div>
       </section>
@@ -189,7 +193,7 @@
   </h3>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Jui/Views/JsonDataException.cs/#L13">View Source</a>
+    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Jui/Views/JsonDataException.cs/#L15">View Source</a>
   </span>
   <a id="HomeSeer_Jui_Views_JsonDataException__ctor_" data-uid="HomeSeer.Jui.Views.JsonDataException.#ctor*"></a>
   <h4 id="HomeSeer_Jui_Views_JsonDataException__ctor" data-uid="HomeSeer.Jui.Views.JsonDataException.#ctor">JsonDataException()</h4>
@@ -219,7 +223,7 @@
   </div>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Jui/Views/JsonDataException.cs/#L18">View Source</a>
+    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Jui/Views/JsonDataException.cs/#L20">View Source</a>
   </span>
   <a id="HomeSeer_Jui_Views_JsonDataException__ctor_" data-uid="HomeSeer.Jui.Views.JsonDataException.#ctor*"></a>
   <h4 id="HomeSeer_Jui_Views_JsonDataException__ctor_System_Exception_" data-uid="HomeSeer.Jui.Views.JsonDataException.#ctor(System.Exception)">JsonDataException(Exception)</h4>
@@ -267,7 +271,62 @@
   </table>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Jui/Views/JsonDataException.cs/#L23">View Source</a>
+    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Jui/Views/JsonDataException.cs/#L39">View Source</a>
+  </span>
+  <a id="HomeSeer_Jui_Views_JsonDataException__ctor_" data-uid="HomeSeer.Jui.Views.JsonDataException.#ctor*"></a>
+  <h4 id="HomeSeer_Jui_Views_JsonDataException__ctor_System_Runtime_Serialization_SerializationInfo_System_Runtime_Serialization_StreamingContext_" data-uid="HomeSeer.Jui.Views.JsonDataException.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)">JsonDataException(SerializationInfo, StreamingContext)</h4>
+  <div class="markdown level1 summary"><p>Special constructor used for deserialization.
+This is mandatory in order for HSCF to be able to deserialize this exception.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="tabGroup" id="tabgroup_syntax">
+      <ul role="tablist">
+          <li role="presentation">
+              <a href="#tabpanel_syntax_cs" tabindex="0" role="tab" aria-controls="tabpanel_syntax_cs" data-tab="cs" aria-selected="true">C#</a>
+          </li>
+          <li role="presentation">
+              <a href="#tabpanel_syntax_vb" tabindex="-1" role="tab" aria-controls="tabpanel_syntax_vb" data-tab="vb">Visual Basic</a>
+          </li>
+      </ul>
+      <section id="tabpanel_syntax_cs" role="tabpanel" data-tab="cs">
+          <div class="codewrapper">
+            <pre><code class="lang-csharp hljs">protected JsonDataException(SerializationInfo info, StreamingContext context)</code></pre>
+          </div>
+      </section>
+      <section id="tabpanel_syntax_vb" role="tabpanel" data-tab="vb" aria-hidden="true" hidden="">
+          <div class="codewrapper">
+            <pre><code class="lang-vb hljs">Protected Sub New(info As SerializationInfo, context As StreamingContext)</code></pre>
+          </div>
+      </section>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Runtime.Serialization.SerializationInfo</span></td>
+        <td><span class="parametername">info</span></td>
+        <td><p>The data to deserialize from</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Runtime.Serialization.StreamingContext</span></td>
+        <td><span class="parametername">context</span></td>
+        <td><p>The context of the source stream</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Jui/Views/JsonDataException.cs/#L25">View Source</a>
   </span>
   <a id="HomeSeer_Jui_Views_JsonDataException__ctor_" data-uid="HomeSeer.Jui.Views.JsonDataException.#ctor*"></a>
   <h4 id="HomeSeer_Jui_Views_JsonDataException__ctor_System_String_" data-uid="HomeSeer.Jui.Views.JsonDataException.#ctor(System.String)">JsonDataException(String)</h4>
@@ -315,7 +374,7 @@
   </table>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Jui/Views/JsonDataException.cs/#L29">View Source</a>
+    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Jui/Views/JsonDataException.cs/#L31">View Source</a>
   </span>
   <a id="HomeSeer_Jui_Views_JsonDataException__ctor_" data-uid="HomeSeer.Jui.Views.JsonDataException.#ctor*"></a>
   <h4 id="HomeSeer_Jui_Views_JsonDataException__ctor_System_String_System_Exception_" data-uid="HomeSeer.Jui.Views.JsonDataException.#ctor(System.String,System.Exception)">JsonDataException(String, Exception)</h4>
@@ -382,7 +441,7 @@
             <div class="contribution">
               <ul class="nav">
                 <li>
-                  <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Jui/Views/JsonDataException.cs/#L8" class="contribution-link">View Source</a>
+                  <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Jui/Views/JsonDataException.cs/#L9" class="contribution-link">View Source</a>
                 </li>
               </ul>
             </div>

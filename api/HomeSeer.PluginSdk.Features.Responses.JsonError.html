@@ -96,15 +96,14 @@
       </ul>
       <section id="tabpanel_syntax_cs" role="tabpanel" data-tab="cs">
           <div class="codewrapper">
-            <pre><code class="lang-System.Object[] hljs">[JsonObject]
-public class JsonError : GenericJsonData</code></pre>
+            <pre><code class="lang-System.Object[] hljs">public class JsonError : JsonResponse</code></pre>
           </div>
       </section>
       <section id="tabpanel_syntax_vb" role="tabpanel" data-tab="vb" aria-hidden="true" hidden="">
           <div class="codewrapper">
-            <pre><code class="lang-System.Object[] hljs">&lt;JsonObject&gt;
-Public Class JsonError
-    Inherits GenericJsonData</code></pre>
+            <pre><code class="lang-System.Object[] hljs">Public Class JsonError
+
+    Inherits JsonResponse</code></pre>
           </div>
       </section>
   </div>
@@ -112,10 +111,24 @@ Public Class JsonError
     <h5>Inheritance</h5>
     <div class="level0"><span class="xref">System.Object</span></div>
     <div class="level1"><a class="xref" href="HomeSeer.PluginSdk.Features.GenericJsonData.html">GenericJsonData</a></div>
-    <div class="level2"><span class="xref">JsonError</span></div>
+    <div class="level2"><a class="xref" href="HomeSeer.PluginSdk.Features.JsonRequest.html">JsonRequest</a></div>
+    <div class="level3"><a class="xref" href="HomeSeer.PluginSdk.Features.Responses.JsonResponse.html">JsonResponse</a></div>
+    <div class="level4"><span class="xref">JsonError</span></div>
   </div>
   <div class="inheritedMembers">
     <h5>Inherited Members</h5>
+    <div>
+      <a class="xref" href="HomeSeer.PluginSdk.Features.Responses.JsonResponse.html#HomeSeer_PluginSdk_Features_Responses_JsonResponse_ResponseKey">JsonResponse.ResponseKey</a>
+    </div>
+    <div>
+      <a class="xref" href="HomeSeer.PluginSdk.Features.Responses.JsonResponse.html#HomeSeer_PluginSdk_Features_Responses_JsonResponse_Response">JsonResponse.Response</a>
+    </div>
+    <div>
+      <a class="xref" href="HomeSeer.PluginSdk.Features.JsonRequest.html#HomeSeer_PluginSdk_Features_JsonRequest_RequestKey">JsonRequest.RequestKey</a>
+    </div>
+    <div>
+      <a class="xref" href="HomeSeer.PluginSdk.Features.JsonRequest.html#HomeSeer_PluginSdk_Features_JsonRequest_Request">JsonRequest.Request</a>
+    </div>
     <div>
       <a class="xref" href="HomeSeer.PluginSdk.Features.GenericJsonData.html#HomeSeer_PluginSdk_Features_GenericJsonData_Data">GenericJsonData.Data</a>
     </div>
@@ -182,7 +195,7 @@ A default handler is provided for you in the FeaturePagePost.js page. Include th
   </h3>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Features/Responses/JsonError.cs/#L36">View Source</a>
+    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Features/Responses/JsonError.cs/#L37">View Source</a>
   </span>
   <a id="HomeSeer_PluginSdk_Features_Responses_JsonError__ctor_" data-uid="HomeSeer.PluginSdk.Features.Responses.JsonError.#ctor*"></a>
   <h4 id="HomeSeer_PluginSdk_Features_Responses_JsonError__ctor" data-uid="HomeSeer.PluginSdk.Features.Responses.JsonError.#ctor">JsonError()</h4>
@@ -201,20 +214,18 @@ A default handler is provided for you in the FeaturePagePost.js page. Include th
       </ul>
       <section id="tabpanel_syntax_cs" role="tabpanel" data-tab="cs">
           <div class="codewrapper">
-            <pre><code class="lang-csharp hljs">[JsonConstructor]
-public JsonError()</code></pre>
+            <pre><code class="lang-csharp hljs">public JsonError()</code></pre>
           </div>
       </section>
       <section id="tabpanel_syntax_vb" role="tabpanel" data-tab="vb" aria-hidden="true" hidden="">
           <div class="codewrapper">
-            <pre><code class="lang-vb hljs">&lt;JsonConstructor&gt;
-Public Sub New</code></pre>
+            <pre><code class="lang-vb hljs">Public Sub New</code></pre>
           </div>
       </section>
   </div>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Features/Responses/JsonError.cs/#L58">View Source</a>
+    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Features/Responses/JsonError.cs/#L61">View Source</a>
   </span>
   <a id="HomeSeer_PluginSdk_Features_Responses_JsonError__ctor_" data-uid="HomeSeer.PluginSdk.Features.Responses.JsonError.#ctor*"></a>
   <h4 id="HomeSeer_PluginSdk_Features_Responses_JsonError__ctor_HomeSeer_PluginSdk_Features_GenericJsonData_" data-uid="HomeSeer.PluginSdk.Features.Responses.JsonError.#ctor(HomeSeer.PluginSdk.Features.GenericJsonData)">JsonError(GenericJsonData)</h4>
@@ -283,10 +294,10 @@ Public Sub New</code></pre>
   </table>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Features/Responses/JsonError.cs/#L44">View Source</a>
+    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Features/Responses/JsonError.cs/#L46">View Source</a>
   </span>
   <a id="HomeSeer_PluginSdk_Features_Responses_JsonError__ctor_" data-uid="HomeSeer.PluginSdk.Features.Responses.JsonError.#ctor*"></a>
-  <h4 id="HomeSeer_PluginSdk_Features_Responses_JsonError__ctor_System_String_" data-uid="HomeSeer.PluginSdk.Features.Responses.JsonError.#ctor(System.String)">JsonError(String)</h4>
+  <h4 id="HomeSeer_PluginSdk_Features_Responses_JsonError__ctor_HomeSeer_PluginSdk_Features_JsonRequest_System_String_" data-uid="HomeSeer.PluginSdk.Features.Responses.JsonError.#ctor(HomeSeer.PluginSdk.Features.JsonRequest,System.String)">JsonError(JsonRequest, String)</h4>
   <div class="markdown level1 summary"><p>Create a new JsonError with a specific message</p>
 </div>
   <div class="markdown level1 conceptual"></div>
@@ -302,12 +313,12 @@ Public Sub New</code></pre>
       </ul>
       <section id="tabpanel_syntax_cs" role="tabpanel" data-tab="cs">
           <div class="codewrapper">
-            <pre><code class="lang-csharp hljs">public JsonError(string errorMessage)</code></pre>
+            <pre><code class="lang-csharp hljs">public JsonError(JsonRequest request, string errorMessage)</code></pre>
           </div>
       </section>
       <section id="tabpanel_syntax_vb" role="tabpanel" data-tab="vb" aria-hidden="true" hidden="">
           <div class="codewrapper">
-            <pre><code class="lang-vb hljs">Public Sub New(errorMessage As String)</code></pre>
+            <pre><code class="lang-vb hljs">Public Sub New(request As JsonRequest, errorMessage As String)</code></pre>
           </div>
       </section>
   </div>
@@ -321,6 +332,12 @@ Public Sub New</code></pre>
       </tr>
     </thead>
     <tbody>
+      <tr>
+        <td><a class="xref" href="HomeSeer.PluginSdk.Features.JsonRequest.html">JsonRequest</a></td>
+        <td><span class="parametername">request</span></td>
+        <td><p>The <a class="xref" href="HomeSeer.PluginSdk.Features.JsonRequest.html">JsonRequest</a> to base this response on</p>
+</td>
+      </tr>
       <tr>
         <td><span class="xref">System.String</span></td>
         <td><span class="parametername">errorMessage</span></td>
@@ -349,7 +366,7 @@ Public Sub New</code></pre>
   </h3>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Features/Responses/JsonError.cs/#L22">View Source</a>
+    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Features/Responses/JsonError.cs/#L23">View Source</a>
   </span>
   <h4 id="HomeSeer_PluginSdk_Features_Responses_JsonError_ErrorKey" data-uid="HomeSeer.PluginSdk.Features.Responses.JsonError.ErrorKey">ErrorKey</h4>
   <div class="markdown level1 summary"><p>Key that identifies the error message data</p>
@@ -395,7 +412,7 @@ Public Sub New</code></pre>
   </h3>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Features/Responses/JsonError.cs/#L27">View Source</a>
+    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Features/Responses/JsonError.cs/#L28">View Source</a>
   </span>
   <a id="HomeSeer_PluginSdk_Features_Responses_JsonError_Error_" data-uid="HomeSeer.PluginSdk.Features.Responses.JsonError.Error*"></a>
   <h4 id="HomeSeer_PluginSdk_Features_Responses_JsonError_Error" data-uid="HomeSeer.PluginSdk.Features.Responses.JsonError.Error">Error</h4>
@@ -414,14 +431,12 @@ Public Sub New</code></pre>
       </ul>
       <section id="tabpanel_syntax_cs" role="tabpanel" data-tab="cs">
           <div class="codewrapper">
-            <pre><code class="lang-csharp hljs">[JsonIgnore]
-public string Error { get; set; }</code></pre>
+            <pre><code class="lang-csharp hljs">public string Error { get; set; }</code></pre>
           </div>
       </section>
       <section id="tabpanel_syntax_vb" role="tabpanel" data-tab="vb" aria-hidden="true" hidden="">
           <div class="codewrapper">
-            <pre><code class="lang-vb hljs">&lt;JsonIgnore&gt;
-Public Property Error As String</code></pre>
+            <pre><code class="lang-vb hljs">Public Property Error As String</code></pre>
           </div>
       </section>
   </div>
@@ -444,7 +459,7 @@ Public Property Error As String</code></pre>
   </h3>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Features/Responses/JsonError.cs/#L74">View Source</a>
+    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Features/Responses/JsonError.cs/#L77">View Source</a>
   </span>
   <a id="HomeSeer_PluginSdk_Features_Responses_JsonError_CreateJson_" data-uid="HomeSeer.PluginSdk.Features.Responses.JsonError.CreateJson*"></a>
   <h4 id="HomeSeer_PluginSdk_Features_Responses_JsonError_CreateJson_System_String_" data-uid="HomeSeer.PluginSdk.Features.Responses.JsonError.CreateJson(System.String)">CreateJson(String)</h4>

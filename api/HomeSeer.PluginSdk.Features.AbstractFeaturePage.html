@@ -102,6 +102,7 @@
       <section id="tabpanel_syntax_vb" role="tabpanel" data-tab="vb" aria-hidden="true" hidden="">
           <div class="codewrapper">
             <pre><code class="lang-System.Object[] hljs">Public MustInherit Class AbstractFeaturePage
+
     Implements IFeaturePage</code></pre>
           </div>
       </section>
@@ -148,44 +149,7 @@
   <div class="markdown level0 summary"><p>An abstract implementation of the <a class="xref" href="HomeSeer.PluginSdk.Features.IFeaturePage.html">IFeaturePage</a> interface establishing a basic structure to build
 a feature page from.</p>
 </div>
-  <div class="markdown level0 conceptual"><h3 id="basic-usage">Basic Usage</h3>
-<p>The AbstractFeaturePage is a simple implementation for a feature page that accepts POST data as a serialized <a class="xref" href="HomeSeer.PluginSdk.Features.JsonRequest.html"><code>JsonRequest</code></a> and responds with <a class="xref" href="HomeSeer.PluginSdk.Features.Responses.JsonResponse.html"><code>JsonRsponse</code></a>.</p>
-<p>Define a class in your plugin that inherits from <code>AbstractFeaturePage</code> and implements the required members</p>
-<ul>
-<li><a class="xref" href="HomeSeer.PluginSdk.Features.AbstractFeaturePage.html#HomeSeer_PluginSdk_Features_AbstractFeaturePage_Title"><code>AbstractFeaturePage.Title</code></a></li>
-<li><a class="xref" href="HomeSeer.PluginSdk.Features.AbstractFeaturePage.html#HomeSeer_PluginSdk_Features_AbstractFeaturePage_FileName"><code>AbstractFeaturePage.FileName</code></a></li>
-</ul>
-<pre><code class="lang-cs">public class MyFeaturePage : AbstractFeaturePage {
-    
-    public override string Title { get; set; } = &quot;My Feature Page&quot;;
-    public override string FileName { get; set; } = &quot;feature-page.html&quot;;
-}
-</code></pre>
-<p>In the constructor for your class, call <a class="xref" href="HomeSeer.PluginSdk.Features.AbstractFeaturePage.html#HomeSeer_PluginSdk_Features_AbstractFeaturePage_RegisterRequestCallback_"><code>AbstractFeaturePage.RegisterRequestCallback()</code></a> for each <a class="xref" href="HomeSeer.PluginSdk.Features.JsonRequest.html#HomeSeer_PluginSdk_Features_JsonRequest_Request"><code>JsonRequest.Request</code></a> keyword you want to listen for.</p>
-<pre><code class="lang-cs">public class MyFeaturePage : AbstractFeaturePage {
-
-    private const string LoadPageKey = &quot;load-page&quot;;
-    
-    public override string Title { get; set; } = &quot;My Feature Page&quot;;
-    public override string FileName { get; set; } = &quot;feature-page.html&quot;;
-
-    public MyFeaturePage() {
-        RegisterRequestCallback(LoadPageKey, LoadPage);
-    }
-
-    private JsonResponse LoadPage(JsonRequest request) {
-        try {
-            return new JsonResponse(request, &quot;page loaded successfully&quot;);
-        }
-        catch (Exception exception) {
-            exception.Log();
-            throw;
-        }
-    }
-}
-</code></pre>
-<p>See <a class="xref" href="HomeSeer.PluginSdk.Features.Responses.PageActions.PageActionResponse.html"><code>PageActionResponse</code></a> for default actions that you can execute through JavaScript from your plugin application.</p>
-</div>
+  <div class="markdown level0 conceptual">*content</div>
   <br>
   <h3 id="constructors">Constructors
   </h3>
@@ -228,8 +192,7 @@ Register the <span class="xref">HomeSeer.PluginSdk.Features.AbstractFeaturePage.
   </span>
   <a id="HomeSeer_PluginSdk_Features_AbstractFeaturePage_FileName_" data-uid="HomeSeer.PluginSdk.Features.AbstractFeaturePage.FileName*"></a>
   <h4 id="HomeSeer_PluginSdk_Features_AbstractFeaturePage_FileName" data-uid="HomeSeer.PluginSdk.Features.AbstractFeaturePage.FileName">FileName</h4>
-  <div class="markdown level1 summary"><p>The name of the HTML file that backs this feature page. Ex &quot;my-feature.html&quot;</p>
-</div>
+  <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="tabGroup" id="tabgroup_syntax">
@@ -319,8 +282,7 @@ Use <a class="xref" href="HomeSeer.PluginSdk.Features.AbstractFeaturePage.html#H
   </span>
   <a id="HomeSeer_PluginSdk_Features_AbstractFeaturePage_Title_" data-uid="HomeSeer.PluginSdk.Features.AbstractFeaturePage.Title*"></a>
   <h4 id="HomeSeer_PluginSdk_Features_AbstractFeaturePage_Title" data-uid="HomeSeer.PluginSdk.Features.AbstractFeaturePage.Title">Title</h4>
-  <div class="markdown level1 summary"><p>The title of the page. Displayed in the plugin menu and by the browser client.</p>
-</div>
+  <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="tabGroup" id="tabgroup_syntax">
@@ -366,8 +328,7 @@ Use <a class="xref" href="HomeSeer.PluginSdk.Features.AbstractFeaturePage.html#H
   </span>
   <a id="HomeSeer_PluginSdk_Features_AbstractFeaturePage_GetHtmlFragment_" data-uid="HomeSeer.PluginSdk.Features.AbstractFeaturePage.GetHtmlFragment*"></a>
   <h4 id="HomeSeer_PluginSdk_Features_AbstractFeaturePage_GetHtmlFragment_System_String_" data-uid="HomeSeer.PluginSdk.Features.AbstractFeaturePage.GetHtmlFragment(System.String)">GetHtmlFragment(String)</h4>
-  <div class="markdown level1 summary"><p>Get a fragment of HTML attached to a particular ID.</p>
-</div>
+  <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="tabGroup" id="tabgroup_syntax">
@@ -403,8 +364,7 @@ Use <a class="xref" href="HomeSeer.PluginSdk.Features.AbstractFeaturePage.html#H
       <tr>
         <td><span class="xref">System.String</span></td>
         <td><span class="parametername">fragmentId</span></td>
-        <td><p>The ID of the fragment to get</p>
-</td>
+        <td></td>
       </tr>
     </tbody>
   </table>
@@ -419,22 +379,17 @@ Use <a class="xref" href="HomeSeer.PluginSdk.Features.AbstractFeaturePage.html#H
     <tbody>
       <tr>
         <td><span class="xref">System.String</span></td>
-        <td><p>A fragment of HTML</p>
-</td>
+        <td></td>
       </tr>
     </tbody>
   </table>
-  <h5 id="HomeSeer_PluginSdk_Features_AbstractFeaturePage_GetHtmlFragment_System_String__remarks">Remarks</h5>
-  <div class="markdown level1 remarks"><p>Used by Scriban.</p>
-</div>
   
   <span class="small pull-right mobile-hide">
     <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Features/AbstractFeaturePage.cs/#L39">View Source</a>
   </span>
   <a id="HomeSeer_PluginSdk_Features_AbstractFeaturePage_PostBackProc_" data-uid="HomeSeer.PluginSdk.Features.AbstractFeaturePage.PostBackProc*"></a>
   <h4 id="HomeSeer_PluginSdk_Features_AbstractFeaturePage_PostBackProc_System_String_System_String_System_Int32_" data-uid="HomeSeer.PluginSdk.Features.AbstractFeaturePage.PostBackProc(System.String,System.String,System.Int32)">PostBackProc(String, String, Int32)</h4>
-  <div class="markdown level1 summary"><p>Respond to an HTTP POST directed at this page.</p>
-</div>
+  <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="tabGroup" id="tabgroup_syntax">
@@ -470,8 +425,7 @@ Use <a class="xref" href="HomeSeer.PluginSdk.Features.AbstractFeaturePage.html#H
       <tr>
         <td><span class="xref">System.String</span></td>
         <td><span class="parametername">data</span></td>
-        <td><p>The body of data attached to the POST</p>
-</td>
+        <td></td>
       </tr>
       <tr>
         <td><span class="xref">System.String</span></td>
@@ -496,8 +450,7 @@ Use <a class="xref" href="HomeSeer.PluginSdk.Features.AbstractFeaturePage.html#H
     <tbody>
       <tr>
         <td><span class="xref">System.String</span></td>
-        <td><p>The data to return as a string. Use JSON.</p>
-</td>
+        <td></td>
       </tr>
     </tbody>
   </table>

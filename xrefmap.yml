@@ -462,6 +462,12 @@ references:
   commentId: M:HomeSeer.Jui.Views.InvalidValueForTypeException.#ctor
   fullName: HomeSeer.Jui.Views.InvalidValueForTypeException.InvalidValueForTypeException()
   nameWithType: InvalidValueForTypeException.InvalidValueForTypeException()
+- uid: HomeSeer.Jui.Views.InvalidValueForTypeException.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
+  name: InvalidValueForTypeException(SerializationInfo, StreamingContext)
+  href: api/HomeSeer.Jui.Views.InvalidValueForTypeException.html#HomeSeer_Jui_Views_InvalidValueForTypeException__ctor_System_Runtime_Serialization_SerializationInfo_System_Runtime_Serialization_StreamingContext_
+  commentId: M:HomeSeer.Jui.Views.InvalidValueForTypeException.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
+  fullName: HomeSeer.Jui.Views.InvalidValueForTypeException.InvalidValueForTypeException(System.Runtime.Serialization.SerializationInfo, System.Runtime.Serialization.StreamingContext)
+  nameWithType: InvalidValueForTypeException.InvalidValueForTypeException(SerializationInfo, StreamingContext)
 - uid: HomeSeer.Jui.Views.InvalidValueForTypeException.#ctor(System.String)
   name: InvalidValueForTypeException(String)
   href: api/HomeSeer.Jui.Views.InvalidValueForTypeException.html#HomeSeer_Jui_Views_InvalidValueForTypeException__ctor_System_String_
@@ -499,6 +505,12 @@ references:
   commentId: M:HomeSeer.Jui.Views.JsonDataException.#ctor(System.Exception)
   fullName: HomeSeer.Jui.Views.JsonDataException.JsonDataException(System.Exception)
   nameWithType: JsonDataException.JsonDataException(Exception)
+- uid: HomeSeer.Jui.Views.JsonDataException.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
+  name: JsonDataException(SerializationInfo, StreamingContext)
+  href: api/HomeSeer.Jui.Views.JsonDataException.html#HomeSeer_Jui_Views_JsonDataException__ctor_System_Runtime_Serialization_SerializationInfo_System_Runtime_Serialization_StreamingContext_
+  commentId: M:HomeSeer.Jui.Views.JsonDataException.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
+  fullName: HomeSeer.Jui.Views.JsonDataException.JsonDataException(System.Runtime.Serialization.SerializationInfo, System.Runtime.Serialization.StreamingContext)
+  nameWithType: JsonDataException.JsonDataException(SerializationInfo, StreamingContext)
 - uid: HomeSeer.Jui.Views.JsonDataException.#ctor(System.String)
   name: JsonDataException(String)
   href: api/HomeSeer.Jui.Views.JsonDataException.html#HomeSeer_Jui_Views_JsonDataException__ctor_System_String_
@@ -2084,6 +2096,12 @@ references:
   commentId: M:HomeSeer.Jui.Views.ViewNotFoundException.#ctor
   fullName: HomeSeer.Jui.Views.ViewNotFoundException.ViewNotFoundException()
   nameWithType: ViewNotFoundException.ViewNotFoundException()
+- uid: HomeSeer.Jui.Views.ViewNotFoundException.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
+  name: ViewNotFoundException(SerializationInfo, StreamingContext)
+  href: api/HomeSeer.Jui.Views.ViewNotFoundException.html#HomeSeer_Jui_Views_ViewNotFoundException__ctor_System_Runtime_Serialization_SerializationInfo_System_Runtime_Serialization_StreamingContext_
+  commentId: M:HomeSeer.Jui.Views.ViewNotFoundException.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
+  fullName: HomeSeer.Jui.Views.ViewNotFoundException.ViewNotFoundException(System.Runtime.Serialization.SerializationInfo, System.Runtime.Serialization.StreamingContext)
+  nameWithType: ViewNotFoundException.ViewNotFoundException(SerializationInfo, StreamingContext)
 - uid: HomeSeer.Jui.Views.ViewNotFoundException.#ctor(System.String)
   name: ViewNotFoundException(String)
   href: api/HomeSeer.Jui.Views.ViewNotFoundException.html#HomeSeer_Jui_Views_ViewNotFoundException__ctor_System_String_
@@ -2115,6 +2133,12 @@ references:
   commentId: M:HomeSeer.Jui.Views.ViewTypeMismatchException.#ctor
   fullName: HomeSeer.Jui.Views.ViewTypeMismatchException.ViewTypeMismatchException()
   nameWithType: ViewTypeMismatchException.ViewTypeMismatchException()
+- uid: HomeSeer.Jui.Views.ViewTypeMismatchException.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
+  name: ViewTypeMismatchException(SerializationInfo, StreamingContext)
+  href: api/HomeSeer.Jui.Views.ViewTypeMismatchException.html#HomeSeer_Jui_Views_ViewTypeMismatchException__ctor_System_Runtime_Serialization_SerializationInfo_System_Runtime_Serialization_StreamingContext_
+  commentId: M:HomeSeer.Jui.Views.ViewTypeMismatchException.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
+  fullName: HomeSeer.Jui.Views.ViewTypeMismatchException.ViewTypeMismatchException(System.Runtime.Serialization.SerializationInfo, System.Runtime.Serialization.StreamingContext)
+  nameWithType: ViewTypeMismatchException.ViewTypeMismatchException(SerializationInfo, StreamingContext)
 - uid: HomeSeer.Jui.Views.ViewTypeMismatchException.#ctor(System.String)
   name: ViewTypeMismatchException(String)
   href: api/HomeSeer.Jui.Views.ViewTypeMismatchException.html#HomeSeer_Jui_Views_ViewTypeMismatchException__ctor_System_String_
@@ -6528,6 +6552,22 @@ references:
   isSpec: "True"
   fullName: HomeSeer.PluginSdk.Devices.FeatureFactory.WithName
   nameWithType: FeatureFactory.WithName
+- uid: HomeSeer.PluginSdk.Devices.FeatureFactory.WithoutMiscFlags(HomeSeer.PluginSdk.Devices.EMiscFlag[])
+  name: WithoutMiscFlags(EMiscFlag[])
+  href: api/HomeSeer.PluginSdk.Devices.FeatureFactory.html#HomeSeer_PluginSdk_Devices_FeatureFactory_WithoutMiscFlags_HomeSeer_PluginSdk_Devices_EMiscFlag___
+  commentId: M:HomeSeer.PluginSdk.Devices.FeatureFactory.WithoutMiscFlags(HomeSeer.PluginSdk.Devices.EMiscFlag[])
+  name.vb: WithoutMiscFlags(EMiscFlag())
+  fullName: HomeSeer.PluginSdk.Devices.FeatureFactory.WithoutMiscFlags(HomeSeer.PluginSdk.Devices.EMiscFlag[])
+  fullName.vb: HomeSeer.PluginSdk.Devices.FeatureFactory.WithoutMiscFlags(HomeSeer.PluginSdk.Devices.EMiscFlag())
+  nameWithType: FeatureFactory.WithoutMiscFlags(EMiscFlag[])
+  nameWithType.vb: FeatureFactory.WithoutMiscFlags(EMiscFlag())
+- uid: HomeSeer.PluginSdk.Devices.FeatureFactory.WithoutMiscFlags*
+  name: WithoutMiscFlags
+  href: api/HomeSeer.PluginSdk.Devices.FeatureFactory.html#HomeSeer_PluginSdk_Devices_FeatureFactory_WithoutMiscFlags_
+  commentId: Overload:HomeSeer.PluginSdk.Devices.FeatureFactory.WithoutMiscFlags
+  isSpec: "True"
+  fullName: HomeSeer.PluginSdk.Devices.FeatureFactory.WithoutMiscFlags
+  nameWithType: FeatureFactory.WithoutMiscFlags
 - uid: HomeSeer.PluginSdk.Devices.HsDevice
   name: HsDevice
   href: api/HomeSeer.PluginSdk.Devices.HsDevice.html
@@ -6773,6 +6813,12 @@ references:
   commentId: T:HomeSeer.PluginSdk.Devices.Identification.DeviceRelationshipException
   fullName: HomeSeer.PluginSdk.Devices.Identification.DeviceRelationshipException
   nameWithType: DeviceRelationshipException
+- uid: HomeSeer.PluginSdk.Devices.Identification.DeviceRelationshipException.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
+  name: DeviceRelationshipException(SerializationInfo, StreamingContext)
+  href: api/HomeSeer.PluginSdk.Devices.Identification.DeviceRelationshipException.html#HomeSeer_PluginSdk_Devices_Identification_DeviceRelationshipException__ctor_System_Runtime_Serialization_SerializationInfo_System_Runtime_Serialization_StreamingContext_
+  commentId: M:HomeSeer.PluginSdk.Devices.Identification.DeviceRelationshipException.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
+  fullName: HomeSeer.PluginSdk.Devices.Identification.DeviceRelationshipException.DeviceRelationshipException(System.Runtime.Serialization.SerializationInfo, System.Runtime.Serialization.StreamingContext)
+  nameWithType: DeviceRelationshipException.DeviceRelationshipException(SerializationInfo, StreamingContext)
 - uid: HomeSeer.PluginSdk.Devices.Identification.DeviceRelationshipException.#ctor(System.String)
   name: DeviceRelationshipException(String)
   href: api/HomeSeer.PluginSdk.Devices.Identification.DeviceRelationshipException.html#HomeSeer_PluginSdk_Devices_Identification_DeviceRelationshipException__ctor_System_String_
@@ -10387,12 +10433,12 @@ references:
   commentId: M:HomeSeer.PluginSdk.Features.Responses.JsonError.#ctor(HomeSeer.PluginSdk.Features.GenericJsonData)
   fullName: HomeSeer.PluginSdk.Features.Responses.JsonError.JsonError(HomeSeer.PluginSdk.Features.GenericJsonData)
   nameWithType: JsonError.JsonError(GenericJsonData)
-- uid: HomeSeer.PluginSdk.Features.Responses.JsonError.#ctor(System.String)
-  name: JsonError(String)
-  href: api/HomeSeer.PluginSdk.Features.Responses.JsonError.html#HomeSeer_PluginSdk_Features_Responses_JsonError__ctor_System_String_
-  commentId: M:HomeSeer.PluginSdk.Features.Responses.JsonError.#ctor(System.String)
-  fullName: HomeSeer.PluginSdk.Features.Responses.JsonError.JsonError(System.String)
-  nameWithType: JsonError.JsonError(String)
+- uid: HomeSeer.PluginSdk.Features.Responses.JsonError.#ctor(HomeSeer.PluginSdk.Features.JsonRequest,System.String)
+  name: JsonError(JsonRequest, String)
+  href: api/HomeSeer.PluginSdk.Features.Responses.JsonError.html#HomeSeer_PluginSdk_Features_Responses_JsonError__ctor_HomeSeer_PluginSdk_Features_JsonRequest_System_String_
+  commentId: M:HomeSeer.PluginSdk.Features.Responses.JsonError.#ctor(HomeSeer.PluginSdk.Features.JsonRequest,System.String)
+  fullName: HomeSeer.PluginSdk.Features.Responses.JsonError.JsonError(HomeSeer.PluginSdk.Features.JsonRequest, System.String)
+  nameWithType: JsonError.JsonError(JsonRequest, String)
 - uid: HomeSeer.PluginSdk.Features.Responses.JsonError.#ctor*
   name: JsonError
   href: api/HomeSeer.PluginSdk.Features.Responses.JsonError.html#HomeSeer_PluginSdk_Features_Responses_JsonError__ctor_
@@ -11104,6 +11150,32 @@ references:
   isSpec: "True"
   fullName: HomeSeer.PluginSdk.IHsController.CreateFeatureForDevice
   nameWithType: IHsController.CreateFeatureForDevice
+- uid: HomeSeer.PluginSdk.IHsController.CreateVar(System.String)
+  name: CreateVar(String)
+  href: api/HomeSeer.PluginSdk.IHsController.html#HomeSeer_PluginSdk_IHsController_CreateVar_System_String_
+  commentId: M:HomeSeer.PluginSdk.IHsController.CreateVar(System.String)
+  fullName: HomeSeer.PluginSdk.IHsController.CreateVar(System.String)
+  nameWithType: IHsController.CreateVar(String)
+- uid: HomeSeer.PluginSdk.IHsController.CreateVar*
+  name: CreateVar
+  href: api/HomeSeer.PluginSdk.IHsController.html#HomeSeer_PluginSdk_IHsController_CreateVar_
+  commentId: Overload:HomeSeer.PluginSdk.IHsController.CreateVar
+  isSpec: "True"
+  fullName: HomeSeer.PluginSdk.IHsController.CreateVar
+  nameWithType: IHsController.CreateVar
+- uid: HomeSeer.PluginSdk.IHsController.DecryptString(System.String,System.String,System.String)
+  name: DecryptString(String, String, String)
+  href: api/HomeSeer.PluginSdk.IHsController.html#HomeSeer_PluginSdk_IHsController_DecryptString_System_String_System_String_System_String_
+  commentId: M:HomeSeer.PluginSdk.IHsController.DecryptString(System.String,System.String,System.String)
+  fullName: HomeSeer.PluginSdk.IHsController.DecryptString(System.String, System.String, System.String)
+  nameWithType: IHsController.DecryptString(String, String, String)
+- uid: HomeSeer.PluginSdk.IHsController.DecryptString*
+  name: DecryptString
+  href: api/HomeSeer.PluginSdk.IHsController.html#HomeSeer_PluginSdk_IHsController_DecryptString_
+  commentId: Overload:HomeSeer.PluginSdk.IHsController.DecryptString
+  isSpec: "True"
+  fullName: HomeSeer.PluginSdk.IHsController.DecryptString
+  nameWithType: IHsController.DecryptString
 - uid: HomeSeer.PluginSdk.IHsController.DeleteAfterTrigger_Clear(System.Int32)
   name: DeleteAfterTrigger_Clear(Int32)
   href: api/HomeSeer.PluginSdk.IHsController.html#HomeSeer_PluginSdk_IHsController_DeleteAfterTrigger_Clear_System_Int32_
@@ -11234,6 +11306,19 @@ references:
   isSpec: "True"
   fullName: HomeSeer.PluginSdk.IHsController.DeleteStatusGraphicByValue
   nameWithType: IHsController.DeleteStatusGraphicByValue
+- uid: HomeSeer.PluginSdk.IHsController.DeleteVar(System.String)
+  name: DeleteVar(String)
+  href: api/HomeSeer.PluginSdk.IHsController.html#HomeSeer_PluginSdk_IHsController_DeleteVar_System_String_
+  commentId: M:HomeSeer.PluginSdk.IHsController.DeleteVar(System.String)
+  fullName: HomeSeer.PluginSdk.IHsController.DeleteVar(System.String)
+  nameWithType: IHsController.DeleteVar(String)
+- uid: HomeSeer.PluginSdk.IHsController.DeleteVar*
+  name: DeleteVar
+  href: api/HomeSeer.PluginSdk.IHsController.html#HomeSeer_PluginSdk_IHsController_DeleteVar_
+  commentId: Overload:HomeSeer.PluginSdk.IHsController.DeleteVar
+  isSpec: "True"
+  fullName: HomeSeer.PluginSdk.IHsController.DeleteVar
+  nameWithType: IHsController.DeleteVar
 - uid: HomeSeer.PluginSdk.IHsController.DeviceCount
   name: DeviceCount
   href: api/HomeSeer.PluginSdk.IHsController.html#HomeSeer_PluginSdk_IHsController_DeviceCount
@@ -12316,6 +12401,19 @@ references:
   isSpec: "True"
   fullName: HomeSeer.PluginSdk.IHsController.GetUsers
   nameWithType: IHsController.GetUsers
+- uid: HomeSeer.PluginSdk.IHsController.GetVar(System.String)
+  name: GetVar(String)
+  href: api/HomeSeer.PluginSdk.IHsController.html#HomeSeer_PluginSdk_IHsController_GetVar_System_String_
+  commentId: M:HomeSeer.PluginSdk.IHsController.GetVar(System.String)
+  fullName: HomeSeer.PluginSdk.IHsController.GetVar(System.String)
+  nameWithType: IHsController.GetVar(String)
+- uid: HomeSeer.PluginSdk.IHsController.GetVar*
+  name: GetVar
+  href: api/HomeSeer.PluginSdk.IHsController.html#HomeSeer_PluginSdk_IHsController_GetVar_
+  commentId: Overload:HomeSeer.PluginSdk.IHsController.GetVar
+  isSpec: "True"
+  fullName: HomeSeer.PluginSdk.IHsController.GetVar
+  nameWithType: IHsController.GetVar
 - uid: HomeSeer.PluginSdk.IHsController.IsEventLoggingEnabledByRef(System.Int32)
   name: IsEventLoggingEnabledByRef(Int32)
   href: api/HomeSeer.PluginSdk.IHsController.html#HomeSeer_PluginSdk_IHsController_IsEventLoggingEnabledByRef_System_Int32_
@@ -12407,6 +12505,19 @@ references:
   isSpec: "True"
   fullName: HomeSeer.PluginSdk.IHsController.IsRegistered
   nameWithType: IHsController.IsRegistered
+- uid: HomeSeer.PluginSdk.IHsController.IsSpeakerBusy(System.String)
+  name: IsSpeakerBusy(String)
+  href: api/HomeSeer.PluginSdk.IHsController.html#HomeSeer_PluginSdk_IHsController_IsSpeakerBusy_System_String_
+  commentId: M:HomeSeer.PluginSdk.IHsController.IsSpeakerBusy(System.String)
+  fullName: HomeSeer.PluginSdk.IHsController.IsSpeakerBusy(System.String)
+  nameWithType: IHsController.IsSpeakerBusy(String)
+- uid: HomeSeer.PluginSdk.IHsController.IsSpeakerBusy*
+  name: IsSpeakerBusy
+  href: api/HomeSeer.PluginSdk.IHsController.html#HomeSeer_PluginSdk_IHsController_IsSpeakerBusy_
+  commentId: Overload:HomeSeer.PluginSdk.IHsController.IsSpeakerBusy
+  isSpec: "True"
+  fullName: HomeSeer.PluginSdk.IHsController.IsSpeakerBusy
+  nameWithType: IHsController.IsSpeakerBusy
 - uid: HomeSeer.PluginSdk.IHsController.LegacyPluginFunction(System.String,System.String,System.String,System.Object[])
   name: LegacyPluginFunction(String, String, String, Object[])
   href: api/HomeSeer.PluginSdk.IHsController.html#HomeSeer_PluginSdk_IHsController_LegacyPluginFunction_System_String_System_String_System_String_System_Object___
@@ -12533,6 +12644,19 @@ references:
   isSpec: "True"
   fullName: HomeSeer.PluginSdk.IHsController.RegisterPlugin
   nameWithType: IHsController.RegisterPlugin
+- uid: HomeSeer.PluginSdk.IHsController.RegisterProxySpeakPlug(System.String)
+  name: RegisterProxySpeakPlug(String)
+  href: api/HomeSeer.PluginSdk.IHsController.html#HomeSeer_PluginSdk_IHsController_RegisterProxySpeakPlug_System_String_
+  commentId: M:HomeSeer.PluginSdk.IHsController.RegisterProxySpeakPlug(System.String)
+  fullName: HomeSeer.PluginSdk.IHsController.RegisterProxySpeakPlug(System.String)
+  nameWithType: IHsController.RegisterProxySpeakPlug(String)
+- uid: HomeSeer.PluginSdk.IHsController.RegisterProxySpeakPlug*
+  name: RegisterProxySpeakPlug
+  href: api/HomeSeer.PluginSdk.IHsController.html#HomeSeer_PluginSdk_IHsController_RegisterProxySpeakPlug_
+  commentId: Overload:HomeSeer.PluginSdk.IHsController.RegisterProxySpeakPlug
+  isSpec: "True"
+  fullName: HomeSeer.PluginSdk.IHsController.RegisterProxySpeakPlug
+  nameWithType: IHsController.RegisterProxySpeakPlug
 - uid: HomeSeer.PluginSdk.IHsController.RemoveRefFromCategory(System.String,System.Int32)
   name: RemoveRefFromCategory(String, Int32)
   href: api/HomeSeer.PluginSdk.IHsController.html#HomeSeer_PluginSdk_IHsController_RemoveRefFromCategory_System_String_System_Int32_
@@ -12643,6 +12767,19 @@ references:
   isSpec: "True"
   fullName: HomeSeer.PluginSdk.IHsController.SaveINISetting
   nameWithType: IHsController.SaveINISetting
+- uid: HomeSeer.PluginSdk.IHsController.SaveVar(System.String,System.Object)
+  name: SaveVar(String, Object)
+  href: api/HomeSeer.PluginSdk.IHsController.html#HomeSeer_PluginSdk_IHsController_SaveVar_System_String_System_Object_
+  commentId: M:HomeSeer.PluginSdk.IHsController.SaveVar(System.String,System.Object)
+  fullName: HomeSeer.PluginSdk.IHsController.SaveVar(System.String, System.Object)
+  nameWithType: IHsController.SaveVar(String, Object)
+- uid: HomeSeer.PluginSdk.IHsController.SaveVar*
+  name: SaveVar
+  href: api/HomeSeer.PluginSdk.IHsController.html#HomeSeer_PluginSdk_IHsController_SaveVar_
+  commentId: Overload:HomeSeer.PluginSdk.IHsController.SaveVar
+  isSpec: "True"
+  fullName: HomeSeer.PluginSdk.IHsController.SaveVar
+  nameWithType: IHsController.SaveVar
 - uid: HomeSeer.PluginSdk.IHsController.SendControlForFeatureByValue(System.Int32,System.Double)
   name: SendControlForFeatureByValue(Int32, Double)
   href: api/HomeSeer.PluginSdk.IHsController.html#HomeSeer_PluginSdk_IHsController_SendControlForFeatureByValue_System_Int32_System_Double_
@@ -12737,6 +12874,19 @@ references:
   isSpec: "True"
   fullName: HomeSeer.PluginSdk.IHsController.SolarNoon
   nameWithType: IHsController.SolarNoon
+- uid: HomeSeer.PluginSdk.IHsController.Speak(System.Int32,System.String,System.Boolean,System.String)
+  name: Speak(Int32, String, Boolean, String)
+  href: api/HomeSeer.PluginSdk.IHsController.html#HomeSeer_PluginSdk_IHsController_Speak_System_Int32_System_String_System_Boolean_System_String_
+  commentId: M:HomeSeer.PluginSdk.IHsController.Speak(System.Int32,System.String,System.Boolean,System.String)
+  fullName: HomeSeer.PluginSdk.IHsController.Speak(System.Int32, System.String, System.Boolean, System.String)
+  nameWithType: IHsController.Speak(Int32, String, Boolean, String)
+- uid: HomeSeer.PluginSdk.IHsController.Speak*
+  name: Speak
+  href: api/HomeSeer.PluginSdk.IHsController.html#HomeSeer_PluginSdk_IHsController_Speak_
+  commentId: Overload:HomeSeer.PluginSdk.IHsController.Speak
+  isSpec: "True"
+  fullName: HomeSeer.PluginSdk.IHsController.Speak
+  nameWithType: IHsController.Speak
 - uid: HomeSeer.PluginSdk.IHsController.SpeakProxy(System.Int32,System.String,System.Boolean,System.String)
   name: SpeakProxy(Int32, String, Boolean, String)
   href: api/HomeSeer.PluginSdk.IHsController.html#HomeSeer_PluginSdk_IHsController_SpeakProxy_System_Int32_System_String_System_Boolean_System_String_
@@ -12867,6 +13017,19 @@ references:
   isSpec: "True"
   fullName: HomeSeer.PluginSdk.IHsController.UnRegisterGenericEventCB
   nameWithType: IHsController.UnRegisterGenericEventCB
+- uid: HomeSeer.PluginSdk.IHsController.UnRegisterProxySpeakPlug(System.String)
+  name: UnRegisterProxySpeakPlug(String)
+  href: api/HomeSeer.PluginSdk.IHsController.html#HomeSeer_PluginSdk_IHsController_UnRegisterProxySpeakPlug_System_String_
+  commentId: M:HomeSeer.PluginSdk.IHsController.UnRegisterProxySpeakPlug(System.String)
+  fullName: HomeSeer.PluginSdk.IHsController.UnRegisterProxySpeakPlug(System.String)
+  nameWithType: IHsController.UnRegisterProxySpeakPlug(String)
+- uid: HomeSeer.PluginSdk.IHsController.UnRegisterProxySpeakPlug*
+  name: UnRegisterProxySpeakPlug
+  href: api/HomeSeer.PluginSdk.IHsController.html#HomeSeer_PluginSdk_IHsController_UnRegisterProxySpeakPlug_
+  commentId: Overload:HomeSeer.PluginSdk.IHsController.UnRegisterProxySpeakPlug
+  isSpec: "True"
+  fullName: HomeSeer.PluginSdk.IHsController.UnRegisterProxySpeakPlug
+  nameWithType: IHsController.UnRegisterProxySpeakPlug
 - uid: HomeSeer.PluginSdk.IHsController.UpdateDeviceByRef(System.Int32,System.Collections.Generic.Dictionary{HomeSeer.PluginSdk.Devices.EProperty,System.Object})
   name: UpdateDeviceByRef(Int32, Dictionary<EProperty, Object>)
   href: api/HomeSeer.PluginSdk.IHsController.html#HomeSeer_PluginSdk_IHsController_UpdateDeviceByRef_System_Int32_System_Collections_Generic_Dictionary_HomeSeer_PluginSdk_Devices_EProperty_System_Object__

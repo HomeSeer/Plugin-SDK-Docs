@@ -1,6 +1,6 @@
 {
   "homepages": [],
-  "source_base_path": "C:/Users/jldub/dev/PluginSdkDocs/docfx_project",
+  "source_base_path": "C:/Users/jldub/dev/PluginSDK Scripts/docs/docfx_project",
   "xrefmap": "xrefmap.yml",
   "files": [
     {
@@ -102,7 +102,7 @@
       "output": {
         ".html": {
           "relative_path": "api/HomeSeer.Jui.Views.AbstractView.html",
-          "hash": "myCA31R4p+wcHXstZ498/g=="
+          "hash": "oy/t+/fVJ/1waaWDuTkQsA=="
         }
       },
       "is_incremental": false,
@@ -114,7 +114,7 @@
       "output": {
         ".html": {
           "relative_path": "api/HomeSeer.Jui.Views.InputView.html",
-          "hash": "iw66l5L+9GDy2lPVsv3cTw=="
+          "hash": "QD9uIg5+Ia5zsZuxs2P0Rw=="
         }
       },
       "is_incremental": false,
@@ -126,7 +126,7 @@
       "output": {
         ".html": {
           "relative_path": "api/HomeSeer.Jui.Views.InvalidValueForTypeException.html",
-          "hash": "cdNxtJIe2Rk7xXHIxcHjmw=="
+          "hash": "Wo57AkTmxekSdL2DhSyk+A=="
         }
       },
       "is_incremental": false,
@@ -138,7 +138,7 @@
       "output": {
         ".html": {
           "relative_path": "api/HomeSeer.Jui.Views.JsonDataException.html",
-          "hash": "LvUDRVzFya9ifbS0AKPSvA=="
+          "hash": "Klj1TTb31/MqRW2ctQc9Sg=="
         }
       },
       "is_incremental": false,
@@ -150,7 +150,7 @@
       "output": {
         ".html": {
           "relative_path": "api/HomeSeer.Jui.Views.LabelView.html",
-          "hash": "QEKKn8jBpbjsV4vFRv0szw=="
+          "hash": "+z344YSjKyxyHOcqhUt6UQ=="
         }
       },
       "is_incremental": false,
@@ -174,7 +174,7 @@
       "output": {
         ".html": {
           "relative_path": "api/HomeSeer.Jui.Views.Page.html",
-          "hash": "+nzHzFC6cESGsqC9p876bA=="
+          "hash": "vlSYTztyag/mi0y02ZLe6Q=="
         }
       },
       "is_incremental": false,
@@ -198,7 +198,7 @@
       "output": {
         ".html": {
           "relative_path": "api/HomeSeer.Jui.Views.SelectListView.html",
-          "hash": "uh2YESVwgT+M1P0E0CtNog=="
+          "hash": "WZw1YEMI7oMTt6/012JOcw=="
         }
       },
       "is_incremental": false,
@@ -210,7 +210,7 @@
       "output": {
         ".html": {
           "relative_path": "api/HomeSeer.Jui.Views.SettingsCollection.html",
-          "hash": "5MsvWcHanKtRhke/SUrX9g=="
+          "hash": "bIccFb2kWPR4baZY2lLveA=="
         }
       },
       "is_incremental": false,
@@ -222,7 +222,7 @@
       "output": {
         ".html": {
           "relative_path": "api/HomeSeer.Jui.Views.ToggleView.html",
-          "hash": "16vNmT08NmOA9ZxOfu3txg=="
+          "hash": "olGzPiowmKi0xf1DdnSxQg=="
         }
       },
       "is_incremental": false,
@@ -234,7 +234,7 @@
       "output": {
         ".html": {
           "relative_path": "api/HomeSeer.Jui.Views.ViewGroup.html",
-          "hash": "2HnX9aGZMAN6yIRWMDR3/w=="
+          "hash": "Z+aR+R4mkQatOj3ioVPrMw=="
         }
       },
       "is_incremental": false,
@@ -246,7 +246,7 @@
       "output": {
         ".html": {
           "relative_path": "api/HomeSeer.Jui.Views.ViewNotFoundException.html",
-          "hash": "ANReGnrG0STJcgEVGujjNQ=="
+          "hash": "0vHzFYOITBc8EJ5L1ei8Tw=="
         }
       },
       "is_incremental": false,
@@ -258,7 +258,7 @@
       "output": {
         ".html": {
           "relative_path": "api/HomeSeer.Jui.Views.ViewTypeMismatchException.html",
-          "hash": "h+ox4IEcru4RjqGfwA3Y3A=="
+          "hash": "d7DTrhCpd2nBqHVcPgwtKQ=="
         }
       },
       "is_incremental": false,
@@ -282,7 +282,7 @@
       "output": {
         ".html": {
           "relative_path": "api/HomeSeer.PluginSdk.AbstractPlugin.html",
-          "hash": "dujdUR9Pw2D7Y9+TqdLRvQ=="
+          "hash": "skRp8KsdsR6HaWhzmAAfZA=="
         }
       },
       "is_incremental": false,
@@ -750,7 +750,7 @@
       "output": {
         ".html": {
           "relative_path": "api/HomeSeer.PluginSdk.Devices.FeatureFactory.html",
-          "hash": "fb4lVDKlY8LYrmlAsGsHcQ=="
+          "hash": "6uyUKkP2ZU3tel5JM7xYBg=="
         }
       },
       "is_incremental": false,
@@ -762,7 +762,7 @@
       "output": {
         ".html": {
           "relative_path": "api/HomeSeer.PluginSdk.Devices.HsDevice.html",
-          "hash": "4MkXx+10wF+7N5BstBkgGg=="
+          "hash": "qrHlWhtVnnFAQgdoUvw1Aw=="
         }
       },
       "is_incremental": false,
@@ -774,7 +774,7 @@
       "output": {
         ".html": {
           "relative_path": "api/HomeSeer.PluginSdk.Devices.HsFeature.html",
-          "hash": "hStWMPx/UmcM6564ibIPog=="
+          "hash": "NZ2OEbPpy8+nMxzVQK6OyQ=="
         }
       },
       "is_incremental": false,
@@ -786,7 +786,7 @@
       "output": {
         ".html": {
           "relative_path": "api/HomeSeer.PluginSdk.Devices.Identification.DeviceRelationshipException.html",
-          "hash": "vkXYZBfr3oYYie1I79mUEg=="
+          "hash": "qK5/ey6r2DwWGpwwMAqpJw=="
         }
       },
       "is_incremental": false,
@@ -1086,7 +1086,7 @@
       "output": {
         ".html": {
           "relative_path": "api/HomeSeer.PluginSdk.Events.AbstractActionType.html",
-          "hash": "OW8Woja8LV/xhijl0izI0w=="
+          "hash": "oLMSKX2VzcjS4ZkP9ZEAgw=="
         }
       },
       "is_incremental": false,
@@ -1098,7 +1098,7 @@
       "output": {
         ".html": {
           "relative_path": "api/HomeSeer.PluginSdk.Events.AbstractTriggerType.html",
-          "hash": "d0WzX/fPyZdD0fLp0R2DYw=="
+          "hash": "/kmP91UL356UD8rJqnppzQ=="
         }
       },
       "is_incremental": false,
@@ -1122,7 +1122,7 @@
       "output": {
         ".html": {
           "relative_path": "api/HomeSeer.PluginSdk.Events.ActionTypeCollection.html",
-          "hash": "j2aMZAO5VndmKn+Uk7gmOw=="
+          "hash": "tHskbNSWzzLvdjVlnZj4Ig=="
         }
       },
       "is_incremental": false,
@@ -1158,7 +1158,7 @@
       "output": {
         ".html": {
           "relative_path": "api/HomeSeer.PluginSdk.Events.EventData.html",
-          "hash": "RWfsuyR2EQJtrdFmYqijqg=="
+          "hash": "LmjmQNc5PTpZiJwey3Qk1g=="
         }
       },
       "is_incremental": false,
@@ -1170,7 +1170,7 @@
       "output": {
         ".html": {
           "relative_path": "api/HomeSeer.PluginSdk.Events.EventGroupData.html",
-          "hash": "aJQV52QpMfDo5ofzsot29w=="
+          "hash": "Xn6aIY8vGqrZv0knCHiszg=="
         }
       },
       "is_incremental": false,
@@ -1182,7 +1182,7 @@
       "output": {
         ".html": {
           "relative_path": "api/HomeSeer.PluginSdk.Events.EventTriggerGroupData.html",
-          "hash": "/DOp7C5phFtB+ouJPTxOqQ=="
+          "hash": "vyITU4hDLf5yOnP8eU9xEQ=="
         }
       },
       "is_incremental": false,
@@ -1194,7 +1194,7 @@
       "output": {
         ".html": {
           "relative_path": "api/HomeSeer.PluginSdk.Events.TrigActInfo.html",
-          "hash": "iUxksyia+YBbsgNdz3j60w=="
+          "hash": "zBBc5mZQpWy82vdUi3C9Rw=="
         }
       },
       "is_incremental": false,
@@ -1218,7 +1218,7 @@
       "output": {
         ".html": {
           "relative_path": "api/HomeSeer.PluginSdk.Events.TriggerTypeCollection.html",
-          "hash": "9K91kEF1gX3g1sya+cBVjQ=="
+          "hash": "J0Q9Xev4C3UEoZ/hxzDKPw=="
         }
       },
       "is_incremental": false,
@@ -1242,7 +1242,7 @@
       "output": {
         ".html": {
           "relative_path": "api/HomeSeer.PluginSdk.Features.AbstractFeaturePage.html",
-          "hash": "8f956PPRIXvdclbPBRWJsA=="
+          "hash": "z9sYq+fXevk9wolygDfAHg=="
         }
       },
       "is_incremental": false,
@@ -1254,7 +1254,7 @@
       "output": {
         ".html": {
           "relative_path": "api/HomeSeer.PluginSdk.Features.GenericJsonData.html",
-          "hash": "pwowQbR3H7IvzaJCQ/N38A=="
+          "hash": "qBhaniEnEsu/2f+7rjZcjQ=="
         }
       },
       "is_incremental": false,
@@ -1278,7 +1278,7 @@
       "output": {
         ".html": {
           "relative_path": "api/HomeSeer.PluginSdk.Features.JsonRequest.html",
-          "hash": "ZzwNE5tfHsYljfOAuDXTLQ=="
+          "hash": "8KgDaNsvIAVkeWpYZpZczg=="
         }
       },
       "is_incremental": false,
@@ -1290,7 +1290,7 @@
       "output": {
         ".html": {
           "relative_path": "api/HomeSeer.PluginSdk.Features.Responses.JsonError.html",
-          "hash": "PgxM+4zzGTS73VKzeLKt+g=="
+          "hash": "+Z+X324Ycdcuznz4NU45dg=="
         }
       },
       "is_incremental": false,
@@ -1302,7 +1302,7 @@
       "output": {
         ".html": {
           "relative_path": "api/HomeSeer.PluginSdk.Features.Responses.JsonResponse.html",
-          "hash": "kizPSRnKS9CFQBfM1ixrrg=="
+          "hash": "AzoOQxZQNUIFTkuoAot1tA=="
         }
       },
       "is_incremental": false,
@@ -1314,7 +1314,7 @@
       "output": {
         ".html": {
           "relative_path": "api/HomeSeer.PluginSdk.Features.Responses.PageActions.CallbackPageAction.html",
-          "hash": "26qdX6qoQML7Y7KUix60Kw=="
+          "hash": "5fiU69tn259GiEodOITGkQ=="
         }
       },
       "is_incremental": false,
@@ -1338,7 +1338,7 @@
       "output": {
         ".html": {
           "relative_path": "api/HomeSeer.PluginSdk.Features.Responses.PageActions.FeaturePageAction.html",
-          "hash": "9K7/90+/TZLLpCaoXAJXDg=="
+          "hash": "2Ws3aq1+nL8/QBSgIgvkgA=="
         }
       },
       "is_incremental": false,
@@ -1350,7 +1350,7 @@
       "output": {
         ".html": {
           "relative_path": "api/HomeSeer.PluginSdk.Features.Responses.PageActions.HidePageAction.html",
-          "hash": "e5dL4o13y33YH6X2ageMmw=="
+          "hash": "V/ioRH0uFJHzzprkBpcofA=="
         }
       },
       "is_incremental": false,
@@ -1362,7 +1362,7 @@
       "output": {
         ".html": {
           "relative_path": "api/HomeSeer.PluginSdk.Features.Responses.PageActions.NextStepPageAction.html",
-          "hash": "BpVZFAb8yvmlthYFOsm8Hg=="
+          "hash": "RYaON4Iz1KCN8FCqfcEL8w=="
         }
       },
       "is_incremental": false,
@@ -1386,7 +1386,7 @@
       "output": {
         ".html": {
           "relative_path": "api/HomeSeer.PluginSdk.Features.Responses.PageActions.PageActionResponse.html",
-          "hash": "EPIIAI5L6rAg81A85/tZtA=="
+          "hash": "DPnop9nz+NuMi61FGUr38g=="
         }
       },
       "is_incremental": false,
@@ -1398,7 +1398,7 @@
       "output": {
         ".html": {
           "relative_path": "api/HomeSeer.PluginSdk.Features.Responses.PageActions.PreviousStepPageAction.html",
-          "hash": "qlHX4TLcF8RfSGZs801sOw=="
+          "hash": "EqVd1TDxC0C2/nByLrpxCQ=="
         }
       },
       "is_incremental": false,
@@ -1410,7 +1410,7 @@
       "output": {
         ".html": {
           "relative_path": "api/HomeSeer.PluginSdk.Features.Responses.PageActions.SetHtmlPageAction.html",
-          "hash": "sG3BxV5+XxNpPVkTleGQmA=="
+          "hash": "BWtf3rfWyV2lmWqRxDCFFg=="
         }
       },
       "is_incremental": false,
@@ -1422,7 +1422,7 @@
       "output": {
         ".html": {
           "relative_path": "api/HomeSeer.PluginSdk.Features.Responses.PageActions.SetStepPageAction.html",
-          "hash": "wcJPX/hnPwL9+nh52qwitw=="
+          "hash": "3OyWPI17rz4cqu326EkZAw=="
         }
       },
       "is_incremental": false,
@@ -1434,7 +1434,7 @@
       "output": {
         ".html": {
           "relative_path": "api/HomeSeer.PluginSdk.Features.Responses.PageActions.SetTextPageAction.html",
-          "hash": "89mOvqJYCB6DHekxzQyrTQ=="
+          "hash": "j68mN9icbbp2NlZgvl7lQQ=="
         }
       },
       "is_incremental": false,
@@ -1446,7 +1446,7 @@
       "output": {
         ".html": {
           "relative_path": "api/HomeSeer.PluginSdk.Features.Responses.PageActions.SetValuePageAction.html",
-          "hash": "SYufzMSkDsXG7MOMmbhIQQ=="
+          "hash": "DpiAGdkDRE5bf8HvJ1efTA=="
         }
       },
       "is_incremental": false,
@@ -1458,7 +1458,7 @@
       "output": {
         ".html": {
           "relative_path": "api/HomeSeer.PluginSdk.Features.Responses.PageActions.ShowPageAction.html",
-          "hash": "P8738j92TbPy0X0g+7zxSw=="
+          "hash": "AIIRNDba8GDBj0jS483rBg=="
         }
       },
       "is_incremental": false,
@@ -1506,7 +1506,7 @@
       "output": {
         ".html": {
           "relative_path": "api/HomeSeer.PluginSdk.IHsController.html",
-          "hash": "fQvNs3ZwDGZRw+khT1TV5g=="
+          "hash": "qf4qNcW708J3MMHU6gLnkQ=="
         }
       },
       "is_incremental": false,
@@ -1578,7 +1578,7 @@
       "output": {
         ".html": {
           "relative_path": "api/HomeSeer.PluginSdk.Speech.AbstractSpeakerClient.html",
-          "hash": "lQzI53Axhxwx9v43KbgW6w=="
+          "hash": "Q07QxfvNEHBZDmBXQAugqg=="
         }
       },
       "is_incremental": false,
@@ -1905,6 +1905,9 @@
       "version": ""
     },
     {
+      "log_codes": [
+        "UidNotFound"
+      ],
       "type": "Conceptual",
       "source_relative_path": "release_notes/pluginsdk_releasenotes_1_1_0_0.md",
       "output": {
@@ -1941,12 +1944,27 @@
       "version": ""
     },
     {
+      "log_codes": [
+        "UidNotFound"
+      ],
+      "type": "Conceptual",
+      "source_relative_path": "release_notes/pluginsdk_releasenotes_1_2_2_0.md",
+      "output": {
+        ".html": {
+          "relative_path": "release_notes/pluginsdk_releasenotes_1_2_2_0.html",
+          "hash": "ypqKd+VHPQBKzWEpkkH65Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
       "type": "Toc",
       "source_relative_path": "release_notes/toc.yml",
       "output": {
         ".html": {
           "relative_path": "release_notes/toc.html",
-          "hash": "tTPQtY1bsKVwVkj712ScxQ=="
+          "hash": "kr0BmRQQuYIEKuWnwDS6Cg=="
         }
       },
       "is_incremental": false,
@@ -1981,24 +1999,24 @@
           "total_file_count": 0,
           "skipped_file_count": 0
         },
-        "ConceptualDocumentProcessor": {
-          "can_incremental": true,
-          "incrementalPhase": "build",
-          "total_file_count": 11,
-          "skipped_file_count": 11
-        },
-        "ManagedReferenceDocumentProcessor": {
-          "can_incremental": true,
-          "incrementalPhase": "build",
-          "total_file_count": 149,
-          "skipped_file_count": 149
-        },
         "TocDocumentProcessor": {
           "can_incremental": false,
           "details": "Processor TocDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
           "incrementalPhase": "build",
           "total_file_count": 0,
           "skipped_file_count": 0
+        },
+        "ManagedReferenceDocumentProcessor": {
+          "can_incremental": true,
+          "incrementalPhase": "build",
+          "total_file_count": 149,
+          "skipped_file_count": 116
+        },
+        "ConceptualDocumentProcessor": {
+          "can_incremental": true,
+          "incrementalPhase": "build",
+          "total_file_count": 12,
+          "skipped_file_count": 12
         }
       }
     },

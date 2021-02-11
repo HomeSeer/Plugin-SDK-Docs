@@ -102,6 +102,7 @@
       <section id="tabpanel_syntax_vb" role="tabpanel" data-tab="vb" aria-hidden="true" hidden="">
           <div class="codewrapper">
             <pre><code class="lang-System.Object[] hljs">Public NotInheritable Class InputView
+
     Inherits AbstractView</code></pre>
           </div>
       </section>
@@ -181,14 +182,12 @@
       </ul>
       <section id="tabpanel_syntax_cs" role="tabpanel" data-tab="cs">
           <div class="codewrapper">
-            <pre><code class="lang-csharp hljs">[JsonConstructor]
-public InputView(string id, string name, EInputType type = EInputType.Text)</code></pre>
+            <pre><code class="lang-csharp hljs">public InputView(string id, string name, EInputType type = EInputType.Text)</code></pre>
           </div>
       </section>
       <section id="tabpanel_syntax_vb" role="tabpanel" data-tab="vb" aria-hidden="true" hidden="">
           <div class="codewrapper">
-            <pre><code class="lang-vb hljs">&lt;JsonConstructor&gt;
-Public Sub New(id As String, name As String, type As EInputType = EInputType.Text)</code></pre>
+            <pre><code class="lang-vb hljs">Public Sub New(id As String, name As String, type As EInputType = EInputType.Text)</code></pre>
           </div>
       </section>
   </div>
@@ -328,14 +327,12 @@ This determines the keyboard the user is shown when on a mobile device.</p>
       </ul>
       <section id="tabpanel_syntax_cs" role="tabpanel" data-tab="cs">
           <div class="codewrapper">
-            <pre><code class="lang-csharp hljs">[JsonProperty(&quot;input_type&quot;)]
-public EInputType InputType { get; set; }</code></pre>
+            <pre><code class="lang-csharp hljs">public EInputType InputType { get; set; }</code></pre>
           </div>
       </section>
       <section id="tabpanel_syntax_vb" role="tabpanel" data-tab="vb" aria-hidden="true" hidden="">
           <div class="codewrapper">
-            <pre><code class="lang-vb hljs">&lt;JsonProperty(&quot;input_type&quot;)&gt;
-Public Property InputType As EInputType</code></pre>
+            <pre><code class="lang-vb hljs">Public Property InputType As EInputType</code></pre>
           </div>
       </section>
   </div>
@@ -375,14 +372,12 @@ Public Property InputType As EInputType</code></pre>
       </ul>
       <section id="tabpanel_syntax_cs" role="tabpanel" data-tab="cs">
           <div class="codewrapper">
-            <pre><code class="lang-csharp hljs">[JsonProperty(&quot;value&quot;)]
-public string Value { get; set; }</code></pre>
+            <pre><code class="lang-csharp hljs">public string Value { get; set; }</code></pre>
           </div>
       </section>
       <section id="tabpanel_syntax_vb" role="tabpanel" data-tab="vb" aria-hidden="true" hidden="">
           <div class="codewrapper">
-            <pre><code class="lang-vb hljs">&lt;JsonProperty(&quot;value&quot;)&gt;
-Public Property Value As String</code></pre>
+            <pre><code class="lang-vb hljs">Public Property Value As String</code></pre>
           </div>
       </section>
   </div>
@@ -409,8 +404,7 @@ Public Property Value As String</code></pre>
   </span>
   <a id="HomeSeer_Jui_Views_InputView_GetStringValue_" data-uid="HomeSeer.Jui.Views.InputView.GetStringValue*"></a>
   <h4 id="HomeSeer_Jui_Views_InputView_GetStringValue" data-uid="HomeSeer.Jui.Views.InputView.GetStringValue">GetStringValue()</h4>
-  <div class="markdown level1 summary"><p>Get the value associated with this view as a string if there is one.</p>
-</div>
+  <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="tabGroup" id="tabgroup_syntax">
@@ -444,8 +438,7 @@ Public Property Value As String</code></pre>
     <tbody>
       <tr>
         <td><span class="xref">System.String</span></td>
-        <td><p>The value stored in this view as a string or NULL if there is no value stored.</p>
-</td>
+        <td></td>
       </tr>
     </tbody>
   </table>
@@ -524,8 +517,7 @@ Public Property Value As String</code></pre>
   </span>
   <a id="HomeSeer_Jui_Views_InputView_ToHtml_" data-uid="HomeSeer.Jui.Views.InputView.ToHtml*"></a>
   <h4 id="HomeSeer_Jui_Views_InputView_ToHtml_System_Int32_" data-uid="HomeSeer.Jui.Views.InputView.ToHtml(System.Int32)">ToHtml(Int32)</h4>
-  <div class="markdown level1 summary"><p>Get a string representation of this view converted into HTML</p>
-</div>
+  <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="tabGroup" id="tabgroup_syntax">
@@ -576,8 +568,7 @@ Public Property Value As String</code></pre>
     <tbody>
       <tr>
         <td><span class="xref">System.String</span></td>
-        <td><p>An HTML representation of the view as a string</p>
-</td>
+        <td></td>
       </tr>
     </tbody>
   </table>
@@ -626,9 +617,7 @@ Public Property Value As String</code></pre>
       <tr>
         <td><a class="xref" href="HomeSeer.Jui.Views.AbstractView.html">AbstractView</a></td>
         <td><span class="parametername">newViewState</span></td>
-        <td><p>The new state of the view being updated.
-This view's ID and Type must match the calling view exactly</p>
-</td>
+        <td></td>
       </tr>
     </tbody>
   </table>
@@ -661,8 +650,7 @@ This view's ID and Type must match the calling view exactly</p>
   </span>
   <a id="HomeSeer_Jui_Views_InputView_UpdateValue_" data-uid="HomeSeer.Jui.Views.InputView.UpdateValue*"></a>
   <h4 id="HomeSeer_Jui_Views_InputView_UpdateValue_System_String_" data-uid="HomeSeer.Jui.Views.InputView.UpdateValue(System.String)">UpdateValue(String)</h4>
-  <div class="markdown level1 summary"><p>Update the value of the view</p>
-</div>
+  <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="tabGroup" id="tabgroup_syntax">
@@ -698,8 +686,7 @@ This view's ID and Type must match the calling view exactly</p>
       <tr>
         <td><span class="xref">System.String</span></td>
         <td><span class="parametername">value</span></td>
-        <td><p>The new value</p>
-</td>
+        <td></td>
       </tr>
     </tbody>
   </table>

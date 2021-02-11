@@ -102,6 +102,7 @@
       <section id="tabpanel_syntax_vb" role="tabpanel" data-tab="vb" aria-hidden="true" hidden="">
           <div class="codewrapper">
             <pre><code class="lang-System.Object[] hljs">Public NotInheritable Class SelectListView
+
     Inherits AbstractView</code></pre>
           </div>
       </section>
@@ -181,14 +182,12 @@
       </ul>
       <section id="tabpanel_syntax_cs" role="tabpanel" data-tab="cs">
           <div class="codewrapper">
-            <pre><code class="lang-csharp hljs">[JsonConstructor]
-public SelectListView(string id, string name, List&lt;string&gt; options, ESelectListType style = ESelectListType.DropDown, int selection = -1)</code></pre>
+            <pre><code class="lang-csharp hljs">public SelectListView(string id, string name, List&lt;string&gt; options, ESelectListType style = ESelectListType.DropDown, int selection = -1)</code></pre>
           </div>
       </section>
       <section id="tabpanel_syntax_vb" role="tabpanel" data-tab="vb" aria-hidden="true" hidden="">
           <div class="codewrapper">
-            <pre><code class="lang-vb hljs">&lt;JsonConstructor&gt;
-Public Sub New(id As String, name As String, options As List(Of String), style As ESelectListType = ESelectListType.DropDown, selection As Integer = -1)</code></pre>
+            <pre><code class="lang-vb hljs">Public Sub New(id As String, name As String, options As List(Of String), style As ESelectListType = ESelectListType.DropDown, selection As Integer = -1)</code></pre>
           </div>
       </section>
   </div>
@@ -380,14 +379,12 @@ For internal use by a plugin.  This is not displayed or used in any fashion othe
       </ul>
       <section id="tabpanel_syntax_cs" role="tabpanel" data-tab="cs">
           <div class="codewrapper">
-            <pre><code class="lang-csharp hljs">[JsonProperty(&quot;keys&quot;)]
-public List&lt;string&gt; OptionKeys { get; }</code></pre>
+            <pre><code class="lang-csharp hljs">public List&lt;string&gt; OptionKeys { get; }</code></pre>
           </div>
       </section>
       <section id="tabpanel_syntax_vb" role="tabpanel" data-tab="vb" aria-hidden="true" hidden="">
           <div class="codewrapper">
-            <pre><code class="lang-vb hljs">&lt;JsonProperty(&quot;keys&quot;)&gt;
-Public ReadOnly Property OptionKeys As List(Of String)</code></pre>
+            <pre><code class="lang-vb hljs">Public ReadOnly Property OptionKeys As List(Of String)</code></pre>
           </div>
       </section>
   </div>
@@ -427,14 +424,12 @@ Public ReadOnly Property OptionKeys As List(Of String)</code></pre>
       </ul>
       <section id="tabpanel_syntax_cs" role="tabpanel" data-tab="cs">
           <div class="codewrapper">
-            <pre><code class="lang-csharp hljs">[JsonProperty(&quot;options&quot;)]
-public List&lt;string&gt; Options { get; }</code></pre>
+            <pre><code class="lang-csharp hljs">public List&lt;string&gt; Options { get; }</code></pre>
           </div>
       </section>
       <section id="tabpanel_syntax_vb" role="tabpanel" data-tab="vb" aria-hidden="true" hidden="">
           <div class="codewrapper">
-            <pre><code class="lang-vb hljs">&lt;JsonProperty(&quot;options&quot;)&gt;
-Public ReadOnly Property Options As List(Of String)</code></pre>
+            <pre><code class="lang-vb hljs">Public ReadOnly Property Options As List(Of String)</code></pre>
           </div>
       </section>
   </div>
@@ -474,14 +469,12 @@ Public ReadOnly Property Options As List(Of String)</code></pre>
       </ul>
       <section id="tabpanel_syntax_cs" role="tabpanel" data-tab="cs">
           <div class="codewrapper">
-            <pre><code class="lang-csharp hljs">[JsonProperty(&quot;selection&quot;)]
-public int Selection { get; set; }</code></pre>
+            <pre><code class="lang-csharp hljs">public int Selection { get; set; }</code></pre>
           </div>
       </section>
       <section id="tabpanel_syntax_vb" role="tabpanel" data-tab="vb" aria-hidden="true" hidden="">
           <div class="codewrapper">
-            <pre><code class="lang-vb hljs">&lt;JsonProperty(&quot;selection&quot;)&gt;
-Public Property Selection As Integer</code></pre>
+            <pre><code class="lang-vb hljs">Public Property Selection As Integer</code></pre>
           </div>
       </section>
   </div>
@@ -524,14 +517,12 @@ Public Property Selection As Integer</code></pre>
       </ul>
       <section id="tabpanel_syntax_cs" role="tabpanel" data-tab="cs">
           <div class="codewrapper">
-            <pre><code class="lang-csharp hljs">[JsonProperty(&quot;style&quot;)]
-public ESelectListType Style { get; set; }</code></pre>
+            <pre><code class="lang-csharp hljs">public ESelectListType Style { get; set; }</code></pre>
           </div>
       </section>
       <section id="tabpanel_syntax_vb" role="tabpanel" data-tab="vb" aria-hidden="true" hidden="">
           <div class="codewrapper">
-            <pre><code class="lang-vb hljs">&lt;JsonProperty(&quot;style&quot;)&gt;
-Public Property Style As ESelectListType</code></pre>
+            <pre><code class="lang-vb hljs">Public Property Style As ESelectListType</code></pre>
           </div>
       </section>
   </div>
@@ -650,8 +641,7 @@ Public Property Style As ESelectListType</code></pre>
   </span>
   <a id="HomeSeer_Jui_Views_SelectListView_GetStringValue_" data-uid="HomeSeer.Jui.Views.SelectListView.GetStringValue*"></a>
   <h4 id="HomeSeer_Jui_Views_SelectListView_GetStringValue" data-uid="HomeSeer.Jui.Views.SelectListView.GetStringValue">GetStringValue()</h4>
-  <div class="markdown level1 summary"><p>Get the value associated with this view as a string if there is one.</p>
-</div>
+  <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="tabGroup" id="tabgroup_syntax">
@@ -685,8 +675,7 @@ Public Property Style As ESelectListType</code></pre>
     <tbody>
       <tr>
         <td><span class="xref">System.String</span></td>
-        <td><p>The value stored in this view as a string or NULL if there is no value stored.</p>
-</td>
+        <td></td>
       </tr>
     </tbody>
   </table>
@@ -701,8 +690,7 @@ Public Property Style As ESelectListType</code></pre>
   </span>
   <a id="HomeSeer_Jui_Views_SelectListView_ToHtml_" data-uid="HomeSeer.Jui.Views.SelectListView.ToHtml*"></a>
   <h4 id="HomeSeer_Jui_Views_SelectListView_ToHtml_System_Int32_" data-uid="HomeSeer.Jui.Views.SelectListView.ToHtml(System.Int32)">ToHtml(Int32)</h4>
-  <div class="markdown level1 summary"><p>Get a string representation of this view converted into HTML</p>
-</div>
+  <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="tabGroup" id="tabgroup_syntax">
@@ -753,8 +741,7 @@ Public Property Style As ESelectListType</code></pre>
     <tbody>
       <tr>
         <td><span class="xref">System.String</span></td>
-        <td><p>An HTML representation of the view as a string</p>
-</td>
+        <td></td>
       </tr>
     </tbody>
   </table>
@@ -803,9 +790,7 @@ Public Property Style As ESelectListType</code></pre>
       <tr>
         <td><a class="xref" href="HomeSeer.Jui.Views.AbstractView.html">AbstractView</a></td>
         <td><span class="parametername">newViewState</span></td>
-        <td><p>The new state of the view being updated.
-This view's ID and Type must match the calling view exactly</p>
-</td>
+        <td></td>
       </tr>
     </tbody>
   </table>
@@ -833,8 +818,7 @@ This view's ID and Type must match the calling view exactly</p>
   </span>
   <a id="HomeSeer_Jui_Views_SelectListView_UpdateValue_" data-uid="HomeSeer.Jui.Views.SelectListView.UpdateValue*"></a>
   <h4 id="HomeSeer_Jui_Views_SelectListView_UpdateValue_System_String_" data-uid="HomeSeer.Jui.Views.SelectListView.UpdateValue(System.String)">UpdateValue(String)</h4>
-  <div class="markdown level1 summary"><p>Update the value of the view</p>
-</div>
+  <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="tabGroup" id="tabgroup_syntax">
@@ -870,8 +854,7 @@ This view's ID and Type must match the calling view exactly</p>
       <tr>
         <td><span class="xref">System.String</span></td>
         <td><span class="parametername">value</span></td>
-        <td><p>The new value</p>
-</td>
+        <td></td>
       </tr>
     </tbody>
   </table>

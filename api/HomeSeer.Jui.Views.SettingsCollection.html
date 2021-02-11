@@ -102,6 +102,7 @@
       <section id="tabpanel_syntax_vb" role="tabpanel" data-tab="vb" aria-hidden="true" hidden="">
           <div class="codewrapper">
             <pre><code class="lang-System.Object[] hljs">Public Class SettingsCollection
+
     Implements IEnumerable(Of Page), IEnumerable</code></pre>
           </div>
       </section>
@@ -207,14 +208,12 @@ the AbstractPlugin class and automatically initialized to an empty collection.</
       </ul>
       <section id="tabpanel_syntax_cs" role="tabpanel" data-tab="cs">
           <div class="codewrapper">
-            <pre><code class="lang-csharp hljs">[JsonConstructor]
-public SettingsCollection(List&lt;Page&gt; pages)</code></pre>
+            <pre><code class="lang-csharp hljs">public SettingsCollection(List&lt;Page&gt; pages)</code></pre>
           </div>
       </section>
       <section id="tabpanel_syntax_vb" role="tabpanel" data-tab="vb" aria-hidden="true" hidden="">
           <div class="codewrapper">
-            <pre><code class="lang-vb hljs">&lt;JsonConstructor&gt;
-Public Sub New(pages As List(Of Page))</code></pre>
+            <pre><code class="lang-vb hljs">Public Sub New(pages As List(Of Page))</code></pre>
           </div>
       </section>
   </div>
@@ -263,14 +262,12 @@ Public Sub New(pages As List(Of Page))</code></pre>
       </ul>
       <section id="tabpanel_syntax_cs" role="tabpanel" data-tab="cs">
           <div class="codewrapper">
-            <pre><code class="lang-csharp hljs">[JsonIgnore]
-public List&lt;Page&gt; AllPages { get; }</code></pre>
+            <pre><code class="lang-csharp hljs">public List&lt;Page&gt; AllPages { get; }</code></pre>
           </div>
       </section>
       <section id="tabpanel_syntax_vb" role="tabpanel" data-tab="vb" aria-hidden="true" hidden="">
           <div class="codewrapper">
-            <pre><code class="lang-vb hljs">&lt;JsonIgnore&gt;
-Public ReadOnly Property AllPages As List(Of Page)</code></pre>
+            <pre><code class="lang-vb hljs">Public ReadOnly Property AllPages As List(Of Page)</code></pre>
           </div>
       </section>
   </div>
@@ -310,14 +307,12 @@ Public ReadOnly Property AllPages As List(Of Page)</code></pre>
       </ul>
       <section id="tabpanel_syntax_cs" role="tabpanel" data-tab="cs">
           <div class="codewrapper">
-            <pre><code class="lang-csharp hljs">[JsonIgnore]
-public int Count { get; }</code></pre>
+            <pre><code class="lang-csharp hljs">public int Count { get; }</code></pre>
           </div>
       </section>
       <section id="tabpanel_syntax_vb" role="tabpanel" data-tab="vb" aria-hidden="true" hidden="">
           <div class="codewrapper">
-            <pre><code class="lang-vb hljs">&lt;JsonIgnore&gt;
-Public ReadOnly Property Count As Integer</code></pre>
+            <pre><code class="lang-vb hljs">Public ReadOnly Property Count As Integer</code></pre>
           </div>
       </section>
   </div>
@@ -424,14 +419,12 @@ Public ReadOnly Property Count As Integer</code></pre>
       </ul>
       <section id="tabpanel_syntax_cs" role="tabpanel" data-tab="cs">
           <div class="codewrapper">
-            <pre><code class="lang-csharp hljs">[JsonProperty(&quot;pages&quot;)]
-public List&lt;Page&gt; Pages { get; set; }</code></pre>
+            <pre><code class="lang-csharp hljs">public List&lt;Page&gt; Pages { get; set; }</code></pre>
           </div>
       </section>
       <section id="tabpanel_syntax_vb" role="tabpanel" data-tab="vb" aria-hidden="true" hidden="">
           <div class="codewrapper">
-            <pre><code class="lang-vb hljs">&lt;JsonProperty(&quot;pages&quot;)&gt;
-Public Property Pages As List(Of Page)</code></pre>
+            <pre><code class="lang-vb hljs">Public Property Pages As List(Of Page)</code></pre>
           </div>
       </section>
   </div>
@@ -475,14 +468,12 @@ Public Property Pages As List(Of Page)</code></pre>
       </ul>
       <section id="tabpanel_syntax_cs" role="tabpanel" data-tab="cs">
           <div class="codewrapper">
-            <pre><code class="lang-csharp hljs">[JsonProperty(&quot;selected_page&quot;)]
-public int SelectedPageIndex { get; set; }</code></pre>
+            <pre><code class="lang-csharp hljs">public int SelectedPageIndex { get; set; }</code></pre>
           </div>
       </section>
       <section id="tabpanel_syntax_vb" role="tabpanel" data-tab="vb" aria-hidden="true" hidden="">
           <div class="codewrapper">
-            <pre><code class="lang-vb hljs">&lt;JsonProperty(&quot;selected_page&quot;)&gt;
-Public Property SelectedPageIndex As Integer</code></pre>
+            <pre><code class="lang-vb hljs">Public Property SelectedPageIndex As Integer</code></pre>
           </div>
       </section>
   </div>

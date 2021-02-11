@@ -97,14 +97,12 @@
       <section id="tabpanel_syntax_cs" role="tabpanel" data-tab="cs">
           <div class="codewrapper">
             <pre><code class="lang-System.Object[] hljs">[Obfuscation(Exclude = true, ApplyToMembers = true)]
-[ScsService]
 public interface IHsController</code></pre>
           </div>
       </section>
       <section id="tabpanel_syntax_vb" role="tabpanel" data-tab="vb" aria-hidden="true" hidden="">
           <div class="codewrapper">
             <pre><code class="lang-System.Object[] hljs">&lt;Obfuscation(Exclude:=True, ApplyToMembers:=True)&gt;
-&lt;ScsService&gt;
 Public Interface IHsController</code></pre>
           </div>
       </section>
@@ -540,7 +538,7 @@ Please use with caution.</p>
 </div>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/IHsController.cs/#L1660">View Source</a>
+    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/IHsController.cs/#L1698">View Source</a>
   </span>
   <a id="HomeSeer_PluginSdk_IHsController_AddRefsToCategory_" data-uid="HomeSeer.PluginSdk.IHsController.AddRefsToCategory*"></a>
   <h4 id="HomeSeer_PluginSdk_IHsController_AddRefsToCategory_System_String_System_Collections_Generic_List_System_Int32__" data-uid="HomeSeer.PluginSdk.IHsController.AddRefsToCategory(System.String,System.Collections.Generic.List{System.Int32})">AddRefsToCategory(String, List&lt;Int32&gt;)</h4>
@@ -626,7 +624,7 @@ Please use with caution.</p>
   </table>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/IHsController.cs/#L1651">View Source</a>
+    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/IHsController.cs/#L1689">View Source</a>
   </span>
   <a id="HomeSeer_PluginSdk_IHsController_AddRefToCategory_" data-uid="HomeSeer.PluginSdk.IHsController.AddRefToCategory*"></a>
   <h4 id="HomeSeer_PluginSdk_IHsController_AddRefToCategory_System_String_System_Int32_" data-uid="HomeSeer.PluginSdk.IHsController.AddRefToCategory(System.String,System.Int32)">AddRefToCategory(String, Int32)</h4>
@@ -1024,7 +1022,7 @@ Please use with caution.</p>
   </table>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/IHsController.cs/#L1588">View Source</a>
+    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/IHsController.cs/#L1626">View Source</a>
   </span>
   <a id="HomeSeer_PluginSdk_IHsController_CreateCategory_" data-uid="HomeSeer.PluginSdk.IHsController.CreateCategory*"></a>
   <h4 id="HomeSeer_PluginSdk_IHsController_CreateCategory_System_String_System_String_" data-uid="HomeSeer.PluginSdk.IHsController.CreateCategory(System.String,System.String)">CreateCategory(String, String)</h4>
@@ -1313,6 +1311,147 @@ Please use with caution.</p>
   </table>
   
   <span class="small pull-right mobile-hide">
+    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/IHsController.cs/#L1733">View Source</a>
+  </span>
+  <a id="HomeSeer_PluginSdk_IHsController_CreateVar_" data-uid="HomeSeer.PluginSdk.IHsController.CreateVar*"></a>
+  <h4 id="HomeSeer_PluginSdk_IHsController_CreateVar_System_String_" data-uid="HomeSeer.PluginSdk.IHsController.CreateVar(System.String)">CreateVar(String)</h4>
+  <div class="markdown level1 summary"><p>Create a new global variable</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="tabGroup" id="tabgroup_syntax">
+      <ul role="tablist">
+          <li role="presentation">
+              <a href="#tabpanel_syntax_cs" tabindex="0" role="tab" aria-controls="tabpanel_syntax_cs" data-tab="cs" aria-selected="true">C#</a>
+          </li>
+          <li role="presentation">
+              <a href="#tabpanel_syntax_vb" tabindex="-1" role="tab" aria-controls="tabpanel_syntax_vb" data-tab="vb">Visual Basic</a>
+          </li>
+      </ul>
+      <section id="tabpanel_syntax_cs" role="tabpanel" data-tab="cs">
+          <div class="codewrapper">
+            <pre><code class="lang-csharp hljs">string CreateVar(string name)</code></pre>
+          </div>
+      </section>
+      <section id="tabpanel_syntax_vb" role="tabpanel" data-tab="vb" aria-hidden="true" hidden="">
+          <div class="codewrapper">
+            <pre><code class="lang-vb hljs">Function CreateVar(name As String) As String</code></pre>
+          </div>
+      </section>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">name</span></td>
+        <td><p>The name of the global variable</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><p>An empty string no error occured, or an error string if one did occur.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/IHsController.cs/#L1768">View Source</a>
+  </span>
+  <a id="HomeSeer_PluginSdk_IHsController_DecryptString_" data-uid="HomeSeer.PluginSdk.IHsController.DecryptString*"></a>
+  <h4 id="HomeSeer_PluginSdk_IHsController_DecryptString_System_String_System_String_System_String_" data-uid="HomeSeer.PluginSdk.IHsController.DecryptString(System.String,System.String,System.String)">DecryptString(String, String, String)</h4>
+  <div class="markdown level1 summary"><p>Decrypt a string using a decryption password that you specify.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="tabGroup" id="tabgroup_syntax">
+      <ul role="tablist">
+          <li role="presentation">
+              <a href="#tabpanel_syntax_cs" tabindex="0" role="tab" aria-controls="tabpanel_syntax_cs" data-tab="cs" aria-selected="true">C#</a>
+          </li>
+          <li role="presentation">
+              <a href="#tabpanel_syntax_vb" tabindex="-1" role="tab" aria-controls="tabpanel_syntax_vb" data-tab="vb">Visual Basic</a>
+          </li>
+      </ul>
+      <section id="tabpanel_syntax_cs" role="tabpanel" data-tab="cs">
+          <div class="codewrapper">
+            <pre><code class="lang-csharp hljs">string DecryptString(string text, string password, string keyModifier = &quot;&quot;)</code></pre>
+          </div>
+      </section>
+      <section id="tabpanel_syntax_vb" role="tabpanel" data-tab="vb" aria-hidden="true" hidden="">
+          <div class="codewrapper">
+            <pre><code class="lang-vb hljs">Function DecryptString(text As String, password As String, keyModifier As String = &quot;&quot;) As String</code></pre>
+          </div>
+      </section>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">text</span></td>
+        <td><p>The text to decrypt</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">password</span></td>
+        <td><p>The user-created text string to decrypt the text with</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">keyModifier</span></td>
+        <td><p>The modifier used with the password to create the decryption key.
+If EncryptString was used with a key modifier was, you must specify the same key modifier here.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><p>A string containing a decrypted form of the text parameter, decrypted using password (and keyModifier if provided)</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <span class="small pull-right mobile-hide">
     <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/IHsController.cs/#L838">View Source</a>
   </span>
   <a id="HomeSeer_PluginSdk_IHsController_DeleteAfterTrigger_Clear_" data-uid="HomeSeer.PluginSdk.IHsController.DeleteAfterTrigger_Clear*"></a>
@@ -1415,7 +1554,7 @@ Please use with caution.</p>
 </div>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/IHsController.cs/#L1684">View Source</a>
+    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/IHsController.cs/#L1722">View Source</a>
   </span>
   <a id="HomeSeer_PluginSdk_IHsController_DeleteCategoryById_" data-uid="HomeSeer.PluginSdk.IHsController.DeleteCategoryById*"></a>
   <h4 id="HomeSeer_PluginSdk_IHsController_DeleteCategoryById_System_String_" data-uid="HomeSeer.PluginSdk.IHsController.DeleteCategoryById(System.String)">DeleteCategoryById(String)</h4>
@@ -1712,7 +1851,7 @@ Check the HS logs for more info on the error.</p>
   </table>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/IHsController.cs/#L1479">View Source</a>
+    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/IHsController.cs/#L1517">View Source</a>
   </span>
   <a id="HomeSeer_PluginSdk_IHsController_DeleteImageFile_" data-uid="HomeSeer.PluginSdk.IHsController.DeleteImageFile*"></a>
   <h4 id="HomeSeer_PluginSdk_IHsController_DeleteImageFile_System_String_" data-uid="HomeSeer.PluginSdk.IHsController.DeleteImageFile(System.String)">DeleteImageFile(String)</h4>
@@ -1914,6 +2053,54 @@ if (!HomeSeerSystem.DeleteImageFile(filePath)) {
       <tr>
         <td><span class="xref">System.Boolean</span></td>
         <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/IHsController.cs/#L1739">View Source</a>
+  </span>
+  <a id="HomeSeer_PluginSdk_IHsController_DeleteVar_" data-uid="HomeSeer.PluginSdk.IHsController.DeleteVar*"></a>
+  <h4 id="HomeSeer_PluginSdk_IHsController_DeleteVar_System_String_" data-uid="HomeSeer.PluginSdk.IHsController.DeleteVar(System.String)">DeleteVar(String)</h4>
+  <div class="markdown level1 summary"><p>Delete a global variable</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="tabGroup" id="tabgroup_syntax">
+      <ul role="tablist">
+          <li role="presentation">
+              <a href="#tabpanel_syntax_cs" tabindex="0" role="tab" aria-controls="tabpanel_syntax_cs" data-tab="cs" aria-selected="true">C#</a>
+          </li>
+          <li role="presentation">
+              <a href="#tabpanel_syntax_vb" tabindex="-1" role="tab" aria-controls="tabpanel_syntax_vb" data-tab="vb">Visual Basic</a>
+          </li>
+      </ul>
+      <section id="tabpanel_syntax_cs" role="tabpanel" data-tab="cs">
+          <div class="codewrapper">
+            <pre><code class="lang-csharp hljs">void DeleteVar(string name)</code></pre>
+          </div>
+      </section>
+      <section id="tabpanel_syntax_vb" role="tabpanel" data-tab="vb" aria-hidden="true" hidden="">
+          <div class="codewrapper">
+            <pre><code class="lang-vb hljs">Sub DeleteVar(name As String)</code></pre>
+          </div>
+      </section>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">name</span></td>
+        <td><p>The name of the global variable</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -3629,7 +3816,7 @@ Please use with caution.</p>
 </div>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/IHsController.cs/#L1594">View Source</a>
+    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/IHsController.cs/#L1632">View Source</a>
   </span>
   <a id="HomeSeer_PluginSdk_IHsController_GetAllCategories_" data-uid="HomeSeer.PluginSdk.IHsController.GetAllCategories*"></a>
   <h4 id="HomeSeer_PluginSdk_IHsController_GetAllCategories" data-uid="HomeSeer.PluginSdk.IHsController.GetAllCategories">GetAllCategories()</h4>
@@ -3995,7 +4182,7 @@ To get just a list of devices, call <a class="xref" href="HomeSeer.PluginSdk.IHs
   </table>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/IHsController.cs/#L1421">View Source</a>
+    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/IHsController.cs/#L1459">View Source</a>
   </span>
   <a id="HomeSeer_PluginSdk_IHsController_GetAppPath_" data-uid="HomeSeer.PluginSdk.IHsController.GetAppPath*"></a>
   <h4 id="HomeSeer_PluginSdk_IHsController_GetAppPath" data-uid="HomeSeer.PluginSdk.IHsController.GetAppPath">GetAppPath()</h4>
@@ -4041,7 +4228,7 @@ To get just a list of devices, call <a class="xref" href="HomeSeer.PluginSdk.IHs
   </table>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/IHsController.cs/#L1608">View Source</a>
+    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/IHsController.cs/#L1646">View Source</a>
   </span>
   <a id="HomeSeer_PluginSdk_IHsController_GetCategoryImageById_" data-uid="HomeSeer.PluginSdk.IHsController.GetCategoryImageById*"></a>
   <h4 id="HomeSeer_PluginSdk_IHsController_GetCategoryImageById_System_String_" data-uid="HomeSeer.PluginSdk.IHsController.GetCategoryImageById(System.String)">GetCategoryImageById(String)</h4>
@@ -4105,7 +4292,7 @@ To get just a list of devices, call <a class="xref" href="HomeSeer.PluginSdk.IHs
   </table>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/IHsController.cs/#L1601">View Source</a>
+    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/IHsController.cs/#L1639">View Source</a>
   </span>
   <a id="HomeSeer_PluginSdk_IHsController_GetCategoryNameById_" data-uid="HomeSeer.PluginSdk.IHsController.GetCategoryNameById*"></a>
   <h4 id="HomeSeer_PluginSdk_IHsController_GetCategoryNameById_System_String_" data-uid="HomeSeer.PluginSdk.IHsController.GetCategoryNameById(System.String)">GetCategoryNameById(String)</h4>
@@ -5704,7 +5891,7 @@ This is the name of the location that is marked as first according to <a class="
   </div>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/IHsController.cs/#L1572">View Source</a>
+    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/IHsController.cs/#L1610">View Source</a>
   </span>
   <a id="HomeSeer_PluginSdk_IHsController_GetPluginVersionById_" data-uid="HomeSeer.PluginSdk.IHsController.GetPluginVersionById*"></a>
   <h4 id="HomeSeer_PluginSdk_IHsController_GetPluginVersionById_System_String_" data-uid="HomeSeer.PluginSdk.IHsController.GetPluginVersionById(System.String)">GetPluginVersionById(String)</h4>
@@ -5789,7 +5976,7 @@ This is the name of the location that is marked as first according to <a class="
   </table>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/IHsController.cs/#L1563">View Source</a>
+    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/IHsController.cs/#L1601">View Source</a>
   </span>
   <a id="HomeSeer_PluginSdk_IHsController_GetPluginVersionByName_" data-uid="HomeSeer.PluginSdk.IHsController.GetPluginVersionByName*"></a>
   <h4 id="HomeSeer_PluginSdk_IHsController_GetPluginVersionByName_System_String_" data-uid="HomeSeer.PluginSdk.IHsController.GetPluginVersionByName(System.String)">GetPluginVersionByName(String)</h4>
@@ -6025,7 +6212,7 @@ interface with HS4 plugins.</p>
   </table>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/IHsController.cs/#L1618">View Source</a>
+    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/IHsController.cs/#L1656">View Source</a>
   </span>
   <a id="HomeSeer_PluginSdk_IHsController_GetRefsByCategoryId_" data-uid="HomeSeer.PluginSdk.IHsController.GetRefsByCategoryId*"></a>
   <h4 id="HomeSeer_PluginSdk_IHsController_GetRefsByCategoryId_System_String_" data-uid="HomeSeer.PluginSdk.IHsController.GetRefsByCategoryId(System.String)">GetRefsByCategoryId(String)</h4>
@@ -7108,6 +7295,70 @@ Please use with caution.</p>
   </table>
   
   <span class="small pull-right mobile-hide">
+    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/IHsController.cs/#L1746">View Source</a>
+  </span>
+  <a id="HomeSeer_PluginSdk_IHsController_GetVar_" data-uid="HomeSeer.PluginSdk.IHsController.GetVar*"></a>
+  <h4 id="HomeSeer_PluginSdk_IHsController_GetVar_System_String_" data-uid="HomeSeer.PluginSdk.IHsController.GetVar(System.String)">GetVar(String)</h4>
+  <div class="markdown level1 summary"><p>Find the global variable associated with the name parameter and return it.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="tabGroup" id="tabgroup_syntax">
+      <ul role="tablist">
+          <li role="presentation">
+              <a href="#tabpanel_syntax_cs" tabindex="0" role="tab" aria-controls="tabpanel_syntax_cs" data-tab="cs" aria-selected="true">C#</a>
+          </li>
+          <li role="presentation">
+              <a href="#tabpanel_syntax_vb" tabindex="-1" role="tab" aria-controls="tabpanel_syntax_vb" data-tab="vb">Visual Basic</a>
+          </li>
+      </ul>
+      <section id="tabpanel_syntax_cs" role="tabpanel" data-tab="cs">
+          <div class="codewrapper">
+            <pre><code class="lang-csharp hljs">object GetVar(string name)</code></pre>
+          </div>
+      </section>
+      <section id="tabpanel_syntax_vb" role="tabpanel" data-tab="vb" aria-hidden="true" hidden="">
+          <div class="codewrapper">
+            <pre><code class="lang-vb hljs">Function GetVar(name As String) As Object</code></pre>
+          </div>
+      </section>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">name</span></td>
+        <td><p>The name of the global variable</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Object</span></td>
+        <td><p>The global variable saved.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <span class="small pull-right mobile-hide">
     <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/IHsController.cs/#L712">View Source</a>
   </span>
   <a id="HomeSeer_PluginSdk_IHsController_IsEventLoggingEnabledByRef_" data-uid="HomeSeer.PluginSdk.IHsController.IsEventLoggingEnabledByRef*"></a>
@@ -7519,7 +7770,73 @@ with locations.</p>
   </table>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/IHsController.cs/#L1537">View Source</a>
+    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/IHsController.cs/#L1420">View Source</a>
+  </span>
+  <a id="HomeSeer_PluginSdk_IHsController_IsSpeakerBusy_" data-uid="HomeSeer.PluginSdk.IHsController.IsSpeakerBusy*"></a>
+  <h4 id="HomeSeer_PluginSdk_IHsController_IsSpeakerBusy_System_String_" data-uid="HomeSeer.PluginSdk.IHsController.IsSpeakerBusy(System.String)">IsSpeakerBusy(String)</h4>
+  <div class="markdown level1 summary"><p>This function can let you know if a specific speaker client (host or host:instance) is currently busy speaking or playing WAV audio.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="tabGroup" id="tabgroup_syntax">
+      <ul role="tablist">
+          <li role="presentation">
+              <a href="#tabpanel_syntax_cs" tabindex="0" role="tab" aria-controls="tabpanel_syntax_cs" data-tab="cs" aria-selected="true">C#</a>
+          </li>
+          <li role="presentation">
+              <a href="#tabpanel_syntax_vb" tabindex="-1" role="tab" aria-controls="tabpanel_syntax_vb" data-tab="vb">Visual Basic</a>
+          </li>
+      </ul>
+      <section id="tabpanel_syntax_cs" role="tabpanel" data-tab="cs">
+          <div class="codewrapper">
+            <pre><code class="lang-csharp hljs">bool IsSpeakerBusy(string host)</code></pre>
+          </div>
+      </section>
+      <section id="tabpanel_syntax_vb" role="tabpanel" data-tab="vb" aria-hidden="true" hidden="">
+          <div class="codewrapper">
+            <pre><code class="lang-vb hljs">Function IsSpeakerBusy(host As String) As Boolean</code></pre>
+          </div>
+      </section>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">host</span></td>
+        <td><p>Leaving this a null string will return the busy status for the first instance HomeSeer finds,
+otherwise use the hostname of the computer you are interested in determining the busy status of.
+If more than one instance of the Speaker application is running on &quot;host&quot; then you may need to specify the instance as well in the format host:instance.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p>TRUE indicates that the speaker application instance is busy</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/IHsController.cs/#L1575">View Source</a>
   </span>
   <a id="HomeSeer_PluginSdk_IHsController_LegacyPluginFunction_" data-uid="HomeSeer.PluginSdk.IHsController.LegacyPluginFunction*"></a>
   <h4 id="HomeSeer_PluginSdk_IHsController_LegacyPluginFunction_System_String_System_String_System_String_System_Object___" data-uid="HomeSeer.PluginSdk.IHsController.LegacyPluginFunction(System.String,System.String,System.String,System.Object[])">LegacyPluginFunction(String, String, String, Object[])</h4>
@@ -7627,7 +7944,7 @@ interface with HS4 plugins.</p>
   </table>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/IHsController.cs/#L1373">View Source</a>
+    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/IHsController.cs/#L1404">View Source</a>
   </span>
   <a id="HomeSeer_PluginSdk_IHsController_PlayWavFile_" data-uid="HomeSeer.PluginSdk.IHsController.PlayWavFile*"></a>
   <h4 id="HomeSeer_PluginSdk_IHsController_PlayWavFile_System_String_System_String_System_Boolean_" data-uid="HomeSeer.PluginSdk.IHsController.PlayWavFile(System.String,System.String,System.Boolean)">PlayWavFile(String, String, Boolean)</h4>
@@ -7690,7 +8007,7 @@ If False, the function returns immediately and the speaking is queued</p>
   </table>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/IHsController.cs/#L1549">View Source</a>
+    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/IHsController.cs/#L1587">View Source</a>
   </span>
   <a id="HomeSeer_PluginSdk_IHsController_PluginFunction_" data-uid="HomeSeer.PluginSdk.IHsController.PluginFunction*"></a>
   <h4 id="HomeSeer_PluginSdk_IHsController_PluginFunction_System_String_System_String_System_Object___" data-uid="HomeSeer.PluginSdk.IHsController.PluginFunction(System.String,System.String,System.Object[])">PluginFunction(String, String, Object[])</h4>
@@ -8198,7 +8515,64 @@ FALSE if there was a problem with registration</p>
   </table>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/IHsController.cs/#L1669">View Source</a>
+    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/IHsController.cs/#L1435">View Source</a>
+  </span>
+  <a id="HomeSeer_PluginSdk_IHsController_RegisterProxySpeakPlug_" data-uid="HomeSeer.PluginSdk.IHsController.RegisterProxySpeakPlug*"></a>
+  <h4 id="HomeSeer_PluginSdk_IHsController_RegisterProxySpeakPlug_System_String_" data-uid="HomeSeer.PluginSdk.IHsController.RegisterProxySpeakPlug(System.String)">RegisterProxySpeakPlug(String)</h4>
+  <div class="markdown level1 summary"><p>Register your plug-in as a Speak Proxy plug-in.</p>
+<p>
+After this registration, whenever a Speak command is issued in HomeSeer,
+ your plug-in&apos;s SpeakIn procedure will be called instead.
+ When your plug-in wishes to have HomeSeer actually speak something, it uses SpeakProxy instead of Speak.
+</p>
+<p>
+If you no longer wish to proxy Speak commands in your plug-in, or when your plug-in has its Shutdown
+ procedure called, use UnRegisterProxySpeakPlug to remove the registration as a speak proxy.
+</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="tabGroup" id="tabgroup_syntax">
+      <ul role="tablist">
+          <li role="presentation">
+              <a href="#tabpanel_syntax_cs" tabindex="0" role="tab" aria-controls="tabpanel_syntax_cs" data-tab="cs" aria-selected="true">C#</a>
+          </li>
+          <li role="presentation">
+              <a href="#tabpanel_syntax_vb" tabindex="-1" role="tab" aria-controls="tabpanel_syntax_vb" data-tab="vb">Visual Basic</a>
+          </li>
+      </ul>
+      <section id="tabpanel_syntax_cs" role="tabpanel" data-tab="cs">
+          <div class="codewrapper">
+            <pre><code class="lang-csharp hljs">void RegisterProxySpeakPlug(string pluginId)</code></pre>
+          </div>
+      </section>
+      <section id="tabpanel_syntax_vb" role="tabpanel" data-tab="vb" aria-hidden="true" hidden="">
+          <div class="codewrapper">
+            <pre><code class="lang-vb hljs">Sub RegisterProxySpeakPlug(pluginId As String)</code></pre>
+          </div>
+      </section>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">pluginId</span></td>
+        <td><p>The Id of your plugin</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/IHsController.cs/#L1707">View Source</a>
   </span>
   <a id="HomeSeer_PluginSdk_IHsController_RemoveRefFromCategory_" data-uid="HomeSeer.PluginSdk.IHsController.RemoveRefFromCategory*"></a>
   <h4 id="HomeSeer_PluginSdk_IHsController_RemoveRefFromCategory_System_String_System_Int32_" data-uid="HomeSeer.PluginSdk.IHsController.RemoveRefFromCategory(System.String,System.Int32)">RemoveRefFromCategory(String, Int32)</h4>
@@ -8284,7 +8658,7 @@ FALSE if there was a problem with registration</p>
   </table>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/IHsController.cs/#L1678">View Source</a>
+    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/IHsController.cs/#L1716">View Source</a>
   </span>
   <a id="HomeSeer_PluginSdk_IHsController_RemoveRefsFromCategory_" data-uid="HomeSeer.PluginSdk.IHsController.RemoveRefsFromCategory*"></a>
   <h4 id="HomeSeer_PluginSdk_IHsController_RemoveRefsFromCategory_System_String_System_Collections_Generic_List_System_Int32__" data-uid="HomeSeer.PluginSdk.IHsController.RemoveRefsFromCategory(System.String,System.Collections.Generic.List{System.Int32})">RemoveRefsFromCategory(String, List&lt;Int32&gt;)</h4>
@@ -8370,7 +8744,7 @@ FALSE if there was a problem with registration</p>
   </table>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/IHsController.cs/#L1415">View Source</a>
+    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/IHsController.cs/#L1453">View Source</a>
   </span>
   <a id="HomeSeer_PluginSdk_IHsController_ReplaceVariables_" data-uid="HomeSeer.PluginSdk.IHsController.ReplaceVariables*"></a>
   <h4 id="HomeSeer_PluginSdk_IHsController_ReplaceVariables_System_String_" data-uid="HomeSeer.PluginSdk.IHsController.ReplaceVariables(System.String)">ReplaceVariables(String)</h4>
@@ -8466,7 +8840,7 @@ in HomeSeer's help file.</p>
   </div>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/IHsController.cs/#L1492">View Source</a>
+    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/IHsController.cs/#L1530">View Source</a>
   </span>
   <a id="HomeSeer_PluginSdk_IHsController_RunScript_" data-uid="HomeSeer.PluginSdk.IHsController.RunScript*"></a>
   <h4 id="HomeSeer_PluginSdk_IHsController_RunScript_System_String_System_Boolean_System_Boolean_" data-uid="HomeSeer.PluginSdk.IHsController.RunScript(System.String,System.Boolean,System.Boolean)">RunScript(String, Boolean, Boolean)</h4>
@@ -8541,7 +8915,7 @@ in HomeSeer's help file.</p>
   </table>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/IHsController.cs/#L1504">View Source</a>
+    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/IHsController.cs/#L1542">View Source</a>
   </span>
   <a id="HomeSeer_PluginSdk_IHsController_RunScriptFunc_" data-uid="HomeSeer.PluginSdk.IHsController.RunScriptFunc*"></a>
   <h4 id="HomeSeer_PluginSdk_IHsController_RunScriptFunc_System_String_System_String_System_Object_System_Boolean_System_Boolean_" data-uid="HomeSeer.PluginSdk.IHsController.RunScriptFunc(System.String,System.String,System.Object,System.Boolean,System.Boolean)">RunScriptFunc(String, String, Object, Boolean, Boolean)</h4>
@@ -8629,7 +9003,7 @@ parameter such as a string, or multiple parameters in an array</p>
   </table>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/IHsController.cs/#L1462">View Source</a>
+    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/IHsController.cs/#L1500">View Source</a>
   </span>
   <a id="HomeSeer_PluginSdk_IHsController_SaveImageFile_" data-uid="HomeSeer.PluginSdk.IHsController.SaveImageFile*"></a>
   <h4 id="HomeSeer_PluginSdk_IHsController_SaveImageFile_System_Byte___System_String_System_Boolean_" data-uid="HomeSeer.PluginSdk.IHsController.SaveImageFile(System.Byte[],System.String,System.Boolean)">SaveImageFile(Byte[], String, Boolean)</h4>
@@ -8797,6 +9171,77 @@ if (!HomeSeerSystem.SaveImageFile(imageBytes, filePath, true)) {
   </table>
   
   <span class="small pull-right mobile-hide">
+    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/IHsController.cs/#L1755">View Source</a>
+  </span>
+  <a id="HomeSeer_PluginSdk_IHsController_SaveVar_" data-uid="HomeSeer.PluginSdk.IHsController.SaveVar*"></a>
+  <h4 id="HomeSeer_PluginSdk_IHsController_SaveVar_System_String_System_Object_" data-uid="HomeSeer.PluginSdk.IHsController.SaveVar(System.String,System.Object)">SaveVar(String, Object)</h4>
+  <div class="markdown level1 summary"><p>Save the global variable contained in the obj parameter.
+The parameter may be any variable type such as a string or integer, or it may be a reference to an object created with CreateObject</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="tabGroup" id="tabgroup_syntax">
+      <ul role="tablist">
+          <li role="presentation">
+              <a href="#tabpanel_syntax_cs" tabindex="0" role="tab" aria-controls="tabpanel_syntax_cs" data-tab="cs" aria-selected="true">C#</a>
+          </li>
+          <li role="presentation">
+              <a href="#tabpanel_syntax_vb" tabindex="-1" role="tab" aria-controls="tabpanel_syntax_vb" data-tab="vb">Visual Basic</a>
+          </li>
+      </ul>
+      <section id="tabpanel_syntax_cs" role="tabpanel" data-tab="cs">
+          <div class="codewrapper">
+            <pre><code class="lang-csharp hljs">string SaveVar(string name, object obj)</code></pre>
+          </div>
+      </section>
+      <section id="tabpanel_syntax_vb" role="tabpanel" data-tab="vb" aria-hidden="true" hidden="">
+          <div class="codewrapper">
+            <pre><code class="lang-vb hljs">Function SaveVar(name As String, obj As Object) As String</code></pre>
+          </div>
+      </section>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">name</span></td>
+        <td><p>The name of the global variable</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Object</span></td>
+        <td><span class="parametername">obj</span></td>
+        <td><p>The object to be saved</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><p>An empty string no error occured, or an error string if one did occur.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <span class="small pull-right mobile-hide">
     <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/IHsController.cs/#L544">View Source</a>
   </span>
   <a id="HomeSeer_PluginSdk_IHsController_SendControlForFeatureByValue_" data-uid="HomeSeer.PluginSdk.IHsController.SendControlForFeatureByValue*"></a>
@@ -8879,7 +9324,7 @@ If you own the device being controlled, you should be calling <a class="xref" hr
 </div>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/IHsController.cs/#L1626">View Source</a>
+    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/IHsController.cs/#L1664">View Source</a>
   </span>
   <a id="HomeSeer_PluginSdk_IHsController_SetImageForCategoryById_" data-uid="HomeSeer.PluginSdk.IHsController.SetImageForCategoryById*"></a>
   <h4 id="HomeSeer_PluginSdk_IHsController_SetImageForCategoryById_System_String_System_String_" data-uid="HomeSeer.PluginSdk.IHsController.SetImageForCategoryById(System.String,System.String)">SetImageForCategoryById(String, String)</h4>
@@ -8949,7 +9394,7 @@ If you own the device being controlled, you should be calling <a class="xref" hr
   </table>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/IHsController.cs/#L1634">View Source</a>
+    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/IHsController.cs/#L1672">View Source</a>
   </span>
   <a id="HomeSeer_PluginSdk_IHsController_SetNameForCategoryById_" data-uid="HomeSeer.PluginSdk.IHsController.SetNameForCategoryById*"></a>
   <h4 id="HomeSeer_PluginSdk_IHsController_SetNameForCategoryById_System_String_System_String_" data-uid="HomeSeer.PluginSdk.IHsController.SetNameForCategoryById(System.String,System.String)">SetNameForCategoryById(String, String)</h4>
@@ -9019,7 +9464,7 @@ If you own the device being controlled, you should be calling <a class="xref" hr
   </table>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/IHsController.cs/#L1642">View Source</a>
+    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/IHsController.cs/#L1680">View Source</a>
   </span>
   <a id="HomeSeer_PluginSdk_IHsController_SetRefsForCategoryById_" data-uid="HomeSeer.PluginSdk.IHsController.SetRefsForCategoryById*"></a>
   <h4 id="HomeSeer_PluginSdk_IHsController_SetRefsForCategoryById_System_String_System_Collections_Generic_List_System_Int32__" data-uid="HomeSeer.PluginSdk.IHsController.SetRefsForCategoryById(System.String,System.Collections.Generic.List{System.Int32})">SetRefsForCategoryById(String, List&lt;Int32&gt;)</h4>
@@ -9089,7 +9534,7 @@ If you own the device being controlled, you should be calling <a class="xref" hr
   </table>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/IHsController.cs/#L1380">View Source</a>
+    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/IHsController.cs/#L1411">View Source</a>
   </span>
   <a id="HomeSeer_PluginSdk_IHsController_SetVolume_" data-uid="HomeSeer.PluginSdk.IHsController.SetVolume*"></a>
   <h4 id="HomeSeer_PluginSdk_IHsController_SetVolume_System_Int32_System_String_" data-uid="HomeSeer.PluginSdk.IHsController.SetVolume(System.Int32,System.String)">SetVolume(Int32, String)</h4>
@@ -9173,7 +9618,86 @@ If you own the device being controlled, you should be calling <a class="xref" hr
   </div>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/IHsController.cs/#L1347">View Source</a>
+    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/IHsController.cs/#L1342">View Source</a>
+  </span>
+  <a id="HomeSeer_PluginSdk_IHsController_Speak_" data-uid="HomeSeer.PluginSdk.IHsController.Speak*"></a>
+  <h4 id="HomeSeer_PluginSdk_IHsController_Speak_System_Int32_System_String_System_Boolean_System_String_" data-uid="HomeSeer.PluginSdk.IHsController.Speak(System.Int32,System.String,System.Boolean,System.String)">Speak(Int32, String, Boolean, String)</h4>
+  <div class="markdown level1 summary"><p>This function speaks some text</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="tabGroup" id="tabgroup_syntax">
+      <ul role="tablist">
+          <li role="presentation">
+              <a href="#tabpanel_syntax_cs" tabindex="0" role="tab" aria-controls="tabpanel_syntax_cs" data-tab="cs" aria-selected="true">C#</a>
+          </li>
+          <li role="presentation">
+              <a href="#tabpanel_syntax_vb" tabindex="-1" role="tab" aria-controls="tabpanel_syntax_vb" data-tab="vb">Visual Basic</a>
+          </li>
+      </ul>
+      <section id="tabpanel_syntax_cs" role="tabpanel" data-tab="cs">
+          <div class="codewrapper">
+            <pre><code class="lang-csharp hljs">void Speak(int speechDevice, string spokenText, bool wait, string host = &quot;&quot;)</code></pre>
+          </div>
+      </section>
+      <section id="tabpanel_syntax_vb" role="tabpanel" data-tab="vb" aria-hidden="true" hidden="">
+          <div class="codewrapper">
+            <pre><code class="lang-vb hljs">Sub Speak(speechDevice As Integer, spokenText As String, wait As Boolean, host As String = &quot;&quot;)</code></pre>
+          </div>
+      </section>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">speechDevice</span></td>
+        <td><p>This is the device that is to be used for the speaking.  In older versions of HomeSeer, this value was
+used to indicate the sound card to use, and if it was over 100, then it indicated that it was speaking
+for HomeSeer Phone (device - 100 = phone line), or the WAV audio device to use.
+Although this is still used for HomeSeer Phone, speaks for HomeSeer phone are never proxied and so
+values &gt;= 100 should never been seen in the device parameter.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">spokenText</span></td>
+        <td><p>This is the text to be spoken, or if it is a WAV file to be played, then the characters &quot;:&amp;quot; will be
+found starting at position 2 of the string as playing a WAV file with the speak command in HomeSeer
+REQUIRES a fully qualified path and filename of the WAV file to play.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">wait</span></td>
+        <td><p>This parameter tells HomeSeer whether to continue processing commands immediately or to wait until
+the speak command is finished.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">host</span></td>
+        <td><p>This is a list of host:instances to speak or play the WAV file on.
+An empty string or a single asterisk (*) indicates all connected speaker clients on all hosts.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="HomeSeer_PluginSdk_IHsController_Speak_System_Int32_System_String_System_Boolean_System_String__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>PLEASE NOTE: Code related to the Speech components in HomeSeer were ported from the HS3 plugin API and
+have not been fully tested to verify full functionality from the new SDK. The Speech API may undergo
+significant changes in the near future. Please use with caution.</p>
+</div>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/IHsController.cs/#L1378">View Source</a>
   </span>
   <a id="HomeSeer_PluginSdk_IHsController_SpeakProxy_" data-uid="HomeSeer.PluginSdk.IHsController.SpeakProxy*"></a>
   <h4 id="HomeSeer_PluginSdk_IHsController_SpeakProxy_System_Int32_System_String_System_Boolean_System_String_" data-uid="HomeSeer.PluginSdk.IHsController.SpeakProxy(System.Int32,System.String,System.Boolean,System.String)">SpeakProxy(Int32, String, Boolean, String)</h4>
@@ -9257,7 +9781,7 @@ significant changes in the near future. Please use with caution.</p>
 </div>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/IHsController.cs/#L1361">View Source</a>
+    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/IHsController.cs/#L1392">View Source</a>
   </span>
   <a id="HomeSeer_PluginSdk_IHsController_SpeakToFile_" data-uid="HomeSeer.PluginSdk.IHsController.SpeakToFile*"></a>
   <h4 id="HomeSeer_PluginSdk_IHsController_SpeakToFile_System_String_System_String_System_String_" data-uid="HomeSeer.PluginSdk.IHsController.SpeakToFile(System.String,System.String,System.String)">SpeakToFile(String, String, String)</h4>
@@ -9708,6 +10232,55 @@ for the type indicated (See RegisterGenericEventCB).</p>
 proper compatibility and support through this SDK.  This may undergo significant change in the near future.
 Please use with caution.</p>
 </div>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/IHsController.cs/#L1442">View Source</a>
+  </span>
+  <a id="HomeSeer_PluginSdk_IHsController_UnRegisterProxySpeakPlug_" data-uid="HomeSeer.PluginSdk.IHsController.UnRegisterProxySpeakPlug*"></a>
+  <h4 id="HomeSeer_PluginSdk_IHsController_UnRegisterProxySpeakPlug_System_String_" data-uid="HomeSeer.PluginSdk.IHsController.UnRegisterProxySpeakPlug(System.String)">UnRegisterProxySpeakPlug(String)</h4>
+  <div class="markdown level1 summary"><p>Unregister a plug-in as a Speak proxy that was previously
+registered using RegisterProxySpeakPlug.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="tabGroup" id="tabgroup_syntax">
+      <ul role="tablist">
+          <li role="presentation">
+              <a href="#tabpanel_syntax_cs" tabindex="0" role="tab" aria-controls="tabpanel_syntax_cs" data-tab="cs" aria-selected="true">C#</a>
+          </li>
+          <li role="presentation">
+              <a href="#tabpanel_syntax_vb" tabindex="-1" role="tab" aria-controls="tabpanel_syntax_vb" data-tab="vb">Visual Basic</a>
+          </li>
+      </ul>
+      <section id="tabpanel_syntax_cs" role="tabpanel" data-tab="cs">
+          <div class="codewrapper">
+            <pre><code class="lang-csharp hljs">void UnRegisterProxySpeakPlug(string pluginId)</code></pre>
+          </div>
+      </section>
+      <section id="tabpanel_syntax_vb" role="tabpanel" data-tab="vb" aria-hidden="true" hidden="">
+          <div class="codewrapper">
+            <pre><code class="lang-vb hljs">Sub UnRegisterProxySpeakPlug(pluginId As String)</code></pre>
+          </div>
+      </section>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">pluginId</span></td>
+        <td><p>The Id of your plugin</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
   
   <span class="small pull-right mobile-hide">
     <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/IHsController.cs/#L430">View Source</a>
