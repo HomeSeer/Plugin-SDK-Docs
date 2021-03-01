@@ -12232,6 +12232,19 @@ references:
   isSpec: "True"
   fullName: HomeSeer.PluginSdk.IHsController.GetSecondLocationName
   nameWithType: IHsController.GetSecondLocationName
+- uid: HomeSeer.PluginSdk.IHsController.GetSpeakerInstanceList
+  name: GetSpeakerInstanceList()
+  href: api/HomeSeer.PluginSdk.IHsController.html#HomeSeer_PluginSdk_IHsController_GetSpeakerInstanceList
+  commentId: M:HomeSeer.PluginSdk.IHsController.GetSpeakerInstanceList
+  fullName: HomeSeer.PluginSdk.IHsController.GetSpeakerInstanceList()
+  nameWithType: IHsController.GetSpeakerInstanceList()
+- uid: HomeSeer.PluginSdk.IHsController.GetSpeakerInstanceList*
+  name: GetSpeakerInstanceList
+  href: api/HomeSeer.PluginSdk.IHsController.html#HomeSeer_PluginSdk_IHsController_GetSpeakerInstanceList_
+  commentId: Overload:HomeSeer.PluginSdk.IHsController.GetSpeakerInstanceList
+  isSpec: "True"
+  fullName: HomeSeer.PluginSdk.IHsController.GetSpeakerInstanceList
+  nameWithType: IHsController.GetSpeakerInstanceList
 - uid: HomeSeer.PluginSdk.IHsController.GetStatusControlCollectionByRef(System.Int32)
   name: GetStatusControlCollectionByRef(Int32)
   href: api/HomeSeer.PluginSdk.IHsController.html#HomeSeer_PluginSdk_IHsController_GetStatusControlCollectionByRef_System_Int32_
@@ -12414,6 +12427,19 @@ references:
   isSpec: "True"
   fullName: HomeSeer.PluginSdk.IHsController.GetVar
   nameWithType: IHsController.GetVar
+- uid: HomeSeer.PluginSdk.IHsController.GetVolume(System.String)
+  name: GetVolume(String)
+  href: api/HomeSeer.PluginSdk.IHsController.html#HomeSeer_PluginSdk_IHsController_GetVolume_System_String_
+  commentId: M:HomeSeer.PluginSdk.IHsController.GetVolume(System.String)
+  fullName: HomeSeer.PluginSdk.IHsController.GetVolume(System.String)
+  nameWithType: IHsController.GetVolume(String)
+- uid: HomeSeer.PluginSdk.IHsController.GetVolume*
+  name: GetVolume
+  href: api/HomeSeer.PluginSdk.IHsController.html#HomeSeer_PluginSdk_IHsController_GetVolume_
+  commentId: Overload:HomeSeer.PluginSdk.IHsController.GetVolume
+  isSpec: "True"
+  fullName: HomeSeer.PluginSdk.IHsController.GetVolume
+  nameWithType: IHsController.GetVolume
 - uid: HomeSeer.PluginSdk.IHsController.IsEventLoggingEnabledByRef(System.Int32)
   name: IsEventLoggingEnabledByRef(Int32)
   href: api/HomeSeer.PluginSdk.IHsController.html#HomeSeer_PluginSdk_IHsController_IsEventLoggingEnabledByRef_System_Int32_
@@ -12479,6 +12505,19 @@ references:
   isSpec: "True"
   fullName: HomeSeer.PluginSdk.IHsController.IsLocation1First
   nameWithType: IHsController.IsLocation1First
+- uid: HomeSeer.PluginSdk.IHsController.IsMediaPlaying(System.String)
+  name: IsMediaPlaying(String)
+  href: api/HomeSeer.PluginSdk.IHsController.html#HomeSeer_PluginSdk_IHsController_IsMediaPlaying_System_String_
+  commentId: M:HomeSeer.PluginSdk.IHsController.IsMediaPlaying(System.String)
+  fullName: HomeSeer.PluginSdk.IHsController.IsMediaPlaying(System.String)
+  nameWithType: IHsController.IsMediaPlaying(String)
+- uid: HomeSeer.PluginSdk.IHsController.IsMediaPlaying*
+  name: IsMediaPlaying
+  href: api/HomeSeer.PluginSdk.IHsController.html#HomeSeer_PluginSdk_IHsController_IsMediaPlaying_
+  commentId: Overload:HomeSeer.PluginSdk.IHsController.IsMediaPlaying
+  isSpec: "True"
+  fullName: HomeSeer.PluginSdk.IHsController.IsMediaPlaying
+  nameWithType: IHsController.IsMediaPlaying
 - uid: HomeSeer.PluginSdk.IHsController.IsRefDevice(System.Int32)
   name: IsRefDevice(Int32)
   href: api/HomeSeer.PluginSdk.IHsController.html#HomeSeer_PluginSdk_IHsController_IsRefDevice_System_Int32_
@@ -12505,6 +12544,19 @@ references:
   isSpec: "True"
   fullName: HomeSeer.PluginSdk.IHsController.IsRegistered
   nameWithType: IHsController.IsRegistered
+- uid: HomeSeer.PluginSdk.IHsController.IsScriptRunning(System.String)
+  name: IsScriptRunning(String)
+  href: api/HomeSeer.PluginSdk.IHsController.html#HomeSeer_PluginSdk_IHsController_IsScriptRunning_System_String_
+  commentId: M:HomeSeer.PluginSdk.IHsController.IsScriptRunning(System.String)
+  fullName: HomeSeer.PluginSdk.IHsController.IsScriptRunning(System.String)
+  nameWithType: IHsController.IsScriptRunning(String)
+- uid: HomeSeer.PluginSdk.IHsController.IsScriptRunning*
+  name: IsScriptRunning
+  href: api/HomeSeer.PluginSdk.IHsController.html#HomeSeer_PluginSdk_IHsController_IsScriptRunning_
+  commentId: Overload:HomeSeer.PluginSdk.IHsController.IsScriptRunning
+  isSpec: "True"
+  fullName: HomeSeer.PluginSdk.IHsController.IsScriptRunning
+  nameWithType: IHsController.IsScriptRunning
 - uid: HomeSeer.PluginSdk.IHsController.IsSpeakerBusy(System.String)
   name: IsSpeakerBusy(String)
   href: api/HomeSeer.PluginSdk.IHsController.html#HomeSeer_PluginSdk_IHsController_IsSpeakerBusy_System_String_
@@ -12793,6 +12845,19 @@ references:
   isSpec: "True"
   fullName: HomeSeer.PluginSdk.IHsController.SendControlForFeatureByValue
   nameWithType: IHsController.SendControlForFeatureByValue
+- uid: HomeSeer.PluginSdk.IHsController.SendEmail(System.String,System.String,System.String,System.String,System.String,System.String,System.String)
+  name: SendEmail(String, String, String, String, String, String, String)
+  href: api/HomeSeer.PluginSdk.IHsController.html#HomeSeer_PluginSdk_IHsController_SendEmail_System_String_System_String_System_String_System_String_System_String_System_String_System_String_
+  commentId: M:HomeSeer.PluginSdk.IHsController.SendEmail(System.String,System.String,System.String,System.String,System.String,System.String,System.String)
+  fullName: HomeSeer.PluginSdk.IHsController.SendEmail(System.String, System.String, System.String, System.String, System.String, System.String, System.String)
+  nameWithType: IHsController.SendEmail(String, String, String, String, String, String, String)
+- uid: HomeSeer.PluginSdk.IHsController.SendEmail*
+  name: SendEmail
+  href: api/HomeSeer.PluginSdk.IHsController.html#HomeSeer_PluginSdk_IHsController_SendEmail_
+  commentId: Overload:HomeSeer.PluginSdk.IHsController.SendEmail
+  isSpec: "True"
+  fullName: HomeSeer.PluginSdk.IHsController.SendEmail
+  nameWithType: IHsController.SendEmail
 - uid: HomeSeer.PluginSdk.IHsController.SetImageForCategoryById(System.String,System.String)
   name: SetImageForCategoryById(String, String)
   href: api/HomeSeer.PluginSdk.IHsController.html#HomeSeer_PluginSdk_IHsController_SetImageForCategoryById_System_String_System_String_

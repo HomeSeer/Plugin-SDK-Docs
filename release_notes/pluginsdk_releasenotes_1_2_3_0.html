@@ -1,0 +1,140 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Plugin SDK v1.2.3.0 Release Notes | HomeSeer PluginSdk Docs </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Plugin SDK v1.2.3.0 Release Notes | HomeSeer PluginSdk Docs ">
+    <meta name="generator" content="docfx 2.49.0.0">
+    
+    <link rel="shortcut icon" href="../images/favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <link rel="stylesheet" href="../styles/perfect-scrollbar.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet"> 
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    <meta property="docfx:rel" content="../">
+    
+  </head>  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../images/HomeSeer_Full_Logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div class="container body-content">
+        
+        <div id="search-results">
+          <div class="search-list"></div>
+          <div class="sr-items">
+            <p><i class="glyphicon glyphicon-refresh index-loading"></i></p>
+          </div>
+          <ul id="pagination"></ul>
+        </div>
+      </div>
+      <div role="main" class="container-fluid body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+      <div class="col-md-1"></div>
+      <div class="col-md-8 card">
+        <article class="content wrap" id="_content" data-uid="">
+<h1 id="plugin-sdk-v1230-release-notes">Plugin SDK v1.2.3.0 Release Notes</h1>
+
+<p>This release is focused on restoring some previously deprecated HS3 methods as well as various bug fixes.</p>
+<ul>
+<li>Add <a class="xref" href="../api/HomeSeer.PluginSdk.IHsController.html#HomeSeer_PluginSdk_IHsController_IsScriptRunning_"><code>IHsController.IsScriptRunning()</code></a> (PSDK-127)</li>
+<li>Add <a class="xref" href="../api/HomeSeer.PluginSdk.IHsController.html#HomeSeer_PluginSdk_IHsController_IsMediaPlaying_"><code>IHsController.IsMediaPlaying()</code></a> (PSDK-128)</li>
+<li>Add <a class="xref" href="../api/HomeSeer.PluginSdk.IHsController.html#HomeSeer_PluginSdk_IHsController_SendEmail_"><code>IHsController.SendEmail()</code></a> (PSDK-129)</li>
+<li>Add <a class="xref" href="../api/HomeSeer.PluginSdk.IHsController.html#HomeSeer_PluginSdk_IHsController_GetVolume_"><code>IHsController.GetVolume()</code></a> (PSDK-133)</li>
+<li>Add <a class="xref" href="../api/HomeSeer.PluginSdk.IHsController.html#HomeSeer_PluginSdk_IHsController_GetSpeakerInstanceList_"><code>IHsController.GetSpeakerInstanceList()</code></a> (PSDK-134)</li>
+<li>Update documentation to clarify on the use of plugin ID vs legacy plugin name (PSDK-120) <a href="https://github.com/HomeSeer/Plugin-SDK/issues/141">(GitHub Issue 141)</a> <a href="https://github.com/HomeSeer/Plugin-SDK/issues/148">(GitHub Issue 148)</a>
+<ul>
+<li><a class="xref" href="../api/HomeSeer.PluginSdk.IHsController.html#HomeSeer_PluginSdk_IHsController_GetActionsByInterface_"><code>IHsController.GetActionsByInterface()</code></a></li>
+<li><a class="xref" href="../api/HomeSeer.PluginSdk.IHsController.html#HomeSeer_PluginSdk_IHsController_GetTriggersByInterface_"><code>IHsController.GetTriggersByInterface()</code></a></li>
+<li><a class="xref" href="../api/HomeSeer.PluginSdk.IHsController.html#HomeSeer_PluginSdk_IHsController_UpdatePlugAction_"><code>IHsController.UpdatePlugAction()</code></a></li>
+<li><a class="xref" href="../api/HomeSeer.PluginSdk.IHsController.html#HomeSeer_PluginSdk_IHsController_UpdatePlugTrigger_"><code>IHsController.UpdatePlugTrigger()</code></a></li>
+<li><a class="xref" href="../api/HomeSeer.PluginSdk.IHsController.html#HomeSeer_PluginSdk_IHsController_TriggerMatches_"><code>IHsController.TriggerMatches()</code></a></li>
+<li><a class="xref" href="../api/HomeSeer.PluginSdk.IHsController.html#HomeSeer_PluginSdk_IHsController_GetTriggersByType_"><code>IHsController.GetTriggersByType()</code></a></li>
+<li><a class="xref" href="../api/HomeSeer.PluginSdk.IHsController.html#HomeSeer_PluginSdk_IHsController_TriggerFire_"><code>IHsController.TriggerFire()</code></a></li>
+</ul>
+</li>
+<li>Update <a class="xref" href="../api/HomeSeer.PluginSdk.Devices.StatusGraphic.html#HomeSeer_PluginSdk_Devices_StatusGraphic_TryGetLabelForValue_"><code>StatusGraphic.TryGetLabelForValue()</code></a> and <a class="xref" href="../api/HomeSeer.PluginSdk.Devices.StatusGraphic.html#HomeSeer_PluginSdk_Devices_StatusGraphic_GetLabelForValue_"><code>StatusGraphic.GetLabelForValue()</code></a>
+so a label is always returned if it is set (PSDK-131)</li>
+<li>Fix KeyNotFoundException when accessing certain valid values with <a class="xref" href="../api/HomeSeer.PluginSdk.Devices.StatusGraphicCollection.html#HomeSeer_PluginSdk_Devices_StatusGraphicCollection_ContainsValue_"><code>StatusGraphicCollection.ContainsValue()</code></a> (PSDK-132)</li>
+</ul>
+</article>
+      </div>
+        
+        <div class="hidden-sm col-md-2" role="complementary">
+          <div class="sideaffix" id="ps-sideaffix">
+            <div class="contribution">
+              <ul class="nav">
+              </ul>
+            </div>
+            <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+            <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+            </nav>
+          </div>
+        </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            HomeSeer Technologies
+            
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>  </body>
+</html>

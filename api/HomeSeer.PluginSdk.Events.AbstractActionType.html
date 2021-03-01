@@ -139,7 +139,65 @@
 Inherit from this class to define your own action types and store them in your plugin&apos;s <a class="xref" href="HomeSeer.PluginSdk.Events.ActionTypeCollection.html">ActionTypeCollection</a>
 </p>
 </div>
-  <div class="markdown level0 conceptual">*content</div>
+  <div class="markdown level0 conceptual"><h3 id="basic-usage">Basic Usage</h3>
+<p>Define a class in your plugin that inherits from <code>AbstractActionType</code> and implements the required members</p>
+<ul>
+<li><a class="xref" href="HomeSeer.PluginSdk.Events.AbstractActionType.html#HomeSeer_PluginSdk_Events_AbstractActionType_GetName_"><code>AbstractActionType.GetName()</code></a></li>
+<li><a class="xref" href="HomeSeer.PluginSdk.Events.AbstractActionType.html#HomeSeer_PluginSdk_Events_AbstractActionType_OnNewAction_"><code>AbstractActionType.OnNewAction()</code></a></li>
+<li><a class="xref" href="HomeSeer.PluginSdk.Events.AbstractActionType.html#HomeSeer_PluginSdk_Events_AbstractActionType_IsFullyConfigured_"><code>AbstractActionType.IsFullyConfigured()</code></a></li>
+<li><a class="xref" href="HomeSeer.PluginSdk.Events.AbstractActionType.html#HomeSeer_PluginSdk_Events_AbstractActionType_OnConfigItemUpdate_"><code>AbstractActionType.OnConfigItemUpdate(AbstractView)</code></a></li>
+<li><a class="xref" href="HomeSeer.PluginSdk.Events.AbstractActionType.html#HomeSeer_PluginSdk_Events_AbstractActionType_GetPrettyString_"><code>AbstractActionType.GetPrettyString()</code></a></li>
+<li><a class="xref" href="HomeSeer.PluginSdk.Events.AbstractActionType.html#HomeSeer_PluginSdk_Events_AbstractActionType_OnRunAction_"><code>AbstractActionType.OnRunAction()</code></a></li>
+<li><a class="xref" href="HomeSeer.PluginSdk.Events.AbstractActionType.html#HomeSeer_PluginSdk_Events_AbstractActionType_ReferencesDeviceOrFeature_"><code>AbstractActionType.ReferencesDeviceOrFeature()</code></a></li>
+</ul>
+<pre><code class="lang-cs">public class MyCustomActionType : AbstractActionType {
+    
+	//All of these constructors must be implemented as is
+	protected MyCustomActionType(int id, int subTypeNumber, int eventRef, byte[] dataIn, ActionTypeCollection.IActionTypeListener listener) : base(id, subTypeNumber, eventRef, dataIn, listener) { }
+	protected MyCustomActionType() {}
+	//No code should be contained within these constructors
+	
+	//Return the display name of this action type
+	protected override string GetName() =&gt; &quot;My Custom Action Type&quot;;
+	
+	protected override void OnNewAction() {
+		//Initialize the config page for a new action of this type
+	}
+	
+	public override bool IsFullyConfigured() {
+		//Return whether the action is fully configured or not
+	}
+	
+	protected override bool OnConfigItemUpdate(AbstractView configViewChange) {
+		//React to changes to the action configuration
+	}
+	
+	public override string GetPrettyString() {
+		//Return a string describing the action to take
+	}
+	
+	public override bool OnRunAction() {
+		//Execute the action
+	}
+	
+	public override bool ReferencesDeviceOrFeature(int devOrFeatRef) =&gt; false;
+}
+</code></pre>
+<p>and add it to the <a class="xref" href="HomeSeer.PluginSdk.Events.ActionTypeCollection.html"><code>ActionTypeCollection</code></a> implementation in your plugin class</p>
+<pre><code class="lang-cs">protected override void Initialize() {
+    ...
+    ActionTypes.AddActionType(typeof(MyCustomActionType));
+    ...
+ }
+</code></pre>
+<h3 id="lifecycle">Lifecycle</h3>
+<p>It is important to not include any additional code in the constructors for custom action types because the lifecycle of actions is managed by the HomeSeer platform.  Methods like <a class="xref" href="HomeSeer.PluginSdk.Events.AbstractActionType.html#HomeSeer_PluginSdk_Events_AbstractActionType_OnNewAction_"><code>AbstractActionType.OnNewAction()</code></a>, <a class="xref" href="HomeSeer.PluginSdk.Events.AbstractActionType.html#HomeSeer_PluginSdk_Events_AbstractActionType_IsFullyConfigured_"><code>AbstractActionType.IsFullyConfigured()</code></a>, and <a class="xref" href="HomeSeer.PluginSdk.Events.AbstractActionType.html#HomeSeer_PluginSdk_Events_AbstractActionType_OnConfigItemUpdate_"><code>AbstractActionType.OnConfigItemUpdate(AbstractView)</code></a> are called by HomeSeer throughout the life of the action.  Include the corresponding logic for your custom action type in the relevant methods.</p>
+<p>The typical lifecycle of an action can be seen in the following diagram.</p>
+<p><img src="../images/Event_Action_Lifecycle.png" alt="Event Action Lifecycle"></p>
+<blockquote>
+<p>** Edits made to <a class="xref" href="HomeSeer.Jui.Views.InputView.html">InputViews</a> are not automatically captured like other <a class="xref" href="HomeSeer.Jui.Types.EViewType.html">ViewTypes</a> and will only call <a class="xref" href="HomeSeer.PluginSdk.Events.AbstractActionType.html#HomeSeer_PluginSdk_Events_AbstractActionType_OnConfigItemUpdate_">OnConfigItemUpdate()</a> when the user clicks the Save button.</p>
+</blockquote>
+</div>
   <br>
   <h3 id="constructors">Constructors
   </h3>
