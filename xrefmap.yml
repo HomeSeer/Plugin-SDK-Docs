@@ -7639,6 +7639,19 @@ references:
   isSpec: "True"
   fullName: HomeSeer.PluginSdk.Devices.StatusGraphic.StatusGraphic
   nameWithType: StatusGraphic.StatusGraphic
+- uid: HomeSeer.PluginSdk.Devices.StatusGraphic.Clone
+  name: Clone()
+  href: api/HomeSeer.PluginSdk.Devices.StatusGraphic.html#HomeSeer_PluginSdk_Devices_StatusGraphic_Clone
+  commentId: M:HomeSeer.PluginSdk.Devices.StatusGraphic.Clone
+  fullName: HomeSeer.PluginSdk.Devices.StatusGraphic.Clone()
+  nameWithType: StatusGraphic.Clone()
+- uid: HomeSeer.PluginSdk.Devices.StatusGraphic.Clone*
+  name: Clone
+  href: api/HomeSeer.PluginSdk.Devices.StatusGraphic.html#HomeSeer_PluginSdk_Devices_StatusGraphic_Clone_
+  commentId: Overload:HomeSeer.PluginSdk.Devices.StatusGraphic.Clone
+  isSpec: "True"
+  fullName: HomeSeer.PluginSdk.Devices.StatusGraphic.Clone
+  nameWithType: StatusGraphic.Clone
 - uid: HomeSeer.PluginSdk.Devices.StatusGraphic.ControlUse
   name: ControlUse
   href: api/HomeSeer.PluginSdk.Devices.StatusGraphic.html#HomeSeer_PluginSdk_Devices_StatusGraphic_ControlUse
@@ -7694,6 +7707,19 @@ references:
   isSpec: "True"
   fullName: HomeSeer.PluginSdk.Devices.StatusGraphic.GetLabelForValue
   nameWithType: StatusGraphic.GetLabelForValue
+- uid: HomeSeer.PluginSdk.Devices.StatusGraphic.GetTargetValue
+  name: GetTargetValue()
+  href: api/HomeSeer.PluginSdk.Devices.StatusGraphic.html#HomeSeer_PluginSdk_Devices_StatusGraphic_GetTargetValue
+  commentId: M:HomeSeer.PluginSdk.Devices.StatusGraphic.GetTargetValue
+  fullName: HomeSeer.PluginSdk.Devices.StatusGraphic.GetTargetValue()
+  nameWithType: StatusGraphic.GetTargetValue()
+- uid: HomeSeer.PluginSdk.Devices.StatusGraphic.GetTargetValue*
+  name: GetTargetValue
+  href: api/HomeSeer.PluginSdk.Devices.StatusGraphic.html#HomeSeer_PluginSdk_Devices_StatusGraphic_GetTargetValue_
+  commentId: Overload:HomeSeer.PluginSdk.Devices.StatusGraphic.GetTargetValue
+  isSpec: "True"
+  fullName: HomeSeer.PluginSdk.Devices.StatusGraphic.GetTargetValue
+  nameWithType: StatusGraphic.GetTargetValue
 - uid: HomeSeer.PluginSdk.Devices.StatusGraphic.Graphic
   name: Graphic
   href: api/HomeSeer.PluginSdk.Devices.StatusGraphic.html#HomeSeer_PluginSdk_Devices_StatusGraphic_Graphic
@@ -8001,6 +8027,19 @@ references:
   isSpec: "True"
   fullName: HomeSeer.PluginSdk.Devices.ValueRange.ValueRange
   nameWithType: ValueRange.ValueRange
+- uid: HomeSeer.PluginSdk.Devices.ValueRange.Clone
+  name: Clone()
+  href: api/HomeSeer.PluginSdk.Devices.ValueRange.html#HomeSeer_PluginSdk_Devices_ValueRange_Clone
+  commentId: M:HomeSeer.PluginSdk.Devices.ValueRange.Clone
+  fullName: HomeSeer.PluginSdk.Devices.ValueRange.Clone()
+  nameWithType: ValueRange.Clone()
+- uid: HomeSeer.PluginSdk.Devices.ValueRange.Clone*
+  name: Clone
+  href: api/HomeSeer.PluginSdk.Devices.ValueRange.html#HomeSeer_PluginSdk_Devices_ValueRange_Clone_
+  commentId: Overload:HomeSeer.PluginSdk.Devices.ValueRange.Clone
+  isSpec: "True"
+  fullName: HomeSeer.PluginSdk.Devices.ValueRange.Clone
+  nameWithType: ValueRange.Clone
 - uid: HomeSeer.PluginSdk.Devices.ValueRange.DecimalPlaces
   name: DecimalPlaces
   href: api/HomeSeer.PluginSdk.Devices.ValueRange.html#HomeSeer_PluginSdk_Devices_ValueRange_DecimalPlaces

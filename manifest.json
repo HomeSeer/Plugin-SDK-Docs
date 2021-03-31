@@ -654,7 +654,7 @@
       "output": {
         ".html": {
           "relative_path": "api/HomeSeer.PluginSdk.Devices.Controls.StatusControlCollection.html",
-          "hash": "XH0gUNYFa8ocR2+EKgl5qQ=="
+          "hash": "xM+MJWp8KXGFJkJWlRwFvg=="
         }
       },
       "is_incremental": false,
@@ -966,7 +966,7 @@
       "output": {
         ".html": {
           "relative_path": "api/HomeSeer.PluginSdk.Devices.StatusGraphic.html",
-          "hash": "blC3xvKl+Y0Kd68bHiq3yA=="
+          "hash": "YctnD26ymdHizoanXXw5ww=="
         }
       },
       "is_incremental": false,
@@ -978,7 +978,7 @@
       "output": {
         ".html": {
           "relative_path": "api/HomeSeer.PluginSdk.Devices.StatusGraphicCollection.html",
-          "hash": "sm9bA4JwhHvbaqDjvp+4sQ=="
+          "hash": "vdmcelBFXYovgcA4OHquWA=="
         }
       },
       "is_incremental": false,
@@ -990,7 +990,7 @@
       "output": {
         ".html": {
           "relative_path": "api/HomeSeer.PluginSdk.Devices.ValueRange.html",
-          "hash": "CR/ZofE0TV4QzxhhScrB/Q=="
+          "hash": "SgwsLAK6ppuKjkrr4PS5sg=="
         }
       },
       "is_incremental": false,
@@ -1971,12 +1971,24 @@
       "version": ""
     },
     {
+      "type": "Conceptual",
+      "source_relative_path": "release_notes/pluginsdk_releasenotes_1_2_4_0.md",
+      "output": {
+        ".html": {
+          "relative_path": "release_notes/pluginsdk_releasenotes_1_2_4_0.html",
+          "hash": "yk0Ru/HTzkS5CKEWXWcHAA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
       "type": "Toc",
       "source_relative_path": "release_notes/toc.yml",
       "output": {
         ".html": {
           "relative_path": "release_notes/toc.html",
-          "hash": "W/IJj8qyQdX3dLxE97ROGw=="
+          "hash": "IBFcVHI7ftqxFQQs+L1Iyg=="
         }
       },
       "is_incremental": false,
@@ -2011,17 +2023,17 @@
           "total_file_count": 0,
           "skipped_file_count": 0
         },
+        "ConceptualDocumentProcessor": {
+          "can_incremental": true,
+          "incrementalPhase": "build",
+          "total_file_count": 14,
+          "skipped_file_count": 14
+        },
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": true,
           "incrementalPhase": "build",
           "total_file_count": 149,
           "skipped_file_count": 149
-        },
-        "ConceptualDocumentProcessor": {
-          "can_incremental": true,
-          "incrementalPhase": "build",
-          "total_file_count": 13,
-          "skipped_file_count": 13
         },
         "TocDocumentProcessor": {
           "can_incremental": false,
