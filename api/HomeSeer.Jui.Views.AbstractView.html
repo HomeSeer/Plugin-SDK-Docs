@@ -153,7 +153,7 @@
   </h3>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Jui/Views/AbstractView.cs/#L52">View Source</a>
+    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Jui/Views/AbstractView.cs/#L58">View Source</a>
   </span>
   <a id="HomeSeer_Jui_Views_AbstractView__ctor_" data-uid="HomeSeer.Jui.Views.AbstractView.#ctor*"></a>
   <h4 id="HomeSeer_Jui_Views_AbstractView__ctor_System_String_" data-uid="HomeSeer.Jui.Views.AbstractView.#ctor(System.String)">AbstractView(String)</h4>
@@ -217,7 +217,7 @@
   </table>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Jui/Views/AbstractView.cs/#L66">View Source</a>
+    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Jui/Views/AbstractView.cs/#L72">View Source</a>
   </span>
   <a id="HomeSeer_Jui_Views_AbstractView__ctor_" data-uid="HomeSeer.Jui.Views.AbstractView.#ctor*"></a>
   <h4 id="HomeSeer_Jui_Views_AbstractView__ctor_System_String_System_String_" data-uid="HomeSeer.Jui.Views.AbstractView.#ctor(System.String,System.String)">AbstractView(String, String)</h4>
@@ -289,18 +289,19 @@
   </h3>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Jui/Views/AbstractView.cs/#L24">View Source</a>
+    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Jui/Views/AbstractView.cs/#L25">View Source</a>
   </span>
   <a id="HomeSeer_Jui_Views_AbstractView_Id_" data-uid="HomeSeer.Jui.Views.AbstractView.Id*"></a>
   <h4 id="HomeSeer_Jui_Views_AbstractView_Id" data-uid="HomeSeer.Jui.Views.AbstractView.Id">Id</h4>
   <div class="markdown level1 summary"><p>A unique identifier for this view.  You will need to use this to identify the view when HomeSeer
 communicates changes to its values from a client.</p>
 <p>
-For consistency and readability it is advised to use the format of COMPANY.PLUGIN.PAGE.VIEW
+Do NOT use any of the following special characters in your view id: !&quot;#$%&amp;&apos;()*+,./:;&lt;=>?@[]^`{|}~
+For consistency and readability it is advised to use the format of COMPANY-PLUGIN-PAGE-VIEW
 </p>
 <p>
 For example: a LabelView on the first settings page in the Z-Wave Plugin
-might have an id of HomeSeer.ZWave.Settings1.InterfaceName
+might have an id of HomeSeer-ZWave-Settings1-InterfaceName
 </p>
 </div>
   <div class="markdown level1 conceptual"></div>
@@ -342,7 +343,7 @@ might have an id of HomeSeer.ZWave.Settings1.InterfaceName
   </table>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Jui/Views/AbstractView.cs/#L30">View Source</a>
+    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Jui/Views/AbstractView.cs/#L31">View Source</a>
   </span>
   <a id="HomeSeer_Jui_Views_AbstractView_Name_" data-uid="HomeSeer.Jui.Views.AbstractView.Name*"></a>
   <h4 id="HomeSeer_Jui_Views_AbstractView_Name" data-uid="HomeSeer.Jui.Views.AbstractView.Name">Name</h4>
@@ -387,7 +388,7 @@ might have an id of HomeSeer.ZWave.Settings1.InterfaceName
   </table>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Jui/Views/AbstractView.cs/#L39">View Source</a>
+    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Jui/Views/AbstractView.cs/#L40">View Source</a>
   </span>
   <a id="HomeSeer_Jui_Views_AbstractView_Type_" data-uid="HomeSeer.Jui.Views.AbstractView.Type*"></a>
   <h4 id="HomeSeer_Jui_Views_AbstractView_Type" data-uid="HomeSeer.Jui.Views.AbstractView.Type">Type</h4>
@@ -437,7 +438,7 @@ This is automatically configured
   </h3>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Jui/Views/AbstractView.cs/#L127">View Source</a>
+    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Jui/Views/AbstractView.cs/#L133">View Source</a>
   </span>
   <a id="HomeSeer_Jui_Views_AbstractView_GetIndentStringFromNumber_" data-uid="HomeSeer.Jui.Views.AbstractView.GetIndentStringFromNumber*"></a>
   <h4 id="HomeSeer_Jui_Views_AbstractView_GetIndentStringFromNumber_System_Int32_" data-uid="HomeSeer.Jui.Views.AbstractView.GetIndentStringFromNumber(System.Int32)">GetIndentStringFromNumber(Int32)</h4>
@@ -501,7 +502,7 @@ This is automatically configured
   </table>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Jui/Views/AbstractView.cs/#L81">View Source</a>
+    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Jui/Views/AbstractView.cs/#L87">View Source</a>
   </span>
   <a id="HomeSeer_Jui_Views_AbstractView_GetStringValue_" data-uid="HomeSeer.Jui.Views.AbstractView.GetStringValue*"></a>
   <h4 id="HomeSeer_Jui_Views_AbstractView_GetStringValue" data-uid="HomeSeer.Jui.Views.AbstractView.GetStringValue">GetStringValue()</h4>
@@ -547,7 +548,53 @@ This is automatically configured
   </table>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Jui/Views/AbstractView.cs/#L120">View Source</a>
+    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Jui/Views/AbstractView.cs/#L148">View Source</a>
+  </span>
+  <a id="HomeSeer_Jui_Views_AbstractView_IdContainsNonAllowedCharacters_" data-uid="HomeSeer.Jui.Views.AbstractView.IdContainsNonAllowedCharacters*"></a>
+  <h4 id="HomeSeer_Jui_Views_AbstractView_IdContainsNonAllowedCharacters" data-uid="HomeSeer.Jui.Views.AbstractView.IdContainsNonAllowedCharacters">IdContainsNonAllowedCharacters()</h4>
+  <div class="markdown level1 summary"><p>Used to check if the view ID contains non-allowed characters</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="tabGroup" id="tabgroup_syntax">
+      <ul role="tablist">
+          <li role="presentation">
+              <a href="#tabpanel_syntax_cs" tabindex="0" role="tab" aria-controls="tabpanel_syntax_cs" data-tab="cs" aria-selected="true">C#</a>
+          </li>
+          <li role="presentation">
+              <a href="#tabpanel_syntax_vb" tabindex="-1" role="tab" aria-controls="tabpanel_syntax_vb" data-tab="vb">Visual Basic</a>
+          </li>
+      </ul>
+      <section id="tabpanel_syntax_cs" role="tabpanel" data-tab="cs">
+          <div class="codewrapper">
+            <pre><code class="lang-csharp hljs">public bool IdContainsNonAllowedCharacters()</code></pre>
+          </div>
+      </section>
+      <section id="tabpanel_syntax_vb" role="tabpanel" data-tab="vb" aria-hidden="true" hidden="">
+          <div class="codewrapper">
+            <pre><code class="lang-vb hljs">Public Function IdContainsNonAllowedCharacters As Boolean</code></pre>
+          </div>
+      </section>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p>True if view ID contains at least one non-allowed characters, False otherwise</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Jui/Views/AbstractView.cs/#L126">View Source</a>
   </span>
   <a id="HomeSeer_Jui_Views_AbstractView_ToHtml_" data-uid="HomeSeer.Jui.Views.AbstractView.ToHtml*"></a>
   <h4 id="HomeSeer_Jui_Views_AbstractView_ToHtml_System_Int32_" data-uid="HomeSeer.Jui.Views.AbstractView.ToHtml(System.Int32)">ToHtml(Int32)</h4>
@@ -610,7 +657,7 @@ This is automatically configured
   </table>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Jui/Views/AbstractView.cs/#L92">View Source</a>
+    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Jui/Views/AbstractView.cs/#L98">View Source</a>
   </span>
   <a id="HomeSeer_Jui_Views_AbstractView_Update_" data-uid="HomeSeer.Jui.Views.AbstractView.Update*"></a>
   <h4 id="HomeSeer_Jui_Views_AbstractView_Update_HomeSeer_Jui_Views_AbstractView_" data-uid="HomeSeer.Jui.Views.AbstractView.Update(HomeSeer.Jui.Views.AbstractView)">Update(AbstractView)</h4>
@@ -680,7 +727,7 @@ This view's ID and Type must match the calling view exactly</p>
   </table>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Jui/Views/AbstractView.cs/#L112">View Source</a>
+    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Jui/Views/AbstractView.cs/#L118">View Source</a>
   </span>
   <a id="HomeSeer_Jui_Views_AbstractView_UpdateValue_" data-uid="HomeSeer.Jui.Views.AbstractView.UpdateValue*"></a>
   <h4 id="HomeSeer_Jui_Views_AbstractView_UpdateValue_System_String_" data-uid="HomeSeer.Jui.Views.AbstractView.UpdateValue(System.String)">UpdateValue(String)</h4>

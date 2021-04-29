@@ -518,7 +518,7 @@ Override this and always return TRUE if you plan on adding settings pages to the
   <h4 id="HomeSeer_PluginSdk_AbstractPlugin_Id" data-uid="HomeSeer.PluginSdk.AbstractPlugin.Id">Id</h4>
   <div class="markdown level1 summary"><p>Unique ID for this plugin, needs to be unique for all plugins.</p>
 <p>
-Do NOT use special characters in your plugin name with the exception of &quot;-&quot; and &quot;.&quot;
+Do NOT use special characters or spaces in your plugin ID
 </p>
 </div>
   <div class="markdown level1 conceptual"></div>
@@ -560,7 +560,7 @@ Do NOT use special characters in your plugin name with the exception of &quot;-&
   </table>
   <h5 id="HomeSeer_PluginSdk_AbstractPlugin_Id_remarks">Remarks</h5>
   <div class="markdown level1 remarks"><p>The ID is used throughout the HomeSeer platform to target this plugin specifically via URL or internal code.
-HomeSeer recommends using the name your plugin (replacing any spaces with hyphens &quot;-&quot;) as the ID to make it
+It is recommended to use the name of your plugin, removing special characters and spaces, as the ID to make it
 easy to match them with one-another.</p>
 </div>
   
@@ -2622,7 +2622,7 @@ Use this if you need to process anything when the plugin settings are loaded.
     <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/AbstractPlugin.cs/#L656">View Source</a>
   </span>
   <a id="HomeSeer_PluginSdk_AbstractPlugin_PluginPropertyGet_" data-uid="HomeSeer.PluginSdk.AbstractPlugin.PluginPropertyGet*"></a>
-  <h4 id="HomeSeer_PluginSdk_AbstractPlugin_PluginPropertyGet_System_String_System_Object___" data-uid="HomeSeer.PluginSdk.AbstractPlugin.PluginPropertyGet(System.String,System.Object[])">PluginPropertyGet(String, Object[])</h4>
+  <h4 id="HomeSeer_PluginSdk_AbstractPlugin_PluginPropertyGet_System_String_" data-uid="HomeSeer.PluginSdk.AbstractPlugin.PluginPropertyGet(System.String)">PluginPropertyGet(String)</h4>
   <div class="markdown level1 summary"><p>Called by the HomeSeer system to get the value of a property by name using reflection</p>
 </div>
   <div class="markdown level1 conceptual"></div>
@@ -2638,12 +2638,12 @@ Use this if you need to process anything when the plugin settings are loaded.
       </ul>
       <section id="tabpanel_syntax_cs" role="tabpanel" data-tab="cs">
           <div class="codewrapper">
-            <pre><code class="lang-csharp hljs">public object PluginPropertyGet(string propName, object[] params)</code></pre>
+            <pre><code class="lang-csharp hljs">public object PluginPropertyGet(string propName)</code></pre>
           </div>
       </section>
       <section id="tabpanel_syntax_vb" role="tabpanel" data-tab="vb" aria-hidden="true" hidden="">
           <div class="codewrapper">
-            <pre><code class="lang-vb hljs">Public Function PluginPropertyGet(propName As String, params As Object()) As Object</code></pre>
+            <pre><code class="lang-vb hljs">Public Function PluginPropertyGet(propName As String) As Object</code></pre>
           </div>
       </section>
   </div>
@@ -2662,11 +2662,6 @@ Use this if you need to process anything when the plugin settings are loaded.
         <td><span class="parametername">propName</span></td>
         <td><p>The name of the property</p>
 </td>
-      </tr>
-      <tr>
-        <td><span class="xref">System.Object</span>[]</td>
-        <td><span class="parametername">params</span></td>
-        <td></td>
       </tr>
     </tbody>
   </table>

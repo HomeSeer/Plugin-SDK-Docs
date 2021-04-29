@@ -269,6 +269,19 @@ references:
   isSpec: "True"
   fullName: HomeSeer.Jui.Views.AbstractView.Id
   nameWithType: AbstractView.Id
+- uid: HomeSeer.Jui.Views.AbstractView.IdContainsNonAllowedCharacters
+  name: IdContainsNonAllowedCharacters()
+  href: api/HomeSeer.Jui.Views.AbstractView.html#HomeSeer_Jui_Views_AbstractView_IdContainsNonAllowedCharacters
+  commentId: M:HomeSeer.Jui.Views.AbstractView.IdContainsNonAllowedCharacters
+  fullName: HomeSeer.Jui.Views.AbstractView.IdContainsNonAllowedCharacters()
+  nameWithType: AbstractView.IdContainsNonAllowedCharacters()
+- uid: HomeSeer.Jui.Views.AbstractView.IdContainsNonAllowedCharacters*
+  name: IdContainsNonAllowedCharacters
+  href: api/HomeSeer.Jui.Views.AbstractView.html#HomeSeer_Jui_Views_AbstractView_IdContainsNonAllowedCharacters_
+  commentId: Overload:HomeSeer.Jui.Views.AbstractView.IdContainsNonAllowedCharacters
+  isSpec: "True"
+  fullName: HomeSeer.Jui.Views.AbstractView.IdContainsNonAllowedCharacters
+  nameWithType: AbstractView.IdContainsNonAllowedCharacters
 - uid: HomeSeer.Jui.Views.AbstractView.Name
   name: Name
   href: api/HomeSeer.Jui.Views.AbstractView.html#HomeSeer_Jui_Views_AbstractView_Name
@@ -2663,15 +2676,12 @@ references:
   isSpec: "True"
   fullName: HomeSeer.PluginSdk.AbstractPlugin.PluginFunction
   nameWithType: AbstractPlugin.PluginFunction
-- uid: HomeSeer.PluginSdk.AbstractPlugin.PluginPropertyGet(System.String,System.Object[])
-  name: PluginPropertyGet(String, Object[])
-  href: api/HomeSeer.PluginSdk.AbstractPlugin.html#HomeSeer_PluginSdk_AbstractPlugin_PluginPropertyGet_System_String_System_Object___
-  commentId: M:HomeSeer.PluginSdk.AbstractPlugin.PluginPropertyGet(System.String,System.Object[])
-  name.vb: PluginPropertyGet(String, Object())
-  fullName: HomeSeer.PluginSdk.AbstractPlugin.PluginPropertyGet(System.String, System.Object[])
-  fullName.vb: HomeSeer.PluginSdk.AbstractPlugin.PluginPropertyGet(System.String, System.Object())
-  nameWithType: AbstractPlugin.PluginPropertyGet(String, Object[])
-  nameWithType.vb: AbstractPlugin.PluginPropertyGet(String, Object())
+- uid: HomeSeer.PluginSdk.AbstractPlugin.PluginPropertyGet(System.String)
+  name: PluginPropertyGet(String)
+  href: api/HomeSeer.PluginSdk.AbstractPlugin.html#HomeSeer_PluginSdk_AbstractPlugin_PluginPropertyGet_System_String_
+  commentId: M:HomeSeer.PluginSdk.AbstractPlugin.PluginPropertyGet(System.String)
+  fullName: HomeSeer.PluginSdk.AbstractPlugin.PluginPropertyGet(System.String)
+  nameWithType: AbstractPlugin.PluginPropertyGet(String)
 - uid: HomeSeer.PluginSdk.AbstractPlugin.PluginPropertyGet*
   name: PluginPropertyGet
   href: api/HomeSeer.PluginSdk.AbstractPlugin.html#HomeSeer_PluginSdk_AbstractPlugin_PluginPropertyGet_
@@ -4326,6 +4336,19 @@ references:
   isSpec: "True"
   fullName: HomeSeer.PluginSdk.Devices.AbstractHsDevice.ClearMiscFlags
   nameWithType: AbstractHsDevice.ClearMiscFlags
+- uid: HomeSeer.PluginSdk.Devices.AbstractHsDevice.Code
+  name: Code
+  href: api/HomeSeer.PluginSdk.Devices.AbstractHsDevice.html#HomeSeer_PluginSdk_Devices_AbstractHsDevice_Code
+  commentId: P:HomeSeer.PluginSdk.Devices.AbstractHsDevice.Code
+  fullName: HomeSeer.PluginSdk.Devices.AbstractHsDevice.Code
+  nameWithType: AbstractHsDevice.Code
+- uid: HomeSeer.PluginSdk.Devices.AbstractHsDevice.Code*
+  name: Code
+  href: api/HomeSeer.PluginSdk.Devices.AbstractHsDevice.html#HomeSeer_PluginSdk_Devices_AbstractHsDevice_Code_
+  commentId: Overload:HomeSeer.PluginSdk.Devices.AbstractHsDevice.Code
+  isSpec: "True"
+  fullName: HomeSeer.PluginSdk.Devices.AbstractHsDevice.Code
+  nameWithType: AbstractHsDevice.Code
 - uid: HomeSeer.PluginSdk.Devices.AbstractHsDevice.ContainsMiscFlag(HomeSeer.PluginSdk.Devices.EMiscFlag)
   name: ContainsMiscFlag(EMiscFlag)
   href: api/HomeSeer.PluginSdk.Devices.AbstractHsDevice.html#HomeSeer_PluginSdk_Devices_AbstractHsDevice_ContainsMiscFlag_HomeSeer_PluginSdk_Devices_EMiscFlag_
@@ -4339,6 +4362,32 @@ references:
   isSpec: "True"
   fullName: HomeSeer.PluginSdk.Devices.AbstractHsDevice.ContainsMiscFlag
   nameWithType: AbstractHsDevice.ContainsMiscFlag
+- uid: HomeSeer.PluginSdk.Devices.AbstractHsDevice.GetAddressFromAddressString(System.String)
+  name: GetAddressFromAddressString(String)
+  href: api/HomeSeer.PluginSdk.Devices.AbstractHsDevice.html#HomeSeer_PluginSdk_Devices_AbstractHsDevice_GetAddressFromAddressString_System_String_
+  commentId: M:HomeSeer.PluginSdk.Devices.AbstractHsDevice.GetAddressFromAddressString(System.String)
+  fullName: HomeSeer.PluginSdk.Devices.AbstractHsDevice.GetAddressFromAddressString(System.String)
+  nameWithType: AbstractHsDevice.GetAddressFromAddressString(String)
+- uid: HomeSeer.PluginSdk.Devices.AbstractHsDevice.GetAddressFromAddressString*
+  name: GetAddressFromAddressString
+  href: api/HomeSeer.PluginSdk.Devices.AbstractHsDevice.html#HomeSeer_PluginSdk_Devices_AbstractHsDevice_GetAddressFromAddressString_
+  commentId: Overload:HomeSeer.PluginSdk.Devices.AbstractHsDevice.GetAddressFromAddressString
+  isSpec: "True"
+  fullName: HomeSeer.PluginSdk.Devices.AbstractHsDevice.GetAddressFromAddressString
+  nameWithType: AbstractHsDevice.GetAddressFromAddressString
+- uid: HomeSeer.PluginSdk.Devices.AbstractHsDevice.GetCodeFromAddressString(System.String)
+  name: GetCodeFromAddressString(String)
+  href: api/HomeSeer.PluginSdk.Devices.AbstractHsDevice.html#HomeSeer_PluginSdk_Devices_AbstractHsDevice_GetCodeFromAddressString_System_String_
+  commentId: M:HomeSeer.PluginSdk.Devices.AbstractHsDevice.GetCodeFromAddressString(System.String)
+  fullName: HomeSeer.PluginSdk.Devices.AbstractHsDevice.GetCodeFromAddressString(System.String)
+  nameWithType: AbstractHsDevice.GetCodeFromAddressString(String)
+- uid: HomeSeer.PluginSdk.Devices.AbstractHsDevice.GetCodeFromAddressString*
+  name: GetCodeFromAddressString
+  href: api/HomeSeer.PluginSdk.Devices.AbstractHsDevice.html#HomeSeer_PluginSdk_Devices_AbstractHsDevice_GetCodeFromAddressString_
+  commentId: Overload:HomeSeer.PluginSdk.Devices.AbstractHsDevice.GetCodeFromAddressString
+  isSpec: "True"
+  fullName: HomeSeer.PluginSdk.Devices.AbstractHsDevice.GetCodeFromAddressString
+  nameWithType: AbstractHsDevice.GetCodeFromAddressString
 - uid: HomeSeer.PluginSdk.Devices.AbstractHsDevice.GetMiscForFlags(HomeSeer.PluginSdk.Devices.EMiscFlag[])
   name: GetMiscForFlags(EMiscFlag[])
   href: api/HomeSeer.PluginSdk.Devices.AbstractHsDevice.html#HomeSeer_PluginSdk_Devices_AbstractHsDevice_GetMiscForFlags_HomeSeer_PluginSdk_Devices_EMiscFlag___
@@ -11855,6 +11904,19 @@ references:
   isSpec: "True"
   fullName: HomeSeer.PluginSdk.IHsController.GetDeviceByAddress
   nameWithType: IHsController.GetDeviceByAddress
+- uid: HomeSeer.PluginSdk.IHsController.GetDeviceByCode(System.String)
+  name: GetDeviceByCode(String)
+  href: api/HomeSeer.PluginSdk.IHsController.html#HomeSeer_PluginSdk_IHsController_GetDeviceByCode_System_String_
+  commentId: M:HomeSeer.PluginSdk.IHsController.GetDeviceByCode(System.String)
+  fullName: HomeSeer.PluginSdk.IHsController.GetDeviceByCode(System.String)
+  nameWithType: IHsController.GetDeviceByCode(String)
+- uid: HomeSeer.PluginSdk.IHsController.GetDeviceByCode*
+  name: GetDeviceByCode
+  href: api/HomeSeer.PluginSdk.IHsController.html#HomeSeer_PluginSdk_IHsController_GetDeviceByCode_
+  commentId: Overload:HomeSeer.PluginSdk.IHsController.GetDeviceByCode
+  isSpec: "True"
+  fullName: HomeSeer.PluginSdk.IHsController.GetDeviceByCode
+  nameWithType: IHsController.GetDeviceByCode
 - uid: HomeSeer.PluginSdk.IHsController.GetDeviceByRef(System.Int32)
   name: GetDeviceByRef(Int32)
   href: api/HomeSeer.PluginSdk.IHsController.html#HomeSeer_PluginSdk_IHsController_GetDeviceByRef_System_Int32_
@@ -11998,6 +12060,19 @@ references:
   isSpec: "True"
   fullName: HomeSeer.PluginSdk.IHsController.GetFeatureByAddress
   nameWithType: IHsController.GetFeatureByAddress
+- uid: HomeSeer.PluginSdk.IHsController.GetFeatureByCode(System.String)
+  name: GetFeatureByCode(String)
+  href: api/HomeSeer.PluginSdk.IHsController.html#HomeSeer_PluginSdk_IHsController_GetFeatureByCode_System_String_
+  commentId: M:HomeSeer.PluginSdk.IHsController.GetFeatureByCode(System.String)
+  fullName: HomeSeer.PluginSdk.IHsController.GetFeatureByCode(System.String)
+  nameWithType: IHsController.GetFeatureByCode(String)
+- uid: HomeSeer.PluginSdk.IHsController.GetFeatureByCode*
+  name: GetFeatureByCode
+  href: api/HomeSeer.PluginSdk.IHsController.html#HomeSeer_PluginSdk_IHsController_GetFeatureByCode_
+  commentId: Overload:HomeSeer.PluginSdk.IHsController.GetFeatureByCode
+  isSpec: "True"
+  fullName: HomeSeer.PluginSdk.IHsController.GetFeatureByCode
+  nameWithType: IHsController.GetFeatureByCode
 - uid: HomeSeer.PluginSdk.IHsController.GetFeatureByRef(System.Int32)
   name: GetFeatureByRef(Int32)
   href: api/HomeSeer.PluginSdk.IHsController.html#HomeSeer_PluginSdk_IHsController_GetFeatureByRef_System_Int32_
@@ -12625,6 +12700,32 @@ references:
   isSpec: "True"
   fullName: HomeSeer.PluginSdk.IHsController.LegacyPluginFunction
   nameWithType: IHsController.LegacyPluginFunction
+- uid: HomeSeer.PluginSdk.IHsController.LegacyPluginPropertyGet(System.String,System.String,System.String)
+  name: LegacyPluginPropertyGet(String, String, String)
+  href: api/HomeSeer.PluginSdk.IHsController.html#HomeSeer_PluginSdk_IHsController_LegacyPluginPropertyGet_System_String_System_String_System_String_
+  commentId: M:HomeSeer.PluginSdk.IHsController.LegacyPluginPropertyGet(System.String,System.String,System.String)
+  fullName: HomeSeer.PluginSdk.IHsController.LegacyPluginPropertyGet(System.String, System.String, System.String)
+  nameWithType: IHsController.LegacyPluginPropertyGet(String, String, String)
+- uid: HomeSeer.PluginSdk.IHsController.LegacyPluginPropertyGet*
+  name: LegacyPluginPropertyGet
+  href: api/HomeSeer.PluginSdk.IHsController.html#HomeSeer_PluginSdk_IHsController_LegacyPluginPropertyGet_
+  commentId: Overload:HomeSeer.PluginSdk.IHsController.LegacyPluginPropertyGet
+  isSpec: "True"
+  fullName: HomeSeer.PluginSdk.IHsController.LegacyPluginPropertyGet
+  nameWithType: IHsController.LegacyPluginPropertyGet
+- uid: HomeSeer.PluginSdk.IHsController.LegacyPluginPropertySet(System.String,System.String,System.String,System.Object)
+  name: LegacyPluginPropertySet(String, String, String, Object)
+  href: api/HomeSeer.PluginSdk.IHsController.html#HomeSeer_PluginSdk_IHsController_LegacyPluginPropertySet_System_String_System_String_System_String_System_Object_
+  commentId: M:HomeSeer.PluginSdk.IHsController.LegacyPluginPropertySet(System.String,System.String,System.String,System.Object)
+  fullName: HomeSeer.PluginSdk.IHsController.LegacyPluginPropertySet(System.String, System.String, System.String, System.Object)
+  nameWithType: IHsController.LegacyPluginPropertySet(String, String, String, Object)
+- uid: HomeSeer.PluginSdk.IHsController.LegacyPluginPropertySet*
+  name: LegacyPluginPropertySet
+  href: api/HomeSeer.PluginSdk.IHsController.html#HomeSeer_PluginSdk_IHsController_LegacyPluginPropertySet_
+  commentId: Overload:HomeSeer.PluginSdk.IHsController.LegacyPluginPropertySet
+  isSpec: "True"
+  fullName: HomeSeer.PluginSdk.IHsController.LegacyPluginPropertySet
+  nameWithType: IHsController.LegacyPluginPropertySet
 - uid: HomeSeer.PluginSdk.IHsController.PlayWavFile(System.String,System.String,System.Boolean)
   name: PlayWavFile(String, String, Boolean)
   href: api/HomeSeer.PluginSdk.IHsController.html#HomeSeer_PluginSdk_IHsController_PlayWavFile_System_String_System_String_System_Boolean_
@@ -12654,6 +12755,32 @@ references:
   isSpec: "True"
   fullName: HomeSeer.PluginSdk.IHsController.PluginFunction
   nameWithType: IHsController.PluginFunction
+- uid: HomeSeer.PluginSdk.IHsController.PluginPropertyGet(System.String,System.String)
+  name: PluginPropertyGet(String, String)
+  href: api/HomeSeer.PluginSdk.IHsController.html#HomeSeer_PluginSdk_IHsController_PluginPropertyGet_System_String_System_String_
+  commentId: M:HomeSeer.PluginSdk.IHsController.PluginPropertyGet(System.String,System.String)
+  fullName: HomeSeer.PluginSdk.IHsController.PluginPropertyGet(System.String, System.String)
+  nameWithType: IHsController.PluginPropertyGet(String, String)
+- uid: HomeSeer.PluginSdk.IHsController.PluginPropertyGet*
+  name: PluginPropertyGet
+  href: api/HomeSeer.PluginSdk.IHsController.html#HomeSeer_PluginSdk_IHsController_PluginPropertyGet_
+  commentId: Overload:HomeSeer.PluginSdk.IHsController.PluginPropertyGet
+  isSpec: "True"
+  fullName: HomeSeer.PluginSdk.IHsController.PluginPropertyGet
+  nameWithType: IHsController.PluginPropertyGet
+- uid: HomeSeer.PluginSdk.IHsController.PluginPropertySet(System.String,System.String,System.Object)
+  name: PluginPropertySet(String, String, Object)
+  href: api/HomeSeer.PluginSdk.IHsController.html#HomeSeer_PluginSdk_IHsController_PluginPropertySet_System_String_System_String_System_Object_
+  commentId: M:HomeSeer.PluginSdk.IHsController.PluginPropertySet(System.String,System.String,System.Object)
+  fullName: HomeSeer.PluginSdk.IHsController.PluginPropertySet(System.String, System.String, System.Object)
+  nameWithType: IHsController.PluginPropertySet(String, String, Object)
+- uid: HomeSeer.PluginSdk.IHsController.PluginPropertySet*
+  name: PluginPropertySet
+  href: api/HomeSeer.PluginSdk.IHsController.html#HomeSeer_PluginSdk_IHsController_PluginPropertySet_
+  commentId: Overload:HomeSeer.PluginSdk.IHsController.PluginPropertySet
+  isSpec: "True"
+  fullName: HomeSeer.PluginSdk.IHsController.PluginPropertySet
+  nameWithType: IHsController.PluginPropertySet
 - uid: HomeSeer.PluginSdk.IHsController.RaiseGenericEventCB(System.String,System.Object[],System.String)
   name: RaiseGenericEventCB(String, Object[], String)
   href: api/HomeSeer.PluginSdk.IHsController.html#HomeSeer_PluginSdk_IHsController_RaiseGenericEventCB_System_String_System_Object___System_String_
@@ -13610,15 +13737,12 @@ references:
   isSpec: "True"
   fullName: HomeSeer.PluginSdk.IPlugin.PluginFunction
   nameWithType: IPlugin.PluginFunction
-- uid: HomeSeer.PluginSdk.IPlugin.PluginPropertyGet(System.String,System.Object[])
-  name: PluginPropertyGet(String, Object[])
-  href: api/HomeSeer.PluginSdk.IPlugin.html#HomeSeer_PluginSdk_IPlugin_PluginPropertyGet_System_String_System_Object___
-  commentId: M:HomeSeer.PluginSdk.IPlugin.PluginPropertyGet(System.String,System.Object[])
-  name.vb: PluginPropertyGet(String, Object())
-  fullName: HomeSeer.PluginSdk.IPlugin.PluginPropertyGet(System.String, System.Object[])
-  fullName.vb: HomeSeer.PluginSdk.IPlugin.PluginPropertyGet(System.String, System.Object())
-  nameWithType: IPlugin.PluginPropertyGet(String, Object[])
-  nameWithType.vb: IPlugin.PluginPropertyGet(String, Object())
+- uid: HomeSeer.PluginSdk.IPlugin.PluginPropertyGet(System.String)
+  name: PluginPropertyGet(String)
+  href: api/HomeSeer.PluginSdk.IPlugin.html#HomeSeer_PluginSdk_IPlugin_PluginPropertyGet_System_String_
+  commentId: M:HomeSeer.PluginSdk.IPlugin.PluginPropertyGet(System.String)
+  fullName: HomeSeer.PluginSdk.IPlugin.PluginPropertyGet(System.String)
+  nameWithType: IPlugin.PluginPropertyGet(String)
 - uid: HomeSeer.PluginSdk.IPlugin.PluginPropertyGet*
   name: PluginPropertyGet
   href: api/HomeSeer.PluginSdk.IPlugin.html#HomeSeer_PluginSdk_IPlugin_PluginPropertyGet_

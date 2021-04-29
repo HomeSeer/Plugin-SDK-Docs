@@ -102,7 +102,7 @@
       "output": {
         ".html": {
           "relative_path": "api/HomeSeer.Jui.Views.AbstractView.html",
-          "hash": "oy/t+/fVJ/1waaWDuTkQsA=="
+          "hash": "Ci+LAJuu4iKXG5CMmHjxuw=="
         }
       },
       "is_incremental": false,
@@ -114,7 +114,7 @@
       "output": {
         ".html": {
           "relative_path": "api/HomeSeer.Jui.Views.InputView.html",
-          "hash": "mtr5M4u58yiZGd4lW/NCIA=="
+          "hash": "m4q6n1RfCZWh1jAfM6zVFQ=="
         }
       },
       "is_incremental": false,
@@ -150,7 +150,7 @@
       "output": {
         ".html": {
           "relative_path": "api/HomeSeer.Jui.Views.LabelView.html",
-          "hash": "qsXzZwHY2SmDjMrwVc2oXQ=="
+          "hash": "RUxSSZeV7/9pPmrOJ9HpOA=="
         }
       },
       "is_incremental": false,
@@ -198,7 +198,7 @@
       "output": {
         ".html": {
           "relative_path": "api/HomeSeer.Jui.Views.SelectListView.html",
-          "hash": "XOvwAuz7qv1HSumnbqBgpg=="
+          "hash": "plZYs38cHQeTDpHWLU04Kg=="
         }
       },
       "is_incremental": false,
@@ -222,7 +222,7 @@
       "output": {
         ".html": {
           "relative_path": "api/HomeSeer.Jui.Views.ToggleView.html",
-          "hash": "nwwJ9AAFndvHNt+OhE4Oqw=="
+          "hash": "k/G1okjPgu/arIBCj284Iw=="
         }
       },
       "is_incremental": false,
@@ -234,7 +234,7 @@
       "output": {
         ".html": {
           "relative_path": "api/HomeSeer.Jui.Views.ViewGroup.html",
-          "hash": "Wwr3b09E0GPIxjQvdE1SNg=="
+          "hash": "9fq3aNvJJ8Rf5ruLZOzR+A=="
         }
       },
       "is_incremental": false,
@@ -282,7 +282,7 @@
       "output": {
         ".html": {
           "relative_path": "api/HomeSeer.PluginSdk.AbstractPlugin.html",
-          "hash": "dujdUR9Pw2D7Y9+TqdLRvQ=="
+          "hash": "ZLrZIEGqgmx1XJjAua/h+Q=="
         }
       },
       "is_incremental": false,
@@ -558,7 +558,7 @@
       "output": {
         ".html": {
           "relative_path": "api/HomeSeer.PluginSdk.Devices.AbstractHsDevice.html",
-          "hash": "t0DMPRTalq9vPPKtG58e5w=="
+          "hash": "j0pXmYAFWNYFqX/sam0cuA=="
         }
       },
       "is_incremental": false,
@@ -762,7 +762,7 @@
       "output": {
         ".html": {
           "relative_path": "api/HomeSeer.PluginSdk.Devices.HsDevice.html",
-          "hash": "4MkXx+10wF+7N5BstBkgGg=="
+          "hash": "+ERPB9xjUrF1TC0bN9rTtQ=="
         }
       },
       "is_incremental": false,
@@ -774,7 +774,7 @@
       "output": {
         ".html": {
           "relative_path": "api/HomeSeer.PluginSdk.Devices.HsFeature.html",
-          "hash": "hStWMPx/UmcM6564ibIPog=="
+          "hash": "HW55CVrYwLRsDp3sXMeQ+g=="
         }
       },
       "is_incremental": false,
@@ -1506,7 +1506,7 @@
       "output": {
         ".html": {
           "relative_path": "api/HomeSeer.PluginSdk.IHsController.html",
-          "hash": "dy+jS6LAPqMhNiW41vDiww=="
+          "hash": "dZu3Uk0j1IwKY3MIKs7tww=="
         }
       },
       "is_incremental": false,
@@ -1518,7 +1518,7 @@
       "output": {
         ".html": {
           "relative_path": "api/HomeSeer.PluginSdk.IPlugin.html",
-          "hash": "rCJfxRZ0wevxIHe6L9F/7g=="
+          "hash": "Yy1APd75RZSlm3dWJ5Uoag=="
         }
       },
       "is_incremental": false,
@@ -1983,12 +1983,24 @@
       "version": ""
     },
     {
+      "type": "Conceptual",
+      "source_relative_path": "release_notes/pluginsdk_releasenotes_1_2_5_0.md",
+      "output": {
+        ".html": {
+          "relative_path": "release_notes/pluginsdk_releasenotes_1_2_5_0.html",
+          "hash": "ido2/olO0JkCD+u6cv5n5Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
       "type": "Toc",
       "source_relative_path": "release_notes/toc.yml",
       "output": {
         ".html": {
           "relative_path": "release_notes/toc.html",
-          "hash": "IBFcVHI7ftqxFQQs+L1Iyg=="
+          "hash": "sHzYdn/3FjwXDM9oR1WLtQ=="
         }
       },
       "is_incremental": false,
@@ -2016,24 +2028,24 @@
         "skipped_file_count": 0
       },
       "processors": {
-        "ResourceDocumentProcessor": {
-          "can_incremental": false,
-          "details": "Processor ResourceDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
-          "incrementalPhase": "build",
-          "total_file_count": 0,
-          "skipped_file_count": 0
-        },
         "ConceptualDocumentProcessor": {
           "can_incremental": true,
           "incrementalPhase": "build",
-          "total_file_count": 14,
-          "skipped_file_count": 14
+          "total_file_count": 15,
+          "skipped_file_count": 15
         },
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": true,
           "incrementalPhase": "build",
           "total_file_count": 149,
           "skipped_file_count": 149
+        },
+        "ResourceDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor ResourceDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "incrementalPhase": "build",
+          "total_file_count": 0,
+          "skipped_file_count": 0
         },
         "TocDocumentProcessor": {
           "can_incremental": false,

@@ -268,7 +268,7 @@ If this is TRUE, you must return valid JUI data in GetJuiSettingsPages()
   <h4 id="HomeSeer_PluginSdk_IPlugin_Id" data-uid="HomeSeer.PluginSdk.IPlugin.Id">Id</h4>
   <div class="markdown level1 summary"><p>Unique ID for this plugin, needs to be unique for all plugins.</p>
 <p>
-Do NOT use special characters in your plugin name with the exception of &quot;-&quot; and &quot;.&quot;
+Do NOT use special characters or spaces in your plugin ID
 </p>
 </div>
   <div class="markdown level1 conceptual"></div>
@@ -310,7 +310,7 @@ Do NOT use special characters in your plugin name with the exception of &quot;-&
   </table>
   <h5 id="HomeSeer_PluginSdk_IPlugin_Id_remarks">Remarks</h5>
   <div class="markdown level1 remarks"><p>The ID is used throughout the HomeSeer platform to target this plugin specifically via URL or internal code.
-HomeSeer recommends using the name your plugin (replacing any spaces with hyphens &quot;-&quot;) as the ID to make it
+It is recommended to use the name of your plugin, removing special characters and spaces, as the ID to make it
 easy to match them with one-another.</p>
 </div>
   
@@ -1646,10 +1646,10 @@ You should opt for throwing an exception that contains a detailed messaged over
   </table>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/IPlugin.cs/#L370">View Source</a>
+    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/IPlugin.cs/#L369">View Source</a>
   </span>
   <a id="HomeSeer_PluginSdk_IPlugin_PluginPropertyGet_" data-uid="HomeSeer.PluginSdk.IPlugin.PluginPropertyGet*"></a>
-  <h4 id="HomeSeer_PluginSdk_IPlugin_PluginPropertyGet_System_String_System_Object___" data-uid="HomeSeer.PluginSdk.IPlugin.PluginPropertyGet(System.String,System.Object[])">PluginPropertyGet(String, Object[])</h4>
+  <h4 id="HomeSeer_PluginSdk_IPlugin_PluginPropertyGet_System_String_" data-uid="HomeSeer.PluginSdk.IPlugin.PluginPropertyGet(System.String)">PluginPropertyGet(String)</h4>
   <div class="markdown level1 summary"><p>Called by the HomeSeer system to get the value of a property by name using reflection</p>
 </div>
   <div class="markdown level1 conceptual"></div>
@@ -1665,12 +1665,12 @@ You should opt for throwing an exception that contains a detailed messaged over
       </ul>
       <section id="tabpanel_syntax_cs" role="tabpanel" data-tab="cs">
           <div class="codewrapper">
-            <pre><code class="lang-csharp hljs">object PluginPropertyGet(string propName, object[] params)</code></pre>
+            <pre><code class="lang-csharp hljs">object PluginPropertyGet(string propName)</code></pre>
           </div>
       </section>
       <section id="tabpanel_syntax_vb" role="tabpanel" data-tab="vb" aria-hidden="true" hidden="">
           <div class="codewrapper">
-            <pre><code class="lang-vb hljs">Function PluginPropertyGet(propName As String, params As Object()) As Object</code></pre>
+            <pre><code class="lang-vb hljs">Function PluginPropertyGet(propName As String) As Object</code></pre>
           </div>
       </section>
   </div>
@@ -1689,11 +1689,6 @@ You should opt for throwing an exception that contains a detailed messaged over
         <td><span class="parametername">propName</span></td>
         <td><p>The name of the property</p>
 </td>
-      </tr>
-      <tr>
-        <td><span class="xref">System.Object</span>[]</td>
-        <td><span class="parametername">params</span></td>
-        <td></td>
       </tr>
     </tbody>
   </table>
@@ -1715,7 +1710,7 @@ You should opt for throwing an exception that contains a detailed messaged over
   </table>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/IPlugin.cs/#L376">View Source</a>
+    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/IPlugin.cs/#L375">View Source</a>
   </span>
   <a id="HomeSeer_PluginSdk_IPlugin_PluginPropertySet_" data-uid="HomeSeer.PluginSdk.IPlugin.PluginPropertySet*"></a>
   <h4 id="HomeSeer_PluginSdk_IPlugin_PluginPropertySet_System_String_System_Object_" data-uid="HomeSeer.PluginSdk.IPlugin.PluginPropertySet(System.String,System.Object)">PluginPropertySet(String, Object)</h4>
@@ -1769,7 +1764,7 @@ You should opt for throwing an exception that contains a detailed messaged over
   </table>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/IPlugin.cs/#L389">View Source</a>
+    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/IPlugin.cs/#L388">View Source</a>
   </span>
   <a id="HomeSeer_PluginSdk_IPlugin_PostBackProc_" data-uid="HomeSeer.PluginSdk.IPlugin.PostBackProc*"></a>
   <h4 id="HomeSeer_PluginSdk_IPlugin_PostBackProc_System_String_System_String_System_String_System_Int32_" data-uid="HomeSeer.PluginSdk.IPlugin.PostBackProc(System.String,System.String,System.String,System.Int32)">PostBackProc(String, String, String, Int32)</h4>
@@ -2073,7 +2068,7 @@ one for each device being controlled</p>
   </div>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/IPlugin.cs/#L426">View Source</a>
+    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/IPlugin.cs/#L425">View Source</a>
   </span>
   <a id="HomeSeer_PluginSdk_IPlugin_SpeakIn_" data-uid="HomeSeer.PluginSdk.IPlugin.SpeakIn*"></a>
   <h4 id="HomeSeer_PluginSdk_IPlugin_SpeakIn_System_Int32_System_String_System_Boolean_System_String_" data-uid="HomeSeer.PluginSdk.IPlugin.SpeakIn(System.Int32,System.String,System.Boolean,System.String)">SpeakIn(Int32, String, Boolean, String)</h4>
