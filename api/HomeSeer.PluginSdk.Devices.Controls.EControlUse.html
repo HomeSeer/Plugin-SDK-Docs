@@ -10,7 +10,7 @@
     <meta name="viewport" content="width=device-width">
     <meta name="title" content="Enum EControlUse
    | HomeSeer PluginSdk Docs ">
-    <meta name="generator" content="docfx 2.49.0.0">
+    <meta name="generator" content="docfx 2.58.0.0">
     
     <link rel="shortcut icon" href="../images/favicon.ico">
     <link rel="stylesheet" href="../styles/docfx.vendor.css">
@@ -62,11 +62,11 @@
       <div class="container body-content">
         
         <div id="search-results">
-          <div class="search-list"></div>
+          <div class="search-list">Search Results for <span></span></div>
           <div class="sr-items">
             <p><i class="glyphicon glyphicon-refresh index-loading"></i></p>
           </div>
-          <ul id="pagination"></ul>
+          <ul id="pagination" data-first="First" data-prev="Previous" data-next="Next" data-last="Last"></ul>
         </div>
       </div>
       <div role="main" class="container-fluid body-content hide-when-search">
@@ -111,9 +111,14 @@
   </div>
   <hr>
   <br>
-  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 summary"><p>Defines what a <a class="xref" href="HomeSeer.PluginSdk.Devices.Controls.StatusControl.html">StatusControl</a> is used for.</p>
+</div>
   <div class="markdown level0 conceptual"></div>
   <br>
+  <h5 id="HomeSeer_PluginSdk_Devices_Controls_EControlUse_remarks"><strong>Remarks</strong></h5>
+  <div class="markdown level0 remarks"><p>This is primarily used to improve integrations with 3rd-party systems.
+It helps determine how a control is used within the context of the owning <a class="xref" href="HomeSeer.PluginSdk.Devices.HsFeature.html">HsFeature</a>.</p>
+</div>
   <h3 id="fields">Fields
   </h3>
   <table class="table table-bordered table-striped table-condensed">
@@ -126,139 +131,173 @@
     <tbody>
       <tr>
         <td id="HomeSeer_PluginSdk_Devices_Controls_EControlUse_ColorControl">ColorControl</td>
-        <td></td>
+        <td><p>This control is used to adjust the color of a feature.</p>
+</td>
       </tr>
       <tr>
         <td id="HomeSeer_PluginSdk_Devices_Controls_EControlUse_ContactActive">ContactActive</td>
-        <td></td>
+        <td><p>Used for integrations to represent a status indicating a contact sensor triggering.</p>
+</td>
       </tr>
       <tr>
         <td id="HomeSeer_PluginSdk_Devices_Controls_EControlUse_ContactInActive">ContactInActive</td>
-        <td></td>
+        <td><p>Used for integrations to represent a status indicating a contact sensor being reset.</p>
+</td>
       </tr>
       <tr>
         <td id="HomeSeer_PluginSdk_Devices_Controls_EControlUse_CoolSetPoint">CoolSetPoint</td>
-        <td></td>
+        <td><p>This control is used to set the desired temperature when cooling.</p>
+</td>
       </tr>
       <tr>
         <td id="HomeSeer_PluginSdk_Devices_Controls_EControlUse_Dim">Dim</td>
-        <td></td>
+        <td><p>This control is used to adjust the brightness of a light.</p>
+</td>
       </tr>
       <tr>
         <td id="HomeSeer_PluginSdk_Devices_Controls_EControlUse_DimFan">DimFan</td>
-        <td></td>
+        <td><p>This control is used to adjust the rate for a fan.</p>
+</td>
       </tr>
       <tr>
         <td id="HomeSeer_PluginSdk_Devices_Controls_EControlUse_DoorLock">DoorLock</td>
-        <td></td>
+        <td><p>This control is used to lock a door.</p>
+</td>
       </tr>
       <tr>
         <td id="HomeSeer_PluginSdk_Devices_Controls_EControlUse_DoorUnLock">DoorUnLock</td>
-        <td></td>
+        <td><p>This control is used to unlock a door.</p>
+</td>
       </tr>
       <tr>
         <td id="HomeSeer_PluginSdk_Devices_Controls_EControlUse_Forward">Forward</td>
-        <td></td>
+        <td><p>This control is used to fast-forward media playback.</p>
+</td>
       </tr>
       <tr>
         <td id="HomeSeer_PluginSdk_Devices_Controls_EControlUse_HeatSetPoint">HeatSetPoint</td>
-        <td></td>
+        <td><p>This control is used to set the desired temperature when heating.</p>
+</td>
       </tr>
       <tr>
         <td id="HomeSeer_PluginSdk_Devices_Controls_EControlUse_MotionActive">MotionActive</td>
-        <td></td>
+        <td><p>Used for integrations to represent a status indicating active motion.</p>
+</td>
       </tr>
       <tr>
         <td id="HomeSeer_PluginSdk_Devices_Controls_EControlUse_MotionInActive">MotionInActive</td>
-        <td></td>
+        <td><p>Used for integrations to represent a status indicating a motion sensor resetting to idle.</p>
+</td>
       </tr>
       <tr>
         <td id="HomeSeer_PluginSdk_Devices_Controls_EControlUse_Mute">Mute</td>
-        <td></td>
+        <td><p>This control is used to mute media playback.</p>
+</td>
       </tr>
       <tr>
         <td id="HomeSeer_PluginSdk_Devices_Controls_EControlUse_MuteToggle">MuteToggle</td>
-        <td></td>
+        <td><p>This control is used to mute or un-mute media playback.</p>
+</td>
       </tr>
       <tr>
         <td id="HomeSeer_PluginSdk_Devices_Controls_EControlUse_Next">Next</td>
-        <td></td>
+        <td><p>This control is used to advance to the next track available for playback.</p>
+</td>
       </tr>
       <tr>
         <td id="HomeSeer_PluginSdk_Devices_Controls_EControlUse_NotSpecified">NotSpecified</td>
-        <td></td>
+        <td><p>Default use. The control's use is not defined.</p>
+</td>
       </tr>
       <tr>
         <td id="HomeSeer_PluginSdk_Devices_Controls_EControlUse_Off">Off</td>
-        <td></td>
+        <td><p>This control is used to turn something off.</p>
+</td>
       </tr>
       <tr>
         <td id="HomeSeer_PluginSdk_Devices_Controls_EControlUse_On">On</td>
-        <td></td>
+        <td><p>This control is used to turn something on.</p>
+</td>
       </tr>
       <tr>
         <td id="HomeSeer_PluginSdk_Devices_Controls_EControlUse_OnAlternate">OnAlternate</td>
-        <td></td>
+        <td><p>This control is used as an alternative command to turn something on.</p>
+</td>
       </tr>
       <tr>
         <td id="HomeSeer_PluginSdk_Devices_Controls_EControlUse_Pause">Pause</td>
-        <td></td>
+        <td><p>This control is used to pause media playback.</p>
+</td>
       </tr>
       <tr>
         <td id="HomeSeer_PluginSdk_Devices_Controls_EControlUse_Play">Play</td>
-        <td></td>
+        <td><p>This control is used to play media.</p>
+</td>
       </tr>
       <tr>
         <td id="HomeSeer_PluginSdk_Devices_Controls_EControlUse_Previous">Previous</td>
-        <td></td>
+        <td><p>This control is used to select the previous track for media playback.</p>
+</td>
       </tr>
       <tr>
         <td id="HomeSeer_PluginSdk_Devices_Controls_EControlUse_Repeat">Repeat</td>
-        <td></td>
+        <td><p>This control is used to repeat media playback.</p>
+</td>
       </tr>
       <tr>
         <td id="HomeSeer_PluginSdk_Devices_Controls_EControlUse_Rewind">Rewind</td>
-        <td></td>
+        <td><p>This control is used to rewind media playback.</p>
+</td>
       </tr>
       <tr>
         <td id="HomeSeer_PluginSdk_Devices_Controls_EControlUse_Shuffle">Shuffle</td>
-        <td></td>
+        <td><p>This control is used to shuffle the media playback.</p>
+</td>
       </tr>
       <tr>
         <td id="HomeSeer_PluginSdk_Devices_Controls_EControlUse_Stop">Stop</td>
-        <td></td>
+        <td><p>This control is used to stop media playback.</p>
+</td>
       </tr>
       <tr>
         <td id="HomeSeer_PluginSdk_Devices_Controls_EControlUse_ThermFanAuto">ThermFanAuto</td>
-        <td></td>
+        <td><p>This control is used to set the fan mode for a thermostat to auto.</p>
+</td>
       </tr>
       <tr>
         <td id="HomeSeer_PluginSdk_Devices_Controls_EControlUse_ThermFanOn">ThermFanOn</td>
-        <td></td>
+        <td><p>This control is used to set the fan mode for a thermostat to on.</p>
+</td>
       </tr>
       <tr>
         <td id="HomeSeer_PluginSdk_Devices_Controls_EControlUse_ThermModeAuto">ThermModeAuto</td>
-        <td></td>
+        <td><p>This control is used to set the thermostat operation mode to auto.</p>
+</td>
       </tr>
       <tr>
         <td id="HomeSeer_PluginSdk_Devices_Controls_EControlUse_ThermModeCool">ThermModeCool</td>
-        <td></td>
+        <td><p>This control is used to set the thermostat operation mode to cool.</p>
+</td>
       </tr>
       <tr>
         <td id="HomeSeer_PluginSdk_Devices_Controls_EControlUse_ThermModeHeat">ThermModeHeat</td>
-        <td></td>
+        <td><p>This control is used to set the thermostat operation mode to heat.</p>
+</td>
       </tr>
       <tr>
         <td id="HomeSeer_PluginSdk_Devices_Controls_EControlUse_ThermModeOff">ThermModeOff</td>
-        <td></td>
+        <td><p>This control is used to set the thermostat operation mode to off.</p>
+</td>
       </tr>
       <tr>
         <td id="HomeSeer_PluginSdk_Devices_Controls_EControlUse_UnMute">UnMute</td>
-        <td></td>
+        <td><p>This control is used to un-mute media playback.</p>
+</td>
       </tr>
       <tr>
         <td id="HomeSeer_PluginSdk_Devices_Controls_EControlUse_Volume">Volume</td>
-        <td></td>
+        <td><p>This control is used to adjust the volume of media playback.</p>
+</td>
       </tr>
     </tbody>
   </thead></thead></table>
@@ -270,12 +309,13 @@
             <div class="contribution">
               <ul class="nav">
                 <li>
-                  <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Devices/Controls/EControlUse.cs/#L3" class="contribution-link">View Source</a>
+                  <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Devices/Controls/EControlUse.cs/#L13" class="contribution-link">View Source</a>
                 </li>
               </ul>
             </div>
             <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
-            <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              <h5>In This Article</h5>
+              <div></div>
             </nav>
           </div>
         </div>

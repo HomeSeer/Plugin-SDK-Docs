@@ -10,7 +10,7 @@
     <meta name="viewport" content="width=device-width">
     <meta name="title" content="Enum EThermostatControlFeatureSubType
    | HomeSeer PluginSdk Docs ">
-    <meta name="generator" content="docfx 2.49.0.0">
+    <meta name="generator" content="docfx 2.58.0.0">
     
     <link rel="shortcut icon" href="../images/favicon.ico">
     <link rel="stylesheet" href="../styles/docfx.vendor.css">
@@ -62,11 +62,11 @@
       <div class="container body-content">
         
         <div id="search-results">
-          <div class="search-list"></div>
+          <div class="search-list">Search Results for <span></span></div>
           <div class="sr-items">
             <p><i class="glyphicon glyphicon-refresh index-loading"></i></p>
           </div>
-          <ul id="pagination"></ul>
+          <ul id="pagination" data-first="First" data-prev="Previous" data-next="Next" data-last="Last"></ul>
         </div>
       </div>
       <div role="main" class="container-fluid body-content hide-when-search">
@@ -111,9 +111,24 @@
   </div>
   <hr>
   <br>
-  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 summary"><p>The specific use of a <a class="xref" href="HomeSeer.PluginSdk.Devices.Identification.EFeatureType.html#HomeSeer_PluginSdk_Devices_Identification_EFeatureType_ThermostatControl">ThermostatControl</a> <a class="xref" href="HomeSeer.PluginSdk.Devices.HsFeature.html">HsFeature</a></p>
+</div>
   <div class="markdown level0 conceptual"></div>
   <br>
+  <h5 id="HomeSeer_PluginSdk_Devices_Identification_EThermostatControlFeatureSubType_remarks"><strong>Remarks</strong></h5>
+  <div class="markdown level0 remarks"><p>
+This is used to render Thermostat specific UI components and for integration with systems like Google Home, Amazon, and IFTTT.
+</p>
+<p>
+There is some overlap with <a class="xref" href="HomeSeer.PluginSdk.Devices.Controls.EControlUse.html">EControlUse</a>. To ensure compatibility in all contexts you should make sure
+ both the <a class="xref" href="HomeSeer.PluginSdk.Devices.HsFeature.html">HsFeature</a> and the appropriate <a class="xref" href="HomeSeer.PluginSdk.Devices.Controls.StatusControl.html">StatusControl</a>s of that <a class="xref" href="HomeSeer.PluginSdk.Devices.HsFeature.html">HsFeature</a>
+ are set with a matching <a class="xref" href="HomeSeer.PluginSdk.Devices.Identification.EThermostatControlFeatureSubType.html">EThermostatControlFeatureSubType</a> and <a class="xref" href="HomeSeer.PluginSdk.Devices.Controls.EControlUse.html">EControlUse</a>.
+ Some systems analyze the <a class="xref" href="HomeSeer.PluginSdk.Devices.HsFeature.html">HsFeature</a> to determine how it is used and some analyze the <a class="xref" href="HomeSeer.PluginSdk.Devices.Controls.StatusControl.html">StatusControl</a>.
+</p>
+<p>
+Not all thermostats are the same and most do not utilize all of these features. Use only the ones you need.
+</p>
+</div>
   <h3 id="fields">Fields
   </h3>
   <table class="table table-bordered table-striped table-condensed">
@@ -126,59 +141,79 @@
     <tbody>
       <tr>
         <td id="HomeSeer_PluginSdk_Devices_Identification_EThermostatControlFeatureSubType_AutoChangeoverSetPoint">AutoChangeoverSetPoint</td>
-        <td></td>
+        <td><p>This <a class="xref" href="HomeSeer.PluginSdk.Devices.HsFeature.html">HsFeature</a> is used to control the temperature at which the system will switch between
+heating and cooling.</p>
+</td>
       </tr>
       <tr>
         <td id="HomeSeer_PluginSdk_Devices_Identification_EThermostatControlFeatureSubType_CoolingSetPoint">CoolingSetPoint</td>
-        <td></td>
+        <td><p>This <a class="xref" href="HomeSeer.PluginSdk.Devices.HsFeature.html">HsFeature</a> is used to control the desired temperature when the thermostat is cooling.</p>
+</td>
       </tr>
       <tr>
         <td id="HomeSeer_PluginSdk_Devices_Identification_EThermostatControlFeatureSubType_DryAirSetPoint">DryAirSetPoint</td>
-        <td></td>
+        <td><p>This <a class="xref" href="HomeSeer.PluginSdk.Devices.HsFeature.html">HsFeature</a> is used to control the temperature at which the A/C will switch off to stop
+drying the air.</p>
+</td>
       </tr>
       <tr>
         <td id="HomeSeer_PluginSdk_Devices_Identification_EThermostatControlFeatureSubType_EnergySaveCool">EnergySaveCool</td>
-        <td></td>
+        <td><p>This <a class="xref" href="HomeSeer.PluginSdk.Devices.HsFeature.html">HsFeature</a> is used to control the desired temperature when the thermostat is cooling and
+in energy save mode.</p>
+</td>
       </tr>
       <tr>
         <td id="HomeSeer_PluginSdk_Devices_Identification_EThermostatControlFeatureSubType_EnergySaveHeat">EnergySaveHeat</td>
-        <td></td>
+        <td><p>This <a class="xref" href="HomeSeer.PluginSdk.Devices.HsFeature.html">HsFeature</a> is used to control the desired temperature when the thermostat is heating and
+in energy save mode.</p>
+</td>
       </tr>
       <tr>
         <td id="HomeSeer_PluginSdk_Devices_Identification_EThermostatControlFeatureSubType_FanModeSet">FanModeSet</td>
-        <td></td>
+        <td><p>This <a class="xref" href="HomeSeer.PluginSdk.Devices.HsFeature.html">HsFeature</a> is used to control the fan mode of the thermostat.</p>
+</td>
       </tr>
       <tr>
         <td id="HomeSeer_PluginSdk_Devices_Identification_EThermostatControlFeatureSubType_FurnaceSetPoint">FurnaceSetPoint</td>
-        <td></td>
+        <td><p>This <a class="xref" href="HomeSeer.PluginSdk.Devices.HsFeature.html">HsFeature</a> is used to control the temperature of the furnace connected to a thermostat.</p>
+</td>
       </tr>
       <tr>
         <td id="HomeSeer_PluginSdk_Devices_Identification_EThermostatControlFeatureSubType_HeatingAwaySetPoint">HeatingAwaySetPoint</td>
-        <td></td>
+        <td><p>This <a class="xref" href="HomeSeer.PluginSdk.Devices.HsFeature.html">HsFeature</a> is used to control the temperature to maintain the system at when in away mode.</p>
+</td>
       </tr>
       <tr>
         <td id="HomeSeer_PluginSdk_Devices_Identification_EThermostatControlFeatureSubType_HeatingSetPoint">HeatingSetPoint</td>
-        <td></td>
+        <td><p>This <a class="xref" href="HomeSeer.PluginSdk.Devices.HsFeature.html">HsFeature</a> is used to control the desired temperature when the thermostat is heating.</p>
+</td>
       </tr>
       <tr>
         <td id="HomeSeer_PluginSdk_Devices_Identification_EThermostatControlFeatureSubType_HoldMode">HoldMode</td>
-        <td></td>
+        <td><p>This <a class="xref" href="HomeSeer.PluginSdk.Devices.HsFeature.html">HsFeature</a> is used to control whether the thermostat is in hold mode or not.</p>
+</td>
       </tr>
       <tr>
         <td id="HomeSeer_PluginSdk_Devices_Identification_EThermostatControlFeatureSubType_ModeSet">ModeSet</td>
-        <td></td>
+        <td><p>This <a class="xref" href="HomeSeer.PluginSdk.Devices.HsFeature.html">HsFeature</a> is used to control the operation mode of the thermostat.</p>
+</td>
       </tr>
       <tr>
         <td id="HomeSeer_PluginSdk_Devices_Identification_EThermostatControlFeatureSubType_MoistAirSetPoint">MoistAirSetPoint</td>
-        <td></td>
+        <td><p>This <a class="xref" href="HomeSeer.PluginSdk.Devices.HsFeature.html">HsFeature</a> is used to control the temperature at which the A/C will switch on to start
+drying the air.</p>
+</td>
       </tr>
       <tr>
         <td id="HomeSeer_PluginSdk_Devices_Identification_EThermostatControlFeatureSubType_OperatingMode">OperatingMode</td>
-        <td></td>
+        <td><p>This <a class="xref" href="HomeSeer.PluginSdk.Devices.HsFeature.html">HsFeature</a> is used to report the current operating mode of the thermostat.</p>
+</td>
       </tr>
       <tr>
         <td id="HomeSeer_PluginSdk_Devices_Identification_EThermostatControlFeatureSubType_Setback">Setback</td>
-        <td></td>
+        <td><p>This <a class="xref" href="HomeSeer.PluginSdk.Devices.HsFeature.html">HsFeature</a> is used to control hold the setpoints at a specific temperature until
+reset by the thermostat.</p>
+</td>
       </tr>
     </tbody>
   </thead></thead></table>
@@ -190,12 +225,13 @@
             <div class="contribution">
               <ul class="nav">
                 <li>
-                  <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Devices/Identification/EThermostatControlFeatureSubType.cs/#L3" class="contribution-link">View Source</a>
+                  <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Devices/Identification/EThermostatControlFeatureSubType.cs/#L23" class="contribution-link">View Source</a>
                 </li>
               </ul>
             </div>
             <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
-            <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              <h5>In This Article</h5>
+              <div></div>
             </nav>
           </div>
         </div>

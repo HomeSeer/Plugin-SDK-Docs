@@ -10,7 +10,7 @@
     <meta name="viewport" content="width=device-width">
     <meta name="title" content="Class ValueRange
    | HomeSeer PluginSdk Docs ">
-    <meta name="generator" content="docfx 2.49.0.0">
+    <meta name="generator" content="docfx 2.58.0.0">
     
     <link rel="shortcut icon" href="../images/favicon.ico">
     <link rel="stylesheet" href="../styles/docfx.vendor.css">
@@ -62,11 +62,11 @@
       <div class="container body-content">
         
         <div id="search-results">
-          <div class="search-list"></div>
+          <div class="search-list">Search Results for <span></span></div>
           <div class="sr-items">
             <p><i class="glyphicon glyphicon-refresh index-loading"></i></p>
           </div>
-          <ul id="pagination"></ul>
+          <ul id="pagination" data-first="First" data-prev="Previous" data-next="Next" data-last="Last"></ul>
         </div>
       </div>
       <div role="main" class="container-fluid body-content hide-when-search">
@@ -146,7 +146,7 @@ Public Class ValueRange</code></pre>
   </h3>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Devices/ValueRange.cs/#L30">View Source</a>
+    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Devices/ValueRange.cs/#L32">View Source</a>
   </span>
   <a id="HomeSeer_PluginSdk_Devices_ValueRange__ctor_" data-uid="HomeSeer.PluginSdk.Devices.ValueRange.#ctor*"></a>
   <h4 id="HomeSeer_PluginSdk_Devices_ValueRange__ctor_System_Double_System_Double_" data-uid="HomeSeer.PluginSdk.Devices.ValueRange.#ctor(System.Double,System.Double)">ValueRange(Double, Double)</h4>
@@ -198,11 +198,27 @@ Public Class ValueRange</code></pre>
       </tr>
     </tbody>
   </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentException</span></td>
+        <td><p>Thrown when <code data-dev-comment-type="paramref" class="paramref">min</code> is less than <code data-dev-comment-type="paramref" class="paramref">max</code></p>
+</td>
+      </tr>
+    </tbody>
+  </table>
   <h3 id="properties">Properties
   </h3>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Devices/ValueRange.cs/#L89">View Source</a>
+    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Devices/ValueRange.cs/#L94">View Source</a>
   </span>
   <a id="HomeSeer_PluginSdk_Devices_ValueRange_DecimalPlaces_" data-uid="HomeSeer.PluginSdk.Devices.ValueRange.DecimalPlaces*"></a>
   <h4 id="HomeSeer_PluginSdk_Devices_ValueRange_DecimalPlaces" data-uid="HomeSeer.PluginSdk.Devices.ValueRange.DecimalPlaces">DecimalPlaces</h4>
@@ -263,7 +279,7 @@ Public Class ValueRange</code></pre>
   </table>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Devices/ValueRange.cs/#L63">View Source</a>
+    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Devices/ValueRange.cs/#L68">View Source</a>
   </span>
   <a id="HomeSeer_PluginSdk_Devices_ValueRange_Max_" data-uid="HomeSeer.PluginSdk.Devices.ValueRange.Max*"></a>
   <h4 id="HomeSeer_PluginSdk_Devices_ValueRange_Max" data-uid="HomeSeer.PluginSdk.Devices.ValueRange.Max">Max</h4>
@@ -324,7 +340,7 @@ Public Class ValueRange</code></pre>
   </table>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Devices/ValueRange.cs/#L48">View Source</a>
+    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Devices/ValueRange.cs/#L53">View Source</a>
   </span>
   <a id="HomeSeer_PluginSdk_Devices_ValueRange_Min_" data-uid="HomeSeer.PluginSdk.Devices.ValueRange.Min*"></a>
   <h4 id="HomeSeer_PluginSdk_Devices_ValueRange_Min" data-uid="HomeSeer.PluginSdk.Devices.ValueRange.Min">Min</h4>
@@ -385,7 +401,7 @@ Public Class ValueRange</code></pre>
   </table>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Devices/ValueRange.cs/#L78">View Source</a>
+    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Devices/ValueRange.cs/#L83">View Source</a>
   </span>
   <a id="HomeSeer_PluginSdk_Devices_ValueRange_Offset_" data-uid="HomeSeer.PluginSdk.Devices.ValueRange.Offset*"></a>
   <h4 id="HomeSeer_PluginSdk_Devices_ValueRange_Offset" data-uid="HomeSeer.PluginSdk.Devices.ValueRange.Offset">Offset</h4>
@@ -433,7 +449,7 @@ E.G. A value of 501 will be displayed as 1 with an offset of 500
   </table>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Devices/ValueRange.cs/#L101">View Source</a>
+    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Devices/ValueRange.cs/#L106">View Source</a>
   </span>
   <a id="HomeSeer_PluginSdk_Devices_ValueRange_Prefix_" data-uid="HomeSeer.PluginSdk.Devices.ValueRange.Prefix*"></a>
   <h4 id="HomeSeer_PluginSdk_Devices_ValueRange_Prefix" data-uid="HomeSeer.PluginSdk.Devices.ValueRange.Prefix">Prefix</h4>
@@ -478,7 +494,7 @@ E.G. A value of 501 will be displayed as 1 with an offset of 500
   </table>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Devices/ValueRange.cs/#L109">View Source</a>
+    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Devices/ValueRange.cs/#L114">View Source</a>
   </span>
   <a id="HomeSeer_PluginSdk_Devices_ValueRange_Suffix_" data-uid="HomeSeer.PluginSdk.Devices.ValueRange.Suffix*"></a>
   <h4 id="HomeSeer_PluginSdk_Devices_ValueRange_Suffix" data-uid="HomeSeer.PluginSdk.Devices.ValueRange.Suffix">Suffix</h4>
@@ -525,7 +541,7 @@ E.G. A value of 501 will be displayed as 1 with an offset of 500
   </h3>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Devices/ValueRange.cs/#L118">View Source</a>
+    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Devices/ValueRange.cs/#L123">View Source</a>
   </span>
   <a id="HomeSeer_PluginSdk_Devices_ValueRange_Clone_" data-uid="HomeSeer.PluginSdk.Devices.ValueRange.Clone*"></a>
   <h4 id="HomeSeer_PluginSdk_Devices_ValueRange_Clone" data-uid="HomeSeer.PluginSdk.Devices.ValueRange.Clone">Clone()</h4>
@@ -571,11 +587,12 @@ E.G. A value of 501 will be displayed as 1 with an offset of 500
   </table>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Devices/ValueRange.cs/#L151">View Source</a>
+    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Devices/ValueRange.cs/#L165">View Source</a>
   </span>
   <a id="HomeSeer_PluginSdk_Devices_ValueRange_Equals_" data-uid="HomeSeer.PluginSdk.Devices.ValueRange.Equals*"></a>
   <h4 id="HomeSeer_PluginSdk_Devices_ValueRange_Equals_System_Object_" data-uid="HomeSeer.PluginSdk.Devices.ValueRange.Equals(System.Object)">Equals(Object)</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Compare this object with another to see if they are equal</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="tabGroup" id="tabgroup_syntax">
@@ -611,7 +628,8 @@ E.G. A value of 501 will be displayed as 1 with an offset of 500
       <tr>
         <td><span class="xref">System.Object</span></td>
         <td><span class="parametername">obj</span></td>
-        <td></td>
+        <td><p>The object to compare</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -626,7 +644,8 @@ E.G. A value of 501 will be displayed as 1 with an offset of 500
     <tbody>
       <tr>
         <td><span class="xref">System.Boolean</span></td>
-        <td></td>
+        <td><p>True if they are equal, False if they are not</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -634,11 +653,12 @@ E.G. A value of 501 will be displayed as 1 with an offset of 500
   <div><span class="xref">System.Object.Equals(System.Object)</span></div>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Devices/ValueRange.cs/#L185">View Source</a>
+    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Devices/ValueRange.cs/#L203">View Source</a>
   </span>
   <a id="HomeSeer_PluginSdk_Devices_ValueRange_GetHashCode_" data-uid="HomeSeer.PluginSdk.Devices.ValueRange.GetHashCode*"></a>
   <h4 id="HomeSeer_PluginSdk_Devices_ValueRange_GetHashCode" data-uid="HomeSeer.PluginSdk.Devices.ValueRange.GetHashCode">GetHashCode()</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Get the hash code</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="tabGroup" id="tabgroup_syntax">
@@ -672,7 +692,8 @@ E.G. A value of 501 will be displayed as 1 with an offset of 500
     <tbody>
       <tr>
         <td><span class="xref">System.Int32</span></td>
-        <td></td>
+        <td><p>A hash code based on the <a class="xref" href="HomeSeer.PluginSdk.Devices.ValueRange.html#HomeSeer_PluginSdk_Devices_ValueRange_Min">Min</a> and <a class="xref" href="HomeSeer.PluginSdk.Devices.ValueRange.html#HomeSeer_PluginSdk_Devices_ValueRange_Max">Max</a> value</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -680,7 +701,7 @@ E.G. A value of 501 will be displayed as 1 with an offset of 500
   <div><span class="xref">System.Object.GetHashCode()</span></div>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Devices/ValueRange.cs/#L133">View Source</a>
+    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Devices/ValueRange.cs/#L142">View Source</a>
   </span>
   <a id="HomeSeer_PluginSdk_Devices_ValueRange_GetStringForValue_" data-uid="HomeSeer.PluginSdk.Devices.ValueRange.GetStringForValue*"></a>
   <h4 id="HomeSeer_PluginSdk_Devices_ValueRange_GetStringForValue_System_Double_" data-uid="HomeSeer.PluginSdk.Devices.ValueRange.GetStringForValue(System.Double)">GetStringForValue(Double)</h4>
@@ -742,9 +763,12 @@ E.G. A value of 501 will be displayed as 1 with an offset of 500
       </tr>
     </tbody>
   </table>
+  <h5 id="HomeSeer_PluginSdk_Devices_ValueRange_GetStringForValue_System_Double__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>This returns <code>$&quot;{_prefix}{(value - _offset).ToString($&quot;F{_decimalPlaces}&quot;)}{_suffix}&quot;</code></p>
+</div>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Devices/ValueRange.cs/#L147">View Source</a>
+    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Devices/ValueRange.cs/#L156">View Source</a>
   </span>
   <a id="HomeSeer_PluginSdk_Devices_ValueRange_IsValueInRange_" data-uid="HomeSeer.PluginSdk.Devices.ValueRange.IsValueInRange*"></a>
   <h4 id="HomeSeer_PluginSdk_Devices_ValueRange_IsValueInRange_System_Double_" data-uid="HomeSeer.PluginSdk.Devices.ValueRange.IsValueInRange(System.Double)">IsValueInRange(Double)</h4>
@@ -815,12 +839,13 @@ FALSE if it is not</p>
             <div class="contribution">
               <ul class="nav">
                 <li>
-                  <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Devices/ValueRange.cs/#L10" class="contribution-link">View Source</a>
+                  <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Devices/ValueRange.cs/#L11" class="contribution-link">View Source</a>
                 </li>
               </ul>
             </div>
             <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
-            <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              <h5>In This Article</h5>
+              <div></div>
             </nav>
           </div>
         </div>

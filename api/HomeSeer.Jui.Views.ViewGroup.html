@@ -10,7 +10,7 @@
     <meta name="viewport" content="width=device-width">
     <meta name="title" content="Class ViewGroup
    | HomeSeer PluginSdk Docs ">
-    <meta name="generator" content="docfx 2.49.0.0">
+    <meta name="generator" content="docfx 2.58.0.0">
     
     <link rel="shortcut icon" href="../images/favicon.ico">
     <link rel="stylesheet" href="../styles/docfx.vendor.css">
@@ -62,11 +62,11 @@
       <div class="container body-content">
         
         <div id="search-results">
-          <div class="search-list"></div>
+          <div class="search-list">Search Results for <span></span></div>
           <div class="sr-items">
             <p><i class="glyphicon glyphicon-refresh index-loading"></i></p>
           </div>
-          <ul id="pagination"></ul>
+          <ul id="pagination" data-first="First" data-prev="Previous" data-next="Next" data-last="Last"></ul>
         </div>
       </div>
       <div role="main" class="container-fluid body-content hide-when-search">
@@ -111,6 +111,7 @@
     <div class="level0"><span class="xref">System.Object</span></div>
     <div class="level1"><a class="xref" href="HomeSeer.Jui.Views.AbstractView.html">AbstractView</a></div>
     <div class="level2"><span class="xref">ViewGroup</span></div>
+      <div class="level3"><a class="xref" href="HomeSeer.Jui.Views.GridView.html">GridView</a></div>
   </div>
   <div class="inheritedMembers">
     <h5>Inherited Members</h5>
@@ -461,12 +462,12 @@ Use <a class="xref" href="HomeSeer.Jui.Views.ViewGroup.html#HomeSeer_Jui_Views_V
       </ul>
       <section id="tabpanel_syntax_cs" role="tabpanel" data-tab="cs">
           <div class="codewrapper">
-            <pre><code class="lang-csharp hljs">public void AddView(AbstractView view)</code></pre>
+            <pre><code class="lang-csharp hljs">public virtual void AddView(AbstractView view)</code></pre>
           </div>
       </section>
       <section id="tabpanel_syntax_vb" role="tabpanel" data-tab="vb" aria-hidden="true" hidden="">
           <div class="codewrapper">
-            <pre><code class="lang-vb hljs">Public Sub AddView(view As AbstractView)</code></pre>
+            <pre><code class="lang-vb hljs">Public Overridable Sub AddView(view As AbstractView)</code></pre>
           </div>
       </section>
   </div>
@@ -508,12 +509,12 @@ Use <a class="xref" href="HomeSeer.Jui.Views.ViewGroup.html#HomeSeer_Jui_Views_V
       </ul>
       <section id="tabpanel_syntax_cs" role="tabpanel" data-tab="cs">
           <div class="codewrapper">
-            <pre><code class="lang-csharp hljs">public void AddViews(IEnumerable&lt;AbstractView&gt; views)</code></pre>
+            <pre><code class="lang-csharp hljs">public virtual void AddViews(IEnumerable&lt;AbstractView&gt; views)</code></pre>
           </div>
       </section>
       <section id="tabpanel_syntax_vb" role="tabpanel" data-tab="vb" aria-hidden="true" hidden="">
           <div class="codewrapper">
-            <pre><code class="lang-vb hljs">Public Sub AddViews(views As IEnumerable(Of AbstractView))</code></pre>
+            <pre><code class="lang-vb hljs">Public Overridable Sub AddViews(views As IEnumerable(Of AbstractView))</code></pre>
           </div>
       </section>
   </div>
@@ -851,12 +852,12 @@ Use <a class="xref" href="HomeSeer.Jui.Views.ViewGroup.html#HomeSeer_Jui_Views_V
       </ul>
       <section id="tabpanel_syntax_cs" role="tabpanel" data-tab="cs">
           <div class="codewrapper">
-            <pre><code class="lang-csharp hljs">public void RemoveAllViews()</code></pre>
+            <pre><code class="lang-csharp hljs">public virtual void RemoveAllViews()</code></pre>
           </div>
       </section>
       <section id="tabpanel_syntax_vb" role="tabpanel" data-tab="vb" aria-hidden="true" hidden="">
           <div class="codewrapper">
-            <pre><code class="lang-vb hljs">Public Sub RemoveAllViews</code></pre>
+            <pre><code class="lang-vb hljs">Public Overridable Sub RemoveAllViews</code></pre>
           </div>
       </section>
   </div>
@@ -881,12 +882,12 @@ Use <a class="xref" href="HomeSeer.Jui.Views.ViewGroup.html#HomeSeer_Jui_Views_V
       </ul>
       <section id="tabpanel_syntax_cs" role="tabpanel" data-tab="cs">
           <div class="codewrapper">
-            <pre><code class="lang-csharp hljs">public void SetViews(IEnumerable&lt;AbstractView&gt; views)</code></pre>
+            <pre><code class="lang-csharp hljs">public virtual void SetViews(IEnumerable&lt;AbstractView&gt; views)</code></pre>
           </div>
       </section>
       <section id="tabpanel_syntax_vb" role="tabpanel" data-tab="vb" aria-hidden="true" hidden="">
           <div class="codewrapper">
-            <pre><code class="lang-vb hljs">Public Sub SetViews(views As IEnumerable(Of AbstractView))</code></pre>
+            <pre><code class="lang-vb hljs">Public Overridable Sub SetViews(views As IEnumerable(Of AbstractView))</code></pre>
           </div>
       </section>
   </div>
@@ -1154,7 +1155,8 @@ This view's ID and Type must match the calling view exactly</p>
               </ul>
             </div>
             <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
-            <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              <h5>In This Article</h5>
+              <div></div>
             </nav>
           </div>
         </div>

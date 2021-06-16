@@ -10,7 +10,7 @@
     <meta name="viewport" content="width=device-width">
     <meta name="title" content="Enum EControlFlag
    | HomeSeer PluginSdk Docs ">
-    <meta name="generator" content="docfx 2.49.0.0">
+    <meta name="generator" content="docfx 2.58.0.0">
     
     <link rel="shortcut icon" href="../images/favicon.ico">
     <link rel="stylesheet" href="../styles/docfx.vendor.css">
@@ -62,11 +62,11 @@
       <div class="container body-content">
         
         <div id="search-results">
-          <div class="search-list"></div>
+          <div class="search-list">Search Results for <span></span></div>
           <div class="sr-items">
             <p><i class="glyphicon glyphicon-refresh index-loading"></i></p>
           </div>
-          <ul id="pagination"></ul>
+          <ul id="pagination" data-first="First" data-prev="Previous" data-next="Next" data-last="Last"></ul>
         </div>
       </div>
       <div role="main" class="container-fluid body-content hide-when-search">
@@ -111,7 +111,8 @@
   </div>
   <hr>
   <br>
-  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 summary"><p>Special configuration flags that adjust the behavior of a <a class="xref" href="HomeSeer.PluginSdk.Devices.Controls.StatusControl.html">StatusControl</a>.</p>
+</div>
   <div class="markdown level0 conceptual"></div>
   <br>
   <h3 id="fields">Fields
@@ -128,12 +129,14 @@
         <td id="HomeSeer_PluginSdk_Devices_Controls_EControlFlag_HasAdditionalData">HasAdditionalData</td>
         <td><p>The StatusControl label includes additional data tokens to be replaced by strings
 in <a class="xref" href="HomeSeer.PluginSdk.Devices.HsFeature.html#HomeSeer_PluginSdk_Devices_HsFeature_AdditionalStatusData">AdditionalStatusData</a></p>
+<p>This is toggled by setting <a class="xref" href="HomeSeer.PluginSdk.Devices.Controls.StatusControl.html#HomeSeer_PluginSdk_Devices_Controls_StatusControl_HasAdditionalData">HasAdditionalData</a> to <span class="xref">true</span></p>
 </td>
       </tr>
       <tr>
         <td id="HomeSeer_PluginSdk_Devices_Controls_EControlFlag_InvalidStatusTarget">InvalidStatusTarget</td>
         <td><p>The StatusControl should not show up as a status target for events.
 IE it is only for creating control events</p>
+<p>This is toggled by setting <a class="xref" href="HomeSeer.PluginSdk.Devices.Controls.StatusControl.html#HomeSeer_PluginSdk_Devices_Controls_StatusControl_IsInvalidStatusTarget">IsInvalidStatusTarget</a> to <span class="xref">true</span></p>
 </td>
       </tr>
     </tbody>
@@ -146,12 +149,13 @@ IE it is only for creating control events</p>
             <div class="contribution">
               <ul class="nav">
                 <li>
-                  <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Devices/Controls/EControlFlag.cs/#L3" class="contribution-link">View Source</a>
+                  <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Devices/Controls/EControlFlag.cs/#L6" class="contribution-link">View Source</a>
                 </li>
               </ul>
             </div>
             <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
-            <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              <h5>In This Article</h5>
+              <div></div>
             </nav>
           </div>
         </div>

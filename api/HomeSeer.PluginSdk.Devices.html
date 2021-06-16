@@ -10,7 +10,7 @@
     <meta name="viewport" content="width=device-width">
     <meta name="title" content="Namespace HomeSeer.PluginSdk.Devices
    | HomeSeer PluginSdk Docs ">
-    <meta name="generator" content="docfx 2.49.0.0">
+    <meta name="generator" content="docfx 2.58.0.0">
     
     <link rel="shortcut icon" href="../images/favicon.ico">
     <link rel="stylesheet" href="../styles/docfx.vendor.css">
@@ -62,11 +62,11 @@
       <div class="container body-content">
         
         <div id="search-results">
-          <div class="search-list"></div>
+          <div class="search-list">Search Results for <span></span></div>
           <div class="sr-items">
             <p><i class="glyphicon glyphicon-refresh index-loading"></i></p>
           </div>
-          <ul id="pagination"></ul>
+          <ul id="pagination" data-first="First" data-prev="Previous" data-next="Next" data-last="Last"></ul>
         </div>
       </div>
       <div role="main" class="container-fluid body-content hide-when-search">
@@ -95,14 +95,12 @@
 Used to represent devices and features as either a <a class="xref" href="HomeSeer.PluginSdk.Devices.HsDevice.html">HsDevice</a> or <a class="xref" href="HomeSeer.PluginSdk.Devices.HsFeature.html">HsFeature</a>
 </p>
 </section>
-      <h4><a class="xref" href="HomeSeer.PluginSdk.Devices.AbstractStatus.html">AbstractStatus</a></h4>
-      <section><p>The base implementation of a status defined for a <a class="xref" href="HomeSeer.PluginSdk.Devices.HsFeature.html">HsFeature</a> either as a
-<a class="xref" href="HomeSeer.PluginSdk.Devices.Controls.StatusControl.html">StatusControl</a> or <a class="xref" href="HomeSeer.PluginSdk.Devices.StatusGraphic.html">StatusGraphic</a></p>
-</section>
       <h4><a class="xref" href="HomeSeer.PluginSdk.Devices.DeviceFactory.html">DeviceFactory</a></h4>
-      <section></section>
+      <section><p>Factory class for defining new <a class="xref" href="HomeSeer.PluginSdk.Devices.HsDevice.html">HsDevice</a>s for HomeSeer</p>
+</section>
       <h4><a class="xref" href="HomeSeer.PluginSdk.Devices.FeatureFactory.html">FeatureFactory</a></h4>
-      <section></section>
+      <section><p>Factory class for defining new <a class="xref" href="HomeSeer.PluginSdk.Devices.HsFeature.html">HsFeature</a>s for HomeSeer</p>
+</section>
       <h4><a class="xref" href="HomeSeer.PluginSdk.Devices.HsDevice.html">HsDevice</a></h4>
       <section><p>A device connected to a HomeSeer system. This is the top level item displayed to users when
 they are looking at the devices connected to their system.</p>
@@ -119,13 +117,13 @@ For example: A battery powered device should have a feature associated with it t
       <h4><a class="xref" href="HomeSeer.PluginSdk.Devices.NewDeviceData.html">NewDeviceData</a></h4>
       <section><p>A collection of information describing a new device that needs to be created in HomeSeer.</p>
 <p>
-Created through <see cref="!:DeviceFactory.PrepareforHs()"></see>
+Created through <a class="xref" href="HomeSeer.PluginSdk.Devices.DeviceFactory.html#HomeSeer_PluginSdk_Devices_DeviceFactory_PrepareForHs">PrepareForHs()</a>
 </p>
 </section>
       <h4><a class="xref" href="HomeSeer.PluginSdk.Devices.NewFeatureData.html">NewFeatureData</a></h4>
       <section><p>A collection of information describing a new feature that needs to be created in HomeSeer.</p>
 <p>
-Created through <see cref="!:FeatureFactory.PrepareforHs()"></see>
+Created through <a class="xref" href="HomeSeer.PluginSdk.Devices.FeatureFactory.html#HomeSeer_PluginSdk_Devices_FeatureFactory_PrepareForHs">PrepareForHs()</a> or <a class="xref" href="HomeSeer.PluginSdk.Devices.FeatureFactory.html#HomeSeer_PluginSdk_Devices_FeatureFactory_PrepareForHsDevice_System_Int32_">PrepareForHsDevice(Int32)</a>
 </p>
 </section>
       <h4><a class="xref" href="HomeSeer.PluginSdk.Devices.PlugExtraData.html">PlugExtraData</a></h4>
@@ -135,7 +133,8 @@ Created through <see cref="!:FeatureFactory.PrepareforHs()"></see>
       <section><p>Status graphics are used to specify what image is displayed for a device when its value matches certain criteria</p>
 </section>
       <h4><a class="xref" href="HomeSeer.PluginSdk.Devices.StatusGraphicCollection.html">StatusGraphicCollection</a></h4>
-      <section></section>
+      <section><p>A managed collection of <a class="xref" href="HomeSeer.PluginSdk.Devices.StatusGraphic.html">StatusGraphic</a>s</p>
+</section>
       <h4><a class="xref" href="HomeSeer.PluginSdk.Devices.ValueRange.html">ValueRange</a></h4>
       <section><p>A range of values that can be targeted by <a class="xref" href="HomeSeer.PluginSdk.Devices.Controls.StatusControl.html">StatusControl</a>s and <a class="xref" href="HomeSeer.PluginSdk.Devices.StatusGraphic.html">StatusGraphic</a>s</p>
 </section>
@@ -148,6 +147,13 @@ Created through <see cref="!:FeatureFactory.PrepareforHs()"></see>
   </h3>
       <h4><a class="xref" href="HomeSeer.PluginSdk.Devices.EEnergyFeatureSubType.html">EEnergyFeatureSubType</a></h4>
       <section></section>
+      <h4><a class="xref" href="HomeSeer.PluginSdk.Devices.EFeatureDisplayType.html">EFeatureDisplayType</a></h4>
+      <section><p> NOTE - THIS IS PREVIEW MATERIAL AND WILL NOT FUNCTION UNTIL HS v4.2.0.0 </p>
+<p>
+The display type for a <a class="xref" href="HomeSeer.PluginSdk.Devices.HsFeature.html">HsFeature</a>.
+This controls the way a feature and its controls are displayed in the HomeSeer UI.
+</p>
+</section>
       <h4><a class="xref" href="HomeSeer.PluginSdk.Devices.EMiscFlag.html">EMiscFlag</a></h4>
       <section><p>Various bit flags available to add to <a class="xref" href="HomeSeer.PluginSdk.Devices.AbstractHsDevice.html">AbstractHsDevice</a>'s <a class="xref" href="HomeSeer.PluginSdk.Devices.AbstractHsDevice.html#HomeSeer_PluginSdk_Devices_AbstractHsDevice_Misc">Misc</a> field
 that control its behavior on the HomeSeer platform.</p>
@@ -170,7 +176,8 @@ related changed to HomeSeer.</p>
               </ul>
             </div>
             <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
-            <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              <h5>In This Article</h5>
+              <div></div>
             </nav>
           </div>
         </div>

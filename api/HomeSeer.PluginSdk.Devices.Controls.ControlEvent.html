@@ -10,7 +10,7 @@
     <meta name="viewport" content="width=device-width">
     <meta name="title" content="Class ControlEvent
    | HomeSeer PluginSdk Docs ">
-    <meta name="generator" content="docfx 2.49.0.0">
+    <meta name="generator" content="docfx 2.58.0.0">
     
     <link rel="shortcut icon" href="../images/favicon.ico">
     <link rel="stylesheet" href="../styles/docfx.vendor.css">
@@ -62,11 +62,11 @@
       <div class="container body-content">
         
         <div id="search-results">
-          <div class="search-list"></div>
+          <div class="search-list">Search Results for <span></span></div>
           <div class="sr-items">
             <p><i class="glyphicon glyphicon-refresh index-loading"></i></p>
           </div>
-          <ul id="pagination"></ul>
+          <ul id="pagination" data-first="First" data-prev="Previous" data-next="Next" data-last="Last"></ul>
         </div>
       </div>
       <div role="main" class="container-fluid body-content hide-when-search">
@@ -144,18 +144,20 @@ Public Class ControlEvent</code></pre>
   </div>
   <hr>
   <br>
-  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 summary"><p>The description of an event representing a controlled change of a <a class="xref" href="HomeSeer.PluginSdk.Devices.HsFeature.html">HsFeature</a>.</p>
+</div>
   <div class="markdown level0 conceptual"></div>
   <br>
   <h3 id="constructors">Constructors
   </h3>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Devices/Controls/ControlEvent.cs/#L56">View Source</a>
+    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Devices/Controls/ControlEvent.cs/#L93">View Source</a>
   </span>
   <a id="HomeSeer_PluginSdk_Devices_Controls_ControlEvent__ctor_" data-uid="HomeSeer.PluginSdk.Devices.Controls.ControlEvent.#ctor*"></a>
   <h4 id="HomeSeer_PluginSdk_Devices_Controls_ControlEvent__ctor_System_Int32_" data-uid="HomeSeer.PluginSdk.Devices.Controls.ControlEvent.#ctor(System.Int32)">ControlEvent(Int32)</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Create a new <a class="xref" href="HomeSeer.PluginSdk.Devices.Controls.ControlEvent.html">ControlEvent</a> for a <a class="xref" href="HomeSeer.PluginSdk.Devices.AbstractHsDevice.html#HomeSeer_PluginSdk_Devices_AbstractHsDevice_Ref">Ref</a></p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="tabGroup" id="tabgroup_syntax">
@@ -191,7 +193,8 @@ Public Class ControlEvent</code></pre>
       <tr>
         <td><span class="xref">System.Int32</span></td>
         <td><span class="parametername">devRef</span></td>
-        <td></td>
+        <td><p>The <a class="xref" href="HomeSeer.PluginSdk.Devices.AbstractHsDevice.html#HomeSeer_PluginSdk_Devices_AbstractHsDevice_Ref">Ref</a> of the <a class="xref" href="HomeSeer.PluginSdk.Devices.HsFeature.html">HsFeature</a> being controlled</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -199,11 +202,12 @@ Public Class ControlEvent</code></pre>
   </h3>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Devices/Controls/ControlEvent.cs/#L17">View Source</a>
+    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Devices/Controls/ControlEvent.cs/#L26">View Source</a>
   </span>
   <a id="HomeSeer_PluginSdk_Devices_Controls_ControlEvent_CCIndex_" data-uid="HomeSeer.PluginSdk.Devices.Controls.ControlEvent.CCIndex*"></a>
   <h4 id="HomeSeer_PluginSdk_Devices_Controls_ControlEvent_CCIndex" data-uid="HomeSeer.PluginSdk.Devices.Controls.ControlEvent.CCIndex">CCIndex</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>A unique index representing the CAPIControl in HomeSeer.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="tabGroup" id="tabgroup_syntax">
@@ -217,12 +221,14 @@ Public Class ControlEvent</code></pre>
       </ul>
       <section id="tabpanel_syntax_cs" role="tabpanel" data-tab="cs">
           <div class="codewrapper">
-            <pre><code class="lang-csharp hljs">public int CCIndex { get; set; }</code></pre>
+            <pre><code class="lang-csharp hljs">[Obsolete(&quot;This is a carry over from the legacy API. It should not need to be used anymore and is maintained for compatibility.&quot;, false)]
+public int CCIndex { get; set; }</code></pre>
           </div>
       </section>
       <section id="tabpanel_syntax_vb" role="tabpanel" data-tab="vb" aria-hidden="true" hidden="">
           <div class="codewrapper">
-            <pre><code class="lang-vb hljs">Public Property CCIndex As Integer</code></pre>
+            <pre><code class="lang-vb hljs">&lt;Obsolete(&quot;This is a carry over from the legacy API. It should not need to be used anymore and is maintained for compatibility.&quot;, False)&gt;
+Public Property CCIndex As Integer</code></pre>
           </div>
       </section>
   </div>
@@ -241,13 +247,17 @@ Public Class ControlEvent</code></pre>
       </tr>
     </tbody>
   </table>
+  <h5 id="HomeSeer_PluginSdk_Devices_Controls_ControlEvent_CCIndex_remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>This is a carry over from the legacy API. It should not need to be used anymore and is maintained for compatibility.</p>
+</div>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Devices/Controls/ControlEvent.cs/#L45">View Source</a>
+    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Devices/Controls/ControlEvent.cs/#L78">View Source</a>
   </span>
   <a id="HomeSeer_PluginSdk_Devices_Controls_ControlEvent_ControlString_" data-uid="HomeSeer.PluginSdk.Devices.Controls.ControlEvent.ControlString*"></a>
   <h4 id="HomeSeer_PluginSdk_Devices_Controls_ControlEvent_ControlString" data-uid="HomeSeer.PluginSdk.Devices.Controls.ControlEvent.ControlString">ControlString</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>A string containing control data for the event. This is used for <a class="xref" href="HomeSeer.PluginSdk.Devices.Controls.EControlType.html#HomeSeer_PluginSdk_Devices_Controls_EControlType_ColorPicker">ColorPicker</a>s</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="tabGroup" id="tabgroup_syntax">
@@ -285,13 +295,17 @@ Public Class ControlEvent</code></pre>
       </tr>
     </tbody>
   </table>
+  <h5 id="HomeSeer_PluginSdk_Devices_Controls_ControlEvent_ControlString_remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>This is NOT the <a class="xref" href="HomeSeer.PluginSdk.Devices.Controls.ControlEvent.html#HomeSeer_PluginSdk_Devices_Controls_ControlEvent_Label">Label</a> to display in the <a class="xref" href="HomeSeer.PluginSdk.Devices.AbstractHsDevice.html#HomeSeer_PluginSdk_Devices_AbstractHsDevice_Status">Status</a> of the <a class="xref" href="HomeSeer.PluginSdk.Devices.HsFeature.html">HsFeature</a>. This is not displayed anywhere.</p>
+</div>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Devices/Controls/ControlEvent.cs/#L32">View Source</a>
+    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Devices/Controls/ControlEvent.cs/#L51">View Source</a>
   </span>
   <a id="HomeSeer_PluginSdk_Devices_Controls_ControlEvent_ControlType_" data-uid="HomeSeer.PluginSdk.Devices.Controls.ControlEvent.ControlType*"></a>
   <h4 id="HomeSeer_PluginSdk_Devices_Controls_ControlEvent_ControlType" data-uid="HomeSeer.PluginSdk.Devices.Controls.ControlEvent.ControlType">ControlType</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>The <a class="xref" href="HomeSeer.PluginSdk.Devices.Controls.EControlType.html">EControlType</a> of the <a class="xref" href="HomeSeer.PluginSdk.Devices.Controls.StatusControl.html">StatusControl</a> used to generate this event.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="tabGroup" id="tabgroup_syntax">
@@ -331,11 +345,12 @@ Public Class ControlEvent</code></pre>
   </table>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Devices/Controls/ControlEvent.cs/#L37">View Source</a>
+    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Devices/Controls/ControlEvent.cs/#L59">View Source</a>
   </span>
   <a id="HomeSeer_PluginSdk_Devices_Controls_ControlEvent_ControlUse_" data-uid="HomeSeer.PluginSdk.Devices.Controls.ControlEvent.ControlUse*"></a>
   <h4 id="HomeSeer_PluginSdk_Devices_Controls_ControlEvent_ControlUse" data-uid="HomeSeer.PluginSdk.Devices.Controls.ControlEvent.ControlUse">ControlUse</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>The <a class="xref" href="HomeSeer.PluginSdk.Devices.Controls.EControlUse.html">EControlUse</a> of the <a class="xref" href="HomeSeer.PluginSdk.Devices.Controls.StatusControl.html">StatusControl</a> used to generate this event.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="tabGroup" id="tabgroup_syntax">
@@ -375,11 +390,12 @@ Public Class ControlEvent</code></pre>
   </table>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Devices/Controls/ControlEvent.cs/#L41">View Source</a>
+    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Devices/Controls/ControlEvent.cs/#L67">View Source</a>
   </span>
   <a id="HomeSeer_PluginSdk_Devices_Controls_ControlEvent_ControlValue_" data-uid="HomeSeer.PluginSdk.Devices.Controls.ControlEvent.ControlValue*"></a>
   <h4 id="HomeSeer_PluginSdk_Devices_Controls_ControlEvent_ControlValue" data-uid="HomeSeer.PluginSdk.Devices.Controls.ControlEvent.ControlValue">ControlValue</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>The target value for the event. This is the desired <a class="xref" href="HomeSeer.PluginSdk.Devices.AbstractHsDevice.html#HomeSeer_PluginSdk_Devices_AbstractHsDevice_Value">Value</a></p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="tabGroup" id="tabgroup_syntax">
@@ -419,11 +435,12 @@ Public Class ControlEvent</code></pre>
   </table>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Devices/Controls/ControlEvent.cs/#L27">View Source</a>
+    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Devices/Controls/ControlEvent.cs/#L43">View Source</a>
   </span>
   <a id="HomeSeer_PluginSdk_Devices_Controls_ControlEvent_Label_" data-uid="HomeSeer.PluginSdk.Devices.Controls.ControlEvent.Label*"></a>
   <h4 id="HomeSeer_PluginSdk_Devices_Controls_ControlEvent_Label" data-uid="HomeSeer.PluginSdk.Devices.Controls.ControlEvent.Label">Label</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>A human-readable string representing the label to display on the <a class="xref" href="HomeSeer.PluginSdk.Devices.HsFeature.html">HsFeature</a> for this event.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="tabGroup" id="tabgroup_syntax">
@@ -463,11 +480,12 @@ Public Class ControlEvent</code></pre>
   </table>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Devices/Controls/ControlEvent.cs/#L22">View Source</a>
+    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Devices/Controls/ControlEvent.cs/#L35">View Source</a>
   </span>
   <a id="HomeSeer_PluginSdk_Devices_Controls_ControlEvent_TargetRef_" data-uid="HomeSeer.PluginSdk.Devices.Controls.ControlEvent.TargetRef*"></a>
   <h4 id="HomeSeer_PluginSdk_Devices_Controls_ControlEvent_TargetRef" data-uid="HomeSeer.PluginSdk.Devices.Controls.ControlEvent.TargetRef">TargetRef</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>The <a class="xref" href="HomeSeer.PluginSdk.Devices.AbstractHsDevice.html#HomeSeer_PluginSdk_Devices_AbstractHsDevice_Ref">Ref</a> of the <a class="xref" href="HomeSeer.PluginSdk.Devices.HsFeature.html">HsFeature</a> being controlled.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="tabGroup" id="tabgroup_syntax">
@@ -505,6 +523,11 @@ Public Class ControlEvent</code></pre>
       </tr>
     </tbody>
   </table>
+  <h3 id="seealso">See Also</h3>
+  <div class="seealso">
+      <div><a class="xref" href="HomeSeer.PluginSdk.Devices.Controls.StatusControl.html">StatusControl</a></div>
+      <div><a class="xref" href="HomeSeer.PluginSdk.Devices.HsFeature.html#HomeSeer_PluginSdk_Devices_HsFeature_CreateControlEvent_System_Double_">CreateControlEvent(Double)</a></div>
+  </div>
 </article>
       </div>
         
@@ -513,12 +536,13 @@ Public Class ControlEvent</code></pre>
             <div class="contribution">
               <ul class="nav">
                 <li>
-                  <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Devices/Controls/ControlEvent.cs/#L5" class="contribution-link">View Source</a>
+                  <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Devices/Controls/ControlEvent.cs/#L10" class="contribution-link">View Source</a>
                 </li>
               </ul>
             </div>
             <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
-            <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              <h5>In This Article</h5>
+              <div></div>
             </nav>
           </div>
         </div>

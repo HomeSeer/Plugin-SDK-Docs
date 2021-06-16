@@ -10,7 +10,7 @@
     <meta name="viewport" content="width=device-width">
     <meta name="title" content="Class HsDevice
    | HomeSeer PluginSdk Docs ">
-    <meta name="generator" content="docfx 2.49.0.0">
+    <meta name="generator" content="docfx 2.58.0.0">
     
     <link rel="shortcut icon" href="../images/favicon.ico">
     <link rel="stylesheet" href="../styles/docfx.vendor.css">
@@ -62,11 +62,11 @@
       <div class="container body-content">
         
         <div id="search-results">
-          <div class="search-list"></div>
+          <div class="search-list">Search Results for <span></span></div>
           <div class="sr-items">
             <p><i class="glyphicon glyphicon-refresh index-loading"></i></p>
           </div>
-          <ul id="pagination"></ul>
+          <ul id="pagination" data-first="First" data-prev="Previous" data-next="Next" data-last="Last"></ul>
         </div>
       </div>
       <div role="main" class="container-fluid body-content hide-when-search">
@@ -302,7 +302,7 @@ they are looking at the devices connected to their system.</p>
   </h3>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Devices/HsDevice.cs/#L84">View Source</a>
+    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Devices/HsDevice.cs/#L107">View Source</a>
   </span>
   <a id="HomeSeer_PluginSdk_Devices_HsDevice__ctor_" data-uid="HomeSeer.PluginSdk.Devices.HsDevice.#ctor*"></a>
   <h4 id="HomeSeer_PluginSdk_Devices_HsDevice__ctor_System_Int32_" data-uid="HomeSeer.PluginSdk.Devices.HsDevice.#ctor(System.Int32)">HsDevice(Int32)</h4>
@@ -352,12 +352,19 @@ they are looking at the devices connected to their system.</p>
   </h3>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Devices/HsDevice.cs/#L38">View Source</a>
+    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Devices/HsDevice.cs/#L49">View Source</a>
   </span>
-  <a id="HomeSeer_PluginSdk_Devices_HsDevice_FeaturePriority_" data-uid="HomeSeer.PluginSdk.Devices.HsDevice.FeaturePriority*"></a>
-  <h4 id="HomeSeer_PluginSdk_Devices_HsDevice_FeaturePriority" data-uid="HomeSeer.PluginSdk.Devices.HsDevice.FeaturePriority">FeaturePriority</h4>
-  <div class="markdown level1 summary"><p>The order of priority for the features of the device. This helps HomeSeer determine the &quot;primary&quot; feature
-for a device. Order the refs for associated features according to their importance to the user.</p>
+  <a id="HomeSeer_PluginSdk_Devices_HsDevice_FeatureDisplayPriority_" data-uid="HomeSeer.PluginSdk.Devices.HsDevice.FeatureDisplayPriority*"></a>
+  <h4 id="HomeSeer_PluginSdk_Devices_HsDevice_FeatureDisplayPriority" data-uid="HomeSeer.PluginSdk.Devices.HsDevice.FeatureDisplayPriority">FeatureDisplayPriority</h4>
+  <div class="markdown level1 summary"><p> NOTE - THIS IS PREVIEW MATERIAL AND WILL NOT FUNCTION UNTIL HS v4.2.0.0 </p>
+<p>
+A list of <a class="xref" href="HomeSeer.PluginSdk.Devices.AbstractHsDevice.html#HomeSeer_PluginSdk_Devices_AbstractHsDevice_Ref">Ref</a>s indicating the order of importance for the features of a
+ device where 1 is the most important. This helps HomeSeer determine how to display features in the UI.
+</p>
+<p>
+You must call <a class="xref" href="HomeSeer.PluginSdk.IHsController.html#HomeSeer_PluginSdk_IHsController_GetDeviceWithFeaturesByRef_System_Int32_">GetDeviceWithFeaturesByRef(Int32)</a> to fill this property, otherwise
+ this will be an empty list.
+</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -372,14 +379,12 @@ for a device. Order the refs for associated features according to their importan
       </ul>
       <section id="tabpanel_syntax_cs" role="tabpanel" data-tab="cs">
           <div class="codewrapper">
-            <pre><code class="lang-csharp hljs">[Obsolete(&quot;This is a work in progress and use may produce unexpected behavior.&quot;)]
-public List&lt;int&gt; FeaturePriority { get; set; }</code></pre>
+            <pre><code class="lang-csharp hljs">public List&lt;int&gt; FeatureDisplayPriority { get; set; }</code></pre>
           </div>
       </section>
       <section id="tabpanel_syntax_vb" role="tabpanel" data-tab="vb" aria-hidden="true" hidden="">
           <div class="codewrapper">
-            <pre><code class="lang-vb hljs">&lt;Obsolete(&quot;This is a work in progress and use may produce unexpected behavior.&quot;)&gt;
-Public Property FeaturePriority As List(Of Integer)</code></pre>
+            <pre><code class="lang-vb hljs">Public Property FeatureDisplayPriority As List(Of Integer)</code></pre>
           </div>
       </section>
   </div>
@@ -398,12 +403,15 @@ Public Property FeaturePriority As List(Of Integer)</code></pre>
       </tr>
     </tbody>
   </table>
-  <h5 id="HomeSeer_PluginSdk_Devices_HsDevice_FeaturePriority_remarks">Remarks</h5>
-  <div class="markdown level1 remarks"><p>PLACEHOLDER - This is a Work In Progress</p>
+  <h5 id="HomeSeer_PluginSdk_Devices_HsDevice_FeatureDisplayPriority_remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>This should typically be left to the user to configure, but it is recommended that you pre-configure it
+for users with the best setup possible by adding the <a class="xref" href="HomeSeer.PluginSdk.Devices.HsFeature.html">HsFeature</a>s in the desired order
+when using <a class="xref" href="HomeSeer.PluginSdk.Devices.DeviceFactory.html">DeviceFactory</a> to create a <a class="xref" href="HomeSeer.PluginSdk.Devices.HsDevice.html">HsDevice</a>.</p>
+<p>See <a class="xref" href="HomeSeer.PluginSdk.Devices.EFeatureDisplayType.html">EFeatureDisplayType</a> for additional info on controlling the way features are displayed.</p>
 </div>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Devices/HsDevice.cs/#L29">View Source</a>
+    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Devices/HsDevice.cs/#L30">View Source</a>
   </span>
   <a id="HomeSeer_PluginSdk_Devices_HsDevice_Features_" data-uid="HomeSeer.PluginSdk.Devices.HsDevice.Features*"></a>
   <h4 id="HomeSeer_PluginSdk_Devices_HsDevice_Features" data-uid="HomeSeer.PluginSdk.Devices.HsDevice.Features">Features</h4>
@@ -450,7 +458,7 @@ Public Property FeaturePriority As List(Of Integer)</code></pre>
   </h3>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Devices/HsDevice.cs/#L94">View Source</a>
+    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Devices/HsDevice.cs/#L117">View Source</a>
   </span>
   <a id="HomeSeer_PluginSdk_Devices_HsDevice_Duplicate_" data-uid="HomeSeer.PluginSdk.Devices.HsDevice.Duplicate*"></a>
   <h4 id="HomeSeer_PluginSdk_Devices_HsDevice_Duplicate_System_Int32_" data-uid="HomeSeer.PluginSdk.Devices.HsDevice.Duplicate(System.Int32)">Duplicate(Int32)</h4>
@@ -517,7 +525,7 @@ This will not duplicate features associated with the device.
   </table>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Devices/HsDevice.cs/#L127">View Source</a>
+    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Devices/HsDevice.cs/#L150">View Source</a>
   </span>
   <a id="HomeSeer_PluginSdk_Devices_HsDevice_GetFeatureByType_" data-uid="HomeSeer.PluginSdk.Devices.HsDevice.GetFeatureByType*"></a>
   <h4 id="HomeSeer_PluginSdk_Devices_HsDevice_GetFeatureByType_HomeSeer_PluginSdk_Devices_Identification_TypeInfo_" data-uid="HomeSeer.PluginSdk.Devices.HsDevice.GetFeatureByType(HomeSeer.PluginSdk.Devices.Identification.TypeInfo)">GetFeatureByType(TypeInfo)</h4>
@@ -596,6 +604,52 @@ the specified featureType was not found.</p>
       </tr>
     </tbody>
   </table>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Devices/HsDevice.cs/#L178">View Source</a>
+  </span>
+  <a id="HomeSeer_PluginSdk_Devices_HsDevice_GetFeaturesInDisplayOrder_" data-uid="HomeSeer.PluginSdk.Devices.HsDevice.GetFeaturesInDisplayOrder*"></a>
+  <h4 id="HomeSeer_PluginSdk_Devices_HsDevice_GetFeaturesInDisplayOrder" data-uid="HomeSeer.PluginSdk.Devices.HsDevice.GetFeaturesInDisplayOrder">GetFeaturesInDisplayOrder()</h4>
+  <div class="markdown level1 summary"><p>Get a collection of <a class="xref" href="HomeSeer.PluginSdk.Devices.HsFeature.html">HsFeature</a>s in the same order defined by <a class="xref" href="HomeSeer.PluginSdk.Devices.HsDevice.html#HomeSeer_PluginSdk_Devices_HsDevice_FeatureDisplayPriority">FeatureDisplayPriority</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="tabGroup" id="tabgroup_syntax">
+      <ul role="tablist">
+          <li role="presentation">
+              <a href="#tabpanel_syntax_cs" tabindex="0" role="tab" aria-controls="tabpanel_syntax_cs" data-tab="cs" aria-selected="true">C#</a>
+          </li>
+          <li role="presentation">
+              <a href="#tabpanel_syntax_vb" tabindex="-1" role="tab" aria-controls="tabpanel_syntax_vb" data-tab="vb">Visual Basic</a>
+          </li>
+      </ul>
+      <section id="tabpanel_syntax_cs" role="tabpanel" data-tab="cs">
+          <div class="codewrapper">
+            <pre><code class="lang-csharp hljs">public List&lt;HsFeature&gt; GetFeaturesInDisplayOrder()</code></pre>
+          </div>
+      </section>
+      <section id="tabpanel_syntax_vb" role="tabpanel" data-tab="vb" aria-hidden="true" hidden="">
+          <div class="codewrapper">
+            <pre><code class="lang-vb hljs">Public Function GetFeaturesInDisplayOrder As List(Of HsFeature)</code></pre>
+          </div>
+      </section>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.List</span>&lt;<a class="xref" href="HomeSeer.PluginSdk.Devices.HsFeature.html">HsFeature</a>&gt;</td>
+        <td><p>A List of <a class="xref" href="HomeSeer.PluginSdk.Devices.HsFeature.html">HsFeature</a>s ordered by <a class="xref" href="HomeSeer.PluginSdk.Devices.HsFeature.html#HomeSeer_PluginSdk_Devices_HsFeature_DisplayPriority">DisplayPriority</a></p>
+</td>
+      </tr>
+    </tbody>
+  </table>
 </article>
       </div>
         
@@ -604,12 +658,13 @@ the specified featureType was not found.</p>
             <div class="contribution">
               <ul class="nav">
                 <li>
-                  <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Devices/HsDevice.cs/#L18" class="contribution-link">View Source</a>
+                  <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Devices/HsDevice.cs/#L19" class="contribution-link">View Source</a>
                 </li>
               </ul>
             </div>
             <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
-            <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              <h5>In This Article</h5>
+              <div></div>
             </nav>
           </div>
         </div>

@@ -10,7 +10,7 @@
     <meta name="viewport" content="width=device-width">
     <meta name="title" content="Class StatusGraphicCollection
    | HomeSeer PluginSdk Docs ">
-    <meta name="generator" content="docfx 2.49.0.0">
+    <meta name="generator" content="docfx 2.58.0.0">
     
     <link rel="shortcut icon" href="../images/favicon.ico">
     <link rel="stylesheet" href="../styles/docfx.vendor.css">
@@ -62,11 +62,11 @@
       <div class="container body-content">
         
         <div id="search-results">
-          <div class="search-list"></div>
+          <div class="search-list">Search Results for <span></span></div>
           <div class="sr-items">
             <p><i class="glyphicon glyphicon-refresh index-loading"></i></p>
           </div>
-          <ul id="pagination"></ul>
+          <ul id="pagination" data-first="First" data-prev="Previous" data-next="Next" data-last="Last"></ul>
         </div>
       </div>
       <div role="main" class="container-fluid body-content hide-when-search">
@@ -144,18 +144,25 @@ Public Class StatusGraphicCollection</code></pre>
   </div>
   <hr>
   <br>
-  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 summary"><p>A managed collection of <a class="xref" href="HomeSeer.PluginSdk.Devices.StatusGraphic.html">StatusGraphic</a>s</p>
+</div>
   <div class="markdown level0 conceptual"></div>
   <br>
+  <h5 id="HomeSeer_PluginSdk_Devices_StatusGraphicCollection_remarks"><strong>Remarks</strong></h5>
+  <div class="markdown level0 remarks"><p>This is a <span class="xref">System.Collections.Generic.SortedDictionary&lt;TKey, TValue&gt;</span> where <a class="xref" href="HomeSeer.PluginSdk.Devices.StatusGraphic.html#HomeSeer_PluginSdk_Devices_StatusGraphic_Value">Value</a> or
+<a class="xref" href="HomeSeer.PluginSdk.Devices.StatusGraphic.html#HomeSeer_PluginSdk_Devices_StatusGraphic_RangeMin">RangeMin</a> is used as the key. This is used to ensure that there is only
+one <a class="xref" href="HomeSeer.PluginSdk.Devices.StatusGraphic.html">StatusGraphic</a> per <a class="xref" href="HomeSeer.PluginSdk.Devices.AbstractHsDevice.html#HomeSeer_PluginSdk_Devices_AbstractHsDevice_Value">Value</a></p>
+</div>
   <h3 id="properties">Properties
   </h3>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Devices/StatusGraphicCollection.cs/#L110">View Source</a>
+    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Devices/StatusGraphicCollection.cs/#L155">View Source</a>
   </span>
   <a id="HomeSeer_PluginSdk_Devices_StatusGraphicCollection_Count_" data-uid="HomeSeer.PluginSdk.Devices.StatusGraphicCollection.Count*"></a>
   <h4 id="HomeSeer_PluginSdk_Devices_StatusGraphicCollection_Count" data-uid="HomeSeer.PluginSdk.Devices.StatusGraphicCollection.Count">Count</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>The number of <a class="xref" href="HomeSeer.PluginSdk.Devices.StatusGraphic.html">StatusGraphic</a>s in the collection</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="tabGroup" id="tabgroup_syntax">
@@ -195,11 +202,12 @@ Public Class StatusGraphicCollection</code></pre>
   </table>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Devices/StatusGraphicCollection.cs/#L38">View Source</a>
+    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Devices/StatusGraphicCollection.cs/#L59">View Source</a>
   </span>
   <a id="HomeSeer_PluginSdk_Devices_StatusGraphicCollection_Item_" data-uid="HomeSeer.PluginSdk.Devices.StatusGraphicCollection.Item*"></a>
   <h4 id="HomeSeer_PluginSdk_Devices_StatusGraphicCollection_Item_System_Double_" data-uid="HomeSeer.PluginSdk.Devices.StatusGraphicCollection.Item(System.Double)">Item[Double]</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Get the <a class="xref" href="HomeSeer.PluginSdk.Devices.StatusGraphic.html">StatusGraphic</a> in the collection that handles the specified value</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="tabGroup" id="tabgroup_syntax">
@@ -235,7 +243,8 @@ Public Class StatusGraphicCollection</code></pre>
       <tr>
         <td><span class="xref">System.Double</span></td>
         <td><span class="parametername">value</span></td>
-        <td></td>
+        <td><p>The value associated with the desired <a class="xref" href="HomeSeer.PluginSdk.Devices.StatusGraphic.html">StatusGraphic</a></p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -254,13 +263,30 @@ Public Class StatusGraphicCollection</code></pre>
       </tr>
     </tbody>
   </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.KeyNotFoundException</span></td>
+        <td><p>Thrown when no <a class="xref" href="HomeSeer.PluginSdk.Devices.StatusGraphic.html">StatusGraphic</a> is found that handles the specified <code data-dev-comment-type="paramref" class="paramref">value</code></p>
+</td>
+      </tr>
+    </tbody>
+  </table>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Devices/StatusGraphicCollection.cs/#L108">View Source</a>
+    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Devices/StatusGraphicCollection.cs/#L150">View Source</a>
   </span>
   <a id="HomeSeer_PluginSdk_Devices_StatusGraphicCollection_Values_" data-uid="HomeSeer.PluginSdk.Devices.StatusGraphicCollection.Values*"></a>
   <h4 id="HomeSeer_PluginSdk_Devices_StatusGraphicCollection_Values" data-uid="HomeSeer.PluginSdk.Devices.StatusGraphicCollection.Values">Values</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Get an unordered list of the <a class="xref" href="HomeSeer.PluginSdk.Devices.StatusGraphic.html">StatusGraphic</a>s in the collection</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="tabGroup" id="tabgroup_syntax">
@@ -302,11 +328,12 @@ Public Class StatusGraphicCollection</code></pre>
   </h3>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Devices/StatusGraphicCollection.cs/#L18">View Source</a>
+    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Devices/StatusGraphicCollection.cs/#L29">View Source</a>
   </span>
   <a id="HomeSeer_PluginSdk_Devices_StatusGraphicCollection_Add_" data-uid="HomeSeer.PluginSdk.Devices.StatusGraphicCollection.Add*"></a>
   <h4 id="HomeSeer_PluginSdk_Devices_StatusGraphicCollection_Add_HomeSeer_PluginSdk_Devices_StatusGraphic_" data-uid="HomeSeer.PluginSdk.Devices.StatusGraphicCollection.Add(HomeSeer.PluginSdk.Devices.StatusGraphic)">Add(StatusGraphic)</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Add a <a class="xref" href="HomeSeer.PluginSdk.Devices.StatusGraphic.html">StatusGraphic</a> to the collection</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="tabGroup" id="tabgroup_syntax">
@@ -342,17 +369,35 @@ Public Class StatusGraphicCollection</code></pre>
       <tr>
         <td><a class="xref" href="HomeSeer.PluginSdk.Devices.StatusGraphic.html">StatusGraphic</a></td>
         <td><span class="parametername">statusGraphic</span></td>
-        <td></td>
+        <td><p>A <a class="xref" href="HomeSeer.PluginSdk.Devices.StatusGraphic.html">StatusGraphic</a> to add. It must not target a value that is already handled by the collection.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentException</span></td>
+        <td><p>Thrown if the <code data-dev-comment-type="paramref" class="paramref">statusGraphic</code> targets a value that is already handled in the collection.</p>
+</td>
       </tr>
     </tbody>
   </table>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Devices/StatusGraphicCollection.cs/#L26">View Source</a>
+    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Devices/StatusGraphicCollection.cs/#L42">View Source</a>
   </span>
   <a id="HomeSeer_PluginSdk_Devices_StatusGraphicCollection_AddRange_" data-uid="HomeSeer.PluginSdk.Devices.StatusGraphicCollection.AddRange*"></a>
-  <h4 id="HomeSeer_PluginSdk_Devices_StatusGraphicCollection_AddRange_System_Collections_Generic_List_HomeSeer_PluginSdk_Devices_StatusGraphic__" data-uid="HomeSeer.PluginSdk.Devices.StatusGraphicCollection.AddRange(System.Collections.Generic.List{HomeSeer.PluginSdk.Devices.StatusGraphic})">AddRange(List&lt;StatusGraphic&gt;)</h4>
-  <div class="markdown level1 summary"></div>
+  <h4 id="HomeSeer_PluginSdk_Devices_StatusGraphicCollection_AddRange_System_Collections_Generic_IEnumerable_HomeSeer_PluginSdk_Devices_StatusGraphic__" data-uid="HomeSeer.PluginSdk.Devices.StatusGraphicCollection.AddRange(System.Collections.Generic.IEnumerable{HomeSeer.PluginSdk.Devices.StatusGraphic})">AddRange(IEnumerable&lt;StatusGraphic&gt;)</h4>
+  <div class="markdown level1 summary"><p>Add multiple <a class="xref" href="HomeSeer.PluginSdk.Devices.StatusGraphic.html">StatusGraphic</a>s to the collection</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="tabGroup" id="tabgroup_syntax">
@@ -366,12 +411,12 @@ Public Class StatusGraphicCollection</code></pre>
       </ul>
       <section id="tabpanel_syntax_cs" role="tabpanel" data-tab="cs">
           <div class="codewrapper">
-            <pre><code class="lang-csharp hljs">public void AddRange(List&lt;StatusGraphic&gt; statusGraphics)</code></pre>
+            <pre><code class="lang-csharp hljs">public void AddRange(IEnumerable&lt;StatusGraphic&gt; statusGraphics)</code></pre>
           </div>
       </section>
       <section id="tabpanel_syntax_vb" role="tabpanel" data-tab="vb" aria-hidden="true" hidden="">
           <div class="codewrapper">
-            <pre><code class="lang-vb hljs">Public Sub AddRange(statusGraphics As List(Of StatusGraphic))</code></pre>
+            <pre><code class="lang-vb hljs">Public Sub AddRange(statusGraphics As IEnumerable(Of StatusGraphic))</code></pre>
           </div>
       </section>
   </div>
@@ -386,19 +431,37 @@ Public Class StatusGraphicCollection</code></pre>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Collections.Generic.List</span>&lt;<a class="xref" href="HomeSeer.PluginSdk.Devices.StatusGraphic.html">StatusGraphic</a>&gt;</td>
+        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<a class="xref" href="HomeSeer.PluginSdk.Devices.StatusGraphic.html">StatusGraphic</a>&gt;</td>
         <td><span class="parametername">statusGraphics</span></td>
-        <td></td>
+        <td><p>A collection of <a class="xref" href="HomeSeer.PluginSdk.Devices.StatusGraphic.html">StatusGraphic</a>s to add. Make sure there is only one <a class="xref" href="HomeSeer.PluginSdk.Devices.StatusGraphic.html">StatusGraphic</a> handling each value.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentException</span></td>
+        <td><p>Thrown if any element in <code data-dev-comment-type="paramref" class="paramref">statusGraphics</code> targets a value that is already handled in the collection.</p>
+</td>
       </tr>
     </tbody>
   </table>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Devices/StatusGraphicCollection.cs/#L69">View Source</a>
+    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Devices/StatusGraphicCollection.cs/#L98">View Source</a>
   </span>
   <a id="HomeSeer_PluginSdk_Devices_StatusGraphicCollection_Contains_" data-uid="HomeSeer.PluginSdk.Devices.StatusGraphicCollection.Contains*"></a>
   <h4 id="HomeSeer_PluginSdk_Devices_StatusGraphicCollection_Contains_HomeSeer_PluginSdk_Devices_StatusGraphic_" data-uid="HomeSeer.PluginSdk.Devices.StatusGraphicCollection.Contains(HomeSeer.PluginSdk.Devices.StatusGraphic)">Contains(StatusGraphic)</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Determine if a <a class="xref" href="HomeSeer.PluginSdk.Devices.StatusGraphic.html">StatusGraphic</a> is already in the managed collection</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="tabGroup" id="tabgroup_syntax">
@@ -434,7 +497,8 @@ Public Class StatusGraphicCollection</code></pre>
       <tr>
         <td><a class="xref" href="HomeSeer.PluginSdk.Devices.StatusGraphic.html">StatusGraphic</a></td>
         <td><span class="parametername">statusGraphic</span></td>
-        <td></td>
+        <td><p>The <a class="xref" href="HomeSeer.PluginSdk.Devices.StatusGraphic.html">StatusGraphic</a> to search for</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -449,17 +513,22 @@ Public Class StatusGraphicCollection</code></pre>
     <tbody>
       <tr>
         <td><span class="xref">System.Boolean</span></td>
-        <td></td>
+        <td><p><span class="xref">langword_csharp_True</span> if the <code data-dev-comment-type="paramref" class="paramref">statusGraphic</code> is in the collection, <span class="xref">langword_csharp_False</span> if it is not</p>
+</td>
       </tr>
     </tbody>
   </table>
+  <h5 id="HomeSeer_PluginSdk_Devices_StatusGraphicCollection_Contains_HomeSeer_PluginSdk_Devices_StatusGraphic__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>This check is based on <a class="xref" href="HomeSeer.PluginSdk.Devices.StatusGraphic.html#HomeSeer_PluginSdk_Devices_StatusGraphic_Value">Value</a> or <a class="xref" href="HomeSeer.PluginSdk.Devices.StatusGraphic.html#HomeSeer_PluginSdk_Devices_StatusGraphic_RangeMin">RangeMin</a></p>
+</div>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Devices/StatusGraphicCollection.cs/#L74">View Source</a>
+    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Devices/StatusGraphicCollection.cs/#L107">View Source</a>
   </span>
   <a id="HomeSeer_PluginSdk_Devices_StatusGraphicCollection_ContainsValue_" data-uid="HomeSeer.PluginSdk.Devices.StatusGraphicCollection.ContainsValue*"></a>
   <h4 id="HomeSeer_PluginSdk_Devices_StatusGraphicCollection_ContainsValue_System_Double_" data-uid="HomeSeer.PluginSdk.Devices.StatusGraphicCollection.ContainsValue(System.Double)">ContainsValue(Double)</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Determine if a value is handled by the collection</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="tabGroup" id="tabgroup_syntax">
@@ -495,7 +564,8 @@ Public Class StatusGraphicCollection</code></pre>
       <tr>
         <td><span class="xref">System.Double</span></td>
         <td><span class="parametername">value</span></td>
-        <td></td>
+        <td><p>The value to check for</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -510,17 +580,19 @@ Public Class StatusGraphicCollection</code></pre>
     <tbody>
       <tr>
         <td><span class="xref">System.Boolean</span></td>
-        <td></td>
+        <td><p><span class="xref">langword_csharp_True</span> if the value is handled, <span class="xref">langword_csharp_False</span> if it is not</p>
+</td>
       </tr>
     </tbody>
   </table>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Devices/StatusGraphicCollection.cs/#L95">View Source</a>
+    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Devices/StatusGraphicCollection.cs/#L134">View Source</a>
   </span>
   <a id="HomeSeer_PluginSdk_Devices_StatusGraphicCollection_GetGraphicsForRange_" data-uid="HomeSeer.PluginSdk.Devices.StatusGraphicCollection.GetGraphicsForRange*"></a>
   <h4 id="HomeSeer_PluginSdk_Devices_StatusGraphicCollection_GetGraphicsForRange_System_Double_System_Double_" data-uid="HomeSeer.PluginSdk.Devices.StatusGraphicCollection.GetGraphicsForRange(System.Double,System.Double)">GetGraphicsForRange(Double, Double)</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Get a list of <a class="xref" href="HomeSeer.PluginSdk.Devices.StatusGraphic.html">StatusGraphic</a>s that handle a given range of values</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="tabGroup" id="tabgroup_syntax">
@@ -556,12 +628,14 @@ Public Class StatusGraphicCollection</code></pre>
       <tr>
         <td><span class="xref">System.Double</span></td>
         <td><span class="parametername">min</span></td>
-        <td></td>
+        <td><p>The smallest number in the range</p>
+</td>
       </tr>
       <tr>
         <td><span class="xref">System.Double</span></td>
         <td><span class="parametername">max</span></td>
-        <td></td>
+        <td><p>The largest number in the range</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -576,17 +650,19 @@ Public Class StatusGraphicCollection</code></pre>
     <tbody>
       <tr>
         <td><span class="xref">System.Collections.Generic.List</span>&lt;<a class="xref" href="HomeSeer.PluginSdk.Devices.StatusGraphic.html">StatusGraphic</a>&gt;</td>
-        <td></td>
+        <td><p>A List of <a class="xref" href="HomeSeer.PluginSdk.Devices.StatusGraphic.html">StatusGraphic</a>s</p>
+</td>
       </tr>
     </tbody>
   </table>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Devices/StatusGraphicCollection.cs/#L123">View Source</a>
+    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Devices/StatusGraphicCollection.cs/#L178">View Source</a>
   </span>
   <a id="HomeSeer_PluginSdk_Devices_StatusGraphicCollection_Remove_" data-uid="HomeSeer.PluginSdk.Devices.StatusGraphicCollection.Remove*"></a>
   <h4 id="HomeSeer_PluginSdk_Devices_StatusGraphicCollection_Remove_HomeSeer_PluginSdk_Devices_StatusGraphic_" data-uid="HomeSeer.PluginSdk.Devices.StatusGraphicCollection.Remove(HomeSeer.PluginSdk.Devices.StatusGraphic)">Remove(StatusGraphic)</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Remove a <a class="xref" href="HomeSeer.PluginSdk.Devices.StatusGraphic.html">StatusGraphic</a> from the collection</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="tabGroup" id="tabgroup_syntax">
@@ -622,17 +698,24 @@ Public Class StatusGraphicCollection</code></pre>
       <tr>
         <td><a class="xref" href="HomeSeer.PluginSdk.Devices.StatusGraphic.html">StatusGraphic</a></td>
         <td><span class="parametername">statusGraphic</span></td>
-        <td></td>
+        <td><p>A <a class="xref" href="HomeSeer.PluginSdk.Devices.StatusGraphic.html">StatusGraphic</a> to remove</p>
+</td>
       </tr>
     </tbody>
   </table>
+  <h5 id="HomeSeer_PluginSdk_Devices_StatusGraphicCollection_Remove_HomeSeer_PluginSdk_Devices_StatusGraphic__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>A key is determined by the <a class="xref" href="HomeSeer.PluginSdk.Devices.StatusGraphic.html#HomeSeer_PluginSdk_Devices_StatusGraphic_Value">Value</a> or <a class="xref" href="HomeSeer.PluginSdk.Devices.StatusGraphic.html#HomeSeer_PluginSdk_Devices_StatusGraphic_RangeMin">RangeMin</a>
+of <code data-dev-comment-type="paramref" class="paramref">statusGraphic</code>. The found item is then compared by hash code to ensure they are the
+same.</p>
+</div>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Devices/StatusGraphicCollection.cs/#L132">View Source</a>
+    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Devices/StatusGraphicCollection.cs/#L190">View Source</a>
   </span>
   <a id="HomeSeer_PluginSdk_Devices_StatusGraphicCollection_RemoveAll_" data-uid="HomeSeer.PluginSdk.Devices.StatusGraphicCollection.RemoveAll*"></a>
   <h4 id="HomeSeer_PluginSdk_Devices_StatusGraphicCollection_RemoveAll" data-uid="HomeSeer.PluginSdk.Devices.StatusGraphicCollection.RemoveAll">RemoveAll()</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Remove all <a class="xref" href="HomeSeer.PluginSdk.Devices.StatusGraphic.html">StatusGraphic</a>s in the collection</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="tabGroup" id="tabgroup_syntax">
@@ -657,11 +740,12 @@ Public Class StatusGraphicCollection</code></pre>
   </div>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Devices/StatusGraphicCollection.cs/#L117">View Source</a>
+    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Devices/StatusGraphicCollection.cs/#L163">View Source</a>
   </span>
   <a id="HomeSeer_PluginSdk_Devices_StatusGraphicCollection_RemoveKey_" data-uid="HomeSeer.PluginSdk.Devices.StatusGraphicCollection.RemoveKey*"></a>
   <h4 id="HomeSeer_PluginSdk_Devices_StatusGraphicCollection_RemoveKey_System_Double_" data-uid="HomeSeer.PluginSdk.Devices.StatusGraphicCollection.RemoveKey(System.Double)">RemoveKey(Double)</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Remove the <a class="xref" href="HomeSeer.PluginSdk.Devices.StatusGraphic.html">StatusGraphic</a> that handles the specified <code data-dev-comment-type="paramref" class="paramref">value</code></p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="tabGroup" id="tabgroup_syntax">
@@ -697,7 +781,8 @@ Public Class StatusGraphicCollection</code></pre>
       <tr>
         <td><span class="xref">System.Double</span></td>
         <td><span class="parametername">value</span></td>
-        <td></td>
+        <td><p>The value handled by the <a class="xref" href="HomeSeer.PluginSdk.Devices.StatusGraphic.html">StatusGraphic</a> to remove</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -709,12 +794,13 @@ Public Class StatusGraphicCollection</code></pre>
             <div class="contribution">
               <ul class="nav">
                 <li>
-                  <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Devices/StatusGraphicCollection.cs/#L10" class="contribution-link">View Source</a>
+                  <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Devices/StatusGraphicCollection.cs/#L16" class="contribution-link">View Source</a>
                 </li>
               </ul>
             </div>
             <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
-            <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              <h5>In This Article</h5>
+              <div></div>
             </nav>
           </div>
         </div>

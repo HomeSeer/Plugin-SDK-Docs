@@ -10,7 +10,7 @@
     <meta name="viewport" content="width=device-width">
     <meta name="title" content="Interface IPlugin
    | HomeSeer PluginSdk Docs ">
-    <meta name="generator" content="docfx 2.49.0.0">
+    <meta name="generator" content="docfx 2.58.0.0">
     
     <link rel="shortcut icon" href="../images/favicon.ico">
     <link rel="stylesheet" href="../styles/docfx.vendor.css">
@@ -62,11 +62,11 @@
       <div class="container body-content">
         
         <div id="search-results">
-          <div class="search-list"></div>
+          <div class="search-list">Search Results for <span></span></div>
           <div class="sr-items">
             <p><i class="glyphicon glyphicon-refresh index-loading"></i></p>
           </div>
-          <ul id="pagination"></ul>
+          <ul id="pagination" data-first="First" data-prev="Previous" data-next="Next" data-last="Last"></ul>
         </div>
       </div>
       <div role="main" class="container-fluid body-content hide-when-search">
@@ -169,7 +169,7 @@ Use the integer value corresponding to the <a class="xref" href="HomeSeer.Plugin
   </table>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/IPlugin.cs/#L80">View Source</a>
+    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/IPlugin.cs/#L94">View Source</a>
   </span>
   <a id="HomeSeer_PluginSdk_IPlugin_ActionCount_" data-uid="HomeSeer.PluginSdk.IPlugin.ActionCount*"></a>
   <h4 id="HomeSeer_PluginSdk_IPlugin_ActionCount" data-uid="HomeSeer.PluginSdk.IPlugin.ActionCount">ActionCount</h4>
@@ -416,7 +416,7 @@ TRUE will cause HomeSeer to call GetJuiDeviceConfigPage() for devices this plugi
   </table>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/IPlugin.cs/#L75">View Source</a>
+    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/IPlugin.cs/#L89">View Source</a>
   </span>
   <a id="HomeSeer_PluginSdk_IPlugin_SupportsConfigDeviceAll_" data-uid="HomeSeer.PluginSdk.IPlugin.SupportsConfigDeviceAll*"></a>
   <h4 id="HomeSeer_PluginSdk_IPlugin_SupportsConfigDeviceAll" data-uid="HomeSeer.PluginSdk.IPlugin.SupportsConfigDeviceAll">SupportsConfigDeviceAll</h4>
@@ -465,7 +465,60 @@ TRUE will cause HomeSeer to call GetJuiDeviceConfigPage() for every device.
   </table>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/IPlugin.cs/#L85">View Source</a>
+    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/IPlugin.cs/#L80">View Source</a>
+  </span>
+  <a id="HomeSeer_PluginSdk_IPlugin_SupportsConfigFeature_" data-uid="HomeSeer.PluginSdk.IPlugin.SupportsConfigFeature*"></a>
+  <h4 id="HomeSeer_PluginSdk_IPlugin_SupportsConfigFeature" data-uid="HomeSeer.PluginSdk.IPlugin.SupportsConfigFeature">SupportsConfigFeature</h4>
+  <div class="markdown level1 summary"><p>Whether this plugin supports a feature configuration page for features created/managed by it</p>
+<p>
+TRUE will cause HomeSeer to call GetJuiDeviceConfigPage() for features this plugin manages.
+  FALSE means HomeSeer will not call GetJuiDeviceConfigPage() for any features 
+</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="tabGroup" id="tabgroup_syntax">
+      <ul role="tablist">
+          <li role="presentation">
+              <a href="#tabpanel_syntax_cs" tabindex="0" role="tab" aria-controls="tabpanel_syntax_cs" data-tab="cs" aria-selected="true">C#</a>
+          </li>
+          <li role="presentation">
+              <a href="#tabpanel_syntax_vb" tabindex="-1" role="tab" aria-controls="tabpanel_syntax_vb" data-tab="vb">Visual Basic</a>
+          </li>
+      </ul>
+      <section id="tabpanel_syntax_cs" role="tabpanel" data-tab="cs">
+          <div class="codewrapper">
+            <pre><code class="lang-csharp hljs">bool SupportsConfigFeature { get; }</code></pre>
+          </div>
+      </section>
+      <section id="tabpanel_syntax_vb" role="tabpanel" data-tab="vb" aria-hidden="true" hidden="">
+          <div class="codewrapper">
+            <pre><code class="lang-vb hljs">ReadOnly Property SupportsConfigFeature As Boolean</code></pre>
+          </div>
+      </section>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="HomeSeer_PluginSdk_IPlugin_SupportsConfigFeature_remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>Setting this to TRUE allows you to display a unique page for each feature instead of using a single page
+for the device and all of its features.</p>
+</div>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/IPlugin.cs/#L99">View Source</a>
   </span>
   <a id="HomeSeer_PluginSdk_IPlugin_TriggerCount_" data-uid="HomeSeer.PluginSdk.IPlugin.TriggerCount*"></a>
   <h4 id="HomeSeer_PluginSdk_IPlugin_TriggerCount" data-uid="HomeSeer.PluginSdk.IPlugin.TriggerCount">TriggerCount</h4>
@@ -512,7 +565,7 @@ TRUE will cause HomeSeer to call GetJuiDeviceConfigPage() for every device.
   </h3>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/IPlugin.cs/#L232">View Source</a>
+    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/IPlugin.cs/#L246">View Source</a>
   </span>
   <a id="HomeSeer_PluginSdk_IPlugin_ActionBuildUI_" data-uid="HomeSeer.PluginSdk.IPlugin.ActionBuildUI*"></a>
   <h4 id="HomeSeer_PluginSdk_IPlugin_ActionBuildUI_HomeSeer_PluginSdk_Events_TrigActInfo_" data-uid="HomeSeer.PluginSdk.IPlugin.ActionBuildUI(HomeSeer.PluginSdk.Events.TrigActInfo)">ActionBuildUI(TrigActInfo)</h4>
@@ -576,7 +629,7 @@ TRUE will cause HomeSeer to call GetJuiDeviceConfigPage() for every device.
   </table>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/IPlugin.cs/#L239">View Source</a>
+    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/IPlugin.cs/#L253">View Source</a>
   </span>
   <a id="HomeSeer_PluginSdk_IPlugin_ActionConfigured_" data-uid="HomeSeer.PluginSdk.IPlugin.ActionConfigured*"></a>
   <h4 id="HomeSeer_PluginSdk_IPlugin_ActionConfigured_HomeSeer_PluginSdk_Events_TrigActInfo_" data-uid="HomeSeer.PluginSdk.IPlugin.ActionConfigured(HomeSeer.PluginSdk.Events.TrigActInfo)">ActionConfigured(TrigActInfo)</h4>
@@ -640,7 +693,7 @@ TRUE will cause HomeSeer to call GetJuiDeviceConfigPage() for every device.
   </table>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/IPlugin.cs/#L247">View Source</a>
+    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/IPlugin.cs/#L261">View Source</a>
   </span>
   <a id="HomeSeer_PluginSdk_IPlugin_ActionFormatUI_" data-uid="HomeSeer.PluginSdk.IPlugin.ActionFormatUI*"></a>
   <h4 id="HomeSeer_PluginSdk_IPlugin_ActionFormatUI_HomeSeer_PluginSdk_Events_TrigActInfo_" data-uid="HomeSeer.PluginSdk.IPlugin.ActionFormatUI(HomeSeer.PluginSdk.Events.TrigActInfo)">ActionFormatUI(TrigActInfo)</h4>
@@ -705,7 +758,7 @@ in an easy to read format.</p>
   </table>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/IPlugin.cs/#L255">View Source</a>
+    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/IPlugin.cs/#L269">View Source</a>
   </span>
   <a id="HomeSeer_PluginSdk_IPlugin_ActionProcessPostUI_" data-uid="HomeSeer.PluginSdk.IPlugin.ActionProcessPostUI*"></a>
   <h4 id="HomeSeer_PluginSdk_IPlugin_ActionProcessPostUI_System_Collections_Generic_Dictionary_System_String_System_String__HomeSeer_PluginSdk_Events_TrigActInfo_" data-uid="HomeSeer.PluginSdk.IPlugin.ActionProcessPostUI(System.Collections.Generic.Dictionary{System.String,System.String},HomeSeer.PluginSdk.Events.TrigActInfo)">ActionProcessPostUI(Dictionary&lt;String, String&gt;, TrigActInfo)</h4>
@@ -775,7 +828,7 @@ in an easy to read format.</p>
   </table>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/IPlugin.cs/#L263">View Source</a>
+    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/IPlugin.cs/#L277">View Source</a>
   </span>
   <a id="HomeSeer_PluginSdk_IPlugin_ActionReferencesDevice_" data-uid="HomeSeer.PluginSdk.IPlugin.ActionReferencesDevice*"></a>
   <h4 id="HomeSeer_PluginSdk_IPlugin_ActionReferencesDevice_HomeSeer_PluginSdk_Events_TrigActInfo_System_Int32_" data-uid="HomeSeer.PluginSdk.IPlugin.ActionReferencesDevice(HomeSeer.PluginSdk.Events.TrigActInfo,System.Int32)">ActionReferencesDevice(TrigActInfo, Int32)</h4>
@@ -845,7 +898,7 @@ in an easy to read format.</p>
   </table>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/IPlugin.cs/#L225">View Source</a>
+    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/IPlugin.cs/#L239">View Source</a>
   </span>
   <a id="HomeSeer_PluginSdk_IPlugin_GetActionNameByNumber_" data-uid="HomeSeer.PluginSdk.IPlugin.GetActionNameByNumber*"></a>
   <h4 id="HomeSeer_PluginSdk_IPlugin_GetActionNameByNumber_System_Int32_" data-uid="HomeSeer.PluginSdk.IPlugin.GetActionNameByNumber(System.Int32)">GetActionNameByNumber(Int32)</h4>
@@ -910,11 +963,11 @@ in an easy to read format.</p>
   </table>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/IPlugin.cs/#L150">View Source</a>
+    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/IPlugin.cs/#L164">View Source</a>
   </span>
   <a id="HomeSeer_PluginSdk_IPlugin_GetJuiDeviceConfigPage_" data-uid="HomeSeer.PluginSdk.IPlugin.GetJuiDeviceConfigPage*"></a>
   <h4 id="HomeSeer_PluginSdk_IPlugin_GetJuiDeviceConfigPage_System_Int32_" data-uid="HomeSeer.PluginSdk.IPlugin.GetJuiDeviceConfigPage(System.Int32)">GetJuiDeviceConfigPage(Int32)</h4>
-  <div class="markdown level1 summary"><p>Called by the HomeSeer software to obtain a HS-JUI device configuration page for a specific device</p>
+  <div class="markdown level1 summary"><p>Called by the HomeSeer software to obtain a HS-JUI device or feature configuration page for a specific device or feature</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -929,12 +982,12 @@ in an easy to read format.</p>
       </ul>
       <section id="tabpanel_syntax_cs" role="tabpanel" data-tab="cs">
           <div class="codewrapper">
-            <pre><code class="lang-csharp hljs">string GetJuiDeviceConfigPage(int deviceRef)</code></pre>
+            <pre><code class="lang-csharp hljs">string GetJuiDeviceConfigPage(int devOrFeatRef)</code></pre>
           </div>
       </section>
       <section id="tabpanel_syntax_vb" role="tabpanel" data-tab="vb" aria-hidden="true" hidden="">
           <div class="codewrapper">
-            <pre><code class="lang-vb hljs">Function GetJuiDeviceConfigPage(deviceRef As Integer) As String</code></pre>
+            <pre><code class="lang-vb hljs">Function GetJuiDeviceConfigPage(devOrFeatRef As Integer) As String</code></pre>
           </div>
       </section>
   </div>
@@ -950,8 +1003,8 @@ in an easy to read format.</p>
     <tbody>
       <tr>
         <td><span class="xref">System.Int32</span></td>
-        <td><span class="parametername">deviceRef</span></td>
-        <td><p>The device reference to get the page for</p>
+        <td><span class="parametername">devOrFeatRef</span></td>
+        <td><p>The device or feature reference to get the page for</p>
 </td>
       </tr>
     </tbody>
@@ -974,7 +1027,7 @@ in an easy to read format.</p>
   </table>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/IPlugin.cs/#L185">View Source</a>
+    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/IPlugin.cs/#L199">View Source</a>
   </span>
   <a id="HomeSeer_PluginSdk_IPlugin_GetJuiSettingsPages_" data-uid="HomeSeer.PluginSdk.IPlugin.GetJuiSettingsPages*"></a>
   <h4 id="HomeSeer_PluginSdk_IPlugin_GetJuiSettingsPages" data-uid="HomeSeer.PluginSdk.IPlugin.GetJuiSettingsPages">GetJuiSettingsPages()</h4>
@@ -1020,7 +1073,7 @@ in an easy to read format.</p>
   </table>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/IPlugin.cs/#L288">View Source</a>
+    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/IPlugin.cs/#L302">View Source</a>
   </span>
   <a id="HomeSeer_PluginSdk_IPlugin_GetSubTriggerCount_" data-uid="HomeSeer.PluginSdk.IPlugin.GetSubTriggerCount*"></a>
   <h4 id="HomeSeer_PluginSdk_IPlugin_GetSubTriggerCount_System_Int32_" data-uid="HomeSeer.PluginSdk.IPlugin.GetSubTriggerCount(System.Int32)">GetSubTriggerCount(Int32)</h4>
@@ -1084,7 +1137,7 @@ in an easy to read format.</p>
   </table>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/IPlugin.cs/#L296">View Source</a>
+    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/IPlugin.cs/#L310">View Source</a>
   </span>
   <a id="HomeSeer_PluginSdk_IPlugin_GetSubTriggerNameByNumber_" data-uid="HomeSeer.PluginSdk.IPlugin.GetSubTriggerNameByNumber*"></a>
   <h4 id="HomeSeer_PluginSdk_IPlugin_GetSubTriggerNameByNumber_System_Int32_System_Int32_" data-uid="HomeSeer.PluginSdk.IPlugin.GetSubTriggerNameByNumber(System.Int32,System.Int32)">GetSubTriggerNameByNumber(Int32, Int32)</h4>
@@ -1154,7 +1207,7 @@ in an easy to read format.</p>
   </table>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/IPlugin.cs/#L310">View Source</a>
+    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/IPlugin.cs/#L324">View Source</a>
   </span>
   <a id="HomeSeer_PluginSdk_IPlugin_GetTriggerNameByNumber_" data-uid="HomeSeer.PluginSdk.IPlugin.GetTriggerNameByNumber*"></a>
   <h4 id="HomeSeer_PluginSdk_IPlugin_GetTriggerNameByNumber_System_Int32_" data-uid="HomeSeer.PluginSdk.IPlugin.GetTriggerNameByNumber(System.Int32)">GetTriggerNameByNumber(Int32)</h4>
@@ -1218,7 +1271,7 @@ in an easy to read format.</p>
   </table>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/IPlugin.cs/#L270">View Source</a>
+    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/IPlugin.cs/#L284">View Source</a>
   </span>
   <a id="HomeSeer_PluginSdk_IPlugin_HandleAction_" data-uid="HomeSeer.PluginSdk.IPlugin.HandleAction*"></a>
   <h4 id="HomeSeer_PluginSdk_IPlugin_HandleAction_HomeSeer_PluginSdk_Events_TrigActInfo_" data-uid="HomeSeer.PluginSdk.IPlugin.HandleAction(HomeSeer.PluginSdk.Events.TrigActInfo)">HandleAction(TrigActInfo)</h4>
@@ -1282,12 +1335,12 @@ in an easy to read format.</p>
   </table>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/IPlugin.cs/#L143">View Source</a>
+    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/IPlugin.cs/#L157">View Source</a>
   </span>
   <a id="HomeSeer_PluginSdk_IPlugin_HasJuiDeviceConfigPage_" data-uid="HomeSeer.PluginSdk.IPlugin.HasJuiDeviceConfigPage*"></a>
   <h4 id="HomeSeer_PluginSdk_IPlugin_HasJuiDeviceConfigPage_System_Int32_" data-uid="HomeSeer.PluginSdk.IPlugin.HasJuiDeviceConfigPage(System.Int32)">HasJuiDeviceConfigPage(Int32)</h4>
-  <div class="markdown level1 summary"><p>Called by HomeSeer Core to determine if a device configuration page is available for a particular device.
-Only called if <a class="xref" href="HomeSeer.PluginSdk.IPlugin.html#HomeSeer_PluginSdk_IPlugin_SupportsConfigDevice">SupportsConfigDevice</a> or <a class="xref" href="HomeSeer.PluginSdk.IPlugin.html#HomeSeer_PluginSdk_IPlugin_SupportsConfigDeviceAll">SupportsConfigDeviceAll</a> is set to TRUE.</p>
+  <div class="markdown level1 summary"><p>Called by HomeSeer Core to determine if a device or feature configuration page is available for a particular device or feature.
+Only called if <a class="xref" href="HomeSeer.PluginSdk.IPlugin.html#HomeSeer_PluginSdk_IPlugin_SupportsConfigDevice">SupportsConfigDevice</a> or <a class="xref" href="HomeSeer.PluginSdk.IPlugin.html#HomeSeer_PluginSdk_IPlugin_SupportsConfigFeature">SupportsConfigFeature</a> or <a class="xref" href="HomeSeer.PluginSdk.IPlugin.html#HomeSeer_PluginSdk_IPlugin_SupportsConfigDeviceAll">SupportsConfigDeviceAll</a> is set to TRUE.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -1302,12 +1355,12 @@ Only called if <a class="xref" href="HomeSeer.PluginSdk.IPlugin.html#HomeSeer_Pl
       </ul>
       <section id="tabpanel_syntax_cs" role="tabpanel" data-tab="cs">
           <div class="codewrapper">
-            <pre><code class="lang-csharp hljs">bool HasJuiDeviceConfigPage(int deviceRef)</code></pre>
+            <pre><code class="lang-csharp hljs">bool HasJuiDeviceConfigPage(int devOrFeatRef)</code></pre>
           </div>
       </section>
       <section id="tabpanel_syntax_vb" role="tabpanel" data-tab="vb" aria-hidden="true" hidden="">
           <div class="codewrapper">
-            <pre><code class="lang-vb hljs">Function HasJuiDeviceConfigPage(deviceRef As Integer) As Boolean</code></pre>
+            <pre><code class="lang-vb hljs">Function HasJuiDeviceConfigPage(devOrFeatRef As Integer) As Boolean</code></pre>
           </div>
       </section>
   </div>
@@ -1323,7 +1376,7 @@ Only called if <a class="xref" href="HomeSeer.PluginSdk.IPlugin.html#HomeSeer_Pl
     <tbody>
       <tr>
         <td><span class="xref">System.Int32</span></td>
-        <td><span class="parametername">deviceRef</span></td>
+        <td><span class="parametername">devOrFeatRef</span></td>
         <td><p>The <a class="xref" href="HomeSeer.PluginSdk.Devices.AbstractHsDevice.html#HomeSeer_PluginSdk_Devices_AbstractHsDevice_Ref">Ref</a> of the device</p>
 </td>
       </tr>
@@ -1341,14 +1394,14 @@ Only called if <a class="xref" href="HomeSeer.PluginSdk.IPlugin.html#HomeSeer_Pl
       <tr>
         <td><span class="xref">System.Boolean</span></td>
         <td><p>True if there is a page available, false if not.
-Returning True will cause HomeSeer Core to call <a class="xref" href="HomeSeer.PluginSdk.IPlugin.html#HomeSeer_PluginSdk_IPlugin_GetJuiDeviceConfigPage_System_Int32_">GetJuiDeviceConfigPage(Int32)</a> for the device</p>
+Returning True will cause HomeSeer Core to call <a class="xref" href="HomeSeer.PluginSdk.IPlugin.html#HomeSeer_PluginSdk_IPlugin_GetJuiDeviceConfigPage_System_Int32_">GetJuiDeviceConfigPage(Int32)</a> for the device or feature</p>
 </td>
       </tr>
     </tbody>
   </table>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/IPlugin.cs/#L215">View Source</a>
+    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/IPlugin.cs/#L229">View Source</a>
   </span>
   <a id="HomeSeer_PluginSdk_IPlugin_HsEvent_" data-uid="HomeSeer.PluginSdk.IPlugin.HsEvent*"></a>
   <h4 id="HomeSeer_PluginSdk_IPlugin_HsEvent_HomeSeer_PluginSdk_Constants_HSEvent_System_Object___" data-uid="HomeSeer.PluginSdk.IPlugin.HsEvent(HomeSeer.PluginSdk.Constants.HSEvent,System.Object[])">HsEvent(Constants.HSEvent, Object[])</h4>
@@ -1409,7 +1462,7 @@ The event type is always present in the first entry or params(0).
   </table>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/IPlugin.cs/#L104">View Source</a>
+    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/IPlugin.cs/#L118">View Source</a>
   </span>
   <a id="HomeSeer_PluginSdk_IPlugin_InitIO_" data-uid="HomeSeer.PluginSdk.IPlugin.InitIO*"></a>
   <h4 id="HomeSeer_PluginSdk_IPlugin_InitIO" data-uid="HomeSeer.PluginSdk.IPlugin.InitIO">InitIO()</h4>
@@ -1462,7 +1515,7 @@ You should opt for throwing an exception that contains a detailed messaged over
   </table>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/IPlugin.cs/#L303">View Source</a>
+    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/IPlugin.cs/#L317">View Source</a>
   </span>
   <a id="HomeSeer_PluginSdk_IPlugin_IsTriggerConfigValid_" data-uid="HomeSeer.PluginSdk.IPlugin.IsTriggerConfigValid*"></a>
   <h4 id="HomeSeer_PluginSdk_IPlugin_IsTriggerConfigValid_HomeSeer_PluginSdk_Events_TrigActInfo_" data-uid="HomeSeer.PluginSdk.IPlugin.IsTriggerConfigValid(HomeSeer.PluginSdk.Events.TrigActInfo)">IsTriggerConfigValid(TrigActInfo)</h4>
@@ -1526,7 +1579,7 @@ You should opt for throwing an exception that contains a detailed messaged over
   </table>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/IPlugin.cs/#L111">View Source</a>
+    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/IPlugin.cs/#L125">View Source</a>
   </span>
   <a id="HomeSeer_PluginSdk_IPlugin_OnStatusCheck_" data-uid="HomeSeer.PluginSdk.IPlugin.OnStatusCheck*"></a>
   <h4 id="HomeSeer_PluginSdk_IPlugin_OnStatusCheck" data-uid="HomeSeer.PluginSdk.IPlugin.OnStatusCheck">OnStatusCheck()</h4>
@@ -1576,7 +1629,7 @@ You should opt for throwing an exception that contains a detailed messaged over
   </div>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/IPlugin.cs/#L363">View Source</a>
+    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/IPlugin.cs/#L377">View Source</a>
   </span>
   <a id="HomeSeer_PluginSdk_IPlugin_PluginFunction_" data-uid="HomeSeer.PluginSdk.IPlugin.PluginFunction*"></a>
   <h4 id="HomeSeer_PluginSdk_IPlugin_PluginFunction_System_String_System_Object___" data-uid="HomeSeer.PluginSdk.IPlugin.PluginFunction(System.String,System.Object[])">PluginFunction(String, Object[])</h4>
@@ -1646,7 +1699,7 @@ You should opt for throwing an exception that contains a detailed messaged over
   </table>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/IPlugin.cs/#L369">View Source</a>
+    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/IPlugin.cs/#L383">View Source</a>
   </span>
   <a id="HomeSeer_PluginSdk_IPlugin_PluginPropertyGet_" data-uid="HomeSeer.PluginSdk.IPlugin.PluginPropertyGet*"></a>
   <h4 id="HomeSeer_PluginSdk_IPlugin_PluginPropertyGet_System_String_" data-uid="HomeSeer.PluginSdk.IPlugin.PluginPropertyGet(System.String)">PluginPropertyGet(String)</h4>
@@ -1710,7 +1763,7 @@ You should opt for throwing an exception that contains a detailed messaged over
   </table>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/IPlugin.cs/#L375">View Source</a>
+    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/IPlugin.cs/#L389">View Source</a>
   </span>
   <a id="HomeSeer_PluginSdk_IPlugin_PluginPropertySet_" data-uid="HomeSeer.PluginSdk.IPlugin.PluginPropertySet*"></a>
   <h4 id="HomeSeer_PluginSdk_IPlugin_PluginPropertySet_System_String_System_Object_" data-uid="HomeSeer.PluginSdk.IPlugin.PluginPropertySet(System.String,System.Object)">PluginPropertySet(String, Object)</h4>
@@ -1764,7 +1817,7 @@ You should opt for throwing an exception that contains a detailed messaged over
   </table>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/IPlugin.cs/#L388">View Source</a>
+    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/IPlugin.cs/#L402">View Source</a>
   </span>
   <a id="HomeSeer_PluginSdk_IPlugin_PostBackProc_" data-uid="HomeSeer.PluginSdk.IPlugin.PostBackProc*"></a>
   <h4 id="HomeSeer_PluginSdk_IPlugin_PostBackProc_System_String_System_String_System_String_System_Int32_" data-uid="HomeSeer.PluginSdk.IPlugin.PostBackProc(System.String,System.String,System.String,System.Int32)">PostBackProc(String, String, String, Int32)</h4>
@@ -1846,11 +1899,11 @@ You should opt for throwing an exception that contains a detailed messaged over
   </table>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/IPlugin.cs/#L163">View Source</a>
+    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/IPlugin.cs/#L177">View Source</a>
   </span>
   <a id="HomeSeer_PluginSdk_IPlugin_SaveJuiDeviceConfigPage_" data-uid="HomeSeer.PluginSdk.IPlugin.SaveJuiDeviceConfigPage*"></a>
   <h4 id="HomeSeer_PluginSdk_IPlugin_SaveJuiDeviceConfigPage_System_String_System_Int32_" data-uid="HomeSeer.PluginSdk.IPlugin.SaveJuiDeviceConfigPage(System.String,System.Int32)">SaveJuiDeviceConfigPage(String, Int32)</h4>
-  <div class="markdown level1 summary"><p>Save updated values for a HS-JUI formatted device config page</p>
+  <div class="markdown level1 summary"><p>Save updated values for a HS-JUI formatted device or feature config page</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -1865,12 +1918,12 @@ You should opt for throwing an exception that contains a detailed messaged over
       </ul>
       <section id="tabpanel_syntax_cs" role="tabpanel" data-tab="cs">
           <div class="codewrapper">
-            <pre><code class="lang-csharp hljs">bool SaveJuiDeviceConfigPage(string pageContent, int deviceRef)</code></pre>
+            <pre><code class="lang-csharp hljs">bool SaveJuiDeviceConfigPage(string pageContent, int devOrFeatRef)</code></pre>
           </div>
       </section>
       <section id="tabpanel_syntax_vb" role="tabpanel" data-tab="vb" aria-hidden="true" hidden="">
           <div class="codewrapper">
-            <pre><code class="lang-vb hljs">Function SaveJuiDeviceConfigPage(pageContent As String, deviceRef As Integer) As Boolean</code></pre>
+            <pre><code class="lang-vb hljs">Function SaveJuiDeviceConfigPage(pageContent As String, devOrFeatRef As Integer) As Boolean</code></pre>
           </div>
       </section>
   </div>
@@ -1892,8 +1945,8 @@ You should opt for throwing an exception that contains a detailed messaged over
       </tr>
       <tr>
         <td><span class="xref">System.Int32</span></td>
-        <td><span class="parametername">deviceRef</span></td>
-        <td><p>The reference of the device the config page is for</p>
+        <td><span class="parametername">devOrFeatRef</span></td>
+        <td><p>The reference of the device or feature the config page is for</p>
 </td>
       </tr>
     </tbody>
@@ -1919,7 +1972,7 @@ An exception should be thrown with details about the error if it was unsuccessfu
   </table>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/IPlugin.cs/#L197">View Source</a>
+    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/IPlugin.cs/#L211">View Source</a>
   </span>
   <a id="HomeSeer_PluginSdk_IPlugin_SaveJuiSettingsPages_" data-uid="HomeSeer.PluginSdk.IPlugin.SaveJuiSettingsPages*"></a>
   <h4 id="HomeSeer_PluginSdk_IPlugin_SaveJuiSettingsPages_System_String_" data-uid="HomeSeer.PluginSdk.IPlugin.SaveJuiSettingsPages(System.String)">SaveJuiSettingsPages(String)</h4>
@@ -1986,7 +2039,7 @@ An exception should be thrown with details about the error if it was unsuccessfu
   </table>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/IPlugin.cs/#L132">View Source</a>
+    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/IPlugin.cs/#L146">View Source</a>
   </span>
   <a id="HomeSeer_PluginSdk_IPlugin_SetIOMulti_" data-uid="HomeSeer.PluginSdk.IPlugin.SetIOMulti*"></a>
   <h4 id="HomeSeer_PluginSdk_IPlugin_SetIOMulti_System_Collections_Generic_List_HomeSeer_PluginSdk_Devices_Controls_ControlEvent__" data-uid="HomeSeer.PluginSdk.IPlugin.SetIOMulti(System.Collections.Generic.List{HomeSeer.PluginSdk.Devices.Controls.ControlEvent})">SetIOMulti(List&lt;ControlEvent&gt;)</h4>
@@ -2038,7 +2091,7 @@ one for each device being controlled</p>
   </table>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/IPlugin.cs/#L116">View Source</a>
+    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/IPlugin.cs/#L130">View Source</a>
   </span>
   <a id="HomeSeer_PluginSdk_IPlugin_ShutdownIO_" data-uid="HomeSeer.PluginSdk.IPlugin.ShutdownIO*"></a>
   <h4 id="HomeSeer_PluginSdk_IPlugin_ShutdownIO" data-uid="HomeSeer.PluginSdk.IPlugin.ShutdownIO">ShutdownIO()</h4>
@@ -2068,7 +2121,7 @@ one for each device being controlled</p>
   </div>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/IPlugin.cs/#L425">View Source</a>
+    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/IPlugin.cs/#L439">View Source</a>
   </span>
   <a id="HomeSeer_PluginSdk_IPlugin_SpeakIn_" data-uid="HomeSeer.PluginSdk.IPlugin.SpeakIn*"></a>
   <h4 id="HomeSeer_PluginSdk_IPlugin_SpeakIn_System_Int32_System_String_System_Boolean_System_String_" data-uid="HomeSeer.PluginSdk.IPlugin.SpeakIn(System.Int32,System.String,System.Boolean,System.String)">SpeakIn(Int32, String, Boolean, String)</h4>
@@ -2154,7 +2207,7 @@ significant changes in the near future. Please use with caution.</p>
 </div>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/IPlugin.cs/#L317">View Source</a>
+    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/IPlugin.cs/#L331">View Source</a>
   </span>
   <a id="HomeSeer_PluginSdk_IPlugin_TriggerBuildUI_" data-uid="HomeSeer.PluginSdk.IPlugin.TriggerBuildUI*"></a>
   <h4 id="HomeSeer_PluginSdk_IPlugin_TriggerBuildUI_HomeSeer_PluginSdk_Events_TrigActInfo_" data-uid="HomeSeer.PluginSdk.IPlugin.TriggerBuildUI(HomeSeer.PluginSdk.Events.TrigActInfo)">TriggerBuildUI(TrigActInfo)</h4>
@@ -2218,7 +2271,7 @@ significant changes in the near future. Please use with caution.</p>
   </table>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/IPlugin.cs/#L281">View Source</a>
+    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/IPlugin.cs/#L295">View Source</a>
   </span>
   <a id="HomeSeer_PluginSdk_IPlugin_TriggerCanBeCondition_" data-uid="HomeSeer.PluginSdk.IPlugin.TriggerCanBeCondition*"></a>
   <h4 id="HomeSeer_PluginSdk_IPlugin_TriggerCanBeCondition_System_Int32_" data-uid="HomeSeer.PluginSdk.IPlugin.TriggerCanBeCondition(System.Int32)">TriggerCanBeCondition(Int32)</h4>
@@ -2282,7 +2335,7 @@ significant changes in the near future. Please use with caution.</p>
   </table>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/IPlugin.cs/#L325">View Source</a>
+    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/IPlugin.cs/#L339">View Source</a>
   </span>
   <a id="HomeSeer_PluginSdk_IPlugin_TriggerFormatUI_" data-uid="HomeSeer.PluginSdk.IPlugin.TriggerFormatUI*"></a>
   <h4 id="HomeSeer_PluginSdk_IPlugin_TriggerFormatUI_HomeSeer_PluginSdk_Events_TrigActInfo_" data-uid="HomeSeer.PluginSdk.IPlugin.TriggerFormatUI(HomeSeer.PluginSdk.Events.TrigActInfo)">TriggerFormatUI(TrigActInfo)</h4>
@@ -2347,7 +2400,7 @@ in an easy to read format.</p>
   </table>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/IPlugin.cs/#L333">View Source</a>
+    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/IPlugin.cs/#L347">View Source</a>
   </span>
   <a id="HomeSeer_PluginSdk_IPlugin_TriggerProcessPostUI_" data-uid="HomeSeer.PluginSdk.IPlugin.TriggerProcessPostUI*"></a>
   <h4 id="HomeSeer_PluginSdk_IPlugin_TriggerProcessPostUI_System_Collections_Generic_Dictionary_System_String_System_String__HomeSeer_PluginSdk_Events_TrigActInfo_" data-uid="HomeSeer.PluginSdk.IPlugin.TriggerProcessPostUI(System.Collections.Generic.Dictionary{System.String,System.String},HomeSeer.PluginSdk.Events.TrigActInfo)">TriggerProcessPostUI(Dictionary&lt;String, String&gt;, TrigActInfo)</h4>
@@ -2417,7 +2470,7 @@ in an easy to read format.</p>
   </table>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/IPlugin.cs/#L341">View Source</a>
+    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/IPlugin.cs/#L355">View Source</a>
   </span>
   <a id="HomeSeer_PluginSdk_IPlugin_TriggerReferencesDeviceOrFeature_" data-uid="HomeSeer.PluginSdk.IPlugin.TriggerReferencesDeviceOrFeature*"></a>
   <h4 id="HomeSeer_PluginSdk_IPlugin_TriggerReferencesDeviceOrFeature_HomeSeer_PluginSdk_Events_TrigActInfo_System_Int32_" data-uid="HomeSeer.PluginSdk.IPlugin.TriggerReferencesDeviceOrFeature(HomeSeer.PluginSdk.Events.TrigActInfo,System.Int32)">TriggerReferencesDeviceOrFeature(TrigActInfo, Int32)</h4>
@@ -2487,7 +2540,7 @@ in an easy to read format.</p>
   </table>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/IPlugin.cs/#L349">View Source</a>
+    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/IPlugin.cs/#L363">View Source</a>
   </span>
   <a id="HomeSeer_PluginSdk_IPlugin_TriggerTrue_" data-uid="HomeSeer.PluginSdk.IPlugin.TriggerTrue*"></a>
   <h4 id="HomeSeer_PluginSdk_IPlugin_TriggerTrue_HomeSeer_PluginSdk_Events_TrigActInfo_System_Boolean_" data-uid="HomeSeer.PluginSdk.IPlugin.TriggerTrue(HomeSeer.PluginSdk.Events.TrigActInfo,System.Boolean)">TriggerTrue(TrigActInfo, Boolean)</h4>
@@ -2557,7 +2610,7 @@ in an easy to read format.</p>
   </table>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/IPlugin.cs/#L173">View Source</a>
+    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/IPlugin.cs/#L187">View Source</a>
   </span>
   <a id="HomeSeer_PluginSdk_IPlugin_UpdateStatusNow_" data-uid="HomeSeer.PluginSdk.IPlugin.UpdateStatusNow*"></a>
   <h4 id="HomeSeer_PluginSdk_IPlugin_UpdateStatusNow_System_Int32_" data-uid="HomeSeer.PluginSdk.IPlugin.UpdateStatusNow(System.Int32)">UpdateStatusNow(Int32)</h4>
@@ -2635,7 +2688,8 @@ This should force the device/feature to update its current status on HomeSeer.
               </ul>
             </div>
             <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
-            <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              <h5>In This Article</h5>
+              <div></div>
             </nav>
           </div>
         </div>

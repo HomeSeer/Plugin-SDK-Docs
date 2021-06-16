@@ -10,7 +10,7 @@
     <meta name="viewport" content="width=device-width">
     <meta name="title" content="Class StatusControlCollection
    | HomeSeer PluginSdk Docs ">
-    <meta name="generator" content="docfx 2.49.0.0">
+    <meta name="generator" content="docfx 2.58.0.0">
     
     <link rel="shortcut icon" href="../images/favicon.ico">
     <link rel="stylesheet" href="../styles/docfx.vendor.css">
@@ -62,11 +62,11 @@
       <div class="container body-content">
         
         <div id="search-results">
-          <div class="search-list"></div>
+          <div class="search-list">Search Results for <span></span></div>
           <div class="sr-items">
             <p><i class="glyphicon glyphicon-refresh index-loading"></i></p>
           </div>
-          <ul id="pagination"></ul>
+          <ul id="pagination" data-first="First" data-prev="Previous" data-next="Next" data-last="Last"></ul>
         </div>
       </div>
       <div role="main" class="container-fluid body-content hide-when-search">
@@ -144,18 +144,25 @@ Public Class StatusControlCollection</code></pre>
   </div>
   <hr>
   <br>
-  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 summary"><p>A managed collection of <a class="xref" href="HomeSeer.PluginSdk.Devices.Controls.StatusControl.html">StatusControl</a>s</p>
+</div>
   <div class="markdown level0 conceptual"></div>
   <br>
+  <h5 id="HomeSeer_PluginSdk_Devices_Controls_StatusControlCollection_remarks"><strong>Remarks</strong></h5>
+  <div class="markdown level0 remarks"><p>This is a <span class="xref">System.Collections.Generic.SortedDictionary&lt;TKey, TValue&gt;</span> where <a class="xref" href="HomeSeer.PluginSdk.Devices.Controls.StatusControl.html#HomeSeer_PluginSdk_Devices_Controls_StatusControl_TargetValue">TargetValue</a> or
+<a class="xref" href="HomeSeer.PluginSdk.Devices.ValueRange.html#HomeSeer_PluginSdk_Devices_ValueRange_Min">Min</a> of <a class="xref" href="HomeSeer.PluginSdk.Devices.Controls.StatusControl.html#HomeSeer_PluginSdk_Devices_Controls_StatusControl_TargetRange">TargetRange</a> is used as the key.
+This is used to ensure that there is only one <a class="xref" href="HomeSeer.PluginSdk.Devices.Controls.StatusControl.html">StatusControl</a> per <a class="xref" href="HomeSeer.PluginSdk.Devices.AbstractHsDevice.html#HomeSeer_PluginSdk_Devices_AbstractHsDevice_Value">Value</a></p>
+</div>
   <h3 id="properties">Properties
   </h3>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Devices/Controls/StatusControlCollection.cs/#L110">View Source</a>
+    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Devices/Controls/StatusControlCollection.cs/#L158">View Source</a>
   </span>
   <a id="HomeSeer_PluginSdk_Devices_Controls_StatusControlCollection_Count_" data-uid="HomeSeer.PluginSdk.Devices.Controls.StatusControlCollection.Count*"></a>
   <h4 id="HomeSeer_PluginSdk_Devices_Controls_StatusControlCollection_Count" data-uid="HomeSeer.PluginSdk.Devices.Controls.StatusControlCollection.Count">Count</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>The number of <a class="xref" href="HomeSeer.PluginSdk.Devices.Controls.StatusControl.html">StatusControl</a>s in the collection</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="tabGroup" id="tabgroup_syntax">
@@ -195,11 +202,12 @@ Public Class StatusControlCollection</code></pre>
   </table>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Devices/Controls/StatusControlCollection.cs/#L38">View Source</a>
+    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Devices/Controls/StatusControlCollection.cs/#L61">View Source</a>
   </span>
   <a id="HomeSeer_PluginSdk_Devices_Controls_StatusControlCollection_Item_" data-uid="HomeSeer.PluginSdk.Devices.Controls.StatusControlCollection.Item*"></a>
   <h4 id="HomeSeer_PluginSdk_Devices_Controls_StatusControlCollection_Item_System_Double_" data-uid="HomeSeer.PluginSdk.Devices.Controls.StatusControlCollection.Item(System.Double)">Item[Double]</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Get the <a class="xref" href="HomeSeer.PluginSdk.Devices.Controls.StatusControl.html">StatusControl</a> in the collection that handles the specified value</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="tabGroup" id="tabgroup_syntax">
@@ -235,7 +243,8 @@ Public Class StatusControlCollection</code></pre>
       <tr>
         <td><span class="xref">System.Double</span></td>
         <td><span class="parametername">value</span></td>
-        <td></td>
+        <td><p>The value associated with the desired <a class="xref" href="HomeSeer.PluginSdk.Devices.Controls.StatusControl.html">StatusControl</a></p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -254,13 +263,30 @@ Public Class StatusControlCollection</code></pre>
       </tr>
     </tbody>
   </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.KeyNotFoundException</span></td>
+        <td><p>Thrown when no <a class="xref" href="HomeSeer.PluginSdk.Devices.Controls.StatusControl.html">StatusControl</a> is found that handles the specified <code data-dev-comment-type="paramref" class="paramref">value</code></p>
+</td>
+      </tr>
+    </tbody>
+  </table>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Devices/Controls/StatusControlCollection.cs/#L108">View Source</a>
+    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Devices/Controls/StatusControlCollection.cs/#L153">View Source</a>
   </span>
   <a id="HomeSeer_PluginSdk_Devices_Controls_StatusControlCollection_Values_" data-uid="HomeSeer.PluginSdk.Devices.Controls.StatusControlCollection.Values*"></a>
   <h4 id="HomeSeer_PluginSdk_Devices_Controls_StatusControlCollection_Values" data-uid="HomeSeer.PluginSdk.Devices.Controls.StatusControlCollection.Values">Values</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Get an unordered list of the <a class="xref" href="HomeSeer.PluginSdk.Devices.Controls.StatusControl.html">StatusControl</a>s in the collection</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="tabGroup" id="tabgroup_syntax">
@@ -302,11 +328,12 @@ Public Class StatusControlCollection</code></pre>
   </h3>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Devices/Controls/StatusControlCollection.cs/#L16">View Source</a>
+    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Devices/Controls/StatusControlCollection.cs/#L29">View Source</a>
   </span>
   <a id="HomeSeer_PluginSdk_Devices_Controls_StatusControlCollection_Add_" data-uid="HomeSeer.PluginSdk.Devices.Controls.StatusControlCollection.Add*"></a>
   <h4 id="HomeSeer_PluginSdk_Devices_Controls_StatusControlCollection_Add_HomeSeer_PluginSdk_Devices_Controls_StatusControl_" data-uid="HomeSeer.PluginSdk.Devices.Controls.StatusControlCollection.Add(HomeSeer.PluginSdk.Devices.Controls.StatusControl)">Add(StatusControl)</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Add a <a class="xref" href="HomeSeer.PluginSdk.Devices.Controls.StatusControl.html">StatusControl</a> to the collection</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="tabGroup" id="tabgroup_syntax">
@@ -342,17 +369,35 @@ Public Class StatusControlCollection</code></pre>
       <tr>
         <td><a class="xref" href="HomeSeer.PluginSdk.Devices.Controls.StatusControl.html">StatusControl</a></td>
         <td><span class="parametername">statusControl</span></td>
-        <td></td>
+        <td><p>A <a class="xref" href="HomeSeer.PluginSdk.Devices.Controls.StatusControl.html">StatusControl</a> to add. It must not target a value that is already handled by the collection.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentException</span></td>
+        <td><p>Thrown if the <code data-dev-comment-type="paramref" class="paramref">statusControl</code> targets a value that is already handled in the collection.</p>
+</td>
       </tr>
     </tbody>
   </table>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Devices/Controls/StatusControlCollection.cs/#L24">View Source</a>
+    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Devices/Controls/StatusControlCollection.cs/#L42">View Source</a>
   </span>
   <a id="HomeSeer_PluginSdk_Devices_Controls_StatusControlCollection_AddRange_" data-uid="HomeSeer.PluginSdk.Devices.Controls.StatusControlCollection.AddRange*"></a>
   <h4 id="HomeSeer_PluginSdk_Devices_Controls_StatusControlCollection_AddRange_System_Collections_Generic_List_HomeSeer_PluginSdk_Devices_Controls_StatusControl__" data-uid="HomeSeer.PluginSdk.Devices.Controls.StatusControlCollection.AddRange(System.Collections.Generic.List{HomeSeer.PluginSdk.Devices.Controls.StatusControl})">AddRange(List&lt;StatusControl&gt;)</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Add multiple <a class="xref" href="HomeSeer.PluginSdk.Devices.Controls.StatusControl.html">StatusControl</a>s to the collection</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="tabGroup" id="tabgroup_syntax">
@@ -388,17 +433,35 @@ Public Class StatusControlCollection</code></pre>
       <tr>
         <td><span class="xref">System.Collections.Generic.List</span>&lt;<a class="xref" href="HomeSeer.PluginSdk.Devices.Controls.StatusControl.html">StatusControl</a>&gt;</td>
         <td><span class="parametername">statusControls</span></td>
-        <td></td>
+        <td><p>A collection of <a class="xref" href="HomeSeer.PluginSdk.Devices.Controls.StatusControl.html">StatusControl</a>s to add. Make sure there is only one <a class="xref" href="HomeSeer.PluginSdk.Devices.Controls.StatusControl.html">StatusControl</a> handling each value.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentException</span></td>
+        <td><p>Thrown if any element in <code data-dev-comment-type="paramref" class="paramref">statusControls</code> targets a value that is already handled in the collection.</p>
+</td>
       </tr>
     </tbody>
   </table>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Devices/Controls/StatusControlCollection.cs/#L69">View Source</a>
+    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Devices/Controls/StatusControlCollection.cs/#L101">View Source</a>
   </span>
   <a id="HomeSeer_PluginSdk_Devices_Controls_StatusControlCollection_Contains_" data-uid="HomeSeer.PluginSdk.Devices.Controls.StatusControlCollection.Contains*"></a>
   <h4 id="HomeSeer_PluginSdk_Devices_Controls_StatusControlCollection_Contains_HomeSeer_PluginSdk_Devices_Controls_StatusControl_" data-uid="HomeSeer.PluginSdk.Devices.Controls.StatusControlCollection.Contains(HomeSeer.PluginSdk.Devices.Controls.StatusControl)">Contains(StatusControl)</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Determine if a <a class="xref" href="HomeSeer.PluginSdk.Devices.Controls.StatusControl.html">StatusControl</a> is already in the managed collection</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="tabGroup" id="tabgroup_syntax">
@@ -434,7 +497,8 @@ Public Class StatusControlCollection</code></pre>
       <tr>
         <td><a class="xref" href="HomeSeer.PluginSdk.Devices.Controls.StatusControl.html">StatusControl</a></td>
         <td><span class="parametername">statusControl</span></td>
-        <td></td>
+        <td><p>The <a class="xref" href="HomeSeer.PluginSdk.Devices.Controls.StatusControl.html">StatusControl</a> to search for</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -449,17 +513,23 @@ Public Class StatusControlCollection</code></pre>
     <tbody>
       <tr>
         <td><span class="xref">System.Boolean</span></td>
-        <td></td>
+        <td><p><span class="xref">langword_csharp_True</span> if the <code data-dev-comment-type="paramref" class="paramref">statusControl</code> is in the collection, <span class="xref">langword_csharp_False</span> if it is not</p>
+</td>
       </tr>
     </tbody>
   </table>
+  <h5 id="HomeSeer_PluginSdk_Devices_Controls_StatusControlCollection_Contains_HomeSeer_PluginSdk_Devices_Controls_StatusControl__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>This check is based on <a class="xref" href="HomeSeer.PluginSdk.Devices.Controls.StatusControl.html#HomeSeer_PluginSdk_Devices_Controls_StatusControl_TargetValue">TargetValue</a> or the <a class="xref" href="HomeSeer.PluginSdk.Devices.ValueRange.html#HomeSeer_PluginSdk_Devices_ValueRange_Min">Min</a> of
+<a class="xref" href="HomeSeer.PluginSdk.Devices.Controls.StatusControl.html#HomeSeer_PluginSdk_Devices_Controls_StatusControl_TargetRange">TargetRange</a></p>
+</div>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Devices/Controls/StatusControlCollection.cs/#L74">View Source</a>
+    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Devices/Controls/StatusControlCollection.cs/#L110">View Source</a>
   </span>
   <a id="HomeSeer_PluginSdk_Devices_Controls_StatusControlCollection_ContainsValue_" data-uid="HomeSeer.PluginSdk.Devices.Controls.StatusControlCollection.ContainsValue*"></a>
   <h4 id="HomeSeer_PluginSdk_Devices_Controls_StatusControlCollection_ContainsValue_System_Double_" data-uid="HomeSeer.PluginSdk.Devices.Controls.StatusControlCollection.ContainsValue(System.Double)">ContainsValue(Double)</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Determine if a value is handled by the collection</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="tabGroup" id="tabgroup_syntax">
@@ -495,7 +565,8 @@ Public Class StatusControlCollection</code></pre>
       <tr>
         <td><span class="xref">System.Double</span></td>
         <td><span class="parametername">value</span></td>
-        <td></td>
+        <td><p>The value to check for</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -510,17 +581,19 @@ Public Class StatusControlCollection</code></pre>
     <tbody>
       <tr>
         <td><span class="xref">System.Boolean</span></td>
-        <td></td>
+        <td><p><span class="xref">langword_csharp_True</span> if the value is handled, <span class="xref">langword_csharp_False</span> if it is not</p>
+</td>
       </tr>
     </tbody>
   </table>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Devices/Controls/StatusControlCollection.cs/#L95">View Source</a>
+    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Devices/Controls/StatusControlCollection.cs/#L137">View Source</a>
   </span>
   <a id="HomeSeer_PluginSdk_Devices_Controls_StatusControlCollection_GetControlsForRange_" data-uid="HomeSeer.PluginSdk.Devices.Controls.StatusControlCollection.GetControlsForRange*"></a>
   <h4 id="HomeSeer_PluginSdk_Devices_Controls_StatusControlCollection_GetControlsForRange_System_Double_System_Double_" data-uid="HomeSeer.PluginSdk.Devices.Controls.StatusControlCollection.GetControlsForRange(System.Double,System.Double)">GetControlsForRange(Double, Double)</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Get a list of <a class="xref" href="HomeSeer.PluginSdk.Devices.Controls.StatusControl.html">StatusControl</a>s that handle a given range of values</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="tabGroup" id="tabgroup_syntax">
@@ -556,12 +629,14 @@ Public Class StatusControlCollection</code></pre>
       <tr>
         <td><span class="xref">System.Double</span></td>
         <td><span class="parametername">min</span></td>
-        <td></td>
+        <td><p>The smallest number in the range</p>
+</td>
       </tr>
       <tr>
         <td><span class="xref">System.Double</span></td>
         <td><span class="parametername">max</span></td>
-        <td></td>
+        <td><p>The largest number in the range</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -576,17 +651,19 @@ Public Class StatusControlCollection</code></pre>
     <tbody>
       <tr>
         <td><span class="xref">System.Collections.Generic.List</span>&lt;<a class="xref" href="HomeSeer.PluginSdk.Devices.Controls.StatusControl.html">StatusControl</a>&gt;</td>
-        <td></td>
+        <td><p>A List of <a class="xref" href="HomeSeer.PluginSdk.Devices.Controls.StatusControl.html">StatusControl</a>s</p>
+</td>
       </tr>
     </tbody>
   </table>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Devices/Controls/StatusControlCollection.cs/#L125">View Source</a>
+    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Devices/Controls/StatusControlCollection.cs/#L184">View Source</a>
   </span>
   <a id="HomeSeer_PluginSdk_Devices_Controls_StatusControlCollection_Remove_" data-uid="HomeSeer.PluginSdk.Devices.Controls.StatusControlCollection.Remove*"></a>
   <h4 id="HomeSeer_PluginSdk_Devices_Controls_StatusControlCollection_Remove_HomeSeer_PluginSdk_Devices_Controls_StatusControl_" data-uid="HomeSeer.PluginSdk.Devices.Controls.StatusControlCollection.Remove(HomeSeer.PluginSdk.Devices.Controls.StatusControl)">Remove(StatusControl)</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Remove a <a class="xref" href="HomeSeer.PluginSdk.Devices.Controls.StatusControl.html">StatusControl</a> from the collection</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="tabGroup" id="tabgroup_syntax">
@@ -622,17 +699,25 @@ Public Class StatusControlCollection</code></pre>
       <tr>
         <td><a class="xref" href="HomeSeer.PluginSdk.Devices.Controls.StatusControl.html">StatusControl</a></td>
         <td><span class="parametername">statusControl</span></td>
-        <td></td>
+        <td><p>A <a class="xref" href="HomeSeer.PluginSdk.Devices.Controls.StatusControl.html">StatusControl</a> to remove</p>
+</td>
       </tr>
     </tbody>
   </table>
+  <h5 id="HomeSeer_PluginSdk_Devices_Controls_StatusControlCollection_Remove_HomeSeer_PluginSdk_Devices_Controls_StatusControl__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>A key is determined by the <a class="xref" href="HomeSeer.PluginSdk.Devices.Controls.StatusControl.html#HomeSeer_PluginSdk_Devices_Controls_StatusControl_TargetValue">TargetValue</a> or the <a class="xref" href="HomeSeer.PluginSdk.Devices.ValueRange.html#HomeSeer_PluginSdk_Devices_ValueRange_Min">Min</a> of
+<a class="xref" href="HomeSeer.PluginSdk.Devices.Controls.StatusControl.html#HomeSeer_PluginSdk_Devices_Controls_StatusControl_TargetRange">TargetRange</a> of <code data-dev-comment-type="paramref" class="paramref">statusControl</code>.
+The found item is then compared by hash code to ensure they are the
+same.</p>
+</div>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Devices/Controls/StatusControlCollection.cs/#L134">View Source</a>
+    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Devices/Controls/StatusControlCollection.cs/#L196">View Source</a>
   </span>
   <a id="HomeSeer_PluginSdk_Devices_Controls_StatusControlCollection_RemoveAll_" data-uid="HomeSeer.PluginSdk.Devices.Controls.StatusControlCollection.RemoveAll*"></a>
   <h4 id="HomeSeer_PluginSdk_Devices_Controls_StatusControlCollection_RemoveAll" data-uid="HomeSeer.PluginSdk.Devices.Controls.StatusControlCollection.RemoveAll">RemoveAll()</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Remove all <a class="xref" href="HomeSeer.PluginSdk.Devices.Controls.StatusControl.html">StatusControl</a>s in the collection</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="tabGroup" id="tabgroup_syntax">
@@ -657,11 +742,12 @@ Public Class StatusControlCollection</code></pre>
   </div>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Devices/Controls/StatusControlCollection.cs/#L117">View Source</a>
+    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Devices/Controls/StatusControlCollection.cs/#L166">View Source</a>
   </span>
   <a id="HomeSeer_PluginSdk_Devices_Controls_StatusControlCollection_RemoveKey_" data-uid="HomeSeer.PluginSdk.Devices.Controls.StatusControlCollection.RemoveKey*"></a>
   <h4 id="HomeSeer_PluginSdk_Devices_Controls_StatusControlCollection_RemoveKey_System_Double_" data-uid="HomeSeer.PluginSdk.Devices.Controls.StatusControlCollection.RemoveKey(System.Double)">RemoveKey(Double)</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Remove the <a class="xref" href="HomeSeer.PluginSdk.Devices.Controls.StatusControl.html">StatusControl</a> that handles the specified <code data-dev-comment-type="paramref" class="paramref">value</code></p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="tabGroup" id="tabgroup_syntax">
@@ -697,7 +783,8 @@ Public Class StatusControlCollection</code></pre>
       <tr>
         <td><span class="xref">System.Double</span></td>
         <td><span class="parametername">value</span></td>
-        <td></td>
+        <td><p>The value handled by the <a class="xref" href="HomeSeer.PluginSdk.Devices.Controls.StatusControl.html">StatusControl</a> to remove</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -709,12 +796,13 @@ Public Class StatusControlCollection</code></pre>
             <div class="contribution">
               <ul class="nav">
                 <li>
-                  <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Devices/Controls/StatusControlCollection.cs/#L8" class="contribution-link">View Source</a>
+                  <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Devices/Controls/StatusControlCollection.cs/#L16" class="contribution-link">View Source</a>
                 </li>
               </ul>
             </div>
             <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
-            <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              <h5>In This Article</h5>
+              <div></div>
             </nav>
           </div>
         </div>

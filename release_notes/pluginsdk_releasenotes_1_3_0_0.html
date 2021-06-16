@@ -1,0 +1,181 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Plugin SDK v1.3.0.0 Release Notes | HomeSeer PluginSdk Docs </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Plugin SDK v1.3.0.0 Release Notes | HomeSeer PluginSdk Docs ">
+    <meta name="generator" content="docfx 2.58.0.0">
+    
+    <link rel="shortcut icon" href="../images/favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <link rel="stylesheet" href="../styles/perfect-scrollbar.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet"> 
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    <meta property="docfx:rel" content="../">
+    
+  </head>  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../images/HomeSeer_Full_Logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div class="container body-content">
+        
+        <div id="search-results">
+          <div class="search-list">Search Results for <span></span></div>
+          <div class="sr-items">
+            <p><i class="glyphicon glyphicon-refresh index-loading"></i></p>
+          </div>
+          <ul id="pagination" data-first="First" data-prev="Previous" data-next="Next" data-last="Last"></ul>
+        </div>
+      </div>
+      <div role="main" class="container-fluid body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+      <div class="col-md-1"></div>
+      <div class="col-md-8 card">
+        <article class="content wrap" id="_content" data-uid="">
+<h1 id="plugin-sdk-v1300-release-notes">Plugin SDK v1.3.0.0 Release Notes</h1>
+
+<p>This release focuses on changes to <a href="xref:HomeSeer.Jui*"><code>JUI</code></a> and <a href="xref:HomeSeer.PluginSdk.Devices*"><code>Devices</code></a> as
+well as making sure all members of the <a href="xref:HomeSeer.PluginSdk.Devices*"><code>Devices</code></a> namespace have documentation now.
+A new project <a href="https://github.com/HomeSeer/Plugin-SDK/tree/master/PluginSdkTests">PluginSdkTests</a> has been included to hold
+unit tests as they are added. This release also includes preview changes for HS4.2.</p>
+<ul>
+<li>Add new <a href="xref:HomeSeer.Jui*"><code>JUI</code></a> views
+<ul>
+<li>Add <a href="xref:HomeSeer.Jui.Views.TimeSpanView*"><code>TimeSpanView</code></a> (PSDK-1)
+<a href="https://github.com/HomeSeer/Plugin-SDK/issues/147">(GitHub Issue 147)</a> <a href="https://github.com/HomeSeer/Plugin-SDK/issues/72">(GitHub Issue 72)</a></li>
+<li>Add <a href="xref:HomeSeer.Jui.Views.GridView*"><code>GridView</code></a> (PSDK-57)</li>
+<li>Add <a href="xref:HomeSeer.Jui.Views.TextAreaView*"><code>TextAreaView</code></a> (PSDK-151) <a href="https://github.com/HomeSeer/Plugin-SDK/issues/197">(GitHub Issue 197)</a></li>
+</ul>
+</li>
+<li>Add <a class="xref" href="../api/HomeSeer.PluginSdk.IHsController.html#HomeSeer_PluginSdk_IHsController_SendControlForFeatureByString_"><code>IHsController.SendControlForFeatureByString()</code></a> (PSDK-91)</li>
+<li>Add <a class="xref" href="../api/HomeSeer.PluginSdk.IPlugin.html#HomeSeer_PluginSdk_IPlugin_SupportsConfigFeature_"><code>IPlugin.SupportsConfigFeature</code></a> property to allow plugins to display a config page unique to a feature instead
+of always going to the owning device's config page (PSDK-152) <a href="https://github.com/HomeSeer/Plugin-SDK/issues/86">(GitHub Issue 86)</a></li>
+<li>Add methods to <a href="xref:HomeSeer.PluginSdk.Devices.DeviceFactory*"><code>DeviceFactory</code></a> and <a href="xref:HomeSeer.PluginSdk.Devices.FeatureFactory*"><code>FeatureFactory</code></a>
+<ul>
+<li>Add <a class="xref" href="../api/HomeSeer.PluginSdk.Devices.DeviceFactory.html#HomeSeer_PluginSdk_Devices_DeviceFactory_WithAddress_"><code>DeviceFactory.WithAddress()</code></a> (PSDK-156)</li>
+<li>Add <a class="xref" href="../api/HomeSeer.PluginSdk.Devices.DeviceFactory.html#HomeSeer_PluginSdk_Devices_DeviceFactory_WithoutMiscFlags_"><code>DeviceFactory.WithoutMiscFlags()</code></a> (PSDK-157)</li>
+<li>Add <a href="xref:HomeSeer.PluginSdk.Devices.FeatureFactory.AddGraphic(HomeSeer.PluginSdk.Devices.StatusGraphic)*"><code>FeatureFactory.AddGraphic(StatusGraphic)</code></a> (PSDK-164)</li>
+</ul>
+</li>
+<li>Move <a href="xref:HomeSeer.PluginSdk.Devices.EEnergyFeatureSubType*"><code>Devices.EEnergyFeatureSubType</code></a> to
+<a href="xref:HomeSeer.PluginSdk.Devices.Identification.EEnergyFeatureSubType*"><code>Devices.Identification.EEnergyFeatureSubType</code></a>. Active references
+to <a href="xref:HomeSeer.PluginSdk.Devices.EEnergyFeatureSubType*"><code>Devices.EEnergyFeatureSubType</code></a> in compiled code have been
+tested and will work without any problems (PSDK-163)</li>
+<li>Fix some bugs
+<ul>
+<li>Fix issue preventing values for InputViews from being retrieved from INI (PSDK-155)</li>
+<li>Add exception to <a href="xref:HomeSeer.PluginSdk.Devices.ValueRange*"><code>ValueRange</code></a> constructor when min is greater than
+max to avoid creating a bad object (PSDK-170)</li>
+<li>Change precision of floating point number comparisons from 1E-20 to 1E-15 because Doubles lose precision at 1E-16 (PSDK-171)
+<a href="https://github.com/HomeSeer/Plugin-SDK/issues/198">(GitHub Issue 198)</a></li>
+<li>Remove AbstractStatus because it isn't being used (PSDK-169)</li>
+</ul>
+</li>
+<li>Update documentation (PSDK-158)
+<ul>
+<li>All <a href="xref:HomeSeer.PluginSdk.Devices*"><code>Devices</code></a> namespace members have documentation</li>
+<li>Applied warnings to the use of <a href="xref:HomeSeer.PluginSdk.Devices.Controls.EControlType.StatusOnly*"><code>EControlType.StatusOnly</code></a>
+and <a href="xref:HomeSeer.PluginSdk.Devices.Controls.EControlType.ButtonScript*"><code>EControlType.ButtonScript</code></a> to properly indicate
+that they are read only at this time.</li>
+<li>Applied a warning to the use of <a href="xref:HomeSeer.PluginSdk.Devices.Controls.EControlType.Values*"><code>EControlType.Values</code></a>
+to indicate that its exact use is being worked on and to expect changes in future releases</li>
+<li>Applied a warning to the use of <a href="xref:HomeSeer.PluginSdk.Devices.Controls.EControlType.ValueRangeDropDown*"><code>EControlType.ValueRangeDropDown</code></a>
+to indicate that it is currently inoperable</li>
+<li>All device related methods in <a href="xref:HomeSeer.PluginSdk.IHsController*"><code>IHsController</code></a> have documentation</li>
+</ul>
+</li>
+<li>Add HS4.2 preview code providing more granular control of the display of features on a device (PSDK-118) <a href="https://github.com/HomeSeer/Plugin-SDK/issues/153">(GitHub Issue 153)</a>
+<ul>
+<li>Add <a href="xref:HomeSeer.PluginSdk.Devices.EFeatureDisplayType*"><code>EFeatureDisplayType</code></a></li>
+<li>Add <a class="xref" href="../api/HomeSeer.PluginSdk.Devices.HsDevice.html#HomeSeer_PluginSdk_Devices_HsDevice_FeatureDisplayPriority_"><code>HsDevice.FeatureDisplayPriority</code></a></li>
+<li>Add <a class="xref" href="../api/HomeSeer.PluginSdk.Devices.HsDevice.html#HomeSeer_PluginSdk_Devices_HsDevice_GetFeaturesInDisplayOrder_"><code>HsDevice.GetFeaturesInDisplayOrder()</code></a></li>
+<li>Add <a class="xref" href="../api/HomeSeer.PluginSdk.Devices.HsFeature.html#HomeSeer_PluginSdk_Devices_HsFeature_DisplayPriority_"><code>HsFeature.DisplayPriority</code></a></li>
+<li>Add <a class="xref" href="../api/HomeSeer.PluginSdk.Devices.HsFeature.html#HomeSeer_PluginSdk_Devices_HsFeature_DisplayType_"><code>HsFeature.DisplayType</code></a></li>
+<li>Add <a href="xref:HomeSeer.PluginSdk.Devices.EProperty.FeatureDisplayPriority*"><code>EProperty.FeatureDisplayPriority</code></a> and <a href="xref:HomeSeer.PluginSdk.Devices.EProperty.FeatureDisplayType*"><code>EProperty.FeatureDisplayType</code></a></li>
+<li>Add <a class="xref" href="../api/HomeSeer.PluginSdk.Devices.FeatureFactory.html#HomeSeer_PluginSdk_Devices_FeatureFactory_WithDisplayType_"><code>FeatureFactory.WithDisplayType()</code></a></li>
+</ul>
+</li>
+</ul>
+</article>
+      </div>
+        
+        <div class="hidden-sm col-md-2" role="complementary">
+          <div class="sideaffix" id="ps-sideaffix">
+            <div class="contribution">
+              <ul class="nav">
+              </ul>
+            </div>
+            <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <h5>In This Article</h5>
+              <div></div>
+            </nav>
+          </div>
+        </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            HomeSeer Technologies
+            
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>  </body>
+</html>

@@ -10,7 +10,7 @@
     <meta name="viewport" content="width=device-width">
     <meta name="title" content="Namespace HomeSeer.Jui.Views
    | HomeSeer PluginSdk Docs ">
-    <meta name="generator" content="docfx 2.49.0.0">
+    <meta name="generator" content="docfx 2.58.0.0">
     
     <link rel="shortcut icon" href="../images/favicon.ico">
     <link rel="stylesheet" href="../styles/docfx.vendor.css">
@@ -62,11 +62,11 @@
       <div class="container body-content">
         
         <div id="search-results">
-          <div class="search-list"></div>
+          <div class="search-list">Search Results for <span></span></div>
           <div class="sr-items">
             <p><i class="glyphicon glyphicon-refresh index-loading"></i></p>
           </div>
-          <ul id="pagination"></ul>
+          <ul id="pagination" data-first="First" data-prev="Previous" data-next="Next" data-last="Last"></ul>
         </div>
       </div>
       <div role="main" class="container-fluid body-content hide-when-search">
@@ -91,6 +91,17 @@
   </h3>
       <h4><a class="xref" href="HomeSeer.Jui.Views.AbstractView.html">AbstractView</a></h4>
       <section><p>The base implementation of a JUI view</p>
+</section>
+      <h4><a class="xref" href="HomeSeer.Jui.Views.GridRow.html">GridRow</a></h4>
+      <section><p>A set of views that are displayed as a flexbox row within a <a class="xref" href="HomeSeer.Jui.Views.GridView.html">GridView</a></p>
+</section>
+      <h4><a class="xref" href="HomeSeer.Jui.Views.GridRowItem.html">GridRowItem</a></h4>
+      <section><p>A view displayed as a flex item within a <a class="xref" href="HomeSeer.Jui.Views.GridRow.html">GridRow</a>
+A size can be associated to this item for each <a href="https://mdbootstrap.com/docs/standard/layout/breakpoints/">responsive breakpoint</a></p>
+</section>
+      <h4><a class="xref" href="HomeSeer.Jui.Views.GridView.html">GridView</a></h4>
+      <section><p>A grid view defines a sub-grouping of views with a header.
+It uses the <a href="https://mdbootstrap.com/docs/standard/layout/grid/">bootstrap grid system</a> to layout the views within the group</p>
 </section>
       <h4><a class="xref" href="HomeSeer.Jui.Views.InputView.html">InputView</a></h4>
       <section><p>An input view is an editable text box for the user to enter strings, numbers, etc.</p>
@@ -121,6 +132,12 @@ that a particular property is set to a given value.</p>
       <h4><a class="xref" href="HomeSeer.Jui.Views.SettingsCollection.html">SettingsCollection</a></h4>
       <section><p>A collection of JUI settings pages.</p>
 </section>
+      <h4><a class="xref" href="HomeSeer.Jui.Views.TextAreaView.html">TextAreaView</a></h4>
+      <section><p>A text area view is an editable text box for the user to enter a large volume of text</p>
+</section>
+      <h4><a class="xref" href="HomeSeer.Jui.Views.TimeSpanView.html">TimeSpanView</a></h4>
+      <section><p>A time span allows user to enter a time interval in days, hours, minutes and seconds</p>
+</section>
       <h4><a class="xref" href="HomeSeer.Jui.Views.ToggleView.html">ToggleView</a></h4>
       <section><p>A toggle switch is used to indicate a control that has only two possible operational states.</p>
 </section>
@@ -133,6 +150,11 @@ that a particular property is set to a given value.</p>
       <h4><a class="xref" href="HomeSeer.Jui.Views.ViewTypeMismatchException.html">ViewTypeMismatchException</a></h4>
       <section><p>The exception that is thrown when a view's type doesn't match its class</p>
 </section>
+    <h3 id="enums">Enums
+  </h3>
+      <h4><a class="xref" href="HomeSeer.Jui.Views.EColSize.html">EColSize</a></h4>
+      <section><p>The poissible sizes for a column in the <a href="https://mdbootstrap.com/docs/standard/layout/grid/">bootstrap grid system</a></p>
+</section>
 </article>
       </div>
         
@@ -143,7 +165,8 @@ that a particular property is set to a given value.</p>
               </ul>
             </div>
             <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
-            <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              <h5>In This Article</h5>
+              <div></div>
             </nav>
           </div>
         </div>

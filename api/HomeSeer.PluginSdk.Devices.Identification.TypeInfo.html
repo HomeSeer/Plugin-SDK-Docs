@@ -10,7 +10,7 @@
     <meta name="viewport" content="width=device-width">
     <meta name="title" content="Class TypeInfo
    | HomeSeer PluginSdk Docs ">
-    <meta name="generator" content="docfx 2.49.0.0">
+    <meta name="generator" content="docfx 2.58.0.0">
     
     <link rel="shortcut icon" href="../images/favicon.ico">
     <link rel="stylesheet" href="../styles/docfx.vendor.css">
@@ -62,11 +62,11 @@
       <div class="container body-content">
         
         <div id="search-results">
-          <div class="search-list"></div>
+          <div class="search-list">Search Results for <span></span></div>
           <div class="sr-items">
             <p><i class="glyphicon glyphicon-refresh index-loading"></i></p>
           </div>
-          <ul id="pagination"></ul>
+          <ul id="pagination" data-first="First" data-prev="Previous" data-next="Next" data-last="Last"></ul>
         </div>
       </div>
       <div role="main" class="container-fluid body-content hide-when-search">
@@ -144,7 +144,7 @@ Public Class TypeInfo</code></pre>
   </div>
   <hr>
   <br>
-  <div class="markdown level0 summary"><p>A bundle of information describing the type of a device or feature.</p>
+  <div class="markdown level0 summary"><p>A bundle of information describing the type of a <a class="xref" href="HomeSeer.PluginSdk.Devices.HsDevice.html">HsDevice</a> or <a class="xref" href="HomeSeer.PluginSdk.Devices.HsFeature.html">HsFeature</a>.</p>
 <p>
 This is used to describe the device/feature in a manner that is easily understood by UI generation engines
  and other smart home platforms. When these systems can understand what this device/feature is, they are
@@ -157,7 +157,7 @@ This is used to describe the device/feature in a manner that is easily understoo
   </h3>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Devices/Identification/TypeInfo.cs/#L32">View Source</a>
+    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Devices/Identification/TypeInfo.cs/#L35">View Source</a>
   </span>
   <a id="HomeSeer_PluginSdk_Devices_Identification_TypeInfo_ApiType_" data-uid="HomeSeer.PluginSdk.Devices.Identification.TypeInfo.ApiType*"></a>
   <h4 id="HomeSeer_PluginSdk_Devices_Identification_TypeInfo_ApiType" data-uid="HomeSeer.PluginSdk.Devices.Identification.TypeInfo.ApiType">ApiType</h4>
@@ -202,17 +202,21 @@ This should always represent whether the item is a device or feature.</p>
       </tr>
     </tbody>
   </table>
+  <h5 id="HomeSeer_PluginSdk_Devices_Identification_TypeInfo_ApiType_remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>This can only be one of a few values. It is the strictest type.</p>
+</div>
   <h5 id="HomeSeer_PluginSdk_Devices_Identification_TypeInfo_ApiType_seealso">See Also</h5>
   <div class="seealso">
       <div><a class="xref" href="HomeSeer.PluginSdk.Devices.Identification.EApiType.html">EApiType</a></div>
   </div>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Devices/Identification/TypeInfo.cs/#L42">View Source</a>
+    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Devices/Identification/TypeInfo.cs/#L74">View Source</a>
   </span>
   <a id="HomeSeer_PluginSdk_Devices_Identification_TypeInfo_SubType_" data-uid="HomeSeer.PluginSdk.Devices.Identification.TypeInfo.SubType*"></a>
   <h4 id="HomeSeer_PluginSdk_Devices_Identification_TypeInfo_SubType" data-uid="HomeSeer.PluginSdk.Devices.Identification.TypeInfo.SubType">SubType</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>The sub-type of the <a class="xref" href="HomeSeer.PluginSdk.Devices.AbstractHsDevice.html">AbstractHsDevice</a>.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="tabGroup" id="tabgroup_syntax">
@@ -250,13 +254,30 @@ This should always represent whether the item is a device or feature.</p>
       </tr>
     </tbody>
   </table>
+  <h5 id="HomeSeer_PluginSdk_Devices_Identification_TypeInfo_SubType_remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>This is the least strict type field.</p>
+<p>You can extend this and define new subtypes as needed. It is important to note
+ that these new types will not be understood by HomeSeer and may cause HomeSeer to render them
+ as a generic <a class="xref" href="HomeSeer.PluginSdk.Devices.HsDevice.html">HsDevice</a> or <a class="xref" href="HomeSeer.PluginSdk.Devices.HsFeature.html">HsFeature</a>. If you extend these types and would like
+ to have HomeSeer support them you can create a pull request on GitHub.</p>
+</div>
+  <h5 id="HomeSeer_PluginSdk_Devices_Identification_TypeInfo_SubType_seealso">See Also</h5>
+  <div class="seealso">
+      <div><a class="xref" href="HomeSeer.PluginSdk.Devices.Identification.EGenericDeviceSubType.html">EGenericDeviceSubType</a></div>
+      <div><a class="xref" href="HomeSeer.PluginSdk.Devices.Identification.EGenericFeatureSubType.html">EGenericFeatureSubType</a></div>
+      <div><a class="xref" href="HomeSeer.PluginSdk.Devices.Identification.EEnergyFeatureSubType.html">EEnergyFeatureSubType</a></div>
+      <div><a class="xref" href="HomeSeer.PluginSdk.Devices.Identification.EMediaFeatureSubType.html">EMediaFeatureSubType</a></div>
+      <div><a class="xref" href="HomeSeer.PluginSdk.Devices.Identification.EThermostatControlFeatureSubType.html">EThermostatControlFeatureSubType</a></div>
+      <div><a class="xref" href="HomeSeer.PluginSdk.Devices.Identification.EThermostatStatusFeatureSubType.html">EThermostatStatusFeatureSubType</a></div>
+  </div>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Devices/Identification/TypeInfo.cs/#L47">View Source</a>
+    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Devices/Identification/TypeInfo.cs/#L84">View Source</a>
   </span>
   <a id="HomeSeer_PluginSdk_Devices_Identification_TypeInfo_SubTypeDescription_" data-uid="HomeSeer.PluginSdk.Devices.Identification.TypeInfo.SubTypeDescription*"></a>
   <h4 id="HomeSeer_PluginSdk_Devices_Identification_TypeInfo_SubTypeDescription" data-uid="HomeSeer.PluginSdk.Devices.Identification.TypeInfo.SubTypeDescription">SubTypeDescription</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>A human-readable string description of the configured <a class="xref" href="HomeSeer.PluginSdk.Devices.Identification.TypeInfo.html#HomeSeer_PluginSdk_Devices_Identification_TypeInfo_SubType">SubType</a></p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="tabGroup" id="tabgroup_syntax">
@@ -294,13 +315,17 @@ This should always represent whether the item is a device or feature.</p>
       </tr>
     </tbody>
   </table>
+  <h5 id="HomeSeer_PluginSdk_Devices_Identification_TypeInfo_SubTypeDescription_remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>This must be manually set</p>
+</div>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Devices/Identification/TypeInfo.cs/#L52">View Source</a>
+    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Devices/Identification/TypeInfo.cs/#L94">View Source</a>
   </span>
   <a id="HomeSeer_PluginSdk_Devices_Identification_TypeInfo_Summary_" data-uid="HomeSeer.PluginSdk.Devices.Identification.TypeInfo.Summary*"></a>
   <h4 id="HomeSeer_PluginSdk_Devices_Identification_TypeInfo_Summary" data-uid="HomeSeer.PluginSdk.Devices.Identification.TypeInfo.Summary">Summary</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>A human-readable string summary of the entire <a class="xref" href="HomeSeer.PluginSdk.Devices.Identification.TypeInfo.html">TypeInfo</a></p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="tabGroup" id="tabgroup_syntax">
@@ -338,13 +363,17 @@ This should always represent whether the item is a device or feature.</p>
       </tr>
     </tbody>
   </table>
+  <h5 id="HomeSeer_PluginSdk_Devices_Identification_TypeInfo_Summary_remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>This must be manually set</p>
+</div>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Devices/Identification/TypeInfo.cs/#L37">View Source</a>
+    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Devices/Identification/TypeInfo.cs/#L53">View Source</a>
   </span>
   <a id="HomeSeer_PluginSdk_Devices_Identification_TypeInfo_Type_" data-uid="HomeSeer.PluginSdk.Devices.Identification.TypeInfo.Type*"></a>
   <h4 id="HomeSeer_PluginSdk_Devices_Identification_TypeInfo_Type" data-uid="HomeSeer.PluginSdk.Devices.Identification.TypeInfo.Type">Type</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>The <a class="xref" href="HomeSeer.PluginSdk.Devices.Identification.EDeviceType.html">EDeviceType</a> or <a class="xref" href="HomeSeer.PluginSdk.Devices.Identification.EFeatureType.html">EFeatureType</a> of the <a class="xref" href="HomeSeer.PluginSdk.Devices.AbstractHsDevice.html">AbstractHsDevice</a></p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="tabGroup" id="tabgroup_syntax">
@@ -382,6 +411,19 @@ This should always represent whether the item is a device or feature.</p>
       </tr>
     </tbody>
   </table>
+  <h5 id="HomeSeer_PluginSdk_Devices_Identification_TypeInfo_Type_remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>Acceptable values can be from <a class="xref" href="HomeSeer.PluginSdk.Devices.Identification.EDeviceType.html">EDeviceType</a> or <a class="xref" href="HomeSeer.PluginSdk.Devices.Identification.EFeatureType.html">EFeatureType</a>.
+ It is not as strict as <a class="xref" href="HomeSeer.PluginSdk.Devices.Identification.TypeInfo.html#HomeSeer_PluginSdk_Devices_Identification_TypeInfo_ApiType">ApiType</a>, but it is stricter than <a class="xref" href="HomeSeer.PluginSdk.Devices.Identification.TypeInfo.html#HomeSeer_PluginSdk_Devices_Identification_TypeInfo_SubType">SubType</a>.</p>
+<p>You can extend this and define new types and subtypes as needed. It is important to note
+ that these new types will not be understood by HomeSeer and may cause HomeSeer to render them
+ as a generic <a class="xref" href="HomeSeer.PluginSdk.Devices.HsDevice.html">HsDevice</a> or <a class="xref" href="HomeSeer.PluginSdk.Devices.HsFeature.html">HsFeature</a>. If you extend these types and would like
+ to have HomeSeer support them you can create a pull request on GitHub.</p>
+</div>
+  <h5 id="HomeSeer_PluginSdk_Devices_Identification_TypeInfo_Type_seealso">See Also</h5>
+  <div class="seealso">
+      <div><a class="xref" href="HomeSeer.PluginSdk.Devices.Identification.EDeviceType.html">EDeviceType</a></div>
+      <div><a class="xref" href="HomeSeer.PluginSdk.Devices.Identification.EFeatureType.html">EFeatureType</a></div>
+  </div>
   <h3 id="seealso">See Also</h3>
   <div class="seealso">
       <div><a class="xref" href="HomeSeer.PluginSdk.Devices.Identification.EApiType.html">EApiType</a></div>
@@ -401,7 +443,8 @@ This should always represent whether the item is a device or feature.</p>
               </ul>
             </div>
             <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
-            <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              <h5>In This Article</h5>
+              <div></div>
             </nav>
           </div>
         </div>

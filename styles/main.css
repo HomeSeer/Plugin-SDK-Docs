@@ -295,16 +295,30 @@ div.sideaffix {
 div.sideaffix::-webkit-scrollbar {
   display: none !important;
 }
+nav#affix > div {
+  height: 90%;
+  overflow-x: hidden !important;
+  overflow-y: scroll !important;
+}
+nav#affix > div::-webkit-scrollbar {
+  -webkit-appearance: none;
+  width: 8px;
+}
+nav#affix > div::-webkit-scrollbar-thumb {
+  border-radius: 3px;
+  background-color: rgba(0, 64, 105, 0.44);
+  -webkit-box-shadow: 0 0 1px rgba(255, 255, 255, .75);
+}
 ul.level1.bs-docs-sidenav {
   overflow-x: hidden !important;
   overflow-y: scroll !important;
 }
 ul.level1.bs-docs-sidenav::-webkit-scrollbar {
   -webkit-appearance: none;
-  width: 6px;
 }
+/*
 ul.level1.bs-docs-sidenav::-webkit-scrollbar-thumb {
   border-radius: 3px;
   background-color: rgba(0,64,105,0.44);
   -webkit-box-shadow: 0 0 1px rgba(255, 255, 255, .75);
-}
+}*/

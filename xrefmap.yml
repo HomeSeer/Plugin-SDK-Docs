@@ -187,6 +187,18 @@ references:
   commentId: F:HomeSeer.Jui.Types.EViewType.SelectList
   fullName: HomeSeer.Jui.Types.EViewType.SelectList
   nameWithType: EViewType.SelectList
+- uid: HomeSeer.Jui.Types.EViewType.TextArea
+  name: TextArea
+  href: api/HomeSeer.Jui.Types.EViewType.html#HomeSeer_Jui_Types_EViewType_TextArea
+  commentId: F:HomeSeer.Jui.Types.EViewType.TextArea
+  fullName: HomeSeer.Jui.Types.EViewType.TextArea
+  nameWithType: EViewType.TextArea
+- uid: HomeSeer.Jui.Types.EViewType.TimeSpan
+  name: TimeSpan
+  href: api/HomeSeer.Jui.Types.EViewType.html#HomeSeer_Jui_Types_EViewType_TimeSpan
+  commentId: F:HomeSeer.Jui.Types.EViewType.TimeSpan
+  fullName: HomeSeer.Jui.Types.EViewType.TimeSpan
+  nameWithType: EViewType.TimeSpan
 - uid: HomeSeer.Jui.Types.EViewType.Toggle
   name: Toggle
   href: api/HomeSeer.Jui.Types.EViewType.html#HomeSeer_Jui_Types_EViewType_Toggle
@@ -347,6 +359,379 @@ references:
   isSpec: "True"
   fullName: HomeSeer.Jui.Views.AbstractView.UpdateValue
   nameWithType: AbstractView.UpdateValue
+- uid: HomeSeer.Jui.Views.EColSize
+  name: EColSize
+  href: api/HomeSeer.Jui.Views.EColSize.html
+  commentId: T:HomeSeer.Jui.Views.EColSize
+  fullName: HomeSeer.Jui.Views.EColSize
+  nameWithType: EColSize
+- uid: HomeSeer.Jui.Views.EColSize.Auto
+  name: Auto
+  href: api/HomeSeer.Jui.Views.EColSize.html#HomeSeer_Jui_Views_EColSize_Auto
+  commentId: F:HomeSeer.Jui.Views.EColSize.Auto
+  fullName: HomeSeer.Jui.Views.EColSize.Auto
+  nameWithType: EColSize.Auto
+- uid: HomeSeer.Jui.Views.EColSize.Col
+  name: Col
+  href: api/HomeSeer.Jui.Views.EColSize.html#HomeSeer_Jui_Views_EColSize_Col
+  commentId: F:HomeSeer.Jui.Views.EColSize.Col
+  fullName: HomeSeer.Jui.Views.EColSize.Col
+  nameWithType: EColSize.Col
+- uid: HomeSeer.Jui.Views.EColSize.Col1
+  name: Col1
+  href: api/HomeSeer.Jui.Views.EColSize.html#HomeSeer_Jui_Views_EColSize_Col1
+  commentId: F:HomeSeer.Jui.Views.EColSize.Col1
+  fullName: HomeSeer.Jui.Views.EColSize.Col1
+  nameWithType: EColSize.Col1
+- uid: HomeSeer.Jui.Views.EColSize.Col10
+  name: Col10
+  href: api/HomeSeer.Jui.Views.EColSize.html#HomeSeer_Jui_Views_EColSize_Col10
+  commentId: F:HomeSeer.Jui.Views.EColSize.Col10
+  fullName: HomeSeer.Jui.Views.EColSize.Col10
+  nameWithType: EColSize.Col10
+- uid: HomeSeer.Jui.Views.EColSize.Col11
+  name: Col11
+  href: api/HomeSeer.Jui.Views.EColSize.html#HomeSeer_Jui_Views_EColSize_Col11
+  commentId: F:HomeSeer.Jui.Views.EColSize.Col11
+  fullName: HomeSeer.Jui.Views.EColSize.Col11
+  nameWithType: EColSize.Col11
+- uid: HomeSeer.Jui.Views.EColSize.Col12
+  name: Col12
+  href: api/HomeSeer.Jui.Views.EColSize.html#HomeSeer_Jui_Views_EColSize_Col12
+  commentId: F:HomeSeer.Jui.Views.EColSize.Col12
+  fullName: HomeSeer.Jui.Views.EColSize.Col12
+  nameWithType: EColSize.Col12
+- uid: HomeSeer.Jui.Views.EColSize.Col2
+  name: Col2
+  href: api/HomeSeer.Jui.Views.EColSize.html#HomeSeer_Jui_Views_EColSize_Col2
+  commentId: F:HomeSeer.Jui.Views.EColSize.Col2
+  fullName: HomeSeer.Jui.Views.EColSize.Col2
+  nameWithType: EColSize.Col2
+- uid: HomeSeer.Jui.Views.EColSize.Col3
+  name: Col3
+  href: api/HomeSeer.Jui.Views.EColSize.html#HomeSeer_Jui_Views_EColSize_Col3
+  commentId: F:HomeSeer.Jui.Views.EColSize.Col3
+  fullName: HomeSeer.Jui.Views.EColSize.Col3
+  nameWithType: EColSize.Col3
+- uid: HomeSeer.Jui.Views.EColSize.Col4
+  name: Col4
+  href: api/HomeSeer.Jui.Views.EColSize.html#HomeSeer_Jui_Views_EColSize_Col4
+  commentId: F:HomeSeer.Jui.Views.EColSize.Col4
+  fullName: HomeSeer.Jui.Views.EColSize.Col4
+  nameWithType: EColSize.Col4
+- uid: HomeSeer.Jui.Views.EColSize.Col5
+  name: Col5
+  href: api/HomeSeer.Jui.Views.EColSize.html#HomeSeer_Jui_Views_EColSize_Col5
+  commentId: F:HomeSeer.Jui.Views.EColSize.Col5
+  fullName: HomeSeer.Jui.Views.EColSize.Col5
+  nameWithType: EColSize.Col5
+- uid: HomeSeer.Jui.Views.EColSize.Col6
+  name: Col6
+  href: api/HomeSeer.Jui.Views.EColSize.html#HomeSeer_Jui_Views_EColSize_Col6
+  commentId: F:HomeSeer.Jui.Views.EColSize.Col6
+  fullName: HomeSeer.Jui.Views.EColSize.Col6
+  nameWithType: EColSize.Col6
+- uid: HomeSeer.Jui.Views.EColSize.Col7
+  name: Col7
+  href: api/HomeSeer.Jui.Views.EColSize.html#HomeSeer_Jui_Views_EColSize_Col7
+  commentId: F:HomeSeer.Jui.Views.EColSize.Col7
+  fullName: HomeSeer.Jui.Views.EColSize.Col7
+  nameWithType: EColSize.Col7
+- uid: HomeSeer.Jui.Views.EColSize.Col8
+  name: Col8
+  href: api/HomeSeer.Jui.Views.EColSize.html#HomeSeer_Jui_Views_EColSize_Col8
+  commentId: F:HomeSeer.Jui.Views.EColSize.Col8
+  fullName: HomeSeer.Jui.Views.EColSize.Col8
+  nameWithType: EColSize.Col8
+- uid: HomeSeer.Jui.Views.EColSize.Col9
+  name: Col9
+  href: api/HomeSeer.Jui.Views.EColSize.html#HomeSeer_Jui_Views_EColSize_Col9
+  commentId: F:HomeSeer.Jui.Views.EColSize.Col9
+  fullName: HomeSeer.Jui.Views.EColSize.Col9
+  nameWithType: EColSize.Col9
+- uid: HomeSeer.Jui.Views.EColSize.None
+  name: None
+  href: api/HomeSeer.Jui.Views.EColSize.html#HomeSeer_Jui_Views_EColSize_None
+  commentId: F:HomeSeer.Jui.Views.EColSize.None
+  fullName: HomeSeer.Jui.Views.EColSize.None
+  nameWithType: EColSize.None
+- uid: HomeSeer.Jui.Views.GridRow
+  name: GridRow
+  href: api/HomeSeer.Jui.Views.GridRow.html
+  commentId: T:HomeSeer.Jui.Views.GridRow
+  fullName: HomeSeer.Jui.Views.GridRow
+  nameWithType: GridRow
+- uid: HomeSeer.Jui.Views.GridRow.#ctor
+  name: GridRow()
+  href: api/HomeSeer.Jui.Views.GridRow.html#HomeSeer_Jui_Views_GridRow__ctor
+  commentId: M:HomeSeer.Jui.Views.GridRow.#ctor
+  fullName: HomeSeer.Jui.Views.GridRow.GridRow()
+  nameWithType: GridRow.GridRow()
+- uid: HomeSeer.Jui.Views.GridRow.#ctor*
+  name: GridRow
+  href: api/HomeSeer.Jui.Views.GridRow.html#HomeSeer_Jui_Views_GridRow__ctor_
+  commentId: Overload:HomeSeer.Jui.Views.GridRow.#ctor
+  isSpec: "True"
+  fullName: HomeSeer.Jui.Views.GridRow.GridRow
+  nameWithType: GridRow.GridRow
+- uid: HomeSeer.Jui.Views.GridRow.AddItem(HomeSeer.Jui.Views.AbstractView,HomeSeer.Jui.Views.EColSize,HomeSeer.Jui.Views.EColSize,HomeSeer.Jui.Views.EColSize,HomeSeer.Jui.Views.EColSize,HomeSeer.Jui.Views.EColSize)
+  name: AddItem(AbstractView, EColSize, EColSize, EColSize, EColSize, EColSize)
+  href: api/HomeSeer.Jui.Views.GridRow.html#HomeSeer_Jui_Views_GridRow_AddItem_HomeSeer_Jui_Views_AbstractView_HomeSeer_Jui_Views_EColSize_HomeSeer_Jui_Views_EColSize_HomeSeer_Jui_Views_EColSize_HomeSeer_Jui_Views_EColSize_HomeSeer_Jui_Views_EColSize_
+  commentId: M:HomeSeer.Jui.Views.GridRow.AddItem(HomeSeer.Jui.Views.AbstractView,HomeSeer.Jui.Views.EColSize,HomeSeer.Jui.Views.EColSize,HomeSeer.Jui.Views.EColSize,HomeSeer.Jui.Views.EColSize,HomeSeer.Jui.Views.EColSize)
+  fullName: HomeSeer.Jui.Views.GridRow.AddItem(HomeSeer.Jui.Views.AbstractView, HomeSeer.Jui.Views.EColSize, HomeSeer.Jui.Views.EColSize, HomeSeer.Jui.Views.EColSize, HomeSeer.Jui.Views.EColSize, HomeSeer.Jui.Views.EColSize)
+  nameWithType: GridRow.AddItem(AbstractView, EColSize, EColSize, EColSize, EColSize, EColSize)
+- uid: HomeSeer.Jui.Views.GridRow.AddItem*
+  name: AddItem
+  href: api/HomeSeer.Jui.Views.GridRow.html#HomeSeer_Jui_Views_GridRow_AddItem_
+  commentId: Overload:HomeSeer.Jui.Views.GridRow.AddItem
+  isSpec: "True"
+  fullName: HomeSeer.Jui.Views.GridRow.AddItem
+  nameWithType: GridRow.AddItem
+- uid: HomeSeer.Jui.Views.GridRow.ToHtml(System.Int32)
+  name: ToHtml(Int32)
+  href: api/HomeSeer.Jui.Views.GridRow.html#HomeSeer_Jui_Views_GridRow_ToHtml_System_Int32_
+  commentId: M:HomeSeer.Jui.Views.GridRow.ToHtml(System.Int32)
+  fullName: HomeSeer.Jui.Views.GridRow.ToHtml(System.Int32)
+  nameWithType: GridRow.ToHtml(Int32)
+- uid: HomeSeer.Jui.Views.GridRow.ToHtml*
+  name: ToHtml
+  href: api/HomeSeer.Jui.Views.GridRow.html#HomeSeer_Jui_Views_GridRow_ToHtml_
+  commentId: Overload:HomeSeer.Jui.Views.GridRow.ToHtml
+  isSpec: "True"
+  fullName: HomeSeer.Jui.Views.GridRow.ToHtml
+  nameWithType: GridRow.ToHtml
+- uid: HomeSeer.Jui.Views.GridRow.Views
+  name: Views
+  href: api/HomeSeer.Jui.Views.GridRow.html#HomeSeer_Jui_Views_GridRow_Views
+  commentId: P:HomeSeer.Jui.Views.GridRow.Views
+  fullName: HomeSeer.Jui.Views.GridRow.Views
+  nameWithType: GridRow.Views
+- uid: HomeSeer.Jui.Views.GridRow.Views*
+  name: Views
+  href: api/HomeSeer.Jui.Views.GridRow.html#HomeSeer_Jui_Views_GridRow_Views_
+  commentId: Overload:HomeSeer.Jui.Views.GridRow.Views
+  isSpec: "True"
+  fullName: HomeSeer.Jui.Views.GridRow.Views
+  nameWithType: GridRow.Views
+- uid: HomeSeer.Jui.Views.GridRowItem
+  name: GridRowItem
+  href: api/HomeSeer.Jui.Views.GridRowItem.html
+  commentId: T:HomeSeer.Jui.Views.GridRowItem
+  fullName: HomeSeer.Jui.Views.GridRowItem
+  nameWithType: GridRowItem
+- uid: HomeSeer.Jui.Views.GridRowItem.#ctor(HomeSeer.Jui.Views.AbstractView,HomeSeer.Jui.Views.EColSize,HomeSeer.Jui.Views.EColSize,HomeSeer.Jui.Views.EColSize,HomeSeer.Jui.Views.EColSize,HomeSeer.Jui.Views.EColSize)
+  name: GridRowItem(AbstractView, EColSize, EColSize, EColSize, EColSize, EColSize)
+  href: api/HomeSeer.Jui.Views.GridRowItem.html#HomeSeer_Jui_Views_GridRowItem__ctor_HomeSeer_Jui_Views_AbstractView_HomeSeer_Jui_Views_EColSize_HomeSeer_Jui_Views_EColSize_HomeSeer_Jui_Views_EColSize_HomeSeer_Jui_Views_EColSize_HomeSeer_Jui_Views_EColSize_
+  commentId: M:HomeSeer.Jui.Views.GridRowItem.#ctor(HomeSeer.Jui.Views.AbstractView,HomeSeer.Jui.Views.EColSize,HomeSeer.Jui.Views.EColSize,HomeSeer.Jui.Views.EColSize,HomeSeer.Jui.Views.EColSize,HomeSeer.Jui.Views.EColSize)
+  fullName: HomeSeer.Jui.Views.GridRowItem.GridRowItem(HomeSeer.Jui.Views.AbstractView, HomeSeer.Jui.Views.EColSize, HomeSeer.Jui.Views.EColSize, HomeSeer.Jui.Views.EColSize, HomeSeer.Jui.Views.EColSize, HomeSeer.Jui.Views.EColSize)
+  nameWithType: GridRowItem.GridRowItem(AbstractView, EColSize, EColSize, EColSize, EColSize, EColSize)
+- uid: HomeSeer.Jui.Views.GridRowItem.#ctor*
+  name: GridRowItem
+  href: api/HomeSeer.Jui.Views.GridRowItem.html#HomeSeer_Jui_Views_GridRowItem__ctor_
+  commentId: Overload:HomeSeer.Jui.Views.GridRowItem.#ctor
+  isSpec: "True"
+  fullName: HomeSeer.Jui.Views.GridRowItem.GridRowItem
+  nameWithType: GridRowItem.GridRowItem
+- uid: HomeSeer.Jui.Views.GridRowItem.ExtraLargeSize
+  name: ExtraLargeSize
+  href: api/HomeSeer.Jui.Views.GridRowItem.html#HomeSeer_Jui_Views_GridRowItem_ExtraLargeSize
+  commentId: P:HomeSeer.Jui.Views.GridRowItem.ExtraLargeSize
+  fullName: HomeSeer.Jui.Views.GridRowItem.ExtraLargeSize
+  nameWithType: GridRowItem.ExtraLargeSize
+- uid: HomeSeer.Jui.Views.GridRowItem.ExtraLargeSize*
+  name: ExtraLargeSize
+  href: api/HomeSeer.Jui.Views.GridRowItem.html#HomeSeer_Jui_Views_GridRowItem_ExtraLargeSize_
+  commentId: Overload:HomeSeer.Jui.Views.GridRowItem.ExtraLargeSize
+  isSpec: "True"
+  fullName: HomeSeer.Jui.Views.GridRowItem.ExtraLargeSize
+  nameWithType: GridRowItem.ExtraLargeSize
+- uid: HomeSeer.Jui.Views.GridRowItem.ExtraSmallSize
+  name: ExtraSmallSize
+  href: api/HomeSeer.Jui.Views.GridRowItem.html#HomeSeer_Jui_Views_GridRowItem_ExtraSmallSize
+  commentId: P:HomeSeer.Jui.Views.GridRowItem.ExtraSmallSize
+  fullName: HomeSeer.Jui.Views.GridRowItem.ExtraSmallSize
+  nameWithType: GridRowItem.ExtraSmallSize
+- uid: HomeSeer.Jui.Views.GridRowItem.ExtraSmallSize*
+  name: ExtraSmallSize
+  href: api/HomeSeer.Jui.Views.GridRowItem.html#HomeSeer_Jui_Views_GridRowItem_ExtraSmallSize_
+  commentId: Overload:HomeSeer.Jui.Views.GridRowItem.ExtraSmallSize
+  isSpec: "True"
+  fullName: HomeSeer.Jui.Views.GridRowItem.ExtraSmallSize
+  nameWithType: GridRowItem.ExtraSmallSize
+- uid: HomeSeer.Jui.Views.GridRowItem.GetHtmlDivClass
+  name: GetHtmlDivClass()
+  href: api/HomeSeer.Jui.Views.GridRowItem.html#HomeSeer_Jui_Views_GridRowItem_GetHtmlDivClass
+  commentId: M:HomeSeer.Jui.Views.GridRowItem.GetHtmlDivClass
+  fullName: HomeSeer.Jui.Views.GridRowItem.GetHtmlDivClass()
+  nameWithType: GridRowItem.GetHtmlDivClass()
+- uid: HomeSeer.Jui.Views.GridRowItem.GetHtmlDivClass*
+  name: GetHtmlDivClass
+  href: api/HomeSeer.Jui.Views.GridRowItem.html#HomeSeer_Jui_Views_GridRowItem_GetHtmlDivClass_
+  commentId: Overload:HomeSeer.Jui.Views.GridRowItem.GetHtmlDivClass
+  isSpec: "True"
+  fullName: HomeSeer.Jui.Views.GridRowItem.GetHtmlDivClass
+  nameWithType: GridRowItem.GetHtmlDivClass
+- uid: HomeSeer.Jui.Views.GridRowItem.LargeSize
+  name: LargeSize
+  href: api/HomeSeer.Jui.Views.GridRowItem.html#HomeSeer_Jui_Views_GridRowItem_LargeSize
+  commentId: P:HomeSeer.Jui.Views.GridRowItem.LargeSize
+  fullName: HomeSeer.Jui.Views.GridRowItem.LargeSize
+  nameWithType: GridRowItem.LargeSize
+- uid: HomeSeer.Jui.Views.GridRowItem.LargeSize*
+  name: LargeSize
+  href: api/HomeSeer.Jui.Views.GridRowItem.html#HomeSeer_Jui_Views_GridRowItem_LargeSize_
+  commentId: Overload:HomeSeer.Jui.Views.GridRowItem.LargeSize
+  isSpec: "True"
+  fullName: HomeSeer.Jui.Views.GridRowItem.LargeSize
+  nameWithType: GridRowItem.LargeSize
+- uid: HomeSeer.Jui.Views.GridRowItem.MediumSize
+  name: MediumSize
+  href: api/HomeSeer.Jui.Views.GridRowItem.html#HomeSeer_Jui_Views_GridRowItem_MediumSize
+  commentId: P:HomeSeer.Jui.Views.GridRowItem.MediumSize
+  fullName: HomeSeer.Jui.Views.GridRowItem.MediumSize
+  nameWithType: GridRowItem.MediumSize
+- uid: HomeSeer.Jui.Views.GridRowItem.MediumSize*
+  name: MediumSize
+  href: api/HomeSeer.Jui.Views.GridRowItem.html#HomeSeer_Jui_Views_GridRowItem_MediumSize_
+  commentId: Overload:HomeSeer.Jui.Views.GridRowItem.MediumSize
+  isSpec: "True"
+  fullName: HomeSeer.Jui.Views.GridRowItem.MediumSize
+  nameWithType: GridRowItem.MediumSize
+- uid: HomeSeer.Jui.Views.GridRowItem.SmallSize
+  name: SmallSize
+  href: api/HomeSeer.Jui.Views.GridRowItem.html#HomeSeer_Jui_Views_GridRowItem_SmallSize
+  commentId: P:HomeSeer.Jui.Views.GridRowItem.SmallSize
+  fullName: HomeSeer.Jui.Views.GridRowItem.SmallSize
+  nameWithType: GridRowItem.SmallSize
+- uid: HomeSeer.Jui.Views.GridRowItem.SmallSize*
+  name: SmallSize
+  href: api/HomeSeer.Jui.Views.GridRowItem.html#HomeSeer_Jui_Views_GridRowItem_SmallSize_
+  commentId: Overload:HomeSeer.Jui.Views.GridRowItem.SmallSize
+  isSpec: "True"
+  fullName: HomeSeer.Jui.Views.GridRowItem.SmallSize
+  nameWithType: GridRowItem.SmallSize
+- uid: HomeSeer.Jui.Views.GridRowItem.View
+  name: View
+  href: api/HomeSeer.Jui.Views.GridRowItem.html#HomeSeer_Jui_Views_GridRowItem_View
+  commentId: P:HomeSeer.Jui.Views.GridRowItem.View
+  fullName: HomeSeer.Jui.Views.GridRowItem.View
+  nameWithType: GridRowItem.View
+- uid: HomeSeer.Jui.Views.GridRowItem.View*
+  name: View
+  href: api/HomeSeer.Jui.Views.GridRowItem.html#HomeSeer_Jui_Views_GridRowItem_View_
+  commentId: Overload:HomeSeer.Jui.Views.GridRowItem.View
+  isSpec: "True"
+  fullName: HomeSeer.Jui.Views.GridRowItem.View
+  nameWithType: GridRowItem.View
+- uid: HomeSeer.Jui.Views.GridView
+  name: GridView
+  href: api/HomeSeer.Jui.Views.GridView.html
+  commentId: T:HomeSeer.Jui.Views.GridView
+  fullName: HomeSeer.Jui.Views.GridView
+  nameWithType: GridView
+- uid: HomeSeer.Jui.Views.GridView.#ctor(System.String)
+  name: GridView(String)
+  href: api/HomeSeer.Jui.Views.GridView.html#HomeSeer_Jui_Views_GridView__ctor_System_String_
+  commentId: M:HomeSeer.Jui.Views.GridView.#ctor(System.String)
+  fullName: HomeSeer.Jui.Views.GridView.GridView(System.String)
+  nameWithType: GridView.GridView(String)
+- uid: HomeSeer.Jui.Views.GridView.#ctor(System.String,System.String)
+  name: GridView(String, String)
+  href: api/HomeSeer.Jui.Views.GridView.html#HomeSeer_Jui_Views_GridView__ctor_System_String_System_String_
+  commentId: M:HomeSeer.Jui.Views.GridView.#ctor(System.String,System.String)
+  fullName: HomeSeer.Jui.Views.GridView.GridView(System.String, System.String)
+  nameWithType: GridView.GridView(String, String)
+- uid: HomeSeer.Jui.Views.GridView.#ctor*
+  name: GridView
+  href: api/HomeSeer.Jui.Views.GridView.html#HomeSeer_Jui_Views_GridView__ctor_
+  commentId: Overload:HomeSeer.Jui.Views.GridView.#ctor
+  isSpec: "True"
+  fullName: HomeSeer.Jui.Views.GridView.GridView
+  nameWithType: GridView.GridView
+- uid: HomeSeer.Jui.Views.GridView.AddRow(HomeSeer.Jui.Views.GridRow)
+  name: AddRow(GridRow)
+  href: api/HomeSeer.Jui.Views.GridView.html#HomeSeer_Jui_Views_GridView_AddRow_HomeSeer_Jui_Views_GridRow_
+  commentId: M:HomeSeer.Jui.Views.GridView.AddRow(HomeSeer.Jui.Views.GridRow)
+  fullName: HomeSeer.Jui.Views.GridView.AddRow(HomeSeer.Jui.Views.GridRow)
+  nameWithType: GridView.AddRow(GridRow)
+- uid: HomeSeer.Jui.Views.GridView.AddRow*
+  name: AddRow
+  href: api/HomeSeer.Jui.Views.GridView.html#HomeSeer_Jui_Views_GridView_AddRow_
+  commentId: Overload:HomeSeer.Jui.Views.GridView.AddRow
+  isSpec: "True"
+  fullName: HomeSeer.Jui.Views.GridView.AddRow
+  nameWithType: GridView.AddRow
+- uid: HomeSeer.Jui.Views.GridView.AddView(HomeSeer.Jui.Views.AbstractView)
+  name: AddView(AbstractView)
+  href: api/HomeSeer.Jui.Views.GridView.html#HomeSeer_Jui_Views_GridView_AddView_HomeSeer_Jui_Views_AbstractView_
+  commentId: M:HomeSeer.Jui.Views.GridView.AddView(HomeSeer.Jui.Views.AbstractView)
+  fullName: HomeSeer.Jui.Views.GridView.AddView(HomeSeer.Jui.Views.AbstractView)
+  nameWithType: GridView.AddView(AbstractView)
+- uid: HomeSeer.Jui.Views.GridView.AddView*
+  name: AddView
+  href: api/HomeSeer.Jui.Views.GridView.html#HomeSeer_Jui_Views_GridView_AddView_
+  commentId: Overload:HomeSeer.Jui.Views.GridView.AddView
+  isSpec: "True"
+  fullName: HomeSeer.Jui.Views.GridView.AddView
+  nameWithType: GridView.AddView
+- uid: HomeSeer.Jui.Views.GridView.AddViews(System.Collections.Generic.IEnumerable{HomeSeer.Jui.Views.AbstractView})
+  name: AddViews(IEnumerable<AbstractView>)
+  href: api/HomeSeer.Jui.Views.GridView.html#HomeSeer_Jui_Views_GridView_AddViews_System_Collections_Generic_IEnumerable_HomeSeer_Jui_Views_AbstractView__
+  commentId: M:HomeSeer.Jui.Views.GridView.AddViews(System.Collections.Generic.IEnumerable{HomeSeer.Jui.Views.AbstractView})
+  name.vb: AddViews(IEnumerable(Of AbstractView))
+  fullName: HomeSeer.Jui.Views.GridView.AddViews(System.Collections.Generic.IEnumerable<HomeSeer.Jui.Views.AbstractView>)
+  fullName.vb: HomeSeer.Jui.Views.GridView.AddViews(System.Collections.Generic.IEnumerable(Of HomeSeer.Jui.Views.AbstractView))
+  nameWithType: GridView.AddViews(IEnumerable<AbstractView>)
+  nameWithType.vb: GridView.AddViews(IEnumerable(Of AbstractView))
+- uid: HomeSeer.Jui.Views.GridView.AddViews*
+  name: AddViews
+  href: api/HomeSeer.Jui.Views.GridView.html#HomeSeer_Jui_Views_GridView_AddViews_
+  commentId: Overload:HomeSeer.Jui.Views.GridView.AddViews
+  isSpec: "True"
+  fullName: HomeSeer.Jui.Views.GridView.AddViews
+  nameWithType: GridView.AddViews
+- uid: HomeSeer.Jui.Views.GridView.RemoveAllViews
+  name: RemoveAllViews()
+  href: api/HomeSeer.Jui.Views.GridView.html#HomeSeer_Jui_Views_GridView_RemoveAllViews
+  commentId: M:HomeSeer.Jui.Views.GridView.RemoveAllViews
+  fullName: HomeSeer.Jui.Views.GridView.RemoveAllViews()
+  nameWithType: GridView.RemoveAllViews()
+- uid: HomeSeer.Jui.Views.GridView.RemoveAllViews*
+  name: RemoveAllViews
+  href: api/HomeSeer.Jui.Views.GridView.html#HomeSeer_Jui_Views_GridView_RemoveAllViews_
+  commentId: Overload:HomeSeer.Jui.Views.GridView.RemoveAllViews
+  isSpec: "True"
+  fullName: HomeSeer.Jui.Views.GridView.RemoveAllViews
+  nameWithType: GridView.RemoveAllViews
+- uid: HomeSeer.Jui.Views.GridView.SetViews(System.Collections.Generic.IEnumerable{HomeSeer.Jui.Views.AbstractView})
+  name: SetViews(IEnumerable<AbstractView>)
+  href: api/HomeSeer.Jui.Views.GridView.html#HomeSeer_Jui_Views_GridView_SetViews_System_Collections_Generic_IEnumerable_HomeSeer_Jui_Views_AbstractView__
+  commentId: M:HomeSeer.Jui.Views.GridView.SetViews(System.Collections.Generic.IEnumerable{HomeSeer.Jui.Views.AbstractView})
+  name.vb: SetViews(IEnumerable(Of AbstractView))
+  fullName: HomeSeer.Jui.Views.GridView.SetViews(System.Collections.Generic.IEnumerable<HomeSeer.Jui.Views.AbstractView>)
+  fullName.vb: HomeSeer.Jui.Views.GridView.SetViews(System.Collections.Generic.IEnumerable(Of HomeSeer.Jui.Views.AbstractView))
+  nameWithType: GridView.SetViews(IEnumerable<AbstractView>)
+  nameWithType.vb: GridView.SetViews(IEnumerable(Of AbstractView))
+- uid: HomeSeer.Jui.Views.GridView.SetViews*
+  name: SetViews
+  href: api/HomeSeer.Jui.Views.GridView.html#HomeSeer_Jui_Views_GridView_SetViews_
+  commentId: Overload:HomeSeer.Jui.Views.GridView.SetViews
+  isSpec: "True"
+  fullName: HomeSeer.Jui.Views.GridView.SetViews
+  nameWithType: GridView.SetViews
+- uid: HomeSeer.Jui.Views.GridView.ToHtml(System.Int32)
+  name: ToHtml(Int32)
+  href: api/HomeSeer.Jui.Views.GridView.html#HomeSeer_Jui_Views_GridView_ToHtml_System_Int32_
+  commentId: M:HomeSeer.Jui.Views.GridView.ToHtml(System.Int32)
+  fullName: HomeSeer.Jui.Views.GridView.ToHtml(System.Int32)
+  nameWithType: GridView.ToHtml(Int32)
+- uid: HomeSeer.Jui.Views.GridView.ToHtml*
+  name: ToHtml
+  href: api/HomeSeer.Jui.Views.GridView.html#HomeSeer_Jui_Views_GridView_ToHtml_
+  commentId: Overload:HomeSeer.Jui.Views.GridView.ToHtml
+  isSpec: "True"
+  fullName: HomeSeer.Jui.Views.GridView.ToHtml
+  nameWithType: GridView.ToHtml
 - uid: HomeSeer.Jui.Views.InputView
   name: InputView
   href: api/HomeSeer.Jui.Views.InputView.html
@@ -1322,6 +1707,38 @@ references:
   isSpec: "True"
   fullName: HomeSeer.Jui.Views.PageFactory.WithRadioSelectList
   nameWithType: PageFactory.WithRadioSelectList
+- uid: HomeSeer.Jui.Views.PageFactory.WithTextArea(System.String,System.String,System.Int32)
+  name: WithTextArea(String, String, Int32)
+  href: api/HomeSeer.Jui.Views.PageFactory.html#HomeSeer_Jui_Views_PageFactory_WithTextArea_System_String_System_String_System_Int32_
+  commentId: M:HomeSeer.Jui.Views.PageFactory.WithTextArea(System.String,System.String,System.Int32)
+  fullName: HomeSeer.Jui.Views.PageFactory.WithTextArea(System.String, System.String, System.Int32)
+  nameWithType: PageFactory.WithTextArea(String, String, Int32)
+- uid: HomeSeer.Jui.Views.PageFactory.WithTextArea(System.String,System.String,System.String,System.Int32)
+  name: WithTextArea(String, String, String, Int32)
+  href: api/HomeSeer.Jui.Views.PageFactory.html#HomeSeer_Jui_Views_PageFactory_WithTextArea_System_String_System_String_System_String_System_Int32_
+  commentId: M:HomeSeer.Jui.Views.PageFactory.WithTextArea(System.String,System.String,System.String,System.Int32)
+  fullName: HomeSeer.Jui.Views.PageFactory.WithTextArea(System.String, System.String, System.String, System.Int32)
+  nameWithType: PageFactory.WithTextArea(String, String, String, Int32)
+- uid: HomeSeer.Jui.Views.PageFactory.WithTextArea*
+  name: WithTextArea
+  href: api/HomeSeer.Jui.Views.PageFactory.html#HomeSeer_Jui_Views_PageFactory_WithTextArea_
+  commentId: Overload:HomeSeer.Jui.Views.PageFactory.WithTextArea
+  isSpec: "True"
+  fullName: HomeSeer.Jui.Views.PageFactory.WithTextArea
+  nameWithType: PageFactory.WithTextArea
+- uid: HomeSeer.Jui.Views.PageFactory.WithTimeSpan(System.String,System.String,System.TimeSpan,System.Boolean,System.Boolean)
+  name: WithTimeSpan(String, String, TimeSpan, Boolean, Boolean)
+  href: api/HomeSeer.Jui.Views.PageFactory.html#HomeSeer_Jui_Views_PageFactory_WithTimeSpan_System_String_System_String_System_TimeSpan_System_Boolean_System_Boolean_
+  commentId: M:HomeSeer.Jui.Views.PageFactory.WithTimeSpan(System.String,System.String,System.TimeSpan,System.Boolean,System.Boolean)
+  fullName: HomeSeer.Jui.Views.PageFactory.WithTimeSpan(System.String, System.String, System.TimeSpan, System.Boolean, System.Boolean)
+  nameWithType: PageFactory.WithTimeSpan(String, String, TimeSpan, Boolean, Boolean)
+- uid: HomeSeer.Jui.Views.PageFactory.WithTimeSpan*
+  name: WithTimeSpan
+  href: api/HomeSeer.Jui.Views.PageFactory.html#HomeSeer_Jui_Views_PageFactory_WithTimeSpan_
+  commentId: Overload:HomeSeer.Jui.Views.PageFactory.WithTimeSpan
+  isSpec: "True"
+  fullName: HomeSeer.Jui.Views.PageFactory.WithTimeSpan
+  nameWithType: PageFactory.WithTimeSpan
 - uid: HomeSeer.Jui.Views.PageFactory.WithToggle(System.String,System.String,System.Boolean)
   name: WithToggle(String, String, Boolean)
   href: api/HomeSeer.Jui.Views.PageFactory.html#HomeSeer_Jui_Views_PageFactory_WithToggle_System_String_System_String_System_Boolean_
@@ -1778,6 +2195,225 @@ references:
   isSpec: "True"
   fullName: HomeSeer.Jui.Views.SettingsCollection.ToJsonString
   nameWithType: SettingsCollection.ToJsonString
+- uid: HomeSeer.Jui.Views.TextAreaView
+  name: TextAreaView
+  href: api/HomeSeer.Jui.Views.TextAreaView.html
+  commentId: T:HomeSeer.Jui.Views.TextAreaView
+  fullName: HomeSeer.Jui.Views.TextAreaView
+  nameWithType: TextAreaView
+- uid: HomeSeer.Jui.Views.TextAreaView.#ctor(System.String,System.String,System.Int32)
+  name: TextAreaView(String, String, Int32)
+  href: api/HomeSeer.Jui.Views.TextAreaView.html#HomeSeer_Jui_Views_TextAreaView__ctor_System_String_System_String_System_Int32_
+  commentId: M:HomeSeer.Jui.Views.TextAreaView.#ctor(System.String,System.String,System.Int32)
+  fullName: HomeSeer.Jui.Views.TextAreaView.TextAreaView(System.String, System.String, System.Int32)
+  nameWithType: TextAreaView.TextAreaView(String, String, Int32)
+- uid: HomeSeer.Jui.Views.TextAreaView.#ctor(System.String,System.String,System.String,System.Int32)
+  name: TextAreaView(String, String, String, Int32)
+  href: api/HomeSeer.Jui.Views.TextAreaView.html#HomeSeer_Jui_Views_TextAreaView__ctor_System_String_System_String_System_String_System_Int32_
+  commentId: M:HomeSeer.Jui.Views.TextAreaView.#ctor(System.String,System.String,System.String,System.Int32)
+  fullName: HomeSeer.Jui.Views.TextAreaView.TextAreaView(System.String, System.String, System.String, System.Int32)
+  nameWithType: TextAreaView.TextAreaView(String, String, String, Int32)
+- uid: HomeSeer.Jui.Views.TextAreaView.#ctor*
+  name: TextAreaView
+  href: api/HomeSeer.Jui.Views.TextAreaView.html#HomeSeer_Jui_Views_TextAreaView__ctor_
+  commentId: Overload:HomeSeer.Jui.Views.TextAreaView.#ctor
+  isSpec: "True"
+  fullName: HomeSeer.Jui.Views.TextAreaView.TextAreaView
+  nameWithType: TextAreaView.TextAreaView
+- uid: HomeSeer.Jui.Views.TextAreaView.GetStringValue
+  name: GetStringValue()
+  href: api/HomeSeer.Jui.Views.TextAreaView.html#HomeSeer_Jui_Views_TextAreaView_GetStringValue
+  commentId: M:HomeSeer.Jui.Views.TextAreaView.GetStringValue
+  fullName: HomeSeer.Jui.Views.TextAreaView.GetStringValue()
+  nameWithType: TextAreaView.GetStringValue()
+- uid: HomeSeer.Jui.Views.TextAreaView.GetStringValue*
+  name: GetStringValue
+  href: api/HomeSeer.Jui.Views.TextAreaView.html#HomeSeer_Jui_Views_TextAreaView_GetStringValue_
+  commentId: Overload:HomeSeer.Jui.Views.TextAreaView.GetStringValue
+  isSpec: "True"
+  fullName: HomeSeer.Jui.Views.TextAreaView.GetStringValue
+  nameWithType: TextAreaView.GetStringValue
+- uid: HomeSeer.Jui.Views.TextAreaView.Rows
+  name: Rows
+  href: api/HomeSeer.Jui.Views.TextAreaView.html#HomeSeer_Jui_Views_TextAreaView_Rows
+  commentId: P:HomeSeer.Jui.Views.TextAreaView.Rows
+  fullName: HomeSeer.Jui.Views.TextAreaView.Rows
+  nameWithType: TextAreaView.Rows
+- uid: HomeSeer.Jui.Views.TextAreaView.Rows*
+  name: Rows
+  href: api/HomeSeer.Jui.Views.TextAreaView.html#HomeSeer_Jui_Views_TextAreaView_Rows_
+  commentId: Overload:HomeSeer.Jui.Views.TextAreaView.Rows
+  isSpec: "True"
+  fullName: HomeSeer.Jui.Views.TextAreaView.Rows
+  nameWithType: TextAreaView.Rows
+- uid: HomeSeer.Jui.Views.TextAreaView.ToHtml(System.Int32)
+  name: ToHtml(Int32)
+  href: api/HomeSeer.Jui.Views.TextAreaView.html#HomeSeer_Jui_Views_TextAreaView_ToHtml_System_Int32_
+  commentId: M:HomeSeer.Jui.Views.TextAreaView.ToHtml(System.Int32)
+  fullName: HomeSeer.Jui.Views.TextAreaView.ToHtml(System.Int32)
+  nameWithType: TextAreaView.ToHtml(Int32)
+- uid: HomeSeer.Jui.Views.TextAreaView.ToHtml*
+  name: ToHtml
+  href: api/HomeSeer.Jui.Views.TextAreaView.html#HomeSeer_Jui_Views_TextAreaView_ToHtml_
+  commentId: Overload:HomeSeer.Jui.Views.TextAreaView.ToHtml
+  isSpec: "True"
+  fullName: HomeSeer.Jui.Views.TextAreaView.ToHtml
+  nameWithType: TextAreaView.ToHtml
+- uid: HomeSeer.Jui.Views.TextAreaView.Update(HomeSeer.Jui.Views.AbstractView)
+  name: Update(AbstractView)
+  href: api/HomeSeer.Jui.Views.TextAreaView.html#HomeSeer_Jui_Views_TextAreaView_Update_HomeSeer_Jui_Views_AbstractView_
+  commentId: M:HomeSeer.Jui.Views.TextAreaView.Update(HomeSeer.Jui.Views.AbstractView)
+  fullName: HomeSeer.Jui.Views.TextAreaView.Update(HomeSeer.Jui.Views.AbstractView)
+  nameWithType: TextAreaView.Update(AbstractView)
+- uid: HomeSeer.Jui.Views.TextAreaView.Update*
+  name: Update
+  href: api/HomeSeer.Jui.Views.TextAreaView.html#HomeSeer_Jui_Views_TextAreaView_Update_
+  commentId: Overload:HomeSeer.Jui.Views.TextAreaView.Update
+  isSpec: "True"
+  fullName: HomeSeer.Jui.Views.TextAreaView.Update
+  nameWithType: TextAreaView.Update
+- uid: HomeSeer.Jui.Views.TextAreaView.UpdateValue(System.String)
+  name: UpdateValue(String)
+  href: api/HomeSeer.Jui.Views.TextAreaView.html#HomeSeer_Jui_Views_TextAreaView_UpdateValue_System_String_
+  commentId: M:HomeSeer.Jui.Views.TextAreaView.UpdateValue(System.String)
+  fullName: HomeSeer.Jui.Views.TextAreaView.UpdateValue(System.String)
+  nameWithType: TextAreaView.UpdateValue(String)
+- uid: HomeSeer.Jui.Views.TextAreaView.UpdateValue*
+  name: UpdateValue
+  href: api/HomeSeer.Jui.Views.TextAreaView.html#HomeSeer_Jui_Views_TextAreaView_UpdateValue_
+  commentId: Overload:HomeSeer.Jui.Views.TextAreaView.UpdateValue
+  isSpec: "True"
+  fullName: HomeSeer.Jui.Views.TextAreaView.UpdateValue
+  nameWithType: TextAreaView.UpdateValue
+- uid: HomeSeer.Jui.Views.TextAreaView.Value
+  name: Value
+  href: api/HomeSeer.Jui.Views.TextAreaView.html#HomeSeer_Jui_Views_TextAreaView_Value
+  commentId: P:HomeSeer.Jui.Views.TextAreaView.Value
+  fullName: HomeSeer.Jui.Views.TextAreaView.Value
+  nameWithType: TextAreaView.Value
+- uid: HomeSeer.Jui.Views.TextAreaView.Value*
+  name: Value
+  href: api/HomeSeer.Jui.Views.TextAreaView.html#HomeSeer_Jui_Views_TextAreaView_Value_
+  commentId: Overload:HomeSeer.Jui.Views.TextAreaView.Value
+  isSpec: "True"
+  fullName: HomeSeer.Jui.Views.TextAreaView.Value
+  nameWithType: TextAreaView.Value
+- uid: HomeSeer.Jui.Views.TimeSpanView
+  name: TimeSpanView
+  href: api/HomeSeer.Jui.Views.TimeSpanView.html
+  commentId: T:HomeSeer.Jui.Views.TimeSpanView
+  fullName: HomeSeer.Jui.Views.TimeSpanView
+  nameWithType: TimeSpanView
+- uid: HomeSeer.Jui.Views.TimeSpanView.#ctor(System.String,System.String)
+  name: TimeSpanView(String, String)
+  href: api/HomeSeer.Jui.Views.TimeSpanView.html#HomeSeer_Jui_Views_TimeSpanView__ctor_System_String_System_String_
+  commentId: M:HomeSeer.Jui.Views.TimeSpanView.#ctor(System.String,System.String)
+  fullName: HomeSeer.Jui.Views.TimeSpanView.TimeSpanView(System.String, System.String)
+  nameWithType: TimeSpanView.TimeSpanView(String, String)
+- uid: HomeSeer.Jui.Views.TimeSpanView.#ctor(System.String,System.String,System.TimeSpan)
+  name: TimeSpanView(String, String, TimeSpan)
+  href: api/HomeSeer.Jui.Views.TimeSpanView.html#HomeSeer_Jui_Views_TimeSpanView__ctor_System_String_System_String_System_TimeSpan_
+  commentId: M:HomeSeer.Jui.Views.TimeSpanView.#ctor(System.String,System.String,System.TimeSpan)
+  fullName: HomeSeer.Jui.Views.TimeSpanView.TimeSpanView(System.String, System.String, System.TimeSpan)
+  nameWithType: TimeSpanView.TimeSpanView(String, String, TimeSpan)
+- uid: HomeSeer.Jui.Views.TimeSpanView.#ctor*
+  name: TimeSpanView
+  href: api/HomeSeer.Jui.Views.TimeSpanView.html#HomeSeer_Jui_Views_TimeSpanView__ctor_
+  commentId: Overload:HomeSeer.Jui.Views.TimeSpanView.#ctor
+  isSpec: "True"
+  fullName: HomeSeer.Jui.Views.TimeSpanView.TimeSpanView
+  nameWithType: TimeSpanView.TimeSpanView
+- uid: HomeSeer.Jui.Views.TimeSpanView.GetStringValue
+  name: GetStringValue()
+  href: api/HomeSeer.Jui.Views.TimeSpanView.html#HomeSeer_Jui_Views_TimeSpanView_GetStringValue
+  commentId: M:HomeSeer.Jui.Views.TimeSpanView.GetStringValue
+  fullName: HomeSeer.Jui.Views.TimeSpanView.GetStringValue()
+  nameWithType: TimeSpanView.GetStringValue()
+- uid: HomeSeer.Jui.Views.TimeSpanView.GetStringValue*
+  name: GetStringValue
+  href: api/HomeSeer.Jui.Views.TimeSpanView.html#HomeSeer_Jui_Views_TimeSpanView_GetStringValue_
+  commentId: Overload:HomeSeer.Jui.Views.TimeSpanView.GetStringValue
+  isSpec: "True"
+  fullName: HomeSeer.Jui.Views.TimeSpanView.GetStringValue
+  nameWithType: TimeSpanView.GetStringValue
+- uid: HomeSeer.Jui.Views.TimeSpanView.ShowDays
+  name: ShowDays
+  href: api/HomeSeer.Jui.Views.TimeSpanView.html#HomeSeer_Jui_Views_TimeSpanView_ShowDays
+  commentId: P:HomeSeer.Jui.Views.TimeSpanView.ShowDays
+  fullName: HomeSeer.Jui.Views.TimeSpanView.ShowDays
+  nameWithType: TimeSpanView.ShowDays
+- uid: HomeSeer.Jui.Views.TimeSpanView.ShowDays*
+  name: ShowDays
+  href: api/HomeSeer.Jui.Views.TimeSpanView.html#HomeSeer_Jui_Views_TimeSpanView_ShowDays_
+  commentId: Overload:HomeSeer.Jui.Views.TimeSpanView.ShowDays
+  isSpec: "True"
+  fullName: HomeSeer.Jui.Views.TimeSpanView.ShowDays
+  nameWithType: TimeSpanView.ShowDays
+- uid: HomeSeer.Jui.Views.TimeSpanView.ShowSeconds
+  name: ShowSeconds
+  href: api/HomeSeer.Jui.Views.TimeSpanView.html#HomeSeer_Jui_Views_TimeSpanView_ShowSeconds
+  commentId: P:HomeSeer.Jui.Views.TimeSpanView.ShowSeconds
+  fullName: HomeSeer.Jui.Views.TimeSpanView.ShowSeconds
+  nameWithType: TimeSpanView.ShowSeconds
+- uid: HomeSeer.Jui.Views.TimeSpanView.ShowSeconds*
+  name: ShowSeconds
+  href: api/HomeSeer.Jui.Views.TimeSpanView.html#HomeSeer_Jui_Views_TimeSpanView_ShowSeconds_
+  commentId: Overload:HomeSeer.Jui.Views.TimeSpanView.ShowSeconds
+  isSpec: "True"
+  fullName: HomeSeer.Jui.Views.TimeSpanView.ShowSeconds
+  nameWithType: TimeSpanView.ShowSeconds
+- uid: HomeSeer.Jui.Views.TimeSpanView.ToHtml(System.Int32)
+  name: ToHtml(Int32)
+  href: api/HomeSeer.Jui.Views.TimeSpanView.html#HomeSeer_Jui_Views_TimeSpanView_ToHtml_System_Int32_
+  commentId: M:HomeSeer.Jui.Views.TimeSpanView.ToHtml(System.Int32)
+  fullName: HomeSeer.Jui.Views.TimeSpanView.ToHtml(System.Int32)
+  nameWithType: TimeSpanView.ToHtml(Int32)
+- uid: HomeSeer.Jui.Views.TimeSpanView.ToHtml*
+  name: ToHtml
+  href: api/HomeSeer.Jui.Views.TimeSpanView.html#HomeSeer_Jui_Views_TimeSpanView_ToHtml_
+  commentId: Overload:HomeSeer.Jui.Views.TimeSpanView.ToHtml
+  isSpec: "True"
+  fullName: HomeSeer.Jui.Views.TimeSpanView.ToHtml
+  nameWithType: TimeSpanView.ToHtml
+- uid: HomeSeer.Jui.Views.TimeSpanView.Update(HomeSeer.Jui.Views.AbstractView)
+  name: Update(AbstractView)
+  href: api/HomeSeer.Jui.Views.TimeSpanView.html#HomeSeer_Jui_Views_TimeSpanView_Update_HomeSeer_Jui_Views_AbstractView_
+  commentId: M:HomeSeer.Jui.Views.TimeSpanView.Update(HomeSeer.Jui.Views.AbstractView)
+  fullName: HomeSeer.Jui.Views.TimeSpanView.Update(HomeSeer.Jui.Views.AbstractView)
+  nameWithType: TimeSpanView.Update(AbstractView)
+- uid: HomeSeer.Jui.Views.TimeSpanView.Update*
+  name: Update
+  href: api/HomeSeer.Jui.Views.TimeSpanView.html#HomeSeer_Jui_Views_TimeSpanView_Update_
+  commentId: Overload:HomeSeer.Jui.Views.TimeSpanView.Update
+  isSpec: "True"
+  fullName: HomeSeer.Jui.Views.TimeSpanView.Update
+  nameWithType: TimeSpanView.Update
+- uid: HomeSeer.Jui.Views.TimeSpanView.UpdateValue(System.String)
+  name: UpdateValue(String)
+  href: api/HomeSeer.Jui.Views.TimeSpanView.html#HomeSeer_Jui_Views_TimeSpanView_UpdateValue_System_String_
+  commentId: M:HomeSeer.Jui.Views.TimeSpanView.UpdateValue(System.String)
+  fullName: HomeSeer.Jui.Views.TimeSpanView.UpdateValue(System.String)
+  nameWithType: TimeSpanView.UpdateValue(String)
+- uid: HomeSeer.Jui.Views.TimeSpanView.UpdateValue*
+  name: UpdateValue
+  href: api/HomeSeer.Jui.Views.TimeSpanView.html#HomeSeer_Jui_Views_TimeSpanView_UpdateValue_
+  commentId: Overload:HomeSeer.Jui.Views.TimeSpanView.UpdateValue
+  isSpec: "True"
+  fullName: HomeSeer.Jui.Views.TimeSpanView.UpdateValue
+  nameWithType: TimeSpanView.UpdateValue
+- uid: HomeSeer.Jui.Views.TimeSpanView.Value
+  name: Value
+  href: api/HomeSeer.Jui.Views.TimeSpanView.html#HomeSeer_Jui_Views_TimeSpanView_Value
+  commentId: P:HomeSeer.Jui.Views.TimeSpanView.Value
+  fullName: HomeSeer.Jui.Views.TimeSpanView.Value
+  nameWithType: TimeSpanView.Value
+- uid: HomeSeer.Jui.Views.TimeSpanView.Value*
+  name: Value
+  href: api/HomeSeer.Jui.Views.TimeSpanView.html#HomeSeer_Jui_Views_TimeSpanView_Value_
+  commentId: Overload:HomeSeer.Jui.Views.TimeSpanView.Value
+  isSpec: "True"
+  fullName: HomeSeer.Jui.Views.TimeSpanView.Value
+  nameWithType: TimeSpanView.Value
 - uid: HomeSeer.Jui.Views.ToggleView
   name: ToggleView
   href: api/HomeSeer.Jui.Views.ToggleView.html
@@ -2854,6 +3490,19 @@ references:
   isSpec: "True"
   fullName: HomeSeer.PluginSdk.AbstractPlugin.SupportsConfigDeviceAll
   nameWithType: AbstractPlugin.SupportsConfigDeviceAll
+- uid: HomeSeer.PluginSdk.AbstractPlugin.SupportsConfigFeature
+  name: SupportsConfigFeature
+  href: api/HomeSeer.PluginSdk.AbstractPlugin.html#HomeSeer_PluginSdk_AbstractPlugin_SupportsConfigFeature
+  commentId: P:HomeSeer.PluginSdk.AbstractPlugin.SupportsConfigFeature
+  fullName: HomeSeer.PluginSdk.AbstractPlugin.SupportsConfigFeature
+  nameWithType: AbstractPlugin.SupportsConfigFeature
+- uid: HomeSeer.PluginSdk.AbstractPlugin.SupportsConfigFeature*
+  name: SupportsConfigFeature
+  href: api/HomeSeer.PluginSdk.AbstractPlugin.html#HomeSeer_PluginSdk_AbstractPlugin_SupportsConfigFeature_
+  commentId: Overload:HomeSeer.PluginSdk.AbstractPlugin.SupportsConfigFeature
+  isSpec: "True"
+  fullName: HomeSeer.PluginSdk.AbstractPlugin.SupportsConfigFeature
+  nameWithType: AbstractPlugin.SupportsConfigFeature
 - uid: HomeSeer.PluginSdk.AbstractPlugin.TriggerBuildUI(HomeSeer.PluginSdk.Events.TrigActInfo)
   name: TriggerBuildUI(TrigActInfo)
   href: api/HomeSeer.PluginSdk.AbstractPlugin.html#HomeSeer_PluginSdk_AbstractPlugin_TriggerBuildUI_HomeSeer_PluginSdk_Events_TrigActInfo_
@@ -5774,6 +6423,19 @@ references:
   isSpec: "True"
   fullName: HomeSeer.PluginSdk.Devices.DeviceFactory.PrepareForHs
   nameWithType: DeviceFactory.PrepareForHs
+- uid: HomeSeer.PluginSdk.Devices.DeviceFactory.WithAddress(System.String)
+  name: WithAddress(String)
+  href: api/HomeSeer.PluginSdk.Devices.DeviceFactory.html#HomeSeer_PluginSdk_Devices_DeviceFactory_WithAddress_System_String_
+  commentId: M:HomeSeer.PluginSdk.Devices.DeviceFactory.WithAddress(System.String)
+  fullName: HomeSeer.PluginSdk.Devices.DeviceFactory.WithAddress(System.String)
+  nameWithType: DeviceFactory.WithAddress(String)
+- uid: HomeSeer.PluginSdk.Devices.DeviceFactory.WithAddress*
+  name: WithAddress
+  href: api/HomeSeer.PluginSdk.Devices.DeviceFactory.html#HomeSeer_PluginSdk_Devices_DeviceFactory_WithAddress_
+  commentId: Overload:HomeSeer.PluginSdk.Devices.DeviceFactory.WithAddress
+  isSpec: "True"
+  fullName: HomeSeer.PluginSdk.Devices.DeviceFactory.WithAddress
+  nameWithType: DeviceFactory.WithAddress
 - uid: HomeSeer.PluginSdk.Devices.DeviceFactory.WithExtraData(HomeSeer.PluginSdk.Devices.PlugExtraData)
   name: WithExtraData(PlugExtraData)
   href: api/HomeSeer.PluginSdk.Devices.DeviceFactory.html#HomeSeer_PluginSdk_Devices_DeviceFactory_WithExtraData_HomeSeer_PluginSdk_Devices_PlugExtraData_
@@ -5855,6 +6517,22 @@ references:
   isSpec: "True"
   fullName: HomeSeer.PluginSdk.Devices.DeviceFactory.WithName
   nameWithType: DeviceFactory.WithName
+- uid: HomeSeer.PluginSdk.Devices.DeviceFactory.WithoutMiscFlags(HomeSeer.PluginSdk.Devices.EMiscFlag[])
+  name: WithoutMiscFlags(EMiscFlag[])
+  href: api/HomeSeer.PluginSdk.Devices.DeviceFactory.html#HomeSeer_PluginSdk_Devices_DeviceFactory_WithoutMiscFlags_HomeSeer_PluginSdk_Devices_EMiscFlag___
+  commentId: M:HomeSeer.PluginSdk.Devices.DeviceFactory.WithoutMiscFlags(HomeSeer.PluginSdk.Devices.EMiscFlag[])
+  name.vb: WithoutMiscFlags(EMiscFlag())
+  fullName: HomeSeer.PluginSdk.Devices.DeviceFactory.WithoutMiscFlags(HomeSeer.PluginSdk.Devices.EMiscFlag[])
+  fullName.vb: HomeSeer.PluginSdk.Devices.DeviceFactory.WithoutMiscFlags(HomeSeer.PluginSdk.Devices.EMiscFlag())
+  nameWithType: DeviceFactory.WithoutMiscFlags(EMiscFlag[])
+  nameWithType.vb: DeviceFactory.WithoutMiscFlags(EMiscFlag())
+- uid: HomeSeer.PluginSdk.Devices.DeviceFactory.WithoutMiscFlags*
+  name: WithoutMiscFlags
+  href: api/HomeSeer.PluginSdk.Devices.DeviceFactory.html#HomeSeer_PluginSdk_Devices_DeviceFactory_WithoutMiscFlags_
+  commentId: Overload:HomeSeer.PluginSdk.Devices.DeviceFactory.WithoutMiscFlags
+  isSpec: "True"
+  fullName: HomeSeer.PluginSdk.Devices.DeviceFactory.WithoutMiscFlags
+  nameWithType: DeviceFactory.WithoutMiscFlags
 - uid: HomeSeer.PluginSdk.Devices.EEnergyFeatureSubType
   name: EEnergyFeatureSubType
   href: api/HomeSeer.PluginSdk.Devices.EEnergyFeatureSubType.html
@@ -5891,6 +6569,30 @@ references:
   commentId: F:HomeSeer.PluginSdk.Devices.EEnergyFeatureSubType.Watts
   fullName: HomeSeer.PluginSdk.Devices.EEnergyFeatureSubType.Watts
   nameWithType: EEnergyFeatureSubType.Watts
+- uid: HomeSeer.PluginSdk.Devices.EFeatureDisplayType
+  name: EFeatureDisplayType
+  href: api/HomeSeer.PluginSdk.Devices.EFeatureDisplayType.html
+  commentId: T:HomeSeer.PluginSdk.Devices.EFeatureDisplayType
+  fullName: HomeSeer.PluginSdk.Devices.EFeatureDisplayType
+  nameWithType: EFeatureDisplayType
+- uid: HomeSeer.PluginSdk.Devices.EFeatureDisplayType.Hidden
+  name: Hidden
+  href: api/HomeSeer.PluginSdk.Devices.EFeatureDisplayType.html#HomeSeer_PluginSdk_Devices_EFeatureDisplayType_Hidden
+  commentId: F:HomeSeer.PluginSdk.Devices.EFeatureDisplayType.Hidden
+  fullName: HomeSeer.PluginSdk.Devices.EFeatureDisplayType.Hidden
+  nameWithType: EFeatureDisplayType.Hidden
+- uid: HomeSeer.PluginSdk.Devices.EFeatureDisplayType.Important
+  name: Important
+  href: api/HomeSeer.PluginSdk.Devices.EFeatureDisplayType.html#HomeSeer_PluginSdk_Devices_EFeatureDisplayType_Important
+  commentId: F:HomeSeer.PluginSdk.Devices.EFeatureDisplayType.Important
+  fullName: HomeSeer.PluginSdk.Devices.EFeatureDisplayType.Important
+  nameWithType: EFeatureDisplayType.Important
+- uid: HomeSeer.PluginSdk.Devices.EFeatureDisplayType.Normal
+  name: Normal
+  href: api/HomeSeer.PluginSdk.Devices.EFeatureDisplayType.html#HomeSeer_PluginSdk_Devices_EFeatureDisplayType_Normal
+  commentId: F:HomeSeer.PluginSdk.Devices.EFeatureDisplayType.Normal
+  fullName: HomeSeer.PluginSdk.Devices.EFeatureDisplayType.Normal
+  nameWithType: EFeatureDisplayType.Normal
 - uid: HomeSeer.PluginSdk.Devices.EMiscFlag
   name: EMiscFlag
   href: api/HomeSeer.PluginSdk.Devices.EMiscFlag.html
@@ -6131,12 +6833,18 @@ references:
   commentId: F:HomeSeer.PluginSdk.Devices.EProperty.DeviceType
   fullName: HomeSeer.PluginSdk.Devices.EProperty.DeviceType
   nameWithType: EProperty.DeviceType
-- uid: HomeSeer.PluginSdk.Devices.EProperty.FeaturePriority
-  name: FeaturePriority
-  href: api/HomeSeer.PluginSdk.Devices.EProperty.html#HomeSeer_PluginSdk_Devices_EProperty_FeaturePriority
-  commentId: F:HomeSeer.PluginSdk.Devices.EProperty.FeaturePriority
-  fullName: HomeSeer.PluginSdk.Devices.EProperty.FeaturePriority
-  nameWithType: EProperty.FeaturePriority
+- uid: HomeSeer.PluginSdk.Devices.EProperty.FeatureDisplayPriority
+  name: FeatureDisplayPriority
+  href: api/HomeSeer.PluginSdk.Devices.EProperty.html#HomeSeer_PluginSdk_Devices_EProperty_FeatureDisplayPriority
+  commentId: F:HomeSeer.PluginSdk.Devices.EProperty.FeatureDisplayPriority
+  fullName: HomeSeer.PluginSdk.Devices.EProperty.FeatureDisplayPriority
+  nameWithType: EProperty.FeatureDisplayPriority
+- uid: HomeSeer.PluginSdk.Devices.EProperty.FeatureDisplayType
+  name: FeatureDisplayType
+  href: api/HomeSeer.PluginSdk.Devices.EProperty.html#HomeSeer_PluginSdk_Devices_EProperty_FeatureDisplayType
+  commentId: F:HomeSeer.PluginSdk.Devices.EProperty.FeatureDisplayType
+  fullName: HomeSeer.PluginSdk.Devices.EProperty.FeatureDisplayType
+  nameWithType: EProperty.FeatureDisplayType
 - uid: HomeSeer.PluginSdk.Devices.EProperty.Image
   name: Image
   href: api/HomeSeer.PluginSdk.Devices.EProperty.html#HomeSeer_PluginSdk_Devices_EProperty_Image
@@ -6313,6 +7021,19 @@ references:
   isSpec: "True"
   fullName: HomeSeer.PluginSdk.Devices.FeatureFactory.AddColorPicker
   nameWithType: FeatureFactory.AddColorPicker
+- uid: HomeSeer.PluginSdk.Devices.FeatureFactory.AddGraphic(HomeSeer.PluginSdk.Devices.StatusGraphic)
+  name: AddGraphic(StatusGraphic)
+  href: api/HomeSeer.PluginSdk.Devices.FeatureFactory.html#HomeSeer_PluginSdk_Devices_FeatureFactory_AddGraphic_HomeSeer_PluginSdk_Devices_StatusGraphic_
+  commentId: M:HomeSeer.PluginSdk.Devices.FeatureFactory.AddGraphic(HomeSeer.PluginSdk.Devices.StatusGraphic)
+  fullName: HomeSeer.PluginSdk.Devices.FeatureFactory.AddGraphic(HomeSeer.PluginSdk.Devices.StatusGraphic)
+  nameWithType: FeatureFactory.AddGraphic(StatusGraphic)
+- uid: HomeSeer.PluginSdk.Devices.FeatureFactory.AddGraphic*
+  name: AddGraphic
+  href: api/HomeSeer.PluginSdk.Devices.FeatureFactory.html#HomeSeer_PluginSdk_Devices_FeatureFactory_AddGraphic_
+  commentId: Overload:HomeSeer.PluginSdk.Devices.FeatureFactory.AddGraphic
+  isSpec: "True"
+  fullName: HomeSeer.PluginSdk.Devices.FeatureFactory.AddGraphic
+  nameWithType: FeatureFactory.AddGraphic
 - uid: HomeSeer.PluginSdk.Devices.FeatureFactory.AddGraphicForRange(System.String,System.Double,System.Double,System.String)
   name: AddGraphicForRange(String, Double, Double, String)
   href: api/HomeSeer.PluginSdk.Devices.FeatureFactory.html#HomeSeer_PluginSdk_Devices_FeatureFactory_AddGraphicForRange_System_String_System_Double_System_Double_System_String_
@@ -6533,6 +7254,19 @@ references:
   isSpec: "True"
   fullName: HomeSeer.PluginSdk.Devices.FeatureFactory.WithDefaultValue
   nameWithType: FeatureFactory.WithDefaultValue
+- uid: HomeSeer.PluginSdk.Devices.FeatureFactory.WithDisplayType(HomeSeer.PluginSdk.Devices.EFeatureDisplayType)
+  name: WithDisplayType(EFeatureDisplayType)
+  href: api/HomeSeer.PluginSdk.Devices.FeatureFactory.html#HomeSeer_PluginSdk_Devices_FeatureFactory_WithDisplayType_HomeSeer_PluginSdk_Devices_EFeatureDisplayType_
+  commentId: M:HomeSeer.PluginSdk.Devices.FeatureFactory.WithDisplayType(HomeSeer.PluginSdk.Devices.EFeatureDisplayType)
+  fullName: HomeSeer.PluginSdk.Devices.FeatureFactory.WithDisplayType(HomeSeer.PluginSdk.Devices.EFeatureDisplayType)
+  nameWithType: FeatureFactory.WithDisplayType(EFeatureDisplayType)
+- uid: HomeSeer.PluginSdk.Devices.FeatureFactory.WithDisplayType*
+  name: WithDisplayType
+  href: api/HomeSeer.PluginSdk.Devices.FeatureFactory.html#HomeSeer_PluginSdk_Devices_FeatureFactory_WithDisplayType_
+  commentId: Overload:HomeSeer.PluginSdk.Devices.FeatureFactory.WithDisplayType
+  isSpec: "True"
+  fullName: HomeSeer.PluginSdk.Devices.FeatureFactory.WithDisplayType
+  nameWithType: FeatureFactory.WithDisplayType
 - uid: HomeSeer.PluginSdk.Devices.FeatureFactory.WithExtraData(HomeSeer.PluginSdk.Devices.PlugExtraData)
   name: WithExtraData(PlugExtraData)
   href: api/HomeSeer.PluginSdk.Devices.FeatureFactory.html#HomeSeer_PluginSdk_Devices_FeatureFactory_WithExtraData_HomeSeer_PluginSdk_Devices_PlugExtraData_
@@ -6649,19 +7383,19 @@ references:
   isSpec: "True"
   fullName: HomeSeer.PluginSdk.Devices.HsDevice.Duplicate
   nameWithType: HsDevice.Duplicate
-- uid: HomeSeer.PluginSdk.Devices.HsDevice.FeaturePriority
-  name: FeaturePriority
-  href: api/HomeSeer.PluginSdk.Devices.HsDevice.html#HomeSeer_PluginSdk_Devices_HsDevice_FeaturePriority
-  commentId: P:HomeSeer.PluginSdk.Devices.HsDevice.FeaturePriority
-  fullName: HomeSeer.PluginSdk.Devices.HsDevice.FeaturePriority
-  nameWithType: HsDevice.FeaturePriority
-- uid: HomeSeer.PluginSdk.Devices.HsDevice.FeaturePriority*
-  name: FeaturePriority
-  href: api/HomeSeer.PluginSdk.Devices.HsDevice.html#HomeSeer_PluginSdk_Devices_HsDevice_FeaturePriority_
-  commentId: Overload:HomeSeer.PluginSdk.Devices.HsDevice.FeaturePriority
+- uid: HomeSeer.PluginSdk.Devices.HsDevice.FeatureDisplayPriority
+  name: FeatureDisplayPriority
+  href: api/HomeSeer.PluginSdk.Devices.HsDevice.html#HomeSeer_PluginSdk_Devices_HsDevice_FeatureDisplayPriority
+  commentId: P:HomeSeer.PluginSdk.Devices.HsDevice.FeatureDisplayPriority
+  fullName: HomeSeer.PluginSdk.Devices.HsDevice.FeatureDisplayPriority
+  nameWithType: HsDevice.FeatureDisplayPriority
+- uid: HomeSeer.PluginSdk.Devices.HsDevice.FeatureDisplayPriority*
+  name: FeatureDisplayPriority
+  href: api/HomeSeer.PluginSdk.Devices.HsDevice.html#HomeSeer_PluginSdk_Devices_HsDevice_FeatureDisplayPriority_
+  commentId: Overload:HomeSeer.PluginSdk.Devices.HsDevice.FeatureDisplayPriority
   isSpec: "True"
-  fullName: HomeSeer.PluginSdk.Devices.HsDevice.FeaturePriority
-  nameWithType: HsDevice.FeaturePriority
+  fullName: HomeSeer.PluginSdk.Devices.HsDevice.FeatureDisplayPriority
+  nameWithType: HsDevice.FeatureDisplayPriority
 - uid: HomeSeer.PluginSdk.Devices.HsDevice.Features
   name: Features
   href: api/HomeSeer.PluginSdk.Devices.HsDevice.html#HomeSeer_PluginSdk_Devices_HsDevice_Features
@@ -6688,6 +7422,19 @@ references:
   isSpec: "True"
   fullName: HomeSeer.PluginSdk.Devices.HsDevice.GetFeatureByType
   nameWithType: HsDevice.GetFeatureByType
+- uid: HomeSeer.PluginSdk.Devices.HsDevice.GetFeaturesInDisplayOrder
+  name: GetFeaturesInDisplayOrder()
+  href: api/HomeSeer.PluginSdk.Devices.HsDevice.html#HomeSeer_PluginSdk_Devices_HsDevice_GetFeaturesInDisplayOrder
+  commentId: M:HomeSeer.PluginSdk.Devices.HsDevice.GetFeaturesInDisplayOrder
+  fullName: HomeSeer.PluginSdk.Devices.HsDevice.GetFeaturesInDisplayOrder()
+  nameWithType: HsDevice.GetFeaturesInDisplayOrder()
+- uid: HomeSeer.PluginSdk.Devices.HsDevice.GetFeaturesInDisplayOrder*
+  name: GetFeaturesInDisplayOrder
+  href: api/HomeSeer.PluginSdk.Devices.HsDevice.html#HomeSeer_PluginSdk_Devices_HsDevice_GetFeaturesInDisplayOrder_
+  commentId: Overload:HomeSeer.PluginSdk.Devices.HsDevice.GetFeaturesInDisplayOrder
+  isSpec: "True"
+  fullName: HomeSeer.PluginSdk.Devices.HsDevice.GetFeaturesInDisplayOrder
+  nameWithType: HsDevice.GetFeaturesInDisplayOrder
 - uid: HomeSeer.PluginSdk.Devices.HsFeature
   name: HsFeature
   href: api/HomeSeer.PluginSdk.Devices.HsFeature.html
@@ -6733,6 +7480,32 @@ references:
   isSpec: "True"
   fullName: HomeSeer.PluginSdk.Devices.HsFeature.CreateControlEvent
   nameWithType: HsFeature.CreateControlEvent
+- uid: HomeSeer.PluginSdk.Devices.HsFeature.DisplayPriority
+  name: DisplayPriority
+  href: api/HomeSeer.PluginSdk.Devices.HsFeature.html#HomeSeer_PluginSdk_Devices_HsFeature_DisplayPriority
+  commentId: P:HomeSeer.PluginSdk.Devices.HsFeature.DisplayPriority
+  fullName: HomeSeer.PluginSdk.Devices.HsFeature.DisplayPriority
+  nameWithType: HsFeature.DisplayPriority
+- uid: HomeSeer.PluginSdk.Devices.HsFeature.DisplayPriority*
+  name: DisplayPriority
+  href: api/HomeSeer.PluginSdk.Devices.HsFeature.html#HomeSeer_PluginSdk_Devices_HsFeature_DisplayPriority_
+  commentId: Overload:HomeSeer.PluginSdk.Devices.HsFeature.DisplayPriority
+  isSpec: "True"
+  fullName: HomeSeer.PluginSdk.Devices.HsFeature.DisplayPriority
+  nameWithType: HsFeature.DisplayPriority
+- uid: HomeSeer.PluginSdk.Devices.HsFeature.DisplayType
+  name: DisplayType
+  href: api/HomeSeer.PluginSdk.Devices.HsFeature.html#HomeSeer_PluginSdk_Devices_HsFeature_DisplayType
+  commentId: P:HomeSeer.PluginSdk.Devices.HsFeature.DisplayType
+  fullName: HomeSeer.PluginSdk.Devices.HsFeature.DisplayType
+  nameWithType: HsFeature.DisplayType
+- uid: HomeSeer.PluginSdk.Devices.HsFeature.DisplayType*
+  name: DisplayType
+  href: api/HomeSeer.PluginSdk.Devices.HsFeature.html#HomeSeer_PluginSdk_Devices_HsFeature_DisplayType_
+  commentId: Overload:HomeSeer.PluginSdk.Devices.HsFeature.DisplayType
+  isSpec: "True"
+  fullName: HomeSeer.PluginSdk.Devices.HsFeature.DisplayType
+  nameWithType: HsFeature.DisplayType
 - uid: HomeSeer.PluginSdk.Devices.HsFeature.Duplicate(System.Int32)
   name: Duplicate(Int32)
   href: api/HomeSeer.PluginSdk.Devices.HsFeature.html#HomeSeer_PluginSdk_Devices_HsFeature_Duplicate_System_Int32_
@@ -6983,6 +7756,42 @@ references:
   commentId: F:HomeSeer.PluginSdk.Devices.Identification.EDeviceType.Window
   fullName: HomeSeer.PluginSdk.Devices.Identification.EDeviceType.Window
   nameWithType: EDeviceType.Window
+- uid: HomeSeer.PluginSdk.Devices.Identification.EEnergyFeatureSubType
+  name: EEnergyFeatureSubType
+  href: api/HomeSeer.PluginSdk.Devices.Identification.EEnergyFeatureSubType.html
+  commentId: T:HomeSeer.PluginSdk.Devices.Identification.EEnergyFeatureSubType
+  fullName: HomeSeer.PluginSdk.Devices.Identification.EEnergyFeatureSubType
+  nameWithType: EEnergyFeatureSubType
+- uid: HomeSeer.PluginSdk.Devices.Identification.EEnergyFeatureSubType.Amps
+  name: Amps
+  href: api/HomeSeer.PluginSdk.Devices.Identification.EEnergyFeatureSubType.html#HomeSeer_PluginSdk_Devices_Identification_EEnergyFeatureSubType_Amps
+  commentId: F:HomeSeer.PluginSdk.Devices.Identification.EEnergyFeatureSubType.Amps
+  fullName: HomeSeer.PluginSdk.Devices.Identification.EEnergyFeatureSubType.Amps
+  nameWithType: EEnergyFeatureSubType.Amps
+- uid: HomeSeer.PluginSdk.Devices.Identification.EEnergyFeatureSubType.Graphing
+  name: Graphing
+  href: api/HomeSeer.PluginSdk.Devices.Identification.EEnergyFeatureSubType.html#HomeSeer_PluginSdk_Devices_Identification_EEnergyFeatureSubType_Graphing
+  commentId: F:HomeSeer.PluginSdk.Devices.Identification.EEnergyFeatureSubType.Graphing
+  fullName: HomeSeer.PluginSdk.Devices.Identification.EEnergyFeatureSubType.Graphing
+  nameWithType: EEnergyFeatureSubType.Graphing
+- uid: HomeSeer.PluginSdk.Devices.Identification.EEnergyFeatureSubType.Kwh
+  name: Kwh
+  href: api/HomeSeer.PluginSdk.Devices.Identification.EEnergyFeatureSubType.html#HomeSeer_PluginSdk_Devices_Identification_EEnergyFeatureSubType_Kwh
+  commentId: F:HomeSeer.PluginSdk.Devices.Identification.EEnergyFeatureSubType.Kwh
+  fullName: HomeSeer.PluginSdk.Devices.Identification.EEnergyFeatureSubType.Kwh
+  nameWithType: EEnergyFeatureSubType.Kwh
+- uid: HomeSeer.PluginSdk.Devices.Identification.EEnergyFeatureSubType.Volts
+  name: Volts
+  href: api/HomeSeer.PluginSdk.Devices.Identification.EEnergyFeatureSubType.html#HomeSeer_PluginSdk_Devices_Identification_EEnergyFeatureSubType_Volts
+  commentId: F:HomeSeer.PluginSdk.Devices.Identification.EEnergyFeatureSubType.Volts
+  fullName: HomeSeer.PluginSdk.Devices.Identification.EEnergyFeatureSubType.Volts
+  nameWithType: EEnergyFeatureSubType.Volts
+- uid: HomeSeer.PluginSdk.Devices.Identification.EEnergyFeatureSubType.Watts
+  name: Watts
+  href: api/HomeSeer.PluginSdk.Devices.Identification.EEnergyFeatureSubType.html#HomeSeer_PluginSdk_Devices_Identification_EEnergyFeatureSubType_Watts
+  commentId: F:HomeSeer.PluginSdk.Devices.Identification.EEnergyFeatureSubType.Watts
+  fullName: HomeSeer.PluginSdk.Devices.Identification.EEnergyFeatureSubType.Watts
+  nameWithType: EEnergyFeatureSubType.Watts
 - uid: HomeSeer.PluginSdk.Devices.Identification.EFeatureType
   name: EFeatureType
   href: api/HomeSeer.PluginSdk.Devices.Identification.EFeatureType.html
@@ -7921,15 +8730,15 @@ references:
   isSpec: "True"
   fullName: HomeSeer.PluginSdk.Devices.StatusGraphicCollection.Add
   nameWithType: StatusGraphicCollection.Add
-- uid: HomeSeer.PluginSdk.Devices.StatusGraphicCollection.AddRange(System.Collections.Generic.List{HomeSeer.PluginSdk.Devices.StatusGraphic})
-  name: AddRange(List<StatusGraphic>)
-  href: api/HomeSeer.PluginSdk.Devices.StatusGraphicCollection.html#HomeSeer_PluginSdk_Devices_StatusGraphicCollection_AddRange_System_Collections_Generic_List_HomeSeer_PluginSdk_Devices_StatusGraphic__
-  commentId: M:HomeSeer.PluginSdk.Devices.StatusGraphicCollection.AddRange(System.Collections.Generic.List{HomeSeer.PluginSdk.Devices.StatusGraphic})
-  name.vb: AddRange(List(Of StatusGraphic))
-  fullName: HomeSeer.PluginSdk.Devices.StatusGraphicCollection.AddRange(System.Collections.Generic.List<HomeSeer.PluginSdk.Devices.StatusGraphic>)
-  fullName.vb: HomeSeer.PluginSdk.Devices.StatusGraphicCollection.AddRange(System.Collections.Generic.List(Of HomeSeer.PluginSdk.Devices.StatusGraphic))
-  nameWithType: StatusGraphicCollection.AddRange(List<StatusGraphic>)
-  nameWithType.vb: StatusGraphicCollection.AddRange(List(Of StatusGraphic))
+- uid: HomeSeer.PluginSdk.Devices.StatusGraphicCollection.AddRange(System.Collections.Generic.IEnumerable{HomeSeer.PluginSdk.Devices.StatusGraphic})
+  name: AddRange(IEnumerable<StatusGraphic>)
+  href: api/HomeSeer.PluginSdk.Devices.StatusGraphicCollection.html#HomeSeer_PluginSdk_Devices_StatusGraphicCollection_AddRange_System_Collections_Generic_IEnumerable_HomeSeer_PluginSdk_Devices_StatusGraphic__
+  commentId: M:HomeSeer.PluginSdk.Devices.StatusGraphicCollection.AddRange(System.Collections.Generic.IEnumerable{HomeSeer.PluginSdk.Devices.StatusGraphic})
+  name.vb: AddRange(IEnumerable(Of StatusGraphic))
+  fullName: HomeSeer.PluginSdk.Devices.StatusGraphicCollection.AddRange(System.Collections.Generic.IEnumerable<HomeSeer.PluginSdk.Devices.StatusGraphic>)
+  fullName.vb: HomeSeer.PluginSdk.Devices.StatusGraphicCollection.AddRange(System.Collections.Generic.IEnumerable(Of HomeSeer.PluginSdk.Devices.StatusGraphic))
+  nameWithType: StatusGraphicCollection.AddRange(IEnumerable<StatusGraphic>)
+  nameWithType.vb: StatusGraphicCollection.AddRange(IEnumerable(Of StatusGraphic))
 - uid: HomeSeer.PluginSdk.Devices.StatusGraphicCollection.AddRange*
   name: AddRange
   href: api/HomeSeer.PluginSdk.Devices.StatusGraphicCollection.html#HomeSeer_PluginSdk_Devices_StatusGraphicCollection_AddRange_
@@ -12998,6 +13807,19 @@ references:
   isSpec: "True"
   fullName: HomeSeer.PluginSdk.IHsController.SaveVar
   nameWithType: IHsController.SaveVar
+- uid: HomeSeer.PluginSdk.IHsController.SendControlForFeatureByString(System.Int32,System.Double,System.String)
+  name: SendControlForFeatureByString(Int32, Double, String)
+  href: api/HomeSeer.PluginSdk.IHsController.html#HomeSeer_PluginSdk_IHsController_SendControlForFeatureByString_System_Int32_System_Double_System_String_
+  commentId: M:HomeSeer.PluginSdk.IHsController.SendControlForFeatureByString(System.Int32,System.Double,System.String)
+  fullName: HomeSeer.PluginSdk.IHsController.SendControlForFeatureByString(System.Int32, System.Double, System.String)
+  nameWithType: IHsController.SendControlForFeatureByString(Int32, Double, String)
+- uid: HomeSeer.PluginSdk.IHsController.SendControlForFeatureByString*
+  name: SendControlForFeatureByString
+  href: api/HomeSeer.PluginSdk.IHsController.html#HomeSeer_PluginSdk_IHsController_SendControlForFeatureByString_
+  commentId: Overload:HomeSeer.PluginSdk.IHsController.SendControlForFeatureByString
+  isSpec: "True"
+  fullName: HomeSeer.PluginSdk.IHsController.SendControlForFeatureByString
+  nameWithType: IHsController.SendControlForFeatureByString
 - uid: HomeSeer.PluginSdk.IHsController.SendControlForFeatureByValue(System.Int32,System.Double)
   name: SendControlForFeatureByValue(Int32, Double)
   href: api/HomeSeer.PluginSdk.IHsController.html#HomeSeer_PluginSdk_IHsController_SendControlForFeatureByValue_System_Int32_System_Double_
@@ -13870,6 +14692,19 @@ references:
   isSpec: "True"
   fullName: HomeSeer.PluginSdk.IPlugin.SupportsConfigDeviceAll
   nameWithType: IPlugin.SupportsConfigDeviceAll
+- uid: HomeSeer.PluginSdk.IPlugin.SupportsConfigFeature
+  name: SupportsConfigFeature
+  href: api/HomeSeer.PluginSdk.IPlugin.html#HomeSeer_PluginSdk_IPlugin_SupportsConfigFeature
+  commentId: P:HomeSeer.PluginSdk.IPlugin.SupportsConfigFeature
+  fullName: HomeSeer.PluginSdk.IPlugin.SupportsConfigFeature
+  nameWithType: IPlugin.SupportsConfigFeature
+- uid: HomeSeer.PluginSdk.IPlugin.SupportsConfigFeature*
+  name: SupportsConfigFeature
+  href: api/HomeSeer.PluginSdk.IPlugin.html#HomeSeer_PluginSdk_IPlugin_SupportsConfigFeature_
+  commentId: Overload:HomeSeer.PluginSdk.IPlugin.SupportsConfigFeature
+  isSpec: "True"
+  fullName: HomeSeer.PluginSdk.IPlugin.SupportsConfigFeature
+  nameWithType: IPlugin.SupportsConfigFeature
 - uid: HomeSeer.PluginSdk.IPlugin.TriggerBuildUI(HomeSeer.PluginSdk.Events.TrigActInfo)
   name: TriggerBuildUI(TrigActInfo)
   href: api/HomeSeer.PluginSdk.IPlugin.html#HomeSeer_PluginSdk_IPlugin_TriggerBuildUI_HomeSeer_PluginSdk_Events_TrigActInfo_

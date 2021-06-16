@@ -10,7 +10,7 @@
     <meta name="viewport" content="width=device-width">
     <meta name="title" content="Class AbstractHsDevice
    | HomeSeer PluginSdk Docs ">
-    <meta name="generator" content="docfx 2.49.0.0">
+    <meta name="generator" content="docfx 2.58.0.0">
     
     <link rel="shortcut icon" href="../images/favicon.ico">
     <link rel="stylesheet" href="../styles/docfx.vendor.css">
@@ -62,11 +62,11 @@
       <div class="container body-content">
         
         <div id="search-results">
-          <div class="search-list"></div>
+          <div class="search-list">Search Results for <span></span></div>
           <div class="sr-items">
             <p><i class="glyphicon glyphicon-refresh index-loading"></i></p>
           </div>
-          <ul id="pagination"></ul>
+          <ul id="pagination" data-first="First" data-prev="Previous" data-next="Next" data-last="Last"></ul>
         </div>
       </div>
       <div role="main" class="container-fluid body-content hide-when-search">
@@ -162,11 +162,12 @@ with at all times to avoid unexpected InvalidOperationExceptions.</p>
   </h3>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Devices/AbstractHsDevice.cs/#L761">View Source</a>
+    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Devices/AbstractHsDevice.cs/#L773">View Source</a>
   </span>
   <a id="HomeSeer_PluginSdk_Devices_AbstractHsDevice__ctor_" data-uid="HomeSeer.PluginSdk.Devices.AbstractHsDevice.#ctor*"></a>
   <h4 id="HomeSeer_PluginSdk_Devices_AbstractHsDevice__ctor" data-uid="HomeSeer.PluginSdk.Devices.AbstractHsDevice.#ctor">AbstractHsDevice()</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Create a new AbstractHsDevice with default properties</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="tabGroup" id="tabgroup_syntax">
@@ -191,11 +192,12 @@ with at all times to avoid unexpected InvalidOperationExceptions.</p>
   </div>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Devices/AbstractHsDevice.cs/#L763">View Source</a>
+    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Devices/AbstractHsDevice.cs/#L779">View Source</a>
   </span>
   <a id="HomeSeer_PluginSdk_Devices_AbstractHsDevice__ctor_" data-uid="HomeSeer.PluginSdk.Devices.AbstractHsDevice.#ctor*"></a>
   <h4 id="HomeSeer_PluginSdk_Devices_AbstractHsDevice__ctor_System_Int32_" data-uid="HomeSeer.PluginSdk.Devices.AbstractHsDevice.#ctor(System.Int32)">AbstractHsDevice(Int32)</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Create a new AbstractHsDevice with a specific uniqueRef</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="tabGroup" id="tabgroup_syntax">
@@ -209,12 +211,12 @@ with at all times to avoid unexpected InvalidOperationExceptions.</p>
       </ul>
       <section id="tabpanel_syntax_cs" role="tabpanel" data-tab="cs">
           <div class="codewrapper">
-            <pre><code class="lang-csharp hljs">protected AbstractHsDevice(int featureRef)</code></pre>
+            <pre><code class="lang-csharp hljs">protected AbstractHsDevice(int uniqueRef)</code></pre>
           </div>
       </section>
       <section id="tabpanel_syntax_vb" role="tabpanel" data-tab="vb" aria-hidden="true" hidden="">
           <div class="codewrapper">
-            <pre><code class="lang-vb hljs">Protected Sub New(featureRef As Integer)</code></pre>
+            <pre><code class="lang-vb hljs">Protected Sub New(uniqueRef As Integer)</code></pre>
           </div>
       </section>
   </div>
@@ -230,8 +232,9 @@ with at all times to avoid unexpected InvalidOperationExceptions.</p>
     <tbody>
       <tr>
         <td><span class="xref">System.Int32</span></td>
-        <td><span class="parametername">featureRef</span></td>
-        <td></td>
+        <td><span class="parametername">uniqueRef</span></td>
+        <td><p>The unique ID as an integer</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -239,7 +242,7 @@ with at all times to avoid unexpected InvalidOperationExceptions.</p>
   </h3>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Devices/AbstractHsDevice.cs/#L720">View Source</a>
+    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Devices/AbstractHsDevice.cs/#L722">View Source</a>
   </span>
   <h4 id="HomeSeer_PluginSdk_Devices_AbstractHsDevice__address" data-uid="HomeSeer.PluginSdk.Devices.AbstractHsDevice._address">_address</h4>
   <div class="markdown level1 summary"></div>
@@ -282,7 +285,7 @@ with at all times to avoid unexpected InvalidOperationExceptions.</p>
   </table>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Devices/AbstractHsDevice.cs/#L722">View Source</a>
+    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Devices/AbstractHsDevice.cs/#L724">View Source</a>
   </span>
   <h4 id="HomeSeer_PluginSdk_Devices_AbstractHsDevice__assDevices" data-uid="HomeSeer.PluginSdk.Devices.AbstractHsDevice._assDevices">_assDevices</h4>
   <div class="markdown level1 summary"></div>
@@ -325,10 +328,12 @@ with at all times to avoid unexpected InvalidOperationExceptions.</p>
   </table>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Devices/AbstractHsDevice.cs/#L723">View Source</a>
+    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Devices/AbstractHsDevice.cs/#L732">View Source</a>
   </span>
   <h4 id="HomeSeer_PluginSdk_Devices_AbstractHsDevice__cacheChanges" data-uid="HomeSeer.PluginSdk.Devices.AbstractHsDevice._cacheChanges">_cacheChanges</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Flag used to indicate whether to cache changes in <a class="xref" href="HomeSeer.PluginSdk.Devices.AbstractHsDevice.html#HomeSeer_PluginSdk_Devices_AbstractHsDevice_Changes">Changes</a> when setting properties and not adjust
+the underlying value or to cache changes in <a class="xref" href="HomeSeer.PluginSdk.Devices.AbstractHsDevice.html#HomeSeer_PluginSdk_Devices_AbstractHsDevice_Changes">Changes</a> and adjust the underlying value.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="tabGroup" id="tabgroup_syntax">
@@ -366,9 +371,12 @@ with at all times to avoid unexpected InvalidOperationExceptions.</p>
       </tr>
     </tbody>
   </table>
+  <h5 id="HomeSeer_PluginSdk_Devices_AbstractHsDevice__cacheChanges_remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>Setting this to TRUE allows you to quickly revert changes made by discarding <a class="xref" href="HomeSeer.PluginSdk.Devices.AbstractHsDevice.html#HomeSeer_PluginSdk_Devices_AbstractHsDevice_Changes">Changes</a></p>
+</div>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Devices/AbstractHsDevice.cs/#L725">View Source</a>
+    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Devices/AbstractHsDevice.cs/#L734">View Source</a>
   </span>
   <h4 id="HomeSeer_PluginSdk_Devices_AbstractHsDevice__image" data-uid="HomeSeer.PluginSdk.Devices.AbstractHsDevice._image">_image</h4>
   <div class="markdown level1 summary"></div>
@@ -411,7 +419,7 @@ with at all times to avoid unexpected InvalidOperationExceptions.</p>
   </table>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Devices/AbstractHsDevice.cs/#L727">View Source</a>
+    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Devices/AbstractHsDevice.cs/#L736">View Source</a>
   </span>
   <h4 id="HomeSeer_PluginSdk_Devices_AbstractHsDevice__interface" data-uid="HomeSeer.PluginSdk.Devices.AbstractHsDevice._interface">_interface</h4>
   <div class="markdown level1 summary"></div>
@@ -454,7 +462,7 @@ with at all times to avoid unexpected InvalidOperationExceptions.</p>
   </table>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Devices/AbstractHsDevice.cs/#L729">View Source</a>
+    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Devices/AbstractHsDevice.cs/#L738">View Source</a>
   </span>
   <h4 id="HomeSeer_PluginSdk_Devices_AbstractHsDevice__invalidValue" data-uid="HomeSeer.PluginSdk.Devices.AbstractHsDevice._invalidValue">_invalidValue</h4>
   <div class="markdown level1 summary"></div>
@@ -497,7 +505,7 @@ with at all times to avoid unexpected InvalidOperationExceptions.</p>
   </table>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Devices/AbstractHsDevice.cs/#L731">View Source</a>
+    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Devices/AbstractHsDevice.cs/#L740">View Source</a>
   </span>
   <h4 id="HomeSeer_PluginSdk_Devices_AbstractHsDevice__lastChange" data-uid="HomeSeer.PluginSdk.Devices.AbstractHsDevice._lastChange">_lastChange</h4>
   <div class="markdown level1 summary"></div>
@@ -540,7 +548,7 @@ with at all times to avoid unexpected InvalidOperationExceptions.</p>
   </table>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Devices/AbstractHsDevice.cs/#L733">View Source</a>
+    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Devices/AbstractHsDevice.cs/#L742">View Source</a>
   </span>
   <h4 id="HomeSeer_PluginSdk_Devices_AbstractHsDevice__location" data-uid="HomeSeer.PluginSdk.Devices.AbstractHsDevice._location">_location</h4>
   <div class="markdown level1 summary"></div>
@@ -583,7 +591,7 @@ with at all times to avoid unexpected InvalidOperationExceptions.</p>
   </table>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Devices/AbstractHsDevice.cs/#L735">View Source</a>
+    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Devices/AbstractHsDevice.cs/#L744">View Source</a>
   </span>
   <h4 id="HomeSeer_PluginSdk_Devices_AbstractHsDevice__location2" data-uid="HomeSeer.PluginSdk.Devices.AbstractHsDevice._location2">_location2</h4>
   <div class="markdown level1 summary"></div>
@@ -626,7 +634,7 @@ with at all times to avoid unexpected InvalidOperationExceptions.</p>
   </table>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Devices/AbstractHsDevice.cs/#L737">View Source</a>
+    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Devices/AbstractHsDevice.cs/#L746">View Source</a>
   </span>
   <h4 id="HomeSeer_PluginSdk_Devices_AbstractHsDevice__misc" data-uid="HomeSeer.PluginSdk.Devices.AbstractHsDevice._misc">_misc</h4>
   <div class="markdown level1 summary"></div>
@@ -669,7 +677,7 @@ with at all times to avoid unexpected InvalidOperationExceptions.</p>
   </table>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Devices/AbstractHsDevice.cs/#L739">View Source</a>
+    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Devices/AbstractHsDevice.cs/#L748">View Source</a>
   </span>
   <h4 id="HomeSeer_PluginSdk_Devices_AbstractHsDevice__name" data-uid="HomeSeer.PluginSdk.Devices.AbstractHsDevice._name">_name</h4>
   <div class="markdown level1 summary"></div>
@@ -712,7 +720,7 @@ with at all times to avoid unexpected InvalidOperationExceptions.</p>
   </table>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Devices/AbstractHsDevice.cs/#L741">View Source</a>
+    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Devices/AbstractHsDevice.cs/#L750">View Source</a>
   </span>
   <h4 id="HomeSeer_PluginSdk_Devices_AbstractHsDevice__plugExtraData" data-uid="HomeSeer.PluginSdk.Devices.AbstractHsDevice._plugExtraData">_plugExtraData</h4>
   <div class="markdown level1 summary"></div>
@@ -755,7 +763,7 @@ with at all times to avoid unexpected InvalidOperationExceptions.</p>
   </table>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Devices/AbstractHsDevice.cs/#L743">View Source</a>
+    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Devices/AbstractHsDevice.cs/#L752">View Source</a>
   </span>
   <h4 id="HomeSeer_PluginSdk_Devices_AbstractHsDevice__relationship" data-uid="HomeSeer.PluginSdk.Devices.AbstractHsDevice._relationship">_relationship</h4>
   <div class="markdown level1 summary"></div>
@@ -798,7 +806,7 @@ with at all times to avoid unexpected InvalidOperationExceptions.</p>
   </table>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Devices/AbstractHsDevice.cs/#L745">View Source</a>
+    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Devices/AbstractHsDevice.cs/#L754">View Source</a>
   </span>
   <h4 id="HomeSeer_PluginSdk_Devices_AbstractHsDevice__status" data-uid="HomeSeer.PluginSdk.Devices.AbstractHsDevice._status">_status</h4>
   <div class="markdown level1 summary"></div>
@@ -841,7 +849,7 @@ with at all times to avoid unexpected InvalidOperationExceptions.</p>
   </table>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Devices/AbstractHsDevice.cs/#L747">View Source</a>
+    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Devices/AbstractHsDevice.cs/#L756">View Source</a>
   </span>
   <h4 id="HomeSeer_PluginSdk_Devices_AbstractHsDevice__typeInfo" data-uid="HomeSeer.PluginSdk.Devices.AbstractHsDevice._typeInfo">_typeInfo</h4>
   <div class="markdown level1 summary"></div>
@@ -884,7 +892,7 @@ with at all times to avoid unexpected InvalidOperationExceptions.</p>
   </table>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Devices/AbstractHsDevice.cs/#L749">View Source</a>
+    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Devices/AbstractHsDevice.cs/#L758">View Source</a>
   </span>
   <h4 id="HomeSeer_PluginSdk_Devices_AbstractHsDevice__userAccess" data-uid="HomeSeer.PluginSdk.Devices.AbstractHsDevice._userAccess">_userAccess</h4>
   <div class="markdown level1 summary"></div>
@@ -927,7 +935,7 @@ with at all times to avoid unexpected InvalidOperationExceptions.</p>
   </table>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Devices/AbstractHsDevice.cs/#L751">View Source</a>
+    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Devices/AbstractHsDevice.cs/#L760">View Source</a>
   </span>
   <h4 id="HomeSeer_PluginSdk_Devices_AbstractHsDevice__userNote" data-uid="HomeSeer.PluginSdk.Devices.AbstractHsDevice._userNote">_userNote</h4>
   <div class="markdown level1 summary"></div>
@@ -970,7 +978,7 @@ with at all times to avoid unexpected InvalidOperationExceptions.</p>
   </table>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Devices/AbstractHsDevice.cs/#L753">View Source</a>
+    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Devices/AbstractHsDevice.cs/#L762">View Source</a>
   </span>
   <h4 id="HomeSeer_PluginSdk_Devices_AbstractHsDevice__value" data-uid="HomeSeer.PluginSdk.Devices.AbstractHsDevice._value">_value</h4>
   <div class="markdown level1 summary"></div>
@@ -1013,7 +1021,7 @@ with at all times to avoid unexpected InvalidOperationExceptions.</p>
   </table>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Devices/AbstractHsDevice.cs/#L755">View Source</a>
+    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Devices/AbstractHsDevice.cs/#L764">View Source</a>
   </span>
   <h4 id="HomeSeer_PluginSdk_Devices_AbstractHsDevice__voiceCommand" data-uid="HomeSeer.PluginSdk.Devices.AbstractHsDevice._voiceCommand">_voiceCommand</h4>
   <div class="markdown level1 summary"></div>
@@ -1923,7 +1931,7 @@ better able to tailor the experience of the user to their expectations.</p>
   </div>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Devices/AbstractHsDevice.cs/#L587">View Source</a>
+    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Devices/AbstractHsDevice.cs/#L588">View Source</a>
   </span>
   <a id="HomeSeer_PluginSdk_Devices_AbstractHsDevice_UserAccess_" data-uid="HomeSeer.PluginSdk.Devices.AbstractHsDevice.UserAccess*"></a>
   <h4 id="HomeSeer_PluginSdk_Devices_AbstractHsDevice_UserAccess" data-uid="HomeSeer.PluginSdk.Devices.AbstractHsDevice.UserAccess">UserAccess</h4>
@@ -1966,9 +1974,12 @@ better able to tailor the experience of the user to their expectations.</p>
       </tr>
     </tbody>
   </table>
+  <h5 id="HomeSeer_PluginSdk_Devices_AbstractHsDevice_UserAccess_remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>This is typically configured by users and can be safely ignored when creating a <a class="xref" href="HomeSeer.PluginSdk.Devices.HsDevice.html">HsDevice</a> or <a class="xref" href="HomeSeer.PluginSdk.Devices.HsFeature.html">HsFeature</a></p>
+</div>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Devices/AbstractHsDevice.cs/#L617">View Source</a>
+    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Devices/AbstractHsDevice.cs/#L619">View Source</a>
   </span>
   <a id="HomeSeer_PluginSdk_Devices_AbstractHsDevice_UserNote_" data-uid="HomeSeer.PluginSdk.Devices.AbstractHsDevice.UserNote*"></a>
   <h4 id="HomeSeer_PluginSdk_Devices_AbstractHsDevice_UserNote" data-uid="HomeSeer.PluginSdk.Devices.AbstractHsDevice.UserNote">UserNote</h4>
@@ -2011,9 +2022,12 @@ better able to tailor the experience of the user to their expectations.</p>
       </tr>
     </tbody>
   </table>
+  <h5 id="HomeSeer_PluginSdk_Devices_AbstractHsDevice_UserNote_remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>This is typically configured by users and can be safely ignored when creating a <a class="xref" href="HomeSeer.PluginSdk.Devices.HsDevice.html">HsDevice</a> or <a class="xref" href="HomeSeer.PluginSdk.Devices.HsFeature.html">HsFeature</a></p>
+</div>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Devices/AbstractHsDevice.cs/#L656">View Source</a>
+    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Devices/AbstractHsDevice.cs/#L658">View Source</a>
   </span>
   <a id="HomeSeer_PluginSdk_Devices_AbstractHsDevice_Value_" data-uid="HomeSeer.PluginSdk.Devices.AbstractHsDevice.Value*"></a>
   <h4 id="HomeSeer_PluginSdk_Devices_AbstractHsDevice_Value" data-uid="HomeSeer.PluginSdk.Devices.AbstractHsDevice.Value">Value</h4>
@@ -2067,7 +2081,7 @@ This value relates to the TargetValue and TargetRange properties on the <a class
 </div>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Devices/AbstractHsDevice.cs/#L688">View Source</a>
+    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Devices/AbstractHsDevice.cs/#L690">View Source</a>
   </span>
   <a id="HomeSeer_PluginSdk_Devices_AbstractHsDevice_VoiceCommand_" data-uid="HomeSeer.PluginSdk.Devices.AbstractHsDevice.VoiceCommand*"></a>
   <h4 id="HomeSeer_PluginSdk_Devices_AbstractHsDevice_VoiceCommand" data-uid="HomeSeer.PluginSdk.Devices.AbstractHsDevice.VoiceCommand">VoiceCommand</h4>
@@ -2114,7 +2128,7 @@ This value relates to the TargetValue and TargetRange properties on the <a class
   </h3>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Devices/AbstractHsDevice.cs/#L786">View Source</a>
+    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Devices/AbstractHsDevice.cs/#L802">View Source</a>
   </span>
   <a id="HomeSeer_PluginSdk_Devices_AbstractHsDevice_AddMiscFlag_" data-uid="HomeSeer.PluginSdk.Devices.AbstractHsDevice.AddMiscFlag*"></a>
   <h4 id="HomeSeer_PluginSdk_Devices_AbstractHsDevice_AddMiscFlag_HomeSeer_PluginSdk_Devices_EMiscFlag_" data-uid="HomeSeer.PluginSdk.Devices.AbstractHsDevice.AddMiscFlag(HomeSeer.PluginSdk.Devices.EMiscFlag)">AddMiscFlag(EMiscFlag)</h4>
@@ -2162,7 +2176,7 @@ This value relates to the TargetValue and TargetRange properties on the <a class
   </table>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Devices/AbstractHsDevice.cs/#L855">View Source</a>
+    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Devices/AbstractHsDevice.cs/#L871">View Source</a>
   </span>
   <a id="HomeSeer_PluginSdk_Devices_AbstractHsDevice_ClearMiscFlags_" data-uid="HomeSeer.PluginSdk.Devices.AbstractHsDevice.ClearMiscFlags*"></a>
   <h4 id="HomeSeer_PluginSdk_Devices_AbstractHsDevice_ClearMiscFlags" data-uid="HomeSeer.PluginSdk.Devices.AbstractHsDevice.ClearMiscFlags">ClearMiscFlags()</h4>
@@ -2192,7 +2206,7 @@ This value relates to the TargetValue and TargetRange properties on the <a class
   </div>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Devices/AbstractHsDevice.cs/#L817">View Source</a>
+    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Devices/AbstractHsDevice.cs/#L833">View Source</a>
   </span>
   <a id="HomeSeer_PluginSdk_Devices_AbstractHsDevice_ContainsMiscFlag_" data-uid="HomeSeer.PluginSdk.Devices.AbstractHsDevice.ContainsMiscFlag*"></a>
   <h4 id="HomeSeer_PluginSdk_Devices_AbstractHsDevice_ContainsMiscFlag_HomeSeer_PluginSdk_Devices_EMiscFlag_" data-uid="HomeSeer.PluginSdk.Devices.AbstractHsDevice.ContainsMiscFlag(HomeSeer.PluginSdk.Devices.EMiscFlag)">ContainsMiscFlag(EMiscFlag)</h4>
@@ -2257,7 +2271,7 @@ FALSE if it does not.</p>
   </table>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Devices/AbstractHsDevice.cs/#L897">View Source</a>
+    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Devices/AbstractHsDevice.cs/#L913">View Source</a>
   </span>
   <a id="HomeSeer_PluginSdk_Devices_AbstractHsDevice_GetAddressFromAddressString_" data-uid="HomeSeer.PluginSdk.Devices.AbstractHsDevice.GetAddressFromAddressString*"></a>
   <h4 id="HomeSeer_PluginSdk_Devices_AbstractHsDevice_GetAddressFromAddressString_System_String_" data-uid="HomeSeer.PluginSdk.Devices.AbstractHsDevice.GetAddressFromAddressString(System.String)">GetAddressFromAddressString(String)</h4>
@@ -2328,7 +2342,7 @@ devices created using HS3. Use this method to get the address from the returned 
 </div>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Devices/AbstractHsDevice.cs/#L933">View Source</a>
+    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Devices/AbstractHsDevice.cs/#L949">View Source</a>
   </span>
   <a id="HomeSeer_PluginSdk_Devices_AbstractHsDevice_GetCodeFromAddressString_" data-uid="HomeSeer.PluginSdk.Devices.AbstractHsDevice.GetCodeFromAddressString*"></a>
   <h4 id="HomeSeer_PluginSdk_Devices_AbstractHsDevice_GetCodeFromAddressString_System_String_" data-uid="HomeSeer.PluginSdk.Devices.AbstractHsDevice.GetCodeFromAddressString(System.String)">GetCodeFromAddressString(String)</h4>
@@ -2399,7 +2413,7 @@ devices created using HS3. Use this method to get the address from the returned 
 </div>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Devices/AbstractHsDevice.cs/#L875">View Source</a>
+    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Devices/AbstractHsDevice.cs/#L891">View Source</a>
   </span>
   <a id="HomeSeer_PluginSdk_Devices_AbstractHsDevice_GetMiscForFlags_" data-uid="HomeSeer.PluginSdk.Devices.AbstractHsDevice.GetMiscForFlags*"></a>
   <h4 id="HomeSeer_PluginSdk_Devices_AbstractHsDevice_GetMiscForFlags_HomeSeer_PluginSdk_Devices_EMiscFlag___" data-uid="HomeSeer.PluginSdk.Devices.AbstractHsDevice.GetMiscForFlags(HomeSeer.PluginSdk.Devices.EMiscFlag[])">GetMiscForFlags(EMiscFlag[])</h4>
@@ -2463,7 +2477,7 @@ devices created using HS3. Use this method to get the address from the returned 
   </table>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Devices/AbstractHsDevice.cs/#L778">View Source</a>
+    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Devices/AbstractHsDevice.cs/#L794">View Source</a>
   </span>
   <a id="HomeSeer_PluginSdk_Devices_AbstractHsDevice_IsValueValid_" data-uid="HomeSeer.PluginSdk.Devices.AbstractHsDevice.IsValueValid*"></a>
   <h4 id="HomeSeer_PluginSdk_Devices_AbstractHsDevice_IsValueValid" data-uid="HomeSeer.PluginSdk.Devices.AbstractHsDevice.IsValueValid">IsValueValid()</h4>
@@ -2509,7 +2523,7 @@ devices created using HS3. Use this method to get the address from the returned 
   </table>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Devices/AbstractHsDevice.cs/#L830">View Source</a>
+    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Devices/AbstractHsDevice.cs/#L846">View Source</a>
   </span>
   <a id="HomeSeer_PluginSdk_Devices_AbstractHsDevice_RemoveMiscFlag_" data-uid="HomeSeer.PluginSdk.Devices.AbstractHsDevice.RemoveMiscFlag*"></a>
   <h4 id="HomeSeer_PluginSdk_Devices_AbstractHsDevice_RemoveMiscFlag_HomeSeer_PluginSdk_Devices_EMiscFlag_" data-uid="HomeSeer.PluginSdk.Devices.AbstractHsDevice.RemoveMiscFlag(HomeSeer.PluginSdk.Devices.EMiscFlag)">RemoveMiscFlag(EMiscFlag)</h4>
@@ -2557,7 +2571,7 @@ devices created using HS3. Use this method to get the address from the returned 
   </table>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Devices/AbstractHsDevice.cs/#L770">View Source</a>
+    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Devices/AbstractHsDevice.cs/#L786">View Source</a>
   </span>
   <a id="HomeSeer_PluginSdk_Devices_AbstractHsDevice_RevertChanges_" data-uid="HomeSeer.PluginSdk.Devices.AbstractHsDevice.RevertChanges*"></a>
   <h4 id="HomeSeer_PluginSdk_Devices_AbstractHsDevice_RevertChanges" data-uid="HomeSeer.PluginSdk.Devices.AbstractHsDevice.RevertChanges">RevertChanges()</h4>
@@ -2598,7 +2612,8 @@ devices created using HS3. Use this method to get the address from the returned 
               </ul>
             </div>
             <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
-            <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              <h5>In This Article</h5>
+              <div></div>
             </nav>
           </div>
         </div>
