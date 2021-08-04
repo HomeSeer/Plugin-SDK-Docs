@@ -6599,6 +6599,12 @@ references:
   commentId: T:HomeSeer.PluginSdk.Devices.EMiscFlag
   fullName: HomeSeer.PluginSdk.Devices.EMiscFlag
   nameWithType: EMiscFlag
+- uid: HomeSeer.PluginSdk.Devices.EMiscFlag.AmazonDiscoveryEnabled
+  name: AmazonDiscoveryEnabled
+  href: api/HomeSeer.PluginSdk.Devices.EMiscFlag.html#HomeSeer_PluginSdk_Devices_EMiscFlag_AmazonDiscoveryEnabled
+  commentId: F:HomeSeer.PluginSdk.Devices.EMiscFlag.AmazonDiscoveryEnabled
+  fullName: HomeSeer.PluginSdk.Devices.EMiscFlag.AmazonDiscoveryEnabled
+  nameWithType: EMiscFlag.AmazonDiscoveryEnabled
 - uid: HomeSeer.PluginSdk.Devices.EMiscFlag.AutoVoiceCommand
   name: AutoVoiceCommand
   href: api/HomeSeer.PluginSdk.Devices.EMiscFlag.html#HomeSeer_PluginSdk_Devices_EMiscFlag_AutoVoiceCommand
@@ -6617,6 +6623,12 @@ references:
   commentId: F:HomeSeer.PluginSdk.Devices.EMiscFlag.DeviceNoStatus
   fullName: HomeSeer.PluginSdk.Devices.EMiscFlag.DeviceNoStatus
   nameWithType: EMiscFlag.DeviceNoStatus
+- uid: HomeSeer.PluginSdk.Devices.EMiscFlag.GoogleDiscoveryEnabled
+  name: GoogleDiscoveryEnabled
+  href: api/HomeSeer.PluginSdk.Devices.EMiscFlag.html#HomeSeer_PluginSdk_Devices_EMiscFlag_GoogleDiscoveryEnabled
+  commentId: F:HomeSeer.PluginSdk.Devices.EMiscFlag.GoogleDiscoveryEnabled
+  fullName: HomeSeer.PluginSdk.Devices.EMiscFlag.GoogleDiscoveryEnabled
+  nameWithType: EMiscFlag.GoogleDiscoveryEnabled
 - uid: HomeSeer.PluginSdk.Devices.EMiscFlag.Hidden
   name: Hidden
   href: api/HomeSeer.PluginSdk.Devices.EMiscFlag.html#HomeSeer_PluginSdk_Devices_EMiscFlag_Hidden
@@ -6641,18 +6653,6 @@ references:
   commentId: F:HomeSeer.PluginSdk.Devices.EMiscFlag.IsLight
   fullName: HomeSeer.PluginSdk.Devices.EMiscFlag.IsLight
   nameWithType: EMiscFlag.IsLight
-- uid: HomeSeer.PluginSdk.Devices.EMiscFlag.MiscUnused09
-  name: MiscUnused09
-  href: api/HomeSeer.PluginSdk.Devices.EMiscFlag.html#HomeSeer_PluginSdk_Devices_EMiscFlag_MiscUnused09
-  commentId: F:HomeSeer.PluginSdk.Devices.EMiscFlag.MiscUnused09
-  fullName: HomeSeer.PluginSdk.Devices.EMiscFlag.MiscUnused09
-  nameWithType: EMiscFlag.MiscUnused09
-- uid: HomeSeer.PluginSdk.Devices.EMiscFlag.MiscUnused10
-  name: MiscUnused10
-  href: api/HomeSeer.PluginSdk.Devices.EMiscFlag.html#HomeSeer_PluginSdk_Devices_EMiscFlag_MiscUnused10
-  commentId: F:HomeSeer.PluginSdk.Devices.EMiscFlag.MiscUnused10
-  fullName: HomeSeer.PluginSdk.Devices.EMiscFlag.MiscUnused10
-  nameWithType: EMiscFlag.MiscUnused10
 - uid: HomeSeer.PluginSdk.Devices.EMiscFlag.MiscUnused11
   name: MiscUnused11
   href: api/HomeSeer.PluginSdk.Devices.EMiscFlag.html#HomeSeer_PluginSdk_Devices_EMiscFlag_MiscUnused11
@@ -10483,6 +10483,12 @@ references:
   commentId: T:HomeSeer.PluginSdk.Events.EEventFlag
   fullName: HomeSeer.PluginSdk.Events.EEventFlag
   nameWithType: EEventFlag
+- uid: HomeSeer.PluginSdk.Events.EEventFlag.AmazonDiscoveryEnabled
+  name: AmazonDiscoveryEnabled
+  href: api/HomeSeer.PluginSdk.Events.EEventFlag.html#HomeSeer_PluginSdk_Events_EEventFlag_AmazonDiscoveryEnabled
+  commentId: F:HomeSeer.PluginSdk.Events.EEventFlag.AmazonDiscoveryEnabled
+  fullName: HomeSeer.PluginSdk.Events.EEventFlag.AmazonDiscoveryEnabled
+  nameWithType: EEventFlag.AmazonDiscoveryEnabled
 - uid: HomeSeer.PluginSdk.Events.EEventFlag.Delayed
   name: Delayed
   href: api/HomeSeer.PluginSdk.Events.EEventFlag.html#HomeSeer_PluginSdk_Events_EEventFlag_Delayed
@@ -10507,6 +10513,12 @@ references:
   commentId: F:HomeSeer.PluginSdk.Events.EEventFlag.Enabled
   fullName: HomeSeer.PluginSdk.Events.EEventFlag.Enabled
   nameWithType: EEventFlag.Enabled
+- uid: HomeSeer.PluginSdk.Events.EEventFlag.GoogleDiscoveryEnabled
+  name: GoogleDiscoveryEnabled
+  href: api/HomeSeer.PluginSdk.Events.EEventFlag.html#HomeSeer_PluginSdk_Events_EEventFlag_GoogleDiscoveryEnabled
+  commentId: F:HomeSeer.PluginSdk.Events.EEventFlag.GoogleDiscoveryEnabled
+  fullName: HomeSeer.PluginSdk.Events.EEventFlag.GoogleDiscoveryEnabled
+  nameWithType: EEventFlag.GoogleDiscoveryEnabled
 - uid: HomeSeer.PluginSdk.Events.EEventFlag.IncludeInPowerfail
   name: IncludeInPowerfail
   href: api/HomeSeer.PluginSdk.Events.EEventFlag.html#HomeSeer_PluginSdk_Events_EEventFlag_IncludeInPowerfail

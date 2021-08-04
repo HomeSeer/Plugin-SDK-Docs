@@ -81,37 +81,37 @@
         <article class="content wrap" id="_content" data-uid="">
 <h1 id="plugin-sdk-v1300-release-notes">Plugin SDK v1.3.0.0 Release Notes</h1>
 
-<p>This release focuses on changes to <a href="xref:HomeSeer.Jui*"><code>JUI</code></a> and <a href="xref:HomeSeer.PluginSdk.Devices*"><code>Devices</code></a> as
-well as making sure all members of the <a href="xref:HomeSeer.PluginSdk.Devices*"><code>Devices</code></a> namespace have documentation now.
+<p>This release focuses on changes to <code>JUI</code> and <a class="xref" href="../api/HomeSeer.PluginSdk.Devices.html"><code>Devices</code></a> as
+well as making sure all members of the <a class="xref" href="../api/HomeSeer.PluginSdk.Devices.html"><code>Devices</code></a> namespace have documentation now.
 A new project <a href="https://github.com/HomeSeer/Plugin-SDK/tree/master/PluginSdkTests">PluginSdkTests</a> has been included to hold
 unit tests as they are added. This release also includes preview changes for HS4.2.</p>
 <ul>
-<li>Add new <a href="xref:HomeSeer.Jui*"><code>JUI</code></a> views
+<li>Add new <a class="xref" href="../api/HomeSeer.Jui.Views.html"><code>HomeSeer.Jui.Views</code></a>
 <ul>
-<li>Add <a href="xref:HomeSeer.Jui.Views.TimeSpanView*"><code>TimeSpanView</code></a> (PSDK-1)
+<li>Add <a class="xref" href="../api/HomeSeer.Jui.Views.TimeSpanView.html"><code>TimeSpanView</code></a> (PSDK-1)
 <a href="https://github.com/HomeSeer/Plugin-SDK/issues/147">(GitHub Issue 147)</a> <a href="https://github.com/HomeSeer/Plugin-SDK/issues/72">(GitHub Issue 72)</a></li>
-<li>Add <a href="xref:HomeSeer.Jui.Views.GridView*"><code>GridView</code></a> (PSDK-57)</li>
-<li>Add <a href="xref:HomeSeer.Jui.Views.TextAreaView*"><code>TextAreaView</code></a> (PSDK-151) <a href="https://github.com/HomeSeer/Plugin-SDK/issues/197">(GitHub Issue 197)</a></li>
+<li>Add <a class="xref" href="../api/HomeSeer.Jui.Views.GridView.html"><code>GridView</code></a> (PSDK-57)</li>
+<li>Add <a class="xref" href="../api/HomeSeer.Jui.Views.TextAreaView.html"><code>TextAreaView</code></a> (PSDK-151) <a href="https://github.com/HomeSeer/Plugin-SDK/issues/197">(GitHub Issue 197)</a></li>
 </ul>
 </li>
 <li>Add <a class="xref" href="../api/HomeSeer.PluginSdk.IHsController.html#HomeSeer_PluginSdk_IHsController_SendControlForFeatureByString_"><code>IHsController.SendControlForFeatureByString()</code></a> (PSDK-91)</li>
 <li>Add <a class="xref" href="../api/HomeSeer.PluginSdk.IPlugin.html#HomeSeer_PluginSdk_IPlugin_SupportsConfigFeature_"><code>IPlugin.SupportsConfigFeature</code></a> property to allow plugins to display a config page unique to a feature instead
 of always going to the owning device's config page (PSDK-152) <a href="https://github.com/HomeSeer/Plugin-SDK/issues/86">(GitHub Issue 86)</a></li>
-<li>Add methods to <a href="xref:HomeSeer.PluginSdk.Devices.DeviceFactory*"><code>DeviceFactory</code></a> and <a href="xref:HomeSeer.PluginSdk.Devices.FeatureFactory*"><code>FeatureFactory</code></a>
+<li>Add methods to <a class="xref" href="../api/HomeSeer.PluginSdk.Devices.DeviceFactory.html"><code>DeviceFactory</code></a> and <a class="xref" href="../api/HomeSeer.PluginSdk.Devices.FeatureFactory.html"><code>FeatureFactory</code></a>
 <ul>
 <li>Add <a class="xref" href="../api/HomeSeer.PluginSdk.Devices.DeviceFactory.html#HomeSeer_PluginSdk_Devices_DeviceFactory_WithAddress_"><code>DeviceFactory.WithAddress()</code></a> (PSDK-156)</li>
 <li>Add <a class="xref" href="../api/HomeSeer.PluginSdk.Devices.DeviceFactory.html#HomeSeer_PluginSdk_Devices_DeviceFactory_WithoutMiscFlags_"><code>DeviceFactory.WithoutMiscFlags()</code></a> (PSDK-157)</li>
-<li>Add <a href="xref:HomeSeer.PluginSdk.Devices.FeatureFactory.AddGraphic(HomeSeer.PluginSdk.Devices.StatusGraphic)*"><code>FeatureFactory.AddGraphic(StatusGraphic)</code></a> (PSDK-164)</li>
+<li>Add <a class="xref" href="../api/HomeSeer.PluginSdk.Devices.FeatureFactory.html#HomeSeer_PluginSdk_Devices_FeatureFactory_AddGraphic_HomeSeer_PluginSdk_Devices_StatusGraphic_"><code>FeatureFactory.AddGraphic(StatusGraphic)</code></a> (PSDK-164)</li>
 </ul>
 </li>
-<li>Move <a href="xref:HomeSeer.PluginSdk.Devices.EEnergyFeatureSubType*"><code>Devices.EEnergyFeatureSubType</code></a> to
-<a href="xref:HomeSeer.PluginSdk.Devices.Identification.EEnergyFeatureSubType*"><code>Devices.Identification.EEnergyFeatureSubType</code></a>. Active references
-to <a href="xref:HomeSeer.PluginSdk.Devices.EEnergyFeatureSubType*"><code>Devices.EEnergyFeatureSubType</code></a> in compiled code have been
+<li>Move <a class="xref" href="../api/HomeSeer.PluginSdk.Devices.EEnergyFeatureSubType.html"><code>Devices.EEnergyFeatureSubType</code></a> to
+<a class="xref" href="../api/HomeSeer.PluginSdk.Devices.Identification.EEnergyFeatureSubType.html"><code>Devices.Identification.EEnergyFeatureSubType</code></a>. Active references
+to <a class="xref" href="../api/HomeSeer.PluginSdk.Devices.EEnergyFeatureSubType.html"><code>Devices.EEnergyFeatureSubType</code></a> in compiled code have been
 tested and will work without any problems (PSDK-163)</li>
 <li>Fix some bugs
 <ul>
 <li>Fix issue preventing values for InputViews from being retrieved from INI (PSDK-155)</li>
-<li>Add exception to <a href="xref:HomeSeer.PluginSdk.Devices.ValueRange*"><code>ValueRange</code></a> constructor when min is greater than
+<li>Add exception to <a class="xref" href="../api/HomeSeer.PluginSdk.Devices.ValueRange.html"><code>ValueRange</code></a> constructor when min is greater than
 max to avoid creating a bad object (PSDK-170)</li>
 <li>Change precision of floating point number comparisons from 1E-20 to 1E-15 because Doubles lose precision at 1E-16 (PSDK-171)
 <a href="https://github.com/HomeSeer/Plugin-SDK/issues/198">(GitHub Issue 198)</a></li>
@@ -120,25 +120,25 @@ max to avoid creating a bad object (PSDK-170)</li>
 </li>
 <li>Update documentation (PSDK-158)
 <ul>
-<li>All <a href="xref:HomeSeer.PluginSdk.Devices*"><code>Devices</code></a> namespace members have documentation</li>
-<li>Applied warnings to the use of <a href="xref:HomeSeer.PluginSdk.Devices.Controls.EControlType.StatusOnly*"><code>EControlType.StatusOnly</code></a>
-and <a href="xref:HomeSeer.PluginSdk.Devices.Controls.EControlType.ButtonScript*"><code>EControlType.ButtonScript</code></a> to properly indicate
+<li>All <a class="xref" href="../api/HomeSeer.PluginSdk.Devices.html"><code>Devices</code></a> namespace members have documentation</li>
+<li>Applied warnings to the use of <a class="xref" href="../api/HomeSeer.PluginSdk.Devices.Controls.EControlType.html#HomeSeer_PluginSdk_Devices_Controls_EControlType_StatusOnly"><code>EControlType.StatusOnly</code></a>
+and <a class="xref" href="../api/HomeSeer.PluginSdk.Devices.Controls.EControlType.html#HomeSeer_PluginSdk_Devices_Controls_EControlType_ButtonScript"><code>EControlType.ButtonScript</code></a> to properly indicate
 that they are read only at this time.</li>
-<li>Applied a warning to the use of <a href="xref:HomeSeer.PluginSdk.Devices.Controls.EControlType.Values*"><code>EControlType.Values</code></a>
+<li>Applied a warning to the use of <a class="xref" href="../api/HomeSeer.PluginSdk.Devices.Controls.EControlType.html#HomeSeer_PluginSdk_Devices_Controls_EControlType_Values"><code>EControlType.Values</code></a>
 to indicate that its exact use is being worked on and to expect changes in future releases</li>
-<li>Applied a warning to the use of <a href="xref:HomeSeer.PluginSdk.Devices.Controls.EControlType.ValueRangeDropDown*"><code>EControlType.ValueRangeDropDown</code></a>
+<li>Applied a warning to the use of <a class="xref" href="../api/HomeSeer.PluginSdk.Devices.Controls.EControlType.html#HomeSeer_PluginSdk_Devices_Controls_EControlType_ValueRangeDropDown"><code>EControlType.ValueRangeDropDown</code></a>
 to indicate that it is currently inoperable</li>
-<li>All device related methods in <a href="xref:HomeSeer.PluginSdk.IHsController*"><code>IHsController</code></a> have documentation</li>
+<li>All device related methods in <a class="xref" href="../api/HomeSeer.PluginSdk.IHsController.html"><code>IHsController</code></a> have documentation</li>
 </ul>
 </li>
 <li>Add HS4.2 preview code providing more granular control of the display of features on a device (PSDK-118) <a href="https://github.com/HomeSeer/Plugin-SDK/issues/153">(GitHub Issue 153)</a>
 <ul>
-<li>Add <a href="xref:HomeSeer.PluginSdk.Devices.EFeatureDisplayType*"><code>EFeatureDisplayType</code></a></li>
+<li>Add <a class="xref" href="../api/HomeSeer.PluginSdk.Devices.EFeatureDisplayType.html"><code>EFeatureDisplayType</code></a></li>
 <li>Add <a class="xref" href="../api/HomeSeer.PluginSdk.Devices.HsDevice.html#HomeSeer_PluginSdk_Devices_HsDevice_FeatureDisplayPriority_"><code>HsDevice.FeatureDisplayPriority</code></a></li>
 <li>Add <a class="xref" href="../api/HomeSeer.PluginSdk.Devices.HsDevice.html#HomeSeer_PluginSdk_Devices_HsDevice_GetFeaturesInDisplayOrder_"><code>HsDevice.GetFeaturesInDisplayOrder()</code></a></li>
 <li>Add <a class="xref" href="../api/HomeSeer.PluginSdk.Devices.HsFeature.html#HomeSeer_PluginSdk_Devices_HsFeature_DisplayPriority_"><code>HsFeature.DisplayPriority</code></a></li>
 <li>Add <a class="xref" href="../api/HomeSeer.PluginSdk.Devices.HsFeature.html#HomeSeer_PluginSdk_Devices_HsFeature_DisplayType_"><code>HsFeature.DisplayType</code></a></li>
-<li>Add <a href="xref:HomeSeer.PluginSdk.Devices.EProperty.FeatureDisplayPriority*"><code>EProperty.FeatureDisplayPriority</code></a> and <a href="xref:HomeSeer.PluginSdk.Devices.EProperty.FeatureDisplayType*"><code>EProperty.FeatureDisplayType</code></a></li>
+<li>Add <a class="xref" href="../api/HomeSeer.PluginSdk.Devices.EProperty.html#HomeSeer_PluginSdk_Devices_EProperty_FeatureDisplayPriority"><code>EProperty.FeatureDisplayPriority</code></a> and <a class="xref" href="../api/HomeSeer.PluginSdk.Devices.EProperty.html#HomeSeer_PluginSdk_Devices_EProperty_FeatureDisplayType"><code>EProperty.FeatureDisplayType</code></a></li>
 <li>Add <a class="xref" href="../api/HomeSeer.PluginSdk.Devices.FeatureFactory.html#HomeSeer_PluginSdk_Devices_FeatureFactory_WithDisplayType_"><code>FeatureFactory.WithDisplayType()</code></a></li>
 </ul>
 </li>

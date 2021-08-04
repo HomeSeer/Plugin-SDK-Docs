@@ -1,6 +1,6 @@
 {
   "homepages": [],
-  "source_base_path": "C:/Users/jonluke/dev/PluginSDK Scripts/nuget/docs/docfx_project",
+  "source_base_path": "C:/Users/jonluke/dev/PluginSDK Scripts/docs/docfx_project",
   "xrefmap": "xrefmap.yml",
   "files": [
     {
@@ -11,6 +11,18 @@
         }
       },
       "is_incremental": false
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "README.md",
+      "output": {
+        ".html": {
+          "relative_path": "README.html",
+          "hash": "2wzAdlWpylCqwY9DQ3nZKlkeJLrErLC1w1/9KdanFLs="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
     },
     {
       "type": "ManagedReference",
@@ -786,7 +798,7 @@
       "output": {
         ".html": {
           "relative_path": "api/HomeSeer.PluginSdk.Devices.EMiscFlag.html",
-          "hash": "X8viztwyN6XY1d2KfaCPJP2Utr5Aq+/SURvpv3TllDk="
+          "hash": "9vIYgEpv8Ipqw6AuymYH+qRkIDqkWe44Q1oIgnsGPtg="
         }
       },
       "is_incremental": false,
@@ -1242,7 +1254,7 @@
       "output": {
         ".html": {
           "relative_path": "api/HomeSeer.PluginSdk.Events.EEventFlag.html",
-          "hash": "uBjOBHjlyjKGyawmhPLfwULPsMMM0oSzxlW6oY8759M="
+          "hash": "CazbQtrzDftlkD+BlnXzxPKUnqU3rZfK0HfQYeF+v4o="
         }
       },
       "is_incremental": false,
@@ -1602,7 +1614,7 @@
       "output": {
         ".html": {
           "relative_path": "api/HomeSeer.PluginSdk.IHsController.html",
-          "hash": "xgnuF/cCVbOw16WUic2HRmkmiZyPsc7afjIykNBGy+o="
+          "hash": "h1eyWoyR2jegiUNrb9viY/4TRaioTYD7bx6BWpc4hDU="
         }
       },
       "is_incremental": false,
@@ -2009,7 +2021,7 @@
       "output": {
         ".html": {
           "relative_path": "release_notes/pluginsdk_releasenotes_1_1_0_0.html",
-          "hash": "s5sMC1GEZ3t22VTZWyuYKaNxGwasmE3IIuMttg9KXqE="
+          "hash": "32QQa/JfaAudak2eS/n+AKjtbVjMJ8VMXVAVDk5Oj9c="
         }
       },
       "is_incremental": false,
@@ -2048,7 +2060,7 @@
       "output": {
         ".html": {
           "relative_path": "release_notes/pluginsdk_releasenotes_1_2_2_0.html",
-          "hash": "JEYQOESlzFsXwWFmaa1HGj1wG7sgOOsdhDPHXIAQp4g="
+          "hash": "8B90TaZbZOhoA8e+6qYDMoGEHo2G6L5QCf+FJTQdquI="
         }
       },
       "is_incremental": false,
@@ -2091,15 +2103,24 @@
       "version": ""
     },
     {
-      "log_codes": [
-        "UidNotFound"
-      ],
       "type": "Conceptual",
       "source_relative_path": "release_notes/pluginsdk_releasenotes_1_3_0_0.md",
       "output": {
         ".html": {
           "relative_path": "release_notes/pluginsdk_releasenotes_1_3_0_0.html",
-          "hash": "QB5daxOsB9lEPF9mEMl3aPU/EUv0MUSiB7pvxpRI0sQ="
+          "hash": "qIJ4fcmgjDynTks38+YBUbMckC0pkCfVRYSxpKlCgdY="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "release_notes/pluginsdk_releasenotes_1_3_1_0.md",
+      "output": {
+        ".html": {
+          "relative_path": "release_notes/pluginsdk_releasenotes_1_3_1_0.html",
+          "hash": "AEAaAebZs0O2wsTBjHty44NeQd6cKdKnk5C0wMZ7dS8="
         }
       },
       "is_incremental": false,
@@ -2111,7 +2132,7 @@
       "output": {
         ".html": {
           "relative_path": "release_notes/toc.html",
-          "hash": "kb1mvO9MnTvfIwMWfbjmADdMTRy79l77/EwsMjxaYD4="
+          "hash": "ooZiZKi9strKgxSqbvQzjbkw+FbxO/h7hao1vKwc/OA="
         }
       },
       "is_incremental": false,
@@ -2142,8 +2163,8 @@
         "ConceptualDocumentProcessor": {
           "can_incremental": true,
           "incrementalPhase": "build",
-          "total_file_count": 16,
-          "skipped_file_count": 16
+          "total_file_count": 18,
+          "skipped_file_count": 18
         },
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": true,

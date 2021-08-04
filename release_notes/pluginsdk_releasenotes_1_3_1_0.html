@@ -5,11 +5,9 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Enum EEventFlag
-   | HomeSeer PluginSdk Docs </title>
+    <title>Plugin SDK v1.3.1.0 Release Notes | HomeSeer PluginSdk Docs </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Enum EEventFlag
-   | HomeSeer PluginSdk Docs ">
+    <meta name="title" content="Plugin SDK v1.3.1.0 Release Notes | HomeSeer PluginSdk Docs ">
     <meta name="generator" content="docfx 2.58.0.0">
     
     <link rel="shortcut icon" href="../images/favicon.ico">
@@ -80,93 +78,27 @@
         <div class="article row grid-right">
       <div class="col-md-1"></div>
       <div class="col-md-8 card">
-        <article class="content wrap" id="_content" data-uid="HomeSeer.PluginSdk.Events.EEventFlag">
-  
-  
-  <h1 id="HomeSeer_PluginSdk_Events_EEventFlag" data-uid="HomeSeer.PluginSdk.Events.EEventFlag" class="text-break">Enum EEventFlag
-  </h1>
-  <div class="tabGroup" id="tabgroup_syntax">
-      <ul role="tablist">
-          <li role="presentation">
-              <a href="#tabpanel_syntax_cs" tabindex="0" role="tab" aria-controls="tabpanel_syntax_cs" data-tab="cs" aria-selected="true">C#</a>
-          </li>
-          <li role="presentation">
-              <a href="#tabpanel_syntax_vb" tabindex="-1" role="tab" aria-controls="tabpanel_syntax_vb" data-tab="vb">Visual Basic</a>
-          </li>
-      </ul>
-      <section id="tabpanel_syntax_cs" role="tabpanel" data-tab="cs">
-          <div class="codewrapper">
-            <pre><code class="lang-System.Object[] hljs">public enum EEventFlag : uint</code></pre>
-          </div>
-      </section>
-      <section id="tabpanel_syntax_vb" role="tabpanel" data-tab="vb" aria-hidden="true" hidden="">
-          <div class="codewrapper">
-            <pre><code class="lang-System.Object[] hljs">Public Enum EEventFlag As UInteger</code></pre>
-          </div>
-      </section>
-  </div>
-  <div>
-  <h6><strong>Namespace</strong>: <a class="xref" href="HomeSeer.PluginSdk.Events.html">HomeSeer.PluginSdk.Events</a></h6>
-  <h6><strong>Assembly</strong>: PluginSdk.dll</h6>
-  </div>
-  <hr>
-  <br>
-  <div class="markdown level0 summary"><p>PLEASE NOTE: This was ported directly from the legacy HS3 API and has not been fully reviewed to ensure
-proper compatibility and support through this SDK.  This may undergo significant change in the near future.
-Please use with caution.</p>
-</div>
-  <div class="markdown level0 conceptual"></div>
-  <br>
-  <h3 id="fields">Fields
-  </h3>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    <thead>
-    <tbody>
-      <tr>
-        <td id="HomeSeer_PluginSdk_Events_EEventFlag_AmazonDiscoveryEnabled">AmazonDiscoveryEnabled</td>
-        <td><p>Expose this event to Amazon cloud services.</p>
-</td>
-      </tr>
-      <tr>
-        <td id="HomeSeer_PluginSdk_Events_EEventFlag_Delayed">Delayed</td>
-        <td></td>
-      </tr>
-      <tr>
-        <td id="HomeSeer_PluginSdk_Events_EEventFlag_DeleteAfterTrigger">DeleteAfterTrigger</td>
-        <td></td>
-      </tr>
-      <tr>
-        <td id="HomeSeer_PluginSdk_Events_EEventFlag_DoNotLog">DoNotLog</td>
-        <td></td>
-      </tr>
-      <tr>
-        <td id="HomeSeer_PluginSdk_Events_EEventFlag_Enabled">Enabled</td>
-        <td></td>
-      </tr>
-      <tr>
-        <td id="HomeSeer_PluginSdk_Events_EEventFlag_GoogleDiscoveryEnabled">GoogleDiscoveryEnabled</td>
-        <td><p>Expose this event to Google cloud services</p>
-</td>
-      </tr>
-      <tr>
-        <td id="HomeSeer_PluginSdk_Events_EEventFlag_IncludeInPowerfail">IncludeInPowerfail</td>
-        <td></td>
-      </tr>
-      <tr>
-        <td id="HomeSeer_PluginSdk_Events_EEventFlag_Priority">Priority</td>
-        <td></td>
-      </tr>
-      <tr>
-        <td id="HomeSeer_PluginSdk_Events_EEventFlag_Security">Security</td>
-        <td></td>
-      </tr>
-    </tbody>
-  </thead></thead></table>
+        <article class="content wrap" id="_content" data-uid="">
+<h1 id="plugin-sdk-v1310-release-notes">Plugin SDK v1.3.1.0 Release Notes</h1>
+
+<p>This release focuses on changes to ensure that HS Platform v4.2 is ready for release.</p>
+<ul>
+<li>Add internal method <code>HsFeature.SetDisplayPriority()</code> so that the HS Platform can properly
+populate the DisplayPriority field when delivering device/feature data to a plugin. (PSDK-193)</li>
+<li>Add new flags to devices and events to allow controlling access to Amazon and Google individually. This is, by default, off.
+It is recommended to keep this an &quot;opt in&quot; process - meaning ask users before enabling access - to make sure users have a say in how their devices
+and events are exposed to these systems. (PSDK-204)
+<ul>
+<li>Add <a class="xref" href="../api/HomeSeer.PluginSdk.Devices.EMiscFlag.html#HomeSeer_PluginSdk_Devices_EMiscFlag_GoogleDiscoveryEnabled"><code>EMiscFlag.GoogleDiscoveryEnabled</code></a></li>
+<li>Add <a class="xref" href="../api/HomeSeer.PluginSdk.Devices.EMiscFlag.html#HomeSeer_PluginSdk_Devices_EMiscFlag_AmazonDiscoveryEnabled"><code>EMiscFlag.AmazonDiscoveryEnabled</code></a></li>
+<li>Add <a class="xref" href="../api/HomeSeer.PluginSdk.Events.EEventFlag.html#HomeSeer_PluginSdk_Events_EEventFlag_GoogleDiscoveryEnabled"><code>EEventFlag.GoogleDiscoveryEnabled</code></a></li>
+<li>Add <a class="xref" href="../api/HomeSeer.PluginSdk.Events.EEventFlag.html#HomeSeer_PluginSdk_Events_EEventFlag_AmazonDiscoveryEnabled"><code>EEventFlag.AmazonDiscoveryEnabled</code></a></li>
+</ul>
+</li>
+<li>Fix <a class="xref" href="../api/HomeSeer.PluginSdk.Devices.ValueRange.html#HomeSeer_PluginSdk_Devices_ValueRange_IsValueInRange_"><code>ValueRange.IsValueInRange()</code></a> so that it properly reports on values at both upper and lower ranges. (PSDK-196)</li>
+<li>Fix an issue with <a class="xref" href="../api/HomeSeer.PluginSdk.Devices.AbstractHsDevice.html#HomeSeer_PluginSdk_Devices_AbstractHsDevice_Changes_"><code>AbstractHsDevice.Changes</code></a> removing duplicate values unexpectedly. (PSDK-159)</li>
+<li>Update build configurations to better support automated testing. Renamed Release and Debug configurations to HS-Release and HS-Debug, and added a new Release and Debug configuration.</li>
+</ul>
 </article>
       </div>
         
@@ -174,9 +106,6 @@ Please use with caution.</p>
           <div class="sideaffix" id="ps-sideaffix">
             <div class="contribution">
               <ul class="nav">
-                <li>
-                  <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Events/EEventFlag.cs/#L8" class="contribution-link">View Source</a>
-                </li>
               </ul>
             </div>
             <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
