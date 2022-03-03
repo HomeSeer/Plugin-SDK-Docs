@@ -1,0 +1,286 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Enum EHsSystemEvent
+   | HomeSeer PluginSdk Docs </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Enum EHsSystemEvent
+   | HomeSeer PluginSdk Docs ">
+    <meta name="generator" content="docfx 2.49.0.0">
+    
+    <link rel="shortcut icon" href="../images/favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <link rel="stylesheet" href="../styles/perfect-scrollbar.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet"> 
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    <meta property="docfx:rel" content="../">
+    
+  </head>  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../images/HomeSeer_Full_Logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div class="container body-content">
+        
+        <div id="search-results">
+          <div class="search-list"></div>
+          <div class="sr-items">
+            <p><i class="glyphicon glyphicon-refresh index-loading"></i></p>
+          </div>
+          <ul id="pagination"></ul>
+        </div>
+      </div>
+      <div role="main" class="container-fluid body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+      <div class="col-md-1"></div>
+      <div class="col-md-8 card">
+        <article class="content wrap" id="_content" data-uid="HomeSeer.PluginSdk.Systems.EHsSystemEvent">
+  
+  
+  <h1 id="HomeSeer_PluginSdk_Systems_EHsSystemEvent" data-uid="HomeSeer.PluginSdk.Systems.EHsSystemEvent" class="text-break">Enum EHsSystemEvent
+  </h1>
+  <div class="tabGroup" id="tabgroup_syntax">
+      <ul role="tablist">
+          <li role="presentation">
+              <a href="#tabpanel_syntax_cs" tabindex="0" role="tab" aria-controls="tabpanel_syntax_cs" data-tab="cs" aria-selected="true">C#</a>
+          </li>
+          <li role="presentation">
+              <a href="#tabpanel_syntax_vb" tabindex="-1" role="tab" aria-controls="tabpanel_syntax_vb" data-tab="vb">Visual Basic</a>
+          </li>
+      </ul>
+      <section id="tabpanel_syntax_cs" role="tabpanel" data-tab="cs">
+          <div class="codewrapper">
+            <pre><code class="lang-System.Object[] hljs">public enum EHsSystemEvent</code></pre>
+          </div>
+      </section>
+      <section id="tabpanel_syntax_vb" role="tabpanel" data-tab="vb" aria-hidden="true" hidden="">
+          <div class="codewrapper">
+            <pre><code class="lang-System.Object[] hljs">Public Enum EHsSystemEvent</code></pre>
+          </div>
+      </section>
+  </div>
+  <div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="HomeSeer.PluginSdk.Systems.html">HomeSeer.PluginSdk.Systems</a></h6>
+  <h6><strong>Assembly</strong>: PluginSdk.dll</h6>
+  </div>
+  <hr>
+  <br>
+  <div class="markdown level0 summary"><p>Types of system events.</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <br>
+  <h5 id="HomeSeer_PluginSdk_Systems_EHsSystemEvent_remarks"><strong>Remarks</strong></h5>
+  <div class="markdown level0 remarks"><p>
+System events represent changes in the system that plugins can react to.
+ They are not the same thing as Events configured by users.
+</p>
+<p>
+This replaces <a class="xref" href="HomeSeer.PluginSdk.Constants.HSEvent.html">Constants.HSEvent</a>
+</p>
+</div>
+  <h3 id="fields">Fields
+  </h3>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    <thead>
+    <tbody>
+      <tr>
+        <td id="HomeSeer_PluginSdk_Systems_EHsSystemEvent_Audio">Audio</td>
+        <td><p>When audio is started or stopped, this event is fired.
+This includes playing an audio file or speaking TTS
+Parameters are:</p>
+<table><thead><tr><th>Parameter index</th><th>Content</th></tr></thead><tbody><tr><td>0</td><td>The event type as an <span class="xref">System.Int32</span> with a value of <a class="xref" href="HomeSeer.PluginSdk.Systems.EHsSystemEvent.html#HomeSeer_PluginSdk_Systems_EHsSystemEvent_Audio">Audio</a></td></tr><tr><td>1</td><td>
+            A <span class="xref">System.Boolean</span> representing whether audio has started or stopped.
+<span class="xref">langword_csharp_True</span> means audio has started, and <span class="xref">false</span> means audio has stopped.
+</td></tr><tr><td>2</td><td>The audio device number as an <span class="xref">System.Int32</span> or 0 if not using Windows PC audio.</td></tr><tr><td>3</td><td>The speaker host name as a <span class="xref">System.String</span> if audio is being sent to a client.</td></tr><tr><td>4</td><td>The speaker host instance as a <span class="xref">System.String</span> if audio is being sent to a client.</td></tr></tbody></table>
+</td>
+      </tr>
+      <tr>
+        <td id="HomeSeer_PluginSdk_Systems_EHsSystemEvent_CallerId">CallerId</td>
+        <td><p>Deprecated, no longer supported</p>
+</td>
+      </tr>
+      <tr>
+        <td id="HomeSeer_PluginSdk_Systems_EHsSystemEvent_ConfigChange">ConfigChange</td>
+        <td><p>When a change is made to the configuration of the system, such as Setup, this event is fired.
+Parameters are:</p>
+<table><thead><tr><th>Parameter index</th><th>Content</th></tr></thead><tbody><tr><td>0</td><td>The event type as an <span class="xref">System.Int32</span> with a value of <a class="xref" href="HomeSeer.PluginSdk.Systems.EHsSystemEvent.html#HomeSeer_PluginSdk_Systems_EHsSystemEvent_ConfigChange">ConfigChange</a></td></tr><tr><td>1</td><td>The target of the config change event as defined by <a class="xref" href="HomeSeer.PluginSdk.Systems.EConfigChangeTarget.html">EConfigChangeTarget</a> and represented as an <span class="xref">System.Int32</span></td></tr><tr><td>2</td><td>UNUSED - always 0</td></tr><tr><td>3</td><td>Target unique reference number as an <span class="xref">System.Int32</span></td></tr><tr><td>4</td><td>The type of change happening as defined by <a class="xref" href="HomeSeer.PluginSdk.Systems.EConfigChangeAction.html">EConfigChangeAction</a> and represented by an <span class="xref">System.Int32</span></td></tr><tr><td>5</td><td>A description of what changed as a <span class="xref">System.String</span></td></tr></tbody></table>
+</td>
+      </tr>
+      <tr>
+        <td id="HomeSeer_PluginSdk_Systems_EHsSystemEvent_DeleteDevice">DeleteDevice</td>
+        <td><p>A device has been deleted</p>
+</td>
+      </tr>
+      <tr>
+        <td id="HomeSeer_PluginSdk_Systems_EHsSystemEvent_Generic">Generic</td>
+        <td><p>If a generic event is registered, this event is fired when the event is triggered.
+The event is typically triggered by a plugin. Parameter 0 is EHsSystemEvent.Generic.
+The remaining parameters are defined by the event that is registered.</p>
+</td>
+      </tr>
+      <tr>
+        <td id="HomeSeer_PluginSdk_Systems_EHsSystemEvent_Log">Log</td>
+        <td><p>When the event log is written, this event is fired.
+Parameters are:</p>
+<table><thead><tr><th>Parameter index</th><th>Content</th></tr></thead><tbody><tr><td>0</td><td>The event type as an <span class="xref">System.Int32</span> with a value of <a class="xref" href="HomeSeer.PluginSdk.Systems.EHsSystemEvent.html#HomeSeer_PluginSdk_Systems_EHsSystemEvent_Log">Log</a></td></tr><tr><td>1</td><td>The date and time of the log entry as a <span class="xref">System.String</span></td></tr><tr><td>2</td><td>The type of the log entry as a <span class="xref">System.String</span></td></tr><tr><td>3</td><td>The content of the log entry as a <span class="xref">System.String</span></td></tr><tr><td>4</td><td>The color of the log entry as a <span class="xref">System.String</span> formatted in HTML color format</td></tr><tr><td>5</td><td>DEPRECATED</td></tr><tr><td>6</td><td>The source of the log entry as a <span class="xref">System.String</span></td></tr><tr><td>7</td><td>The error code associated with the log entry as a <span class="xref">System.Int32</span></td></tr><tr><td>8</td><td>The date and time of the log entry as a <span class="xref">System.DateTime</span></td></tr></tbody></table>
+</td>
+      </tr>
+      <tr>
+        <td id="HomeSeer_PluginSdk_Systems_EHsSystemEvent_SetupChange">SetupChange</td>
+        <td><p>When an item in setup is changed, this event is fired. The parameters note the settings.ini file values that are set.
+Parameters are:</p>
+<table><thead><tr><th>Parameter index</th><th>Content</th></tr></thead><tbody><tr><td>0</td><td>The event type as an <span class="xref">System.Int32</span> with a value of <a class="xref" href="HomeSeer.PluginSdk.Systems.EHsSystemEvent.html#HomeSeer_PluginSdk_Systems_EHsSystemEvent_SetupChange">SetupChange</a></td></tr><tr><td>1</td><td>The INI section as a <span class="xref">System.String</span></td></tr><tr><td>2</td><td>The INI key as a <span class="xref">System.String</span></td></tr><tr><td>3</td><td>The new INI value as a <span class="xref">System.String</span></td></tr></tbody></table>
+P(0) = EHsSystemEvent.SetupChange
+P(1) = INI section
+P(2) = INI key
+P(3) = INI value
+</td>
+      </tr>
+      <tr>
+        <td id="HomeSeer_PluginSdk_Systems_EHsSystemEvent_SpeakerConnect">SpeakerConnect</td>
+        <td><p>When a new speaker client connects to the system, this event is fired.
+Parameters are:</p>
+<table><thead><tr><th>Parameter index</th><th>Content</th></tr></thead><tbody><tr><td>0</td><td>The event type as an <span class="xref">System.Int32</span> with a value of <a class="xref" href="HomeSeer.PluginSdk.Systems.EHsSystemEvent.html#HomeSeer_PluginSdk_Systems_EHsSystemEvent_SpeakerConnect">SpeakerConnect</a></td></tr><tr><td>1</td><td>The name of the speaker host as a <span class="xref">System.String</span></td></tr><tr><td>2</td><td>The instance of the speaker host as a <span class="xref">System.String</span></td></tr><tr><td>3</td><td>
+            An <span class="xref">System.Int32</span> representing what the speaker host is doing.
+            1 means the host is connecting.
+            2 means it is disconnecting.
+</td></tr><tr><td>4</td><td>The IP address of the speaker host as a <span class="xref">System.String</span></td></tr></tbody></table>
+</td>
+      </tr>
+      <tr>
+        <td id="HomeSeer_PluginSdk_Systems_EHsSystemEvent_StringChange">StringChange</td>
+        <td><p>When the string value of a device is changed, this event is fired.
+Parameters are:</p>
+<table><thead><tr><th>Parameter index</th><th>Content</th></tr></thead><tbody><tr><td>0</td><td>The event type as an <span class="xref">System.Int32</span> with a value of <a class="xref" href="HomeSeer.PluginSdk.Systems.EHsSystemEvent.html#HomeSeer_PluginSdk_Systems_EHsSystemEvent_StringChange">StringChange</a></td></tr><tr><td>1</td><td>The <a class="xref" href="HomeSeer.PluginSdk.Devices.AbstractHsDevice.html#HomeSeer_PluginSdk_Devices_AbstractHsDevice_Address">Address</a> of the device that has changed</td></tr><tr><td>2</td><td>The new value as a <span class="xref">System.String</span></td></tr><tr><td>3</td><td>The <a class="xref" href="HomeSeer.PluginSdk.Devices.AbstractHsDevice.html#HomeSeer_PluginSdk_Devices_AbstractHsDevice_Ref">Ref</a> of the device that has changed</td></tr></tbody></table>
+</td>
+      </tr>
+      <tr>
+        <td id="HomeSeer_PluginSdk_Systems_EHsSystemEvent_ValueChange">ValueChange</td>
+        <td><p>When the value of a device changes, this event is fired.
+Parameters are:</p>
+<table><thead><tr><th>Parameter index</th><th>Content</th></tr></thead><tbody><tr><td>0</td><td>The event type as an <span class="xref">System.Int32</span> with a value of <a class="xref" href="HomeSeer.PluginSdk.Systems.EHsSystemEvent.html#HomeSeer_PluginSdk_Systems_EHsSystemEvent_ValueChange">ValueChange</a></td></tr><tr><td>1</td><td>The <a class="xref" href="HomeSeer.PluginSdk.Devices.AbstractHsDevice.html#HomeSeer_PluginSdk_Devices_AbstractHsDevice_Address">Address</a> of the device that has changed</td></tr><tr><td>2</td><td>The new value as a <span class="xref">System.Double</span></td></tr><tr><td>3</td><td>The old value as a <span class="xref">System.Double</span></td></tr><tr><td>4</td><td>The <a class="xref" href="HomeSeer.PluginSdk.Devices.AbstractHsDevice.html#HomeSeer_PluginSdk_Devices_AbstractHsDevice_Ref">Ref</a> of the device that has changed</td></tr></tbody></table>
+</td>
+      </tr>
+      <tr>
+        <td id="HomeSeer_PluginSdk_Systems_EHsSystemEvent_ValueSet">ValueSet</td>
+        <td><p>When a device has it's value set, this event is fired.
+This will fire even if the device is being set to the same value.
+Parameters are:</p>
+<table><thead><tr><th>Parameter index</th><th>Content</th></tr></thead><tbody><tr><td>0</td><td>The event type as an <span class="xref">System.Int32</span> with a value of <a class="xref" href="HomeSeer.PluginSdk.Systems.EHsSystemEvent.html#HomeSeer_PluginSdk_Systems_EHsSystemEvent_ValueSet">ValueSet</a></td></tr><tr><td>1</td><td>The <a class="xref" href="HomeSeer.PluginSdk.Devices.AbstractHsDevice.html#HomeSeer_PluginSdk_Devices_AbstractHsDevice_Address">Address</a> of the device that has been set</td></tr><tr><td>2</td><td>The new value as a <span class="xref">System.Double</span></td></tr><tr><td>3</td><td>The old value as a <span class="xref">System.Double</span></td></tr><tr><td>4</td><td>The <a class="xref" href="HomeSeer.PluginSdk.Devices.AbstractHsDevice.html#HomeSeer_PluginSdk_Devices_AbstractHsDevice_Ref">Ref</a> of the device that has been set</td></tr></tbody></table>
+P(0) = EHsSystemEvent.ValueSet
+P(1) = HSAddress of device that changed
+P(2) = New value being set (double)
+P(3) = Previous value (double)
+P(4) = Device reference number
+</td>
+      </tr>
+      <tr>
+        <td id="HomeSeer_PluginSdk_Systems_EHsSystemEvent_ValueStringChangeRunScript">ValueStringChangeRunScript</td>
+        <td><p>If a script includes a callback script, this event is fired before the script is run.
+Note that this event does not include event ID in P(0).
+Parameters are:</p>
+<table><thead><tr><th>Parameter index</th><th>Content</th></tr></thead><tbody><tr><td>0</td><td>The <a class="xref" href="HomeSeer.PluginSdk.Devices.AbstractHsDevice.html#HomeSeer_PluginSdk_Devices_AbstractHsDevice_Code">Code</a> of the device that has been changed</td></tr><tr><td>1</td><td>The <a class="xref" href="HomeSeer.PluginSdk.Devices.AbstractHsDevice.html#HomeSeer_PluginSdk_Devices_AbstractHsDevice_Address">Address</a> of the device that has been changed</td></tr><tr><td>2</td><td>The new value as a <span class="xref">System.Double</span></td></tr><tr><td>3</td><td>The old value as a <span class="xref">System.Double</span></td></tr><tr><td>4</td><td>The <a class="xref" href="HomeSeer.PluginSdk.Devices.AbstractHsDevice.html#HomeSeer_PluginSdk_Devices_AbstractHsDevice_Ref">Ref</a> of the device that has been changed</td></tr></tbody></table>
+P(0) = Device HSCode
+P(1) = Device HSAddress
+P(2) = New device value being set (double)
+P(3) = Previous device value (double)
+P(4) = Device reference number
+</td>
+      </tr>
+      <tr>
+        <td id="HomeSeer_PluginSdk_Systems_EHsSystemEvent_VoiceRec">VoiceRec</td>
+        <td><p>Deprecated, no longer supported</p>
+</td>
+      </tr>
+    </tbody>
+  </thead></thead></table>
+</article>
+      </div>
+        
+        <div class="hidden-sm col-md-2" role="complementary">
+          <div class="sideaffix" id="ps-sideaffix">
+            <div class="contribution">
+              <ul class="nav">
+                <li>
+                  <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Systems/EHsSystemEvent.cs/#L18" class="contribution-link">View Source</a>
+                </li>
+              </ul>
+            </div>
+            <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <h5></h5>
+              <div></div>
+            </nav>
+          </div>
+        </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            HomeSeer Technologies
+            
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>  </body>
+</html>

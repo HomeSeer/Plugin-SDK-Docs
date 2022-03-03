@@ -10,7 +10,7 @@
     <meta name="viewport" content="width=device-width">
     <meta name="title" content="Class ViewGroup
    | HomeSeer PluginSdk Docs ">
-    <meta name="generator" content="docfx 2.58.0.0">
+    <meta name="generator" content="docfx 2.49.0.0">
     
     <link rel="shortcut icon" href="../images/favicon.ico">
     <link rel="stylesheet" href="../styles/docfx.vendor.css">
@@ -62,11 +62,11 @@
       <div class="container body-content">
         
         <div id="search-results">
-          <div class="search-list">Search Results for <span></span></div>
+          <div class="search-list"></div>
           <div class="sr-items">
             <p><i class="glyphicon glyphicon-refresh index-loading"></i></p>
           </div>
-          <ul id="pagination" data-first="First" data-prev="Previous" data-next="Next" data-last="Last"></ul>
+          <ul id="pagination"></ul>
         </div>
       </div>
       <div role="main" class="container-fluid body-content hide-when-search">
@@ -123,6 +123,12 @@
     </div>
     <div>
       <a class="xref" href="HomeSeer.Jui.Views.AbstractView.html#HomeSeer_Jui_Views_AbstractView_Type">AbstractView.Type</a>
+    </div>
+    <div>
+      <a class="xref" href="HomeSeer.Jui.Views.AbstractView.html#HomeSeer_Jui_Views_AbstractView_HtmlIndent">AbstractView.HtmlIndent</a>
+    </div>
+    <div>
+      <a class="xref" href="HomeSeer.Jui.Views.AbstractView.html#HomeSeer_Jui_Views_AbstractView_NonAllowedCharactersForId">AbstractView.NonAllowedCharactersForId</a>
     </div>
     <div>
       <a class="xref" href="HomeSeer.Jui.Views.AbstractView.html#HomeSeer_Jui_Views_AbstractView_UpdateValue_System_String_">AbstractView.UpdateValue(String)</a>
@@ -298,6 +304,96 @@
         <td><span class="xref">System.ArgumentNullException</span></td>
         <td><p>Thrown if a view is created with an invalid ID</p>
 </td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="fields">Fields
+  </h3>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Jui/Views/ViewGroup.cs/#L49">View Source</a>
+  </span>
+  <h4 id="HomeSeer_Jui_Views_ViewGroup__viewIds" data-uid="HomeSeer.Jui.Views.ViewGroup._viewIds">_viewIds</h4>
+  <div class="markdown level1 summary"><p>A set of IDs for the views in this group.  This is used to ensure that there are no duplicate IDs used.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="tabGroup" id="tabgroup_syntax">
+      <ul role="tablist">
+          <li role="presentation">
+              <a href="#tabpanel_syntax_cs" tabindex="0" role="tab" aria-controls="tabpanel_syntax_cs" data-tab="cs" aria-selected="true">C#</a>
+          </li>
+          <li role="presentation">
+              <a href="#tabpanel_syntax_vb" tabindex="-1" role="tab" aria-controls="tabpanel_syntax_vb" data-tab="vb">Visual Basic</a>
+          </li>
+      </ul>
+      <section id="tabpanel_syntax_cs" role="tabpanel" data-tab="cs">
+          <div class="codewrapper">
+            <pre><code class="lang-csharp hljs">Dictionary&lt;string, int&gt; _viewIds</code></pre>
+          </div>
+      </section>
+      <section id="tabpanel_syntax_vb" role="tabpanel" data-tab="vb" aria-hidden="true" hidden="">
+          <div class="codewrapper">
+            <pre><code class="lang-vb hljs">_viewIds As Dictionary(Of String, Integer)</code></pre>
+          </div>
+      </section>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.Dictionary</span>&lt;<span class="xref">System.String</span>, <span class="xref">System.Int32</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Jui/Views/ViewGroup.cs/#L43">View Source</a>
+  </span>
+  <h4 id="HomeSeer_Jui_Views_ViewGroup__views" data-uid="HomeSeer.Jui.Views.ViewGroup._views">_views</h4>
+  <div class="markdown level1 summary"><p>The views to display within this group.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="tabGroup" id="tabgroup_syntax">
+      <ul role="tablist">
+          <li role="presentation">
+              <a href="#tabpanel_syntax_cs" tabindex="0" role="tab" aria-controls="tabpanel_syntax_cs" data-tab="cs" aria-selected="true">C#</a>
+          </li>
+          <li role="presentation">
+              <a href="#tabpanel_syntax_vb" tabindex="-1" role="tab" aria-controls="tabpanel_syntax_vb" data-tab="vb">Visual Basic</a>
+          </li>
+      </ul>
+      <section id="tabpanel_syntax_cs" role="tabpanel" data-tab="cs">
+          <div class="codewrapper">
+            <pre><code class="lang-csharp hljs">List&lt;AbstractView&gt; _views</code></pre>
+          </div>
+      </section>
+      <section id="tabpanel_syntax_vb" role="tabpanel" data-tab="vb" aria-hidden="true" hidden="">
+          <div class="codewrapper">
+            <pre><code class="lang-vb hljs">_views As List(Of AbstractView)</code></pre>
+          </div>
+      </section>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.List</span>&lt;<a class="xref" href="HomeSeer.Jui.Views.AbstractView.html">AbstractView</a>&gt;</td>
+        <td></td>
       </tr>
     </tbody>
   </table>
@@ -488,6 +584,37 @@ Use <a class="xref" href="HomeSeer.Jui.Views.ViewGroup.html#HomeSeer_Jui_Views_V
       </tr>
     </tbody>
   </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p>The view or its ID is null</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.ArgumentException</span></td>
+        <td><p>There is already a view with the same ID present in the collection</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.InvalidOperationException</span></td>
+        <td><p>Thrown when trying to add a ViewGroup to another ViewGroup</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="HomeSeer.Jui.Views.ViewTypeMismatchException.html">ViewTypeMismatchException</a></td>
+        <td><p>Thrown when a view group's type does not match its class</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
   
   <span class="small pull-right mobile-hide">
     <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Jui/Views/ViewGroup.cs/#L96">View Source</a>
@@ -535,13 +662,30 @@ Use <a class="xref" href="HomeSeer.Jui.Views.ViewGroup.html#HomeSeer_Jui_Views_V
       </tr>
     </tbody>
   </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p>The list of views is null</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
   
   <span class="small pull-right mobile-hide">
     <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Jui/Views/ViewGroup.cs/#L115">View Source</a>
   </span>
   <a id="HomeSeer_Jui_Views_ViewGroup_ContainsViewWithId_" data-uid="HomeSeer.Jui.Views.ViewGroup.ContainsViewWithId*"></a>
   <h4 id="HomeSeer_Jui_Views_ViewGroup_ContainsViewWithId_System_String_" data-uid="HomeSeer.Jui.Views.ViewGroup.ContainsViewWithId(System.String)">ContainsViewWithId(String)</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Check to see if a view with a specific ID is present in a collection</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="tabGroup" id="tabgroup_syntax">
@@ -592,7 +736,29 @@ Use <a class="xref" href="HomeSeer.Jui.Views.ViewGroup.html#HomeSeer_Jui_Views_V
     <tbody>
       <tr>
         <td><span class="xref">System.Boolean</span></td>
-        <td></td>
+        <td><p>TRUE if the view exists in the collection; FALSE if it does not exist in the collection</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p>The viewId to look for is NULL</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.IndexOutOfRangeException</span></td>
+        <td><p>The ID was found, but the view is not in the collection</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -666,7 +832,8 @@ Use <a class="xref" href="HomeSeer.Jui.Views.ViewGroup.html#HomeSeer_Jui_Views_V
   </span>
   <a id="HomeSeer_Jui_Views_ViewGroup_GetViewById_" data-uid="HomeSeer.Jui.Views.ViewGroup.GetViewById*"></a>
   <h4 id="HomeSeer_Jui_Views_ViewGroup_GetViewById_System_String_" data-uid="HomeSeer.Jui.Views.ViewGroup.GetViewById(System.String)">GetViewById(String)</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Get the view with a specific ID from a collection</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="tabGroup" id="tabgroup_syntax">
@@ -717,7 +884,44 @@ Use <a class="xref" href="HomeSeer.Jui.Views.ViewGroup.html#HomeSeer_Jui_Views_V
     <tbody>
       <tr>
         <td><a class="xref" href="HomeSeer.Jui.Views.AbstractView.html">AbstractView</a></td>
-        <td></td>
+        <td><p>The view with the specified ID</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p>The viewId to look for is NULL</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.IndexOutOfRangeException</span></td>
+        <td><p>The ID was found, but the view is not in the collection</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.ArgumentException</span></td>
+        <td><p>There are no views in the collection</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="HomeSeer.Jui.Views.ViewNotFoundException.html">ViewNotFoundException</a></td>
+        <td><p>No views with that ID were found in the collection</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="HomeSeer.Jui.Views.ViewTypeMismatchException.html">ViewTypeMismatchException</a></td>
+        <td><p>Thrown when a view group's type does not match its class</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -834,11 +1038,58 @@ Use <a class="xref" href="HomeSeer.Jui.Views.ViewGroup.html#HomeSeer_Jui_Views_V
   </table>
   
   <span class="small pull-right mobile-hide">
+    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Jui/Views/ViewGroup.cs/#L169">View Source</a>
+  </span>
+  <a id="HomeSeer_Jui_Views_ViewGroup_MapViewIds_" data-uid="HomeSeer.Jui.Views.ViewGroup.MapViewIds*"></a>
+  <h4 id="HomeSeer_Jui_Views_ViewGroup_MapViewIds" data-uid="HomeSeer.Jui.Views.ViewGroup.MapViewIds">MapViewIds()</h4>
+  <div class="markdown level1 summary"><p>Build a map of view IDs and list indexes for a collection of views</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="tabGroup" id="tabgroup_syntax">
+      <ul role="tablist">
+          <li role="presentation">
+              <a href="#tabpanel_syntax_cs" tabindex="0" role="tab" aria-controls="tabpanel_syntax_cs" data-tab="cs" aria-selected="true">C#</a>
+          </li>
+          <li role="presentation">
+              <a href="#tabpanel_syntax_vb" tabindex="-1" role="tab" aria-controls="tabpanel_syntax_vb" data-tab="vb">Visual Basic</a>
+          </li>
+      </ul>
+      <section id="tabpanel_syntax_cs" role="tabpanel" data-tab="cs">
+          <div class="codewrapper">
+            <pre><code class="lang-csharp hljs">void MapViewIds()</code></pre>
+          </div>
+      </section>
+      <section id="tabpanel_syntax_vb" role="tabpanel" data-tab="vb" aria-hidden="true" hidden="">
+          <div class="codewrapper">
+            <pre><code class="lang-vb hljs">Sub MapViewIds</code></pre>
+          </div>
+      </section>
+  </div>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p>The list of views to map is null</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <span class="small pull-right mobile-hide">
     <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Jui/Views/ViewGroup.cs/#L187">View Source</a>
   </span>
   <a id="HomeSeer_Jui_Views_ViewGroup_RemoveAllViews_" data-uid="HomeSeer.Jui.Views.ViewGroup.RemoveAllViews*"></a>
   <h4 id="HomeSeer_Jui_Views_ViewGroup_RemoveAllViews" data-uid="HomeSeer.Jui.Views.ViewGroup.RemoveAllViews">RemoveAllViews()</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Clear a collection of views</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="tabGroup" id="tabgroup_syntax">
@@ -905,6 +1156,22 @@ Use <a class="xref" href="HomeSeer.Jui.Views.ViewGroup.html#HomeSeer_Jui_Views_V
         <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<a class="xref" href="HomeSeer.Jui.Views.AbstractView.html">AbstractView</a>&gt;</td>
         <td><span class="parametername">views</span></td>
         <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p>The list of views is null</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -1051,7 +1318,8 @@ This view's ID and Type must match the calling view exactly</p>
   </span>
   <a id="HomeSeer_Jui_Views_ViewGroup_UpdateViewById_" data-uid="HomeSeer.Jui.Views.ViewGroup.UpdateViewById*"></a>
   <h4 id="HomeSeer_Jui_Views_ViewGroup_UpdateViewById_HomeSeer_Jui_Views_AbstractView_" data-uid="HomeSeer.Jui.Views.ViewGroup.UpdateViewById(HomeSeer.Jui.Views.AbstractView)">UpdateViewById(AbstractView)</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Perform a soft update to a view in a collection with a particular ID</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="tabGroup" id="tabgroup_syntax">
@@ -1088,6 +1356,37 @@ This view's ID and Type must match the calling view exactly</p>
         <td><a class="xref" href="HomeSeer.Jui.Views.AbstractView.html">AbstractView</a></td>
         <td><span class="parametername">view</span></td>
         <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p>The viewId to look for is NULL</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.IndexOutOfRangeException</span></td>
+        <td><p>The ID was found, but the view is not in the collection</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.ArgumentException</span></td>
+        <td><p>There are no views in the collection</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="HomeSeer.Jui.Views.ViewNotFoundException.html">ViewNotFoundException</a></td>
+        <td><p>No views with that ID were found in the collection</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -1155,7 +1454,7 @@ This view's ID and Type must match the calling view exactly</p>
               </ul>
             </div>
             <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
-              <h5>In This Article</h5>
+              <h5></h5>
               <div></div>
             </nav>
           </div>

@@ -10,7 +10,7 @@
     <meta name="viewport" content="width=device-width">
     <meta name="title" content="Class TextAreaView
    | HomeSeer PluginSdk Docs ">
-    <meta name="generator" content="docfx 2.58.0.0">
+    <meta name="generator" content="docfx 2.49.0.0">
     
     <link rel="shortcut icon" href="../images/favicon.ico">
     <link rel="stylesheet" href="../styles/docfx.vendor.css">
@@ -62,11 +62,11 @@
       <div class="container body-content">
         
         <div id="search-results">
-          <div class="search-list">Search Results for <span></span></div>
+          <div class="search-list"></div>
           <div class="sr-items">
             <p><i class="glyphicon glyphicon-refresh index-loading"></i></p>
           </div>
-          <ul id="pagination" data-first="First" data-prev="Previous" data-next="Next" data-last="Last"></ul>
+          <ul id="pagination"></ul>
         </div>
       </div>
       <div role="main" class="container-fluid body-content hide-when-search">
@@ -124,6 +124,12 @@
       <a class="xref" href="HomeSeer.Jui.Views.AbstractView.html#HomeSeer_Jui_Views_AbstractView_Type">AbstractView.Type</a>
     </div>
     <div>
+      <a class="xref" href="HomeSeer.Jui.Views.AbstractView.html#HomeSeer_Jui_Views_AbstractView_HtmlIndent">AbstractView.HtmlIndent</a>
+    </div>
+    <div>
+      <a class="xref" href="HomeSeer.Jui.Views.AbstractView.html#HomeSeer_Jui_Views_AbstractView_NonAllowedCharactersForId">AbstractView.NonAllowedCharactersForId</a>
+    </div>
+    <div>
       <a class="xref" href="HomeSeer.Jui.Views.AbstractView.html#HomeSeer_Jui_Views_AbstractView_GetIndentStringFromNumber_System_Int32_">AbstractView.GetIndentStringFromNumber(Int32)</a>
     </div>
     <div>
@@ -165,7 +171,7 @@
   </h3>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Jui/Views/TextAreaView.cs/#L34">View Source</a>
+    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Jui/Views/TextAreaView.cs/#L44">View Source</a>
   </span>
   <a id="HomeSeer_Jui_Views_TextAreaView__ctor_" data-uid="HomeSeer.Jui.Views.TextAreaView.#ctor*"></a>
   <h4 id="HomeSeer_Jui_Views_TextAreaView__ctor_System_String_System_String_System_Int32_" data-uid="HomeSeer.Jui.Views.TextAreaView.#ctor(System.String,System.String,System.Int32)">TextAreaView(String, String, Int32)</h4>
@@ -223,9 +229,25 @@
       </tr>
     </tbody>
   </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentOutOfRangeException</span></td>
+        <td><p>Thrown when the number of rows is set to an invalid value</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Jui/Views/TextAreaView.cs/#L49">View Source</a>
+    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Jui/Views/TextAreaView.cs/#L59">View Source</a>
   </span>
   <a id="HomeSeer_Jui_Views_TextAreaView__ctor_" data-uid="HomeSeer.Jui.Views.TextAreaView.#ctor*"></a>
   <h4 id="HomeSeer_Jui_Views_TextAreaView__ctor_System_String_System_String_System_String_System_Int32_" data-uid="HomeSeer.Jui.Views.TextAreaView.#ctor(System.String,System.String,System.String,System.Int32)">TextAreaView(String, String, String, Int32)</h4>
@@ -289,15 +311,76 @@
       </tr>
     </tbody>
   </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentOutOfRangeException</span></td>
+        <td><p>Thrown when the number of rows is set to an invalid value</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="fields">Fields
+  </h3>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Jui/Views/TextAreaView.cs/#L28">View Source</a>
+  </span>
+  <h4 id="HomeSeer_Jui_Views_TextAreaView__rows" data-uid="HomeSeer.Jui.Views.TextAreaView._rows">_rows</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="tabGroup" id="tabgroup_syntax">
+      <ul role="tablist">
+          <li role="presentation">
+              <a href="#tabpanel_syntax_cs" tabindex="0" role="tab" aria-controls="tabpanel_syntax_cs" data-tab="cs" aria-selected="true">C#</a>
+          </li>
+          <li role="presentation">
+              <a href="#tabpanel_syntax_vb" tabindex="-1" role="tab" aria-controls="tabpanel_syntax_vb" data-tab="vb">Visual Basic</a>
+          </li>
+      </ul>
+      <section id="tabpanel_syntax_cs" role="tabpanel" data-tab="cs">
+          <div class="codewrapper">
+            <pre><code class="lang-csharp hljs">int _rows</code></pre>
+          </div>
+      </section>
+      <section id="tabpanel_syntax_vb" role="tabpanel" data-tab="vb" aria-hidden="true" hidden="">
+          <div class="codewrapper">
+            <pre><code class="lang-vb hljs">_rows As Integer</code></pre>
+          </div>
+      </section>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
   <h3 id="properties">Properties
   </h3>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Jui/Views/TextAreaView.cs/#L18">View Source</a>
+    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Jui/Views/TextAreaView.cs/#L17">View Source</a>
   </span>
   <a id="HomeSeer_Jui_Views_TextAreaView_Rows_" data-uid="HomeSeer.Jui.Views.TextAreaView.Rows*"></a>
   <h4 id="HomeSeer_Jui_Views_TextAreaView_Rows" data-uid="HomeSeer.Jui.Views.TextAreaView.Rows">Rows</h4>
-  <div class="markdown level1 summary"><p>The number of text raws displayed</p>
+  <div class="markdown level1 summary"><p>The number of text rows displayed. Must be &gt;= 1</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -336,9 +419,25 @@
       </tr>
     </tbody>
   </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentOutOfRangeException</span></td>
+        <td><p>Thrown when the number of rows is set to an invalid value</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Jui/Views/TextAreaView.cs/#L24">View Source</a>
+    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Jui/Views/TextAreaView.cs/#L33">View Source</a>
   </span>
   <a id="HomeSeer_Jui_Views_TextAreaView_Value_" data-uid="HomeSeer.Jui.Views.TextAreaView.Value*"></a>
   <h4 id="HomeSeer_Jui_Views_TextAreaView_Value" data-uid="HomeSeer.Jui.Views.TextAreaView.Value">Value</h4>
@@ -385,7 +484,7 @@
   </h3>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Jui/Views/TextAreaView.cs/#L82">View Source</a>
+    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Jui/Views/TextAreaView.cs/#L89">View Source</a>
   </span>
   <a id="HomeSeer_Jui_Views_TextAreaView_GetStringValue_" data-uid="HomeSeer.Jui.Views.TextAreaView.GetStringValue*"></a>
   <h4 id="HomeSeer_Jui_Views_TextAreaView_GetStringValue" data-uid="HomeSeer.Jui.Views.TextAreaView.GetStringValue">GetStringValue()</h4>
@@ -436,7 +535,7 @@
 </div>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Jui/Views/TextAreaView.cs/#L88">View Source</a>
+    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Jui/Views/TextAreaView.cs/#L94">View Source</a>
   </span>
   <a id="HomeSeer_Jui_Views_TextAreaView_ToHtml_" data-uid="HomeSeer.Jui.Views.TextAreaView.ToHtml*"></a>
   <h4 id="HomeSeer_Jui_Views_TextAreaView_ToHtml_System_Int32_" data-uid="HomeSeer.Jui.Views.TextAreaView.ToHtml(System.Int32)">ToHtml(Int32)</h4>
@@ -501,7 +600,7 @@
   <div><a class="xref" href="HomeSeer.Jui.Views.AbstractView.html#HomeSeer_Jui_Views_AbstractView_ToHtml_System_Int32_">AbstractView.ToHtml(Int32)</a></div>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Jui/Views/TextAreaView.cs/#L61">View Source</a>
+    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Jui/Views/TextAreaView.cs/#L70">View Source</a>
   </span>
   <a id="HomeSeer_Jui_Views_TextAreaView_Update_" data-uid="HomeSeer.Jui.Views.TextAreaView.Update*"></a>
   <h4 id="HomeSeer_Jui_Views_TextAreaView_Update_HomeSeer_Jui_Views_AbstractView_" data-uid="HomeSeer.Jui.Views.TextAreaView.Update(HomeSeer.Jui.Views.AbstractView)">Update(AbstractView)</h4>
@@ -568,7 +667,7 @@ This view's ID and Type must match the calling view exactly</p>
   </table>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Jui/Views/TextAreaView.cs/#L73">View Source</a>
+    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Jui/Views/TextAreaView.cs/#L80">View Source</a>
   </span>
   <a id="HomeSeer_Jui_Views_TextAreaView_UpdateValue_" data-uid="HomeSeer.Jui.Views.TextAreaView.UpdateValue*"></a>
   <h4 id="HomeSeer_Jui_Views_TextAreaView_UpdateValue_System_String_" data-uid="HomeSeer.Jui.Views.TextAreaView.UpdateValue(System.String)">UpdateValue(String)</h4>
@@ -624,12 +723,12 @@ This view's ID and Type must match the calling view exactly</p>
             <div class="contribution">
               <ul class="nav">
                 <li>
-                  <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Jui/Views/TextAreaView.cs/#L13" class="contribution-link">View Source</a>
+                  <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Jui/Views/TextAreaView.cs/#L12" class="contribution-link">View Source</a>
                 </li>
               </ul>
             </div>
             <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
-              <h5>In This Article</h5>
+              <h5></h5>
               <div></div>
             </nav>
           </div>

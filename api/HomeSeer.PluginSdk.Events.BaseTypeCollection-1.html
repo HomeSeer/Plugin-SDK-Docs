@@ -10,7 +10,7 @@
     <meta name="viewport" content="width=device-width">
     <meta name="title" content="Class BaseTypeCollection&lt;TBaseItemType&gt;
    | HomeSeer PluginSdk Docs ">
-    <meta name="generator" content="docfx 2.58.0.0">
+    <meta name="generator" content="docfx 2.49.0.0">
     
     <link rel="shortcut icon" href="../images/favicon.ico">
     <link rel="stylesheet" href="../styles/docfx.vendor.css">
@@ -62,11 +62,11 @@
       <div class="container body-content">
         
         <div id="search-results">
-          <div class="search-list">Search Results for <span></span></div>
+          <div class="search-list"></div>
           <div class="sr-items">
             <p><i class="glyphicon glyphicon-refresh index-loading"></i></p>
           </div>
-          <ul id="pagination" data-first="First" data-prev="Previous" data-next="Next" data-last="Last"></ul>
+          <ul id="pagination"></ul>
         </div>
       </div>
       <div role="main" class="container-fluid body-content hide-when-search">
@@ -142,7 +142,8 @@
   </div>
   <hr>
   <br>
-  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 summary"><p>A collection for holding types of classes that adhere to certain structural rules.</p>
+</div>
   <div class="markdown level0 conceptual"></div>
   <br>
   <h5 class="typeParameters">Type Parameters</h5>
@@ -156,6 +157,95 @@
     <tbody>
       <tr>
         <td><span class="parametername">TBaseItemType</span></td>
+        <td><p>The type of item to manage</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="fields">Fields
+  </h3>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Events/BaseTypeCollection.cs/#L36">View Source</a>
+  </span>
+  <h4 id="HomeSeer_PluginSdk_Events_BaseTypeCollection_1__itemTypeNames" data-uid="HomeSeer.PluginSdk.Events.BaseTypeCollection`1._itemTypeNames">_itemTypeNames</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="tabGroup" id="tabgroup_syntax">
+      <ul role="tablist">
+          <li role="presentation">
+              <a href="#tabpanel_syntax_cs" tabindex="0" role="tab" aria-controls="tabpanel_syntax_cs" data-tab="cs" aria-selected="true">C#</a>
+          </li>
+          <li role="presentation">
+              <a href="#tabpanel_syntax_vb" tabindex="-1" role="tab" aria-controls="tabpanel_syntax_vb" data-tab="vb">Visual Basic</a>
+          </li>
+      </ul>
+      <section id="tabpanel_syntax_cs" role="tabpanel" data-tab="cs">
+          <div class="codewrapper">
+            <pre><code class="lang-csharp hljs">HashSet&lt;string&gt; _itemTypeNames</code></pre>
+          </div>
+      </section>
+      <section id="tabpanel_syntax_vb" role="tabpanel" data-tab="vb" aria-hidden="true" hidden="">
+          <div class="codewrapper">
+            <pre><code class="lang-vb hljs">_itemTypeNames As HashSet(Of String)</code></pre>
+          </div>
+      </section>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.HashSet</span>&lt;<span class="xref">System.String</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Events/BaseTypeCollection.cs/#L34">View Source</a>
+  </span>
+  <h4 id="HomeSeer_PluginSdk_Events_BaseTypeCollection_1__itemTypes" data-uid="HomeSeer.PluginSdk.Events.BaseTypeCollection`1._itemTypes">_itemTypes</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="tabGroup" id="tabgroup_syntax">
+      <ul role="tablist">
+          <li role="presentation">
+              <a href="#tabpanel_syntax_cs" tabindex="0" role="tab" aria-controls="tabpanel_syntax_cs" data-tab="cs" aria-selected="true">C#</a>
+          </li>
+          <li role="presentation">
+              <a href="#tabpanel_syntax_vb" tabindex="-1" role="tab" aria-controls="tabpanel_syntax_vb" data-tab="vb">Visual Basic</a>
+          </li>
+      </ul>
+      <section id="tabpanel_syntax_cs" role="tabpanel" data-tab="cs">
+          <div class="codewrapper">
+            <pre><code class="lang-csharp hljs">List&lt;Type&gt; _itemTypes</code></pre>
+          </div>
+      </section>
+      <section id="tabpanel_syntax_vb" role="tabpanel" data-tab="vb" aria-hidden="true" hidden="">
+          <div class="codewrapper">
+            <pre><code class="lang-vb hljs">_itemTypes As List(Of Type)</code></pre>
+          </div>
+      </section>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.List</span>&lt;<span class="xref">System.Type</span>&gt;</td>
         <td></td>
       </tr>
     </tbody>
@@ -164,11 +254,12 @@
   </h3>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Events/BaseTypeCollection.cs/#L17">View Source</a>
+    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Events/BaseTypeCollection.cs/#L24">View Source</a>
   </span>
   <a id="HomeSeer_PluginSdk_Events_BaseTypeCollection_1_ConstructorSignatures_" data-uid="HomeSeer.PluginSdk.Events.BaseTypeCollection`1.ConstructorSignatures*"></a>
   <h4 id="HomeSeer_PluginSdk_Events_BaseTypeCollection_1_ConstructorSignatures" data-uid="HomeSeer.PluginSdk.Events.BaseTypeCollection`1.ConstructorSignatures">ConstructorSignatures</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>A <span class="xref">System.Collections.Generic.List&lt;T&gt;</span> of constructor signatures</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="tabGroup" id="tabgroup_syntax">
@@ -208,7 +299,7 @@
   </table>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Events/BaseTypeCollection.cs/#L14">View Source</a>
+    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Events/BaseTypeCollection.cs/#L19">View Source</a>
   </span>
   <a id="HomeSeer_PluginSdk_Events_BaseTypeCollection_1_Count_" data-uid="HomeSeer.PluginSdk.Events.BaseTypeCollection`1.Count*"></a>
   <h4 id="HomeSeer_PluginSdk_Events_BaseTypeCollection_1_Count" data-uid="HomeSeer.PluginSdk.Events.BaseTypeCollection`1.Count">Count</h4>
@@ -253,11 +344,13 @@
   </table>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Events/BaseTypeCollection.cs/#L20">View Source</a>
+    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Events/BaseTypeCollection.cs/#L31">View Source</a>
   </span>
   <a id="HomeSeer_PluginSdk_Events_BaseTypeCollection_1_MatchAllSignatures_" data-uid="HomeSeer.PluginSdk.Events.BaseTypeCollection`1.MatchAllSignatures*"></a>
   <h4 id="HomeSeer_PluginSdk_Events_BaseTypeCollection_1_MatchAllSignatures" data-uid="HomeSeer.PluginSdk.Events.BaseTypeCollection`1.MatchAllSignatures">MatchAllSignatures</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Whether the items in the collection must match all of the listed <a class="xref" href="HomeSeer.PluginSdk.Events.BaseTypeCollection-1.html#HomeSeer_PluginSdk_Events_BaseTypeCollection_1_ConstructorSignatures">ConstructorSignatures</a> or just one.
+<span class="xref">true</span> if the items must match all constructor signatures.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="tabGroup" id="tabgroup_syntax">
@@ -271,12 +364,12 @@
       </ul>
       <section id="tabpanel_syntax_cs" role="tabpanel" data-tab="cs">
           <div class="codewrapper">
-            <pre><code class="lang-csharp hljs">public bool MatchAllSignatures { get; set; }</code></pre>
+            <pre><code class="lang-csharp hljs">protected bool MatchAllSignatures { get; set; }</code></pre>
           </div>
       </section>
       <section id="tabpanel_syntax_vb" role="tabpanel" data-tab="vb" aria-hidden="true" hidden="">
           <div class="codewrapper">
-            <pre><code class="lang-vb hljs">Public Property MatchAllSignatures As Boolean</code></pre>
+            <pre><code class="lang-vb hljs">Protected Property MatchAllSignatures As Boolean</code></pre>
           </div>
       </section>
   </div>
@@ -299,11 +392,11 @@
   </h3>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Events/BaseTypeCollection.cs/#L34">View Source</a>
+    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Events/BaseTypeCollection.cs/#L45">View Source</a>
   </span>
   <a id="HomeSeer_PluginSdk_Events_BaseTypeCollection_1_AddItemType_" data-uid="HomeSeer.PluginSdk.Events.BaseTypeCollection`1.AddItemType*"></a>
   <h4 id="HomeSeer_PluginSdk_Events_BaseTypeCollection_1_AddItemType_System_Type_" data-uid="HomeSeer.PluginSdk.Events.BaseTypeCollection`1.AddItemType(System.Type)">AddItemType(Type)</h4>
-  <div class="markdown level1 summary"><p>Add the specified class type that derives from <see cref="!:TBaseItemType"></see> to the list of item types</p>
+  <div class="markdown level1 summary"><p>Add the specified class type that derives from <code data-dev-comment-type="typeparamref" class="typeparamref">TBaseItemType</code> to the list of item types</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -340,7 +433,7 @@
       <tr>
         <td><span class="xref">System.Type</span></td>
         <td><span class="parametername">itemType</span></td>
-        <td><p>The <span class="xref">System.Type</span> of the class that derives from <see cref="!:TBaseItemType"></see></p>
+        <td><p>The <span class="xref">System.Type</span> of the class that derives from <code data-dev-comment-type="typeparamref" class="typeparamref">TBaseItemType</code></p>
 </td>
       </tr>
     </tbody>
@@ -363,11 +456,155 @@
   </table>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Events/BaseTypeCollection.cs/#L51">View Source</a>
+    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Events/BaseTypeCollection.cs/#L213">View Source</a>
+  </span>
+  <a id="HomeSeer_PluginSdk_Events_BaseTypeCollection_1_AssertTypeHasConstructor_" data-uid="HomeSeer.PluginSdk.Events.BaseTypeCollection`1.AssertTypeHasConstructor*"></a>
+  <h4 id="HomeSeer_PluginSdk_Events_BaseTypeCollection_1_AssertTypeHasConstructor_System_Type_System_Type___" data-uid="HomeSeer.PluginSdk.Events.BaseTypeCollection`1.AssertTypeHasConstructor(System.Type,System.Type[])">AssertTypeHasConstructor(Type, Type[])</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="tabGroup" id="tabgroup_syntax">
+      <ul role="tablist">
+          <li role="presentation">
+              <a href="#tabpanel_syntax_cs" tabindex="0" role="tab" aria-controls="tabpanel_syntax_cs" data-tab="cs" aria-selected="true">C#</a>
+          </li>
+          <li role="presentation">
+              <a href="#tabpanel_syntax_vb" tabindex="-1" role="tab" aria-controls="tabpanel_syntax_vb" data-tab="vb">Visual Basic</a>
+          </li>
+      </ul>
+      <section id="tabpanel_syntax_cs" role="tabpanel" data-tab="cs">
+          <div class="codewrapper">
+            <pre><code class="lang-csharp hljs">static void AssertTypeHasConstructor(Type targetType, Type[] constructorParams)</code></pre>
+          </div>
+      </section>
+      <section id="tabpanel_syntax_vb" role="tabpanel" data-tab="vb" aria-hidden="true" hidden="">
+          <div class="codewrapper">
+            <pre><code class="lang-vb hljs">Shared Sub AssertTypeHasConstructor(targetType As Type, constructorParams As Type())</code></pre>
+          </div>
+      </section>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Type</span></td>
+        <td><span class="parametername">targetType</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Type</span>[]</td>
+        <td><span class="parametername">constructorParams</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Events/BaseTypeCollection.cs/#L163">View Source</a>
+  </span>
+  <a id="HomeSeer_PluginSdk_Events_BaseTypeCollection_1_AssertTypeHasConstructors_" data-uid="HomeSeer.PluginSdk.Events.BaseTypeCollection`1.AssertTypeHasConstructors*"></a>
+  <h4 id="HomeSeer_PluginSdk_Events_BaseTypeCollection_1_AssertTypeHasConstructors_System_Type_" data-uid="HomeSeer.PluginSdk.Events.BaseTypeCollection`1.AssertTypeHasConstructors(System.Type)">AssertTypeHasConstructors(Type)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="tabGroup" id="tabgroup_syntax">
+      <ul role="tablist">
+          <li role="presentation">
+              <a href="#tabpanel_syntax_cs" tabindex="0" role="tab" aria-controls="tabpanel_syntax_cs" data-tab="cs" aria-selected="true">C#</a>
+          </li>
+          <li role="presentation">
+              <a href="#tabpanel_syntax_vb" tabindex="-1" role="tab" aria-controls="tabpanel_syntax_vb" data-tab="vb">Visual Basic</a>
+          </li>
+      </ul>
+      <section id="tabpanel_syntax_cs" role="tabpanel" data-tab="cs">
+          <div class="codewrapper">
+            <pre><code class="lang-csharp hljs">void AssertTypeHasConstructors(Type targetType)</code></pre>
+          </div>
+      </section>
+      <section id="tabpanel_syntax_vb" role="tabpanel" data-tab="vb" aria-hidden="true" hidden="">
+          <div class="codewrapper">
+            <pre><code class="lang-vb hljs">Sub AssertTypeHasConstructors(targetType As Type)</code></pre>
+          </div>
+      </section>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Type</span></td>
+        <td><span class="parametername">targetType</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Events/BaseTypeCollection.cs/#L199">View Source</a>
+  </span>
+  <a id="HomeSeer_PluginSdk_Events_BaseTypeCollection_1_AssertTypeHasEmptyConstructor_" data-uid="HomeSeer.PluginSdk.Events.BaseTypeCollection`1.AssertTypeHasEmptyConstructor*"></a>
+  <h4 id="HomeSeer_PluginSdk_Events_BaseTypeCollection_1_AssertTypeHasEmptyConstructor_System_Type_" data-uid="HomeSeer.PluginSdk.Events.BaseTypeCollection`1.AssertTypeHasEmptyConstructor(System.Type)">AssertTypeHasEmptyConstructor(Type)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="tabGroup" id="tabgroup_syntax">
+      <ul role="tablist">
+          <li role="presentation">
+              <a href="#tabpanel_syntax_cs" tabindex="0" role="tab" aria-controls="tabpanel_syntax_cs" data-tab="cs" aria-selected="true">C#</a>
+          </li>
+          <li role="presentation">
+              <a href="#tabpanel_syntax_vb" tabindex="-1" role="tab" aria-controls="tabpanel_syntax_vb" data-tab="vb">Visual Basic</a>
+          </li>
+      </ul>
+      <section id="tabpanel_syntax_cs" role="tabpanel" data-tab="cs">
+          <div class="codewrapper">
+            <pre><code class="lang-csharp hljs">void AssertTypeHasEmptyConstructor(Type targetType)</code></pre>
+          </div>
+      </section>
+      <section id="tabpanel_syntax_vb" role="tabpanel" data-tab="vb" aria-hidden="true" hidden="">
+          <div class="codewrapper">
+            <pre><code class="lang-vb hljs">Sub AssertTypeHasEmptyConstructor(targetType As Type)</code></pre>
+          </div>
+      </section>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Type</span></td>
+        <td><span class="parametername">targetType</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Events/BaseTypeCollection.cs/#L69">View Source</a>
   </span>
   <a id="HomeSeer_PluginSdk_Events_BaseTypeCollection_1_GetObjectFromInfo_" data-uid="HomeSeer.PluginSdk.Events.BaseTypeCollection`1.GetObjectFromInfo*"></a>
   <h4 id="HomeSeer_PluginSdk_Events_BaseTypeCollection_1_GetObjectFromInfo_System_Int32_" data-uid="HomeSeer.PluginSdk.Events.BaseTypeCollection`1.GetObjectFromInfo(System.Int32)">GetObjectFromInfo(Int32)</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Get an instance of an object of the type defined at a specific index in the collection</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="tabGroup" id="tabgroup_syntax">
@@ -403,7 +640,8 @@
       <tr>
         <td><span class="xref">System.Int32</span></td>
         <td><span class="parametername">itemIndex</span></td>
-        <td></td>
+        <td><p>The index of the type to use</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -422,13 +660,35 @@
       </tr>
     </tbody>
   </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.KeyNotFoundException</span></td>
+        <td><p>Thrown when no item is found at the specified index</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.TypeLoadException</span></td>
+        <td><p>Thrown when there was an error while creating an instance of the specified type</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Events/BaseTypeCollection.cs/#L75">View Source</a>
+    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Events/BaseTypeCollection.cs/#L98">View Source</a>
   </span>
   <a id="HomeSeer_PluginSdk_Events_BaseTypeCollection_1_GetObjectFromInfo_" data-uid="HomeSeer.PluginSdk.Events.BaseTypeCollection`1.GetObjectFromInfo*"></a>
   <h4 id="HomeSeer_PluginSdk_Events_BaseTypeCollection_1_GetObjectFromInfo_System_Int32_System_Int32_System_Object___" data-uid="HomeSeer.PluginSdk.Events.BaseTypeCollection`1.GetObjectFromInfo(System.Int32,System.Int32,System.Object[])">GetObjectFromInfo(Int32, Int32, Object[])</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Get an instance of an object of the type defined at a specific index in the collection</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="tabGroup" id="tabgroup_syntax">
@@ -464,17 +724,20 @@
       <tr>
         <td><span class="xref">System.Int32</span></td>
         <td><span class="parametername">itemIndex</span></td>
-        <td></td>
+        <td><p>The index of the type to use</p>
+</td>
       </tr>
       <tr>
         <td><span class="xref">System.Int32</span></td>
         <td><span class="parametername">signatureIndex</span></td>
-        <td></td>
+        <td><p>The index of the constructor signature to use</p>
+</td>
       </tr>
       <tr>
         <td><span class="xref">System.Object</span>[]</td>
         <td><span class="parametername">inParams</span></td>
-        <td></td>
+        <td><p>The parameters to pass to the constructor</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -493,13 +756,30 @@
       </tr>
     </tbody>
   </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentException</span></td>
+        <td><p>Thrown when there was an issue with the provided parameters</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Events/BaseTypeCollection.cs/#L113">View Source</a>
+    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Events/BaseTypeCollection.cs/#L143">View Source</a>
   </span>
   <a id="HomeSeer_PluginSdk_Events_BaseTypeCollection_1_TypeHasConstructor_" data-uid="HomeSeer.PluginSdk.Events.BaseTypeCollection`1.TypeHasConstructor*"></a>
   <h4 id="HomeSeer_PluginSdk_Events_BaseTypeCollection_1_TypeHasConstructor_System_Int32_System_Int32_" data-uid="HomeSeer.PluginSdk.Events.BaseTypeCollection`1.TypeHasConstructor(System.Int32,System.Int32)">TypeHasConstructor(Int32, Int32)</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Determine if a specific type has a particular constructor signature defined</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="tabGroup" id="tabgroup_syntax">
@@ -535,12 +815,14 @@
       <tr>
         <td><span class="xref">System.Int32</span></td>
         <td><span class="parametername">itemIndex</span></td>
-        <td></td>
+        <td><p>The index of the type to use</p>
+</td>
       </tr>
       <tr>
         <td><span class="xref">System.Int32</span></td>
         <td><span class="parametername">signatureIndex</span></td>
-        <td></td>
+        <td><p>The index of the constructor signature to use</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -555,10 +837,32 @@
     <tbody>
       <tr>
         <td><span class="xref">System.Boolean</span></td>
-        <td></td>
+        <td><p><span class="xref">true</span> if the type has the specific constructor defined</p>
+</td>
       </tr>
     </tbody>
   </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.KeyNotFoundException</span></td>
+        <td><p>Thrown if a type or signature was not found at the specified index</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="seealso">See Also</h3>
+  <div class="seealso">
+      <div><a class="xref" href="HomeSeer.PluginSdk.Events.ActionTypeCollection.html">ActionTypeCollection</a></div>
+      <div><a class="xref" href="HomeSeer.PluginSdk.Events.TriggerTypeCollection.html">TriggerTypeCollection</a></div>
+  </div>
 </article>
       </div>
         
@@ -567,12 +871,12 @@
             <div class="contribution">
               <ul class="nav">
                 <li>
-                  <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Events/BaseTypeCollection.cs/#L9" class="contribution-link">View Source</a>
+                  <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Events/BaseTypeCollection.cs/#L14" class="contribution-link">View Source</a>
                 </li>
               </ul>
             </div>
             <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
-              <h5>In This Article</h5>
+              <h5></h5>
               <div></div>
             </nav>
           </div>

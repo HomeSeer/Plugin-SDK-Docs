@@ -139,6 +139,12 @@ references:
   commentId: F:HomeSeer.Jui.Types.ESelectListType.RadioList
   fullName: HomeSeer.Jui.Types.ESelectListType.RadioList
   nameWithType: ESelectListType.RadioList
+- uid: HomeSeer.Jui.Types.ESelectListType.SearchableDropDown
+  name: SearchableDropDown
+  href: api/HomeSeer.Jui.Types.ESelectListType.html#HomeSeer_Jui_Types_ESelectListType_SearchableDropDown
+  commentId: F:HomeSeer.Jui.Types.ESelectListType.SearchableDropDown
+  fullName: HomeSeer.Jui.Types.ESelectListType.SearchableDropDown
+  nameWithType: ESelectListType.SearchableDropDown
 - uid: HomeSeer.Jui.Types.EToggleType
   name: EToggleType
   href: api/HomeSeer.Jui.Types.EToggleType.html
@@ -163,6 +169,12 @@ references:
   commentId: T:HomeSeer.Jui.Types.EViewType
   fullName: HomeSeer.Jui.Types.EViewType
   nameWithType: EViewType
+- uid: HomeSeer.Jui.Types.EViewType.Button
+  name: Button
+  href: api/HomeSeer.Jui.Types.EViewType.html#HomeSeer_Jui_Types_EViewType_Button
+  commentId: F:HomeSeer.Jui.Types.EViewType.Button
+  fullName: HomeSeer.Jui.Types.EViewType.Button
+  nameWithType: EViewType.Button
 - uid: HomeSeer.Jui.Types.EViewType.Group
   name: Group
   href: api/HomeSeer.Jui.Types.EViewType.html#HomeSeer_Jui_Types_EViewType_Group
@@ -268,6 +280,12 @@ references:
   isSpec: "True"
   fullName: HomeSeer.Jui.Views.AbstractView.GetStringValue
   nameWithType: AbstractView.GetStringValue
+- uid: HomeSeer.Jui.Views.AbstractView.HtmlIndent
+  name: HtmlIndent
+  href: api/HomeSeer.Jui.Views.AbstractView.html#HomeSeer_Jui_Views_AbstractView_HtmlIndent
+  commentId: F:HomeSeer.Jui.Views.AbstractView.HtmlIndent
+  fullName: HomeSeer.Jui.Views.AbstractView.HtmlIndent
+  nameWithType: AbstractView.HtmlIndent
 - uid: HomeSeer.Jui.Views.AbstractView.Id
   name: Id
   href: api/HomeSeer.Jui.Views.AbstractView.html#HomeSeer_Jui_Views_AbstractView_Id
@@ -307,6 +325,12 @@ references:
   isSpec: "True"
   fullName: HomeSeer.Jui.Views.AbstractView.Name
   nameWithType: AbstractView.Name
+- uid: HomeSeer.Jui.Views.AbstractView.NonAllowedCharactersForId
+  name: NonAllowedCharactersForId
+  href: api/HomeSeer.Jui.Views.AbstractView.html#HomeSeer_Jui_Views_AbstractView_NonAllowedCharactersForId
+  commentId: F:HomeSeer.Jui.Views.AbstractView.NonAllowedCharactersForId
+  fullName: HomeSeer.Jui.Views.AbstractView.NonAllowedCharactersForId
+  nameWithType: AbstractView.NonAllowedCharactersForId
 - uid: HomeSeer.Jui.Views.AbstractView.ToHtml(System.Int32)
   name: ToHtml(Int32)
   href: api/HomeSeer.Jui.Views.AbstractView.html#HomeSeer_Jui_Views_AbstractView_ToHtml_System_Int32_
@@ -474,6 +498,12 @@ references:
   isSpec: "True"
   fullName: HomeSeer.Jui.Views.GridRow.GridRow
   nameWithType: GridRow.GridRow
+- uid: HomeSeer.Jui.Views.GridRow._items
+  name: _items
+  href: api/HomeSeer.Jui.Views.GridRow.html#HomeSeer_Jui_Views_GridRow__items
+  commentId: F:HomeSeer.Jui.Views.GridRow._items
+  fullName: HomeSeer.Jui.Views.GridRow._items
+  nameWithType: GridRow._items
 - uid: HomeSeer.Jui.Views.GridRow.AddItem(HomeSeer.Jui.Views.AbstractView,HomeSeer.Jui.Views.EColSize,HomeSeer.Jui.Views.EColSize,HomeSeer.Jui.Views.EColSize,HomeSeer.Jui.Views.EColSize,HomeSeer.Jui.Views.EColSize)
   name: AddItem(AbstractView, EColSize, EColSize, EColSize, EColSize, EColSize)
   href: api/HomeSeer.Jui.Views.GridRow.html#HomeSeer_Jui_Views_GridRow_AddItem_HomeSeer_Jui_Views_AbstractView_HomeSeer_Jui_Views_EColSize_HomeSeer_Jui_Views_EColSize_HomeSeer_Jui_Views_EColSize_HomeSeer_Jui_Views_EColSize_HomeSeer_Jui_Views_EColSize_
@@ -558,6 +588,19 @@ references:
   isSpec: "True"
   fullName: HomeSeer.Jui.Views.GridRowItem.ExtraSmallSize
   nameWithType: GridRowItem.ExtraSmallSize
+- uid: HomeSeer.Jui.Views.GridRowItem.GetColSizeClass(System.String,HomeSeer.Jui.Views.EColSize)
+  name: GetColSizeClass(String, EColSize)
+  href: api/HomeSeer.Jui.Views.GridRowItem.html#HomeSeer_Jui_Views_GridRowItem_GetColSizeClass_System_String_HomeSeer_Jui_Views_EColSize_
+  commentId: M:HomeSeer.Jui.Views.GridRowItem.GetColSizeClass(System.String,HomeSeer.Jui.Views.EColSize)
+  fullName: HomeSeer.Jui.Views.GridRowItem.GetColSizeClass(System.String, HomeSeer.Jui.Views.EColSize)
+  nameWithType: GridRowItem.GetColSizeClass(String, EColSize)
+- uid: HomeSeer.Jui.Views.GridRowItem.GetColSizeClass*
+  name: GetColSizeClass
+  href: api/HomeSeer.Jui.Views.GridRowItem.html#HomeSeer_Jui_Views_GridRowItem_GetColSizeClass_
+  commentId: Overload:HomeSeer.Jui.Views.GridRowItem.GetColSizeClass
+  isSpec: "True"
+  fullName: HomeSeer.Jui.Views.GridRowItem.GetColSizeClass
+  nameWithType: GridRowItem.GetColSizeClass
 - uid: HomeSeer.Jui.Views.GridRowItem.GetHtmlDivClass
   name: GetHtmlDivClass()
   href: api/HomeSeer.Jui.Views.GridRowItem.html#HomeSeer_Jui_Views_GridRowItem_GetHtmlDivClass
@@ -648,6 +691,12 @@ references:
   isSpec: "True"
   fullName: HomeSeer.Jui.Views.GridView.GridView
   nameWithType: GridView.GridView
+- uid: HomeSeer.Jui.Views.GridView._rows
+  name: _rows
+  href: api/HomeSeer.Jui.Views.GridView.html#HomeSeer_Jui_Views_GridView__rows
+  commentId: F:HomeSeer.Jui.Views.GridView._rows
+  fullName: HomeSeer.Jui.Views.GridView._rows
+  nameWithType: GridView._rows
 - uid: HomeSeer.Jui.Views.GridView.AddRow(HomeSeer.Jui.Views.GridRow)
   name: AddRow(GridRow)
   href: api/HomeSeer.Jui.Views.GridView.html#HomeSeer_Jui_Views_GridView_AddRow_HomeSeer_Jui_Views_GridRow_
@@ -757,6 +806,12 @@ references:
   isSpec: "True"
   fullName: HomeSeer.Jui.Views.InputView.InputView
   nameWithType: InputView.InputView
+- uid: HomeSeer.Jui.Views.InputView._value
+  name: _value
+  href: api/HomeSeer.Jui.Views.InputView.html#HomeSeer_Jui_Views_InputView__value
+  commentId: F:HomeSeer.Jui.Views.InputView._value
+  fullName: HomeSeer.Jui.Views.InputView._value
+  nameWithType: InputView._value
 - uid: HomeSeer.Jui.Views.InputView.GetStringValue
   name: GetStringValue()
   href: api/HomeSeer.Jui.Views.InputView.html#HomeSeer_Jui_Views_InputView_GetStringValue
@@ -1005,12 +1060,114 @@ references:
   isSpec: "True"
   fullName: HomeSeer.Jui.Views.LabelView.Value
   nameWithType: LabelView.Value
+- uid: HomeSeer.Jui.Views.NavigateButtonView
+  name: NavigateButtonView
+  href: api/HomeSeer.Jui.Views.NavigateButtonView.html
+  commentId: T:HomeSeer.Jui.Views.NavigateButtonView
+  fullName: HomeSeer.Jui.Views.NavigateButtonView
+  nameWithType: NavigateButtonView
+- uid: HomeSeer.Jui.Views.NavigateButtonView.#ctor(System.String,System.String,System.String)
+  name: NavigateButtonView(String, String, String)
+  href: api/HomeSeer.Jui.Views.NavigateButtonView.html#HomeSeer_Jui_Views_NavigateButtonView__ctor_System_String_System_String_System_String_
+  commentId: M:HomeSeer.Jui.Views.NavigateButtonView.#ctor(System.String,System.String,System.String)
+  fullName: HomeSeer.Jui.Views.NavigateButtonView.NavigateButtonView(System.String, System.String, System.String)
+  nameWithType: NavigateButtonView.NavigateButtonView(String, String, String)
+- uid: HomeSeer.Jui.Views.NavigateButtonView.#ctor*
+  name: NavigateButtonView
+  href: api/HomeSeer.Jui.Views.NavigateButtonView.html#HomeSeer_Jui_Views_NavigateButtonView__ctor_
+  commentId: Overload:HomeSeer.Jui.Views.NavigateButtonView.#ctor
+  isSpec: "True"
+  fullName: HomeSeer.Jui.Views.NavigateButtonView.NavigateButtonView
+  nameWithType: NavigateButtonView.NavigateButtonView
+- uid: HomeSeer.Jui.Views.NavigateButtonView._invalidNameCharacters
+  name: _invalidNameCharacters
+  href: api/HomeSeer.Jui.Views.NavigateButtonView.html#HomeSeer_Jui_Views_NavigateButtonView__invalidNameCharacters
+  commentId: F:HomeSeer.Jui.Views.NavigateButtonView._invalidNameCharacters
+  fullName: HomeSeer.Jui.Views.NavigateButtonView._invalidNameCharacters
+  nameWithType: NavigateButtonView._invalidNameCharacters
+- uid: HomeSeer.Jui.Views.NavigateButtonView.GetStringValue
+  name: GetStringValue()
+  href: api/HomeSeer.Jui.Views.NavigateButtonView.html#HomeSeer_Jui_Views_NavigateButtonView_GetStringValue
+  commentId: M:HomeSeer.Jui.Views.NavigateButtonView.GetStringValue
+  fullName: HomeSeer.Jui.Views.NavigateButtonView.GetStringValue()
+  nameWithType: NavigateButtonView.GetStringValue()
+- uid: HomeSeer.Jui.Views.NavigateButtonView.GetStringValue*
+  name: GetStringValue
+  href: api/HomeSeer.Jui.Views.NavigateButtonView.html#HomeSeer_Jui_Views_NavigateButtonView_GetStringValue_
+  commentId: Overload:HomeSeer.Jui.Views.NavigateButtonView.GetStringValue
+  isSpec: "True"
+  fullName: HomeSeer.Jui.Views.NavigateButtonView.GetStringValue
+  nameWithType: NavigateButtonView.GetStringValue
+- uid: HomeSeer.Jui.Views.NavigateButtonView.HomeSeerUrl
+  name: HomeSeerUrl
+  href: api/HomeSeer.Jui.Views.NavigateButtonView.html#HomeSeer_Jui_Views_NavigateButtonView_HomeSeerUrl
+  commentId: P:HomeSeer.Jui.Views.NavigateButtonView.HomeSeerUrl
+  fullName: HomeSeer.Jui.Views.NavigateButtonView.HomeSeerUrl
+  nameWithType: NavigateButtonView.HomeSeerUrl
+- uid: HomeSeer.Jui.Views.NavigateButtonView.HomeSeerUrl*
+  name: HomeSeerUrl
+  href: api/HomeSeer.Jui.Views.NavigateButtonView.html#HomeSeer_Jui_Views_NavigateButtonView_HomeSeerUrl_
+  commentId: Overload:HomeSeer.Jui.Views.NavigateButtonView.HomeSeerUrl
+  isSpec: "True"
+  fullName: HomeSeer.Jui.Views.NavigateButtonView.HomeSeerUrl
+  nameWithType: NavigateButtonView.HomeSeerUrl
+- uid: HomeSeer.Jui.Views.NavigateButtonView.ToHtml(System.Int32)
+  name: ToHtml(Int32)
+  href: api/HomeSeer.Jui.Views.NavigateButtonView.html#HomeSeer_Jui_Views_NavigateButtonView_ToHtml_System_Int32_
+  commentId: M:HomeSeer.Jui.Views.NavigateButtonView.ToHtml(System.Int32)
+  fullName: HomeSeer.Jui.Views.NavigateButtonView.ToHtml(System.Int32)
+  nameWithType: NavigateButtonView.ToHtml(Int32)
+- uid: HomeSeer.Jui.Views.NavigateButtonView.ToHtml*
+  name: ToHtml
+  href: api/HomeSeer.Jui.Views.NavigateButtonView.html#HomeSeer_Jui_Views_NavigateButtonView_ToHtml_
+  commentId: Overload:HomeSeer.Jui.Views.NavigateButtonView.ToHtml
+  isSpec: "True"
+  fullName: HomeSeer.Jui.Views.NavigateButtonView.ToHtml
+  nameWithType: NavigateButtonView.ToHtml
+- uid: HomeSeer.Jui.Views.NavigateButtonView.Update(HomeSeer.Jui.Views.AbstractView)
+  name: Update(AbstractView)
+  href: api/HomeSeer.Jui.Views.NavigateButtonView.html#HomeSeer_Jui_Views_NavigateButtonView_Update_HomeSeer_Jui_Views_AbstractView_
+  commentId: M:HomeSeer.Jui.Views.NavigateButtonView.Update(HomeSeer.Jui.Views.AbstractView)
+  fullName: HomeSeer.Jui.Views.NavigateButtonView.Update(HomeSeer.Jui.Views.AbstractView)
+  nameWithType: NavigateButtonView.Update(AbstractView)
+- uid: HomeSeer.Jui.Views.NavigateButtonView.Update*
+  name: Update
+  href: api/HomeSeer.Jui.Views.NavigateButtonView.html#HomeSeer_Jui_Views_NavigateButtonView_Update_
+  commentId: Overload:HomeSeer.Jui.Views.NavigateButtonView.Update
+  isSpec: "True"
+  fullName: HomeSeer.Jui.Views.NavigateButtonView.Update
+  nameWithType: NavigateButtonView.Update
 - uid: HomeSeer.Jui.Views.Page
   name: Page
   href: api/HomeSeer.Jui.Views.Page.html
   commentId: T:HomeSeer.Jui.Views.Page
   fullName: HomeSeer.Jui.Views.Page
   nameWithType: Page
+- uid: HomeSeer.Jui.Views.Page.#ctor(System.String,System.String,HomeSeer.Jui.Types.EPageType)
+  name: Page(String, String, EPageType)
+  href: api/HomeSeer.Jui.Views.Page.html#HomeSeer_Jui_Views_Page__ctor_System_String_System_String_HomeSeer_Jui_Types_EPageType_
+  commentId: M:HomeSeer.Jui.Views.Page.#ctor(System.String,System.String,HomeSeer.Jui.Types.EPageType)
+  fullName: HomeSeer.Jui.Views.Page.Page(System.String, System.String, HomeSeer.Jui.Types.EPageType)
+  nameWithType: Page.Page(String, String, EPageType)
+- uid: HomeSeer.Jui.Views.Page.#ctor*
+  name: Page
+  href: api/HomeSeer.Jui.Views.Page.html#HomeSeer_Jui_Views_Page__ctor_
+  commentId: Overload:HomeSeer.Jui.Views.Page.#ctor
+  isSpec: "True"
+  fullName: HomeSeer.Jui.Views.Page.Page
+  nameWithType: Page.Page
+- uid: HomeSeer.Jui.Views.Page._viewIds
+  name: _viewIds
+  href: api/HomeSeer.Jui.Views.Page.html#HomeSeer_Jui_Views_Page__viewIds
+  commentId: F:HomeSeer.Jui.Views.Page._viewIds
+  fullName: HomeSeer.Jui.Views.Page._viewIds
+  nameWithType: Page._viewIds
+- uid: HomeSeer.Jui.Views.Page._views
+  name: _views
+  href: api/HomeSeer.Jui.Views.Page.html#HomeSeer_Jui_Views_Page__views
+  commentId: F:HomeSeer.Jui.Views.Page._views
+  fullName: HomeSeer.Jui.Views.Page._views
+  nameWithType: Page._views
 - uid: HomeSeer.Jui.Views.Page.AddView(HomeSeer.Jui.Views.AbstractView)
   name: AddView(AbstractView)
   href: api/HomeSeer.Jui.Views.Page.html#HomeSeer_Jui_Views_Page_AddView_HomeSeer_Jui_Views_AbstractView_
@@ -1098,6 +1255,19 @@ references:
   isSpec: "True"
   fullName: HomeSeer.Jui.Views.Page.Factory.CreateDeviceConfigPage
   nameWithType: Page.Factory.CreateDeviceConfigPage
+- uid: HomeSeer.Jui.Views.Page.Factory.CreateDeviceIncPage(System.String,System.String)
+  name: CreateDeviceIncPage(String, String)
+  href: api/HomeSeer.Jui.Views.Page.Factory.html#HomeSeer_Jui_Views_Page_Factory_CreateDeviceIncPage_System_String_System_String_
+  commentId: M:HomeSeer.Jui.Views.Page.Factory.CreateDeviceIncPage(System.String,System.String)
+  fullName: HomeSeer.Jui.Views.Page.Factory.CreateDeviceIncPage(System.String, System.String)
+  nameWithType: Page.Factory.CreateDeviceIncPage(String, String)
+- uid: HomeSeer.Jui.Views.Page.Factory.CreateDeviceIncPage*
+  name: CreateDeviceIncPage
+  href: api/HomeSeer.Jui.Views.Page.Factory.html#HomeSeer_Jui_Views_Page_Factory_CreateDeviceIncPage_
+  commentId: Overload:HomeSeer.Jui.Views.Page.Factory.CreateDeviceIncPage
+  isSpec: "True"
+  fullName: HomeSeer.Jui.Views.Page.Factory.CreateDeviceIncPage
+  nameWithType: Page.Factory.CreateDeviceIncPage
 - uid: HomeSeer.Jui.Views.Page.Factory.CreateEventActionPage(System.String,System.String)
   name: CreateEventActionPage(String, String)
   href: api/HomeSeer.Jui.Views.Page.Factory.html#HomeSeer_Jui_Views_Page_Factory_CreateEventActionPage_System_String_System_String_
@@ -1124,6 +1294,19 @@ references:
   isSpec: "True"
   fullName: HomeSeer.Jui.Views.Page.Factory.CreateEventTriggerPage
   nameWithType: Page.Factory.CreateEventTriggerPage
+- uid: HomeSeer.Jui.Views.Page.Factory.CreateFeaturePage(System.String,System.String)
+  name: CreateFeaturePage(String, String)
+  href: api/HomeSeer.Jui.Views.Page.Factory.html#HomeSeer_Jui_Views_Page_Factory_CreateFeaturePage_System_String_System_String_
+  commentId: M:HomeSeer.Jui.Views.Page.Factory.CreateFeaturePage(System.String,System.String)
+  fullName: HomeSeer.Jui.Views.Page.Factory.CreateFeaturePage(System.String, System.String)
+  nameWithType: Page.Factory.CreateFeaturePage(String, String)
+- uid: HomeSeer.Jui.Views.Page.Factory.CreateFeaturePage*
+  name: CreateFeaturePage
+  href: api/HomeSeer.Jui.Views.Page.Factory.html#HomeSeer_Jui_Views_Page_Factory_CreateFeaturePage_
+  commentId: Overload:HomeSeer.Jui.Views.Page.Factory.CreateFeaturePage
+  isSpec: "True"
+  fullName: HomeSeer.Jui.Views.Page.Factory.CreateFeaturePage
+  nameWithType: Page.Factory.CreateFeaturePage
 - uid: HomeSeer.Jui.Views.Page.Factory.CreateGenericPage(System.String,System.String)
   name: CreateGenericPage(String, String)
   href: api/HomeSeer.Jui.Views.Page.Factory.html#HomeSeer_Jui_Views_Page_Factory_CreateGenericPage_System_String_System_String_
@@ -1137,6 +1320,32 @@ references:
   isSpec: "True"
   fullName: HomeSeer.Jui.Views.Page.Factory.CreateGenericPage
   nameWithType: Page.Factory.CreateGenericPage
+- uid: HomeSeer.Jui.Views.Page.Factory.CreateGuidedProcessPage(System.String,System.String)
+  name: CreateGuidedProcessPage(String, String)
+  href: api/HomeSeer.Jui.Views.Page.Factory.html#HomeSeer_Jui_Views_Page_Factory_CreateGuidedProcessPage_System_String_System_String_
+  commentId: M:HomeSeer.Jui.Views.Page.Factory.CreateGuidedProcessPage(System.String,System.String)
+  fullName: HomeSeer.Jui.Views.Page.Factory.CreateGuidedProcessPage(System.String, System.String)
+  nameWithType: Page.Factory.CreateGuidedProcessPage(String, String)
+- uid: HomeSeer.Jui.Views.Page.Factory.CreateGuidedProcessPage*
+  name: CreateGuidedProcessPage
+  href: api/HomeSeer.Jui.Views.Page.Factory.html#HomeSeer_Jui_Views_Page_Factory_CreateGuidedProcessPage_
+  commentId: Overload:HomeSeer.Jui.Views.Page.Factory.CreateGuidedProcessPage
+  isSpec: "True"
+  fullName: HomeSeer.Jui.Views.Page.Factory.CreateGuidedProcessPage
+  nameWithType: Page.Factory.CreateGuidedProcessPage
+- uid: HomeSeer.Jui.Views.Page.Factory.CreateHtmlFeaturePage(System.String,System.String)
+  name: CreateHtmlFeaturePage(String, String)
+  href: api/HomeSeer.Jui.Views.Page.Factory.html#HomeSeer_Jui_Views_Page_Factory_CreateHtmlFeaturePage_System_String_System_String_
+  commentId: M:HomeSeer.Jui.Views.Page.Factory.CreateHtmlFeaturePage(System.String,System.String)
+  fullName: HomeSeer.Jui.Views.Page.Factory.CreateHtmlFeaturePage(System.String, System.String)
+  nameWithType: Page.Factory.CreateHtmlFeaturePage(String, String)
+- uid: HomeSeer.Jui.Views.Page.Factory.CreateHtmlFeaturePage*
+  name: CreateHtmlFeaturePage
+  href: api/HomeSeer.Jui.Views.Page.Factory.html#HomeSeer_Jui_Views_Page_Factory_CreateHtmlFeaturePage_
+  commentId: Overload:HomeSeer.Jui.Views.Page.Factory.CreateHtmlFeaturePage
+  isSpec: "True"
+  fullName: HomeSeer.Jui.Views.Page.Factory.CreateHtmlFeaturePage
+  nameWithType: Page.Factory.CreateHtmlFeaturePage
 - uid: HomeSeer.Jui.Views.Page.Factory.CreateSettingPage(System.String,System.String)
   name: CreateSettingPage(String, String)
   href: api/HomeSeer.Jui.Views.Page.Factory.html#HomeSeer_Jui_Views_Page_Factory_CreateSettingPage_System_String_System_String_
@@ -1308,6 +1517,19 @@ references:
   isSpec: "True"
   fullName: HomeSeer.Jui.Views.Page.ListFromJson
   nameWithType: Page.ListFromJson
+- uid: HomeSeer.Jui.Views.Page.MapViewIds
+  name: MapViewIds()
+  href: api/HomeSeer.Jui.Views.Page.html#HomeSeer_Jui_Views_Page_MapViewIds
+  commentId: M:HomeSeer.Jui.Views.Page.MapViewIds
+  fullName: HomeSeer.Jui.Views.Page.MapViewIds()
+  nameWithType: Page.MapViewIds()
+- uid: HomeSeer.Jui.Views.Page.MapViewIds*
+  name: MapViewIds
+  href: api/HomeSeer.Jui.Views.Page.html#HomeSeer_Jui_Views_Page_MapViewIds_
+  commentId: Overload:HomeSeer.Jui.Views.Page.MapViewIds
+  isSpec: "True"
+  fullName: HomeSeer.Jui.Views.Page.MapViewIds
+  nameWithType: Page.MapViewIds
 - uid: HomeSeer.Jui.Views.Page.Name
   name: Name
   href: api/HomeSeer.Jui.Views.Page.html#HomeSeer_Jui_Views_Page_Name
@@ -1796,6 +2018,25 @@ references:
   isSpec: "True"
   fullName: HomeSeer.Jui.Views.SelectListView.SelectListView
   nameWithType: SelectListView.SelectListView
+- uid: HomeSeer.Jui.Views.SelectListView._selection
+  name: _selection
+  href: api/HomeSeer.Jui.Views.SelectListView.html#HomeSeer_Jui_Views_SelectListView__selection
+  commentId: F:HomeSeer.Jui.Views.SelectListView._selection
+  fullName: HomeSeer.Jui.Views.SelectListView._selection
+  nameWithType: SelectListView._selection
+- uid: HomeSeer.Jui.Views.SelectListView.DefaultSelectionText
+  name: DefaultSelectionText
+  href: api/HomeSeer.Jui.Views.SelectListView.html#HomeSeer_Jui_Views_SelectListView_DefaultSelectionText
+  commentId: P:HomeSeer.Jui.Views.SelectListView.DefaultSelectionText
+  fullName: HomeSeer.Jui.Views.SelectListView.DefaultSelectionText
+  nameWithType: SelectListView.DefaultSelectionText
+- uid: HomeSeer.Jui.Views.SelectListView.DefaultSelectionText*
+  name: DefaultSelectionText
+  href: api/HomeSeer.Jui.Views.SelectListView.html#HomeSeer_Jui_Views_SelectListView_DefaultSelectionText_
+  commentId: Overload:HomeSeer.Jui.Views.SelectListView.DefaultSelectionText
+  isSpec: "True"
+  fullName: HomeSeer.Jui.Views.SelectListView.DefaultSelectionText
+  nameWithType: SelectListView.DefaultSelectionText
 - uid: HomeSeer.Jui.Views.SelectListView.GetSelectedOption
   name: GetSelectedOption()
   href: api/HomeSeer.Jui.Views.SelectListView.html#HomeSeer_Jui_Views_SelectListView_GetSelectedOption
@@ -1954,6 +2195,24 @@ references:
   isSpec: "True"
   fullName: HomeSeer.Jui.Views.SettingsCollection.SettingsCollection
   nameWithType: SettingsCollection.SettingsCollection
+- uid: HomeSeer.Jui.Views.SettingsCollection._hiddenPages
+  name: _hiddenPages
+  href: api/HomeSeer.Jui.Views.SettingsCollection.html#HomeSeer_Jui_Views_SettingsCollection__hiddenPages
+  commentId: F:HomeSeer.Jui.Views.SettingsCollection._hiddenPages
+  fullName: HomeSeer.Jui.Views.SettingsCollection._hiddenPages
+  nameWithType: SettingsCollection._hiddenPages
+- uid: HomeSeer.Jui.Views.SettingsCollection._pageOrder
+  name: _pageOrder
+  href: api/HomeSeer.Jui.Views.SettingsCollection.html#HomeSeer_Jui_Views_SettingsCollection__pageOrder
+  commentId: F:HomeSeer.Jui.Views.SettingsCollection._pageOrder
+  fullName: HomeSeer.Jui.Views.SettingsCollection._pageOrder
+  nameWithType: SettingsCollection._pageOrder
+- uid: HomeSeer.Jui.Views.SettingsCollection._pages
+  name: _pages
+  href: api/HomeSeer.Jui.Views.SettingsCollection.html#HomeSeer_Jui_Views_SettingsCollection__pages
+  commentId: F:HomeSeer.Jui.Views.SettingsCollection._pages
+  fullName: HomeSeer.Jui.Views.SettingsCollection._pages
+  nameWithType: SettingsCollection._pages
 - uid: HomeSeer.Jui.Views.SettingsCollection.Add(HomeSeer.Jui.Views.Page)
   name: Add(Page)
   href: api/HomeSeer.Jui.Views.SettingsCollection.html#HomeSeer_Jui_Views_SettingsCollection_Add_HomeSeer_Jui_Views_Page_
@@ -2220,6 +2479,12 @@ references:
   isSpec: "True"
   fullName: HomeSeer.Jui.Views.TextAreaView.TextAreaView
   nameWithType: TextAreaView.TextAreaView
+- uid: HomeSeer.Jui.Views.TextAreaView._rows
+  name: _rows
+  href: api/HomeSeer.Jui.Views.TextAreaView.html#HomeSeer_Jui_Views_TextAreaView__rows
+  commentId: F:HomeSeer.Jui.Views.TextAreaView._rows
+  fullName: HomeSeer.Jui.Views.TextAreaView._rows
+  nameWithType: TextAreaView._rows
 - uid: HomeSeer.Jui.Views.TextAreaView.GetStringValue
   name: GetStringValue()
   href: api/HomeSeer.Jui.Views.TextAreaView.html#HomeSeer_Jui_Views_TextAreaView_GetStringValue
@@ -2511,6 +2776,197 @@ references:
   isSpec: "True"
   fullName: HomeSeer.Jui.Views.ToggleView.UpdateValue
   nameWithType: ToggleView.UpdateValue
+- uid: HomeSeer.Jui.Views.ViewCollectionHelper
+  name: ViewCollectionHelper
+  href: api/HomeSeer.Jui.Views.ViewCollectionHelper.html
+  commentId: T:HomeSeer.Jui.Views.ViewCollectionHelper
+  fullName: HomeSeer.Jui.Views.ViewCollectionHelper
+  nameWithType: ViewCollectionHelper
+- uid: HomeSeer.Jui.Views.ViewCollectionHelper.AddView(HomeSeer.Jui.Views.AbstractView,System.Collections.Generic.List{HomeSeer.Jui.Views.AbstractView}@,System.Collections.Generic.Dictionary{System.String,System.Int32}@,System.Boolean)
+  name: AddView(AbstractView, ref List<AbstractView>, ref Dictionary<String, Int32>, Boolean)
+  href: api/HomeSeer.Jui.Views.ViewCollectionHelper.html#HomeSeer_Jui_Views_ViewCollectionHelper_AddView_HomeSeer_Jui_Views_AbstractView_System_Collections_Generic_List_HomeSeer_Jui_Views_AbstractView___System_Collections_Generic_Dictionary_System_String_System_Int32___System_Boolean_
+  commentId: M:HomeSeer.Jui.Views.ViewCollectionHelper.AddView(HomeSeer.Jui.Views.AbstractView,System.Collections.Generic.List{HomeSeer.Jui.Views.AbstractView}@,System.Collections.Generic.Dictionary{System.String,System.Int32}@,System.Boolean)
+  name.vb: AddView(AbstractView, ByRef List(Of AbstractView), ByRef Dictionary(Of String, Int32), Boolean)
+  fullName: HomeSeer.Jui.Views.ViewCollectionHelper.AddView(HomeSeer.Jui.Views.AbstractView, ref System.Collections.Generic.List<HomeSeer.Jui.Views.AbstractView>, ref System.Collections.Generic.Dictionary<System.String, System.Int32>, System.Boolean)
+  fullName.vb: HomeSeer.Jui.Views.ViewCollectionHelper.AddView(HomeSeer.Jui.Views.AbstractView, ByRef System.Collections.Generic.List(Of HomeSeer.Jui.Views.AbstractView), ByRef System.Collections.Generic.Dictionary(Of System.String, System.Int32), System.Boolean)
+  nameWithType: ViewCollectionHelper.AddView(AbstractView, ref List<AbstractView>, ref Dictionary<String, Int32>, Boolean)
+  nameWithType.vb: ViewCollectionHelper.AddView(AbstractView, ByRef List(Of AbstractView), ByRef Dictionary(Of String, Int32), Boolean)
+- uid: HomeSeer.Jui.Views.ViewCollectionHelper.AddView*
+  name: AddView
+  href: api/HomeSeer.Jui.Views.ViewCollectionHelper.html#HomeSeer_Jui_Views_ViewCollectionHelper_AddView_
+  commentId: Overload:HomeSeer.Jui.Views.ViewCollectionHelper.AddView
+  isSpec: "True"
+  fullName: HomeSeer.Jui.Views.ViewCollectionHelper.AddView
+  nameWithType: ViewCollectionHelper.AddView
+- uid: HomeSeer.Jui.Views.ViewCollectionHelper.AddViews(System.Collections.Generic.IEnumerable{HomeSeer.Jui.Views.AbstractView},System.Collections.Generic.List{HomeSeer.Jui.Views.AbstractView}@,System.Collections.Generic.Dictionary{System.String,System.Int32}@,System.Boolean)
+  name: AddViews(IEnumerable<AbstractView>, ref List<AbstractView>, ref Dictionary<String, Int32>, Boolean)
+  href: api/HomeSeer.Jui.Views.ViewCollectionHelper.html#HomeSeer_Jui_Views_ViewCollectionHelper_AddViews_System_Collections_Generic_IEnumerable_HomeSeer_Jui_Views_AbstractView__System_Collections_Generic_List_HomeSeer_Jui_Views_AbstractView___System_Collections_Generic_Dictionary_System_String_System_Int32___System_Boolean_
+  commentId: M:HomeSeer.Jui.Views.ViewCollectionHelper.AddViews(System.Collections.Generic.IEnumerable{HomeSeer.Jui.Views.AbstractView},System.Collections.Generic.List{HomeSeer.Jui.Views.AbstractView}@,System.Collections.Generic.Dictionary{System.String,System.Int32}@,System.Boolean)
+  name.vb: AddViews(IEnumerable(Of AbstractView), ByRef List(Of AbstractView), ByRef Dictionary(Of String, Int32), Boolean)
+  fullName: HomeSeer.Jui.Views.ViewCollectionHelper.AddViews(System.Collections.Generic.IEnumerable<HomeSeer.Jui.Views.AbstractView>, ref System.Collections.Generic.List<HomeSeer.Jui.Views.AbstractView>, ref System.Collections.Generic.Dictionary<System.String, System.Int32>, System.Boolean)
+  fullName.vb: HomeSeer.Jui.Views.ViewCollectionHelper.AddViews(System.Collections.Generic.IEnumerable(Of HomeSeer.Jui.Views.AbstractView), ByRef System.Collections.Generic.List(Of HomeSeer.Jui.Views.AbstractView), ByRef System.Collections.Generic.Dictionary(Of System.String, System.Int32), System.Boolean)
+  nameWithType: ViewCollectionHelper.AddViews(IEnumerable<AbstractView>, ref List<AbstractView>, ref Dictionary<String, Int32>, Boolean)
+  nameWithType.vb: ViewCollectionHelper.AddViews(IEnumerable(Of AbstractView), ByRef List(Of AbstractView), ByRef Dictionary(Of String, Int32), Boolean)
+- uid: HomeSeer.Jui.Views.ViewCollectionHelper.AddViews*
+  name: AddViews
+  href: api/HomeSeer.Jui.Views.ViewCollectionHelper.html#HomeSeer_Jui_Views_ViewCollectionHelper_AddViews_
+  commentId: Overload:HomeSeer.Jui.Views.ViewCollectionHelper.AddViews
+  isSpec: "True"
+  fullName: HomeSeer.Jui.Views.ViewCollectionHelper.AddViews
+  nameWithType: ViewCollectionHelper.AddViews
+- uid: HomeSeer.Jui.Views.ViewCollectionHelper.ContainsViewWithId(System.String,System.Collections.Generic.List{HomeSeer.Jui.Views.AbstractView}@,System.Collections.Generic.Dictionary{System.String,System.Int32}@)
+  name: ContainsViewWithId(String, ref List<AbstractView>, ref Dictionary<String, Int32>)
+  href: api/HomeSeer.Jui.Views.ViewCollectionHelper.html#HomeSeer_Jui_Views_ViewCollectionHelper_ContainsViewWithId_System_String_System_Collections_Generic_List_HomeSeer_Jui_Views_AbstractView___System_Collections_Generic_Dictionary_System_String_System_Int32___
+  commentId: M:HomeSeer.Jui.Views.ViewCollectionHelper.ContainsViewWithId(System.String,System.Collections.Generic.List{HomeSeer.Jui.Views.AbstractView}@,System.Collections.Generic.Dictionary{System.String,System.Int32}@)
+  name.vb: ContainsViewWithId(String, ByRef List(Of AbstractView), ByRef Dictionary(Of String, Int32))
+  fullName: HomeSeer.Jui.Views.ViewCollectionHelper.ContainsViewWithId(System.String, ref System.Collections.Generic.List<HomeSeer.Jui.Views.AbstractView>, ref System.Collections.Generic.Dictionary<System.String, System.Int32>)
+  fullName.vb: HomeSeer.Jui.Views.ViewCollectionHelper.ContainsViewWithId(System.String, ByRef System.Collections.Generic.List(Of HomeSeer.Jui.Views.AbstractView), ByRef System.Collections.Generic.Dictionary(Of System.String, System.Int32))
+  nameWithType: ViewCollectionHelper.ContainsViewWithId(String, ref List<AbstractView>, ref Dictionary<String, Int32>)
+  nameWithType.vb: ViewCollectionHelper.ContainsViewWithId(String, ByRef List(Of AbstractView), ByRef Dictionary(Of String, Int32))
+- uid: HomeSeer.Jui.Views.ViewCollectionHelper.ContainsViewWithId*
+  name: ContainsViewWithId
+  href: api/HomeSeer.Jui.Views.ViewCollectionHelper.html#HomeSeer_Jui_Views_ViewCollectionHelper_ContainsViewWithId_
+  commentId: Overload:HomeSeer.Jui.Views.ViewCollectionHelper.ContainsViewWithId
+  isSpec: "True"
+  fullName: HomeSeer.Jui.Views.ViewCollectionHelper.ContainsViewWithId
+  nameWithType: ViewCollectionHelper.ContainsViewWithId
+- uid: HomeSeer.Jui.Views.ViewCollectionHelper.GetViewById(System.String,System.Collections.Generic.List{HomeSeer.Jui.Views.AbstractView}@,System.Collections.Generic.Dictionary{System.String,System.Int32}@)
+  name: GetViewById(String, ref List<AbstractView>, ref Dictionary<String, Int32>)
+  href: api/HomeSeer.Jui.Views.ViewCollectionHelper.html#HomeSeer_Jui_Views_ViewCollectionHelper_GetViewById_System_String_System_Collections_Generic_List_HomeSeer_Jui_Views_AbstractView___System_Collections_Generic_Dictionary_System_String_System_Int32___
+  commentId: M:HomeSeer.Jui.Views.ViewCollectionHelper.GetViewById(System.String,System.Collections.Generic.List{HomeSeer.Jui.Views.AbstractView}@,System.Collections.Generic.Dictionary{System.String,System.Int32}@)
+  name.vb: GetViewById(String, ByRef List(Of AbstractView), ByRef Dictionary(Of String, Int32))
+  fullName: HomeSeer.Jui.Views.ViewCollectionHelper.GetViewById(System.String, ref System.Collections.Generic.List<HomeSeer.Jui.Views.AbstractView>, ref System.Collections.Generic.Dictionary<System.String, System.Int32>)
+  fullName.vb: HomeSeer.Jui.Views.ViewCollectionHelper.GetViewById(System.String, ByRef System.Collections.Generic.List(Of HomeSeer.Jui.Views.AbstractView), ByRef System.Collections.Generic.Dictionary(Of System.String, System.Int32))
+  nameWithType: ViewCollectionHelper.GetViewById(String, ref List<AbstractView>, ref Dictionary<String, Int32>)
+  nameWithType.vb: ViewCollectionHelper.GetViewById(String, ByRef List(Of AbstractView), ByRef Dictionary(Of String, Int32))
+- uid: HomeSeer.Jui.Views.ViewCollectionHelper.GetViewById*
+  name: GetViewById
+  href: api/HomeSeer.Jui.Views.ViewCollectionHelper.html#HomeSeer_Jui_Views_ViewCollectionHelper_GetViewById_
+  commentId: Overload:HomeSeer.Jui.Views.ViewCollectionHelper.GetViewById
+  isSpec: "True"
+  fullName: HomeSeer.Jui.Views.ViewCollectionHelper.GetViewById
+  nameWithType: ViewCollectionHelper.GetViewById
+- uid: HomeSeer.Jui.Views.ViewCollectionHelper.GetViewById``1(System.String,System.Collections.Generic.List{HomeSeer.Jui.Views.AbstractView}@,System.Collections.Generic.Dictionary{System.String,System.Int32}@)
+  name: GetViewById<TViewType>(String, ref List<AbstractView>, ref Dictionary<String, Int32>)
+  href: api/HomeSeer.Jui.Views.ViewCollectionHelper.html#HomeSeer_Jui_Views_ViewCollectionHelper_GetViewById__1_System_String_System_Collections_Generic_List_HomeSeer_Jui_Views_AbstractView___System_Collections_Generic_Dictionary_System_String_System_Int32___
+  commentId: M:HomeSeer.Jui.Views.ViewCollectionHelper.GetViewById``1(System.String,System.Collections.Generic.List{HomeSeer.Jui.Views.AbstractView}@,System.Collections.Generic.Dictionary{System.String,System.Int32}@)
+  name.vb: GetViewById(Of TViewType)(String, ByRef List(Of AbstractView), ByRef Dictionary(Of String, Int32))
+  fullName: HomeSeer.Jui.Views.ViewCollectionHelper.GetViewById<TViewType>(System.String, ref System.Collections.Generic.List<HomeSeer.Jui.Views.AbstractView>, ref System.Collections.Generic.Dictionary<System.String, System.Int32>)
+  fullName.vb: HomeSeer.Jui.Views.ViewCollectionHelper.GetViewById(Of TViewType)(System.String, ByRef System.Collections.Generic.List(Of HomeSeer.Jui.Views.AbstractView), ByRef System.Collections.Generic.Dictionary(Of System.String, System.Int32))
+  nameWithType: ViewCollectionHelper.GetViewById<TViewType>(String, ref List<AbstractView>, ref Dictionary<String, Int32>)
+  nameWithType.vb: ViewCollectionHelper.GetViewById(Of TViewType)(String, ByRef List(Of AbstractView), ByRef Dictionary(Of String, Int32))
+- uid: HomeSeer.Jui.Views.ViewCollectionHelper.MapViewIds(System.Collections.Generic.List{HomeSeer.Jui.Views.AbstractView},System.Collections.Generic.Dictionary{System.String,System.Int32}@,System.Boolean)
+  name: MapViewIds(List<AbstractView>, out Dictionary<String, Int32>, Boolean)
+  href: api/HomeSeer.Jui.Views.ViewCollectionHelper.html#HomeSeer_Jui_Views_ViewCollectionHelper_MapViewIds_System_Collections_Generic_List_HomeSeer_Jui_Views_AbstractView__System_Collections_Generic_Dictionary_System_String_System_Int32___System_Boolean_
+  commentId: M:HomeSeer.Jui.Views.ViewCollectionHelper.MapViewIds(System.Collections.Generic.List{HomeSeer.Jui.Views.AbstractView},System.Collections.Generic.Dictionary{System.String,System.Int32}@,System.Boolean)
+  name.vb: MapViewIds(List(Of AbstractView), ByRef Dictionary(Of String, Int32), Boolean)
+  fullName: HomeSeer.Jui.Views.ViewCollectionHelper.MapViewIds(System.Collections.Generic.List<HomeSeer.Jui.Views.AbstractView>, out System.Collections.Generic.Dictionary<System.String, System.Int32>, System.Boolean)
+  fullName.vb: HomeSeer.Jui.Views.ViewCollectionHelper.MapViewIds(System.Collections.Generic.List(Of HomeSeer.Jui.Views.AbstractView), ByRef System.Collections.Generic.Dictionary(Of System.String, System.Int32), System.Boolean)
+  nameWithType: ViewCollectionHelper.MapViewIds(List<AbstractView>, out Dictionary<String, Int32>, Boolean)
+  nameWithType.vb: ViewCollectionHelper.MapViewIds(List(Of AbstractView), ByRef Dictionary(Of String, Int32), Boolean)
+- uid: HomeSeer.Jui.Views.ViewCollectionHelper.MapViewIds*
+  name: MapViewIds
+  href: api/HomeSeer.Jui.Views.ViewCollectionHelper.html#HomeSeer_Jui_Views_ViewCollectionHelper_MapViewIds_
+  commentId: Overload:HomeSeer.Jui.Views.ViewCollectionHelper.MapViewIds
+  isSpec: "True"
+  fullName: HomeSeer.Jui.Views.ViewCollectionHelper.MapViewIds
+  nameWithType: ViewCollectionHelper.MapViewIds
+- uid: HomeSeer.Jui.Views.ViewCollectionHelper.RemoveAllViews(System.Collections.Generic.List{HomeSeer.Jui.Views.AbstractView}@,System.Collections.Generic.Dictionary{System.String,System.Int32}@)
+  name: RemoveAllViews(out List<AbstractView>, out Dictionary<String, Int32>)
+  href: api/HomeSeer.Jui.Views.ViewCollectionHelper.html#HomeSeer_Jui_Views_ViewCollectionHelper_RemoveAllViews_System_Collections_Generic_List_HomeSeer_Jui_Views_AbstractView___System_Collections_Generic_Dictionary_System_String_System_Int32___
+  commentId: M:HomeSeer.Jui.Views.ViewCollectionHelper.RemoveAllViews(System.Collections.Generic.List{HomeSeer.Jui.Views.AbstractView}@,System.Collections.Generic.Dictionary{System.String,System.Int32}@)
+  name.vb: RemoveAllViews(ByRef List(Of AbstractView), ByRef Dictionary(Of String, Int32))
+  fullName: HomeSeer.Jui.Views.ViewCollectionHelper.RemoveAllViews(out System.Collections.Generic.List<HomeSeer.Jui.Views.AbstractView>, out System.Collections.Generic.Dictionary<System.String, System.Int32>)
+  fullName.vb: HomeSeer.Jui.Views.ViewCollectionHelper.RemoveAllViews(ByRef System.Collections.Generic.List(Of HomeSeer.Jui.Views.AbstractView), ByRef System.Collections.Generic.Dictionary(Of System.String, System.Int32))
+  nameWithType: ViewCollectionHelper.RemoveAllViews(out List<AbstractView>, out Dictionary<String, Int32>)
+  nameWithType.vb: ViewCollectionHelper.RemoveAllViews(ByRef List(Of AbstractView), ByRef Dictionary(Of String, Int32))
+- uid: HomeSeer.Jui.Views.ViewCollectionHelper.RemoveAllViews*
+  name: RemoveAllViews
+  href: api/HomeSeer.Jui.Views.ViewCollectionHelper.html#HomeSeer_Jui_Views_ViewCollectionHelper_RemoveAllViews_
+  commentId: Overload:HomeSeer.Jui.Views.ViewCollectionHelper.RemoveAllViews
+  isSpec: "True"
+  fullName: HomeSeer.Jui.Views.ViewCollectionHelper.RemoveAllViews
+  nameWithType: ViewCollectionHelper.RemoveAllViews
+- uid: HomeSeer.Jui.Views.ViewCollectionHelper.RemoveViewById(System.String,System.Collections.Generic.List{HomeSeer.Jui.Views.AbstractView}@,System.Collections.Generic.Dictionary{System.String,System.Int32}@)
+  name: RemoveViewById(String, ref List<AbstractView>, ref Dictionary<String, Int32>)
+  href: api/HomeSeer.Jui.Views.ViewCollectionHelper.html#HomeSeer_Jui_Views_ViewCollectionHelper_RemoveViewById_System_String_System_Collections_Generic_List_HomeSeer_Jui_Views_AbstractView___System_Collections_Generic_Dictionary_System_String_System_Int32___
+  commentId: M:HomeSeer.Jui.Views.ViewCollectionHelper.RemoveViewById(System.String,System.Collections.Generic.List{HomeSeer.Jui.Views.AbstractView}@,System.Collections.Generic.Dictionary{System.String,System.Int32}@)
+  name.vb: RemoveViewById(String, ByRef List(Of AbstractView), ByRef Dictionary(Of String, Int32))
+  fullName: HomeSeer.Jui.Views.ViewCollectionHelper.RemoveViewById(System.String, ref System.Collections.Generic.List<HomeSeer.Jui.Views.AbstractView>, ref System.Collections.Generic.Dictionary<System.String, System.Int32>)
+  fullName.vb: HomeSeer.Jui.Views.ViewCollectionHelper.RemoveViewById(System.String, ByRef System.Collections.Generic.List(Of HomeSeer.Jui.Views.AbstractView), ByRef System.Collections.Generic.Dictionary(Of System.String, System.Int32))
+  nameWithType: ViewCollectionHelper.RemoveViewById(String, ref List<AbstractView>, ref Dictionary<String, Int32>)
+  nameWithType.vb: ViewCollectionHelper.RemoveViewById(String, ByRef List(Of AbstractView), ByRef Dictionary(Of String, Int32))
+- uid: HomeSeer.Jui.Views.ViewCollectionHelper.RemoveViewById*
+  name: RemoveViewById
+  href: api/HomeSeer.Jui.Views.ViewCollectionHelper.html#HomeSeer_Jui_Views_ViewCollectionHelper_RemoveViewById_
+  commentId: Overload:HomeSeer.Jui.Views.ViewCollectionHelper.RemoveViewById
+  isSpec: "True"
+  fullName: HomeSeer.Jui.Views.ViewCollectionHelper.RemoveViewById
+  nameWithType: ViewCollectionHelper.RemoveViewById
+- uid: HomeSeer.Jui.Views.ViewCollectionHelper.RemoveViewsAfterId(System.String,System.Collections.Generic.List{HomeSeer.Jui.Views.AbstractView}@,System.Collections.Generic.Dictionary{System.String,System.Int32}@)
+  name: RemoveViewsAfterId(String, ref List<AbstractView>, ref Dictionary<String, Int32>)
+  href: api/HomeSeer.Jui.Views.ViewCollectionHelper.html#HomeSeer_Jui_Views_ViewCollectionHelper_RemoveViewsAfterId_System_String_System_Collections_Generic_List_HomeSeer_Jui_Views_AbstractView___System_Collections_Generic_Dictionary_System_String_System_Int32___
+  commentId: M:HomeSeer.Jui.Views.ViewCollectionHelper.RemoveViewsAfterId(System.String,System.Collections.Generic.List{HomeSeer.Jui.Views.AbstractView}@,System.Collections.Generic.Dictionary{System.String,System.Int32}@)
+  name.vb: RemoveViewsAfterId(String, ByRef List(Of AbstractView), ByRef Dictionary(Of String, Int32))
+  fullName: HomeSeer.Jui.Views.ViewCollectionHelper.RemoveViewsAfterId(System.String, ref System.Collections.Generic.List<HomeSeer.Jui.Views.AbstractView>, ref System.Collections.Generic.Dictionary<System.String, System.Int32>)
+  fullName.vb: HomeSeer.Jui.Views.ViewCollectionHelper.RemoveViewsAfterId(System.String, ByRef System.Collections.Generic.List(Of HomeSeer.Jui.Views.AbstractView), ByRef System.Collections.Generic.Dictionary(Of System.String, System.Int32))
+  nameWithType: ViewCollectionHelper.RemoveViewsAfterId(String, ref List<AbstractView>, ref Dictionary<String, Int32>)
+  nameWithType.vb: ViewCollectionHelper.RemoveViewsAfterId(String, ByRef List(Of AbstractView), ByRef Dictionary(Of String, Int32))
+- uid: HomeSeer.Jui.Views.ViewCollectionHelper.RemoveViewsAfterId*
+  name: RemoveViewsAfterId
+  href: api/HomeSeer.Jui.Views.ViewCollectionHelper.html#HomeSeer_Jui_Views_ViewCollectionHelper_RemoveViewsAfterId_
+  commentId: Overload:HomeSeer.Jui.Views.ViewCollectionHelper.RemoveViewsAfterId
+  isSpec: "True"
+  fullName: HomeSeer.Jui.Views.ViewCollectionHelper.RemoveViewsAfterId
+  nameWithType: ViewCollectionHelper.RemoveViewsAfterId
+- uid: HomeSeer.Jui.Views.ViewCollectionHelper.SetViews(System.Collections.Generic.IEnumerable{HomeSeer.Jui.Views.AbstractView},System.Collections.Generic.List{HomeSeer.Jui.Views.AbstractView}@,System.Collections.Generic.Dictionary{System.String,System.Int32}@,System.Boolean)
+  name: SetViews(IEnumerable<AbstractView>, ref List<AbstractView>, ref Dictionary<String, Int32>, Boolean)
+  href: api/HomeSeer.Jui.Views.ViewCollectionHelper.html#HomeSeer_Jui_Views_ViewCollectionHelper_SetViews_System_Collections_Generic_IEnumerable_HomeSeer_Jui_Views_AbstractView__System_Collections_Generic_List_HomeSeer_Jui_Views_AbstractView___System_Collections_Generic_Dictionary_System_String_System_Int32___System_Boolean_
+  commentId: M:HomeSeer.Jui.Views.ViewCollectionHelper.SetViews(System.Collections.Generic.IEnumerable{HomeSeer.Jui.Views.AbstractView},System.Collections.Generic.List{HomeSeer.Jui.Views.AbstractView}@,System.Collections.Generic.Dictionary{System.String,System.Int32}@,System.Boolean)
+  name.vb: SetViews(IEnumerable(Of AbstractView), ByRef List(Of AbstractView), ByRef Dictionary(Of String, Int32), Boolean)
+  fullName: HomeSeer.Jui.Views.ViewCollectionHelper.SetViews(System.Collections.Generic.IEnumerable<HomeSeer.Jui.Views.AbstractView>, ref System.Collections.Generic.List<HomeSeer.Jui.Views.AbstractView>, ref System.Collections.Generic.Dictionary<System.String, System.Int32>, System.Boolean)
+  fullName.vb: HomeSeer.Jui.Views.ViewCollectionHelper.SetViews(System.Collections.Generic.IEnumerable(Of HomeSeer.Jui.Views.AbstractView), ByRef System.Collections.Generic.List(Of HomeSeer.Jui.Views.AbstractView), ByRef System.Collections.Generic.Dictionary(Of System.String, System.Int32), System.Boolean)
+  nameWithType: ViewCollectionHelper.SetViews(IEnumerable<AbstractView>, ref List<AbstractView>, ref Dictionary<String, Int32>, Boolean)
+  nameWithType.vb: ViewCollectionHelper.SetViews(IEnumerable(Of AbstractView), ByRef List(Of AbstractView), ByRef Dictionary(Of String, Int32), Boolean)
+- uid: HomeSeer.Jui.Views.ViewCollectionHelper.SetViews*
+  name: SetViews
+  href: api/HomeSeer.Jui.Views.ViewCollectionHelper.html#HomeSeer_Jui_Views_ViewCollectionHelper_SetViews_
+  commentId: Overload:HomeSeer.Jui.Views.ViewCollectionHelper.SetViews
+  isSpec: "True"
+  fullName: HomeSeer.Jui.Views.ViewCollectionHelper.SetViews
+  nameWithType: ViewCollectionHelper.SetViews
+- uid: HomeSeer.Jui.Views.ViewCollectionHelper.UpdateViewById(HomeSeer.Jui.Views.AbstractView,System.Collections.Generic.List{HomeSeer.Jui.Views.AbstractView}@,System.Collections.Generic.Dictionary{System.String,System.Int32}@)
+  name: UpdateViewById(AbstractView, ref List<AbstractView>, ref Dictionary<String, Int32>)
+  href: api/HomeSeer.Jui.Views.ViewCollectionHelper.html#HomeSeer_Jui_Views_ViewCollectionHelper_UpdateViewById_HomeSeer_Jui_Views_AbstractView_System_Collections_Generic_List_HomeSeer_Jui_Views_AbstractView___System_Collections_Generic_Dictionary_System_String_System_Int32___
+  commentId: M:HomeSeer.Jui.Views.ViewCollectionHelper.UpdateViewById(HomeSeer.Jui.Views.AbstractView,System.Collections.Generic.List{HomeSeer.Jui.Views.AbstractView}@,System.Collections.Generic.Dictionary{System.String,System.Int32}@)
+  name.vb: UpdateViewById(AbstractView, ByRef List(Of AbstractView), ByRef Dictionary(Of String, Int32))
+  fullName: HomeSeer.Jui.Views.ViewCollectionHelper.UpdateViewById(HomeSeer.Jui.Views.AbstractView, ref System.Collections.Generic.List<HomeSeer.Jui.Views.AbstractView>, ref System.Collections.Generic.Dictionary<System.String, System.Int32>)
+  fullName.vb: HomeSeer.Jui.Views.ViewCollectionHelper.UpdateViewById(HomeSeer.Jui.Views.AbstractView, ByRef System.Collections.Generic.List(Of HomeSeer.Jui.Views.AbstractView), ByRef System.Collections.Generic.Dictionary(Of System.String, System.Int32))
+  nameWithType: ViewCollectionHelper.UpdateViewById(AbstractView, ref List<AbstractView>, ref Dictionary<String, Int32>)
+  nameWithType.vb: ViewCollectionHelper.UpdateViewById(AbstractView, ByRef List(Of AbstractView), ByRef Dictionary(Of String, Int32))
+- uid: HomeSeer.Jui.Views.ViewCollectionHelper.UpdateViewById*
+  name: UpdateViewById
+  href: api/HomeSeer.Jui.Views.ViewCollectionHelper.html#HomeSeer_Jui_Views_ViewCollectionHelper_UpdateViewById_
+  commentId: Overload:HomeSeer.Jui.Views.ViewCollectionHelper.UpdateViewById
+  isSpec: "True"
+  fullName: HomeSeer.Jui.Views.ViewCollectionHelper.UpdateViewById
+  nameWithType: ViewCollectionHelper.UpdateViewById
+- uid: HomeSeer.Jui.Views.ViewCollectionHelper.UpdateViewValueById(System.String,System.String,System.Collections.Generic.List{HomeSeer.Jui.Views.AbstractView}@,System.Collections.Generic.Dictionary{System.String,System.Int32}@)
+  name: UpdateViewValueById(String, String, ref List<AbstractView>, ref Dictionary<String, Int32>)
+  href: api/HomeSeer.Jui.Views.ViewCollectionHelper.html#HomeSeer_Jui_Views_ViewCollectionHelper_UpdateViewValueById_System_String_System_String_System_Collections_Generic_List_HomeSeer_Jui_Views_AbstractView___System_Collections_Generic_Dictionary_System_String_System_Int32___
+  commentId: M:HomeSeer.Jui.Views.ViewCollectionHelper.UpdateViewValueById(System.String,System.String,System.Collections.Generic.List{HomeSeer.Jui.Views.AbstractView}@,System.Collections.Generic.Dictionary{System.String,System.Int32}@)
+  name.vb: UpdateViewValueById(String, String, ByRef List(Of AbstractView), ByRef Dictionary(Of String, Int32))
+  fullName: HomeSeer.Jui.Views.ViewCollectionHelper.UpdateViewValueById(System.String, System.String, ref System.Collections.Generic.List<HomeSeer.Jui.Views.AbstractView>, ref System.Collections.Generic.Dictionary<System.String, System.Int32>)
+  fullName.vb: HomeSeer.Jui.Views.ViewCollectionHelper.UpdateViewValueById(System.String, System.String, ByRef System.Collections.Generic.List(Of HomeSeer.Jui.Views.AbstractView), ByRef System.Collections.Generic.Dictionary(Of System.String, System.Int32))
+  nameWithType: ViewCollectionHelper.UpdateViewValueById(String, String, ref List<AbstractView>, ref Dictionary<String, Int32>)
+  nameWithType.vb: ViewCollectionHelper.UpdateViewValueById(String, String, ByRef List(Of AbstractView), ByRef Dictionary(Of String, Int32))
+- uid: HomeSeer.Jui.Views.ViewCollectionHelper.UpdateViewValueById*
+  name: UpdateViewValueById
+  href: api/HomeSeer.Jui.Views.ViewCollectionHelper.html#HomeSeer_Jui_Views_ViewCollectionHelper_UpdateViewValueById_
+  commentId: Overload:HomeSeer.Jui.Views.ViewCollectionHelper.UpdateViewValueById
+  isSpec: "True"
+  fullName: HomeSeer.Jui.Views.ViewCollectionHelper.UpdateViewValueById
+  nameWithType: ViewCollectionHelper.UpdateViewValueById
 - uid: HomeSeer.Jui.Views.ViewGroup
   name: ViewGroup
   href: api/HomeSeer.Jui.Views.ViewGroup.html
@@ -2536,6 +2992,18 @@ references:
   isSpec: "True"
   fullName: HomeSeer.Jui.Views.ViewGroup.ViewGroup
   nameWithType: ViewGroup.ViewGroup
+- uid: HomeSeer.Jui.Views.ViewGroup._viewIds
+  name: _viewIds
+  href: api/HomeSeer.Jui.Views.ViewGroup.html#HomeSeer_Jui_Views_ViewGroup__viewIds
+  commentId: F:HomeSeer.Jui.Views.ViewGroup._viewIds
+  fullName: HomeSeer.Jui.Views.ViewGroup._viewIds
+  nameWithType: ViewGroup._viewIds
+- uid: HomeSeer.Jui.Views.ViewGroup._views
+  name: _views
+  href: api/HomeSeer.Jui.Views.ViewGroup.html#HomeSeer_Jui_Views_ViewGroup__views
+  commentId: F:HomeSeer.Jui.Views.ViewGroup._views
+  fullName: HomeSeer.Jui.Views.ViewGroup._views
+  nameWithType: ViewGroup._views
 - uid: HomeSeer.Jui.Views.ViewGroup.AddView(HomeSeer.Jui.Views.AbstractView)
   name: AddView(AbstractView)
   href: api/HomeSeer.Jui.Views.ViewGroup.html#HomeSeer_Jui_Views_ViewGroup_AddView_HomeSeer_Jui_Views_AbstractView_
@@ -2613,6 +3081,19 @@ references:
   fullName.vb: HomeSeer.Jui.Views.ViewGroup.GetViewById(Of TViewType)(System.String)
   nameWithType: ViewGroup.GetViewById<TViewType>(String)
   nameWithType.vb: ViewGroup.GetViewById(Of TViewType)(String)
+- uid: HomeSeer.Jui.Views.ViewGroup.MapViewIds
+  name: MapViewIds()
+  href: api/HomeSeer.Jui.Views.ViewGroup.html#HomeSeer_Jui_Views_ViewGroup_MapViewIds
+  commentId: M:HomeSeer.Jui.Views.ViewGroup.MapViewIds
+  fullName: HomeSeer.Jui.Views.ViewGroup.MapViewIds()
+  nameWithType: ViewGroup.MapViewIds()
+- uid: HomeSeer.Jui.Views.ViewGroup.MapViewIds*
+  name: MapViewIds
+  href: api/HomeSeer.Jui.Views.ViewGroup.html#HomeSeer_Jui_Views_ViewGroup_MapViewIds_
+  commentId: Overload:HomeSeer.Jui.Views.ViewGroup.MapViewIds
+  isSpec: "True"
+  fullName: HomeSeer.Jui.Views.ViewGroup.MapViewIds
+  nameWithType: ViewGroup.MapViewIds
 - uid: HomeSeer.Jui.Views.ViewGroup.RemoveAllViews
   name: RemoveAllViews()
   href: api/HomeSeer.Jui.Views.ViewGroup.html#HomeSeer_Jui_Views_ViewGroup_RemoveAllViews
@@ -2832,6 +3313,24 @@ references:
   isSpec: "True"
   fullName: HomeSeer.PluginSdk.AbstractPlugin.AbstractPlugin
   nameWithType: AbstractPlugin.AbstractPlugin
+- uid: HomeSeer.PluginSdk.AbstractPlugin._client
+  name: _client
+  href: api/HomeSeer.PluginSdk.AbstractPlugin.html#HomeSeer_PluginSdk_AbstractPlugin__client
+  commentId: F:HomeSeer.PluginSdk.AbstractPlugin._client
+  fullName: HomeSeer.PluginSdk.AbstractPlugin._client
+  nameWithType: AbstractPlugin._client
+- uid: HomeSeer.PluginSdk.AbstractPlugin._isShutdown
+  name: _isShutdown
+  href: api/HomeSeer.PluginSdk.AbstractPlugin.html#HomeSeer_PluginSdk_AbstractPlugin__isShutdown
+  commentId: F:HomeSeer.PluginSdk.AbstractPlugin._isShutdown
+  fullName: HomeSeer.PluginSdk.AbstractPlugin._isShutdown
+  nameWithType: AbstractPlugin._isShutdown
+- uid: HomeSeer.PluginSdk.AbstractPlugin._logDebug
+  name: _logDebug
+  href: api/HomeSeer.PluginSdk.AbstractPlugin.html#HomeSeer_PluginSdk_AbstractPlugin__logDebug
+  commentId: F:HomeSeer.PluginSdk.AbstractPlugin._logDebug
+  fullName: HomeSeer.PluginSdk.AbstractPlugin._logDebug
+  nameWithType: AbstractPlugin._logDebug
 - uid: HomeSeer.PluginSdk.AbstractPlugin.AccessLevel
   name: AccessLevel
   href: api/HomeSeer.PluginSdk.AbstractPlugin.html#HomeSeer_PluginSdk_AbstractPlugin_AccessLevel
@@ -2952,6 +3451,12 @@ references:
   isSpec: "True"
   fullName: HomeSeer.PluginSdk.AbstractPlugin.BeforeReturnStatus
   nameWithType: AbstractPlugin.BeforeReturnStatus
+- uid: HomeSeer.PluginSdk.AbstractPlugin.Connect(System.Int32)
+  name: Connect(Int32)
+  href: api/HomeSeer.PluginSdk.AbstractPlugin.html#HomeSeer_PluginSdk_AbstractPlugin_Connect_System_Int32_
+  commentId: M:HomeSeer.PluginSdk.AbstractPlugin.Connect(System.Int32)
+  fullName: HomeSeer.PluginSdk.AbstractPlugin.Connect(System.Int32)
+  nameWithType: AbstractPlugin.Connect(Int32)
 - uid: HomeSeer.PluginSdk.AbstractPlugin.Connect(System.String[])
   name: Connect(String[])
   href: api/HomeSeer.PluginSdk.AbstractPlugin.html#HomeSeer_PluginSdk_AbstractPlugin_Connect_System_String___
@@ -3085,6 +3590,12 @@ references:
   isSpec: "True"
   fullName: HomeSeer.PluginSdk.AbstractPlugin.HasSettings
   nameWithType: AbstractPlugin.HasSettings
+- uid: HomeSeer.PluginSdk.AbstractPlugin.HomeSeerPort
+  name: HomeSeerPort
+  href: api/HomeSeer.PluginSdk.AbstractPlugin.html#HomeSeer_PluginSdk_AbstractPlugin_HomeSeerPort
+  commentId: F:HomeSeer.PluginSdk.AbstractPlugin.HomeSeerPort
+  fullName: HomeSeer.PluginSdk.AbstractPlugin.HomeSeerPort
+  nameWithType: AbstractPlugin.HomeSeerPort
 - uid: HomeSeer.PluginSdk.AbstractPlugin.HomeSeerSystem
   name: HomeSeerSystem
   href: api/HomeSeer.PluginSdk.AbstractPlugin.html#HomeSeer_PluginSdk_AbstractPlugin_HomeSeerSystem
@@ -4824,6 +5335,12 @@ references:
   commentId: F:HomeSeer.PluginSdk.Devices.AbstractHsDevice._cacheChanges
   fullName: HomeSeer.PluginSdk.Devices.AbstractHsDevice._cacheChanges
   nameWithType: AbstractHsDevice._cacheChanges
+- uid: HomeSeer.PluginSdk.Devices.AbstractHsDevice._displayedStatus
+  name: _displayedStatus
+  href: api/HomeSeer.PluginSdk.Devices.AbstractHsDevice.html#HomeSeer_PluginSdk_Devices_AbstractHsDevice__displayedStatus
+  commentId: F:HomeSeer.PluginSdk.Devices.AbstractHsDevice._displayedStatus
+  fullName: HomeSeer.PluginSdk.Devices.AbstractHsDevice._displayedStatus
+  nameWithType: AbstractHsDevice._displayedStatus
 - uid: HomeSeer.PluginSdk.Devices.AbstractHsDevice._image
   name: _image
   href: api/HomeSeer.PluginSdk.Devices.AbstractHsDevice.html#HomeSeer_PluginSdk_Devices_AbstractHsDevice__image
@@ -4890,6 +5407,12 @@ references:
   commentId: F:HomeSeer.PluginSdk.Devices.AbstractHsDevice._status
   fullName: HomeSeer.PluginSdk.Devices.AbstractHsDevice._status
   nameWithType: AbstractHsDevice._status
+- uid: HomeSeer.PluginSdk.Devices.AbstractHsDevice._statusString
+  name: _statusString
+  href: api/HomeSeer.PluginSdk.Devices.AbstractHsDevice.html#HomeSeer_PluginSdk_Devices_AbstractHsDevice__statusString
+  commentId: F:HomeSeer.PluginSdk.Devices.AbstractHsDevice._statusString
+  fullName: HomeSeer.PluginSdk.Devices.AbstractHsDevice._statusString
+  nameWithType: AbstractHsDevice._statusString
 - uid: HomeSeer.PluginSdk.Devices.AbstractHsDevice._typeInfo
   name: _typeInfo
   href: api/HomeSeer.PluginSdk.Devices.AbstractHsDevice.html#HomeSeer_PluginSdk_Devices_AbstractHsDevice__typeInfo
@@ -5011,6 +5534,19 @@ references:
   isSpec: "True"
   fullName: HomeSeer.PluginSdk.Devices.AbstractHsDevice.ContainsMiscFlag
   nameWithType: AbstractHsDevice.ContainsMiscFlag
+- uid: HomeSeer.PluginSdk.Devices.AbstractHsDevice.DisplayedStatus
+  name: DisplayedStatus
+  href: api/HomeSeer.PluginSdk.Devices.AbstractHsDevice.html#HomeSeer_PluginSdk_Devices_AbstractHsDevice_DisplayedStatus
+  commentId: P:HomeSeer.PluginSdk.Devices.AbstractHsDevice.DisplayedStatus
+  fullName: HomeSeer.PluginSdk.Devices.AbstractHsDevice.DisplayedStatus
+  nameWithType: AbstractHsDevice.DisplayedStatus
+- uid: HomeSeer.PluginSdk.Devices.AbstractHsDevice.DisplayedStatus*
+  name: DisplayedStatus
+  href: api/HomeSeer.PluginSdk.Devices.AbstractHsDevice.html#HomeSeer_PluginSdk_Devices_AbstractHsDevice_DisplayedStatus_
+  commentId: Overload:HomeSeer.PluginSdk.Devices.AbstractHsDevice.DisplayedStatus
+  isSpec: "True"
+  fullName: HomeSeer.PluginSdk.Devices.AbstractHsDevice.DisplayedStatus
+  nameWithType: AbstractHsDevice.DisplayedStatus
 - uid: HomeSeer.PluginSdk.Devices.AbstractHsDevice.GetAddressFromAddressString(System.String)
   name: GetAddressFromAddressString(String)
   href: api/HomeSeer.PluginSdk.Devices.AbstractHsDevice.html#HomeSeer_PluginSdk_Devices_AbstractHsDevice_GetAddressFromAddressString_System_String_
@@ -5248,6 +5784,19 @@ references:
   isSpec: "True"
   fullName: HomeSeer.PluginSdk.Devices.AbstractHsDevice.Status
   nameWithType: AbstractHsDevice.Status
+- uid: HomeSeer.PluginSdk.Devices.AbstractHsDevice.StatusString
+  name: StatusString
+  href: api/HomeSeer.PluginSdk.Devices.AbstractHsDevice.html#HomeSeer_PluginSdk_Devices_AbstractHsDevice_StatusString
+  commentId: P:HomeSeer.PluginSdk.Devices.AbstractHsDevice.StatusString
+  fullName: HomeSeer.PluginSdk.Devices.AbstractHsDevice.StatusString
+  nameWithType: AbstractHsDevice.StatusString
+- uid: HomeSeer.PluginSdk.Devices.AbstractHsDevice.StatusString*
+  name: StatusString
+  href: api/HomeSeer.PluginSdk.Devices.AbstractHsDevice.html#HomeSeer_PluginSdk_Devices_AbstractHsDevice_StatusString_
+  commentId: Overload:HomeSeer.PluginSdk.Devices.AbstractHsDevice.StatusString
+  isSpec: "True"
+  fullName: HomeSeer.PluginSdk.Devices.AbstractHsDevice.StatusString
+  nameWithType: AbstractHsDevice.StatusString
 - uid: HomeSeer.PluginSdk.Devices.AbstractHsDevice.TypeInfo
   name: TypeInfo
   href: api/HomeSeer.PluginSdk.Devices.AbstractHsDevice.html#HomeSeer_PluginSdk_Devices_AbstractHsDevice_TypeInfo
@@ -5464,6 +6013,48 @@ references:
   isSpec: "True"
   fullName: HomeSeer.PluginSdk.Devices.Controls.ControlEvent.ControlEvent
   nameWithType: ControlEvent.ControlEvent
+- uid: HomeSeer.PluginSdk.Devices.Controls.ControlEvent._controlString
+  name: _controlString
+  href: api/HomeSeer.PluginSdk.Devices.Controls.ControlEvent.html#HomeSeer_PluginSdk_Devices_Controls_ControlEvent__controlString
+  commentId: F:HomeSeer.PluginSdk.Devices.Controls.ControlEvent._controlString
+  fullName: HomeSeer.PluginSdk.Devices.Controls.ControlEvent._controlString
+  nameWithType: ControlEvent._controlString
+- uid: HomeSeer.PluginSdk.Devices.Controls.ControlEvent._controlType
+  name: _controlType
+  href: api/HomeSeer.PluginSdk.Devices.Controls.ControlEvent.html#HomeSeer_PluginSdk_Devices_Controls_ControlEvent__controlType
+  commentId: F:HomeSeer.PluginSdk.Devices.Controls.ControlEvent._controlType
+  fullName: HomeSeer.PluginSdk.Devices.Controls.ControlEvent._controlType
+  nameWithType: ControlEvent._controlType
+- uid: HomeSeer.PluginSdk.Devices.Controls.ControlEvent._controlUse
+  name: _controlUse
+  href: api/HomeSeer.PluginSdk.Devices.Controls.ControlEvent.html#HomeSeer_PluginSdk_Devices_Controls_ControlEvent__controlUse
+  commentId: F:HomeSeer.PluginSdk.Devices.Controls.ControlEvent._controlUse
+  fullName: HomeSeer.PluginSdk.Devices.Controls.ControlEvent._controlUse
+  nameWithType: ControlEvent._controlUse
+- uid: HomeSeer.PluginSdk.Devices.Controls.ControlEvent._controlValue
+  name: _controlValue
+  href: api/HomeSeer.PluginSdk.Devices.Controls.ControlEvent.html#HomeSeer_PluginSdk_Devices_Controls_ControlEvent__controlValue
+  commentId: F:HomeSeer.PluginSdk.Devices.Controls.ControlEvent._controlValue
+  fullName: HomeSeer.PluginSdk.Devices.Controls.ControlEvent._controlValue
+  nameWithType: ControlEvent._controlValue
+- uid: HomeSeer.PluginSdk.Devices.Controls.ControlEvent._index
+  name: _index
+  href: api/HomeSeer.PluginSdk.Devices.Controls.ControlEvent.html#HomeSeer_PluginSdk_Devices_Controls_ControlEvent__index
+  commentId: F:HomeSeer.PluginSdk.Devices.Controls.ControlEvent._index
+  fullName: HomeSeer.PluginSdk.Devices.Controls.ControlEvent._index
+  nameWithType: ControlEvent._index
+- uid: HomeSeer.PluginSdk.Devices.Controls.ControlEvent._label
+  name: _label
+  href: api/HomeSeer.PluginSdk.Devices.Controls.ControlEvent.html#HomeSeer_PluginSdk_Devices_Controls_ControlEvent__label
+  commentId: F:HomeSeer.PluginSdk.Devices.Controls.ControlEvent._label
+  fullName: HomeSeer.PluginSdk.Devices.Controls.ControlEvent._label
+  nameWithType: ControlEvent._label
+- uid: HomeSeer.PluginSdk.Devices.Controls.ControlEvent._ref
+  name: _ref
+  href: api/HomeSeer.PluginSdk.Devices.Controls.ControlEvent.html#HomeSeer_PluginSdk_Devices_Controls_ControlEvent__ref
+  commentId: F:HomeSeer.PluginSdk.Devices.Controls.ControlEvent._ref
+  fullName: HomeSeer.PluginSdk.Devices.Controls.ControlEvent._ref
+  nameWithType: ControlEvent._ref
 - uid: HomeSeer.PluginSdk.Devices.Controls.ControlEvent.CCIndex
   name: CCIndex
   href: api/HomeSeer.PluginSdk.Devices.Controls.ControlEvent.html#HomeSeer_PluginSdk_Devices_Controls_ControlEvent_CCIndex
@@ -5580,6 +6171,24 @@ references:
   isSpec: "True"
   fullName: HomeSeer.PluginSdk.Devices.Controls.ControlLocation.ControlLocation
   nameWithType: ControlLocation.ControlLocation
+- uid: HomeSeer.PluginSdk.Devices.Controls.ControlLocation._column
+  name: _column
+  href: api/HomeSeer.PluginSdk.Devices.Controls.ControlLocation.html#HomeSeer_PluginSdk_Devices_Controls_ControlLocation__column
+  commentId: F:HomeSeer.PluginSdk.Devices.Controls.ControlLocation._column
+  fullName: HomeSeer.PluginSdk.Devices.Controls.ControlLocation._column
+  nameWithType: ControlLocation._column
+- uid: HomeSeer.PluginSdk.Devices.Controls.ControlLocation._row
+  name: _row
+  href: api/HomeSeer.PluginSdk.Devices.Controls.ControlLocation.html#HomeSeer_PluginSdk_Devices_Controls_ControlLocation__row
+  commentId: F:HomeSeer.PluginSdk.Devices.Controls.ControlLocation._row
+  fullName: HomeSeer.PluginSdk.Devices.Controls.ControlLocation._row
+  nameWithType: ControlLocation._row
+- uid: HomeSeer.PluginSdk.Devices.Controls.ControlLocation._width
+  name: _width
+  href: api/HomeSeer.PluginSdk.Devices.Controls.ControlLocation.html#HomeSeer_PluginSdk_Devices_Controls_ControlLocation__width
+  commentId: F:HomeSeer.PluginSdk.Devices.Controls.ControlLocation._width
+  fullName: HomeSeer.PluginSdk.Devices.Controls.ControlLocation._width
+  nameWithType: ControlLocation._width
 - uid: HomeSeer.PluginSdk.Devices.Controls.ControlLocation.Column
   name: Column
   href: api/HomeSeer.PluginSdk.Devices.Controls.ControlLocation.html#HomeSeer_PluginSdk_Devices_Controls_ControlLocation_Column
@@ -5964,6 +6573,86 @@ references:
   isSpec: "True"
   fullName: HomeSeer.PluginSdk.Devices.Controls.StatusControl.StatusControl
   nameWithType: StatusControl.StatusControl
+- uid: HomeSeer.PluginSdk.Devices.Controls.StatusControl._controlStates
+  name: _controlStates
+  href: api/HomeSeer.PluginSdk.Devices.Controls.StatusControl.html#HomeSeer_PluginSdk_Devices_Controls_StatusControl__controlStates
+  commentId: F:HomeSeer.PluginSdk.Devices.Controls.StatusControl._controlStates
+  fullName: HomeSeer.PluginSdk.Devices.Controls.StatusControl._controlStates
+  nameWithType: StatusControl._controlStates
+- uid: HomeSeer.PluginSdk.Devices.Controls.StatusControl._controlType
+  name: _controlType
+  href: api/HomeSeer.PluginSdk.Devices.Controls.StatusControl.html#HomeSeer_PluginSdk_Devices_Controls_StatusControl__controlType
+  commentId: F:HomeSeer.PluginSdk.Devices.Controls.StatusControl._controlType
+  fullName: HomeSeer.PluginSdk.Devices.Controls.StatusControl._controlType
+  nameWithType: StatusControl._controlType
+- uid: HomeSeer.PluginSdk.Devices.Controls.StatusControl._controlUse
+  name: _controlUse
+  href: api/HomeSeer.PluginSdk.Devices.Controls.StatusControl.html#HomeSeer_PluginSdk_Devices_Controls_StatusControl__controlUse
+  commentId: F:HomeSeer.PluginSdk.Devices.Controls.StatusControl._controlUse
+  fullName: HomeSeer.PluginSdk.Devices.Controls.StatusControl._controlUse
+  nameWithType: StatusControl._controlUse
+- uid: HomeSeer.PluginSdk.Devices.Controls.StatusControl._flags
+  name: _flags
+  href: api/HomeSeer.PluginSdk.Devices.Controls.StatusControl.html#HomeSeer_PluginSdk_Devices_Controls_StatusControl__flags
+  commentId: F:HomeSeer.PluginSdk.Devices.Controls.StatusControl._flags
+  fullName: HomeSeer.PluginSdk.Devices.Controls.StatusControl._flags
+  nameWithType: StatusControl._flags
+- uid: HomeSeer.PluginSdk.Devices.Controls.StatusControl._isRange
+  name: _isRange
+  href: api/HomeSeer.PluginSdk.Devices.Controls.StatusControl.html#HomeSeer_PluginSdk_Devices_Controls_StatusControl__isRange
+  commentId: F:HomeSeer.PluginSdk.Devices.Controls.StatusControl._isRange
+  fullName: HomeSeer.PluginSdk.Devices.Controls.StatusControl._isRange
+  nameWithType: StatusControl._isRange
+- uid: HomeSeer.PluginSdk.Devices.Controls.StatusControl._label
+  name: _label
+  href: api/HomeSeer.PluginSdk.Devices.Controls.StatusControl.html#HomeSeer_PluginSdk_Devices_Controls_StatusControl__label
+  commentId: F:HomeSeer.PluginSdk.Devices.Controls.StatusControl._label
+  fullName: HomeSeer.PluginSdk.Devices.Controls.StatusControl._label
+  nameWithType: StatusControl._label
+- uid: HomeSeer.PluginSdk.Devices.Controls.StatusControl._location
+  name: _location
+  href: api/HomeSeer.PluginSdk.Devices.Controls.StatusControl.html#HomeSeer_PluginSdk_Devices_Controls_StatusControl__location
+  commentId: F:HomeSeer.PluginSdk.Devices.Controls.StatusControl._location
+  fullName: HomeSeer.PluginSdk.Devices.Controls.StatusControl._location
+  nameWithType: StatusControl._location
+- uid: HomeSeer.PluginSdk.Devices.Controls.StatusControl._targetRange
+  name: _targetRange
+  href: api/HomeSeer.PluginSdk.Devices.Controls.StatusControl.html#HomeSeer_PluginSdk_Devices_Controls_StatusControl__targetRange
+  commentId: F:HomeSeer.PluginSdk.Devices.Controls.StatusControl._targetRange
+  fullName: HomeSeer.PluginSdk.Devices.Controls.StatusControl._targetRange
+  nameWithType: StatusControl._targetRange
+- uid: HomeSeer.PluginSdk.Devices.Controls.StatusControl._targetValue
+  name: _targetValue
+  href: api/HomeSeer.PluginSdk.Devices.Controls.StatusControl.html#HomeSeer_PluginSdk_Devices_Controls_StatusControl__targetValue
+  commentId: F:HomeSeer.PluginSdk.Devices.Controls.StatusControl._targetValue
+  fullName: HomeSeer.PluginSdk.Devices.Controls.StatusControl._targetValue
+  nameWithType: StatusControl._targetValue
+- uid: HomeSeer.PluginSdk.Devices.Controls.StatusControl.AddFlag(HomeSeer.PluginSdk.Devices.Controls.EControlFlag)
+  name: AddFlag(EControlFlag)
+  href: api/HomeSeer.PluginSdk.Devices.Controls.StatusControl.html#HomeSeer_PluginSdk_Devices_Controls_StatusControl_AddFlag_HomeSeer_PluginSdk_Devices_Controls_EControlFlag_
+  commentId: M:HomeSeer.PluginSdk.Devices.Controls.StatusControl.AddFlag(HomeSeer.PluginSdk.Devices.Controls.EControlFlag)
+  fullName: HomeSeer.PluginSdk.Devices.Controls.StatusControl.AddFlag(HomeSeer.PluginSdk.Devices.Controls.EControlFlag)
+  nameWithType: StatusControl.AddFlag(EControlFlag)
+- uid: HomeSeer.PluginSdk.Devices.Controls.StatusControl.AddFlag*
+  name: AddFlag
+  href: api/HomeSeer.PluginSdk.Devices.Controls.StatusControl.html#HomeSeer_PluginSdk_Devices_Controls_StatusControl_AddFlag_
+  commentId: Overload:HomeSeer.PluginSdk.Devices.Controls.StatusControl.AddFlag
+  isSpec: "True"
+  fullName: HomeSeer.PluginSdk.Devices.Controls.StatusControl.AddFlag
+  nameWithType: StatusControl.AddFlag
+- uid: HomeSeer.PluginSdk.Devices.Controls.StatusControl.ClearFlags
+  name: ClearFlags()
+  href: api/HomeSeer.PluginSdk.Devices.Controls.StatusControl.html#HomeSeer_PluginSdk_Devices_Controls_StatusControl_ClearFlags
+  commentId: M:HomeSeer.PluginSdk.Devices.Controls.StatusControl.ClearFlags
+  fullName: HomeSeer.PluginSdk.Devices.Controls.StatusControl.ClearFlags()
+  nameWithType: StatusControl.ClearFlags()
+- uid: HomeSeer.PluginSdk.Devices.Controls.StatusControl.ClearFlags*
+  name: ClearFlags
+  href: api/HomeSeer.PluginSdk.Devices.Controls.StatusControl.html#HomeSeer_PluginSdk_Devices_Controls_StatusControl_ClearFlags_
+  commentId: Overload:HomeSeer.PluginSdk.Devices.Controls.StatusControl.ClearFlags
+  isSpec: "True"
+  fullName: HomeSeer.PluginSdk.Devices.Controls.StatusControl.ClearFlags
+  nameWithType: StatusControl.ClearFlags
 - uid: HomeSeer.PluginSdk.Devices.Controls.StatusControl.Column
   name: Column
   href: api/HomeSeer.PluginSdk.Devices.Controls.StatusControl.html#HomeSeer_PluginSdk_Devices_Controls_StatusControl_Column
@@ -5977,6 +6666,19 @@ references:
   isSpec: "True"
   fullName: HomeSeer.PluginSdk.Devices.Controls.StatusControl.Column
   nameWithType: StatusControl.Column
+- uid: HomeSeer.PluginSdk.Devices.Controls.StatusControl.ContainsFlag(HomeSeer.PluginSdk.Devices.Controls.EControlFlag)
+  name: ContainsFlag(EControlFlag)
+  href: api/HomeSeer.PluginSdk.Devices.Controls.StatusControl.html#HomeSeer_PluginSdk_Devices_Controls_StatusControl_ContainsFlag_HomeSeer_PluginSdk_Devices_Controls_EControlFlag_
+  commentId: M:HomeSeer.PluginSdk.Devices.Controls.StatusControl.ContainsFlag(HomeSeer.PluginSdk.Devices.Controls.EControlFlag)
+  fullName: HomeSeer.PluginSdk.Devices.Controls.StatusControl.ContainsFlag(HomeSeer.PluginSdk.Devices.Controls.EControlFlag)
+  nameWithType: StatusControl.ContainsFlag(EControlFlag)
+- uid: HomeSeer.PluginSdk.Devices.Controls.StatusControl.ContainsFlag*
+  name: ContainsFlag
+  href: api/HomeSeer.PluginSdk.Devices.Controls.StatusControl.html#HomeSeer_PluginSdk_Devices_Controls_StatusControl_ContainsFlag_
+  commentId: Overload:HomeSeer.PluginSdk.Devices.Controls.StatusControl.ContainsFlag
+  isSpec: "True"
+  fullName: HomeSeer.PluginSdk.Devices.Controls.StatusControl.ContainsFlag
+  nameWithType: StatusControl.ContainsFlag
 - uid: HomeSeer.PluginSdk.Devices.Controls.StatusControl.ControlStates
   name: ControlStates
   href: api/HomeSeer.PluginSdk.Devices.Controls.StatusControl.html#HomeSeer_PluginSdk_Devices_Controls_StatusControl_ControlStates
@@ -6155,6 +6857,35 @@ references:
   isSpec: "True"
   fullName: HomeSeer.PluginSdk.Devices.Controls.StatusControl.Location
   nameWithType: StatusControl.Location
+- uid: HomeSeer.PluginSdk.Devices.Controls.StatusControl.RemoveFlag(HomeSeer.PluginSdk.Devices.Controls.EControlFlag)
+  name: RemoveFlag(EControlFlag)
+  href: api/HomeSeer.PluginSdk.Devices.Controls.StatusControl.html#HomeSeer_PluginSdk_Devices_Controls_StatusControl_RemoveFlag_HomeSeer_PluginSdk_Devices_Controls_EControlFlag_
+  commentId: M:HomeSeer.PluginSdk.Devices.Controls.StatusControl.RemoveFlag(HomeSeer.PluginSdk.Devices.Controls.EControlFlag)
+  fullName: HomeSeer.PluginSdk.Devices.Controls.StatusControl.RemoveFlag(HomeSeer.PluginSdk.Devices.Controls.EControlFlag)
+  nameWithType: StatusControl.RemoveFlag(EControlFlag)
+- uid: HomeSeer.PluginSdk.Devices.Controls.StatusControl.RemoveFlag*
+  name: RemoveFlag
+  href: api/HomeSeer.PluginSdk.Devices.Controls.StatusControl.html#HomeSeer_PluginSdk_Devices_Controls_StatusControl_RemoveFlag_
+  commentId: Overload:HomeSeer.PluginSdk.Devices.Controls.StatusControl.RemoveFlag
+  isSpec: "True"
+  fullName: HomeSeer.PluginSdk.Devices.Controls.StatusControl.RemoveFlag
+  nameWithType: StatusControl.RemoveFlag
+- uid: HomeSeer.PluginSdk.Devices.Controls.StatusControl.ReplaceAdditionalData(System.String,System.String[])
+  name: ReplaceAdditionalData(String, String[])
+  href: api/HomeSeer.PluginSdk.Devices.Controls.StatusControl.html#HomeSeer_PluginSdk_Devices_Controls_StatusControl_ReplaceAdditionalData_System_String_System_String___
+  commentId: M:HomeSeer.PluginSdk.Devices.Controls.StatusControl.ReplaceAdditionalData(System.String,System.String[])
+  name.vb: ReplaceAdditionalData(String, String())
+  fullName: HomeSeer.PluginSdk.Devices.Controls.StatusControl.ReplaceAdditionalData(System.String, System.String[])
+  fullName.vb: HomeSeer.PluginSdk.Devices.Controls.StatusControl.ReplaceAdditionalData(System.String, System.String())
+  nameWithType: StatusControl.ReplaceAdditionalData(String, String[])
+  nameWithType.vb: StatusControl.ReplaceAdditionalData(String, String())
+- uid: HomeSeer.PluginSdk.Devices.Controls.StatusControl.ReplaceAdditionalData*
+  name: ReplaceAdditionalData
+  href: api/HomeSeer.PluginSdk.Devices.Controls.StatusControl.html#HomeSeer_PluginSdk_Devices_Controls_StatusControl_ReplaceAdditionalData_
+  commentId: Overload:HomeSeer.PluginSdk.Devices.Controls.StatusControl.ReplaceAdditionalData
+  isSpec: "True"
+  fullName: HomeSeer.PluginSdk.Devices.Controls.StatusControl.ReplaceAdditionalData
+  nameWithType: StatusControl.ReplaceAdditionalData
 - uid: HomeSeer.PluginSdk.Devices.Controls.StatusControl.Row
   name: Row
   href: api/HomeSeer.PluginSdk.Devices.Controls.StatusControl.html#HomeSeer_PluginSdk_Devices_Controls_StatusControl_Row
@@ -6229,6 +6960,12 @@ references:
   commentId: T:HomeSeer.PluginSdk.Devices.Controls.StatusControlCollection
   fullName: HomeSeer.PluginSdk.Devices.Controls.StatusControlCollection
   nameWithType: StatusControlCollection
+- uid: HomeSeer.PluginSdk.Devices.Controls.StatusControlCollection._statusControls
+  name: _statusControls
+  href: api/HomeSeer.PluginSdk.Devices.Controls.StatusControlCollection.html#HomeSeer_PluginSdk_Devices_Controls_StatusControlCollection__statusControls
+  commentId: F:HomeSeer.PluginSdk.Devices.Controls.StatusControlCollection._statusControls
+  fullName: HomeSeer.PluginSdk.Devices.Controls.StatusControlCollection._statusControls
+  nameWithType: StatusControlCollection._statusControls
 - uid: HomeSeer.PluginSdk.Devices.Controls.StatusControlCollection.Add(HomeSeer.PluginSdk.Devices.Controls.StatusControl)
   name: Add(StatusControl)
   href: api/HomeSeer.PluginSdk.Devices.Controls.StatusControlCollection.html#HomeSeer_PluginSdk_Devices_Controls_StatusControlCollection_Add_HomeSeer_PluginSdk_Devices_Controls_StatusControl_
@@ -6384,6 +7121,18 @@ references:
   commentId: T:HomeSeer.PluginSdk.Devices.DeviceFactory
   fullName: HomeSeer.PluginSdk.Devices.DeviceFactory
   nameWithType: DeviceFactory
+- uid: HomeSeer.PluginSdk.Devices.DeviceFactory._device
+  name: _device
+  href: api/HomeSeer.PluginSdk.Devices.DeviceFactory.html#HomeSeer_PluginSdk_Devices_DeviceFactory__device
+  commentId: F:HomeSeer.PluginSdk.Devices.DeviceFactory._device
+  fullName: HomeSeer.PluginSdk.Devices.DeviceFactory._device
+  nameWithType: DeviceFactory._device
+- uid: HomeSeer.PluginSdk.Devices.DeviceFactory._features
+  name: _features
+  href: api/HomeSeer.PluginSdk.Devices.DeviceFactory.html#HomeSeer_PluginSdk_Devices_DeviceFactory__features
+  commentId: F:HomeSeer.PluginSdk.Devices.DeviceFactory._features
+  fullName: HomeSeer.PluginSdk.Devices.DeviceFactory._features
+  nameWithType: DeviceFactory._features
 - uid: HomeSeer.PluginSdk.Devices.DeviceFactory.AsType(HomeSeer.PluginSdk.Devices.Identification.EDeviceType,System.Int32)
   name: AsType(EDeviceType, Int32)
   href: api/HomeSeer.PluginSdk.Devices.DeviceFactory.html#HomeSeer_PluginSdk_Devices_DeviceFactory_AsType_HomeSeer_PluginSdk_Devices_Identification_EDeviceType_System_Int32_
@@ -6833,6 +7582,12 @@ references:
   commentId: F:HomeSeer.PluginSdk.Devices.EProperty.DeviceType
   fullName: HomeSeer.PluginSdk.Devices.EProperty.DeviceType
   nameWithType: EProperty.DeviceType
+- uid: HomeSeer.PluginSdk.Devices.EProperty.DisplayedStatus
+  name: DisplayedStatus
+  href: api/HomeSeer.PluginSdk.Devices.EProperty.html#HomeSeer_PluginSdk_Devices_EProperty_DisplayedStatus
+  commentId: F:HomeSeer.PluginSdk.Devices.EProperty.DisplayedStatus
+  fullName: HomeSeer.PluginSdk.Devices.EProperty.DisplayedStatus
+  nameWithType: EProperty.DisplayedStatus
 - uid: HomeSeer.PluginSdk.Devices.EProperty.FeatureDisplayPriority
   name: FeatureDisplayPriority
   href: api/HomeSeer.PluginSdk.Devices.EProperty.html#HomeSeer_PluginSdk_Devices_EProperty_FeatureDisplayPriority
@@ -6929,6 +7684,12 @@ references:
   commentId: F:HomeSeer.PluginSdk.Devices.EProperty.StatusGraphics
   fullName: HomeSeer.PluginSdk.Devices.EProperty.StatusGraphics
   nameWithType: EProperty.StatusGraphics
+- uid: HomeSeer.PluginSdk.Devices.EProperty.StatusString
+  name: StatusString
+  href: api/HomeSeer.PluginSdk.Devices.EProperty.html#HomeSeer_PluginSdk_Devices_EProperty_StatusString
+  commentId: F:HomeSeer.PluginSdk.Devices.EProperty.StatusString
+  fullName: HomeSeer.PluginSdk.Devices.EProperty.StatusString
+  nameWithType: EProperty.StatusString
 - uid: HomeSeer.PluginSdk.Devices.EProperty.UserAccess
   name: UserAccess
   href: api/HomeSeer.PluginSdk.Devices.EProperty.html#HomeSeer_PluginSdk_Devices_EProperty_UserAccess
@@ -6983,6 +7744,12 @@ references:
   commentId: T:HomeSeer.PluginSdk.Devices.FeatureFactory
   fullName: HomeSeer.PluginSdk.Devices.FeatureFactory
   nameWithType: FeatureFactory
+- uid: HomeSeer.PluginSdk.Devices.FeatureFactory._feature
+  name: _feature
+  href: api/HomeSeer.PluginSdk.Devices.FeatureFactory.html#HomeSeer_PluginSdk_Devices_FeatureFactory__feature
+  commentId: F:HomeSeer.PluginSdk.Devices.FeatureFactory._feature
+  fullName: HomeSeer.PluginSdk.Devices.FeatureFactory._feature
+  nameWithType: FeatureFactory._feature
 - uid: HomeSeer.PluginSdk.Devices.FeatureFactory.AddButton(System.Double,System.String,HomeSeer.PluginSdk.Devices.Controls.ControlLocation,HomeSeer.PluginSdk.Devices.Controls.EControlUse)
   name: AddButton(Double, String, ControlLocation, EControlUse)
   href: api/HomeSeer.PluginSdk.Devices.FeatureFactory.html#HomeSeer_PluginSdk_Devices_FeatureFactory_AddButton_System_Double_System_String_HomeSeer_PluginSdk_Devices_Controls_ControlLocation_HomeSeer_PluginSdk_Devices_Controls_EControlUse_
@@ -7202,6 +7969,19 @@ references:
   isSpec: "True"
   fullName: HomeSeer.PluginSdk.Devices.FeatureFactory.CreateGenericBinarySensor
   nameWithType: FeatureFactory.CreateGenericBinarySensor
+- uid: HomeSeer.PluginSdk.Devices.FeatureFactory.Feature
+  name: Feature
+  href: api/HomeSeer.PluginSdk.Devices.FeatureFactory.html#HomeSeer_PluginSdk_Devices_FeatureFactory_Feature
+  commentId: P:HomeSeer.PluginSdk.Devices.FeatureFactory.Feature
+  fullName: HomeSeer.PluginSdk.Devices.FeatureFactory.Feature
+  nameWithType: FeatureFactory.Feature
+- uid: HomeSeer.PluginSdk.Devices.FeatureFactory.Feature*
+  name: Feature
+  href: api/HomeSeer.PluginSdk.Devices.FeatureFactory.html#HomeSeer_PluginSdk_Devices_FeatureFactory_Feature_
+  commentId: Overload:HomeSeer.PluginSdk.Devices.FeatureFactory.Feature
+  isSpec: "True"
+  fullName: HomeSeer.PluginSdk.Devices.FeatureFactory.Feature
+  nameWithType: FeatureFactory.Feature
 - uid: HomeSeer.PluginSdk.Devices.FeatureFactory.OnDevice(System.Int32)
   name: OnDevice(Int32)
   href: api/HomeSeer.PluginSdk.Devices.FeatureFactory.html#HomeSeer_PluginSdk_Devices_FeatureFactory_OnDevice_System_Int32_
@@ -7241,6 +8021,19 @@ references:
   isSpec: "True"
   fullName: HomeSeer.PluginSdk.Devices.FeatureFactory.PrepareForHsDevice
   nameWithType: FeatureFactory.PrepareForHsDevice
+- uid: HomeSeer.PluginSdk.Devices.FeatureFactory.WithAddress(System.String)
+  name: WithAddress(String)
+  href: api/HomeSeer.PluginSdk.Devices.FeatureFactory.html#HomeSeer_PluginSdk_Devices_FeatureFactory_WithAddress_System_String_
+  commentId: M:HomeSeer.PluginSdk.Devices.FeatureFactory.WithAddress(System.String)
+  fullName: HomeSeer.PluginSdk.Devices.FeatureFactory.WithAddress(System.String)
+  nameWithType: FeatureFactory.WithAddress(String)
+- uid: HomeSeer.PluginSdk.Devices.FeatureFactory.WithAddress*
+  name: WithAddress
+  href: api/HomeSeer.PluginSdk.Devices.FeatureFactory.html#HomeSeer_PluginSdk_Devices_FeatureFactory_WithAddress_
+  commentId: Overload:HomeSeer.PluginSdk.Devices.FeatureFactory.WithAddress
+  isSpec: "True"
+  fullName: HomeSeer.PluginSdk.Devices.FeatureFactory.WithAddress
+  nameWithType: FeatureFactory.WithAddress
 - uid: HomeSeer.PluginSdk.Devices.FeatureFactory.WithDefaultValue(System.Double)
   name: WithDefaultValue(Double)
   href: api/HomeSeer.PluginSdk.Devices.FeatureFactory.html#HomeSeer_PluginSdk_Devices_FeatureFactory_WithDefaultValue_System_Double_
@@ -7357,6 +8150,12 @@ references:
   commentId: T:HomeSeer.PluginSdk.Devices.HsDevice
   fullName: HomeSeer.PluginSdk.Devices.HsDevice
   nameWithType: HsDevice
+- uid: HomeSeer.PluginSdk.Devices.HsDevice.#ctor
+  name: HsDevice()
+  href: api/HomeSeer.PluginSdk.Devices.HsDevice.html#HomeSeer_PluginSdk_Devices_HsDevice__ctor
+  commentId: M:HomeSeer.PluginSdk.Devices.HsDevice.#ctor
+  fullName: HomeSeer.PluginSdk.Devices.HsDevice.HsDevice()
+  nameWithType: HsDevice.HsDevice()
 - uid: HomeSeer.PluginSdk.Devices.HsDevice.#ctor(System.Int32)
   name: HsDevice(Int32)
   href: api/HomeSeer.PluginSdk.Devices.HsDevice.html#HomeSeer_PluginSdk_Devices_HsDevice__ctor_System_Int32_
@@ -7370,6 +8169,12 @@ references:
   isSpec: "True"
   fullName: HomeSeer.PluginSdk.Devices.HsDevice.HsDevice
   nameWithType: HsDevice.HsDevice
+- uid: HomeSeer.PluginSdk.Devices.HsDevice._featureDisplayPriority
+  name: _featureDisplayPriority
+  href: api/HomeSeer.PluginSdk.Devices.HsDevice.html#HomeSeer_PluginSdk_Devices_HsDevice__featureDisplayPriority
+  commentId: F:HomeSeer.PluginSdk.Devices.HsDevice._featureDisplayPriority
+  fullName: HomeSeer.PluginSdk.Devices.HsDevice._featureDisplayPriority
+  nameWithType: HsDevice._featureDisplayPriority
 - uid: HomeSeer.PluginSdk.Devices.HsDevice.Duplicate(System.Int32)
   name: Duplicate(Int32)
   href: api/HomeSeer.PluginSdk.Devices.HsDevice.html#HomeSeer_PluginSdk_Devices_HsDevice_Duplicate_System_Int32_
@@ -7441,6 +8246,12 @@ references:
   commentId: T:HomeSeer.PluginSdk.Devices.HsFeature
   fullName: HomeSeer.PluginSdk.Devices.HsFeature
   nameWithType: HsFeature
+- uid: HomeSeer.PluginSdk.Devices.HsFeature.#ctor
+  name: HsFeature()
+  href: api/HomeSeer.PluginSdk.Devices.HsFeature.html#HomeSeer_PluginSdk_Devices_HsFeature__ctor
+  commentId: M:HomeSeer.PluginSdk.Devices.HsFeature.#ctor
+  fullName: HomeSeer.PluginSdk.Devices.HsFeature.HsFeature()
+  nameWithType: HsFeature.HsFeature()
 - uid: HomeSeer.PluginSdk.Devices.HsFeature.#ctor(System.Int32)
   name: HsFeature(Int32)
   href: api/HomeSeer.PluginSdk.Devices.HsFeature.html#HomeSeer_PluginSdk_Devices_HsFeature__ctor_System_Int32_
@@ -7454,6 +8265,36 @@ references:
   isSpec: "True"
   fullName: HomeSeer.PluginSdk.Devices.HsFeature.HsFeature
   nameWithType: HsFeature.HsFeature
+- uid: HomeSeer.PluginSdk.Devices.HsFeature._additionalStatusData
+  name: _additionalStatusData
+  href: api/HomeSeer.PluginSdk.Devices.HsFeature.html#HomeSeer_PluginSdk_Devices_HsFeature__additionalStatusData
+  commentId: F:HomeSeer.PluginSdk.Devices.HsFeature._additionalStatusData
+  fullName: HomeSeer.PluginSdk.Devices.HsFeature._additionalStatusData
+  nameWithType: HsFeature._additionalStatusData
+- uid: HomeSeer.PluginSdk.Devices.HsFeature._displayPriority
+  name: _displayPriority
+  href: api/HomeSeer.PluginSdk.Devices.HsFeature.html#HomeSeer_PluginSdk_Devices_HsFeature__displayPriority
+  commentId: F:HomeSeer.PluginSdk.Devices.HsFeature._displayPriority
+  fullName: HomeSeer.PluginSdk.Devices.HsFeature._displayPriority
+  nameWithType: HsFeature._displayPriority
+- uid: HomeSeer.PluginSdk.Devices.HsFeature._displayType
+  name: _displayType
+  href: api/HomeSeer.PluginSdk.Devices.HsFeature.html#HomeSeer_PluginSdk_Devices_HsFeature__displayType
+  commentId: F:HomeSeer.PluginSdk.Devices.HsFeature._displayType
+  fullName: HomeSeer.PluginSdk.Devices.HsFeature._displayType
+  nameWithType: HsFeature._displayType
+- uid: HomeSeer.PluginSdk.Devices.HsFeature._statusControls
+  name: _statusControls
+  href: api/HomeSeer.PluginSdk.Devices.HsFeature.html#HomeSeer_PluginSdk_Devices_HsFeature__statusControls
+  commentId: F:HomeSeer.PluginSdk.Devices.HsFeature._statusControls
+  fullName: HomeSeer.PluginSdk.Devices.HsFeature._statusControls
+  nameWithType: HsFeature._statusControls
+- uid: HomeSeer.PluginSdk.Devices.HsFeature._statusGraphics
+  name: _statusGraphics
+  href: api/HomeSeer.PluginSdk.Devices.HsFeature.html#HomeSeer_PluginSdk_Devices_HsFeature__statusGraphics
+  commentId: F:HomeSeer.PluginSdk.Devices.HsFeature._statusGraphics
+  fullName: HomeSeer.PluginSdk.Devices.HsFeature._statusGraphics
+  nameWithType: HsFeature._statusGraphics
 - uid: HomeSeer.PluginSdk.Devices.HsFeature.AdditionalStatusData
   name: AdditionalStatusData
   href: api/HomeSeer.PluginSdk.Devices.HsFeature.html#HomeSeer_PluginSdk_Devices_HsFeature_AdditionalStatusData
@@ -7467,6 +8308,90 @@ references:
   isSpec: "True"
   fullName: HomeSeer.PluginSdk.Devices.HsFeature.AdditionalStatusData
   nameWithType: HsFeature.AdditionalStatusData
+- uid: HomeSeer.PluginSdk.Devices.HsFeature.AddStatusControl(HomeSeer.PluginSdk.Devices.Controls.StatusControl)
+  name: AddStatusControl(StatusControl)
+  href: api/HomeSeer.PluginSdk.Devices.HsFeature.html#HomeSeer_PluginSdk_Devices_HsFeature_AddStatusControl_HomeSeer_PluginSdk_Devices_Controls_StatusControl_
+  commentId: M:HomeSeer.PluginSdk.Devices.HsFeature.AddStatusControl(HomeSeer.PluginSdk.Devices.Controls.StatusControl)
+  fullName: HomeSeer.PluginSdk.Devices.HsFeature.AddStatusControl(HomeSeer.PluginSdk.Devices.Controls.StatusControl)
+  nameWithType: HsFeature.AddStatusControl(StatusControl)
+- uid: HomeSeer.PluginSdk.Devices.HsFeature.AddStatusControl*
+  name: AddStatusControl
+  href: api/HomeSeer.PluginSdk.Devices.HsFeature.html#HomeSeer_PluginSdk_Devices_HsFeature_AddStatusControl_
+  commentId: Overload:HomeSeer.PluginSdk.Devices.HsFeature.AddStatusControl
+  isSpec: "True"
+  fullName: HomeSeer.PluginSdk.Devices.HsFeature.AddStatusControl
+  nameWithType: HsFeature.AddStatusControl
+- uid: HomeSeer.PluginSdk.Devices.HsFeature.AddStatusControls(System.Collections.Generic.List{HomeSeer.PluginSdk.Devices.Controls.StatusControl})
+  name: AddStatusControls(List<StatusControl>)
+  href: api/HomeSeer.PluginSdk.Devices.HsFeature.html#HomeSeer_PluginSdk_Devices_HsFeature_AddStatusControls_System_Collections_Generic_List_HomeSeer_PluginSdk_Devices_Controls_StatusControl__
+  commentId: M:HomeSeer.PluginSdk.Devices.HsFeature.AddStatusControls(System.Collections.Generic.List{HomeSeer.PluginSdk.Devices.Controls.StatusControl})
+  name.vb: AddStatusControls(List(Of StatusControl))
+  fullName: HomeSeer.PluginSdk.Devices.HsFeature.AddStatusControls(System.Collections.Generic.List<HomeSeer.PluginSdk.Devices.Controls.StatusControl>)
+  fullName.vb: HomeSeer.PluginSdk.Devices.HsFeature.AddStatusControls(System.Collections.Generic.List(Of HomeSeer.PluginSdk.Devices.Controls.StatusControl))
+  nameWithType: HsFeature.AddStatusControls(List<StatusControl>)
+  nameWithType.vb: HsFeature.AddStatusControls(List(Of StatusControl))
+- uid: HomeSeer.PluginSdk.Devices.HsFeature.AddStatusControls*
+  name: AddStatusControls
+  href: api/HomeSeer.PluginSdk.Devices.HsFeature.html#HomeSeer_PluginSdk_Devices_HsFeature_AddStatusControls_
+  commentId: Overload:HomeSeer.PluginSdk.Devices.HsFeature.AddStatusControls
+  isSpec: "True"
+  fullName: HomeSeer.PluginSdk.Devices.HsFeature.AddStatusControls
+  nameWithType: HsFeature.AddStatusControls
+- uid: HomeSeer.PluginSdk.Devices.HsFeature.AddStatusGraphic(HomeSeer.PluginSdk.Devices.StatusGraphic)
+  name: AddStatusGraphic(StatusGraphic)
+  href: api/HomeSeer.PluginSdk.Devices.HsFeature.html#HomeSeer_PluginSdk_Devices_HsFeature_AddStatusGraphic_HomeSeer_PluginSdk_Devices_StatusGraphic_
+  commentId: M:HomeSeer.PluginSdk.Devices.HsFeature.AddStatusGraphic(HomeSeer.PluginSdk.Devices.StatusGraphic)
+  fullName: HomeSeer.PluginSdk.Devices.HsFeature.AddStatusGraphic(HomeSeer.PluginSdk.Devices.StatusGraphic)
+  nameWithType: HsFeature.AddStatusGraphic(StatusGraphic)
+- uid: HomeSeer.PluginSdk.Devices.HsFeature.AddStatusGraphic*
+  name: AddStatusGraphic
+  href: api/HomeSeer.PluginSdk.Devices.HsFeature.html#HomeSeer_PluginSdk_Devices_HsFeature_AddStatusGraphic_
+  commentId: Overload:HomeSeer.PluginSdk.Devices.HsFeature.AddStatusGraphic
+  isSpec: "True"
+  fullName: HomeSeer.PluginSdk.Devices.HsFeature.AddStatusGraphic
+  nameWithType: HsFeature.AddStatusGraphic
+- uid: HomeSeer.PluginSdk.Devices.HsFeature.AddStatusGraphics(System.Collections.Generic.List{HomeSeer.PluginSdk.Devices.StatusGraphic})
+  name: AddStatusGraphics(List<StatusGraphic>)
+  href: api/HomeSeer.PluginSdk.Devices.HsFeature.html#HomeSeer_PluginSdk_Devices_HsFeature_AddStatusGraphics_System_Collections_Generic_List_HomeSeer_PluginSdk_Devices_StatusGraphic__
+  commentId: M:HomeSeer.PluginSdk.Devices.HsFeature.AddStatusGraphics(System.Collections.Generic.List{HomeSeer.PluginSdk.Devices.StatusGraphic})
+  name.vb: AddStatusGraphics(List(Of StatusGraphic))
+  fullName: HomeSeer.PluginSdk.Devices.HsFeature.AddStatusGraphics(System.Collections.Generic.List<HomeSeer.PluginSdk.Devices.StatusGraphic>)
+  fullName.vb: HomeSeer.PluginSdk.Devices.HsFeature.AddStatusGraphics(System.Collections.Generic.List(Of HomeSeer.PluginSdk.Devices.StatusGraphic))
+  nameWithType: HsFeature.AddStatusGraphics(List<StatusGraphic>)
+  nameWithType.vb: HsFeature.AddStatusGraphics(List(Of StatusGraphic))
+- uid: HomeSeer.PluginSdk.Devices.HsFeature.AddStatusGraphics*
+  name: AddStatusGraphics
+  href: api/HomeSeer.PluginSdk.Devices.HsFeature.html#HomeSeer_PluginSdk_Devices_HsFeature_AddStatusGraphics_
+  commentId: Overload:HomeSeer.PluginSdk.Devices.HsFeature.AddStatusGraphics
+  isSpec: "True"
+  fullName: HomeSeer.PluginSdk.Devices.HsFeature.AddStatusGraphics
+  nameWithType: HsFeature.AddStatusGraphics
+- uid: HomeSeer.PluginSdk.Devices.HsFeature.ClearStatusControls
+  name: ClearStatusControls()
+  href: api/HomeSeer.PluginSdk.Devices.HsFeature.html#HomeSeer_PluginSdk_Devices_HsFeature_ClearStatusControls
+  commentId: M:HomeSeer.PluginSdk.Devices.HsFeature.ClearStatusControls
+  fullName: HomeSeer.PluginSdk.Devices.HsFeature.ClearStatusControls()
+  nameWithType: HsFeature.ClearStatusControls()
+- uid: HomeSeer.PluginSdk.Devices.HsFeature.ClearStatusControls*
+  name: ClearStatusControls
+  href: api/HomeSeer.PluginSdk.Devices.HsFeature.html#HomeSeer_PluginSdk_Devices_HsFeature_ClearStatusControls_
+  commentId: Overload:HomeSeer.PluginSdk.Devices.HsFeature.ClearStatusControls
+  isSpec: "True"
+  fullName: HomeSeer.PluginSdk.Devices.HsFeature.ClearStatusControls
+  nameWithType: HsFeature.ClearStatusControls
+- uid: HomeSeer.PluginSdk.Devices.HsFeature.ClearStatusGraphics
+  name: ClearStatusGraphics()
+  href: api/HomeSeer.PluginSdk.Devices.HsFeature.html#HomeSeer_PluginSdk_Devices_HsFeature_ClearStatusGraphics
+  commentId: M:HomeSeer.PluginSdk.Devices.HsFeature.ClearStatusGraphics
+  fullName: HomeSeer.PluginSdk.Devices.HsFeature.ClearStatusGraphics()
+  nameWithType: HsFeature.ClearStatusGraphics()
+- uid: HomeSeer.PluginSdk.Devices.HsFeature.ClearStatusGraphics*
+  name: ClearStatusGraphics
+  href: api/HomeSeer.PluginSdk.Devices.HsFeature.html#HomeSeer_PluginSdk_Devices_HsFeature_ClearStatusGraphics_
+  commentId: Overload:HomeSeer.PluginSdk.Devices.HsFeature.ClearStatusGraphics
+  isSpec: "True"
+  fullName: HomeSeer.PluginSdk.Devices.HsFeature.ClearStatusGraphics
+  nameWithType: HsFeature.ClearStatusGraphics
 - uid: HomeSeer.PluginSdk.Devices.HsFeature.CreateControlEvent(System.Double)
   name: CreateControlEvent(Double)
   href: api/HomeSeer.PluginSdk.Devices.HsFeature.html#HomeSeer_PluginSdk_Devices_HsFeature_CreateControlEvent_System_Double_
@@ -7597,6 +8522,58 @@ references:
   isSpec: "True"
   fullName: HomeSeer.PluginSdk.Devices.HsFeature.IsValueValid
   nameWithType: HsFeature.IsValueValid
+- uid: HomeSeer.PluginSdk.Devices.HsFeature.RemoveStatusControl(HomeSeer.PluginSdk.Devices.Controls.StatusControl)
+  name: RemoveStatusControl(StatusControl)
+  href: api/HomeSeer.PluginSdk.Devices.HsFeature.html#HomeSeer_PluginSdk_Devices_HsFeature_RemoveStatusControl_HomeSeer_PluginSdk_Devices_Controls_StatusControl_
+  commentId: M:HomeSeer.PluginSdk.Devices.HsFeature.RemoveStatusControl(HomeSeer.PluginSdk.Devices.Controls.StatusControl)
+  fullName: HomeSeer.PluginSdk.Devices.HsFeature.RemoveStatusControl(HomeSeer.PluginSdk.Devices.Controls.StatusControl)
+  nameWithType: HsFeature.RemoveStatusControl(StatusControl)
+- uid: HomeSeer.PluginSdk.Devices.HsFeature.RemoveStatusControl*
+  name: RemoveStatusControl
+  href: api/HomeSeer.PluginSdk.Devices.HsFeature.html#HomeSeer_PluginSdk_Devices_HsFeature_RemoveStatusControl_
+  commentId: Overload:HomeSeer.PluginSdk.Devices.HsFeature.RemoveStatusControl
+  isSpec: "True"
+  fullName: HomeSeer.PluginSdk.Devices.HsFeature.RemoveStatusControl
+  nameWithType: HsFeature.RemoveStatusControl
+- uid: HomeSeer.PluginSdk.Devices.HsFeature.RemoveStatusGraphic(HomeSeer.PluginSdk.Devices.StatusGraphic)
+  name: RemoveStatusGraphic(StatusGraphic)
+  href: api/HomeSeer.PluginSdk.Devices.HsFeature.html#HomeSeer_PluginSdk_Devices_HsFeature_RemoveStatusGraphic_HomeSeer_PluginSdk_Devices_StatusGraphic_
+  commentId: M:HomeSeer.PluginSdk.Devices.HsFeature.RemoveStatusGraphic(HomeSeer.PluginSdk.Devices.StatusGraphic)
+  fullName: HomeSeer.PluginSdk.Devices.HsFeature.RemoveStatusGraphic(HomeSeer.PluginSdk.Devices.StatusGraphic)
+  nameWithType: HsFeature.RemoveStatusGraphic(StatusGraphic)
+- uid: HomeSeer.PluginSdk.Devices.HsFeature.RemoveStatusGraphic*
+  name: RemoveStatusGraphic
+  href: api/HomeSeer.PluginSdk.Devices.HsFeature.html#HomeSeer_PluginSdk_Devices_HsFeature_RemoveStatusGraphic_
+  commentId: Overload:HomeSeer.PluginSdk.Devices.HsFeature.RemoveStatusGraphic
+  isSpec: "True"
+  fullName: HomeSeer.PluginSdk.Devices.HsFeature.RemoveStatusGraphic
+  nameWithType: HsFeature.RemoveStatusGraphic
+- uid: HomeSeer.PluginSdk.Devices.HsFeature.SetDisplayPriority(System.Int32)
+  name: SetDisplayPriority(Int32)
+  href: api/HomeSeer.PluginSdk.Devices.HsFeature.html#HomeSeer_PluginSdk_Devices_HsFeature_SetDisplayPriority_System_Int32_
+  commentId: M:HomeSeer.PluginSdk.Devices.HsFeature.SetDisplayPriority(System.Int32)
+  fullName: HomeSeer.PluginSdk.Devices.HsFeature.SetDisplayPriority(System.Int32)
+  nameWithType: HsFeature.SetDisplayPriority(Int32)
+- uid: HomeSeer.PluginSdk.Devices.HsFeature.SetDisplayPriority*
+  name: SetDisplayPriority
+  href: api/HomeSeer.PluginSdk.Devices.HsFeature.html#HomeSeer_PluginSdk_Devices_HsFeature_SetDisplayPriority_
+  commentId: Overload:HomeSeer.PluginSdk.Devices.HsFeature.SetDisplayPriority
+  isSpec: "True"
+  fullName: HomeSeer.PluginSdk.Devices.HsFeature.SetDisplayPriority
+  nameWithType: HsFeature.SetDisplayPriority
+- uid: HomeSeer.PluginSdk.Devices.HsFeature.SetParentDevice(System.Int32)
+  name: SetParentDevice(Int32)
+  href: api/HomeSeer.PluginSdk.Devices.HsFeature.html#HomeSeer_PluginSdk_Devices_HsFeature_SetParentDevice_System_Int32_
+  commentId: M:HomeSeer.PluginSdk.Devices.HsFeature.SetParentDevice(System.Int32)
+  fullName: HomeSeer.PluginSdk.Devices.HsFeature.SetParentDevice(System.Int32)
+  nameWithType: HsFeature.SetParentDevice(Int32)
+- uid: HomeSeer.PluginSdk.Devices.HsFeature.SetParentDevice*
+  name: SetParentDevice
+  href: api/HomeSeer.PluginSdk.Devices.HsFeature.html#HomeSeer_PluginSdk_Devices_HsFeature_SetParentDevice_
+  commentId: Overload:HomeSeer.PluginSdk.Devices.HsFeature.SetParentDevice
+  isSpec: "True"
+  fullName: HomeSeer.PluginSdk.Devices.HsFeature.SetParentDevice
+  nameWithType: HsFeature.SetParentDevice
 - uid: HomeSeer.PluginSdk.Devices.HsFeature.StatusControls
   name: StatusControls
   href: api/HomeSeer.PluginSdk.Devices.HsFeature.html#HomeSeer_PluginSdk_Devices_HsFeature_StatusControls
@@ -8152,6 +9129,36 @@ references:
   commentId: T:HomeSeer.PluginSdk.Devices.Identification.TypeInfo
   fullName: HomeSeer.PluginSdk.Devices.Identification.TypeInfo
   nameWithType: TypeInfo
+- uid: HomeSeer.PluginSdk.Devices.Identification.TypeInfo._apiType
+  name: _apiType
+  href: api/HomeSeer.PluginSdk.Devices.Identification.TypeInfo.html#HomeSeer_PluginSdk_Devices_Identification_TypeInfo__apiType
+  commentId: F:HomeSeer.PluginSdk.Devices.Identification.TypeInfo._apiType
+  fullName: HomeSeer.PluginSdk.Devices.Identification.TypeInfo._apiType
+  nameWithType: TypeInfo._apiType
+- uid: HomeSeer.PluginSdk.Devices.Identification.TypeInfo._subType
+  name: _subType
+  href: api/HomeSeer.PluginSdk.Devices.Identification.TypeInfo.html#HomeSeer_PluginSdk_Devices_Identification_TypeInfo__subType
+  commentId: F:HomeSeer.PluginSdk.Devices.Identification.TypeInfo._subType
+  fullName: HomeSeer.PluginSdk.Devices.Identification.TypeInfo._subType
+  nameWithType: TypeInfo._subType
+- uid: HomeSeer.PluginSdk.Devices.Identification.TypeInfo._subTypeDesc
+  name: _subTypeDesc
+  href: api/HomeSeer.PluginSdk.Devices.Identification.TypeInfo.html#HomeSeer_PluginSdk_Devices_Identification_TypeInfo__subTypeDesc
+  commentId: F:HomeSeer.PluginSdk.Devices.Identification.TypeInfo._subTypeDesc
+  fullName: HomeSeer.PluginSdk.Devices.Identification.TypeInfo._subTypeDesc
+  nameWithType: TypeInfo._subTypeDesc
+- uid: HomeSeer.PluginSdk.Devices.Identification.TypeInfo._summary
+  name: _summary
+  href: api/HomeSeer.PluginSdk.Devices.Identification.TypeInfo.html#HomeSeer_PluginSdk_Devices_Identification_TypeInfo__summary
+  commentId: F:HomeSeer.PluginSdk.Devices.Identification.TypeInfo._summary
+  fullName: HomeSeer.PluginSdk.Devices.Identification.TypeInfo._summary
+  nameWithType: TypeInfo._summary
+- uid: HomeSeer.PluginSdk.Devices.Identification.TypeInfo._type
+  name: _type
+  href: api/HomeSeer.PluginSdk.Devices.Identification.TypeInfo.html#HomeSeer_PluginSdk_Devices_Identification_TypeInfo__type
+  commentId: F:HomeSeer.PluginSdk.Devices.Identification.TypeInfo._type
+  fullName: HomeSeer.PluginSdk.Devices.Identification.TypeInfo._type
+  nameWithType: TypeInfo._type
 - uid: HomeSeer.PluginSdk.Devices.Identification.TypeInfo.ApiType
   name: ApiType
   href: api/HomeSeer.PluginSdk.Devices.Identification.TypeInfo.html#HomeSeer_PluginSdk_Devices_Identification_TypeInfo_ApiType
@@ -8223,6 +9230,22 @@ references:
   commentId: T:HomeSeer.PluginSdk.Devices.NewDeviceData
   fullName: HomeSeer.PluginSdk.Devices.NewDeviceData
   nameWithType: NewDeviceData
+- uid: HomeSeer.PluginSdk.Devices.NewDeviceData.#ctor(HomeSeer.PluginSdk.Devices.HsDevice,System.Collections.Generic.List{HomeSeer.PluginSdk.Devices.HsFeature})
+  name: NewDeviceData(HsDevice, List<HsFeature>)
+  href: api/HomeSeer.PluginSdk.Devices.NewDeviceData.html#HomeSeer_PluginSdk_Devices_NewDeviceData__ctor_HomeSeer_PluginSdk_Devices_HsDevice_System_Collections_Generic_List_HomeSeer_PluginSdk_Devices_HsFeature__
+  commentId: M:HomeSeer.PluginSdk.Devices.NewDeviceData.#ctor(HomeSeer.PluginSdk.Devices.HsDevice,System.Collections.Generic.List{HomeSeer.PluginSdk.Devices.HsFeature})
+  name.vb: NewDeviceData(HsDevice, List(Of HsFeature))
+  fullName: HomeSeer.PluginSdk.Devices.NewDeviceData.NewDeviceData(HomeSeer.PluginSdk.Devices.HsDevice, System.Collections.Generic.List<HomeSeer.PluginSdk.Devices.HsFeature>)
+  fullName.vb: HomeSeer.PluginSdk.Devices.NewDeviceData.NewDeviceData(HomeSeer.PluginSdk.Devices.HsDevice, System.Collections.Generic.List(Of HomeSeer.PluginSdk.Devices.HsFeature))
+  nameWithType: NewDeviceData.NewDeviceData(HsDevice, List<HsFeature>)
+  nameWithType.vb: NewDeviceData.NewDeviceData(HsDevice, List(Of HsFeature))
+- uid: HomeSeer.PluginSdk.Devices.NewDeviceData.#ctor*
+  name: NewDeviceData
+  href: api/HomeSeer.PluginSdk.Devices.NewDeviceData.html#HomeSeer_PluginSdk_Devices_NewDeviceData__ctor_
+  commentId: Overload:HomeSeer.PluginSdk.Devices.NewDeviceData.#ctor
+  isSpec: "True"
+  fullName: HomeSeer.PluginSdk.Devices.NewDeviceData.NewDeviceData
+  nameWithType: NewDeviceData.NewDeviceData
 - uid: HomeSeer.PluginSdk.Devices.NewDeviceData.Device
   name: Device
   href: api/HomeSeer.PluginSdk.Devices.NewDeviceData.html#HomeSeer_PluginSdk_Devices_NewDeviceData_Device
@@ -8241,6 +9264,25 @@ references:
   commentId: T:HomeSeer.PluginSdk.Devices.NewFeatureData
   fullName: HomeSeer.PluginSdk.Devices.NewFeatureData
   nameWithType: NewFeatureData
+- uid: HomeSeer.PluginSdk.Devices.NewFeatureData.#ctor(HomeSeer.PluginSdk.Devices.HsFeature)
+  name: NewFeatureData(HsFeature)
+  href: api/HomeSeer.PluginSdk.Devices.NewFeatureData.html#HomeSeer_PluginSdk_Devices_NewFeatureData__ctor_HomeSeer_PluginSdk_Devices_HsFeature_
+  commentId: M:HomeSeer.PluginSdk.Devices.NewFeatureData.#ctor(HomeSeer.PluginSdk.Devices.HsFeature)
+  fullName: HomeSeer.PluginSdk.Devices.NewFeatureData.NewFeatureData(HomeSeer.PluginSdk.Devices.HsFeature)
+  nameWithType: NewFeatureData.NewFeatureData(HsFeature)
+- uid: HomeSeer.PluginSdk.Devices.NewFeatureData.#ctor(System.Int32,HomeSeer.PluginSdk.Devices.HsFeature)
+  name: NewFeatureData(Int32, HsFeature)
+  href: api/HomeSeer.PluginSdk.Devices.NewFeatureData.html#HomeSeer_PluginSdk_Devices_NewFeatureData__ctor_System_Int32_HomeSeer_PluginSdk_Devices_HsFeature_
+  commentId: M:HomeSeer.PluginSdk.Devices.NewFeatureData.#ctor(System.Int32,HomeSeer.PluginSdk.Devices.HsFeature)
+  fullName: HomeSeer.PluginSdk.Devices.NewFeatureData.NewFeatureData(System.Int32, HomeSeer.PluginSdk.Devices.HsFeature)
+  nameWithType: NewFeatureData.NewFeatureData(Int32, HsFeature)
+- uid: HomeSeer.PluginSdk.Devices.NewFeatureData.#ctor*
+  name: NewFeatureData
+  href: api/HomeSeer.PluginSdk.Devices.NewFeatureData.html#HomeSeer_PluginSdk_Devices_NewFeatureData__ctor_
+  commentId: Overload:HomeSeer.PluginSdk.Devices.NewFeatureData.#ctor
+  isSpec: "True"
+  fullName: HomeSeer.PluginSdk.Devices.NewFeatureData.NewFeatureData
+  nameWithType: NewFeatureData.NewFeatureData
 - uid: HomeSeer.PluginSdk.Devices.NewFeatureData.Feature
   name: Feature
   href: api/HomeSeer.PluginSdk.Devices.NewFeatureData.html#HomeSeer_PluginSdk_Devices_NewFeatureData_Feature
@@ -8253,6 +9295,18 @@ references:
   commentId: T:HomeSeer.PluginSdk.Devices.PlugExtraData
   fullName: HomeSeer.PluginSdk.Devices.PlugExtraData
   nameWithType: PlugExtraData
+- uid: HomeSeer.PluginSdk.Devices.PlugExtraData._namedData
+  name: _namedData
+  href: api/HomeSeer.PluginSdk.Devices.PlugExtraData.html#HomeSeer_PluginSdk_Devices_PlugExtraData__namedData
+  commentId: F:HomeSeer.PluginSdk.Devices.PlugExtraData._namedData
+  fullName: HomeSeer.PluginSdk.Devices.PlugExtraData._namedData
+  nameWithType: PlugExtraData._namedData
+- uid: HomeSeer.PluginSdk.Devices.PlugExtraData._unNamedData
+  name: _unNamedData
+  href: api/HomeSeer.PluginSdk.Devices.PlugExtraData.html#HomeSeer_PluginSdk_Devices_PlugExtraData__unNamedData
+  commentId: F:HomeSeer.PluginSdk.Devices.PlugExtraData._unNamedData
+  fullName: HomeSeer.PluginSdk.Devices.PlugExtraData._unNamedData
+  nameWithType: PlugExtraData._unNamedData
 - uid: HomeSeer.PluginSdk.Devices.PlugExtraData.AddNamed(System.String,System.String)
   name: AddNamed(String, String)
   href: api/HomeSeer.PluginSdk.Devices.PlugExtraData.html#HomeSeer_PluginSdk_Devices_PlugExtraData_AddNamed_System_String_System_String_
@@ -8266,6 +9320,15 @@ references:
   isSpec: "True"
   fullName: HomeSeer.PluginSdk.Devices.PlugExtraData.AddNamed
   nameWithType: PlugExtraData.AddNamed
+- uid: HomeSeer.PluginSdk.Devices.PlugExtraData.AddNamed``1(System.String,``0)
+  name: AddNamed<TData>(String, TData)
+  href: api/HomeSeer.PluginSdk.Devices.PlugExtraData.html#HomeSeer_PluginSdk_Devices_PlugExtraData_AddNamed__1_System_String___0_
+  commentId: M:HomeSeer.PluginSdk.Devices.PlugExtraData.AddNamed``1(System.String,``0)
+  name.vb: AddNamed(Of TData)(String, TData)
+  fullName: HomeSeer.PluginSdk.Devices.PlugExtraData.AddNamed<TData>(System.String, TData)
+  fullName.vb: HomeSeer.PluginSdk.Devices.PlugExtraData.AddNamed(Of TData)(System.String, TData)
+  nameWithType: PlugExtraData.AddNamed<TData>(String, TData)
+  nameWithType.vb: PlugExtraData.AddNamed(Of TData)(String, TData)
 - uid: HomeSeer.PluginSdk.Devices.PlugExtraData.AddUnNamed(System.String)
   name: AddUnNamed(String)
   href: api/HomeSeer.PluginSdk.Devices.PlugExtraData.html#HomeSeer_PluginSdk_Devices_PlugExtraData_AddUnNamed_System_String_
@@ -8279,6 +9342,15 @@ references:
   isSpec: "True"
   fullName: HomeSeer.PluginSdk.Devices.PlugExtraData.AddUnNamed
   nameWithType: PlugExtraData.AddUnNamed
+- uid: HomeSeer.PluginSdk.Devices.PlugExtraData.AddUnNamed``1(``0)
+  name: AddUnNamed<TData>(TData)
+  href: api/HomeSeer.PluginSdk.Devices.PlugExtraData.html#HomeSeer_PluginSdk_Devices_PlugExtraData_AddUnNamed__1___0_
+  commentId: M:HomeSeer.PluginSdk.Devices.PlugExtraData.AddUnNamed``1(``0)
+  name.vb: AddUnNamed(Of TData)(TData)
+  fullName: HomeSeer.PluginSdk.Devices.PlugExtraData.AddUnNamed<TData>(TData)
+  fullName.vb: HomeSeer.PluginSdk.Devices.PlugExtraData.AddUnNamed(Of TData)(TData)
+  nameWithType: PlugExtraData.AddUnNamed<TData>(TData)
+  nameWithType.vb: PlugExtraData.AddUnNamed(Of TData)(TData)
 - uid: HomeSeer.PluginSdk.Devices.PlugExtraData.ContainsNamed(System.String)
   name: ContainsNamed(String)
   href: api/HomeSeer.PluginSdk.Devices.PlugExtraData.html#HomeSeer_PluginSdk_Devices_PlugExtraData_ContainsNamed_System_String_
@@ -8292,6 +9364,12 @@ references:
   isSpec: "True"
   fullName: HomeSeer.PluginSdk.Devices.PlugExtraData.ContainsNamed
   nameWithType: PlugExtraData.ContainsNamed
+- uid: HomeSeer.PluginSdk.Devices.PlugExtraData.GetNamed(System.String)
+  name: GetNamed(String)
+  href: api/HomeSeer.PluginSdk.Devices.PlugExtraData.html#HomeSeer_PluginSdk_Devices_PlugExtraData_GetNamed_System_String_
+  commentId: M:HomeSeer.PluginSdk.Devices.PlugExtraData.GetNamed(System.String)
+  fullName: HomeSeer.PluginSdk.Devices.PlugExtraData.GetNamed(System.String)
+  nameWithType: PlugExtraData.GetNamed(String)
 - uid: HomeSeer.PluginSdk.Devices.PlugExtraData.GetNamed*
   name: GetNamed
   href: api/HomeSeer.PluginSdk.Devices.PlugExtraData.html#HomeSeer_PluginSdk_Devices_PlugExtraData_GetNamed_
@@ -8308,6 +9386,12 @@ references:
   fullName.vb: HomeSeer.PluginSdk.Devices.PlugExtraData.GetNamed(Of TData)(System.String)
   nameWithType: PlugExtraData.GetNamed<TData>(String)
   nameWithType.vb: PlugExtraData.GetNamed(Of TData)(String)
+- uid: HomeSeer.PluginSdk.Devices.PlugExtraData.GetUnNamed(System.Int32)
+  name: GetUnNamed(Int32)
+  href: api/HomeSeer.PluginSdk.Devices.PlugExtraData.html#HomeSeer_PluginSdk_Devices_PlugExtraData_GetUnNamed_System_Int32_
+  commentId: M:HomeSeer.PluginSdk.Devices.PlugExtraData.GetUnNamed(System.Int32)
+  fullName: HomeSeer.PluginSdk.Devices.PlugExtraData.GetUnNamed(System.Int32)
+  nameWithType: PlugExtraData.GetUnNamed(Int32)
 - uid: HomeSeer.PluginSdk.Devices.PlugExtraData.GetUnNamed*
   name: GetUnNamed
   href: api/HomeSeer.PluginSdk.Devices.PlugExtraData.html#HomeSeer_PluginSdk_Devices_PlugExtraData_GetUnNamed_
@@ -8497,6 +9581,48 @@ references:
   isSpec: "True"
   fullName: HomeSeer.PluginSdk.Devices.StatusGraphic.StatusGraphic
   nameWithType: StatusGraphic.StatusGraphic
+- uid: HomeSeer.PluginSdk.Devices.StatusGraphic._controlUse
+  name: _controlUse
+  href: api/HomeSeer.PluginSdk.Devices.StatusGraphic.html#HomeSeer_PluginSdk_Devices_StatusGraphic__controlUse
+  commentId: F:HomeSeer.PluginSdk.Devices.StatusGraphic._controlUse
+  fullName: HomeSeer.PluginSdk.Devices.StatusGraphic._controlUse
+  nameWithType: StatusGraphic._controlUse
+- uid: HomeSeer.PluginSdk.Devices.StatusGraphic._graphicPath
+  name: _graphicPath
+  href: api/HomeSeer.PluginSdk.Devices.StatusGraphic.html#HomeSeer_PluginSdk_Devices_StatusGraphic__graphicPath
+  commentId: F:HomeSeer.PluginSdk.Devices.StatusGraphic._graphicPath
+  fullName: HomeSeer.PluginSdk.Devices.StatusGraphic._graphicPath
+  nameWithType: StatusGraphic._graphicPath
+- uid: HomeSeer.PluginSdk.Devices.StatusGraphic._hasAdditionalData
+  name: _hasAdditionalData
+  href: api/HomeSeer.PluginSdk.Devices.StatusGraphic.html#HomeSeer_PluginSdk_Devices_StatusGraphic__hasAdditionalData
+  commentId: F:HomeSeer.PluginSdk.Devices.StatusGraphic._hasAdditionalData
+  fullName: HomeSeer.PluginSdk.Devices.StatusGraphic._hasAdditionalData
+  nameWithType: StatusGraphic._hasAdditionalData
+- uid: HomeSeer.PluginSdk.Devices.StatusGraphic._isRange
+  name: _isRange
+  href: api/HomeSeer.PluginSdk.Devices.StatusGraphic.html#HomeSeer_PluginSdk_Devices_StatusGraphic__isRange
+  commentId: F:HomeSeer.PluginSdk.Devices.StatusGraphic._isRange
+  fullName: HomeSeer.PluginSdk.Devices.StatusGraphic._isRange
+  nameWithType: StatusGraphic._isRange
+- uid: HomeSeer.PluginSdk.Devices.StatusGraphic._label
+  name: _label
+  href: api/HomeSeer.PluginSdk.Devices.StatusGraphic.html#HomeSeer_PluginSdk_Devices_StatusGraphic__label
+  commentId: F:HomeSeer.PluginSdk.Devices.StatusGraphic._label
+  fullName: HomeSeer.PluginSdk.Devices.StatusGraphic._label
+  nameWithType: StatusGraphic._label
+- uid: HomeSeer.PluginSdk.Devices.StatusGraphic._targetRange
+  name: _targetRange
+  href: api/HomeSeer.PluginSdk.Devices.StatusGraphic.html#HomeSeer_PluginSdk_Devices_StatusGraphic__targetRange
+  commentId: F:HomeSeer.PluginSdk.Devices.StatusGraphic._targetRange
+  fullName: HomeSeer.PluginSdk.Devices.StatusGraphic._targetRange
+  nameWithType: StatusGraphic._targetRange
+- uid: HomeSeer.PluginSdk.Devices.StatusGraphic._value
+  name: _value
+  href: api/HomeSeer.PluginSdk.Devices.StatusGraphic.html#HomeSeer_PluginSdk_Devices_StatusGraphic__value
+  commentId: F:HomeSeer.PluginSdk.Devices.StatusGraphic._value
+  fullName: HomeSeer.PluginSdk.Devices.StatusGraphic._value
+  nameWithType: StatusGraphic._value
 - uid: HomeSeer.PluginSdk.Devices.StatusGraphic.Clone
   name: Clone()
   href: api/HomeSeer.PluginSdk.Devices.StatusGraphic.html#HomeSeer_PluginSdk_Devices_StatusGraphic_Clone
@@ -8669,6 +9795,22 @@ references:
   isSpec: "True"
   fullName: HomeSeer.PluginSdk.Devices.StatusGraphic.RangeMin
   nameWithType: StatusGraphic.RangeMin
+- uid: HomeSeer.PluginSdk.Devices.StatusGraphic.ReplaceAdditionalData(System.String,System.String[])
+  name: ReplaceAdditionalData(String, String[])
+  href: api/HomeSeer.PluginSdk.Devices.StatusGraphic.html#HomeSeer_PluginSdk_Devices_StatusGraphic_ReplaceAdditionalData_System_String_System_String___
+  commentId: M:HomeSeer.PluginSdk.Devices.StatusGraphic.ReplaceAdditionalData(System.String,System.String[])
+  name.vb: ReplaceAdditionalData(String, String())
+  fullName: HomeSeer.PluginSdk.Devices.StatusGraphic.ReplaceAdditionalData(System.String, System.String[])
+  fullName.vb: HomeSeer.PluginSdk.Devices.StatusGraphic.ReplaceAdditionalData(System.String, System.String())
+  nameWithType: StatusGraphic.ReplaceAdditionalData(String, String[])
+  nameWithType.vb: StatusGraphic.ReplaceAdditionalData(String, String())
+- uid: HomeSeer.PluginSdk.Devices.StatusGraphic.ReplaceAdditionalData*
+  name: ReplaceAdditionalData
+  href: api/HomeSeer.PluginSdk.Devices.StatusGraphic.html#HomeSeer_PluginSdk_Devices_StatusGraphic_ReplaceAdditionalData_
+  commentId: Overload:HomeSeer.PluginSdk.Devices.StatusGraphic.ReplaceAdditionalData
+  isSpec: "True"
+  fullName: HomeSeer.PluginSdk.Devices.StatusGraphic.ReplaceAdditionalData
+  nameWithType: StatusGraphic.ReplaceAdditionalData
 - uid: HomeSeer.PluginSdk.Devices.StatusGraphic.TargetRange
   name: TargetRange
   href: api/HomeSeer.PluginSdk.Devices.StatusGraphic.html#HomeSeer_PluginSdk_Devices_StatusGraphic_TargetRange
@@ -8717,6 +9859,12 @@ references:
   commentId: T:HomeSeer.PluginSdk.Devices.StatusGraphicCollection
   fullName: HomeSeer.PluginSdk.Devices.StatusGraphicCollection
   nameWithType: StatusGraphicCollection
+- uid: HomeSeer.PluginSdk.Devices.StatusGraphicCollection._statusGraphics
+  name: _statusGraphics
+  href: api/HomeSeer.PluginSdk.Devices.StatusGraphicCollection.html#HomeSeer_PluginSdk_Devices_StatusGraphicCollection__statusGraphics
+  commentId: F:HomeSeer.PluginSdk.Devices.StatusGraphicCollection._statusGraphics
+  fullName: HomeSeer.PluginSdk.Devices.StatusGraphicCollection._statusGraphics
+  nameWithType: StatusGraphicCollection._statusGraphics
 - uid: HomeSeer.PluginSdk.Devices.StatusGraphicCollection.Add(HomeSeer.PluginSdk.Devices.StatusGraphic)
   name: Add(StatusGraphic)
   href: api/HomeSeer.PluginSdk.Devices.StatusGraphicCollection.html#HomeSeer_PluginSdk_Devices_StatusGraphicCollection_Add_HomeSeer_PluginSdk_Devices_StatusGraphic_
@@ -8885,6 +10033,42 @@ references:
   isSpec: "True"
   fullName: HomeSeer.PluginSdk.Devices.ValueRange.ValueRange
   nameWithType: ValueRange.ValueRange
+- uid: HomeSeer.PluginSdk.Devices.ValueRange._decimalPlaces
+  name: _decimalPlaces
+  href: api/HomeSeer.PluginSdk.Devices.ValueRange.html#HomeSeer_PluginSdk_Devices_ValueRange__decimalPlaces
+  commentId: F:HomeSeer.PluginSdk.Devices.ValueRange._decimalPlaces
+  fullName: HomeSeer.PluginSdk.Devices.ValueRange._decimalPlaces
+  nameWithType: ValueRange._decimalPlaces
+- uid: HomeSeer.PluginSdk.Devices.ValueRange._max
+  name: _max
+  href: api/HomeSeer.PluginSdk.Devices.ValueRange.html#HomeSeer_PluginSdk_Devices_ValueRange__max
+  commentId: F:HomeSeer.PluginSdk.Devices.ValueRange._max
+  fullName: HomeSeer.PluginSdk.Devices.ValueRange._max
+  nameWithType: ValueRange._max
+- uid: HomeSeer.PluginSdk.Devices.ValueRange._min
+  name: _min
+  href: api/HomeSeer.PluginSdk.Devices.ValueRange.html#HomeSeer_PluginSdk_Devices_ValueRange__min
+  commentId: F:HomeSeer.PluginSdk.Devices.ValueRange._min
+  fullName: HomeSeer.PluginSdk.Devices.ValueRange._min
+  nameWithType: ValueRange._min
+- uid: HomeSeer.PluginSdk.Devices.ValueRange._offset
+  name: _offset
+  href: api/HomeSeer.PluginSdk.Devices.ValueRange.html#HomeSeer_PluginSdk_Devices_ValueRange__offset
+  commentId: F:HomeSeer.PluginSdk.Devices.ValueRange._offset
+  fullName: HomeSeer.PluginSdk.Devices.ValueRange._offset
+  nameWithType: ValueRange._offset
+- uid: HomeSeer.PluginSdk.Devices.ValueRange._prefix
+  name: _prefix
+  href: api/HomeSeer.PluginSdk.Devices.ValueRange.html#HomeSeer_PluginSdk_Devices_ValueRange__prefix
+  commentId: F:HomeSeer.PluginSdk.Devices.ValueRange._prefix
+  fullName: HomeSeer.PluginSdk.Devices.ValueRange._prefix
+  nameWithType: ValueRange._prefix
+- uid: HomeSeer.PluginSdk.Devices.ValueRange._suffix
+  name: _suffix
+  href: api/HomeSeer.PluginSdk.Devices.ValueRange.html#HomeSeer_PluginSdk_Devices_ValueRange__suffix
+  commentId: F:HomeSeer.PluginSdk.Devices.ValueRange._suffix
+  fullName: HomeSeer.PluginSdk.Devices.ValueRange._suffix
+  nameWithType: ValueRange._suffix
 - uid: HomeSeer.PluginSdk.Devices.ValueRange.Clone
   name: Clone()
   href: api/HomeSeer.PluginSdk.Devices.ValueRange.html#HomeSeer_PluginSdk_Devices_ValueRange_Clone
@@ -9188,6 +10372,12 @@ references:
   commentId: F:HomeSeer.PluginSdk.Energy.EnergyCalcData.mvAmount
   fullName: HomeSeer.PluginSdk.Energy.EnergyCalcData.mvAmount
   nameWithType: EnergyCalcData.mvAmount
+- uid: HomeSeer.PluginSdk.Energy.EnergyCalcData.mvarName
+  name: mvarName
+  href: api/HomeSeer.PluginSdk.Energy.EnergyCalcData.html#HomeSeer_PluginSdk_Energy_EnergyCalcData_mvarName
+  commentId: F:HomeSeer.PluginSdk.Energy.EnergyCalcData.mvarName
+  fullName: HomeSeer.PluginSdk.Energy.EnergyCalcData.mvarName
+  nameWithType: EnergyCalcData.mvarName
 - uid: HomeSeer.PluginSdk.Energy.EnergyCalcData.mvCost
   name: mvCost
   href: api/HomeSeer.PluginSdk.Energy.EnergyCalcData.html#HomeSeer_PluginSdk_Energy_EnergyCalcData_mvCost
@@ -9591,6 +10781,36 @@ references:
   isSpec: "True"
   fullName: HomeSeer.PluginSdk.Events.AbstractActionType.AbstractActionType
   nameWithType: AbstractActionType.AbstractActionType
+- uid: HomeSeer.PluginSdk.Events.AbstractActionType._configPage
+  name: _configPage
+  href: api/HomeSeer.PluginSdk.Events.AbstractActionType.html#HomeSeer_PluginSdk_Events_AbstractActionType__configPage
+  commentId: F:HomeSeer.PluginSdk.Events.AbstractActionType._configPage
+  fullName: HomeSeer.PluginSdk.Events.AbstractActionType._configPage
+  nameWithType: AbstractActionType._configPage
+- uid: HomeSeer.PluginSdk.Events.AbstractActionType._data
+  name: _data
+  href: api/HomeSeer.PluginSdk.Events.AbstractActionType.html#HomeSeer_PluginSdk_Events_AbstractActionType__data
+  commentId: F:HomeSeer.PluginSdk.Events.AbstractActionType._data
+  fullName: HomeSeer.PluginSdk.Events.AbstractActionType._data
+  nameWithType: AbstractActionType._data
+- uid: HomeSeer.PluginSdk.Events.AbstractActionType._eventRef
+  name: _eventRef
+  href: api/HomeSeer.PluginSdk.Events.AbstractActionType.html#HomeSeer_PluginSdk_Events_AbstractActionType__eventRef
+  commentId: F:HomeSeer.PluginSdk.Events.AbstractActionType._eventRef
+  fullName: HomeSeer.PluginSdk.Events.AbstractActionType._eventRef
+  nameWithType: AbstractActionType._eventRef
+- uid: HomeSeer.PluginSdk.Events.AbstractActionType._id
+  name: _id
+  href: api/HomeSeer.PluginSdk.Events.AbstractActionType.html#HomeSeer_PluginSdk_Events_AbstractActionType__id
+  commentId: F:HomeSeer.PluginSdk.Events.AbstractActionType._id
+  fullName: HomeSeer.PluginSdk.Events.AbstractActionType._id
+  nameWithType: AbstractActionType._id
+- uid: HomeSeer.PluginSdk.Events.AbstractActionType._inData
+  name: _inData
+  href: api/HomeSeer.PluginSdk.Events.AbstractActionType.html#HomeSeer_PluginSdk_Events_AbstractActionType__inData
+  commentId: F:HomeSeer.PluginSdk.Events.AbstractActionType._inData
+  fullName: HomeSeer.PluginSdk.Events.AbstractActionType._inData
+  nameWithType: AbstractActionType._inData
 - uid: HomeSeer.PluginSdk.Events.AbstractActionType.ActionListener
   name: ActionListener
   href: api/HomeSeer.PluginSdk.Events.AbstractActionType.html#HomeSeer_PluginSdk_Events_AbstractActionType_ActionListener
@@ -9672,6 +10892,19 @@ references:
   isSpec: "True"
   fullName: HomeSeer.PluginSdk.Events.AbstractActionType.EventRef
   nameWithType: AbstractActionType.EventRef
+- uid: HomeSeer.PluginSdk.Events.AbstractActionType.GetData
+  name: GetData()
+  href: api/HomeSeer.PluginSdk.Events.AbstractActionType.html#HomeSeer_PluginSdk_Events_AbstractActionType_GetData
+  commentId: M:HomeSeer.PluginSdk.Events.AbstractActionType.GetData
+  fullName: HomeSeer.PluginSdk.Events.AbstractActionType.GetData()
+  nameWithType: AbstractActionType.GetData()
+- uid: HomeSeer.PluginSdk.Events.AbstractActionType.GetData*
+  name: GetData
+  href: api/HomeSeer.PluginSdk.Events.AbstractActionType.html#HomeSeer_PluginSdk_Events_AbstractActionType_GetData_
+  commentId: Overload:HomeSeer.PluginSdk.Events.AbstractActionType.GetData
+  isSpec: "True"
+  fullName: HomeSeer.PluginSdk.Events.AbstractActionType.GetData
+  nameWithType: AbstractActionType.GetData
 - uid: HomeSeer.PluginSdk.Events.AbstractActionType.GetHashCode
   name: GetHashCode()
   href: api/HomeSeer.PluginSdk.Events.AbstractActionType.html#HomeSeer_PluginSdk_Events_AbstractActionType_GetHashCode
@@ -9724,6 +10957,19 @@ references:
   isSpec: "True"
   fullName: HomeSeer.PluginSdk.Events.AbstractActionType.Id
   nameWithType: AbstractActionType.Id
+- uid: HomeSeer.PluginSdk.Events.AbstractActionType.InflateActionFromData
+  name: InflateActionFromData()
+  href: api/HomeSeer.PluginSdk.Events.AbstractActionType.html#HomeSeer_PluginSdk_Events_AbstractActionType_InflateActionFromData
+  commentId: M:HomeSeer.PluginSdk.Events.AbstractActionType.InflateActionFromData
+  fullName: HomeSeer.PluginSdk.Events.AbstractActionType.InflateActionFromData()
+  nameWithType: AbstractActionType.InflateActionFromData()
+- uid: HomeSeer.PluginSdk.Events.AbstractActionType.InflateActionFromData*
+  name: InflateActionFromData
+  href: api/HomeSeer.PluginSdk.Events.AbstractActionType.html#HomeSeer_PluginSdk_Events_AbstractActionType_InflateActionFromData_
+  commentId: Overload:HomeSeer.PluginSdk.Events.AbstractActionType.InflateActionFromData
+  isSpec: "True"
+  fullName: HomeSeer.PluginSdk.Events.AbstractActionType.InflateActionFromData
+  nameWithType: AbstractActionType.InflateActionFromData
 - uid: HomeSeer.PluginSdk.Events.AbstractActionType.IsFullyConfigured
   name: IsFullyConfigured()
   href: api/HomeSeer.PluginSdk.Events.AbstractActionType.html#HomeSeer_PluginSdk_Events_AbstractActionType_IsFullyConfigured
@@ -9828,6 +11074,38 @@ references:
   isSpec: "True"
   fullName: HomeSeer.PluginSdk.Events.AbstractActionType.PageId
   nameWithType: AbstractActionType.PageId
+- uid: HomeSeer.PluginSdk.Events.AbstractActionType.ProcessData(System.Byte[])
+  name: ProcessData(Byte[])
+  href: api/HomeSeer.PluginSdk.Events.AbstractActionType.html#HomeSeer_PluginSdk_Events_AbstractActionType_ProcessData_System_Byte___
+  commentId: M:HomeSeer.PluginSdk.Events.AbstractActionType.ProcessData(System.Byte[])
+  name.vb: ProcessData(Byte())
+  fullName: HomeSeer.PluginSdk.Events.AbstractActionType.ProcessData(System.Byte[])
+  fullName.vb: HomeSeer.PluginSdk.Events.AbstractActionType.ProcessData(System.Byte())
+  nameWithType: AbstractActionType.ProcessData(Byte[])
+  nameWithType.vb: AbstractActionType.ProcessData(Byte())
+- uid: HomeSeer.PluginSdk.Events.AbstractActionType.ProcessData*
+  name: ProcessData
+  href: api/HomeSeer.PluginSdk.Events.AbstractActionType.html#HomeSeer_PluginSdk_Events_AbstractActionType_ProcessData_
+  commentId: Overload:HomeSeer.PluginSdk.Events.AbstractActionType.ProcessData
+  isSpec: "True"
+  fullName: HomeSeer.PluginSdk.Events.AbstractActionType.ProcessData
+  nameWithType: AbstractActionType.ProcessData
+- uid: HomeSeer.PluginSdk.Events.AbstractActionType.ProcessPostData(System.Collections.Generic.Dictionary{System.String,System.String})
+  name: ProcessPostData(Dictionary<String, String>)
+  href: api/HomeSeer.PluginSdk.Events.AbstractActionType.html#HomeSeer_PluginSdk_Events_AbstractActionType_ProcessPostData_System_Collections_Generic_Dictionary_System_String_System_String__
+  commentId: M:HomeSeer.PluginSdk.Events.AbstractActionType.ProcessPostData(System.Collections.Generic.Dictionary{System.String,System.String})
+  name.vb: ProcessPostData(Dictionary(Of String, String))
+  fullName: HomeSeer.PluginSdk.Events.AbstractActionType.ProcessPostData(System.Collections.Generic.Dictionary<System.String, System.String>)
+  fullName.vb: HomeSeer.PluginSdk.Events.AbstractActionType.ProcessPostData(System.Collections.Generic.Dictionary(Of System.String, System.String))
+  nameWithType: AbstractActionType.ProcessPostData(Dictionary<String, String>)
+  nameWithType.vb: AbstractActionType.ProcessPostData(Dictionary(Of String, String))
+- uid: HomeSeer.PluginSdk.Events.AbstractActionType.ProcessPostData*
+  name: ProcessPostData
+  href: api/HomeSeer.PluginSdk.Events.AbstractActionType.html#HomeSeer_PluginSdk_Events_AbstractActionType_ProcessPostData_
+  commentId: Overload:HomeSeer.PluginSdk.Events.AbstractActionType.ProcessPostData
+  isSpec: "True"
+  fullName: HomeSeer.PluginSdk.Events.AbstractActionType.ProcessPostData
+  nameWithType: AbstractActionType.ProcessPostData
 - uid: HomeSeer.PluginSdk.Events.AbstractActionType.ReferencesDeviceOrFeature(System.Int32)
   name: ReferencesDeviceOrFeature(Int32)
   href: api/HomeSeer.PluginSdk.Events.AbstractActionType.html#HomeSeer_PluginSdk_Events_AbstractActionType_ReferencesDeviceOrFeature_System_Int32_
@@ -9910,6 +11188,42 @@ references:
   isSpec: "True"
   fullName: HomeSeer.PluginSdk.Events.AbstractTriggerType.AbstractTriggerType
   nameWithType: AbstractTriggerType.AbstractTriggerType
+- uid: HomeSeer.PluginSdk.Events.AbstractTriggerType._configPage
+  name: _configPage
+  href: api/HomeSeer.PluginSdk.Events.AbstractTriggerType.html#HomeSeer_PluginSdk_Events_AbstractTriggerType__configPage
+  commentId: F:HomeSeer.PluginSdk.Events.AbstractTriggerType._configPage
+  fullName: HomeSeer.PluginSdk.Events.AbstractTriggerType._configPage
+  nameWithType: AbstractTriggerType._configPage
+- uid: HomeSeer.PluginSdk.Events.AbstractTriggerType._data
+  name: _data
+  href: api/HomeSeer.PluginSdk.Events.AbstractTriggerType.html#HomeSeer_PluginSdk_Events_AbstractTriggerType__data
+  commentId: F:HomeSeer.PluginSdk.Events.AbstractTriggerType._data
+  fullName: HomeSeer.PluginSdk.Events.AbstractTriggerType._data
+  nameWithType: AbstractTriggerType._data
+- uid: HomeSeer.PluginSdk.Events.AbstractTriggerType._eventRef
+  name: _eventRef
+  href: api/HomeSeer.PluginSdk.Events.AbstractTriggerType.html#HomeSeer_PluginSdk_Events_AbstractTriggerType__eventRef
+  commentId: F:HomeSeer.PluginSdk.Events.AbstractTriggerType._eventRef
+  fullName: HomeSeer.PluginSdk.Events.AbstractTriggerType._eventRef
+  nameWithType: AbstractTriggerType._eventRef
+- uid: HomeSeer.PluginSdk.Events.AbstractTriggerType._id
+  name: _id
+  href: api/HomeSeer.PluginSdk.Events.AbstractTriggerType.html#HomeSeer_PluginSdk_Events_AbstractTriggerType__id
+  commentId: F:HomeSeer.PluginSdk.Events.AbstractTriggerType._id
+  fullName: HomeSeer.PluginSdk.Events.AbstractTriggerType._id
+  nameWithType: AbstractTriggerType._id
+- uid: HomeSeer.PluginSdk.Events.AbstractTriggerType._inData
+  name: _inData
+  href: api/HomeSeer.PluginSdk.Events.AbstractTriggerType.html#HomeSeer_PluginSdk_Events_AbstractTriggerType__inData
+  commentId: F:HomeSeer.PluginSdk.Events.AbstractTriggerType._inData
+  fullName: HomeSeer.PluginSdk.Events.AbstractTriggerType._inData
+  nameWithType: AbstractTriggerType._inData
+- uid: HomeSeer.PluginSdk.Events.AbstractTriggerType._selectedSubTriggerIndex
+  name: _selectedSubTriggerIndex
+  href: api/HomeSeer.PluginSdk.Events.AbstractTriggerType.html#HomeSeer_PluginSdk_Events_AbstractTriggerType__selectedSubTriggerIndex
+  commentId: F:HomeSeer.PluginSdk.Events.AbstractTriggerType._selectedSubTriggerIndex
+  fullName: HomeSeer.PluginSdk.Events.AbstractTriggerType._selectedSubTriggerIndex
+  nameWithType: AbstractTriggerType._selectedSubTriggerIndex
 - uid: HomeSeer.PluginSdk.Events.AbstractTriggerType.CanBeCondition
   name: CanBeCondition
   href: api/HomeSeer.PluginSdk.Events.AbstractTriggerType.html#HomeSeer_PluginSdk_Events_AbstractTriggerType_CanBeCondition
@@ -9978,6 +11292,19 @@ references:
   isSpec: "True"
   fullName: HomeSeer.PluginSdk.Events.AbstractTriggerType.EventRef
   nameWithType: AbstractTriggerType.EventRef
+- uid: HomeSeer.PluginSdk.Events.AbstractTriggerType.GetData
+  name: GetData()
+  href: api/HomeSeer.PluginSdk.Events.AbstractTriggerType.html#HomeSeer_PluginSdk_Events_AbstractTriggerType_GetData
+  commentId: M:HomeSeer.PluginSdk.Events.AbstractTriggerType.GetData
+  fullName: HomeSeer.PluginSdk.Events.AbstractTriggerType.GetData()
+  nameWithType: AbstractTriggerType.GetData()
+- uid: HomeSeer.PluginSdk.Events.AbstractTriggerType.GetData*
+  name: GetData
+  href: api/HomeSeer.PluginSdk.Events.AbstractTriggerType.html#HomeSeer_PluginSdk_Events_AbstractTriggerType_GetData_
+  commentId: Overload:HomeSeer.PluginSdk.Events.AbstractTriggerType.GetData
+  isSpec: "True"
+  fullName: HomeSeer.PluginSdk.Events.AbstractTriggerType.GetData
+  nameWithType: AbstractTriggerType.GetData
 - uid: HomeSeer.PluginSdk.Events.AbstractTriggerType.GetName
   name: GetName()
   href: api/HomeSeer.PluginSdk.Events.AbstractTriggerType.html#HomeSeer_PluginSdk_Events_AbstractTriggerType_GetName
@@ -10030,6 +11357,19 @@ references:
   isSpec: "True"
   fullName: HomeSeer.PluginSdk.Events.AbstractTriggerType.Id
   nameWithType: AbstractTriggerType.Id
+- uid: HomeSeer.PluginSdk.Events.AbstractTriggerType.InflateTriggerFromData
+  name: InflateTriggerFromData()
+  href: api/HomeSeer.PluginSdk.Events.AbstractTriggerType.html#HomeSeer_PluginSdk_Events_AbstractTriggerType_InflateTriggerFromData
+  commentId: M:HomeSeer.PluginSdk.Events.AbstractTriggerType.InflateTriggerFromData
+  fullName: HomeSeer.PluginSdk.Events.AbstractTriggerType.InflateTriggerFromData()
+  nameWithType: AbstractTriggerType.InflateTriggerFromData()
+- uid: HomeSeer.PluginSdk.Events.AbstractTriggerType.InflateTriggerFromData*
+  name: InflateTriggerFromData
+  href: api/HomeSeer.PluginSdk.Events.AbstractTriggerType.html#HomeSeer_PluginSdk_Events_AbstractTriggerType_InflateTriggerFromData_
+  commentId: Overload:HomeSeer.PluginSdk.Events.AbstractTriggerType.InflateTriggerFromData
+  isSpec: "True"
+  fullName: HomeSeer.PluginSdk.Events.AbstractTriggerType.InflateTriggerFromData
+  nameWithType: AbstractTriggerType.InflateTriggerFromData
 - uid: HomeSeer.PluginSdk.Events.AbstractTriggerType.IsFullyConfigured
   name: IsFullyConfigured()
   href: api/HomeSeer.PluginSdk.Events.AbstractTriggerType.html#HomeSeer_PluginSdk_Events_AbstractTriggerType_IsFullyConfigured
@@ -10134,6 +11474,38 @@ references:
   isSpec: "True"
   fullName: HomeSeer.PluginSdk.Events.AbstractTriggerType.PageId
   nameWithType: AbstractTriggerType.PageId
+- uid: HomeSeer.PluginSdk.Events.AbstractTriggerType.ProcessData(System.Byte[])
+  name: ProcessData(Byte[])
+  href: api/HomeSeer.PluginSdk.Events.AbstractTriggerType.html#HomeSeer_PluginSdk_Events_AbstractTriggerType_ProcessData_System_Byte___
+  commentId: M:HomeSeer.PluginSdk.Events.AbstractTriggerType.ProcessData(System.Byte[])
+  name.vb: ProcessData(Byte())
+  fullName: HomeSeer.PluginSdk.Events.AbstractTriggerType.ProcessData(System.Byte[])
+  fullName.vb: HomeSeer.PluginSdk.Events.AbstractTriggerType.ProcessData(System.Byte())
+  nameWithType: AbstractTriggerType.ProcessData(Byte[])
+  nameWithType.vb: AbstractTriggerType.ProcessData(Byte())
+- uid: HomeSeer.PluginSdk.Events.AbstractTriggerType.ProcessData*
+  name: ProcessData
+  href: api/HomeSeer.PluginSdk.Events.AbstractTriggerType.html#HomeSeer_PluginSdk_Events_AbstractTriggerType_ProcessData_
+  commentId: Overload:HomeSeer.PluginSdk.Events.AbstractTriggerType.ProcessData
+  isSpec: "True"
+  fullName: HomeSeer.PluginSdk.Events.AbstractTriggerType.ProcessData
+  nameWithType: AbstractTriggerType.ProcessData
+- uid: HomeSeer.PluginSdk.Events.AbstractTriggerType.ProcessPostData(System.Collections.Generic.Dictionary{System.String,System.String})
+  name: ProcessPostData(Dictionary<String, String>)
+  href: api/HomeSeer.PluginSdk.Events.AbstractTriggerType.html#HomeSeer_PluginSdk_Events_AbstractTriggerType_ProcessPostData_System_Collections_Generic_Dictionary_System_String_System_String__
+  commentId: M:HomeSeer.PluginSdk.Events.AbstractTriggerType.ProcessPostData(System.Collections.Generic.Dictionary{System.String,System.String})
+  name.vb: ProcessPostData(Dictionary(Of String, String))
+  fullName: HomeSeer.PluginSdk.Events.AbstractTriggerType.ProcessPostData(System.Collections.Generic.Dictionary<System.String, System.String>)
+  fullName.vb: HomeSeer.PluginSdk.Events.AbstractTriggerType.ProcessPostData(System.Collections.Generic.Dictionary(Of System.String, System.String))
+  nameWithType: AbstractTriggerType.ProcessPostData(Dictionary<String, String>)
+  nameWithType.vb: AbstractTriggerType.ProcessPostData(Dictionary(Of String, String))
+- uid: HomeSeer.PluginSdk.Events.AbstractTriggerType.ProcessPostData*
+  name: ProcessPostData
+  href: api/HomeSeer.PluginSdk.Events.AbstractTriggerType.html#HomeSeer_PluginSdk_Events_AbstractTriggerType_ProcessPostData_
+  commentId: Overload:HomeSeer.PluginSdk.Events.AbstractTriggerType.ProcessPostData
+  isSpec: "True"
+  fullName: HomeSeer.PluginSdk.Events.AbstractTriggerType.ProcessPostData
+  nameWithType: AbstractTriggerType.ProcessPostData
 - uid: HomeSeer.PluginSdk.Events.AbstractTriggerType.ReferencesDeviceOrFeature(System.Int32)
   name: ReferencesDeviceOrFeature(Int32)
   href: api/HomeSeer.PluginSdk.Events.AbstractTriggerType.html#HomeSeer_PluginSdk_Events_AbstractTriggerType_ReferencesDeviceOrFeature_System_Int32_
@@ -10231,6 +11603,12 @@ references:
   isSpec: "True"
   fullName: HomeSeer.PluginSdk.Events.ActionTypeCollection.ActionTypeCollection
   nameWithType: ActionTypeCollection.ActionTypeCollection
+- uid: HomeSeer.PluginSdk.Events.ActionTypeCollection._listener
+  name: _listener
+  href: api/HomeSeer.PluginSdk.Events.ActionTypeCollection.html#HomeSeer_PluginSdk_Events_ActionTypeCollection__listener
+  commentId: F:HomeSeer.PluginSdk.Events.ActionTypeCollection._listener
+  fullName: HomeSeer.PluginSdk.Events.ActionTypeCollection._listener
+  nameWithType: ActionTypeCollection._listener
 - uid: HomeSeer.PluginSdk.Events.ActionTypeCollection.ActionReferencesDeviceOrFeature(System.Int32,HomeSeer.PluginSdk.Events.TrigActInfo)
   name: ActionReferencesDeviceOrFeature(Int32, TrigActInfo)
   href: api/HomeSeer.PluginSdk.Events.ActionTypeCollection.html#HomeSeer_PluginSdk_Events_ActionTypeCollection_ActionReferencesDeviceOrFeature_System_Int32_HomeSeer_PluginSdk_Events_TrigActInfo_
@@ -10270,6 +11648,19 @@ references:
   isSpec: "True"
   fullName: HomeSeer.PluginSdk.Events.ActionTypeCollection.GetName
   nameWithType: ActionTypeCollection.GetName
+- uid: HomeSeer.PluginSdk.Events.ActionTypeCollection.GetObjectFromActInfo(HomeSeer.PluginSdk.Events.TrigActInfo)
+  name: GetObjectFromActInfo(TrigActInfo)
+  href: api/HomeSeer.PluginSdk.Events.ActionTypeCollection.html#HomeSeer_PluginSdk_Events_ActionTypeCollection_GetObjectFromActInfo_HomeSeer_PluginSdk_Events_TrigActInfo_
+  commentId: M:HomeSeer.PluginSdk.Events.ActionTypeCollection.GetObjectFromActInfo(HomeSeer.PluginSdk.Events.TrigActInfo)
+  fullName: HomeSeer.PluginSdk.Events.ActionTypeCollection.GetObjectFromActInfo(HomeSeer.PluginSdk.Events.TrigActInfo)
+  nameWithType: ActionTypeCollection.GetObjectFromActInfo(TrigActInfo)
+- uid: HomeSeer.PluginSdk.Events.ActionTypeCollection.GetObjectFromActInfo*
+  name: GetObjectFromActInfo
+  href: api/HomeSeer.PluginSdk.Events.ActionTypeCollection.html#HomeSeer_PluginSdk_Events_ActionTypeCollection_GetObjectFromActInfo_
+  commentId: Overload:HomeSeer.PluginSdk.Events.ActionTypeCollection.GetObjectFromActInfo
+  isSpec: "True"
+  fullName: HomeSeer.PluginSdk.Events.ActionTypeCollection.GetObjectFromActInfo
+  nameWithType: ActionTypeCollection.GetObjectFromActInfo
 - uid: HomeSeer.PluginSdk.Events.ActionTypeCollection.HandleAction(HomeSeer.PluginSdk.Events.TrigActInfo)
   name: HandleAction(TrigActInfo)
   href: api/HomeSeer.PluginSdk.Events.ActionTypeCollection.html#HomeSeer_PluginSdk_Events_ActionTypeCollection_HandleAction_HomeSeer_PluginSdk_Events_TrigActInfo_
@@ -10366,6 +11757,22 @@ references:
   fullName.vb: HomeSeer.PluginSdk.Events.BaseTypeCollection(Of TBaseItemType)
   nameWithType: BaseTypeCollection<TBaseItemType>
   nameWithType.vb: BaseTypeCollection(Of TBaseItemType)
+- uid: HomeSeer.PluginSdk.Events.BaseTypeCollection`1._itemTypeNames
+  name: _itemTypeNames
+  href: api/HomeSeer.PluginSdk.Events.BaseTypeCollection-1.html#HomeSeer_PluginSdk_Events_BaseTypeCollection_1__itemTypeNames
+  commentId: F:HomeSeer.PluginSdk.Events.BaseTypeCollection`1._itemTypeNames
+  fullName: HomeSeer.PluginSdk.Events.BaseTypeCollection<TBaseItemType>._itemTypeNames
+  fullName.vb: HomeSeer.PluginSdk.Events.BaseTypeCollection(Of TBaseItemType)._itemTypeNames
+  nameWithType: BaseTypeCollection<TBaseItemType>._itemTypeNames
+  nameWithType.vb: BaseTypeCollection(Of TBaseItemType)._itemTypeNames
+- uid: HomeSeer.PluginSdk.Events.BaseTypeCollection`1._itemTypes
+  name: _itemTypes
+  href: api/HomeSeer.PluginSdk.Events.BaseTypeCollection-1.html#HomeSeer_PluginSdk_Events_BaseTypeCollection_1__itemTypes
+  commentId: F:HomeSeer.PluginSdk.Events.BaseTypeCollection`1._itemTypes
+  fullName: HomeSeer.PluginSdk.Events.BaseTypeCollection<TBaseItemType>._itemTypes
+  fullName.vb: HomeSeer.PluginSdk.Events.BaseTypeCollection(Of TBaseItemType)._itemTypes
+  nameWithType: BaseTypeCollection<TBaseItemType>._itemTypes
+  nameWithType.vb: BaseTypeCollection(Of TBaseItemType)._itemTypes
 - uid: HomeSeer.PluginSdk.Events.BaseTypeCollection`1.AddItemType(System.Type)
   name: AddItemType(Type)
   href: api/HomeSeer.PluginSdk.Events.BaseTypeCollection-1.html#HomeSeer_PluginSdk_Events_BaseTypeCollection_1_AddItemType_System_Type_
@@ -10383,6 +11790,58 @@ references:
   fullName.vb: HomeSeer.PluginSdk.Events.BaseTypeCollection(Of TBaseItemType).AddItemType
   nameWithType: BaseTypeCollection<TBaseItemType>.AddItemType
   nameWithType.vb: BaseTypeCollection(Of TBaseItemType).AddItemType
+- uid: HomeSeer.PluginSdk.Events.BaseTypeCollection`1.AssertTypeHasConstructor(System.Type,System.Type[])
+  name: AssertTypeHasConstructor(Type, Type[])
+  href: api/HomeSeer.PluginSdk.Events.BaseTypeCollection-1.html#HomeSeer_PluginSdk_Events_BaseTypeCollection_1_AssertTypeHasConstructor_System_Type_System_Type___
+  commentId: M:HomeSeer.PluginSdk.Events.BaseTypeCollection`1.AssertTypeHasConstructor(System.Type,System.Type[])
+  name.vb: AssertTypeHasConstructor(Type, Type())
+  fullName: HomeSeer.PluginSdk.Events.BaseTypeCollection<TBaseItemType>.AssertTypeHasConstructor(System.Type, System.Type[])
+  fullName.vb: HomeSeer.PluginSdk.Events.BaseTypeCollection(Of TBaseItemType).AssertTypeHasConstructor(System.Type, System.Type())
+  nameWithType: BaseTypeCollection<TBaseItemType>.AssertTypeHasConstructor(Type, Type[])
+  nameWithType.vb: BaseTypeCollection(Of TBaseItemType).AssertTypeHasConstructor(Type, Type())
+- uid: HomeSeer.PluginSdk.Events.BaseTypeCollection`1.AssertTypeHasConstructor*
+  name: AssertTypeHasConstructor
+  href: api/HomeSeer.PluginSdk.Events.BaseTypeCollection-1.html#HomeSeer_PluginSdk_Events_BaseTypeCollection_1_AssertTypeHasConstructor_
+  commentId: Overload:HomeSeer.PluginSdk.Events.BaseTypeCollection`1.AssertTypeHasConstructor
+  isSpec: "True"
+  fullName: HomeSeer.PluginSdk.Events.BaseTypeCollection<TBaseItemType>.AssertTypeHasConstructor
+  fullName.vb: HomeSeer.PluginSdk.Events.BaseTypeCollection(Of TBaseItemType).AssertTypeHasConstructor
+  nameWithType: BaseTypeCollection<TBaseItemType>.AssertTypeHasConstructor
+  nameWithType.vb: BaseTypeCollection(Of TBaseItemType).AssertTypeHasConstructor
+- uid: HomeSeer.PluginSdk.Events.BaseTypeCollection`1.AssertTypeHasConstructors(System.Type)
+  name: AssertTypeHasConstructors(Type)
+  href: api/HomeSeer.PluginSdk.Events.BaseTypeCollection-1.html#HomeSeer_PluginSdk_Events_BaseTypeCollection_1_AssertTypeHasConstructors_System_Type_
+  commentId: M:HomeSeer.PluginSdk.Events.BaseTypeCollection`1.AssertTypeHasConstructors(System.Type)
+  fullName: HomeSeer.PluginSdk.Events.BaseTypeCollection<TBaseItemType>.AssertTypeHasConstructors(System.Type)
+  fullName.vb: HomeSeer.PluginSdk.Events.BaseTypeCollection(Of TBaseItemType).AssertTypeHasConstructors(System.Type)
+  nameWithType: BaseTypeCollection<TBaseItemType>.AssertTypeHasConstructors(Type)
+  nameWithType.vb: BaseTypeCollection(Of TBaseItemType).AssertTypeHasConstructors(Type)
+- uid: HomeSeer.PluginSdk.Events.BaseTypeCollection`1.AssertTypeHasConstructors*
+  name: AssertTypeHasConstructors
+  href: api/HomeSeer.PluginSdk.Events.BaseTypeCollection-1.html#HomeSeer_PluginSdk_Events_BaseTypeCollection_1_AssertTypeHasConstructors_
+  commentId: Overload:HomeSeer.PluginSdk.Events.BaseTypeCollection`1.AssertTypeHasConstructors
+  isSpec: "True"
+  fullName: HomeSeer.PluginSdk.Events.BaseTypeCollection<TBaseItemType>.AssertTypeHasConstructors
+  fullName.vb: HomeSeer.PluginSdk.Events.BaseTypeCollection(Of TBaseItemType).AssertTypeHasConstructors
+  nameWithType: BaseTypeCollection<TBaseItemType>.AssertTypeHasConstructors
+  nameWithType.vb: BaseTypeCollection(Of TBaseItemType).AssertTypeHasConstructors
+- uid: HomeSeer.PluginSdk.Events.BaseTypeCollection`1.AssertTypeHasEmptyConstructor(System.Type)
+  name: AssertTypeHasEmptyConstructor(Type)
+  href: api/HomeSeer.PluginSdk.Events.BaseTypeCollection-1.html#HomeSeer_PluginSdk_Events_BaseTypeCollection_1_AssertTypeHasEmptyConstructor_System_Type_
+  commentId: M:HomeSeer.PluginSdk.Events.BaseTypeCollection`1.AssertTypeHasEmptyConstructor(System.Type)
+  fullName: HomeSeer.PluginSdk.Events.BaseTypeCollection<TBaseItemType>.AssertTypeHasEmptyConstructor(System.Type)
+  fullName.vb: HomeSeer.PluginSdk.Events.BaseTypeCollection(Of TBaseItemType).AssertTypeHasEmptyConstructor(System.Type)
+  nameWithType: BaseTypeCollection<TBaseItemType>.AssertTypeHasEmptyConstructor(Type)
+  nameWithType.vb: BaseTypeCollection(Of TBaseItemType).AssertTypeHasEmptyConstructor(Type)
+- uid: HomeSeer.PluginSdk.Events.BaseTypeCollection`1.AssertTypeHasEmptyConstructor*
+  name: AssertTypeHasEmptyConstructor
+  href: api/HomeSeer.PluginSdk.Events.BaseTypeCollection-1.html#HomeSeer_PluginSdk_Events_BaseTypeCollection_1_AssertTypeHasEmptyConstructor_
+  commentId: Overload:HomeSeer.PluginSdk.Events.BaseTypeCollection`1.AssertTypeHasEmptyConstructor
+  isSpec: "True"
+  fullName: HomeSeer.PluginSdk.Events.BaseTypeCollection<TBaseItemType>.AssertTypeHasEmptyConstructor
+  fullName.vb: HomeSeer.PluginSdk.Events.BaseTypeCollection(Of TBaseItemType).AssertTypeHasEmptyConstructor
+  nameWithType: BaseTypeCollection<TBaseItemType>.AssertTypeHasEmptyConstructor
+  nameWithType.vb: BaseTypeCollection(Of TBaseItemType).AssertTypeHasEmptyConstructor
 - uid: HomeSeer.PluginSdk.Events.BaseTypeCollection`1.ConstructorSignatures
   name: ConstructorSignatures
   href: api/HomeSeer.PluginSdk.Events.BaseTypeCollection-1.html#HomeSeer_PluginSdk_Events_BaseTypeCollection_1_ConstructorSignatures
@@ -10800,6 +12259,12 @@ references:
   isSpec: "True"
   fullName: HomeSeer.PluginSdk.Events.TriggerTypeCollection.TriggerTypeCollection
   nameWithType: TriggerTypeCollection.TriggerTypeCollection
+- uid: HomeSeer.PluginSdk.Events.TriggerTypeCollection._listener
+  name: _listener
+  href: api/HomeSeer.PluginSdk.Events.TriggerTypeCollection.html#HomeSeer_PluginSdk_Events_TriggerTypeCollection__listener
+  commentId: F:HomeSeer.PluginSdk.Events.TriggerTypeCollection._listener
+  fullName: HomeSeer.PluginSdk.Events.TriggerTypeCollection._listener
+  nameWithType: TriggerTypeCollection._listener
 - uid: HomeSeer.PluginSdk.Events.TriggerTypeCollection.AddTriggerType(System.Type)
   name: AddTriggerType(Type)
   href: api/HomeSeer.PluginSdk.Events.TriggerTypeCollection.html#HomeSeer_PluginSdk_Events_TriggerTypeCollection_AddTriggerType_System_Type_
@@ -10826,6 +12291,19 @@ references:
   isSpec: "True"
   fullName: HomeSeer.PluginSdk.Events.TriggerTypeCollection.GetName
   nameWithType: TriggerTypeCollection.GetName
+- uid: HomeSeer.PluginSdk.Events.TriggerTypeCollection.GetObjectFromTrigInfo(HomeSeer.PluginSdk.Events.TrigActInfo)
+  name: GetObjectFromTrigInfo(TrigActInfo)
+  href: api/HomeSeer.PluginSdk.Events.TriggerTypeCollection.html#HomeSeer_PluginSdk_Events_TriggerTypeCollection_GetObjectFromTrigInfo_HomeSeer_PluginSdk_Events_TrigActInfo_
+  commentId: M:HomeSeer.PluginSdk.Events.TriggerTypeCollection.GetObjectFromTrigInfo(HomeSeer.PluginSdk.Events.TrigActInfo)
+  fullName: HomeSeer.PluginSdk.Events.TriggerTypeCollection.GetObjectFromTrigInfo(HomeSeer.PluginSdk.Events.TrigActInfo)
+  nameWithType: TriggerTypeCollection.GetObjectFromTrigInfo(TrigActInfo)
+- uid: HomeSeer.PluginSdk.Events.TriggerTypeCollection.GetObjectFromTrigInfo*
+  name: GetObjectFromTrigInfo
+  href: api/HomeSeer.PluginSdk.Events.TriggerTypeCollection.html#HomeSeer_PluginSdk_Events_TriggerTypeCollection_GetObjectFromTrigInfo_
+  commentId: Overload:HomeSeer.PluginSdk.Events.TriggerTypeCollection.GetObjectFromTrigInfo
+  isSpec: "True"
+  fullName: HomeSeer.PluginSdk.Events.TriggerTypeCollection.GetObjectFromTrigInfo
+  nameWithType: TriggerTypeCollection.GetObjectFromTrigInfo
 - uid: HomeSeer.PluginSdk.Events.TriggerTypeCollection.GetSubTriggerCount(System.Int32)
   name: GetSubTriggerCount(Int32)
   href: api/HomeSeer.PluginSdk.Events.TriggerTypeCollection.html#HomeSeer_PluginSdk_Events_TriggerTypeCollection_GetSubTriggerCount_System_Int32_
@@ -11016,6 +12494,19 @@ references:
   isSpec: "True"
   fullName: HomeSeer.PluginSdk.Features.AbstractFeaturePage.GetHtmlFragment
   nameWithType: AbstractFeaturePage.GetHtmlFragment
+- uid: HomeSeer.PluginSdk.Features.AbstractFeaturePage.IsAlive(HomeSeer.PluginSdk.Features.JsonRequest)
+  name: IsAlive(JsonRequest)
+  href: api/HomeSeer.PluginSdk.Features.AbstractFeaturePage.html#HomeSeer_PluginSdk_Features_AbstractFeaturePage_IsAlive_HomeSeer_PluginSdk_Features_JsonRequest_
+  commentId: M:HomeSeer.PluginSdk.Features.AbstractFeaturePage.IsAlive(HomeSeer.PluginSdk.Features.JsonRequest)
+  fullName: HomeSeer.PluginSdk.Features.AbstractFeaturePage.IsAlive(HomeSeer.PluginSdk.Features.JsonRequest)
+  nameWithType: AbstractFeaturePage.IsAlive(JsonRequest)
+- uid: HomeSeer.PluginSdk.Features.AbstractFeaturePage.IsAlive*
+  name: IsAlive
+  href: api/HomeSeer.PluginSdk.Features.AbstractFeaturePage.html#HomeSeer_PluginSdk_Features_AbstractFeaturePage_IsAlive_
+  commentId: Overload:HomeSeer.PluginSdk.Features.AbstractFeaturePage.IsAlive
+  isSpec: "True"
+  fullName: HomeSeer.PluginSdk.Features.AbstractFeaturePage.IsAlive
+  nameWithType: AbstractFeaturePage.IsAlive
 - uid: HomeSeer.PluginSdk.Features.AbstractFeaturePage.PostBackProc(System.String,System.String,System.Int32)
   name: PostBackProc(String, String, Int32)
   href: api/HomeSeer.PluginSdk.Features.AbstractFeaturePage.html#HomeSeer_PluginSdk_Features_AbstractFeaturePage_PostBackProc_System_String_System_String_System_Int32_
@@ -11045,6 +12536,12 @@ references:
   isSpec: "True"
   fullName: HomeSeer.PluginSdk.Features.AbstractFeaturePage.RegisterRequestCallback
   nameWithType: AbstractFeaturePage.RegisterRequestCallback
+- uid: HomeSeer.PluginSdk.Features.AbstractFeaturePage.RequestKeyIsAlive
+  name: RequestKeyIsAlive
+  href: api/HomeSeer.PluginSdk.Features.AbstractFeaturePage.html#HomeSeer_PluginSdk_Features_AbstractFeaturePage_RequestKeyIsAlive
+  commentId: F:HomeSeer.PluginSdk.Features.AbstractFeaturePage.RequestKeyIsAlive
+  fullName: HomeSeer.PluginSdk.Features.AbstractFeaturePage.RequestKeyIsAlive
+  nameWithType: AbstractFeaturePage.RequestKeyIsAlive
 - uid: HomeSeer.PluginSdk.Features.AbstractFeaturePage.RequestMap
   name: RequestMap
   href: api/HomeSeer.PluginSdk.Features.AbstractFeaturePage.html#HomeSeer_PluginSdk_Features_AbstractFeaturePage_RequestMap
@@ -15037,12 +16534,36 @@ references:
   isSpec: "True"
   fullName: HomeSeer.PluginSdk.Speech.AbstractSpeakerClient.AbstractSpeakerClient
   nameWithType: AbstractSpeakerClient.AbstractSpeakerClient
+- uid: HomeSeer.PluginSdk.Speech.AbstractSpeakerClient._client
+  name: _client
+  href: api/HomeSeer.PluginSdk.Speech.AbstractSpeakerClient.html#HomeSeer_PluginSdk_Speech_AbstractSpeakerClient__client
+  commentId: F:HomeSeer.PluginSdk.Speech.AbstractSpeakerClient._client
+  fullName: HomeSeer.PluginSdk.Speech.AbstractSpeakerClient._client
+  nameWithType: AbstractSpeakerClient._client
+- uid: HomeSeer.PluginSdk.Speech.AbstractSpeakerClient._password
+  name: _password
+  href: api/HomeSeer.PluginSdk.Speech.AbstractSpeakerClient.html#HomeSeer_PluginSdk_Speech_AbstractSpeakerClient__password
+  commentId: F:HomeSeer.PluginSdk.Speech.AbstractSpeakerClient._password
+  fullName: HomeSeer.PluginSdk.Speech.AbstractSpeakerClient._password
+  nameWithType: AbstractSpeakerClient._password
+- uid: HomeSeer.PluginSdk.Speech.AbstractSpeakerClient._username
+  name: _username
+  href: api/HomeSeer.PluginSdk.Speech.AbstractSpeakerClient.html#HomeSeer_PluginSdk_Speech_AbstractSpeakerClient__username
+  commentId: F:HomeSeer.PluginSdk.Speech.AbstractSpeakerClient._username
+  fullName: HomeSeer.PluginSdk.Speech.AbstractSpeakerClient._username
+  nameWithType: AbstractSpeakerClient._username
 - uid: HomeSeer.PluginSdk.Speech.AbstractSpeakerClient.ClientName
   name: ClientName
   href: api/HomeSeer.PluginSdk.Speech.AbstractSpeakerClient.html#HomeSeer_PluginSdk_Speech_AbstractSpeakerClient_ClientName
   commentId: F:HomeSeer.PluginSdk.Speech.AbstractSpeakerClient.ClientName
   fullName: HomeSeer.PluginSdk.Speech.AbstractSpeakerClient.ClientName
   nameWithType: AbstractSpeakerClient.ClientName
+- uid: HomeSeer.PluginSdk.Speech.AbstractSpeakerClient.Connect(System.Int32)
+  name: Connect(Int32)
+  href: api/HomeSeer.PluginSdk.Speech.AbstractSpeakerClient.html#HomeSeer_PluginSdk_Speech_AbstractSpeakerClient_Connect_System_Int32_
+  commentId: M:HomeSeer.PluginSdk.Speech.AbstractSpeakerClient.Connect(System.Int32)
+  fullName: HomeSeer.PluginSdk.Speech.AbstractSpeakerClient.Connect(System.Int32)
+  nameWithType: AbstractSpeakerClient.Connect(Int32)
 - uid: HomeSeer.PluginSdk.Speech.AbstractSpeakerClient.Connect(System.String,System.String)
   name: Connect(String, String)
   href: api/HomeSeer.PluginSdk.Speech.AbstractSpeakerClient.html#HomeSeer_PluginSdk_Speech_AbstractSpeakerClient_Connect_System_String_System_String_
@@ -15069,6 +16590,19 @@ references:
   isSpec: "True"
   fullName: HomeSeer.PluginSdk.Speech.AbstractSpeakerClient.Disconnect
   nameWithType: AbstractSpeakerClient.Disconnect
+- uid: HomeSeer.PluginSdk.Speech.AbstractSpeakerClient.DisconnectNow
+  name: DisconnectNow()
+  href: api/HomeSeer.PluginSdk.Speech.AbstractSpeakerClient.html#HomeSeer_PluginSdk_Speech_AbstractSpeakerClient_DisconnectNow
+  commentId: M:HomeSeer.PluginSdk.Speech.AbstractSpeakerClient.DisconnectNow
+  fullName: HomeSeer.PluginSdk.Speech.AbstractSpeakerClient.DisconnectNow()
+  nameWithType: AbstractSpeakerClient.DisconnectNow()
+- uid: HomeSeer.PluginSdk.Speech.AbstractSpeakerClient.DisconnectNow*
+  name: DisconnectNow
+  href: api/HomeSeer.PluginSdk.Speech.AbstractSpeakerClient.html#HomeSeer_PluginSdk_Speech_AbstractSpeakerClient_DisconnectNow_
+  commentId: Overload:HomeSeer.PluginSdk.Speech.AbstractSpeakerClient.DisconnectNow
+  isSpec: "True"
+  fullName: HomeSeer.PluginSdk.Speech.AbstractSpeakerClient.DisconnectNow
+  nameWithType: AbstractSpeakerClient.DisconnectNow
 - uid: HomeSeer.PluginSdk.Speech.AbstractSpeakerClient.GetListenMode
   name: GetListenMode()
   href: api/HomeSeer.PluginSdk.Speech.AbstractSpeakerClient.html#HomeSeer_PluginSdk_Speech_AbstractSpeakerClient_GetListenMode
@@ -16686,6 +18220,156 @@ references:
   commentId: F:HomeSeer.PluginSdk.Speech.RemoteHost.vr
   fullName: HomeSeer.PluginSdk.Speech.RemoteHost.vr
   nameWithType: RemoteHost.vr
+- uid: HomeSeer.PluginSdk.Systems
+  name: HomeSeer.PluginSdk.Systems
+  href: api/HomeSeer.PluginSdk.Systems.html
+  commentId: N:HomeSeer.PluginSdk.Systems
+  fullName: HomeSeer.PluginSdk.Systems
+  nameWithType: HomeSeer.PluginSdk.Systems
+- uid: HomeSeer.PluginSdk.Systems.EConfigChangeAction
+  name: EConfigChangeAction
+  href: api/HomeSeer.PluginSdk.Systems.EConfigChangeAction.html
+  commentId: T:HomeSeer.PluginSdk.Systems.EConfigChangeAction
+  fullName: HomeSeer.PluginSdk.Systems.EConfigChangeAction
+  nameWithType: EConfigChangeAction
+- uid: HomeSeer.PluginSdk.Systems.EConfigChangeAction.Add
+  name: Add
+  href: api/HomeSeer.PluginSdk.Systems.EConfigChangeAction.html#HomeSeer_PluginSdk_Systems_EConfigChangeAction_Add
+  commentId: F:HomeSeer.PluginSdk.Systems.EConfigChangeAction.Add
+  fullName: HomeSeer.PluginSdk.Systems.EConfigChangeAction.Add
+  nameWithType: EConfigChangeAction.Add
+- uid: HomeSeer.PluginSdk.Systems.EConfigChangeAction.Change
+  name: Change
+  href: api/HomeSeer.PluginSdk.Systems.EConfigChangeAction.html#HomeSeer_PluginSdk_Systems_EConfigChangeAction_Change
+  commentId: F:HomeSeer.PluginSdk.Systems.EConfigChangeAction.Change
+  fullName: HomeSeer.PluginSdk.Systems.EConfigChangeAction.Change
+  nameWithType: EConfigChangeAction.Change
+- uid: HomeSeer.PluginSdk.Systems.EConfigChangeAction.Delete
+  name: Delete
+  href: api/HomeSeer.PluginSdk.Systems.EConfigChangeAction.html#HomeSeer_PluginSdk_Systems_EConfigChangeAction_Delete
+  commentId: F:HomeSeer.PluginSdk.Systems.EConfigChangeAction.Delete
+  fullName: HomeSeer.PluginSdk.Systems.EConfigChangeAction.Delete
+  nameWithType: EConfigChangeAction.Delete
+- uid: HomeSeer.PluginSdk.Systems.EConfigChangeAction.Unknown
+  name: Unknown
+  href: api/HomeSeer.PluginSdk.Systems.EConfigChangeAction.html#HomeSeer_PluginSdk_Systems_EConfigChangeAction_Unknown
+  commentId: F:HomeSeer.PluginSdk.Systems.EConfigChangeAction.Unknown
+  fullName: HomeSeer.PluginSdk.Systems.EConfigChangeAction.Unknown
+  nameWithType: EConfigChangeAction.Unknown
+- uid: HomeSeer.PluginSdk.Systems.EConfigChangeTarget
+  name: EConfigChangeTarget
+  href: api/HomeSeer.PluginSdk.Systems.EConfigChangeTarget.html
+  commentId: T:HomeSeer.PluginSdk.Systems.EConfigChangeTarget
+  fullName: HomeSeer.PluginSdk.Systems.EConfigChangeTarget
+  nameWithType: EConfigChangeTarget
+- uid: HomeSeer.PluginSdk.Systems.EConfigChangeTarget.Device
+  name: Device
+  href: api/HomeSeer.PluginSdk.Systems.EConfigChangeTarget.html#HomeSeer_PluginSdk_Systems_EConfigChangeTarget_Device
+  commentId: F:HomeSeer.PluginSdk.Systems.EConfigChangeTarget.Device
+  fullName: HomeSeer.PluginSdk.Systems.EConfigChangeTarget.Device
+  nameWithType: EConfigChangeTarget.Device
+- uid: HomeSeer.PluginSdk.Systems.EConfigChangeTarget.Event
+  name: Event
+  href: api/HomeSeer.PluginSdk.Systems.EConfigChangeTarget.html#HomeSeer_PluginSdk_Systems_EConfigChangeTarget_Event
+  commentId: F:HomeSeer.PluginSdk.Systems.EConfigChangeTarget.Event
+  fullName: HomeSeer.PluginSdk.Systems.EConfigChangeTarget.Event
+  nameWithType: EConfigChangeTarget.Event
+- uid: HomeSeer.PluginSdk.Systems.EConfigChangeTarget.EventGroup
+  name: EventGroup
+  href: api/HomeSeer.PluginSdk.Systems.EConfigChangeTarget.html#HomeSeer_PluginSdk_Systems_EConfigChangeTarget_EventGroup
+  commentId: F:HomeSeer.PluginSdk.Systems.EConfigChangeTarget.EventGroup
+  fullName: HomeSeer.PluginSdk.Systems.EConfigChangeTarget.EventGroup
+  nameWithType: EConfigChangeTarget.EventGroup
+- uid: HomeSeer.PluginSdk.Systems.EConfigChangeTarget.SetupItem
+  name: SetupItem
+  href: api/HomeSeer.PluginSdk.Systems.EConfigChangeTarget.html#HomeSeer_PluginSdk_Systems_EConfigChangeTarget_SetupItem
+  commentId: F:HomeSeer.PluginSdk.Systems.EConfigChangeTarget.SetupItem
+  fullName: HomeSeer.PluginSdk.Systems.EConfigChangeTarget.SetupItem
+  nameWithType: EConfigChangeTarget.SetupItem
+- uid: HomeSeer.PluginSdk.Systems.EHsSystemEvent
+  name: EHsSystemEvent
+  href: api/HomeSeer.PluginSdk.Systems.EHsSystemEvent.html
+  commentId: T:HomeSeer.PluginSdk.Systems.EHsSystemEvent
+  fullName: HomeSeer.PluginSdk.Systems.EHsSystemEvent
+  nameWithType: EHsSystemEvent
+- uid: HomeSeer.PluginSdk.Systems.EHsSystemEvent.Audio
+  name: Audio
+  href: api/HomeSeer.PluginSdk.Systems.EHsSystemEvent.html#HomeSeer_PluginSdk_Systems_EHsSystemEvent_Audio
+  commentId: F:HomeSeer.PluginSdk.Systems.EHsSystemEvent.Audio
+  fullName: HomeSeer.PluginSdk.Systems.EHsSystemEvent.Audio
+  nameWithType: EHsSystemEvent.Audio
+- uid: HomeSeer.PluginSdk.Systems.EHsSystemEvent.CallerId
+  name: CallerId
+  href: api/HomeSeer.PluginSdk.Systems.EHsSystemEvent.html#HomeSeer_PluginSdk_Systems_EHsSystemEvent_CallerId
+  commentId: F:HomeSeer.PluginSdk.Systems.EHsSystemEvent.CallerId
+  fullName: HomeSeer.PluginSdk.Systems.EHsSystemEvent.CallerId
+  nameWithType: EHsSystemEvent.CallerId
+- uid: HomeSeer.PluginSdk.Systems.EHsSystemEvent.ConfigChange
+  name: ConfigChange
+  href: api/HomeSeer.PluginSdk.Systems.EHsSystemEvent.html#HomeSeer_PluginSdk_Systems_EHsSystemEvent_ConfigChange
+  commentId: F:HomeSeer.PluginSdk.Systems.EHsSystemEvent.ConfigChange
+  fullName: HomeSeer.PluginSdk.Systems.EHsSystemEvent.ConfigChange
+  nameWithType: EHsSystemEvent.ConfigChange
+- uid: HomeSeer.PluginSdk.Systems.EHsSystemEvent.DeleteDevice
+  name: DeleteDevice
+  href: api/HomeSeer.PluginSdk.Systems.EHsSystemEvent.html#HomeSeer_PluginSdk_Systems_EHsSystemEvent_DeleteDevice
+  commentId: F:HomeSeer.PluginSdk.Systems.EHsSystemEvent.DeleteDevice
+  fullName: HomeSeer.PluginSdk.Systems.EHsSystemEvent.DeleteDevice
+  nameWithType: EHsSystemEvent.DeleteDevice
+- uid: HomeSeer.PluginSdk.Systems.EHsSystemEvent.Generic
+  name: Generic
+  href: api/HomeSeer.PluginSdk.Systems.EHsSystemEvent.html#HomeSeer_PluginSdk_Systems_EHsSystemEvent_Generic
+  commentId: F:HomeSeer.PluginSdk.Systems.EHsSystemEvent.Generic
+  fullName: HomeSeer.PluginSdk.Systems.EHsSystemEvent.Generic
+  nameWithType: EHsSystemEvent.Generic
+- uid: HomeSeer.PluginSdk.Systems.EHsSystemEvent.Log
+  name: Log
+  href: api/HomeSeer.PluginSdk.Systems.EHsSystemEvent.html#HomeSeer_PluginSdk_Systems_EHsSystemEvent_Log
+  commentId: F:HomeSeer.PluginSdk.Systems.EHsSystemEvent.Log
+  fullName: HomeSeer.PluginSdk.Systems.EHsSystemEvent.Log
+  nameWithType: EHsSystemEvent.Log
+- uid: HomeSeer.PluginSdk.Systems.EHsSystemEvent.SetupChange
+  name: SetupChange
+  href: api/HomeSeer.PluginSdk.Systems.EHsSystemEvent.html#HomeSeer_PluginSdk_Systems_EHsSystemEvent_SetupChange
+  commentId: F:HomeSeer.PluginSdk.Systems.EHsSystemEvent.SetupChange
+  fullName: HomeSeer.PluginSdk.Systems.EHsSystemEvent.SetupChange
+  nameWithType: EHsSystemEvent.SetupChange
+- uid: HomeSeer.PluginSdk.Systems.EHsSystemEvent.SpeakerConnect
+  name: SpeakerConnect
+  href: api/HomeSeer.PluginSdk.Systems.EHsSystemEvent.html#HomeSeer_PluginSdk_Systems_EHsSystemEvent_SpeakerConnect
+  commentId: F:HomeSeer.PluginSdk.Systems.EHsSystemEvent.SpeakerConnect
+  fullName: HomeSeer.PluginSdk.Systems.EHsSystemEvent.SpeakerConnect
+  nameWithType: EHsSystemEvent.SpeakerConnect
+- uid: HomeSeer.PluginSdk.Systems.EHsSystemEvent.StringChange
+  name: StringChange
+  href: api/HomeSeer.PluginSdk.Systems.EHsSystemEvent.html#HomeSeer_PluginSdk_Systems_EHsSystemEvent_StringChange
+  commentId: F:HomeSeer.PluginSdk.Systems.EHsSystemEvent.StringChange
+  fullName: HomeSeer.PluginSdk.Systems.EHsSystemEvent.StringChange
+  nameWithType: EHsSystemEvent.StringChange
+- uid: HomeSeer.PluginSdk.Systems.EHsSystemEvent.ValueChange
+  name: ValueChange
+  href: api/HomeSeer.PluginSdk.Systems.EHsSystemEvent.html#HomeSeer_PluginSdk_Systems_EHsSystemEvent_ValueChange
+  commentId: F:HomeSeer.PluginSdk.Systems.EHsSystemEvent.ValueChange
+  fullName: HomeSeer.PluginSdk.Systems.EHsSystemEvent.ValueChange
+  nameWithType: EHsSystemEvent.ValueChange
+- uid: HomeSeer.PluginSdk.Systems.EHsSystemEvent.ValueSet
+  name: ValueSet
+  href: api/HomeSeer.PluginSdk.Systems.EHsSystemEvent.html#HomeSeer_PluginSdk_Systems_EHsSystemEvent_ValueSet
+  commentId: F:HomeSeer.PluginSdk.Systems.EHsSystemEvent.ValueSet
+  fullName: HomeSeer.PluginSdk.Systems.EHsSystemEvent.ValueSet
+  nameWithType: EHsSystemEvent.ValueSet
+- uid: HomeSeer.PluginSdk.Systems.EHsSystemEvent.ValueStringChangeRunScript
+  name: ValueStringChangeRunScript
+  href: api/HomeSeer.PluginSdk.Systems.EHsSystemEvent.html#HomeSeer_PluginSdk_Systems_EHsSystemEvent_ValueStringChangeRunScript
+  commentId: F:HomeSeer.PluginSdk.Systems.EHsSystemEvent.ValueStringChangeRunScript
+  fullName: HomeSeer.PluginSdk.Systems.EHsSystemEvent.ValueStringChangeRunScript
+  nameWithType: EHsSystemEvent.ValueStringChangeRunScript
+- uid: HomeSeer.PluginSdk.Systems.EHsSystemEvent.VoiceRec
+  name: VoiceRec
+  href: api/HomeSeer.PluginSdk.Systems.EHsSystemEvent.html#HomeSeer_PluginSdk_Systems_EHsSystemEvent_VoiceRec
+  commentId: F:HomeSeer.PluginSdk.Systems.EHsSystemEvent.VoiceRec
+  fullName: HomeSeer.PluginSdk.Systems.EHsSystemEvent.VoiceRec
+  nameWithType: EHsSystemEvent.VoiceRec
 - uid: HomeSeer.PluginSdk.Types
   name: HomeSeer.PluginSdk.Types
   href: api/HomeSeer.PluginSdk.Types.html

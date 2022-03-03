@@ -10,7 +10,7 @@
     <meta name="viewport" content="width=device-width">
     <meta name="title" content="Class AbstractFeaturePage
    | HomeSeer PluginSdk Docs ">
-    <meta name="generator" content="docfx 2.58.0.0">
+    <meta name="generator" content="docfx 2.49.0.0">
     
     <link rel="shortcut icon" href="../images/favicon.ico">
     <link rel="stylesheet" href="../styles/docfx.vendor.css">
@@ -62,11 +62,11 @@
       <div class="container body-content">
         
         <div id="search-results">
-          <div class="search-list">Search Results for <span></span></div>
+          <div class="search-list"></div>
           <div class="sr-items">
             <p><i class="glyphicon glyphicon-refresh index-loading"></i></p>
           </div>
-          <ul id="pagination" data-first="First" data-prev="Previous" data-next="Next" data-last="Last"></ul>
+          <ul id="pagination"></ul>
         </div>
       </div>
       <div role="main" class="container-fluid body-content hide-when-search">
@@ -196,7 +196,7 @@ a feature page from.</p>
   <a id="HomeSeer_PluginSdk_Features_AbstractFeaturePage__ctor_" data-uid="HomeSeer.PluginSdk.Features.AbstractFeaturePage.#ctor*"></a>
   <h4 id="HomeSeer_PluginSdk_Features_AbstractFeaturePage__ctor" data-uid="HomeSeer.PluginSdk.Features.AbstractFeaturePage.#ctor">AbstractFeaturePage()</h4>
   <div class="markdown level1 summary"><p>Create a new instance of an <a class="xref" href="HomeSeer.PluginSdk.Features.AbstractFeaturePage.html">AbstractFeaturePage</a>.
-Register the <span class="xref">HomeSeer.PluginSdk.Features.AbstractFeaturePage.IsAlive(HomeSeer.PluginSdk.Features.JsonRequest)</span> method for feature page access validation.</p>
+Register the <a class="xref" href="HomeSeer.PluginSdk.Features.AbstractFeaturePage.html#HomeSeer_PluginSdk_Features_AbstractFeaturePage_IsAlive_HomeSeer_PluginSdk_Features_JsonRequest_">IsAlive(JsonRequest)</a> method for feature page access validation.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -220,6 +220,51 @@ Register the <span class="xref">HomeSeer.PluginSdk.Features.AbstractFeaturePage.
           </div>
       </section>
   </div>
+  <h3 id="fields">Fields
+  </h3>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Features/AbstractFeaturePage.cs/#L13">View Source</a>
+  </span>
+  <h4 id="HomeSeer_PluginSdk_Features_AbstractFeaturePage_RequestKeyIsAlive" data-uid="HomeSeer.PluginSdk.Features.AbstractFeaturePage.RequestKeyIsAlive">RequestKeyIsAlive</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="tabGroup" id="tabgroup_syntax">
+      <ul role="tablist">
+          <li role="presentation">
+              <a href="#tabpanel_syntax_cs" tabindex="0" role="tab" aria-controls="tabpanel_syntax_cs" data-tab="cs" aria-selected="true">C#</a>
+          </li>
+          <li role="presentation">
+              <a href="#tabpanel_syntax_vb" tabindex="-1" role="tab" aria-controls="tabpanel_syntax_vb" data-tab="vb">Visual Basic</a>
+          </li>
+      </ul>
+      <section id="tabpanel_syntax_cs" role="tabpanel" data-tab="cs">
+          <div class="codewrapper">
+            <pre><code class="lang-csharp hljs">const string RequestKeyIsAlive = &quot;isalive&quot;</code></pre>
+          </div>
+      </section>
+      <section id="tabpanel_syntax_vb" role="tabpanel" data-tab="vb" aria-hidden="true" hidden="">
+          <div class="codewrapper">
+            <pre><code class="lang-vb hljs">Const RequestKeyIsAlive As String = &quot;isalive&quot;</code></pre>
+          </div>
+      </section>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
   <h3 id="properties">Properties
   </h3>
   
@@ -429,6 +474,70 @@ Use <a class="xref" href="HomeSeer.PluginSdk.Features.AbstractFeaturePage.html#H
 </div>
   
   <span class="small pull-right mobile-hide">
+    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Features/AbstractFeaturePage.cs/#L123">View Source</a>
+  </span>
+  <a id="HomeSeer_PluginSdk_Features_AbstractFeaturePage_IsAlive_" data-uid="HomeSeer.PluginSdk.Features.AbstractFeaturePage.IsAlive*"></a>
+  <h4 id="HomeSeer_PluginSdk_Features_AbstractFeaturePage_IsAlive_HomeSeer_PluginSdk_Features_JsonRequest_" data-uid="HomeSeer.PluginSdk.Features.AbstractFeaturePage.IsAlive(HomeSeer.PluginSdk.Features.JsonRequest)">IsAlive(JsonRequest)</h4>
+  <div class="markdown level1 summary"><p>A sample callback method that can be used to validate that a page is up and responding to POSTs</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="tabGroup" id="tabgroup_syntax">
+      <ul role="tablist">
+          <li role="presentation">
+              <a href="#tabpanel_syntax_cs" tabindex="0" role="tab" aria-controls="tabpanel_syntax_cs" data-tab="cs" aria-selected="true">C#</a>
+          </li>
+          <li role="presentation">
+              <a href="#tabpanel_syntax_vb" tabindex="-1" role="tab" aria-controls="tabpanel_syntax_vb" data-tab="vb">Visual Basic</a>
+          </li>
+      </ul>
+      <section id="tabpanel_syntax_cs" role="tabpanel" data-tab="cs">
+          <div class="codewrapper">
+            <pre><code class="lang-csharp hljs">JsonResponse IsAlive(JsonRequest request)</code></pre>
+          </div>
+      </section>
+      <section id="tabpanel_syntax_vb" role="tabpanel" data-tab="vb" aria-hidden="true" hidden="">
+          <div class="codewrapper">
+            <pre><code class="lang-vb hljs">Function IsAlive(request As JsonRequest) As JsonResponse</code></pre>
+          </div>
+      </section>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="HomeSeer.PluginSdk.Features.JsonRequest.html">JsonRequest</a></td>
+        <td><span class="parametername">request</span></td>
+        <td><p>The request data submitted in the POST</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="HomeSeer.PluginSdk.Features.Responses.JsonResponse.html">JsonResponse</a></td>
+        <td><p>Response message of &quot;Title is alive&quot;</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <span class="small pull-right mobile-hide">
     <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Features/AbstractFeaturePage.cs/#L39">View Source</a>
   </span>
   <a id="HomeSeer_PluginSdk_Features_AbstractFeaturePage_PostBackProc_" data-uid="HomeSeer.PluginSdk.Features.AbstractFeaturePage.PostBackProc*"></a>
@@ -623,7 +732,7 @@ Use <a class="xref" href="HomeSeer.PluginSdk.Features.AbstractFeaturePage.html#H
               </ul>
             </div>
             <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
-              <h5>In This Article</h5>
+              <h5></h5>
               <div></div>
             </nav>
           </div>

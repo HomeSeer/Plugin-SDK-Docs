@@ -10,7 +10,7 @@
     <meta name="viewport" content="width=device-width">
     <meta name="title" content="Class GridView
    | HomeSeer PluginSdk Docs ">
-    <meta name="generator" content="docfx 2.58.0.0">
+    <meta name="generator" content="docfx 2.49.0.0">
     
     <link rel="shortcut icon" href="../images/favicon.ico">
     <link rel="stylesheet" href="../styles/docfx.vendor.css">
@@ -62,11 +62,11 @@
       <div class="container body-content">
         
         <div id="search-results">
-          <div class="search-list">Search Results for <span></span></div>
+          <div class="search-list"></div>
           <div class="sr-items">
             <p><i class="glyphicon glyphicon-refresh index-loading"></i></p>
           </div>
-          <ul id="pagination" data-first="First" data-prev="Previous" data-next="Next" data-last="Last"></ul>
+          <ul id="pagination"></ul>
         </div>
       </div>
       <div role="main" class="container-fluid body-content hide-when-search">
@@ -125,6 +125,12 @@
       <a class="xref" href="HomeSeer.Jui.Views.ViewGroup.html#HomeSeer_Jui_Views_ViewGroup_ViewCount">ViewGroup.ViewCount</a>
     </div>
     <div>
+      <a class="xref" href="HomeSeer.Jui.Views.ViewGroup.html#HomeSeer_Jui_Views_ViewGroup__views">ViewGroup._views</a>
+    </div>
+    <div>
+      <a class="xref" href="HomeSeer.Jui.Views.ViewGroup.html#HomeSeer_Jui_Views_ViewGroup__viewIds">ViewGroup._viewIds</a>
+    </div>
+    <div>
       <a class="xref" href="HomeSeer.Jui.Views.ViewGroup.html#HomeSeer_Jui_Views_ViewGroup_ContainsViewWithId_System_String_">ViewGroup.ContainsViewWithId(String)</a>
     </div>
     <div>
@@ -143,6 +149,9 @@
       <a class="xref" href="HomeSeer.Jui.Views.ViewGroup.html#HomeSeer_Jui_Views_ViewGroup_UpdateViewValueById_System_String_System_String_">ViewGroup.UpdateViewValueById(String, String)</a>
     </div>
     <div>
+      <a class="xref" href="HomeSeer.Jui.Views.ViewGroup.html#HomeSeer_Jui_Views_ViewGroup_MapViewIds">ViewGroup.MapViewIds()</a>
+    </div>
+    <div>
       <a class="xref" href="HomeSeer.Jui.Views.ViewGroup.html#HomeSeer_Jui_Views_ViewGroup_Update_HomeSeer_Jui_Views_AbstractView_">ViewGroup.Update(AbstractView)</a>
     </div>
     <div>
@@ -153,6 +162,12 @@
     </div>
     <div>
       <a class="xref" href="HomeSeer.Jui.Views.AbstractView.html#HomeSeer_Jui_Views_AbstractView_Type">AbstractView.Type</a>
+    </div>
+    <div>
+      <a class="xref" href="HomeSeer.Jui.Views.AbstractView.html#HomeSeer_Jui_Views_AbstractView_HtmlIndent">AbstractView.HtmlIndent</a>
+    </div>
+    <div>
+      <a class="xref" href="HomeSeer.Jui.Views.AbstractView.html#HomeSeer_Jui_Views_AbstractView_NonAllowedCharactersForId">AbstractView.NonAllowedCharactersForId</a>
     </div>
     <div>
       <a class="xref" href="HomeSeer.Jui.Views.AbstractView.html#HomeSeer_Jui_Views_AbstractView_UpdateValue_System_String_">AbstractView.UpdateValue(String)</a>
@@ -332,6 +347,52 @@ It uses the <a href="https://mdbootstrap.com/docs/standard/layout/grid/">bootstr
       </tr>
     </tbody>
   </table>
+  <h3 id="fields">Fields
+  </h3>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Jui/Views/GridView.cs/#L24">View Source</a>
+  </span>
+  <h4 id="HomeSeer_Jui_Views_GridView__rows" data-uid="HomeSeer.Jui.Views.GridView._rows">_rows</h4>
+  <div class="markdown level1 summary"><p>The rows to display within this group.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="tabGroup" id="tabgroup_syntax">
+      <ul role="tablist">
+          <li role="presentation">
+              <a href="#tabpanel_syntax_cs" tabindex="0" role="tab" aria-controls="tabpanel_syntax_cs" data-tab="cs" aria-selected="true">C#</a>
+          </li>
+          <li role="presentation">
+              <a href="#tabpanel_syntax_vb" tabindex="-1" role="tab" aria-controls="tabpanel_syntax_vb" data-tab="vb">Visual Basic</a>
+          </li>
+      </ul>
+      <section id="tabpanel_syntax_cs" role="tabpanel" data-tab="cs">
+          <div class="codewrapper">
+            <pre><code class="lang-csharp hljs">List&lt;GridRow&gt; _rows</code></pre>
+          </div>
+      </section>
+      <section id="tabpanel_syntax_vb" role="tabpanel" data-tab="vb" aria-hidden="true" hidden="">
+          <div class="codewrapper">
+            <pre><code class="lang-vb hljs">_rows As List(Of GridRow)</code></pre>
+          </div>
+      </section>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.List</span>&lt;<a class="xref" href="HomeSeer.Jui.Views.GridRow.html">GridRow</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
   <h3 id="methods">Methods
   </h3>
   
@@ -447,6 +508,37 @@ The view will be aded as a single row.</p>
   </table>
   <h5 class="overrides">Overrides</h5>
   <div><a class="xref" href="HomeSeer.Jui.Views.ViewGroup.html#HomeSeer_Jui_Views_ViewGroup_AddView_HomeSeer_Jui_Views_AbstractView_">ViewGroup.AddView(AbstractView)</a></div>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p>The view or its ID is null</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.ArgumentException</span></td>
+        <td><p>There is already a view with the same ID present in the collection</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.InvalidOperationException</span></td>
+        <td><p>Thrown when trying to add a ViewGroup to another ViewGroup</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="HomeSeer.Jui.Views.ViewTypeMismatchException.html">ViewTypeMismatchException</a></td>
+        <td><p>Thrown when a view group's type does not match its class</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
   
   <span class="small pull-right mobile-hide">
     <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Jui/Views/GridView.cs/#L76">View Source</a>
@@ -519,7 +611,8 @@ The views will be added as stacked rows</p>
   </span>
   <a id="HomeSeer_Jui_Views_GridView_RemoveAllViews_" data-uid="HomeSeer.Jui.Views.GridView.RemoveAllViews*"></a>
   <h4 id="HomeSeer_Jui_Views_GridView_RemoveAllViews" data-uid="HomeSeer.Jui.Views.GridView.RemoveAllViews">RemoveAllViews()</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Clear a collection of views</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="tabGroup" id="tabgroup_syntax">
@@ -593,6 +686,22 @@ The views will be added as stacked rows</p>
   </table>
   <h5 class="overrides">Overrides</h5>
   <div><a class="xref" href="HomeSeer.Jui.Views.ViewGroup.html#HomeSeer_Jui_Views_ViewGroup_SetViews_System_Collections_Generic_IEnumerable_HomeSeer_Jui_Views_AbstractView__">ViewGroup.SetViews(IEnumerable&lt;AbstractView&gt;)</a></div>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p>The list of views is null</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
   
   <span class="small pull-right mobile-hide">
     <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Jui/Views/GridView.cs/#L128">View Source</a>
@@ -671,7 +780,7 @@ The views will be added as stacked rows</p>
               </ul>
             </div>
             <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
-              <h5>In This Article</h5>
+              <h5></h5>
               <div></div>
             </nav>
           </div>
