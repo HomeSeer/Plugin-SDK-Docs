@@ -5,11 +5,9 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Enum Constants.eGraphType
-   | HomeSeer PluginSdk Docs </title>
+    <title>Plugin SDK v1.4.1.0 Release Notes | HomeSeer PluginSdk Docs </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Enum Constants.eGraphType
-   | HomeSeer PluginSdk Docs ">
+    <meta name="title" content="Plugin SDK v1.4.1.0 Release Notes | HomeSeer PluginSdk Docs ">
     <meta name="generator" content="docfx 2.58.0.0">
     
     <link rel="shortcut icon" href="../images/favicon.ico">
@@ -80,67 +78,25 @@
         <div class="article row grid-right">
       <div class="col-md-1"></div>
       <div class="col-md-8 card">
-        <article class="content wrap" id="_content" data-uid="HomeSeer.PluginSdk.Constants.eGraphType">
-  
-  
-  <h1 id="HomeSeer_PluginSdk_Constants_eGraphType" data-uid="HomeSeer.PluginSdk.Constants.eGraphType" class="text-break">Enum Constants.eGraphType
-  </h1>
-  <div class="tabGroup" id="tabgroup_syntax">
-      <ul role="tablist">
-          <li role="presentation">
-              <a href="#tabpanel_syntax_cs" tabindex="0" role="tab" aria-controls="tabpanel_syntax_cs" data-tab="cs" aria-selected="true">C#</a>
-          </li>
-          <li role="presentation">
-              <a href="#tabpanel_syntax_vb" tabindex="-1" role="tab" aria-controls="tabpanel_syntax_vb" data-tab="vb">Visual Basic</a>
-          </li>
-      </ul>
-      <section id="tabpanel_syntax_cs" role="tabpanel" data-tab="cs">
-          <div class="codewrapper">
-            <pre><code class="lang-System.Object[] hljs">public enum eGraphType</code></pre>
-          </div>
-      </section>
-      <section id="tabpanel_syntax_vb" role="tabpanel" data-tab="vb" aria-hidden="true" hidden="">
-          <div class="codewrapper">
-            <pre><code class="lang-System.Object[] hljs">Public Enum eGraphType</code></pre>
-          </div>
-      </section>
-  </div>
-  <div>
-  <h6><strong>Namespace</strong>: <a class="xref" href="HomeSeer.PluginSdk.html">HomeSeer.PluginSdk</a></h6>
-  <h6><strong>Assembly</strong>: PluginSdk.dll</h6>
-  </div>
-  <hr>
-  <br>
-  <div class="markdown level0 summary"><p>PLEASE NOTE: Code related to the Energy components in HomeSeer were ported from the HS3 plugin API and
-have not been fully tested to verify full functionality from the new SDK. The Energy API may undergo
-significant changes in the near future. Please use with caution.</p>
-</div>
-  <div class="markdown level0 conceptual"></div>
-  <br>
-  <h3 id="fields">Fields
-  </h3>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    <thead>
-    <tbody>
-      <tr>
-        <td id="HomeSeer_PluginSdk_Constants_eGraphType_Bar">Bar</td>
-        <td></td>
-      </tr>
-      <tr>
-        <td id="HomeSeer_PluginSdk_Constants_eGraphType_Line">Line</td>
-        <td></td>
-      </tr>
-      <tr>
-        <td id="HomeSeer_PluginSdk_Constants_eGraphType_Pie">Pie</td>
-        <td></td>
-      </tr>
-    </tbody>
-  </thead></thead></table>
+        <article class="content wrap" id="_content" data-uid="">
+<h1 id="plugin-sdk-v1410-release-notes">Plugin SDK v1.4.1.0 Release Notes</h1>
+
+<p><img src="https://img.shields.io/badge/Requires-HomeSeer%20v4.2.13.0-blue" alt="Required HS Core Version"></p>
+<p>This release focuses on minor fixes and the addition of more samples.</p>
+<ul>
+<li>New examples have been added to <a href="https://github.com/HomeSeer/Plugin-SDK/tree/master/samples">sample plugins</a>
+<ul>
+<li>(PSDK-197) - Add example battery-powered sensor devices to the sample plugins.</li>
+<li>(PSDK-266) <a href="https://github.com/HomeSeer/Plugin-SDK/issues/269">GitHub #269</a> - Example thermostat devices have been added to demonstrate how they should be defined to make the best use of the HomeSeer platform features.</li>
+<li>(PSDK-273) - Add samples for the <a class="xref" href="../api/HomeSeer.Jui.Views.NavigateButtonView.html"><code>NavigateButtonView</code></a> JUI view.</li>
+<li>(PSDK-274) - Add samples for <a class="xref" href="../api/HomeSeer.Jui.Types.EInputType.html#HomeSeer_Jui_Types_EInputType_Date"><code>EInputType.Date</code></a> and <a class="xref" href="../api/HomeSeer.Jui.Types.EInputType.html#HomeSeer_Jui_Types_EInputType_Time"><code>EInputType.Time</code></a> type <a class="xref" href="../api/HomeSeer.Jui.Views.InputView.html"><code>InputViews</code></a>.</li>
+</ul>
+</li>
+<li>(PSDK-267) - Add <a class="xref" href="../api/HomeSeer.PluginSdk.Devices.FeatureFactory.html#HomeSeer_PluginSdk_Devices_FeatureFactory_AddControl_"><code>FeatureFactory.AddControl(StatusControl)</code></a></li>
+<li>(PSDK-268) - Fix <a class="xref" href="../api/HomeSeer.PluginSdk.Devices.FeatureFactory.html#HomeSeer_PluginSdk_Devices_FeatureFactory_AddGraphic_"><code>FeatureFactory.AddGraphic</code></a> incorrectly throwing an ArgumentException</li>
+<li>(PSDK-269) <a href="https://github.com/HomeSeer/Plugin-SDK/issues/265">GitHub #265</a> - Remove preview material notes from <a class="xref" href="../api/HomeSeer.PluginSdk.Devices.HsFeature.html#HomeSeer_PluginSdk_Devices_HsFeature_DisplayPriority_"><code>DisplayPriority</code></a> and <a class="xref" href="../api/HomeSeer.PluginSdk.Devices.HsFeature.html#HomeSeer_PluginSdk_Devices_HsFeature_DisplayType_"><code>DisplayType</code></a></li>
+<li>Add <a class="xref" href="../api/HomeSeer.PluginSdk.Devices.FeatureFactory.html"><code>FeatureFactory</code></a> unit tests</li>
+</ul>
 </article>
       </div>
         
@@ -148,9 +104,6 @@ significant changes in the near future. Please use with caution.</p>
           <div class="sideaffix" id="ps-sideaffix">
             <div class="contribution">
               <ul class="nav">
-                <li>
-                  <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Constants.cs/#L402" class="contribution-link">View Source</a>
-                </li>
               </ul>
             </div>
             <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">

@@ -1,6 +1,6 @@
 {
   "homepages": [],
-  "source_base_path": "C:/Users/jldub/dev/PluginSDK Scripts/docs/docfx_project",
+  "source_base_path": "C:/Users/jonluke/dev/Plugin SDK/PluginSDK Scripts/nuget/docs/docs/docfx_project",
   "xrefmap": "xrefmap.yml",
   "files": [
     {
@@ -18,7 +18,7 @@
       "output": {
         ".html": {
           "relative_path": "README.html",
-          "hash": "tomCd5+IejkL/fkA8oK3ww=="
+          "hash": "fkA6W4T2nA5dJ6oHLwmyFnb3vgfUdWgs3wsxYlELT68="
         }
       },
       "is_incremental": false,
@@ -30,7 +30,7 @@
       "output": {
         ".html": {
           "relative_path": "api/HomeSeer.Jui.Types.EInputType.html",
-          "hash": "P38YLR/ztQ/IyTgWT8T4xQ=="
+          "hash": "lmNRe1qhDUqMgULA3a+TJBiw+u1ErXWWvk0zLYrMhTA="
         }
       },
       "is_incremental": false,
@@ -42,7 +42,7 @@
       "output": {
         ".html": {
           "relative_path": "api/HomeSeer.Jui.Types.ELabelType.html",
-          "hash": "qsOYbPyeCczct5ZvLUMhUg=="
+          "hash": "T5+JkKPccgk0vMQgUpv6lSvv8RdY9e84J6A64tTqOlM="
         }
       },
       "is_incremental": false,
@@ -54,7 +54,7 @@
       "output": {
         ".html": {
           "relative_path": "api/HomeSeer.Jui.Types.EPageType.html",
-          "hash": "vNVw+DN8/Sz6n+hJbBn4iA=="
+          "hash": "uoRfnZy97n0Zv28wGeixQuiRCisgiOqvqeZ6YzbQaYA="
         }
       },
       "is_incremental": false,
@@ -66,7 +66,7 @@
       "output": {
         ".html": {
           "relative_path": "api/HomeSeer.Jui.Types.ESelectListType.html",
-          "hash": "OpE4dwj/g/6TSAXagORqig=="
+          "hash": "AQFuGdrojvYvNAmTtCxJ3BqJC9OdxKky6w64socEMj0="
         }
       },
       "is_incremental": false,
@@ -78,7 +78,7 @@
       "output": {
         ".html": {
           "relative_path": "api/HomeSeer.Jui.Types.EToggleType.html",
-          "hash": "Zb3oKSeWYQH+DcaGZPRh8g=="
+          "hash": "panNPvkwnJ2N7Xb9LDiyWUTOvKTaTyUEouviK1PKyGo="
         }
       },
       "is_incremental": false,
@@ -90,7 +90,7 @@
       "output": {
         ".html": {
           "relative_path": "api/HomeSeer.Jui.Types.EViewType.html",
-          "hash": "rcH11nTPeUBZPYuujnFFsg=="
+          "hash": "qr6jFq5jYJ1leg9nXlGw/aZk+vYbs5OKDIoTXykho/s="
         }
       },
       "is_incremental": false,
@@ -102,7 +102,7 @@
       "output": {
         ".html": {
           "relative_path": "api/HomeSeer.Jui.Types.html",
-          "hash": "SotFnWAzL+9xTKMlQT3c9Q=="
+          "hash": "zVPMpzutsuLpD90yT1fVroHTfnnhCYOQx3YETrWe8Rk="
         }
       },
       "is_incremental": false,
@@ -114,7 +114,7 @@
       "output": {
         ".html": {
           "relative_path": "api/HomeSeer.Jui.Views.AbstractView.html",
-          "hash": "8Ombzr9S1YddmW0k3AmGCA=="
+          "hash": "DxnUi9YDYr1wA54iFyLFV2zSOwMCyD8YU6knZf6CSXw="
         }
       },
       "is_incremental": false,
@@ -126,7 +126,7 @@
       "output": {
         ".html": {
           "relative_path": "api/HomeSeer.Jui.Views.EColSize.html",
-          "hash": "5jE5ZfT0s3XoutgjRtPDAg=="
+          "hash": "AKPf7vBolFc1+OIjr/niTsr+lXi5tjw3O0iuO+5E/co="
         }
       },
       "is_incremental": false,
@@ -138,7 +138,7 @@
       "output": {
         ".html": {
           "relative_path": "api/HomeSeer.Jui.Views.GridRow.html",
-          "hash": "O3yedtb/sd+U4YYzLryNfQ=="
+          "hash": "VHJcdvBtUe79Yx2SuHIiylMGa4+RsDkkbYodRAqDyPQ="
         }
       },
       "is_incremental": false,
@@ -150,7 +150,7 @@
       "output": {
         ".html": {
           "relative_path": "api/HomeSeer.Jui.Views.GridRowItem.html",
-          "hash": "ORUsnqHcXjxd83pTmxA1sg=="
+          "hash": "3K5Eadzn2HqG7A4AorFaTGhx2W+dNKSEPWRN8dOU2pY="
         }
       },
       "is_incremental": false,
@@ -162,7 +162,7 @@
       "output": {
         ".html": {
           "relative_path": "api/HomeSeer.Jui.Views.GridView.html",
-          "hash": "TVy0XtxVT/95odnKcsnXKg=="
+          "hash": "4X3EZ75gi1H2nMgwe7suALQIUH2GHDUSZT9LPW3pvag="
         }
       },
       "is_incremental": false,
@@ -174,7 +174,7 @@
       "output": {
         ".html": {
           "relative_path": "api/HomeSeer.Jui.Views.InputView.html",
-          "hash": "nAqKvzNNeroaMYpmciA2Rw=="
+          "hash": "0SGRUQsCg9anNyt/mdOv/gIRrn26PaOWPMOYJWneGoI="
         }
       },
       "is_incremental": false,
@@ -186,7 +186,7 @@
       "output": {
         ".html": {
           "relative_path": "api/HomeSeer.Jui.Views.InvalidValueForTypeException.html",
-          "hash": "dgPVT6AgXi9e3ddjatTprQ=="
+          "hash": "DI3fZXIDkCLzg6R3GNcPwCO9HcKHKMMJMQvYefxNgss="
         }
       },
       "is_incremental": false,
@@ -198,7 +198,7 @@
       "output": {
         ".html": {
           "relative_path": "api/HomeSeer.Jui.Views.JsonDataException.html",
-          "hash": "MnvnF4qrxX9ZBGsRmNrnkQ=="
+          "hash": "satSZbsaMezZYHOMEa7fvHSsoshg55S0WPeQSmwvAbY="
         }
       },
       "is_incremental": false,
@@ -210,7 +210,7 @@
       "output": {
         ".html": {
           "relative_path": "api/HomeSeer.Jui.Views.LabelView.html",
-          "hash": "9p+vvdrKyMQwLmMIlTrTPA=="
+          "hash": "iOiBuUV2N8dKEwo2UVeG6U8cGNmdITVh7uEvRkGmc5U="
         }
       },
       "is_incremental": false,
@@ -222,7 +222,7 @@
       "output": {
         ".html": {
           "relative_path": "api/HomeSeer.Jui.Views.NavigateButtonView.html",
-          "hash": "WiJChLDpfz9nEmDVEfsh9g=="
+          "hash": "h4iYQV8QO7qtf29rsX+opXE5YE4IUsRCMxoW096z95k="
         }
       },
       "is_incremental": false,
@@ -234,7 +234,7 @@
       "output": {
         ".html": {
           "relative_path": "api/HomeSeer.Jui.Views.Page.Factory.html",
-          "hash": "BrZDKwJKOoELxBcdHgswiQ=="
+          "hash": "kUvUExFBUUYln4eCxUDhKOulbTk4QltI0Tp+D3OFUn0="
         }
       },
       "is_incremental": false,
@@ -246,7 +246,7 @@
       "output": {
         ".html": {
           "relative_path": "api/HomeSeer.Jui.Views.Page.html",
-          "hash": "MkMF17dD1/01wqPTFOV1OA=="
+          "hash": "tuc0cB9HEu59UNkNDKM3hw5YlQZkMPo+GspJryuCsmY="
         }
       },
       "is_incremental": false,
@@ -258,7 +258,7 @@
       "output": {
         ".html": {
           "relative_path": "api/HomeSeer.Jui.Views.PageFactory.html",
-          "hash": "BGprDy70cmAk4F4cI1YVEw=="
+          "hash": "teiP+iDBWycAZopaH7ocvCDYeBycwSQuS7mFu40POJE="
         }
       },
       "is_incremental": false,
@@ -270,7 +270,7 @@
       "output": {
         ".html": {
           "relative_path": "api/HomeSeer.Jui.Views.SelectListView.html",
-          "hash": "yxzUepes3A01Tjdf7sFYxg=="
+          "hash": "mRHr3YtnwJzOHBSMHB91c387gOg/UCkMcr4Bxb7FcvQ="
         }
       },
       "is_incremental": false,
@@ -282,7 +282,7 @@
       "output": {
         ".html": {
           "relative_path": "api/HomeSeer.Jui.Views.SettingsCollection.html",
-          "hash": "JVyhLxIb8aTLqz6g1gCjeQ=="
+          "hash": "fLmZXZqZjS6LEIDiCGUtQfkLpzHzzmrIuBY0EpcjDZ8="
         }
       },
       "is_incremental": false,
@@ -294,7 +294,7 @@
       "output": {
         ".html": {
           "relative_path": "api/HomeSeer.Jui.Views.TextAreaView.html",
-          "hash": "KN0I3MvaZ4OsYPoN4nAIHg=="
+          "hash": "d6O8aSUF23vUhZEmBhG3n2UFh9yHK9N/6QC7pPWLK7Q="
         }
       },
       "is_incremental": false,
@@ -306,7 +306,7 @@
       "output": {
         ".html": {
           "relative_path": "api/HomeSeer.Jui.Views.TimeSpanView.html",
-          "hash": "sJG8NcXkwCaNACjpBQ3Ivg=="
+          "hash": "0nb8H/dzGkzrweiSS5vVK1IlY95bIeX5ViGhWzN/W9g="
         }
       },
       "is_incremental": false,
@@ -318,7 +318,7 @@
       "output": {
         ".html": {
           "relative_path": "api/HomeSeer.Jui.Views.ToggleView.html",
-          "hash": "0PD/rt0ouuJOLb60Aa5N7Q=="
+          "hash": "xn3O/sOO+eK8g44c2JdXR04HTuNqgnxNxMSx9ymbJ8I="
         }
       },
       "is_incremental": false,
@@ -330,7 +330,7 @@
       "output": {
         ".html": {
           "relative_path": "api/HomeSeer.Jui.Views.ViewCollectionHelper.html",
-          "hash": "YTjeT54l9HRrrdiIVboHyA=="
+          "hash": "j0FSW9HvAQifuWZzCN0CC/MpCZBDvYeQs0qQs/C5iXU="
         }
       },
       "is_incremental": false,
@@ -342,7 +342,7 @@
       "output": {
         ".html": {
           "relative_path": "api/HomeSeer.Jui.Views.ViewGroup.html",
-          "hash": "iNkGmPWzxs9zZOlP4sEXxw=="
+          "hash": "tlRhQOP4KmGR+MAwuEM0EBO5BAVu8P+YoaJJgGkpfJs="
         }
       },
       "is_incremental": false,
@@ -354,7 +354,7 @@
       "output": {
         ".html": {
           "relative_path": "api/HomeSeer.Jui.Views.ViewNotFoundException.html",
-          "hash": "p4PWyub52Z8I+hkP1Q1WPA=="
+          "hash": "utvfrl8n4Cd6+0ODM+vbf787I1Sd/ENozU6u5MqC1oQ="
         }
       },
       "is_incremental": false,
@@ -366,7 +366,7 @@
       "output": {
         ".html": {
           "relative_path": "api/HomeSeer.Jui.Views.ViewTypeMismatchException.html",
-          "hash": "ueSCM+i/Q3HuZv1ToXVz+g=="
+          "hash": "wxsRvTxPP98zklaKh3yhL7JyllAsSY+QbiSf5VD+YL0="
         }
       },
       "is_incremental": false,
@@ -378,7 +378,7 @@
       "output": {
         ".html": {
           "relative_path": "api/HomeSeer.Jui.Views.html",
-          "hash": "YEvY9OW1hO33iGqksk3eCw=="
+          "hash": "APwGv55QyW6okKFEz9daxVybojJLPcvQs6mfgS9A31Y="
         }
       },
       "is_incremental": false,
@@ -390,7 +390,7 @@
       "output": {
         ".html": {
           "relative_path": "api/HomeSeer.PluginSdk.AbstractPlugin.html",
-          "hash": "SQ6Jl81ykPgftQvUKfuvVw=="
+          "hash": "r2Y5VMBsQsL6dvMKps4b9FaQz7jb2Ai96T37/PTq4kE="
         }
       },
       "is_incremental": false,
@@ -402,7 +402,7 @@
       "output": {
         ".html": {
           "relative_path": "api/HomeSeer.PluginSdk.Constants.CAPIControlResponse.html",
-          "hash": "00hEWQmCbH5zBgmYaJsLdg=="
+          "hash": "EsOciAKlftE5LNQxFtRHf/noNbzkWAyvXluYjQ4qEYM="
         }
       },
       "is_incremental": false,
@@ -414,7 +414,7 @@
       "output": {
         ".html": {
           "relative_path": "api/HomeSeer.PluginSdk.Constants.ConfigDevicePostReturn.html",
-          "hash": "LDUjmc26DqzgB7GFQQedOw=="
+          "hash": "8eD+3P4p86QXIRj+HVx9kLy4CpwM7M39j9gyb0+gDSc="
         }
       },
       "is_incremental": false,
@@ -426,7 +426,7 @@
       "output": {
         ".html": {
           "relative_path": "api/HomeSeer.PluginSdk.Constants.Device_Constants.html",
-          "hash": "M84MilEI2RytZh8ajVEnOg=="
+          "hash": "U41C4RaqNl+62WyVaBLfzhQXX+oW2qA4CzIz5UmkSYA="
         }
       },
       "is_incremental": false,
@@ -438,7 +438,7 @@
       "output": {
         ".html": {
           "relative_path": "api/HomeSeer.PluginSdk.Constants.EOsType.html",
-          "hash": "+yAIHAEcdifwGbGt2TXcbw=="
+          "hash": "JSLSQKLAXEpx/Llrnz4938tMPvmkjKS0IhyUWEFFb1E="
         }
       },
       "is_incremental": false,
@@ -450,7 +450,7 @@
       "output": {
         ".html": {
           "relative_path": "api/HomeSeer.PluginSdk.Constants.HSEvent.html",
-          "hash": "QKAUJTVqXiFDNVvf4GEKkQ=="
+          "hash": "o84Rd8sNofdvLbh4TSr0EArzSnTPSNkJOWHX5R26gSE="
         }
       },
       "is_incremental": false,
@@ -462,7 +462,7 @@
       "output": {
         ".html": {
           "relative_path": "api/HomeSeer.PluginSdk.Constants.REGISTRATION_MODES.html",
-          "hash": "uDlUdHSAlYvgaQWXvK24FQ=="
+          "hash": "5P8TXerSN/kb0SEms0wV1Lh3Uy9hCjEiU0OHkIhNIXQ="
         }
       },
       "is_incremental": false,
@@ -474,7 +474,7 @@
       "output": {
         ".html": {
           "relative_path": "api/HomeSeer.PluginSdk.Constants.TunnelCommand.html",
-          "hash": "DdZyxgQ2OB971p57HroDpw=="
+          "hash": "AUSpKuOCmTwNmngaGCv8PptBmddqwzx60D2luPe2ZbY="
         }
       },
       "is_incremental": false,
@@ -486,7 +486,7 @@
       "output": {
         ".html": {
           "relative_path": "api/HomeSeer.PluginSdk.Constants.eDeviceSubType_SecurityArea.html",
-          "hash": "bngLitBcn6h4M9EVAWF/7Q=="
+          "hash": "hM3n1O8lrvi0pKsvEhePgA+IDGYj9bG4/5wj7WNuw9Q="
         }
       },
       "is_incremental": false,
@@ -498,7 +498,7 @@
       "output": {
         ".html": {
           "relative_path": "api/HomeSeer.PluginSdk.Constants.eDeviceSubType_Setpoint.html",
-          "hash": "fP6M+A7rc+cU2hWOd+LcDQ=="
+          "hash": "zRKhsox0CKQDcrMR96OU8eedbdWjUHDa5DQrElQW024="
         }
       },
       "is_incremental": false,
@@ -510,7 +510,7 @@
       "output": {
         ".html": {
           "relative_path": "api/HomeSeer.PluginSdk.Constants.eDeviceSubType_Temperature.html",
-          "hash": "REoCQtLPXGYlZEyksE+RcA=="
+          "hash": "A2VKLM0G7IdUF7EE2DtfrgLSo5Zy3SNcpy0dBPfUbMY="
         }
       },
       "is_incremental": false,
@@ -522,7 +522,7 @@
       "output": {
         ".html": {
           "relative_path": "api/HomeSeer.PluginSdk.Constants.eDeviceType_Energy.html",
-          "hash": "XJhU51uXGm6a+iMcx8iPGg=="
+          "hash": "v1tPQVokaXuT18h7+yS1ptqHbMD7d4s6N+fFFQbtf1g="
         }
       },
       "is_incremental": false,
@@ -534,7 +534,7 @@
       "output": {
         ".html": {
           "relative_path": "api/HomeSeer.PluginSdk.Constants.eDeviceType_Security.html",
-          "hash": "C4i/snJuVU+Rl05H3cdFyg=="
+          "hash": "RX185Of1/XFlpYH0ZFFVVja08mYvadp5jeyU/8uo97k="
         }
       },
       "is_incremental": false,
@@ -546,7 +546,7 @@
       "output": {
         ".html": {
           "relative_path": "api/HomeSeer.PluginSdk.Constants.eDeviceType_Thermostat.html",
-          "hash": "KsXK+4K+gDUFZ3CKGwPymA=="
+          "hash": "DAD6z3vrbuDc1/xcZZF4HG6I9yobUwh6BgL8jBgCj6g="
         }
       },
       "is_incremental": false,
@@ -558,7 +558,7 @@
       "output": {
         ".html": {
           "relative_path": "api/HomeSeer.PluginSdk.Constants.eGraphInterval.html",
-          "hash": "Ufaa6HhkDofAMKHr80STlw=="
+          "hash": "kptXUeX96aAQ0YeUtTda5qTAyhihcdsP3cqkoCM/FM4="
         }
       },
       "is_incremental": false,
@@ -570,7 +570,7 @@
       "output": {
         ".html": {
           "relative_path": "api/HomeSeer.PluginSdk.Constants.eGraphType.html",
-          "hash": "YVSJtGt8cs4DvABcfxvR+g=="
+          "hash": "I1o72Lwom/HH0fEvvOc9HOskyw3EEQdGHQiFRRBDpTw="
         }
       },
       "is_incremental": false,
@@ -582,7 +582,7 @@
       "output": {
         ".html": {
           "relative_path": "api/HomeSeer.PluginSdk.Constants.editions.html",
-          "hash": "l1SCoTTMo1N/1CH0FaO4sw=="
+          "hash": "rXgT61hL5Zr/95KT9adjvMJ44de71TXJxirJgDG7hfE="
         }
       },
       "is_incremental": false,
@@ -594,7 +594,7 @@
       "output": {
         ".html": {
           "relative_path": "api/HomeSeer.PluginSdk.Constants.enumEnergyDevice.html",
-          "hash": "X9uzyIuzzRu4GNm6QMV08g=="
+          "hash": "pUQqqwTamC3dyPzVm5L3+S2dEs44x3r2hdfjrDooj4c="
         }
       },
       "is_incremental": false,
@@ -606,7 +606,7 @@
       "output": {
         ".html": {
           "relative_path": "api/HomeSeer.PluginSdk.Constants.enumEnergyDirection.html",
-          "hash": "8AP7b48db1Hyv21Az0Poeg=="
+          "hash": "gnQ9V6QnL2w4+WSta8NspSVdhehAwgmfCvkpJDGLeb0="
         }
       },
       "is_incremental": false,
@@ -618,7 +618,7 @@
       "output": {
         ".html": {
           "relative_path": "api/HomeSeer.PluginSdk.Constants.enumVCMDType.html",
-          "hash": "urLtmcesd79hoHCVb94/iA=="
+          "hash": "cF7aGRmp9xsB14iI+zGGyezBnOjbEHDrr1BGProHdG4="
         }
       },
       "is_incremental": false,
@@ -630,7 +630,7 @@
       "output": {
         ".html": {
           "relative_path": "api/HomeSeer.PluginSdk.Constants.speak_error_values.html",
-          "hash": "UTNqLE2PUFKdjHCzbB7cuQ=="
+          "hash": "lsVbqyFXMfL8MPziMYn4GY0+BlIC+TwAWMAfUZzzF+c="
         }
       },
       "is_incremental": false,
@@ -642,7 +642,7 @@
       "output": {
         ".html": {
           "relative_path": "api/HomeSeer.PluginSdk.Constants.speak_type_values.html",
-          "hash": "ymDHPhjaEdLFAtk6m8MYbw=="
+          "hash": "aGuxaKedV+12z5YkNXZk9+rPUvcaCMgNZWulwCa0PXM="
         }
       },
       "is_incremental": false,
@@ -654,7 +654,7 @@
       "output": {
         ".html": {
           "relative_path": "api/HomeSeer.PluginSdk.Constants.html",
-          "hash": "yPAGpj5uPHzRYbrDxaRCjg=="
+          "hash": "bZUFJxvyGh4PfZx2gMlnbp9gWC3IIc1A+Ha0J+zPZtI="
         }
       },
       "is_incremental": false,
@@ -666,7 +666,7 @@
       "output": {
         ".html": {
           "relative_path": "api/HomeSeer.PluginSdk.Devices.AbstractHsDevice.html",
-          "hash": "nZCaKSCGoSGg8/bZZ1HFag=="
+          "hash": "+PGCpx3+Tp1WbQzt6yFNB/sJfcRrbCzr0u4pAZOL7SU="
         }
       },
       "is_incremental": false,
@@ -678,7 +678,7 @@
       "output": {
         ".html": {
           "relative_path": "api/HomeSeer.PluginSdk.Devices.AbstractStatus.html",
-          "hash": "6YzXjGwHdi3xLB5i0Cwszg=="
+          "hash": "oISjJLY5Vdk0x3NBhqBthoUm5XwjXNTIhChaJHFjYgQ="
         }
       },
       "is_incremental": false,
@@ -690,7 +690,7 @@
       "output": {
         ".html": {
           "relative_path": "api/HomeSeer.PluginSdk.Devices.Controls.ControlEvent.html",
-          "hash": "MurGYEmcrTd/PMZWa7+Qeg=="
+          "hash": "v0fBYvnb/QQ8hHWi9v1loNI9+q7jBi62AanM6PsHEyc="
         }
       },
       "is_incremental": false,
@@ -702,7 +702,7 @@
       "output": {
         ".html": {
           "relative_path": "api/HomeSeer.PluginSdk.Devices.Controls.ControlLocation.html",
-          "hash": "n4f68qN6AR/2Q/U+f8oIEA=="
+          "hash": "JzGVjTDR7HXswchs8/X3DUwJn9l30TLY/yOiflkJVZs="
         }
       },
       "is_incremental": false,
@@ -714,7 +714,7 @@
       "output": {
         ".html": {
           "relative_path": "api/HomeSeer.PluginSdk.Devices.Controls.EControlFlag.html",
-          "hash": "L+dgVb7gZI3E8HH2pTa3yQ=="
+          "hash": "L89uDtoBtwk4SnHs9u4o36fWEVfdpzHClvD/WECeYxw="
         }
       },
       "is_incremental": false,
@@ -726,7 +726,7 @@
       "output": {
         ".html": {
           "relative_path": "api/HomeSeer.PluginSdk.Devices.Controls.EControlType.html",
-          "hash": "MS0klKICx1uwHAm85YDnmQ=="
+          "hash": "f5WqHKmIU6YnuEs36IuuHf3H13FOsOdaERKNarQ0W/8="
         }
       },
       "is_incremental": false,
@@ -738,7 +738,7 @@
       "output": {
         ".html": {
           "relative_path": "api/HomeSeer.PluginSdk.Devices.Controls.EControlUse.html",
-          "hash": "FTYFqHzq/Xui8K/j+2xOrg=="
+          "hash": "3Cyxi1y9m/+BpJGm76Xb+/k6wYe4/54qFR6IMqhXfi4="
         }
       },
       "is_incremental": false,
@@ -750,7 +750,7 @@
       "output": {
         ".html": {
           "relative_path": "api/HomeSeer.PluginSdk.Devices.Controls.StatusControl.html",
-          "hash": "hI0ugTcmOKKOPGVpX+mg6g=="
+          "hash": "QTfBre4pM/wzun4WE0mgbAhsRiiQrxfY2SiYf4qeWew="
         }
       },
       "is_incremental": false,
@@ -762,7 +762,7 @@
       "output": {
         ".html": {
           "relative_path": "api/HomeSeer.PluginSdk.Devices.Controls.StatusControlCollection.html",
-          "hash": "aqIwhCL0r+LcOgt85bYxFA=="
+          "hash": "H86ds0WiRuMJG+WVjfmmrAwhGPDy0ZdLp2pD7jW6xUE="
         }
       },
       "is_incremental": false,
@@ -774,7 +774,7 @@
       "output": {
         ".html": {
           "relative_path": "api/HomeSeer.PluginSdk.Devices.Controls.html",
-          "hash": "uL/sgbXe9Wao3QA3gqLGsg=="
+          "hash": "syylLgYyNlWmccma4YWuhN5YzMh3SvLfFc8n9eM86Zg="
         }
       },
       "is_incremental": false,
@@ -786,7 +786,7 @@
       "output": {
         ".html": {
           "relative_path": "api/HomeSeer.PluginSdk.Devices.DeviceFactory.html",
-          "hash": "IwKrowFdKNbpYaShqHIVJw=="
+          "hash": "VCgnn2AhRRF13u17tEqZDU/npsLKsoM9BxXWpWWb1rY="
         }
       },
       "is_incremental": false,
@@ -798,7 +798,7 @@
       "output": {
         ".html": {
           "relative_path": "api/HomeSeer.PluginSdk.Devices.EEnergyFeatureSubType.html",
-          "hash": "AqIVRTBuPE2+6YlxL4Zb/w=="
+          "hash": "CxcIRXW7SbdvA7t2FqV6zU+0HcgbrFbQRH2HvA0JI6k="
         }
       },
       "is_incremental": false,
@@ -810,7 +810,7 @@
       "output": {
         ".html": {
           "relative_path": "api/HomeSeer.PluginSdk.Devices.EFeatureDisplayType.html",
-          "hash": "TeOFGqdv7AV1ba3cSEF4uQ=="
+          "hash": "jJo9rjxu3kUooPPNFmEVZvCav7IALzKtjWn06Csas5Y="
         }
       },
       "is_incremental": false,
@@ -822,7 +822,7 @@
       "output": {
         ".html": {
           "relative_path": "api/HomeSeer.PluginSdk.Devices.EMiscFlag.html",
-          "hash": "Rd+r9PdtxgbAi52FVWk93A=="
+          "hash": "QzR8puzE2OeFprvynflJZfp7JhM8W0A7ghgqk4/GJXg="
         }
       },
       "is_incremental": false,
@@ -834,7 +834,7 @@
       "output": {
         ".html": {
           "relative_path": "api/HomeSeer.PluginSdk.Devices.EPollResponse.html",
-          "hash": "9JElxlVo4Yt1rEFSCvIi0Q=="
+          "hash": "+PfFO3wAfTryrzPVb7o10i/wiv0//Q2ATChVIlXUVMI="
         }
       },
       "is_incremental": false,
@@ -846,7 +846,7 @@
       "output": {
         ".html": {
           "relative_path": "api/HomeSeer.PluginSdk.Devices.EProperty.html",
-          "hash": "FQPAwDmxUsIBKUXiNYh8JQ=="
+          "hash": "LvrRjb33BehtpFrNzXXJzOcIpOFW/+Vo/L7xpmcsZdE="
         }
       },
       "is_incremental": false,
@@ -858,7 +858,7 @@
       "output": {
         ".html": {
           "relative_path": "api/HomeSeer.PluginSdk.Devices.EventUpdateReturnData.html",
-          "hash": "IhPLXdQHnjfRDEvTThb4Vg=="
+          "hash": "rgsQdMwsypz+ru3xrKKHsuKxCPFeUVkA373gBI53n2M="
         }
       },
       "is_incremental": false,
@@ -870,7 +870,7 @@
       "output": {
         ".html": {
           "relative_path": "api/HomeSeer.PluginSdk.Devices.FeatureFactory.html",
-          "hash": "zhNzPr1WD65nIEaOncWsvQ=="
+          "hash": "XePn/WmSFDqUycxyL9YBGurs6sQJJXO3q1er/Ub+86E="
         }
       },
       "is_incremental": false,
@@ -882,7 +882,7 @@
       "output": {
         ".html": {
           "relative_path": "api/HomeSeer.PluginSdk.Devices.HsDevice.html",
-          "hash": "UPLywawcBOBO2Vd/wszHyA=="
+          "hash": "M9QU84qxLI3qsP9OllDo+pVHLFjtebmjV3fSiWCbOPU="
         }
       },
       "is_incremental": false,
@@ -894,7 +894,7 @@
       "output": {
         ".html": {
           "relative_path": "api/HomeSeer.PluginSdk.Devices.HsFeature.html",
-          "hash": "voHgQUCW6dX+V+rqdqtsng=="
+          "hash": "CmJ6GsrUXKNLFPH4yMtUm9QpDldb6anAq0MS83Uh0gw="
         }
       },
       "is_incremental": false,
@@ -906,7 +906,7 @@
       "output": {
         ".html": {
           "relative_path": "api/HomeSeer.PluginSdk.Devices.Identification.DeviceRelationshipException.html",
-          "hash": "Wh3eK6S9iTwLpP2v9g51Lw=="
+          "hash": "3X9qfKc2d3dufsc3iod9wUhblEZ1WB8PrNbypH5JN+c="
         }
       },
       "is_incremental": false,
@@ -918,7 +918,7 @@
       "output": {
         ".html": {
           "relative_path": "api/HomeSeer.PluginSdk.Devices.Identification.EApiType.html",
-          "hash": "AspNk1OI4H5oX9bo+ndv5g=="
+          "hash": "t5JbSw7U1BEpLoCv2Xk5KgJDyZzUfJWN3/njZDkFNrI="
         }
       },
       "is_incremental": false,
@@ -930,7 +930,7 @@
       "output": {
         ".html": {
           "relative_path": "api/HomeSeer.PluginSdk.Devices.Identification.EDeviceType.html",
-          "hash": "DmGVeD9dJTkycZo5olVlFA=="
+          "hash": "CTfbE8d5bjmaoB2Mz5iRWX1wK6shIKLdOLCUhzhPYJk="
         }
       },
       "is_incremental": false,
@@ -942,7 +942,7 @@
       "output": {
         ".html": {
           "relative_path": "api/HomeSeer.PluginSdk.Devices.Identification.EEnergyFeatureSubType.html",
-          "hash": "SgKlfgc+aL7uAoanRxl4lg=="
+          "hash": "6qHpZiQVFa5Uwq/TE9YJLqCBkbCoHD10h1LuSAA4dbo="
         }
       },
       "is_incremental": false,
@@ -954,7 +954,7 @@
       "output": {
         ".html": {
           "relative_path": "api/HomeSeer.PluginSdk.Devices.Identification.EFeatureType.html",
-          "hash": "Owi7MDAm34/5SLwD5VXElQ=="
+          "hash": "hQZocgxYvmHYJD9ojYr8K6k0IG7yFv09X0pMatJhQXI="
         }
       },
       "is_incremental": false,
@@ -966,7 +966,7 @@
       "output": {
         ".html": {
           "relative_path": "api/HomeSeer.PluginSdk.Devices.Identification.EGenericDeviceSubType.html",
-          "hash": "M2ZqMlRIwLvg9+rW9jpGNw=="
+          "hash": "6fIXJZT3Y4+3cF30JXFt6i1j7uwHgs0t3KrE4Zz5TWU="
         }
       },
       "is_incremental": false,
@@ -978,7 +978,7 @@
       "output": {
         ".html": {
           "relative_path": "api/HomeSeer.PluginSdk.Devices.Identification.EGenericFeatureSubType.html",
-          "hash": "xbmP+e7I3BNW+Z3AtjnWSw=="
+          "hash": "978BiTNYear+bkpa6Qpm9ks0bqH2TQYSqAf+Uqtf+Jw="
         }
       },
       "is_incremental": false,
@@ -990,7 +990,7 @@
       "output": {
         ".html": {
           "relative_path": "api/HomeSeer.PluginSdk.Devices.Identification.EMediaFeatureSubType.html",
-          "hash": "C15lCTM17komB4W0VGxvfQ=="
+          "hash": "xY49hr1F3KL7Da2PC78TZUDIbm6cCKp9e708AQI5bss="
         }
       },
       "is_incremental": false,
@@ -1002,7 +1002,7 @@
       "output": {
         ".html": {
           "relative_path": "api/HomeSeer.PluginSdk.Devices.Identification.ERelationship.html",
-          "hash": "+5dQUBcJlhfyjIFBk/xp8A=="
+          "hash": "xZvEdK9G/7F+11CFxLThPNy2nGUXyGDOiEpDBZapnVo="
         }
       },
       "is_incremental": false,
@@ -1014,7 +1014,7 @@
       "output": {
         ".html": {
           "relative_path": "api/HomeSeer.PluginSdk.Devices.Identification.EThermostatControlFeatureSubType.html",
-          "hash": "FZkHTi+5vtqCj1nW/R2r5A=="
+          "hash": "nDFntc0PB6wHYHlajVhmOfSRqZ+JkJAC3MneTtjDzvI="
         }
       },
       "is_incremental": false,
@@ -1026,7 +1026,7 @@
       "output": {
         ".html": {
           "relative_path": "api/HomeSeer.PluginSdk.Devices.Identification.EThermostatStatusFeatureSubType.html",
-          "hash": "qS8bTA8VwUjJVYk8O4xxHg=="
+          "hash": "259Kn1zNBJJDFp+n95eKSepfEhyFa6pj/jI/gvRq2fo="
         }
       },
       "is_incremental": false,
@@ -1038,7 +1038,7 @@
       "output": {
         ".html": {
           "relative_path": "api/HomeSeer.PluginSdk.Devices.Identification.TypeInfo.html",
-          "hash": "ykWf50blT+aS3RNuEtUwCg=="
+          "hash": "S9oLpLwlW7+gsngGWOewZ7crx2313F9k36jPmWT7uJU="
         }
       },
       "is_incremental": false,
@@ -1050,7 +1050,7 @@
       "output": {
         ".html": {
           "relative_path": "api/HomeSeer.PluginSdk.Devices.Identification.html",
-          "hash": "AFb3H1EzXLi4oBE4H3gN2Q=="
+          "hash": "YLE/vujVtXnqTYDswhf9NjskcrTAu+WeKNlXIHFrN1g="
         }
       },
       "is_incremental": false,
@@ -1062,7 +1062,7 @@
       "output": {
         ".html": {
           "relative_path": "api/HomeSeer.PluginSdk.Devices.NewDeviceData.html",
-          "hash": "ZmQj1Oka9aRxF7MZGu/jSA=="
+          "hash": "v7R0iMB9qz4gi/ZAmHItlg3kbqrIz6xdjk7JjalkIk8="
         }
       },
       "is_incremental": false,
@@ -1074,7 +1074,7 @@
       "output": {
         ".html": {
           "relative_path": "api/HomeSeer.PluginSdk.Devices.NewFeatureData.html",
-          "hash": "LdP7NhRyCerZdTA17dS5+Q=="
+          "hash": "AH9H0p0xnjbik2EwkmOUW8gAyg1b/f3R7TMMUUp4ERs="
         }
       },
       "is_incremental": false,
@@ -1086,7 +1086,7 @@
       "output": {
         ".html": {
           "relative_path": "api/HomeSeer.PluginSdk.Devices.PlugExtraData.html",
-          "hash": "sEs6xI+AyzwNLisxvyo6tw=="
+          "hash": "PLxT6vmJLTBhY36JsYZkVX/poyYOGzvcOyNa27K+Hb0="
         }
       },
       "is_incremental": false,
@@ -1098,7 +1098,7 @@
       "output": {
         ".html": {
           "relative_path": "api/HomeSeer.PluginSdk.Devices.StatusGraphic.html",
-          "hash": "wBgQGjL7FjxfUFCZAsKhrw=="
+          "hash": "2d/Bwd8WBUYIsnjSd31KGUjA85M3Hf+oYp8Ou9mMLVU="
         }
       },
       "is_incremental": false,
@@ -1110,7 +1110,7 @@
       "output": {
         ".html": {
           "relative_path": "api/HomeSeer.PluginSdk.Devices.StatusGraphicCollection.html",
-          "hash": "Ig7HxfkSF2jwfDPeW/Tx6g=="
+          "hash": "C1wTmnOV7ocluYNtYOIQ9g7JwTLL8iL4vJW7RiEQkTg="
         }
       },
       "is_incremental": false,
@@ -1122,7 +1122,7 @@
       "output": {
         ".html": {
           "relative_path": "api/HomeSeer.PluginSdk.Devices.ValueRange.html",
-          "hash": "b7Bx3EcFmpOSLpQsEE78MQ=="
+          "hash": "wKy2rqzyilClZo8bLq7o2KN6x69Fvgu5feuVNKqEAdg="
         }
       },
       "is_incremental": false,
@@ -1134,7 +1134,7 @@
       "output": {
         ".html": {
           "relative_path": "api/HomeSeer.PluginSdk.Devices.html",
-          "hash": "94thzMkDql+b1OjDCdEKHw=="
+          "hash": "aeetpZVOdcf+4v8KcxpQKL8RwaAW+z5KS/cJ95Z9Xvk="
         }
       },
       "is_incremental": false,
@@ -1146,7 +1146,7 @@
       "output": {
         ".html": {
           "relative_path": "api/HomeSeer.PluginSdk.EHsSystemEvent.html",
-          "hash": "N6XXFyABOKZxSAgNURsjhQ=="
+          "hash": "mZ5qIn9zQC3LpSBIn5nj0mJtXLXtiaJGhhDI39f5/Ck="
         }
       },
       "is_incremental": false,
@@ -1158,7 +1158,7 @@
       "output": {
         ".html": {
           "relative_path": "api/HomeSeer.PluginSdk.Energy.EnergyCalcData.html",
-          "hash": "nEvkZHOF0nUg6DkY/Tu76g=="
+          "hash": "lvzpnjjHt7zwrKa4g2BGU0UDiMb7OHM3e2wAr88eQCw="
         }
       },
       "is_incremental": false,
@@ -1170,7 +1170,7 @@
       "output": {
         ".html": {
           "relative_path": "api/HomeSeer.PluginSdk.Energy.EnergyData.html",
-          "hash": "sTWcj/+7MBZXwuj0KrZsIA=="
+          "hash": "XsXOwqDnpN1AlZBEcE4xhhbPjZ8/7e674FsYc4KCpxQ="
         }
       },
       "is_incremental": false,
@@ -1182,7 +1182,7 @@
       "output": {
         ".html": {
           "relative_path": "api/HomeSeer.PluginSdk.Energy.EnergyGraph.html",
-          "hash": "ilQkndK4tV1xL3DmKcV3rA=="
+          "hash": "h4CfWEoXGZFPd03/u5lAN72EQIH0l+IRwatzKDV2qUo="
         }
       },
       "is_incremental": false,
@@ -1194,7 +1194,7 @@
       "output": {
         ".html": {
           "relative_path": "api/HomeSeer.PluginSdk.Energy.EnergyGraphData.html",
-          "hash": "prbupj0p1LIiWrhjHEV0WA=="
+          "hash": "9IH4Y1ybqs5RWEwd0kfA1G0Fco24ZbcbKDB5Q63r1As="
         }
       },
       "is_incremental": false,
@@ -1206,7 +1206,7 @@
       "output": {
         ".html": {
           "relative_path": "api/HomeSeer.PluginSdk.Energy.html",
-          "hash": "6oRk3iJvgQrrdPVySgkWuw=="
+          "hash": "eEMhvo9Lzv+MrtJp+ytUyplRHfaL737IRplyTEjKzIM="
         }
       },
       "is_incremental": false,
@@ -1218,7 +1218,7 @@
       "output": {
         ".html": {
           "relative_path": "api/HomeSeer.PluginSdk.Events.AbstractActionType.html",
-          "hash": "HDLyTX35njEgKXk6vKifvg=="
+          "hash": "1M2c8dXPcMnumvj9Ftu7fGtnIBlVC+IeCq6VcMwFyqs="
         }
       },
       "is_incremental": false,
@@ -1230,7 +1230,7 @@
       "output": {
         ".html": {
           "relative_path": "api/HomeSeer.PluginSdk.Events.AbstractTriggerType.html",
-          "hash": "ra37+7GkW8zJINmSx7dCcQ=="
+          "hash": "y9HgaIgUKVUGZBX4tSZMU1TnOj8XA0l66C0tDrsNHbQ="
         }
       },
       "is_incremental": false,
@@ -1242,7 +1242,7 @@
       "output": {
         ".html": {
           "relative_path": "api/HomeSeer.PluginSdk.Events.ActionTypeCollection.IActionTypeListener.html",
-          "hash": "4sWy8lcQxm5YILzQcE57vw=="
+          "hash": "8T8E3LqHmkb9NZJdGCca/vA2QtIlv7+RqvOr4Rxw8bI="
         }
       },
       "is_incremental": false,
@@ -1254,7 +1254,7 @@
       "output": {
         ".html": {
           "relative_path": "api/HomeSeer.PluginSdk.Events.ActionTypeCollection.html",
-          "hash": "2WxU+3SwpEHg6lW3teLRMQ=="
+          "hash": "wsMUKg9LXGIofS9GcbH38FFPWZgis7SAbOgyB3fRb5w="
         }
       },
       "is_incremental": false,
@@ -1266,7 +1266,7 @@
       "output": {
         ".html": {
           "relative_path": "api/HomeSeer.PluginSdk.Events.BaseTypeCollection-1.html",
-          "hash": "QwuiQLAaoMdK0gUJPQsWHA=="
+          "hash": "aO+uhiGF4X4pt9byyjft1dFMOqYK7VHJsHrHv3+Mkuk="
         }
       },
       "is_incremental": false,
@@ -1278,7 +1278,7 @@
       "output": {
         ".html": {
           "relative_path": "api/HomeSeer.PluginSdk.Events.EEventFlag.html",
-          "hash": "MQCqDEvTc22gENCAIXZEqw=="
+          "hash": "CazbQtrzDftlkD+BlnXzxPKUnqU3rZfK0HfQYeF+v4o="
         }
       },
       "is_incremental": false,
@@ -1290,7 +1290,7 @@
       "output": {
         ".html": {
           "relative_path": "api/HomeSeer.PluginSdk.Events.EventData.html",
-          "hash": "P+cMVgpG13ImBpGsLYNX4A=="
+          "hash": "wMzuAl0ohBtmhNrQ4ayTg2MitX5KZf95PD+8sUtvagY="
         }
       },
       "is_incremental": false,
@@ -1302,7 +1302,7 @@
       "output": {
         ".html": {
           "relative_path": "api/HomeSeer.PluginSdk.Events.EventGroupData.html",
-          "hash": "zVYVOq7Xq7FA3VNEtpdr3w=="
+          "hash": "mo4iQ34vyDIJmjeRj7DuBydFXfvZb3z+tslXOMBgpgc="
         }
       },
       "is_incremental": false,
@@ -1314,7 +1314,7 @@
       "output": {
         ".html": {
           "relative_path": "api/HomeSeer.PluginSdk.Events.EventTriggerGroupData.html",
-          "hash": "7QKMnTtrQrh8I0tNiHpDng=="
+          "hash": "ooi9cXcFDl884wtbBE/5Drhje6CQe/FOKUy4JOOaFR0="
         }
       },
       "is_incremental": false,
@@ -1326,7 +1326,7 @@
       "output": {
         ".html": {
           "relative_path": "api/HomeSeer.PluginSdk.Events.TrigActInfo.html",
-          "hash": "9Ui7GO4wsBhwgawdbVFKcA=="
+          "hash": "2pWrK711lGvXqiUWk8PuIhJ2PQbanxq/BLAe/Kykhe4="
         }
       },
       "is_incremental": false,
@@ -1338,7 +1338,7 @@
       "output": {
         ".html": {
           "relative_path": "api/HomeSeer.PluginSdk.Events.TriggerTypeCollection.ITriggerTypeListener.html",
-          "hash": "wAkrD4oHN/PsytrbDQuNWQ=="
+          "hash": "7UHuFKH1CRoA9ckGFK7UgJKztPWCFSn5fWEzIO23laQ="
         }
       },
       "is_incremental": false,
@@ -1350,7 +1350,7 @@
       "output": {
         ".html": {
           "relative_path": "api/HomeSeer.PluginSdk.Events.TriggerTypeCollection.html",
-          "hash": "kEkVjLN8b0LgOJ4Agga15Q=="
+          "hash": "I4nGgTRpJReRUyUb7RTPiGmSIb3LQFHjKDK8vcBNgLU="
         }
       },
       "is_incremental": false,
@@ -1362,7 +1362,7 @@
       "output": {
         ".html": {
           "relative_path": "api/HomeSeer.PluginSdk.Events.html",
-          "hash": "tyfYsK79z5KVJ+encETNgQ=="
+          "hash": "AXly8d92jG7i59GyfHyRhnx+nBnFtz7LhrvJ/z/kNjk="
         }
       },
       "is_incremental": false,
@@ -1374,7 +1374,7 @@
       "output": {
         ".html": {
           "relative_path": "api/HomeSeer.PluginSdk.Features.AbstractFeaturePage.html",
-          "hash": "vHPTo6A6WO91+yQJrhknfg=="
+          "hash": "Kr45g9O0Op/Kos6xaerKdGkKSXZUha4v51gLzaEHrbM="
         }
       },
       "is_incremental": false,
@@ -1386,7 +1386,7 @@
       "output": {
         ".html": {
           "relative_path": "api/HomeSeer.PluginSdk.Features.GenericJsonData.html",
-          "hash": "cvuLYCRW2tMwQlZZoVU6dg=="
+          "hash": "4epP5zjFrP0HdKz1QkLFauiers16GXhXwE0HORSZRwU="
         }
       },
       "is_incremental": false,
@@ -1398,7 +1398,7 @@
       "output": {
         ".html": {
           "relative_path": "api/HomeSeer.PluginSdk.Features.IFeaturePage.html",
-          "hash": "ornFYx03QxodKPjBnOWMxQ=="
+          "hash": "8JppAgl9Ap8sPNudj7BzdyqoYrrsEqfyky6N0HcjUx8="
         }
       },
       "is_incremental": false,
@@ -1410,7 +1410,7 @@
       "output": {
         ".html": {
           "relative_path": "api/HomeSeer.PluginSdk.Features.JsonRequest.html",
-          "hash": "d8c20XE3g6nti0QeHcvtPQ=="
+          "hash": "pj1jcJZLYPL9Ap8/Rg4FurZFch569RY5DTpMvsTaPnE="
         }
       },
       "is_incremental": false,
@@ -1422,7 +1422,7 @@
       "output": {
         ".html": {
           "relative_path": "api/HomeSeer.PluginSdk.Features.Responses.JsonError.html",
-          "hash": "4Krt8Z1OvJiRSCBzar8CzQ=="
+          "hash": "qOd1vwXAsWRHrNUAqKwImQZBBXOAmjuuApymzpQ26q4="
         }
       },
       "is_incremental": false,
@@ -1434,7 +1434,7 @@
       "output": {
         ".html": {
           "relative_path": "api/HomeSeer.PluginSdk.Features.Responses.JsonResponse.html",
-          "hash": "2FWhXiwhtiH/d01Z9AT89g=="
+          "hash": "SisvCbbprK4WLuPNAORnFJHXCFwqgmK0EUEWax02kiQ="
         }
       },
       "is_incremental": false,
@@ -1446,7 +1446,7 @@
       "output": {
         ".html": {
           "relative_path": "api/HomeSeer.PluginSdk.Features.Responses.PageActions.CallbackPageAction.html",
-          "hash": "3/LgIMb026noXblvesqsZQ=="
+          "hash": "gz6OozbZ8aJnFMN2W9UfbBZBJOJ481UPgzeTs9HKk5w="
         }
       },
       "is_incremental": false,
@@ -1458,7 +1458,7 @@
       "output": {
         ".html": {
           "relative_path": "api/HomeSeer.PluginSdk.Features.Responses.PageActions.EPageAction.html",
-          "hash": "WiN1IweQvMKsqm25rfrohA=="
+          "hash": "l+TDqlLN41WNfc9CrCi/TzQf+0prCwcj9v0cn1kU/Ig="
         }
       },
       "is_incremental": false,
@@ -1470,7 +1470,7 @@
       "output": {
         ".html": {
           "relative_path": "api/HomeSeer.PluginSdk.Features.Responses.PageActions.FeaturePageAction.html",
-          "hash": "YTDn0CWiwViJWtxJOGdlKQ=="
+          "hash": "PAvWIcv5AHnR2Fy6gHSKydJGHnidillQP+lgJv2VQ5Q="
         }
       },
       "is_incremental": false,
@@ -1482,7 +1482,7 @@
       "output": {
         ".html": {
           "relative_path": "api/HomeSeer.PluginSdk.Features.Responses.PageActions.HidePageAction.html",
-          "hash": "RSQ3V2MxjnaguybgZrzpkA=="
+          "hash": "ov2Y6dqaNgesg3nBiZ5+4m6BfwXTqOjoc2oivxBX1sE="
         }
       },
       "is_incremental": false,
@@ -1494,7 +1494,7 @@
       "output": {
         ".html": {
           "relative_path": "api/HomeSeer.PluginSdk.Features.Responses.PageActions.NextStepPageAction.html",
-          "hash": "xZrNIlAg9XB1IVE94r3iSA=="
+          "hash": "YcLCTOMC+db5ilq6rpTZT/z1vEBQXwWJH2Y8KmjvuIs="
         }
       },
       "is_incremental": false,
@@ -1506,7 +1506,7 @@
       "output": {
         ".html": {
           "relative_path": "api/HomeSeer.PluginSdk.Features.Responses.PageActions.PageActionExtensions.html",
-          "hash": "Oof00xdi4SolsyQ4dmppcw=="
+          "hash": "bAriJQTOfRJefBRTfqFmd8mO4hrFIAYIObFOqEKiZUM="
         }
       },
       "is_incremental": false,
@@ -1518,7 +1518,7 @@
       "output": {
         ".html": {
           "relative_path": "api/HomeSeer.PluginSdk.Features.Responses.PageActions.PageActionResponse.html",
-          "hash": "neLRRrDDLu5LHhXLqWmQQw=="
+          "hash": "UN3SEy8wmWDJUroLK+qVUiSGVMDI4FTopMpy5coYgBk="
         }
       },
       "is_incremental": false,
@@ -1530,7 +1530,7 @@
       "output": {
         ".html": {
           "relative_path": "api/HomeSeer.PluginSdk.Features.Responses.PageActions.PreviousStepPageAction.html",
-          "hash": "aVlArQmhf+3h/g07bNPcMg=="
+          "hash": "aAl2CbTFDI492u3WxPwG3i9YgD79np9SADI0RIee1/g="
         }
       },
       "is_incremental": false,
@@ -1542,7 +1542,7 @@
       "output": {
         ".html": {
           "relative_path": "api/HomeSeer.PluginSdk.Features.Responses.PageActions.SetHtmlPageAction.html",
-          "hash": "Xbb+zETevQlA0rAMrsJjbQ=="
+          "hash": "CzpWvgRmQe13rE6MbddGUmcsv4SL+4kDt7wpUkleHCQ="
         }
       },
       "is_incremental": false,
@@ -1554,7 +1554,7 @@
       "output": {
         ".html": {
           "relative_path": "api/HomeSeer.PluginSdk.Features.Responses.PageActions.SetStepPageAction.html",
-          "hash": "hdL6F78cjFlCoGqz/ehj7Q=="
+          "hash": "dBB1VtOA9aMh11RSXHrWvckEni3Z83LNbVqDSHCKSXw="
         }
       },
       "is_incremental": false,
@@ -1566,7 +1566,7 @@
       "output": {
         ".html": {
           "relative_path": "api/HomeSeer.PluginSdk.Features.Responses.PageActions.SetTextPageAction.html",
-          "hash": "NVlt051ASpjVhgod0dQdkA=="
+          "hash": "kyngNxqsui6PrXNREB2vJPMhHUhNi+AtCLDmxBm8Gag="
         }
       },
       "is_incremental": false,
@@ -1578,7 +1578,7 @@
       "output": {
         ".html": {
           "relative_path": "api/HomeSeer.PluginSdk.Features.Responses.PageActions.SetValuePageAction.html",
-          "hash": "IqoBK6qidMP7pLnKfmfmXg=="
+          "hash": "S67+z5zb5Oy/DYdBCqCDr0ueeOuS3VXvyvM+vBybk2M="
         }
       },
       "is_incremental": false,
@@ -1590,7 +1590,7 @@
       "output": {
         ".html": {
           "relative_path": "api/HomeSeer.PluginSdk.Features.Responses.PageActions.ShowPageAction.html",
-          "hash": "NkFGSA7Wu25+ifyLn8nBsA=="
+          "hash": "9Nloe1Wl91G73kwvsNdVkEI8XpTA/2DLW1+7fIM1IQk="
         }
       },
       "is_incremental": false,
@@ -1602,7 +1602,7 @@
       "output": {
         ".html": {
           "relative_path": "api/HomeSeer.PluginSdk.Features.Responses.PageActions.html",
-          "hash": "is57Q2dFgr+l+nLe9b8bqQ=="
+          "hash": "JFHz4TsZP+uQCqhW+rkMw/TOTGjgzU8x8dbyl0VXEls="
         }
       },
       "is_incremental": false,
@@ -1614,7 +1614,7 @@
       "output": {
         ".html": {
           "relative_path": "api/HomeSeer.PluginSdk.Features.Responses.html",
-          "hash": "PZFXSjgpWZS18CUWK0K47Q=="
+          "hash": "HpBAZt8SXh0qJvoOUPRBxW5nUhObWte0D6K7lYUZslk="
         }
       },
       "is_incremental": false,
@@ -1626,7 +1626,7 @@
       "output": {
         ".html": {
           "relative_path": "api/HomeSeer.PluginSdk.Features.html",
-          "hash": "plk72Jfj2eNNrOIbqpY1Wg=="
+          "hash": "JceHBX7JG5oZo0B01O/cPeZjRNTjfXURQEXG61jZrwA="
         }
       },
       "is_incremental": false,
@@ -1638,7 +1638,7 @@
       "output": {
         ".html": {
           "relative_path": "api/HomeSeer.PluginSdk.IHsController.html",
-          "hash": "WuM8tH5dpJLvUxcrODgYww=="
+          "hash": "h1eyWoyR2jegiUNrb9viY/4TRaioTYD7bx6BWpc4hDU="
         }
       },
       "is_incremental": false,
@@ -1650,7 +1650,7 @@
       "output": {
         ".html": {
           "relative_path": "api/HomeSeer.PluginSdk.IPlugin.html",
-          "hash": "6VD76clYJSkY2/A2QIvJmQ=="
+          "hash": "EzFUpbZQ8YsOW3U4M/IO2L9JojcVAEF3EdHlD3lFICg="
         }
       },
       "is_incremental": false,
@@ -1662,7 +1662,7 @@
       "output": {
         ".html": {
           "relative_path": "api/HomeSeer.PluginSdk.Logging.ELogType.html",
-          "hash": "7ajEwWnLdOdae9eLUuqRAw=="
+          "hash": "WAMuOWeYUjHLk9qK5fd8lTfKiBaNp1Q/ReV9s7UWFj0="
         }
       },
       "is_incremental": false,
@@ -1674,7 +1674,7 @@
       "output": {
         ".html": {
           "relative_path": "api/HomeSeer.PluginSdk.Logging.html",
-          "hash": "2FjH5bJ+pGWi88ypmCrKLg=="
+          "hash": "VcglfUkjL+vf4kg6RaFIJOUoKxSRCpQfm+fOPtShiTw="
         }
       },
       "is_incremental": false,
@@ -1686,7 +1686,7 @@
       "output": {
         ".html": {
           "relative_path": "api/HomeSeer.PluginSdk.PluginStatus.EPluginStatus.html",
-          "hash": "Go+hGTKVWOAkYXh1xY8LHw=="
+          "hash": "yamBSPmkRZ5lak9uyEwzbAr00MOaudR+7v3UB04epCg="
         }
       },
       "is_incremental": false,
@@ -1698,7 +1698,7 @@
       "output": {
         ".html": {
           "relative_path": "api/HomeSeer.PluginSdk.PluginStatus.html",
-          "hash": "HFLfHcz+hkX6FCrXb2C/7Q=="
+          "hash": "g4i54GShkZgBWX5L5Fsn1vXElMNFxgFrDwTvA3CHHso="
         }
       },
       "is_incremental": false,
@@ -1710,7 +1710,7 @@
       "output": {
         ".html": {
           "relative_path": "api/HomeSeer.PluginSdk.Speech.AbstractSpeakerClient.html",
-          "hash": "ABX3TMq6fwNzwtTuDm/K1A=="
+          "hash": "wGsvHQly+eeRH8AoXxj5t7VUjXl9bCHsLYiKMyzS1+0="
         }
       },
       "is_incremental": false,
@@ -1722,7 +1722,7 @@
       "output": {
         ".html": {
           "relative_path": "api/HomeSeer.PluginSdk.Speech.EMediaOperation.html",
-          "hash": "AcL+MjQxJbu2+hBjxVVXLg=="
+          "hash": "UfE4Qkhl7tFoupHy0xRyH3JAsXkw9sYXGnI2Pov5jTU="
         }
       },
       "is_incremental": false,
@@ -1734,7 +1734,7 @@
       "output": {
         ".html": {
           "relative_path": "api/HomeSeer.PluginSdk.Speech.ESpeakErrorValue.html",
-          "hash": "oS53XW676oQWGAyhsZ7pzQ=="
+          "hash": "x6/unXuaXq/vny5aN6rFTMISPvYFZAYsNNS9EEeFpgg="
         }
       },
       "is_incremental": false,
@@ -1746,7 +1746,7 @@
       "output": {
         ".html": {
           "relative_path": "api/HomeSeer.PluginSdk.Speech.ESpeakTypeValue.html",
-          "hash": "Koe5ieoGDDTT5KdgD5oDgw=="
+          "hash": "Aoz5TTYBJ7bXihHlMRIyTxbIPO5RZeA2OaoBmRALdK8="
         }
       },
       "is_incremental": false,
@@ -1758,7 +1758,7 @@
       "output": {
         ".html": {
           "relative_path": "api/HomeSeer.PluginSdk.Speech.IFromSpeaker.html",
-          "hash": "HWeg10JgpXi2nQySurxFAw=="
+          "hash": "nmxmNea9z7B9EicDGEN6SASTkaJDXbEqeJpFsGQPM3Y="
         }
       },
       "is_incremental": false,
@@ -1770,7 +1770,7 @@
       "output": {
         ".html": {
           "relative_path": "api/HomeSeer.PluginSdk.Speech.ISpeechAPI.html",
-          "hash": "OBGpiVHGje0dihNDQ4/f0Q=="
+          "hash": "WrLp3LYerTFygSnE5bKBifdjLtqpN1d2B3Jua6fIhCw="
         }
       },
       "is_incremental": false,
@@ -1782,7 +1782,7 @@
       "output": {
         ".html": {
           "relative_path": "api/HomeSeer.PluginSdk.Speech.RemoteHost.html",
-          "hash": "2/nvC3yr7Q5yMsuBrg3mDQ=="
+          "hash": "CM7Ses832Uc0airojCNmITOLjNAI4qXoFNgKMZ1vzUU="
         }
       },
       "is_incremental": false,
@@ -1794,7 +1794,7 @@
       "output": {
         ".html": {
           "relative_path": "api/HomeSeer.PluginSdk.Speech.clsLastVR.html",
-          "hash": "NhC9WWTMUagfkZCtemBA2g=="
+          "hash": "cO1r4NPDM7Jd+1VtCJj+nx2luIow/TKn0er9K4RSXDs="
         }
       },
       "is_incremental": false,
@@ -1806,7 +1806,7 @@
       "output": {
         ".html": {
           "relative_path": "api/HomeSeer.PluginSdk.Speech.html",
-          "hash": "sXleryK+Qt7skqQrMA6iFg=="
+          "hash": "pSq0PrerDahI41og65uovgojjC2X17bJBental9bjwo="
         }
       },
       "is_incremental": false,
@@ -1818,7 +1818,7 @@
       "output": {
         ".html": {
           "relative_path": "api/HomeSeer.PluginSdk.Systems.EConfigChangeAction.html",
-          "hash": "Rc0ydUFXPyGN9QFd1eXy6w=="
+          "hash": "iWowAALD8ch/+sR/EqL+VQ4dM7fG1Js5kc/M3Tmw/xo="
         }
       },
       "is_incremental": false,
@@ -1830,7 +1830,7 @@
       "output": {
         ".html": {
           "relative_path": "api/HomeSeer.PluginSdk.Systems.EConfigChangeTarget.html",
-          "hash": "fr20U14lsy0FUR5UBpB1fw=="
+          "hash": "b7c7Z28HE8Lfqzud4YzSFfMTddypFBREffMVXW4ITgI="
         }
       },
       "is_incremental": false,
@@ -1842,7 +1842,7 @@
       "output": {
         ".html": {
           "relative_path": "api/HomeSeer.PluginSdk.Systems.EHsSystemEvent.html",
-          "hash": "GTyahCU27PPJAdDE/XoJIw=="
+          "hash": "FL7VE4cHb0Y+xTtedb7dELL0APF+hFdYD9cmpDf/lW4="
         }
       },
       "is_incremental": false,
@@ -1854,7 +1854,7 @@
       "output": {
         ".html": {
           "relative_path": "api/HomeSeer.PluginSdk.Systems.html",
-          "hash": "ZYW/Uncjex4ESjtOO566bQ=="
+          "hash": "v7/MxlSGAxcBzKg5dEudrq8Sd3MgtFkoaD685PWCEOk="
         }
       },
       "is_incremental": false,
@@ -1866,7 +1866,7 @@
       "output": {
         ".html": {
           "relative_path": "api/HomeSeer.PluginSdk.Types.EAccessLevel.html",
-          "hash": "ujGtuB6m4Mkqk7BFa6Zpqw=="
+          "hash": "WAWk0U+GiIQ0h09P6RXMOd3Q428oSeS9NzYxp2QaljM="
         }
       },
       "is_incremental": false,
@@ -1878,7 +1878,7 @@
       "output": {
         ".html": {
           "relative_path": "api/HomeSeer.PluginSdk.Types.EHsSystemEvent.html",
-          "hash": "k5oPR3j9T4yNIGQe/M8jdw=="
+          "hash": "XPZSCrk9PSdKZtitH+m+0MfG1X+xq/4+7W0Ad+d+EV0="
         }
       },
       "is_incremental": false,
@@ -1890,7 +1890,7 @@
       "output": {
         ".html": {
           "relative_path": "api/HomeSeer.PluginSdk.Types.EOsType.html",
-          "hash": "Qsf96M145AIofqcd8q8nbw=="
+          "hash": "RwN6bFks4nEgAOVytQbZdbgKs7YA64FJHxuW4GAuW60="
         }
       },
       "is_incremental": false,
@@ -1902,7 +1902,7 @@
       "output": {
         ".html": {
           "relative_path": "api/HomeSeer.PluginSdk.Types.ERegistrationMode.html",
-          "hash": "CT8iDmjbgnIJv4RjFU7nMg=="
+          "hash": "9xscEles3ASaeUvd5egpbZjQHiB1rxSXPobhKn/4vNY="
         }
       },
       "is_incremental": false,
@@ -1914,7 +1914,7 @@
       "output": {
         ".html": {
           "relative_path": "api/HomeSeer.PluginSdk.Types.html",
-          "hash": "ugEyLYI1yGWESdhowjNWYw=="
+          "hash": "sMX/fMJmot9Rq4iMuo0jjk2LaACF3s3nOMWnesDKhd0="
         }
       },
       "is_incremental": false,
@@ -1926,7 +1926,7 @@
       "output": {
         ".html": {
           "relative_path": "api/HomeSeer.PluginSdk.html",
-          "hash": "ADzxV82II8Za61tIpOOFBw=="
+          "hash": "pilwNVdGmXILsijqrxlZzeAtg8NIXClXeiEvqi2dsek="
         }
       },
       "is_incremental": false,
@@ -1938,7 +1938,7 @@
       "output": {
         ".html": {
           "relative_path": "api/index.html",
-          "hash": "llbmEv+UKo0yja7+Yp4WCg=="
+          "hash": "znZdWqzhEW6cqE1rx3ceCUPch30wFxkxcqBIQy3VaZQ="
         }
       },
       "is_incremental": false,
@@ -1950,7 +1950,7 @@
       "output": {
         ".html": {
           "relative_path": "api/toc.html",
-          "hash": "yyCiILQQOZWPXKfEf9QKoQ=="
+          "hash": "SnQN++mRPTBKODft9DpkxT4NFr/SZyxw+1HTiIH0tdc="
         }
       },
       "is_incremental": false,
@@ -2006,7 +2006,7 @@
       "output": {
         ".html": {
           "relative_path": "index.html",
-          "hash": "Qg9NEiivWuzWl3TnAalJcA=="
+          "hash": "w/BBOaRr8a012pA4YACUst8sTCbYRDjFApXWKpkymy8="
         }
       },
       "is_incremental": false,
@@ -2018,7 +2018,7 @@
       "output": {
         ".html": {
           "relative_path": "release_notes/index.html",
-          "hash": "C43yAR2DISltBCOzaQOvlg=="
+          "hash": "jOwwPDLsgWYkooOYdGzg2lmOR0SL1oODQByG9Gu9xLc="
         }
       },
       "is_incremental": false,
@@ -2030,7 +2030,7 @@
       "output": {
         ".html": {
           "relative_path": "release_notes/pluginsdk_releasenotes_1_0_5_0.html",
-          "hash": "cV0voaqg9aui2tmhh0hEpg=="
+          "hash": "rHqkqBv7gnHXu5mgiVzYYJFv+vWidsFkALYOPenVMh4="
         }
       },
       "is_incremental": false,
@@ -2042,7 +2042,7 @@
       "output": {
         ".html": {
           "relative_path": "release_notes/pluginsdk_releasenotes_1_0_7_1.html",
-          "hash": "A24efjW/4zPGbak7YymyfQ=="
+          "hash": "2sUdqB2Edmktkleyru/d2CgIyXDVyY9VxQyuHWMjnzY="
         }
       },
       "is_incremental": false,
@@ -2054,7 +2054,7 @@
       "output": {
         ".html": {
           "relative_path": "release_notes/pluginsdk_releasenotes_1_0_8_0.html",
-          "hash": "MNnsGpZBwZw79BHz/QhvwA=="
+          "hash": "4jFxR1DBIMzTZaTwK/i8N7oGTkOhOVCTm1se58M28cY="
         }
       },
       "is_incremental": false,
@@ -2066,7 +2066,7 @@
       "output": {
         ".html": {
           "relative_path": "release_notes/pluginsdk_releasenotes_1_0_8_1.html",
-          "hash": "QehG6aWuNEjsJ2CiLfiSWA=="
+          "hash": "ckEHo5XFIL4KauFWcTWe92NyX2/qMqgJkBcfP05wER8="
         }
       },
       "is_incremental": false,
@@ -2078,7 +2078,7 @@
       "output": {
         ".html": {
           "relative_path": "release_notes/pluginsdk_releasenotes_1_0_9_0.html",
-          "hash": "JZxCZFl9T6vJVdORDE6HPA=="
+          "hash": "qYSXJFYoHzIBVZKq9t8NKCo3YNtqGQRKyg5zDb5jfcI="
         }
       },
       "is_incremental": false,
@@ -2090,7 +2090,7 @@
       "output": {
         ".html": {
           "relative_path": "release_notes/pluginsdk_releasenotes_1_1_0_0.html",
-          "hash": "jIYmabKjvJUI3RX2UQicOg=="
+          "hash": "asdDw0KDdFeZrrqRKx+P/tsyAbRkdR1iEZ8/L6BJnQw="
         }
       },
       "is_incremental": false,
@@ -2102,7 +2102,7 @@
       "output": {
         ".html": {
           "relative_path": "release_notes/pluginsdk_releasenotes_1_2_0_0.html",
-          "hash": "d27JYSFH31fOnT7lfH3v/w=="
+          "hash": "fZosCnxB6V/Jkzte8AOzETv7XetGMaNNIxoL7aPWFvA="
         }
       },
       "is_incremental": false,
@@ -2114,7 +2114,7 @@
       "output": {
         ".html": {
           "relative_path": "release_notes/pluginsdk_releasenotes_1_2_1_0.html",
-          "hash": "JxDHneXHnnEWuoZ9YyBj2w=="
+          "hash": "7tMMtqmRJ6qfpo5Swd81FVPXK7WE5IBsdn4Y9TbS8ck="
         }
       },
       "is_incremental": false,
@@ -2126,7 +2126,7 @@
       "output": {
         ".html": {
           "relative_path": "release_notes/pluginsdk_releasenotes_1_2_2_0.html",
-          "hash": "K0eSb2KeRmd6jnt0nNey4A=="
+          "hash": "IhfXVnH1L3NIjK0XtEFv7DOWShuqximto+VJGSQVxSQ="
         }
       },
       "is_incremental": false,
@@ -2138,7 +2138,7 @@
       "output": {
         ".html": {
           "relative_path": "release_notes/pluginsdk_releasenotes_1_2_3_0.html",
-          "hash": "23AzjIZZX1v9DX1gZtOPtA=="
+          "hash": "/30oEMCyWjbVav2PeXj9Kp0YDUHDwg5vlvIV5nEJIFw="
         }
       },
       "is_incremental": false,
@@ -2150,7 +2150,7 @@
       "output": {
         ".html": {
           "relative_path": "release_notes/pluginsdk_releasenotes_1_2_4_0.html",
-          "hash": "O/uKrJ3MV+klbyd3BdyiAg=="
+          "hash": "sx8gKbhpbxieFc8/C698MgW2jiLIs7NVLLtiDj0aB/Y="
         }
       },
       "is_incremental": false,
@@ -2162,7 +2162,7 @@
       "output": {
         ".html": {
           "relative_path": "release_notes/pluginsdk_releasenotes_1_2_5_0.html",
-          "hash": "OkqPUn7V3ZTdAiJ0Ht8FyQ=="
+          "hash": "44RSRW9IY0TIeTxnIO+RTy4Yi/sFhyDrnkZqM8tY5nE="
         }
       },
       "is_incremental": false,
@@ -2174,7 +2174,7 @@
       "output": {
         ".html": {
           "relative_path": "release_notes/pluginsdk_releasenotes_1_3_0_0.html",
-          "hash": "PvU1tpmizwBqF9gAp9ngSw=="
+          "hash": "qIJ4fcmgjDynTks38+YBUbMckC0pkCfVRYSxpKlCgdY="
         }
       },
       "is_incremental": false,
@@ -2186,7 +2186,7 @@
       "output": {
         ".html": {
           "relative_path": "release_notes/pluginsdk_releasenotes_1_3_1_0.html",
-          "hash": "WVMkAjay7zAGUVVRidP8lw=="
+          "hash": "AEAaAebZs0O2wsTBjHty44NeQd6cKdKnk5C0wMZ7dS8="
         }
       },
       "is_incremental": false,
@@ -2198,7 +2198,19 @@
       "output": {
         ".html": {
           "relative_path": "release_notes/pluginsdk_releasenotes_1_4_0_0.html",
-          "hash": "2MZhtuuoa12qRS7fom7F8w=="
+          "hash": "no8wVVfgCCIZmcSO0pQX0Hb1tXLA+b8y1IEKXnm24BQ="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "release_notes/pluginsdk_releasenotes_1_4_1_0.md",
+      "output": {
+        ".html": {
+          "relative_path": "release_notes/pluginsdk_releasenotes_1_4_1_0.html",
+          "hash": "BjpTL1tTPPzwz8QPK69YcVSI4oobSeGmRaRpoPpuxKI="
         }
       },
       "is_incremental": false,
@@ -2210,7 +2222,7 @@
       "output": {
         ".html": {
           "relative_path": "release_notes/toc.html",
-          "hash": "5Lcz2T3PH2mBd0Ug0j34ng=="
+          "hash": "as8bOvCEn7VjGLMMMT/GGo6WTteM7RZzMYJqZ32Aw3I="
         }
       },
       "is_incremental": false,
@@ -2222,7 +2234,7 @@
       "output": {
         ".html": {
           "relative_path": "toc.html",
-          "hash": "EbW+Fs5OVgTbDk1A2L8udQ=="
+          "hash": "AhjaAuzwzBJ7FxUG8na+NJVlVOhv8F+MPin/lgqwqKo="
         }
       },
       "is_incremental": false,
@@ -2238,12 +2250,11 @@
         "skipped_file_count": 0
       },
       "processors": {
-        "TocDocumentProcessor": {
-          "can_incremental": false,
-          "details": "Processor TocDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+        "ConceptualDocumentProcessor": {
+          "can_incremental": true,
           "incrementalPhase": "build",
-          "total_file_count": 0,
-          "skipped_file_count": 0
+          "total_file_count": 20,
+          "skipped_file_count": 20
         },
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": true,
@@ -2251,15 +2262,16 @@
           "total_file_count": 163,
           "skipped_file_count": 163
         },
-        "ConceptualDocumentProcessor": {
-          "can_incremental": true,
-          "incrementalPhase": "build",
-          "total_file_count": 19,
-          "skipped_file_count": 19
-        },
         "ResourceDocumentProcessor": {
           "can_incremental": false,
           "details": "Processor ResourceDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "incrementalPhase": "build",
+          "total_file_count": 0,
+          "skipped_file_count": 0
+        },
+        "TocDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor TocDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
           "incrementalPhase": "build",
           "total_file_count": 0,
           "skipped_file_count": 0

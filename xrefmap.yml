@@ -7788,6 +7788,19 @@ references:
   isSpec: "True"
   fullName: HomeSeer.PluginSdk.Devices.FeatureFactory.AddColorPicker
   nameWithType: FeatureFactory.AddColorPicker
+- uid: HomeSeer.PluginSdk.Devices.FeatureFactory.AddControl(HomeSeer.PluginSdk.Devices.Controls.StatusControl)
+  name: AddControl(StatusControl)
+  href: api/HomeSeer.PluginSdk.Devices.FeatureFactory.html#HomeSeer_PluginSdk_Devices_FeatureFactory_AddControl_HomeSeer_PluginSdk_Devices_Controls_StatusControl_
+  commentId: M:HomeSeer.PluginSdk.Devices.FeatureFactory.AddControl(HomeSeer.PluginSdk.Devices.Controls.StatusControl)
+  fullName: HomeSeer.PluginSdk.Devices.FeatureFactory.AddControl(HomeSeer.PluginSdk.Devices.Controls.StatusControl)
+  nameWithType: FeatureFactory.AddControl(StatusControl)
+- uid: HomeSeer.PluginSdk.Devices.FeatureFactory.AddControl*
+  name: AddControl
+  href: api/HomeSeer.PluginSdk.Devices.FeatureFactory.html#HomeSeer_PluginSdk_Devices_FeatureFactory_AddControl_
+  commentId: Overload:HomeSeer.PluginSdk.Devices.FeatureFactory.AddControl
+  isSpec: "True"
+  fullName: HomeSeer.PluginSdk.Devices.FeatureFactory.AddControl
+  nameWithType: FeatureFactory.AddControl
 - uid: HomeSeer.PluginSdk.Devices.FeatureFactory.AddGraphic(HomeSeer.PluginSdk.Devices.StatusGraphic)
   name: AddGraphic(StatusGraphic)
   href: api/HomeSeer.PluginSdk.Devices.FeatureFactory.html#HomeSeer_PluginSdk_Devices_FeatureFactory_AddGraphic_HomeSeer_PluginSdk_Devices_StatusGraphic_

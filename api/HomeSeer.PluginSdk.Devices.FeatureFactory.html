@@ -10,7 +10,7 @@
     <meta name="viewport" content="width=device-width">
     <meta name="title" content="Class FeatureFactory
    | HomeSeer PluginSdk Docs ">
-    <meta name="generator" content="docfx 2.49.0.0">
+    <meta name="generator" content="docfx 2.58.0.0">
     
     <link rel="shortcut icon" href="../images/favicon.ico">
     <link rel="stylesheet" href="../styles/docfx.vendor.css">
@@ -62,11 +62,11 @@
       <div class="container body-content">
         
         <div id="search-results">
-          <div class="search-list"></div>
+          <div class="search-list">Search Results for <span></span></div>
           <div class="sr-items">
             <p><i class="glyphicon glyphicon-refresh index-loading"></i></p>
           </div>
-          <ul id="pagination"></ul>
+          <ul id="pagination" data-first="First" data-prev="Previous" data-next="Next" data-last="Last"></ul>
         </div>
       </div>
       <div role="main" class="container-fluid body-content hide-when-search">
@@ -211,9 +211,7 @@
       </ul>
       <section id="tabpanel_syntax_cs" role="tabpanel" data-tab="cs">
           <div class="codewrapper">
-            <pre><code class="lang-csharp hljs">HsFeature Feature
-{
-}</code></pre>
+            <pre><code class="lang-csharp hljs">HsFeature Feature { }</code></pre>
           </div>
       </section>
       <section id="tabpanel_syntax_vb" role="tabpanel" data-tab="vb" aria-hidden="true" hidden="">
@@ -241,7 +239,7 @@
   </h3>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Devices/FeatureFactory.cs/#L319">View Source</a>
+    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Devices/FeatureFactory.cs/#L349">View Source</a>
   </span>
   <a id="HomeSeer_PluginSdk_Devices_FeatureFactory_AddButton_" data-uid="HomeSeer.PluginSdk.Devices.FeatureFactory.AddButton*"></a>
   <h4 id="HomeSeer_PluginSdk_Devices_FeatureFactory_AddButton_System_Double_System_String_HomeSeer_PluginSdk_Devices_Controls_ControlLocation_HomeSeer_PluginSdk_Devices_Controls_EControlUse_" data-uid="HomeSeer.PluginSdk.Devices.FeatureFactory.AddButton(System.Double,System.String,HomeSeer.PluginSdk.Devices.Controls.ControlLocation,HomeSeer.PluginSdk.Devices.Controls.EControlUse)">AddButton(Double, String, ControlLocation, EControlUse)</h4>
@@ -348,7 +346,7 @@
   </div>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Devices/FeatureFactory.cs/#L570">View Source</a>
+    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Devices/FeatureFactory.cs/#L600">View Source</a>
   </span>
   <a id="HomeSeer_PluginSdk_Devices_FeatureFactory_AddColorPicker_" data-uid="HomeSeer.PluginSdk.Devices.FeatureFactory.AddColorPicker*"></a>
   <h4 id="HomeSeer_PluginSdk_Devices_FeatureFactory_AddColorPicker_HomeSeer_PluginSdk_Devices_Controls_ControlLocation_HomeSeer_PluginSdk_Devices_Controls_EControlUse_" data-uid="HomeSeer.PluginSdk.Devices.FeatureFactory.AddColorPicker(HomeSeer.PluginSdk.Devices.Controls.ControlLocation,HomeSeer.PluginSdk.Devices.Controls.EControlUse)">AddColorPicker(ControlLocation, EControlUse)</h4>
@@ -436,7 +434,7 @@ Public Function AddColorPicker(location As ControlLocation = Nothing, controlUse
   </table>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Devices/FeatureFactory.cs/#L636">View Source</a>
+    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Devices/FeatureFactory.cs/#L666">View Source</a>
   </span>
   <a id="HomeSeer_PluginSdk_Devices_FeatureFactory_AddColorPicker_" data-uid="HomeSeer.PluginSdk.Devices.FeatureFactory.AddColorPicker*"></a>
   <h4 id="HomeSeer_PluginSdk_Devices_FeatureFactory_AddColorPicker_HomeSeer_PluginSdk_Devices_ValueRange_HomeSeer_PluginSdk_Devices_Controls_ControlLocation_HomeSeer_PluginSdk_Devices_Controls_EControlUse_" data-uid="HomeSeer.PluginSdk.Devices.FeatureFactory.AddColorPicker(HomeSeer.PluginSdk.Devices.ValueRange,HomeSeer.PluginSdk.Devices.Controls.ControlLocation,HomeSeer.PluginSdk.Devices.Controls.EControlUse)">AddColorPicker(ValueRange, ControlLocation, EControlUse)</h4>
@@ -536,7 +534,7 @@ so the <code data-dev-comment-type="paramref" class="paramref">targetRange</code
   </div>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Devices/FeatureFactory.cs/#L605">View Source</a>
+    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Devices/FeatureFactory.cs/#L635">View Source</a>
   </span>
   <a id="HomeSeer_PluginSdk_Devices_FeatureFactory_AddColorPicker_" data-uid="HomeSeer.PluginSdk.Devices.FeatureFactory.AddColorPicker*"></a>
   <h4 id="HomeSeer_PluginSdk_Devices_FeatureFactory_AddColorPicker_System_Double_HomeSeer_PluginSdk_Devices_Controls_ControlLocation_HomeSeer_PluginSdk_Devices_Controls_EControlUse_" data-uid="HomeSeer.PluginSdk.Devices.FeatureFactory.AddColorPicker(System.Double,HomeSeer.PluginSdk.Devices.Controls.ControlLocation,HomeSeer.PluginSdk.Devices.Controls.EControlUse)">AddColorPicker(Double, ControlLocation, EControlUse)</h4>
@@ -637,7 +635,92 @@ A unique <code data-dev-comment-type="paramref" class="paramref">targetValue</co
   </div>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Devices/FeatureFactory.cs/#L668">View Source</a>
+    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Devices/FeatureFactory.cs/#L315">View Source</a>
+  </span>
+  <a id="HomeSeer_PluginSdk_Devices_FeatureFactory_AddControl_" data-uid="HomeSeer.PluginSdk.Devices.FeatureFactory.AddControl*"></a>
+  <h4 id="HomeSeer_PluginSdk_Devices_FeatureFactory_AddControl_HomeSeer_PluginSdk_Devices_Controls_StatusControl_" data-uid="HomeSeer.PluginSdk.Devices.FeatureFactory.AddControl(HomeSeer.PluginSdk.Devices.Controls.StatusControl)">AddControl(StatusControl)</h4>
+  <div class="markdown level1 summary"><p>Add a <a class="xref" href="HomeSeer.PluginSdk.Devices.Controls.StatusControl.html">StatusControl</a> to the <a class="xref" href="HomeSeer.PluginSdk.Devices.HsFeature.html">HsFeature</a> being built</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="tabGroup" id="tabgroup_syntax">
+      <ul role="tablist">
+          <li role="presentation">
+              <a href="#tabpanel_syntax_cs" tabindex="0" role="tab" aria-controls="tabpanel_syntax_cs" data-tab="cs" aria-selected="true">C#</a>
+          </li>
+          <li role="presentation">
+              <a href="#tabpanel_syntax_vb" tabindex="-1" role="tab" aria-controls="tabpanel_syntax_vb" data-tab="vb">Visual Basic</a>
+          </li>
+      </ul>
+      <section id="tabpanel_syntax_cs" role="tabpanel" data-tab="cs">
+          <div class="codewrapper">
+            <pre><code class="lang-csharp hljs">public FeatureFactory AddControl(StatusControl statusControl)</code></pre>
+          </div>
+      </section>
+      <section id="tabpanel_syntax_vb" role="tabpanel" data-tab="vb" aria-hidden="true" hidden="">
+          <div class="codewrapper">
+            <pre><code class="lang-vb hljs">Public Function AddControl(statusControl As StatusControl) As FeatureFactory</code></pre>
+          </div>
+      </section>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="HomeSeer.PluginSdk.Devices.Controls.StatusControl.html">StatusControl</a></td>
+        <td><span class="parametername">statusControl</span></td>
+        <td><p>The <a class="xref" href="HomeSeer.PluginSdk.Devices.Controls.StatusControl.html">StatusControl</a> to add.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="HomeSeer.PluginSdk.Devices.FeatureFactory.html">FeatureFactory</a></td>
+        <td><p>The calling <a class="xref" href="HomeSeer.PluginSdk.Devices.FeatureFactory.html">FeatureFactory</a> with an added <a class="xref" href="HomeSeer.PluginSdk.Devices.Controls.StatusControl.html">StatusControl</a></p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p>Thrown when <code data-dev-comment-type="paramref" class="paramref">statusControl</code> is null.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.ArgumentException</span></td>
+        <td><p>Thrown when a <a class="xref" href="HomeSeer.PluginSdk.Devices.Controls.StatusControl.html">StatusControl</a> for the values targeted by <code data-dev-comment-type="paramref" class="paramref">statusControl</code> already exists.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Devices/FeatureFactory.cs/#L698">View Source</a>
   </span>
   <a id="HomeSeer_PluginSdk_Devices_FeatureFactory_AddGraphic_" data-uid="HomeSeer.PluginSdk.Devices.FeatureFactory.AddGraphic*"></a>
   <h4 id="HomeSeer_PluginSdk_Devices_FeatureFactory_AddGraphic_HomeSeer_PluginSdk_Devices_StatusGraphic_" data-uid="HomeSeer.PluginSdk.Devices.FeatureFactory.AddGraphic(HomeSeer.PluginSdk.Devices.StatusGraphic)">AddGraphic(StatusGraphic)</h4>
@@ -722,7 +805,7 @@ A unique <code data-dev-comment-type="paramref" class="paramref">targetValue</co
   </table>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Devices/FeatureFactory.cs/#L720">View Source</a>
+    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Devices/FeatureFactory.cs/#L750">View Source</a>
   </span>
   <a id="HomeSeer_PluginSdk_Devices_FeatureFactory_AddGraphicForRange_" data-uid="HomeSeer.PluginSdk.Devices.FeatureFactory.AddGraphicForRange*"></a>
   <h4 id="HomeSeer_PluginSdk_Devices_FeatureFactory_AddGraphicForRange_System_String_System_Double_System_Double_System_String_" data-uid="HomeSeer.PluginSdk.Devices.FeatureFactory.AddGraphicForRange(System.String,System.Double,System.Double,System.String)">AddGraphicForRange(String, Double, Double, String)</h4>
@@ -825,7 +908,7 @@ A unique <code data-dev-comment-type="paramref" class="paramref">targetValue</co
   </table>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Devices/FeatureFactory.cs/#L694">View Source</a>
+    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Devices/FeatureFactory.cs/#L724">View Source</a>
   </span>
   <a id="HomeSeer_PluginSdk_Devices_FeatureFactory_AddGraphicForValue_" data-uid="HomeSeer.PluginSdk.Devices.FeatureFactory.AddGraphicForValue*"></a>
   <h4 id="HomeSeer_PluginSdk_Devices_FeatureFactory_AddGraphicForValue_System_String_System_Double_System_String_" data-uid="HomeSeer.PluginSdk.Devices.FeatureFactory.AddGraphicForValue(System.String,System.Double,System.String)">AddGraphicForValue(String, Double, String)</h4>
@@ -922,7 +1005,7 @@ A unique <code data-dev-comment-type="paramref" class="paramref">targetValue</co
   </table>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Devices/FeatureFactory.cs/#L387">View Source</a>
+    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Devices/FeatureFactory.cs/#L417">View Source</a>
   </span>
   <a id="HomeSeer_PluginSdk_Devices_FeatureFactory_AddNumberInputField_" data-uid="HomeSeer.PluginSdk.Devices.FeatureFactory.AddNumberInputField*"></a>
   <h4 id="HomeSeer_PluginSdk_Devices_FeatureFactory_AddNumberInputField_System_Double_System_String_HomeSeer_PluginSdk_Devices_Controls_ControlLocation_HomeSeer_PluginSdk_Devices_Controls_EControlUse_" data-uid="HomeSeer.PluginSdk.Devices.FeatureFactory.AddNumberInputField(System.Double,System.String,HomeSeer.PluginSdk.Devices.Controls.ControlLocation,HomeSeer.PluginSdk.Devices.Controls.EControlUse)">AddNumberInputField(Double, String, ControlLocation, EControlUse)</h4>
@@ -1029,7 +1112,7 @@ A unique <code data-dev-comment-type="paramref" class="paramref">targetValue</co
   </div>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Devices/FeatureFactory.cs/#L537">View Source</a>
+    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Devices/FeatureFactory.cs/#L567">View Source</a>
   </span>
   <a id="HomeSeer_PluginSdk_Devices_FeatureFactory_AddRadioSelectList_" data-uid="HomeSeer.PluginSdk.Devices.FeatureFactory.AddRadioSelectList*"></a>
   <h4 id="HomeSeer_PluginSdk_Devices_FeatureFactory_AddRadioSelectList_System_Collections_Generic_SortedDictionary_System_String_System_Double__HomeSeer_PluginSdk_Devices_Controls_ControlLocation_HomeSeer_PluginSdk_Devices_Controls_EControlUse_" data-uid="HomeSeer.PluginSdk.Devices.FeatureFactory.AddRadioSelectList(System.Collections.Generic.SortedDictionary{System.String,System.Double},HomeSeer.PluginSdk.Devices.Controls.ControlLocation,HomeSeer.PluginSdk.Devices.Controls.EControlUse)">AddRadioSelectList(SortedDictionary&lt;String, Double&gt;, ControlLocation, EControlUse)</h4>
@@ -1132,7 +1215,7 @@ A unique <code data-dev-comment-type="paramref" class="paramref">targetValue</co
   </div>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Devices/FeatureFactory.cs/#L420">View Source</a>
+    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Devices/FeatureFactory.cs/#L450">View Source</a>
   </span>
   <a id="HomeSeer_PluginSdk_Devices_FeatureFactory_AddSlider_" data-uid="HomeSeer.PluginSdk.Devices.FeatureFactory.AddSlider*"></a>
   <h4 id="HomeSeer_PluginSdk_Devices_FeatureFactory_AddSlider_HomeSeer_PluginSdk_Devices_ValueRange_HomeSeer_PluginSdk_Devices_Controls_ControlLocation_HomeSeer_PluginSdk_Devices_Controls_EControlUse_" data-uid="HomeSeer.PluginSdk.Devices.FeatureFactory.AddSlider(HomeSeer.PluginSdk.Devices.ValueRange,HomeSeer.PluginSdk.Devices.Controls.ControlLocation,HomeSeer.PluginSdk.Devices.Controls.EControlUse)">AddSlider(ValueRange, ControlLocation, EControlUse)</h4>
@@ -1233,7 +1316,7 @@ A unique <code data-dev-comment-type="paramref" class="paramref">targetValue</co
   </div>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Devices/FeatureFactory.cs/#L493">View Source</a>
+    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Devices/FeatureFactory.cs/#L523">View Source</a>
   </span>
   <a id="HomeSeer_PluginSdk_Devices_FeatureFactory_AddTextDropDown_" data-uid="HomeSeer.PluginSdk.Devices.FeatureFactory.AddTextDropDown*"></a>
   <h4 id="HomeSeer_PluginSdk_Devices_FeatureFactory_AddTextDropDown_System_Collections_Generic_SortedDictionary_System_String_System_Double__HomeSeer_PluginSdk_Devices_Controls_ControlLocation_HomeSeer_PluginSdk_Devices_Controls_EControlUse_" data-uid="HomeSeer.PluginSdk.Devices.FeatureFactory.AddTextDropDown(System.Collections.Generic.SortedDictionary{System.String,System.Double},HomeSeer.PluginSdk.Devices.Controls.ControlLocation,HomeSeer.PluginSdk.Devices.Controls.EControlUse)">AddTextDropDown(SortedDictionary&lt;String, Double&gt;, ControlLocation, EControlUse)</h4>
@@ -1336,7 +1419,7 @@ A unique <code data-dev-comment-type="paramref" class="paramref">targetValue</co
   </div>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Devices/FeatureFactory.cs/#L353">View Source</a>
+    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Devices/FeatureFactory.cs/#L383">View Source</a>
   </span>
   <a id="HomeSeer_PluginSdk_Devices_FeatureFactory_AddTextInputField_" data-uid="HomeSeer.PluginSdk.Devices.FeatureFactory.AddTextInputField*"></a>
   <h4 id="HomeSeer_PluginSdk_Devices_FeatureFactory_AddTextInputField_System_Double_System_String_HomeSeer_PluginSdk_Devices_Controls_ControlLocation_HomeSeer_PluginSdk_Devices_Controls_EControlUse_" data-uid="HomeSeer.PluginSdk.Devices.FeatureFactory.AddTextInputField(System.Double,System.String,HomeSeer.PluginSdk.Devices.Controls.ControlLocation,HomeSeer.PluginSdk.Devices.Controls.EControlUse)">AddTextInputField(Double, String, ControlLocation, EControlUse)</h4>
@@ -1443,7 +1526,7 @@ A unique <code data-dev-comment-type="paramref" class="paramref">targetValue</co
   </div>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Devices/FeatureFactory.cs/#L454">View Source</a>
+    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Devices/FeatureFactory.cs/#L484">View Source</a>
   </span>
   <a id="HomeSeer_PluginSdk_Devices_FeatureFactory_AddValueDropDown_" data-uid="HomeSeer.PluginSdk.Devices.FeatureFactory.AddValueDropDown*"></a>
   <h4 id="HomeSeer_PluginSdk_Devices_FeatureFactory_AddValueDropDown_HomeSeer_PluginSdk_Devices_ValueRange_HomeSeer_PluginSdk_Devices_Controls_ControlLocation_HomeSeer_PluginSdk_Devices_Controls_EControlUse_" data-uid="HomeSeer.PluginSdk.Devices.FeatureFactory.AddValueDropDown(HomeSeer.PluginSdk.Devices.ValueRange,HomeSeer.PluginSdk.Devices.Controls.ControlLocation,HomeSeer.PluginSdk.Devices.Controls.EControlUse)">AddValueDropDown(ValueRange, ControlLocation, EControlUse)</h4>
@@ -2035,7 +2118,7 @@ sensor states.</p>
   </table>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Devices/FeatureFactory.cs/#L765">View Source</a>
+    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Devices/FeatureFactory.cs/#L795">View Source</a>
   </span>
   <a id="HomeSeer_PluginSdk_Devices_FeatureFactory_PrepareForHs_" data-uid="HomeSeer.PluginSdk.Devices.FeatureFactory.PrepareForHs*"></a>
   <h4 id="HomeSeer_PluginSdk_Devices_FeatureFactory_PrepareForHs" data-uid="HomeSeer.PluginSdk.Devices.FeatureFactory.PrepareForHs">PrepareForHs()</h4>
@@ -2105,7 +2188,7 @@ set the owning device prior to calling this method.</p>
   </div>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Devices/FeatureFactory.cs/#L751">View Source</a>
+    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Devices/FeatureFactory.cs/#L781">View Source</a>
   </span>
   <a id="HomeSeer_PluginSdk_Devices_FeatureFactory_PrepareForHsDevice_" data-uid="HomeSeer.PluginSdk.Devices.FeatureFactory.PrepareForHsDevice*"></a>
   <h4 id="HomeSeer_PluginSdk_Devices_FeatureFactory_PrepareForHsDevice_System_Int32_" data-uid="HomeSeer.PluginSdk.Devices.FeatureFactory.PrepareForHsDevice(System.Int32)">PrepareForHsDevice(Int32)</h4>
@@ -2838,7 +2921,7 @@ This will be a location2 IN ADDITION to the device location2.</p>
               </ul>
             </div>
             <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
-              <h5></h5>
+              <h5>In This Article</h5>
               <div></div>
             </nav>
           </div>
