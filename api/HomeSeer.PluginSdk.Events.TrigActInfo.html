@@ -156,17 +156,12 @@ You shouldn't need to work with this class directly and can rely on the decoded 
   </h3>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Events/TrigActInfo.cs/#L61">View Source</a>
+    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Events/TrigActInfo.cs/#L82">View Source</a>
   </span>
   <h4 id="HomeSeer_PluginSdk_Events_TrigActInfo_DataIn" data-uid="HomeSeer.PluginSdk.Events.TrigActInfo.DataIn">DataIn</h4>
-  <div class="markdown level1 summary"><p>This is exclusively for plug-ins.  Using a serialization procedure, the data for this plug-in
-can be stored and managed within the HomeSeer database by the plug-in storing the serialized
-object here.  When HomeSeer is calling into the plug-in and wants to provide the trigger object
-for the plug-in to analyze, it provides the serialized object data here in this byte array which
-the plug-in can use to de-serialize back into an object that holds the trigger info.  Since
-parameters cannot be passed through the interface ByRef, this is read-only, but the plug-in is
-allowed to RETURN a structure that includes Data or DataOut, which is a byte array, and contains
-the serialized object after the plug-in updated it or made changes to it.</p>
+  <div class="markdown level1 summary"><p>Serialized data for this <a class="xref" href="HomeSeer.PluginSdk.Events.AbstractActionType.html">AbstractActionType</a> or <a class="xref" href="HomeSeer.PluginSdk.Events.AbstractTriggerType.html">AbstractTriggerType</a>
+that the plugin needs. This is stored within the HomeSeer database and serves as the configuration for the
+<a class="xref" href="HomeSeer.PluginSdk.Events.ActionTypeCollection.html">ActionTypeCollection</a> and <a class="xref" href="HomeSeer.PluginSdk.Events.TriggerTypeCollection.html">TriggerTypeCollection</a> this is for.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -205,9 +200,23 @@ the serialized object after the plug-in updated it or made changes to it.</p>
       </tr>
     </tbody>
   </table>
+  <h5 id="HomeSeer_PluginSdk_Events_TrigActInfo_DataIn_remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>
+This is automatically unpacked by <a class="xref" href="HomeSeer.PluginSdk.Events.AbstractActionType.html">AbstractActionType</a> and <a class="xref" href="HomeSeer.PluginSdk.Events.AbstractTriggerType.html">AbstractTriggerType</a> if it
+contains a JSON string describing a <a class="xref" href="HomeSeer.Jui.Views.Page.html">Page</a>. If it contains any other data format, like
+data from an HS3 plugin, <a class="xref" href="HomeSeer.PluginSdk.Events.AbstractTriggerType.html#HomeSeer_PluginSdk_Events_AbstractTriggerType_ConvertLegacyData_System_Byte___">ConvertLegacyData(Byte[])</a>
+or <a class="xref" href="HomeSeer.PluginSdk.Events.AbstractActionType.html#HomeSeer_PluginSdk_Events_AbstractActionType_ConvertLegacyData_System_Byte___">ConvertLegacyData(Byte[])</a>
+will be called. You can override these methods to define your own method for unpacking the data.
+</p>
+</div>
+  <h5 id="HomeSeer_PluginSdk_Events_TrigActInfo_DataIn_seealso">See Also</h5>
+  <div class="seealso">
+      <div><a class="xref" href="HomeSeer.PluginSdk.Events.AbstractTriggerType.html">AbstractTriggerType</a></div>
+      <div><a class="xref" href="HomeSeer.PluginSdk.Events.AbstractActionType.html">AbstractActionType</a></div>
+  </div>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Events/TrigActInfo.cs/#L22">View Source</a>
+    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Events/TrigActInfo.cs/#L23">View Source</a>
   </span>
   <h4 id="HomeSeer_PluginSdk_Events_TrigActInfo_evRef" data-uid="HomeSeer.PluginSdk.Events.TrigActInfo.evRef">evRef</h4>
   <div class="markdown level1 summary"><p>This is the unique event reference ID number for the event that this trigger is a part of.</p>
@@ -249,9 +258,13 @@ the serialized object after the plug-in updated it or made changes to it.</p>
       </tr>
     </tbody>
   </table>
+  <h5 id="HomeSeer_PluginSdk_Events_TrigActInfo_evRef_seealso">See Also</h5>
+  <div class="seealso">
+      <div><a class="xref" href="HomeSeer.PluginSdk.Events.EventData.html">EventData</a></div>
+  </div>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Events/TrigActInfo.cs/#L68">View Source</a>
+    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Events/TrigActInfo.cs/#L92">View Source</a>
   </span>
   <h4 id="HomeSeer_PluginSdk_Events_TrigActInfo_Instance" data-uid="HomeSeer.PluginSdk.Events.TrigActInfo.Instance">Instance</h4>
   <div class="markdown level1 summary"><p>If the plug-in supports multiple instances and this trigger or action is for one of the instances,
@@ -294,14 +307,19 @@ then this field will have the instance name in it.</p>
       </tr>
     </tbody>
   </table>
+  <h5 id="HomeSeer_PluginSdk_Events_TrigActInfo_Instance_remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>Multi-instance plugins were supported in HS3, but support for them was not carried over to HS4. This may change
+in the future, but, for now, this is an unused field.</p>
+</div>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Events/TrigActInfo.cs/#L48">View Source</a>
+    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Events/TrigActInfo.cs/#L64">View Source</a>
   </span>
   <h4 id="HomeSeer_PluginSdk_Events_TrigActInfo_SubTANumber" data-uid="HomeSeer.PluginSdk.Events.TrigActInfo.SubTANumber">SubTANumber</h4>
-  <div class="markdown level1 summary"><p>When a trigger or action has sub-types, this is used to identify which sub-trigger or trigger sub-type,
-sub-action or action sub-type this trigger or action is set to.  For example, in HomeSeer there is a
-TIME trigger - the sub-ID might identify whether it is the type AT, BEFORE, or AFTER a time value.</p>
+  <div class="markdown level1 summary"><p>When a trigger has subtypes, this is used to identify which sub-trigger or trigger subtype, this trigger is set to.</p>
+<p>
+For example, in HomeSeer there is a TIME trigger - this might identify whether it is the type AT, BEFORE, or AFTER a time value.
+</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -340,14 +358,22 @@ TIME trigger - the sub-ID might identify whether it is the type AT, BEFORE, or A
       </tr>
     </tbody>
   </table>
+  <h5 id="HomeSeer_PluginSdk_Events_TrigActInfo_SubTANumber_remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>
+This is only used for <a class="xref" href="HomeSeer.PluginSdk.Events.AbstractTriggerType.html">AbstractTriggerType</a> and can be ignored in favor of managing
+a subtype directly. HomeSeer will present a list of trigger subtypes to choose from if
+<a class="xref" href="HomeSeer.PluginSdk.Events.AbstractTriggerType.html#HomeSeer_PluginSdk_Events_AbstractTriggerType_SubTriggerCount">SubTriggerCount</a> > 1. HomeSeer does not do the same for
+<a class="xref" href="HomeSeer.PluginSdk.Events.AbstractActionType.html">AbstractActionType</a>, and there is no corresponding <pre><code>SubActionCount</code></pre> property.
+</p>
+</div>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Events/TrigActInfo.cs/#L39">View Source</a>
+    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Events/TrigActInfo.cs/#L48">View Source</a>
   </span>
   <h4 id="HomeSeer_PluginSdk_Events_TrigActInfo_TANumber" data-uid="HomeSeer.PluginSdk.Events.TrigActInfo.TANumber">TANumber</h4>
-  <div class="markdown level1 summary"><p>This is for plug-ins only since plug-ins can support multiple types of different triggers or actions.
-This identifies which, out of the triggers or actions offered by the plug-in, that this trigger
-or action is.</p>
+  <div class="markdown level1 summary"><p>This is for plugin reference only. Plugins can support multiple types of different triggers or actions.
+This identifies which type of trigger or action, out of the triggers or actions offered by the plugin,
+that this <a class="xref" href="HomeSeer.PluginSdk.Events.TrigActInfo.html">TrigActInfo</a> is for.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -386,15 +412,19 @@ or action is.</p>
       </tr>
     </tbody>
   </table>
+  <h5 id="HomeSeer_PluginSdk_Events_TrigActInfo_TANumber_seealso">See Also</h5>
+  <div class="seealso">
+      <div><a class="xref" href="HomeSeer.PluginSdk.AbstractPlugin.html#HomeSeer_PluginSdk_AbstractPlugin_ActionTypes">ActionTypes</a></div>
+      <div><a class="xref" href="HomeSeer.PluginSdk.AbstractPlugin.html#HomeSeer_PluginSdk_AbstractPlugin_TriggerTypes">TriggerTypes</a></div>
+      <div><a class="xref" href="HomeSeer.PluginSdk.Events.ActionTypeCollection.html">ActionTypeCollection</a></div>
+      <div><a class="xref" href="HomeSeer.PluginSdk.Events.TriggerTypeCollection.html">TriggerTypeCollection</a></div>
+  </div>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Events/TrigActInfo.cs/#L31">View Source</a>
+    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Events/TrigActInfo.cs/#L36">View Source</a>
   </span>
   <h4 id="HomeSeer_PluginSdk_Events_TrigActInfo_UID" data-uid="HomeSeer.PluginSdk.Events.TrigActInfo.UID">UID</h4>
-  <div class="markdown level1 summary"><p>This is the unique ID for this trigger or action.  When the trigger is true, the plug-in will pass this
-to HomeSeer to trigger to cause HomeSeer to check the conditions and trigger the event if appropriate.
-When the action needs to be carried out, HomeSeer will invoke the Handle procedure in the action, and
-if there is action information stored by the plug-in, this property can be used to retrieve it.</p>
+  <div class="markdown level1 summary"><p>This is the unique ID for the trigger or action within an event that this <a class="xref" href="HomeSeer.PluginSdk.Events.TrigActInfo.html">TrigActInfo</a> is for.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -433,11 +463,19 @@ if there is action information stored by the plug-in, this property can be used 
       </tr>
     </tbody>
   </table>
+  <h5 id="HomeSeer_PluginSdk_Events_TrigActInfo_UID_remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>
+When the trigger is true, the plugin will pass this to HomeSeer to trigger to cause HomeSeer to check the
+conditions and trigger the event if appropriate. When the action needs to be carried out,
+HomeSeer will invoke the Handle procedure in the action, and if there is action information stored
+by the plugin, this property can be used to retrieve it.
+</p>
+</div>
   <h3 id="methods">Methods
   </h3>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Events/TrigActInfo.cs/#L78">View Source</a>
+    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Events/TrigActInfo.cs/#L104">View Source</a>
   </span>
   <a id="HomeSeer_PluginSdk_Events_TrigActInfo_DeserializeLegacyData_" data-uid="HomeSeer.PluginSdk.Events.TrigActInfo.DeserializeLegacyData*"></a>
   <h4 id="HomeSeer_PluginSdk_Events_TrigActInfo_DeserializeLegacyData__1_System_Byte___System_Boolean_" data-uid="HomeSeer.PluginSdk.Events.TrigActInfo.DeserializeLegacyData``1(System.Byte[],System.Boolean)">DeserializeLegacyData&lt;TOutObject&gt;(Byte[], Boolean)</h4>
@@ -557,8 +595,22 @@ HomeSeer method for deserializing trigger/action data.</p>
         </div>
       </footer>
     </div>
+    <!-- Mermaid -->
+    <!-- Lets you create diagrams and visualizations using text and code. -->
+    <!-- https://mermaid-js.github.io/mermaid/ -->
     
+    <!-- Required styles -->
     <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
     <script type="text/javascript" src="../styles/docfx.js"></script>
-    <script type="text/javascript" src="../styles/main.js"></script>  </body>
+    <script type="text/javascript" src="../styles/main.js"></script>
+    <!-- Load v9.1.3 of Mermaid -->
+    <!-- Hash obtained via https://www.srihash.org/ -->
+    <script type="text/javascript" src="https://unpkg.com/mermaid@9.1.3/dist/mermaid.min.js" integrity="sha384-LnGjpNDrP4cp7MIk4CpRa/lPNclrf839ryYVFx1T1mPSV3RGAZ7nlBa7pqcyGY/K" crossorigin="anonymous"></script>
+    <!-- Initialize Mermaid -->
+    <script>
+        mermaid.initialize({
+            startOnLoad: false
+        });
+        mermaid.init(undefined, ".lang-mermaid");
+    </script>  </body>
 </html>

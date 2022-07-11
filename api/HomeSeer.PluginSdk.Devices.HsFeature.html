@@ -1316,6 +1316,156 @@ This will not duplicate StatusControls or StatusGraphics associated with the dev
 </div>
   
   <span class="small pull-right mobile-hide">
+    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Devices/HsFeature.cs/#L613">View Source</a>
+  </span>
+  <a id="HomeSeer_PluginSdk_Devices_HsFeature_GetControlsForUse_" data-uid="HomeSeer.PluginSdk.Devices.HsFeature.GetControlsForUse*"></a>
+  <h4 id="HomeSeer_PluginSdk_Devices_HsFeature_GetControlsForUse_HomeSeer_PluginSdk_Devices_Controls_EControlUse_" data-uid="HomeSeer.PluginSdk.Devices.HsFeature.GetControlsForUse(HomeSeer.PluginSdk.Devices.Controls.EControlUse)">GetControlsForUse(EControlUse)</h4>
+  <div class="markdown level1 summary"><p>Get all <a class="xref" href="HomeSeer.PluginSdk.Devices.Controls.StatusControl.html">StatusControl</a> in the collection which have a specific <a class="xref" href="HomeSeer.PluginSdk.Devices.Controls.EControlUse.html">EControlUse</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="tabGroup" id="tabgroup_syntax">
+      <ul role="tablist">
+          <li role="presentation">
+              <a href="#tabpanel_syntax_cs" tabindex="0" role="tab" aria-controls="tabpanel_syntax_cs" data-tab="cs" aria-selected="true">C#</a>
+          </li>
+          <li role="presentation">
+              <a href="#tabpanel_syntax_vb" tabindex="-1" role="tab" aria-controls="tabpanel_syntax_vb" data-tab="vb">Visual Basic</a>
+          </li>
+      </ul>
+      <section id="tabpanel_syntax_cs" role="tabpanel" data-tab="cs">
+          <div class="codewrapper">
+            <pre><code class="lang-csharp hljs">public List&lt;StatusControl&gt; GetControlsForUse(EControlUse controlUse)</code></pre>
+          </div>
+      </section>
+      <section id="tabpanel_syntax_vb" role="tabpanel" data-tab="vb" aria-hidden="true" hidden="">
+          <div class="codewrapper">
+            <pre><code class="lang-vb hljs">Public Function GetControlsForUse(controlUse As EControlUse) As List(Of StatusControl)</code></pre>
+          </div>
+      </section>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="HomeSeer.PluginSdk.Devices.Controls.EControlUse.html">EControlUse</a></td>
+        <td><span class="parametername">controlUse</span></td>
+        <td><p>The <a class="xref" href="HomeSeer.PluginSdk.Devices.Controls.EControlUse.html">EControlUse</a> value to look for</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.List</span>&lt;<a class="xref" href="HomeSeer.PluginSdk.Devices.Controls.StatusControl.html">StatusControl</a>&gt;</td>
+        <td><p>A List of <a class="xref" href="HomeSeer.PluginSdk.Devices.Controls.StatusControl.html">StatusControl</a> found that have the specified <code data-dev-comment-type="paramref" class="paramref">controlUse</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="HomeSeer_PluginSdk_Devices_HsFeature_GetControlsForUse_HomeSeer_PluginSdk_Devices_Controls_EControlUse__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>
+If no <a class="xref" href="HomeSeer.PluginSdk.Devices.Controls.StatusControl.html">StatusControl</a> are found with the specified <code data-dev-comment-type="paramref" class="paramref">controlUse</code>,
+an empty List is returned.
+</p>
+</div>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Devices/HsFeature.cs/#L591">View Source</a>
+  </span>
+  <a id="HomeSeer_PluginSdk_Devices_HsFeature_GetFirstControlForUse_" data-uid="HomeSeer.PluginSdk.Devices.HsFeature.GetFirstControlForUse*"></a>
+  <h4 id="HomeSeer_PluginSdk_Devices_HsFeature_GetFirstControlForUse_HomeSeer_PluginSdk_Devices_Controls_EControlUse_" data-uid="HomeSeer.PluginSdk.Devices.HsFeature.GetFirstControlForUse(HomeSeer.PluginSdk.Devices.Controls.EControlUse)">GetFirstControlForUse(EControlUse)</h4>
+  <div class="markdown level1 summary"><p>Get a <a class="xref" href="HomeSeer.PluginSdk.Devices.Controls.StatusControl.html">StatusControl</a> associated with the feature that has a specific <a class="xref" href="HomeSeer.PluginSdk.Devices.Controls.EControlUse.html">EControlUse</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="tabGroup" id="tabgroup_syntax">
+      <ul role="tablist">
+          <li role="presentation">
+              <a href="#tabpanel_syntax_cs" tabindex="0" role="tab" aria-controls="tabpanel_syntax_cs" data-tab="cs" aria-selected="true">C#</a>
+          </li>
+          <li role="presentation">
+              <a href="#tabpanel_syntax_vb" tabindex="-1" role="tab" aria-controls="tabpanel_syntax_vb" data-tab="vb">Visual Basic</a>
+          </li>
+      </ul>
+      <section id="tabpanel_syntax_cs" role="tabpanel" data-tab="cs">
+          <div class="codewrapper">
+            <pre><code class="lang-csharp hljs">public StatusControl GetFirstControlForUse(EControlUse controlUse)</code></pre>
+          </div>
+      </section>
+      <section id="tabpanel_syntax_vb" role="tabpanel" data-tab="vb" aria-hidden="true" hidden="">
+          <div class="codewrapper">
+            <pre><code class="lang-vb hljs">Public Function GetFirstControlForUse(controlUse As EControlUse) As StatusControl</code></pre>
+          </div>
+      </section>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="HomeSeer.PluginSdk.Devices.Controls.EControlUse.html">EControlUse</a></td>
+        <td><span class="parametername">controlUse</span></td>
+        <td><p>The <a class="xref" href="HomeSeer.PluginSdk.Devices.Controls.EControlUse.html">EControlUse</a> value to look for</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="HomeSeer.PluginSdk.Devices.Controls.StatusControl.html">StatusControl</a></td>
+        <td><p>The first <a class="xref" href="HomeSeer.PluginSdk.Devices.Controls.StatusControl.html">StatusControl</a> found that has the specified <code data-dev-comment-type="paramref" class="paramref">controlUse</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.InvalidOperationException</span></td>
+        <td><p>Thrown if no element is found with the specified <code data-dev-comment-type="paramref" class="paramref">controlUse</code></p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <span class="small pull-right mobile-hide">
     <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Devices/HsFeature.cs/#L373">View Source</a>
   </span>
   <a id="HomeSeer_PluginSdk_Devices_HsFeature_HasControlForRange_" data-uid="HomeSeer.PluginSdk.Devices.HsFeature.HasControlForRange*"></a>
@@ -1374,6 +1524,71 @@ This will not duplicate StatusControls or StatusGraphics associated with the dev
       <tr>
         <td><span class="xref">System.Boolean</span></td>
         <td><p>TRUE if the feature has at least one <a class="xref" href="HomeSeer.PluginSdk.Devices.Controls.StatusControl.html">StatusControl</a> that targets any of the values in the range,
+FALSE if it does not.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Devices/HsFeature.cs/#L572">View Source</a>
+  </span>
+  <a id="HomeSeer_PluginSdk_Devices_HsFeature_HasControlForUse_" data-uid="HomeSeer.PluginSdk.Devices.HsFeature.HasControlForUse*"></a>
+  <h4 id="HomeSeer_PluginSdk_Devices_HsFeature_HasControlForUse_HomeSeer_PluginSdk_Devices_Controls_EControlUse_" data-uid="HomeSeer.PluginSdk.Devices.HsFeature.HasControlForUse(HomeSeer.PluginSdk.Devices.Controls.EControlUse)">HasControlForUse(EControlUse)</h4>
+  <div class="markdown level1 summary"><p>Determine if the feature has a <a class="xref" href="HomeSeer.PluginSdk.Devices.Controls.StatusControl.html">StatusControl</a> with a specific <a class="xref" href="HomeSeer.PluginSdk.Devices.Controls.EControlUse.html">EControlUse</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="tabGroup" id="tabgroup_syntax">
+      <ul role="tablist">
+          <li role="presentation">
+              <a href="#tabpanel_syntax_cs" tabindex="0" role="tab" aria-controls="tabpanel_syntax_cs" data-tab="cs" aria-selected="true">C#</a>
+          </li>
+          <li role="presentation">
+              <a href="#tabpanel_syntax_vb" tabindex="-1" role="tab" aria-controls="tabpanel_syntax_vb" data-tab="vb">Visual Basic</a>
+          </li>
+      </ul>
+      <section id="tabpanel_syntax_cs" role="tabpanel" data-tab="cs">
+          <div class="codewrapper">
+            <pre><code class="lang-csharp hljs">public bool HasControlForUse(EControlUse controlUse)</code></pre>
+          </div>
+      </section>
+      <section id="tabpanel_syntax_vb" role="tabpanel" data-tab="vb" aria-hidden="true" hidden="">
+          <div class="codewrapper">
+            <pre><code class="lang-vb hljs">Public Function HasControlForUse(controlUse As EControlUse) As Boolean</code></pre>
+          </div>
+      </section>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="HomeSeer.PluginSdk.Devices.Controls.EControlUse.html">EControlUse</a></td>
+        <td><span class="parametername">controlUse</span></td>
+        <td><p>The <a class="xref" href="HomeSeer.PluginSdk.Devices.Controls.EControlUse.html">EControlUse</a> value to look for</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p>TRUE if the feature has a <a class="xref" href="HomeSeer.PluginSdk.Devices.Controls.StatusControl.html">StatusControl</a> with this specific <a class="xref" href="HomeSeer.PluginSdk.Devices.Controls.EControlUse.html">EControlUse</a>,
 FALSE if it does not.</p>
 </td>
       </tr>
@@ -1863,8 +2078,22 @@ saved to the HS platform database.</p>
         </div>
       </footer>
     </div>
+    <!-- Mermaid -->
+    <!-- Lets you create diagrams and visualizations using text and code. -->
+    <!-- https://mermaid-js.github.io/mermaid/ -->
     
+    <!-- Required styles -->
     <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
     <script type="text/javascript" src="../styles/docfx.js"></script>
-    <script type="text/javascript" src="../styles/main.js"></script>  </body>
+    <script type="text/javascript" src="../styles/main.js"></script>
+    <!-- Load v9.1.3 of Mermaid -->
+    <!-- Hash obtained via https://www.srihash.org/ -->
+    <script type="text/javascript" src="https://unpkg.com/mermaid@9.1.3/dist/mermaid.min.js" integrity="sha384-LnGjpNDrP4cp7MIk4CpRa/lPNclrf839ryYVFx1T1mPSV3RGAZ7nlBa7pqcyGY/K" crossorigin="anonymous"></script>
+    <!-- Initialize Mermaid -->
+    <script>
+        mermaid.initialize({
+            startOnLoad: false
+        });
+        mermaid.init(undefined, ".lang-mermaid");
+    </script>  </body>
 </html>

@@ -199,7 +199,7 @@ and signature of the trigger type do not match.
   </h3>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Events/TriggerTypeCollection.cs/#L40">View Source</a>
+    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Events/TriggerTypeCollection.cs/#L48">View Source</a>
   </span>
   <a id="HomeSeer_PluginSdk_Events_TriggerTypeCollection__ctor_" data-uid="HomeSeer.PluginSdk.Events.TriggerTypeCollection.#ctor*"></a>
   <h4 id="HomeSeer_PluginSdk_Events_TriggerTypeCollection__ctor_HomeSeer_PluginSdk_Events_TriggerTypeCollection_ITriggerTypeListener_" data-uid="HomeSeer.PluginSdk.Events.TriggerTypeCollection.#ctor(HomeSeer.PluginSdk.Events.TriggerTypeCollection.ITriggerTypeListener)">TriggerTypeCollection(TriggerTypeCollection.ITriggerTypeListener)</h4>
@@ -249,7 +249,7 @@ and signature of the trigger type do not match.
   </h3>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Events/TriggerTypeCollection.cs/#L34">View Source</a>
+    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Events/TriggerTypeCollection.cs/#L42">View Source</a>
   </span>
   <h4 id="HomeSeer_PluginSdk_Events_TriggerTypeCollection__listener" data-uid="HomeSeer.PluginSdk.Events.TriggerTypeCollection._listener">_listener</h4>
   <div class="markdown level1 summary"></div>
@@ -340,11 +340,59 @@ When it is TRUE, log messages from the PluginSdk code will be written to the Con
       </tr>
     </tbody>
   </table>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Events/TriggerTypeCollection.cs/#L40">View Source</a>
+  </span>
+  <a id="HomeSeer_PluginSdk_Events_TriggerTypeCollection_TriggerTypes_" data-uid="HomeSeer.PluginSdk.Events.TriggerTypeCollection.TriggerTypes*"></a>
+  <h4 id="HomeSeer_PluginSdk_Events_TriggerTypeCollection_TriggerTypes" data-uid="HomeSeer.PluginSdk.Events.TriggerTypeCollection.TriggerTypes">TriggerTypes</h4>
+  <div class="markdown level1 summary"><p><span class="xref">System.Collections.Generic.List&lt;T&gt;</span> of <span class="xref">System.Type</span> that are a subclass of <a class="xref" href="HomeSeer.PluginSdk.Events.AbstractTriggerType.html">AbstractTriggerType</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="tabGroup" id="tabgroup_syntax">
+      <ul role="tablist">
+          <li role="presentation">
+              <a href="#tabpanel_syntax_cs" tabindex="0" role="tab" aria-controls="tabpanel_syntax_cs" data-tab="cs" aria-selected="true">C#</a>
+          </li>
+          <li role="presentation">
+              <a href="#tabpanel_syntax_vb" tabindex="-1" role="tab" aria-controls="tabpanel_syntax_vb" data-tab="vb">Visual Basic</a>
+          </li>
+      </ul>
+      <section id="tabpanel_syntax_cs" role="tabpanel" data-tab="cs">
+          <div class="codewrapper">
+            <pre><code class="lang-csharp hljs">public List&lt;Type&gt; TriggerTypes { get; }</code></pre>
+          </div>
+      </section>
+      <section id="tabpanel_syntax_vb" role="tabpanel" data-tab="vb" aria-hidden="true" hidden="">
+          <div class="codewrapper">
+            <pre><code class="lang-vb hljs">Public ReadOnly Property TriggerTypes As List(Of Type)</code></pre>
+          </div>
+      </section>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.List</span>&lt;<span class="xref">System.Type</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="HomeSeer_PluginSdk_Events_TriggerTypeCollection_TriggerTypes_remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>These represent the types of <a class="xref" href="HomeSeer.PluginSdk.Events.AbstractTriggerType.html">AbstractTriggerType</a> that are available for users</p>
+</div>
   <h3 id="methods">Methods
   </h3>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Events/TriggerTypeCollection.cs/#L73">View Source</a>
+    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Events/TriggerTypeCollection.cs/#L81">View Source</a>
   </span>
   <a id="HomeSeer_PluginSdk_Events_TriggerTypeCollection_AddTriggerType_" data-uid="HomeSeer.PluginSdk.Events.TriggerTypeCollection.AddTriggerType*"></a>
   <h4 id="HomeSeer_PluginSdk_Events_TriggerTypeCollection_AddTriggerType_System_Type_" data-uid="HomeSeer.PluginSdk.Events.TriggerTypeCollection.AddTriggerType(System.Type)">AddTriggerType(Type)</h4>
@@ -408,7 +456,7 @@ When it is TRUE, log messages from the PluginSdk code will be written to the Con
   </table>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Events/TriggerTypeCollection.cs/#L82">View Source</a>
+    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Events/TriggerTypeCollection.cs/#L90">View Source</a>
   </span>
   <a id="HomeSeer_PluginSdk_Events_TriggerTypeCollection_GetName_" data-uid="HomeSeer.PluginSdk.Events.TriggerTypeCollection.GetName*"></a>
   <h4 id="HomeSeer_PluginSdk_Events_TriggerTypeCollection_GetName_System_Int32_" data-uid="HomeSeer.PluginSdk.Events.TriggerTypeCollection.GetName(System.Int32)">GetName(Int32)</h4>
@@ -472,11 +520,12 @@ When it is TRUE, log messages from the PluginSdk code will be written to the Con
   </table>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Events/TriggerTypeCollection.cs/#L308">View Source</a>
+    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Events/TriggerTypeCollection.cs/#L337">View Source</a>
   </span>
   <a id="HomeSeer_PluginSdk_Events_TriggerTypeCollection_GetObjectFromTrigInfo_" data-uid="HomeSeer.PluginSdk.Events.TriggerTypeCollection.GetObjectFromTrigInfo*"></a>
   <h4 id="HomeSeer_PluginSdk_Events_TriggerTypeCollection_GetObjectFromTrigInfo_HomeSeer_PluginSdk_Events_TrigActInfo_" data-uid="HomeSeer.PluginSdk.Events.TriggerTypeCollection.GetObjectFromTrigInfo(HomeSeer.PluginSdk.Events.TrigActInfo)">GetObjectFromTrigInfo(TrigActInfo)</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Get an instance of an <a class="xref" href="HomeSeer.PluginSdk.Events.AbstractTriggerType.html">AbstractTriggerType</a> from a <a class="xref" href="HomeSeer.PluginSdk.Events.TrigActInfo.html">TrigActInfo</a>.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="tabGroup" id="tabgroup_syntax">
@@ -490,12 +539,12 @@ When it is TRUE, log messages from the PluginSdk code will be written to the Con
       </ul>
       <section id="tabpanel_syntax_cs" role="tabpanel" data-tab="cs">
           <div class="codewrapper">
-            <pre><code class="lang-csharp hljs">AbstractTriggerType GetObjectFromTrigInfo(TrigActInfo trigInfo)</code></pre>
+            <pre><code class="lang-csharp hljs">public AbstractTriggerType GetObjectFromTrigInfo(TrigActInfo trigInfo)</code></pre>
           </div>
       </section>
       <section id="tabpanel_syntax_vb" role="tabpanel" data-tab="vb" aria-hidden="true" hidden="">
           <div class="codewrapper">
-            <pre><code class="lang-vb hljs">Function GetObjectFromTrigInfo(trigInfo As TrigActInfo) As AbstractTriggerType</code></pre>
+            <pre><code class="lang-vb hljs">Public Function GetObjectFromTrigInfo(trigInfo As TrigActInfo) As AbstractTriggerType</code></pre>
           </div>
       </section>
   </div>
@@ -512,7 +561,8 @@ When it is TRUE, log messages from the PluginSdk code will be written to the Con
       <tr>
         <td><a class="xref" href="HomeSeer.PluginSdk.Events.TrigActInfo.html">TrigActInfo</a></td>
         <td><span class="parametername">trigInfo</span></td>
-        <td></td>
+        <td><p>An instance of <a class="xref" href="HomeSeer.PluginSdk.Events.TrigActInfo.html">TrigActInfo</a> that represents a trigger.</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -527,13 +577,38 @@ When it is TRUE, log messages from the PluginSdk code will be written to the Con
     <tbody>
       <tr>
         <td><a class="xref" href="HomeSeer.PluginSdk.Events.AbstractTriggerType.html">AbstractTriggerType</a></td>
-        <td></td>
+        <td><p>An instance of an <a class="xref" href="HomeSeer.PluginSdk.Events.AbstractTriggerType.html">AbstractTriggerType</a>. This will be one of the types in the <a class="xref" href="HomeSeer.PluginSdk.Events.TriggerTypeCollection.html#HomeSeer_PluginSdk_Events_TriggerTypeCollection_TriggerTypes">TriggerTypes</a> list.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="HomeSeer_PluginSdk_Events_TriggerTypeCollection_GetObjectFromTrigInfo_HomeSeer_PluginSdk_Events_TrigActInfo__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>
+<a class="xref" href="HomeSeer.PluginSdk.Events.TrigActInfo.html#HomeSeer_PluginSdk_Events_TrigActInfo_TANumber">TANumber</a> is used to identify which of the
+<a class="xref" href="HomeSeer.PluginSdk.Events.AbstractTriggerType.html">AbstractTriggerType</a> is used.
+</p>
+</div>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.TypeLoadException</span></td>
+        <td><p>Thrown if the <a class="xref" href="HomeSeer.PluginSdk.Events.AbstractTriggerType.html">AbstractTriggerType</a> that is referenced by <a class="xref" href="HomeSeer.PluginSdk.Events.TrigActInfo.html#HomeSeer_PluginSdk_Events_TrigActInfo_TANumber">TANumber</a>
+does not have the proper constructor.</p>
+<ul><li></li><li></li></ul>
+</td>
       </tr>
     </tbody>
   </table>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Events/TriggerTypeCollection.cs/#L102">View Source</a>
+    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Events/TriggerTypeCollection.cs/#L110">View Source</a>
   </span>
   <a id="HomeSeer_PluginSdk_Events_TriggerTypeCollection_GetSubTriggerCount_" data-uid="HomeSeer.PluginSdk.Events.TriggerTypeCollection.GetSubTriggerCount*"></a>
   <h4 id="HomeSeer_PluginSdk_Events_TriggerTypeCollection_GetSubTriggerCount_System_Int32_" data-uid="HomeSeer.PluginSdk.Events.TriggerTypeCollection.GetSubTriggerCount(System.Int32)">GetSubTriggerCount(Int32)</h4>
@@ -598,7 +673,7 @@ trigger type at the specified index.</p>
   </table>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Events/TriggerTypeCollection.cs/#L124">View Source</a>
+    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Events/TriggerTypeCollection.cs/#L132">View Source</a>
   </span>
   <a id="HomeSeer_PluginSdk_Events_TriggerTypeCollection_GetSubTriggerName_" data-uid="HomeSeer.PluginSdk.Events.TriggerTypeCollection.GetSubTriggerName*"></a>
   <h4 id="HomeSeer_PluginSdk_Events_TriggerTypeCollection_GetSubTriggerName_System_Int32_System_Int32_" data-uid="HomeSeer.PluginSdk.Events.TriggerTypeCollection.GetSubTriggerName(System.Int32,System.Int32)">GetSubTriggerName(Int32, Int32)</h4>
@@ -668,7 +743,7 @@ trigger type at the specified index.</p>
   </table>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Events/TriggerTypeCollection.cs/#L204">View Source</a>
+    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Events/TriggerTypeCollection.cs/#L212">View Source</a>
   </span>
   <a id="HomeSeer_PluginSdk_Events_TriggerTypeCollection_IsTriggerConfigured_" data-uid="HomeSeer.PluginSdk.Events.TriggerTypeCollection.IsTriggerConfigured*"></a>
   <h4 id="HomeSeer_PluginSdk_Events_TriggerTypeCollection_IsTriggerConfigured_HomeSeer_PluginSdk_Events_TrigActInfo_" data-uid="HomeSeer.PluginSdk.Events.TriggerTypeCollection.IsTriggerConfigured(HomeSeer.PluginSdk.Events.TrigActInfo)">IsTriggerConfigured(TrigActInfo)</h4>
@@ -734,7 +809,7 @@ FALSE if it is not. A call to <a class="xref" href="HomeSeer.PluginSdk.Events.Tr
   </table>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Events/TriggerTypeCollection.cs/#L249">View Source</a>
+    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Events/TriggerTypeCollection.cs/#L257">View Source</a>
   </span>
   <a id="HomeSeer_PluginSdk_Events_TriggerTypeCollection_IsTriggerTrue_" data-uid="HomeSeer.PluginSdk.Events.TriggerTypeCollection.IsTriggerTrue*"></a>
   <h4 id="HomeSeer_PluginSdk_Events_TriggerTypeCollection_IsTriggerTrue_HomeSeer_PluginSdk_Events_TrigActInfo_System_Boolean_" data-uid="HomeSeer.PluginSdk.Events.TriggerTypeCollection.IsTriggerTrue(HomeSeer.PluginSdk.Events.TrigActInfo,System.Boolean)">IsTriggerTrue(TrigActInfo, Boolean)</h4>
@@ -805,7 +880,7 @@ FALSE if they haven't</p>
   </table>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Events/TriggerTypeCollection.cs/#L226">View Source</a>
+    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Events/TriggerTypeCollection.cs/#L234">View Source</a>
   </span>
   <a id="HomeSeer_PluginSdk_Events_TriggerTypeCollection_OnGetTriggerPrettyString_" data-uid="HomeSeer.PluginSdk.Events.TriggerTypeCollection.OnGetTriggerPrettyString*"></a>
   <h4 id="HomeSeer_PluginSdk_Events_TriggerTypeCollection_OnGetTriggerPrettyString_HomeSeer_PluginSdk_Events_TrigActInfo_" data-uid="HomeSeer.PluginSdk.Events.TriggerTypeCollection.OnGetTriggerPrettyString(HomeSeer.PluginSdk.Events.TrigActInfo)">OnGetTriggerPrettyString(TrigActInfo)</h4>
@@ -870,7 +945,7 @@ the trigger does to the user.</p>
   </table>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Events/TriggerTypeCollection.cs/#L145">View Source</a>
+    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Events/TriggerTypeCollection.cs/#L153">View Source</a>
   </span>
   <a id="HomeSeer_PluginSdk_Events_TriggerTypeCollection_OnGetTriggerUi_" data-uid="HomeSeer.PluginSdk.Events.TriggerTypeCollection.OnGetTriggerUi*"></a>
   <h4 id="HomeSeer_PluginSdk_Events_TriggerTypeCollection_OnGetTriggerUi_HomeSeer_PluginSdk_Events_TrigActInfo_" data-uid="HomeSeer.PluginSdk.Events.TriggerTypeCollection.OnGetTriggerUi(HomeSeer.PluginSdk.Events.TrigActInfo)">OnGetTriggerUi(TrigActInfo)</h4>
@@ -934,7 +1009,7 @@ the trigger does to the user.</p>
   </table>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Events/TriggerTypeCollection.cs/#L171">View Source</a>
+    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Events/TriggerTypeCollection.cs/#L179">View Source</a>
   </span>
   <a id="HomeSeer_PluginSdk_Events_TriggerTypeCollection_OnUpdateTriggerConfig_" data-uid="HomeSeer.PluginSdk.Events.TriggerTypeCollection.OnUpdateTriggerConfig*"></a>
   <h4 id="HomeSeer_PluginSdk_Events_TriggerTypeCollection_OnUpdateTriggerConfig_System_Collections_Generic_Dictionary_System_String_System_String__HomeSeer_PluginSdk_Events_TrigActInfo_" data-uid="HomeSeer.PluginSdk.Events.TriggerTypeCollection.OnUpdateTriggerConfig(System.Collections.Generic.Dictionary{System.String,System.String},HomeSeer.PluginSdk.Events.TrigActInfo)">OnUpdateTriggerConfig(Dictionary&lt;String, String&gt;, TrigActInfo)</h4>
@@ -1006,7 +1081,7 @@ The trigger configuration will be saved if the result returned is an empty strin
   </table>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Events/TriggerTypeCollection.cs/#L295">View Source</a>
+    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Events/TriggerTypeCollection.cs/#L303">View Source</a>
   </span>
   <a id="HomeSeer_PluginSdk_Events_TriggerTypeCollection_TriggerCanBeCondition_" data-uid="HomeSeer.PluginSdk.Events.TriggerTypeCollection.TriggerCanBeCondition*"></a>
   <h4 id="HomeSeer_PluginSdk_Events_TriggerTypeCollection_TriggerCanBeCondition_System_Int32_" data-uid="HomeSeer.PluginSdk.Events.TriggerTypeCollection.TriggerCanBeCondition(System.Int32)">TriggerCanBeCondition(Int32)</h4>
@@ -1072,7 +1147,7 @@ FALSE if it can not.</p>
   </table>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Events/TriggerTypeCollection.cs/#L273">View Source</a>
+    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Events/TriggerTypeCollection.cs/#L281">View Source</a>
   </span>
   <a id="HomeSeer_PluginSdk_Events_TriggerTypeCollection_TriggerReferencesDeviceOrFeature_" data-uid="HomeSeer.PluginSdk.Events.TriggerTypeCollection.TriggerReferencesDeviceOrFeature*"></a>
   <h4 id="HomeSeer_PluginSdk_Events_TriggerTypeCollection_TriggerReferencesDeviceOrFeature_System_Int32_HomeSeer_PluginSdk_Events_TrigActInfo_" data-uid="HomeSeer.PluginSdk.Events.TriggerTypeCollection.TriggerReferencesDeviceOrFeature(System.Int32,HomeSeer.PluginSdk.Events.TrigActInfo)">TriggerReferencesDeviceOrFeature(Int32, TrigActInfo)</h4>
@@ -1176,8 +1251,22 @@ FALSE if it does not.</p>
         </div>
       </footer>
     </div>
+    <!-- Mermaid -->
+    <!-- Lets you create diagrams and visualizations using text and code. -->
+    <!-- https://mermaid-js.github.io/mermaid/ -->
     
+    <!-- Required styles -->
     <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
     <script type="text/javascript" src="../styles/docfx.js"></script>
-    <script type="text/javascript" src="../styles/main.js"></script>  </body>
+    <script type="text/javascript" src="../styles/main.js"></script>
+    <!-- Load v9.1.3 of Mermaid -->
+    <!-- Hash obtained via https://www.srihash.org/ -->
+    <script type="text/javascript" src="https://unpkg.com/mermaid@9.1.3/dist/mermaid.min.js" integrity="sha384-LnGjpNDrP4cp7MIk4CpRa/lPNclrf839ryYVFx1T1mPSV3RGAZ7nlBa7pqcyGY/K" crossorigin="anonymous"></script>
+    <!-- Initialize Mermaid -->
+    <script>
+        mermaid.initialize({
+            startOnLoad: false
+        });
+        mermaid.init(undefined, ".lang-mermaid");
+    </script>  </body>
 </html>

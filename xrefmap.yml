@@ -6374,6 +6374,12 @@ references:
   commentId: F:HomeSeer.PluginSdk.Devices.Controls.EControlUse.CoolSetPoint
   fullName: HomeSeer.PluginSdk.Devices.Controls.EControlUse.CoolSetPoint
   nameWithType: EControlUse.CoolSetPoint
+- uid: HomeSeer.PluginSdk.Devices.Controls.EControlUse.DecrementValue
+  name: DecrementValue
+  href: api/HomeSeer.PluginSdk.Devices.Controls.EControlUse.html#HomeSeer_PluginSdk_Devices_Controls_EControlUse_DecrementValue
+  commentId: F:HomeSeer.PluginSdk.Devices.Controls.EControlUse.DecrementValue
+  fullName: HomeSeer.PluginSdk.Devices.Controls.EControlUse.DecrementValue
+  nameWithType: EControlUse.DecrementValue
 - uid: HomeSeer.PluginSdk.Devices.Controls.EControlUse.Dim
   name: Dim
   href: api/HomeSeer.PluginSdk.Devices.Controls.EControlUse.html#HomeSeer_PluginSdk_Devices_Controls_EControlUse_Dim
@@ -6410,6 +6416,12 @@ references:
   commentId: F:HomeSeer.PluginSdk.Devices.Controls.EControlUse.HeatSetPoint
   fullName: HomeSeer.PluginSdk.Devices.Controls.EControlUse.HeatSetPoint
   nameWithType: EControlUse.HeatSetPoint
+- uid: HomeSeer.PluginSdk.Devices.Controls.EControlUse.IncrementValue
+  name: IncrementValue
+  href: api/HomeSeer.PluginSdk.Devices.Controls.EControlUse.html#HomeSeer_PluginSdk_Devices_Controls_EControlUse_IncrementValue
+  commentId: F:HomeSeer.PluginSdk.Devices.Controls.EControlUse.IncrementValue
+  fullName: HomeSeer.PluginSdk.Devices.Controls.EControlUse.IncrementValue
+  nameWithType: EControlUse.IncrementValue
 - uid: HomeSeer.PluginSdk.Devices.Controls.EControlUse.MotionActive
   name: MotionActive
   href: api/HomeSeer.PluginSdk.Devices.Controls.EControlUse.html#HomeSeer_PluginSdk_Devices_Controls_EControlUse_MotionActive
@@ -7047,6 +7059,45 @@ references:
   isSpec: "True"
   fullName: HomeSeer.PluginSdk.Devices.Controls.StatusControlCollection.GetControlsForRange
   nameWithType: StatusControlCollection.GetControlsForRange
+- uid: HomeSeer.PluginSdk.Devices.Controls.StatusControlCollection.GetControlsForUse(HomeSeer.PluginSdk.Devices.Controls.EControlUse)
+  name: GetControlsForUse(EControlUse)
+  href: api/HomeSeer.PluginSdk.Devices.Controls.StatusControlCollection.html#HomeSeer_PluginSdk_Devices_Controls_StatusControlCollection_GetControlsForUse_HomeSeer_PluginSdk_Devices_Controls_EControlUse_
+  commentId: M:HomeSeer.PluginSdk.Devices.Controls.StatusControlCollection.GetControlsForUse(HomeSeer.PluginSdk.Devices.Controls.EControlUse)
+  fullName: HomeSeer.PluginSdk.Devices.Controls.StatusControlCollection.GetControlsForUse(HomeSeer.PluginSdk.Devices.Controls.EControlUse)
+  nameWithType: StatusControlCollection.GetControlsForUse(EControlUse)
+- uid: HomeSeer.PluginSdk.Devices.Controls.StatusControlCollection.GetControlsForUse*
+  name: GetControlsForUse
+  href: api/HomeSeer.PluginSdk.Devices.Controls.StatusControlCollection.html#HomeSeer_PluginSdk_Devices_Controls_StatusControlCollection_GetControlsForUse_
+  commentId: Overload:HomeSeer.PluginSdk.Devices.Controls.StatusControlCollection.GetControlsForUse
+  isSpec: "True"
+  fullName: HomeSeer.PluginSdk.Devices.Controls.StatusControlCollection.GetControlsForUse
+  nameWithType: StatusControlCollection.GetControlsForUse
+- uid: HomeSeer.PluginSdk.Devices.Controls.StatusControlCollection.GetFirstControlForUse(HomeSeer.PluginSdk.Devices.Controls.EControlUse)
+  name: GetFirstControlForUse(EControlUse)
+  href: api/HomeSeer.PluginSdk.Devices.Controls.StatusControlCollection.html#HomeSeer_PluginSdk_Devices_Controls_StatusControlCollection_GetFirstControlForUse_HomeSeer_PluginSdk_Devices_Controls_EControlUse_
+  commentId: M:HomeSeer.PluginSdk.Devices.Controls.StatusControlCollection.GetFirstControlForUse(HomeSeer.PluginSdk.Devices.Controls.EControlUse)
+  fullName: HomeSeer.PluginSdk.Devices.Controls.StatusControlCollection.GetFirstControlForUse(HomeSeer.PluginSdk.Devices.Controls.EControlUse)
+  nameWithType: StatusControlCollection.GetFirstControlForUse(EControlUse)
+- uid: HomeSeer.PluginSdk.Devices.Controls.StatusControlCollection.GetFirstControlForUse*
+  name: GetFirstControlForUse
+  href: api/HomeSeer.PluginSdk.Devices.Controls.StatusControlCollection.html#HomeSeer_PluginSdk_Devices_Controls_StatusControlCollection_GetFirstControlForUse_
+  commentId: Overload:HomeSeer.PluginSdk.Devices.Controls.StatusControlCollection.GetFirstControlForUse
+  isSpec: "True"
+  fullName: HomeSeer.PluginSdk.Devices.Controls.StatusControlCollection.GetFirstControlForUse
+  nameWithType: StatusControlCollection.GetFirstControlForUse
+- uid: HomeSeer.PluginSdk.Devices.Controls.StatusControlCollection.HasControlForUse(HomeSeer.PluginSdk.Devices.Controls.EControlUse)
+  name: HasControlForUse(EControlUse)
+  href: api/HomeSeer.PluginSdk.Devices.Controls.StatusControlCollection.html#HomeSeer_PluginSdk_Devices_Controls_StatusControlCollection_HasControlForUse_HomeSeer_PluginSdk_Devices_Controls_EControlUse_
+  commentId: M:HomeSeer.PluginSdk.Devices.Controls.StatusControlCollection.HasControlForUse(HomeSeer.PluginSdk.Devices.Controls.EControlUse)
+  fullName: HomeSeer.PluginSdk.Devices.Controls.StatusControlCollection.HasControlForUse(HomeSeer.PluginSdk.Devices.Controls.EControlUse)
+  nameWithType: StatusControlCollection.HasControlForUse(EControlUse)
+- uid: HomeSeer.PluginSdk.Devices.Controls.StatusControlCollection.HasControlForUse*
+  name: HasControlForUse
+  href: api/HomeSeer.PluginSdk.Devices.Controls.StatusControlCollection.html#HomeSeer_PluginSdk_Devices_Controls_StatusControlCollection_HasControlForUse_
+  commentId: Overload:HomeSeer.PluginSdk.Devices.Controls.StatusControlCollection.HasControlForUse
+  isSpec: "True"
+  fullName: HomeSeer.PluginSdk.Devices.Controls.StatusControlCollection.HasControlForUse
+  nameWithType: StatusControlCollection.HasControlForUse
 - uid: HomeSeer.PluginSdk.Devices.Controls.StatusControlCollection.Item(System.Double)
   name: Item[Double]
   href: api/HomeSeer.PluginSdk.Devices.Controls.StatusControlCollection.html#HomeSeer_PluginSdk_Devices_Controls_StatusControlCollection_Item_System_Double_
@@ -8470,6 +8521,32 @@ references:
   isSpec: "True"
   fullName: HomeSeer.PluginSdk.Devices.HsFeature.GetAdditionalDataToken
   nameWithType: HsFeature.GetAdditionalDataToken
+- uid: HomeSeer.PluginSdk.Devices.HsFeature.GetControlsForUse(HomeSeer.PluginSdk.Devices.Controls.EControlUse)
+  name: GetControlsForUse(EControlUse)
+  href: api/HomeSeer.PluginSdk.Devices.HsFeature.html#HomeSeer_PluginSdk_Devices_HsFeature_GetControlsForUse_HomeSeer_PluginSdk_Devices_Controls_EControlUse_
+  commentId: M:HomeSeer.PluginSdk.Devices.HsFeature.GetControlsForUse(HomeSeer.PluginSdk.Devices.Controls.EControlUse)
+  fullName: HomeSeer.PluginSdk.Devices.HsFeature.GetControlsForUse(HomeSeer.PluginSdk.Devices.Controls.EControlUse)
+  nameWithType: HsFeature.GetControlsForUse(EControlUse)
+- uid: HomeSeer.PluginSdk.Devices.HsFeature.GetControlsForUse*
+  name: GetControlsForUse
+  href: api/HomeSeer.PluginSdk.Devices.HsFeature.html#HomeSeer_PluginSdk_Devices_HsFeature_GetControlsForUse_
+  commentId: Overload:HomeSeer.PluginSdk.Devices.HsFeature.GetControlsForUse
+  isSpec: "True"
+  fullName: HomeSeer.PluginSdk.Devices.HsFeature.GetControlsForUse
+  nameWithType: HsFeature.GetControlsForUse
+- uid: HomeSeer.PluginSdk.Devices.HsFeature.GetFirstControlForUse(HomeSeer.PluginSdk.Devices.Controls.EControlUse)
+  name: GetFirstControlForUse(EControlUse)
+  href: api/HomeSeer.PluginSdk.Devices.HsFeature.html#HomeSeer_PluginSdk_Devices_HsFeature_GetFirstControlForUse_HomeSeer_PluginSdk_Devices_Controls_EControlUse_
+  commentId: M:HomeSeer.PluginSdk.Devices.HsFeature.GetFirstControlForUse(HomeSeer.PluginSdk.Devices.Controls.EControlUse)
+  fullName: HomeSeer.PluginSdk.Devices.HsFeature.GetFirstControlForUse(HomeSeer.PluginSdk.Devices.Controls.EControlUse)
+  nameWithType: HsFeature.GetFirstControlForUse(EControlUse)
+- uid: HomeSeer.PluginSdk.Devices.HsFeature.GetFirstControlForUse*
+  name: GetFirstControlForUse
+  href: api/HomeSeer.PluginSdk.Devices.HsFeature.html#HomeSeer_PluginSdk_Devices_HsFeature_GetFirstControlForUse_
+  commentId: Overload:HomeSeer.PluginSdk.Devices.HsFeature.GetFirstControlForUse
+  isSpec: "True"
+  fullName: HomeSeer.PluginSdk.Devices.HsFeature.GetFirstControlForUse
+  nameWithType: HsFeature.GetFirstControlForUse
 - uid: HomeSeer.PluginSdk.Devices.HsFeature.HasControlForRange(HomeSeer.PluginSdk.Devices.ValueRange)
   name: HasControlForRange(ValueRange)
   href: api/HomeSeer.PluginSdk.Devices.HsFeature.html#HomeSeer_PluginSdk_Devices_HsFeature_HasControlForRange_HomeSeer_PluginSdk_Devices_ValueRange_
@@ -8483,6 +8560,19 @@ references:
   isSpec: "True"
   fullName: HomeSeer.PluginSdk.Devices.HsFeature.HasControlForRange
   nameWithType: HsFeature.HasControlForRange
+- uid: HomeSeer.PluginSdk.Devices.HsFeature.HasControlForUse(HomeSeer.PluginSdk.Devices.Controls.EControlUse)
+  name: HasControlForUse(EControlUse)
+  href: api/HomeSeer.PluginSdk.Devices.HsFeature.html#HomeSeer_PluginSdk_Devices_HsFeature_HasControlForUse_HomeSeer_PluginSdk_Devices_Controls_EControlUse_
+  commentId: M:HomeSeer.PluginSdk.Devices.HsFeature.HasControlForUse(HomeSeer.PluginSdk.Devices.Controls.EControlUse)
+  fullName: HomeSeer.PluginSdk.Devices.HsFeature.HasControlForUse(HomeSeer.PluginSdk.Devices.Controls.EControlUse)
+  nameWithType: HsFeature.HasControlForUse(EControlUse)
+- uid: HomeSeer.PluginSdk.Devices.HsFeature.HasControlForUse*
+  name: HasControlForUse
+  href: api/HomeSeer.PluginSdk.Devices.HsFeature.html#HomeSeer_PluginSdk_Devices_HsFeature_HasControlForUse_
+  commentId: Overload:HomeSeer.PluginSdk.Devices.HsFeature.HasControlForUse
+  isSpec: "True"
+  fullName: HomeSeer.PluginSdk.Devices.HsFeature.HasControlForUse
+  nameWithType: HsFeature.HasControlForUse
 - uid: HomeSeer.PluginSdk.Devices.HsFeature.HasControlForValue(System.Double)
   name: HasControlForValue(Double)
   href: api/HomeSeer.PluginSdk.Devices.HsFeature.html#HomeSeer_PluginSdk_Devices_HsFeature_HasControlForValue_System_Double_
@@ -11292,6 +11382,19 @@ references:
   isSpec: "True"
   fullName: HomeSeer.PluginSdk.Events.AbstractTriggerType.Data
   nameWithType: AbstractTriggerType.Data
+- uid: HomeSeer.PluginSdk.Events.AbstractTriggerType.Equals(System.Object)
+  name: Equals(Object)
+  href: api/HomeSeer.PluginSdk.Events.AbstractTriggerType.html#HomeSeer_PluginSdk_Events_AbstractTriggerType_Equals_System_Object_
+  commentId: M:HomeSeer.PluginSdk.Events.AbstractTriggerType.Equals(System.Object)
+  fullName: HomeSeer.PluginSdk.Events.AbstractTriggerType.Equals(System.Object)
+  nameWithType: AbstractTriggerType.Equals(Object)
+- uid: HomeSeer.PluginSdk.Events.AbstractTriggerType.Equals*
+  name: Equals
+  href: api/HomeSeer.PluginSdk.Events.AbstractTriggerType.html#HomeSeer_PluginSdk_Events_AbstractTriggerType_Equals_
+  commentId: Overload:HomeSeer.PluginSdk.Events.AbstractTriggerType.Equals
+  isSpec: "True"
+  fullName: HomeSeer.PluginSdk.Events.AbstractTriggerType.Equals
+  nameWithType: AbstractTriggerType.Equals
 - uid: HomeSeer.PluginSdk.Events.AbstractTriggerType.EventRef
   name: EventRef
   href: api/HomeSeer.PluginSdk.Events.AbstractTriggerType.html#HomeSeer_PluginSdk_Events_AbstractTriggerType_EventRef
@@ -11318,6 +11421,19 @@ references:
   isSpec: "True"
   fullName: HomeSeer.PluginSdk.Events.AbstractTriggerType.GetData
   nameWithType: AbstractTriggerType.GetData
+- uid: HomeSeer.PluginSdk.Events.AbstractTriggerType.GetHashCode
+  name: GetHashCode()
+  href: api/HomeSeer.PluginSdk.Events.AbstractTriggerType.html#HomeSeer_PluginSdk_Events_AbstractTriggerType_GetHashCode
+  commentId: M:HomeSeer.PluginSdk.Events.AbstractTriggerType.GetHashCode
+  fullName: HomeSeer.PluginSdk.Events.AbstractTriggerType.GetHashCode()
+  nameWithType: AbstractTriggerType.GetHashCode()
+- uid: HomeSeer.PluginSdk.Events.AbstractTriggerType.GetHashCode*
+  name: GetHashCode
+  href: api/HomeSeer.PluginSdk.Events.AbstractTriggerType.html#HomeSeer_PluginSdk_Events_AbstractTriggerType_GetHashCode_
+  commentId: Overload:HomeSeer.PluginSdk.Events.AbstractTriggerType.GetHashCode
+  isSpec: "True"
+  fullName: HomeSeer.PluginSdk.Events.AbstractTriggerType.GetHashCode
+  nameWithType: AbstractTriggerType.GetHashCode
 - uid: HomeSeer.PluginSdk.Events.AbstractTriggerType.GetName
   name: GetName()
   href: api/HomeSeer.PluginSdk.Events.AbstractTriggerType.html#HomeSeer_PluginSdk_Events_AbstractTriggerType_GetName
@@ -11635,6 +11751,19 @@ references:
   isSpec: "True"
   fullName: HomeSeer.PluginSdk.Events.ActionTypeCollection.ActionReferencesDeviceOrFeature
   nameWithType: ActionTypeCollection.ActionReferencesDeviceOrFeature
+- uid: HomeSeer.PluginSdk.Events.ActionTypeCollection.ActionTypes
+  name: ActionTypes
+  href: api/HomeSeer.PluginSdk.Events.ActionTypeCollection.html#HomeSeer_PluginSdk_Events_ActionTypeCollection_ActionTypes
+  commentId: P:HomeSeer.PluginSdk.Events.ActionTypeCollection.ActionTypes
+  fullName: HomeSeer.PluginSdk.Events.ActionTypeCollection.ActionTypes
+  nameWithType: ActionTypeCollection.ActionTypes
+- uid: HomeSeer.PluginSdk.Events.ActionTypeCollection.ActionTypes*
+  name: ActionTypes
+  href: api/HomeSeer.PluginSdk.Events.ActionTypeCollection.html#HomeSeer_PluginSdk_Events_ActionTypeCollection_ActionTypes_
+  commentId: Overload:HomeSeer.PluginSdk.Events.ActionTypeCollection.ActionTypes
+  isSpec: "True"
+  fullName: HomeSeer.PluginSdk.Events.ActionTypeCollection.ActionTypes
+  nameWithType: ActionTypeCollection.ActionTypes
 - uid: HomeSeer.PluginSdk.Events.ActionTypeCollection.AddActionType(System.Type)
   name: AddActionType(Type)
   href: api/HomeSeer.PluginSdk.Events.ActionTypeCollection.html#HomeSeer_PluginSdk_Events_ActionTypeCollection_AddActionType_System_Type_
@@ -12456,6 +12585,19 @@ references:
   isSpec: "True"
   fullName: HomeSeer.PluginSdk.Events.TriggerTypeCollection.TriggerReferencesDeviceOrFeature
   nameWithType: TriggerTypeCollection.TriggerReferencesDeviceOrFeature
+- uid: HomeSeer.PluginSdk.Events.TriggerTypeCollection.TriggerTypes
+  name: TriggerTypes
+  href: api/HomeSeer.PluginSdk.Events.TriggerTypeCollection.html#HomeSeer_PluginSdk_Events_TriggerTypeCollection_TriggerTypes
+  commentId: P:HomeSeer.PluginSdk.Events.TriggerTypeCollection.TriggerTypes
+  fullName: HomeSeer.PluginSdk.Events.TriggerTypeCollection.TriggerTypes
+  nameWithType: TriggerTypeCollection.TriggerTypes
+- uid: HomeSeer.PluginSdk.Events.TriggerTypeCollection.TriggerTypes*
+  name: TriggerTypes
+  href: api/HomeSeer.PluginSdk.Events.TriggerTypeCollection.html#HomeSeer_PluginSdk_Events_TriggerTypeCollection_TriggerTypes_
+  commentId: Overload:HomeSeer.PluginSdk.Events.TriggerTypeCollection.TriggerTypes
+  isSpec: "True"
+  fullName: HomeSeer.PluginSdk.Events.TriggerTypeCollection.TriggerTypes
+  nameWithType: TriggerTypeCollection.TriggerTypes
 - uid: HomeSeer.PluginSdk.Features
   name: HomeSeer.PluginSdk.Features
   href: api/HomeSeer.PluginSdk.Features.html

@@ -1,0 +1,168 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Plugin SDK v1.4.2.0 Release Notes | HomeSeer PluginSdk Docs </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Plugin SDK v1.4.2.0 Release Notes | HomeSeer PluginSdk Docs ">
+    <meta name="generator" content="docfx 2.58.0.0">
+    
+    <link rel="shortcut icon" href="../images/favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <link rel="stylesheet" href="../styles/perfect-scrollbar.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet"> 
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    <meta property="docfx:rel" content="../">
+    
+  </head>  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../images/HomeSeer_Full_Logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div class="container body-content">
+        
+        <div id="search-results">
+          <div class="search-list">Search Results for <span></span></div>
+          <div class="sr-items">
+            <p><i class="glyphicon glyphicon-refresh index-loading"></i></p>
+          </div>
+          <ul id="pagination" data-first="First" data-prev="Previous" data-next="Next" data-last="Last"></ul>
+        </div>
+      </div>
+      <div role="main" class="container-fluid body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+      <div class="col-md-1"></div>
+      <div class="col-md-8 card">
+        <article class="content wrap" id="_content" data-uid="">
+<h1 id="plugin-sdk-v1420-release-notes">Plugin SDK v1.4.2.0 Release Notes</h1>
+
+<p><img src="https://img.shields.io/badge/Requires-HomeSeer%20v4.2.14.0-blue" alt="Required HS Core Version"></p>
+<p>This release focuses on minor changes to the events package, devices package, samples, and unit tests. More changes to events will be coming very soon.</p>
+<ul>
+<li>(PSDK-263) <a href="https://github.com/HomeSeer/Plugin-SDK/issues/152">GitHub #152</a> Allow plugins more access to action and trigger type collections
+<ul>
+<li>Make <a class="xref" href="../api/HomeSeer.PluginSdk.Events.TriggerTypeCollection.html#HomeSeer_PluginSdk_Events_TriggerTypeCollection_GetObjectFromTrigInfo_"><code>TriggerTypeCollection.GetObjectFromActInfo</code></a> public</li>
+<li>Make <a class="xref" href="../api/HomeSeer.PluginSdk.Events.ActionTypeCollection.html#HomeSeer_PluginSdk_Events_ActionTypeCollection_GetObjectFromActInfo_"><code>ActionTypeCollection.GetObjectFromTrigInfo</code></a> public</li>
+<li>Add <a class="xref" href="../api/HomeSeer.PluginSdk.Events.ActionTypeCollection.html#HomeSeer_PluginSdk_Events_ActionTypeCollection_ActionTypes"><code>ActionTypeCollection.ActionTypes</code></a></li>
+<li>Add <a class="xref" href="../api/HomeSeer.PluginSdk.Events.TriggerTypeCollection.html#HomeSeer_PluginSdk_Events_TriggerTypeCollection_TriggerTypes"><code>TriggerTypeCollection.TriggerTypes</code></a></li>
+</ul>
+</li>
+<li>(PSDK-264) Add methods to get a control by <a class="xref" href="../api/HomeSeer.PluginSdk.Devices.Controls.EControlUse.html"><code>EControlUse</code></a> to <a class="xref" href="../api/HomeSeer.PluginSdk.Devices.Controls.StatusControlCollection.html"><code>StatusControlCollection</code></a> and <a class="xref" href="../api/HomeSeer.PluginSdk.Devices.HsFeature.html"><code>HsFeature</code></a>
+<ul>
+<li>Add <a class="xref" href="../api/HomeSeer.PluginSdk.Devices.Controls.StatusControlCollection.html#HomeSeer_PluginSdk_Devices_Controls_StatusControlCollection_GetControlsForUse_"><code>StatusControlCollection.GetControlsForUse</code></a> and <a class="xref" href="../api/HomeSeer.PluginSdk.Devices.HsFeature.html#HomeSeer_PluginSdk_Devices_HsFeature_GetControlsForUse_"><code>HsFeature.GetControlsForUse</code></a></li>
+<li>Add <a class="xref" href="../api/HomeSeer.PluginSdk.Devices.Controls.StatusControlCollection.html#HomeSeer_PluginSdk_Devices_Controls_StatusControlCollection_GetFirstControlForUse_"><code>StatusControlCollection.GetFirstControlForUse</code></a> and <a class="xref" href="../api/HomeSeer.PluginSdk.Devices.HsFeature.html#HomeSeer_PluginSdk_Devices_HsFeature_GetFirstControlForUse_"><code>HsFeature.GetFirstControlForUse</code></a></li>
+<li>Add <a class="xref" href="../api/HomeSeer.PluginSdk.Devices.Controls.StatusControlCollection.html#HomeSeer_PluginSdk_Devices_Controls_StatusControlCollection_HasControlForUse_"><code>StatusControlCollection.HasControlForUse</code></a> and <a class="xref" href="../api/HomeSeer.PluginSdk.Devices.HsFeature.html#HomeSeer_PluginSdk_Devices_HsFeature_HasControlForUse_"><code>HsFeature.HasControlForUse</code></a></li>
+</ul>
+</li>
+<li>(PSDK-275) Add <a class="xref" href="../api/HomeSeer.PluginSdk.Devices.Controls.EControlUse.html#HomeSeer_PluginSdk_Devices_Controls_EControlUse_IncrementValue"><code>EControlUse.IncrementValue</code></a> and <a class="xref" href="../api/HomeSeer.PluginSdk.Devices.Controls.EControlUse.html#HomeSeer_PluginSdk_Devices_Controls_EControlUse_DecrementValue"><code>EControlUse.DecrementValue</code></a></li>
+<li>(PSDK-278) <a href="https://github.com/HomeSeer/Plugin-SDK/issues/279">GitHub #279</a> Improve exception messages in <a class="xref" href="../api/HomeSeer.Jui.Views.ViewCollectionHelper.html"><code>ViewCollectionHelper</code></a> and <a class="xref" href="../api/HomeSeer.Jui.Views.SettingsCollection.html"><code>SettingsCollection</code></a></li>
+<li>(PSDK-279) Fix compilation of sample plugins by using SpecificVersion=False for the references to the PluginSdk and HSCF assemblies</li>
+<li>(PSDK-288) Add a null check to <a class="xref" href="../api/HomeSeer.PluginSdk.Devices.Controls.StatusControlCollection.html#HomeSeer_PluginSdk_Devices_Controls_StatusControlCollection_Remove_"><code>StatusControlCollection.Remove</code></a> so that it does not throw an exception</li>
+<li>(PSDK-289) Add <a class="xref" href="../api/HomeSeer.PluginSdk.Events.AbstractTriggerType.html#HomeSeer_PluginSdk_Events_AbstractTriggerType_Equals_"><code>AbstractTriggerType.Equals</code></a> and <a class="xref" href="../api/HomeSeer.PluginSdk.Events.AbstractTriggerType.html#HomeSeer_PluginSdk_Events_AbstractTriggerType_GetHashCode_"><code>AbstractTriggerType.GetHashCode</code></a></li>
+<li>Add more unit tests
+<ul>
+<li>(PSDK-189) Add unit tests for <a class="xref" href="../api/HomeSeer.PluginSdk.Devices.Controls.StatusControlCollection.html"><code>StatusControlCollection</code></a></li>
+<li>(PSDK-222) Add unit tests for <a class="xref" href="../api/HomeSeer.PluginSdk.Events.AbstractActionType.html"><code>AbstractActionType</code></a></li>
+<li>(PSDK-223) Add unit tests for <a class="xref" href="../api/HomeSeer.PluginSdk.Events.AbstractTriggerType.html"><code>AbstractTriggerType</code></a></li>
+<li>(PSDK-284) Add unit tests for <a class="xref" href="../api/HomeSeer.PluginSdk.Events.ActionTypeCollection.html"><code>ActionTypeCollection</code></a></li>
+<li>(PSDK-285) Add unit tests for <a class="xref" href="../api/HomeSeer.PluginSdk.Events.TriggerTypeCollection.html"><code>TriggerTypeCollection</code></a></li>
+<li>(PSDK-286) Add unit tests for <a class="xref" href="../api/HomeSeer.PluginSdk.Events.TrigActInfo.html"><code>TrigActInfo</code></a></li>
+</ul>
+</li>
+<li>Update <a class="xref" href="../api/HomeSeer.PluginSdk.Events.TrigActInfo.html"><code>TrigActInfo</code></a> documentation</li>
+</ul>
+</article>
+      </div>
+        
+        <div class="hidden-sm col-md-2" role="complementary">
+          <div class="sideaffix" id="ps-sideaffix">
+            <div class="contribution">
+              <ul class="nav">
+              </ul>
+            </div>
+            <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <h5>In This Article</h5>
+              <div></div>
+            </nav>
+          </div>
+        </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            HomeSeer Technologies
+            
+          </div>
+        </div>
+      </footer>
+    </div>
+    <!-- Mermaid -->
+    <!-- Lets you create diagrams and visualizations using text and code. -->
+    <!-- https://mermaid-js.github.io/mermaid/ -->
+    
+    <!-- Required styles -->
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+    <!-- Load v9.1.3 of Mermaid -->
+    <!-- Hash obtained via https://www.srihash.org/ -->
+    <script type="text/javascript" src="https://unpkg.com/mermaid@9.1.3/dist/mermaid.min.js" integrity="sha384-LnGjpNDrP4cp7MIk4CpRa/lPNclrf839ryYVFx1T1mPSV3RGAZ7nlBa7pqcyGY/K" crossorigin="anonymous"></script>
+    <!-- Initialize Mermaid -->
+    <script>
+        mermaid.initialize({
+            startOnLoad: false
+        });
+        mermaid.init(undefined, ".lang-mermaid");
+    </script>  </body>
+</html>
