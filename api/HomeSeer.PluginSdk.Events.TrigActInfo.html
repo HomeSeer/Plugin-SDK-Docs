@@ -10,7 +10,7 @@
     <meta name="viewport" content="width=device-width">
     <meta name="title" content="Class TrigActInfo
    | HomeSeer PluginSdk Docs ">
-    <meta name="generator" content="docfx 2.58.0.0">
+    <meta name="generator" content="docfx 2.59.4.0">
     
     <link rel="shortcut icon" href="../images/favicon.ico">
     <link rel="stylesheet" href="../styles/docfx.vendor.css">
@@ -159,7 +159,7 @@ You shouldn't need to work with this class directly and can rely on the decoded 
     <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Events/TrigActInfo.cs/#L82">View Source</a>
   </span>
   <h4 id="HomeSeer_PluginSdk_Events_TrigActInfo_DataIn" data-uid="HomeSeer.PluginSdk.Events.TrigActInfo.DataIn">DataIn</h4>
-  <div class="markdown level1 summary"><p>Serialized data for this <a class="xref" href="HomeSeer.PluginSdk.Events.AbstractActionType.html">AbstractActionType</a> or <a class="xref" href="HomeSeer.PluginSdk.Events.AbstractTriggerType.html">AbstractTriggerType</a>
+  <div class="markdown level1 summary"><p>Serialized data for this <a class="xref" href="HomeSeer.PluginSdk.Events.AbstractActionType.html">action</a> or <a class="xref" href="HomeSeer.PluginSdk.Events.AbstractTriggerType.html">trigger</a>
 that the plugin needs. This is stored within the HomeSeer database and serves as the configuration for the
 <a class="xref" href="HomeSeer.PluginSdk.Events.ActionTypeCollection.html">ActionTypeCollection</a> and <a class="xref" href="HomeSeer.PluginSdk.Events.TriggerTypeCollection.html">TriggerTypeCollection</a> this is for.</p>
 </div>
@@ -204,8 +204,8 @@ that the plugin needs. This is stored within the HomeSeer database and serves as
   <div class="markdown level1 remarks"><p>
 This is automatically unpacked by <a class="xref" href="HomeSeer.PluginSdk.Events.AbstractActionType.html">AbstractActionType</a> and <a class="xref" href="HomeSeer.PluginSdk.Events.AbstractTriggerType.html">AbstractTriggerType</a> if it
 contains a JSON string describing a <a class="xref" href="HomeSeer.Jui.Views.Page.html">Page</a>. If it contains any other data format, like
-data from an HS3 plugin, <a class="xref" href="HomeSeer.PluginSdk.Events.AbstractTriggerType.html#HomeSeer_PluginSdk_Events_AbstractTriggerType_ConvertLegacyData_System_Byte___">ConvertLegacyData(Byte[])</a>
-or <a class="xref" href="HomeSeer.PluginSdk.Events.AbstractActionType.html#HomeSeer_PluginSdk_Events_AbstractActionType_ConvertLegacyData_System_Byte___">ConvertLegacyData(Byte[])</a>
+data from an HS3 plugin, <a class="xref" href="HomeSeer.PluginSdk.Events.AbstractTriggerType.html#HomeSeer_PluginSdk_Events_AbstractTriggerType_ConvertLegacyData_System_Byte___">AbstractTriggerType.ConvertLegacyData</a>
+or <a class="xref" href="HomeSeer.PluginSdk.Events.AbstractActionType.html#HomeSeer_PluginSdk_Events_AbstractActionType_ConvertLegacyData_System_Byte___">AbstractActionType.ConvertLegacyData</a>
 will be called. You can override these methods to define your own method for unpacking the data.
 </p>
 </div>
@@ -360,10 +360,10 @@ For example, in HomeSeer there is a TIME trigger - this might identify whether i
   </table>
   <h5 id="HomeSeer_PluginSdk_Events_TrigActInfo_SubTANumber_remarks">Remarks</h5>
   <div class="markdown level1 remarks"><p>
-This is only used for <a class="xref" href="HomeSeer.PluginSdk.Events.AbstractTriggerType.html">AbstractTriggerType</a> and can be ignored in favor of managing
+This is only used for <a class="xref" href="HomeSeer.PluginSdk.Events.AbstractTriggerType.html">triggers</a> and can be ignored in favor of managing
 a subtype directly. HomeSeer will present a list of trigger subtypes to choose from if
 <a class="xref" href="HomeSeer.PluginSdk.Events.AbstractTriggerType.html#HomeSeer_PluginSdk_Events_AbstractTriggerType_SubTriggerCount">SubTriggerCount</a> > 1. HomeSeer does not do the same for
-<a class="xref" href="HomeSeer.PluginSdk.Events.AbstractActionType.html">AbstractActionType</a>, and there is no corresponding <pre><code>SubActionCount</code></pre> property.
+<a class="xref" href="HomeSeer.PluginSdk.Events.AbstractActionType.html">actions</a>, and there is no corresponding <pre><code>SubActionCount</code></pre> property.
 </p>
 </div>
   

@@ -10,7 +10,7 @@
     <meta name="viewport" content="width=device-width">
     <meta name="title" content="Namespace HomeSeer.PluginSdk.Events
    | HomeSeer PluginSdk Docs ">
-    <meta name="generator" content="docfx 2.58.0.0">
+    <meta name="generator" content="docfx 2.59.4.0">
     
     <link rel="shortcut icon" href="../images/favicon.ico">
     <link rel="stylesheet" href="../styles/docfx.vendor.css">
@@ -95,8 +95,32 @@
 Inherit from this class to define your own action types and store them in your plugin&apos;s <a class="xref" href="HomeSeer.PluginSdk.Events.ActionTypeCollection.html">ActionTypeCollection</a>
 </p>
 </section>
+      <h4><a class="xref" href="HomeSeer.PluginSdk.Events.AbstractActionType2.html">AbstractActionType2</a></h4>
+      <section><p>The base implementation of a plugin action type available for users to select in HomeSeer</p>
+<p>
+The difference between <a class="xref" href="HomeSeer.PluginSdk.Events.AbstractActionType2.html">AbstractActionType2</a> and <a class="xref" href="HomeSeer.PluginSdk.Events.AbstractActionType.html">AbstractActionType</a>, is that with
+<a class="xref" href="HomeSeer.PluginSdk.Events.AbstractActionType2.html">AbstractActionType2</a> only a collection of view Id/Value pairs is stored in database whereas with 
+<a class="xref" href="HomeSeer.PluginSdk.Events.AbstractActionType.html">AbstractActionType</a> the whole <a class="xref" href="HomeSeer.PluginSdk.Events.AbstractActionType.html#HomeSeer_PluginSdk_Events_AbstractActionType_ConfigPage">ConfigPage</a> is stored. This allows 
+the plugin to build the views in <a class="xref" href="HomeSeer.PluginSdk.Events.AbstractActionType2.html#HomeSeer_PluginSdk_Events_AbstractActionType2_OnInstantiateAction_System_Collections_Generic_Dictionary_System_String_System_String__">OnInstantiateAction(Dictionary&lt;String, String&gt;)</a> every time an action is instantiated.
+</p>
+<p>
+Inherit from this class to define your own action types and store them in your plugin&apos;s <a class="xref" href="HomeSeer.PluginSdk.Events.ActionTypeCollection.html">ActionTypeCollection</a>
+</p>
+</section>
       <h4><a class="xref" href="HomeSeer.PluginSdk.Events.AbstractTriggerType.html">AbstractTriggerType</a></h4>
       <section><p>The base implementation of a plugin trigger type available for users to select in HomeSeer</p>
+<p>
+Inherit from this class to define your own trigger types and store them in your plugin&apos;s <a class="xref" href="HomeSeer.PluginSdk.Events.TriggerTypeCollection.html">TriggerTypeCollection</a>
+</p>
+</section>
+      <h4><a class="xref" href="HomeSeer.PluginSdk.Events.AbstractTriggerType2.html">AbstractTriggerType2</a></h4>
+      <section><p>The base implementation of a plugin trigger type available for users to select in HomeSeer</p>
+<p>
+The difference between <a class="xref" href="HomeSeer.PluginSdk.Events.AbstractTriggerType2.html">AbstractTriggerType2</a> and <a class="xref" href="HomeSeer.PluginSdk.Events.AbstractTriggerType.html">AbstractTriggerType</a>, is that with
+<a class="xref" href="HomeSeer.PluginSdk.Events.AbstractTriggerType2.html">AbstractTriggerType2</a> only a collection of view Id/Value pairs is stored in database whereas with 
+<a class="xref" href="HomeSeer.PluginSdk.Events.AbstractTriggerType.html">AbstractTriggerType</a> the whole <a class="xref" href="HomeSeer.PluginSdk.Events.AbstractTriggerType.html#HomeSeer_PluginSdk_Events_AbstractTriggerType_ConfigPage">ConfigPage</a> is stored. This allows 
+the plugin to build the views in <a class="xref" href="HomeSeer.PluginSdk.Events.AbstractTriggerType2.html#HomeSeer_PluginSdk_Events_AbstractTriggerType2_OnInstantiateTrigger_System_Collections_Generic_Dictionary_System_String_System_String__">OnInstantiateTrigger(Dictionary&lt;String, String&gt;)</a> every time a trigger is instantiated.
+</p>
 <p>
 Inherit from this class to define your own trigger types and store them in your plugin&apos;s <a class="xref" href="HomeSeer.PluginSdk.Events.TriggerTypeCollection.html">TriggerTypeCollection</a>
 </p>

@@ -1,0 +1,170 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Plugin SDK v1.4.3.0 Release Notes | HomeSeer PluginSdk Docs </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Plugin SDK v1.4.3.0 Release Notes | HomeSeer PluginSdk Docs ">
+    <meta name="generator" content="docfx 2.59.4.0">
+    
+    <link rel="shortcut icon" href="../images/favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <link rel="stylesheet" href="../styles/perfect-scrollbar.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet"> 
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    <meta property="docfx:rel" content="../">
+    
+  </head>  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../images/HomeSeer_Full_Logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div class="container body-content">
+        
+        <div id="search-results">
+          <div class="search-list">Search Results for <span></span></div>
+          <div class="sr-items">
+            <p><i class="glyphicon glyphicon-refresh index-loading"></i></p>
+          </div>
+          <ul id="pagination" data-first="First" data-prev="Previous" data-next="Next" data-last="Last"></ul>
+        </div>
+      </div>
+      <div role="main" class="container-fluid body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+      <div class="col-md-1"></div>
+      <div class="col-md-8 card">
+        <article class="content wrap" id="_content" data-uid="">
+<h1 id="plugin-sdk-v1430-release-notes">Plugin SDK v1.4.3.0 Release Notes</h1>
+
+<p><img src="https://img.shields.io/badge/Requires-HomeSeer%20v4.2.17.0-blue" alt="Required HS Core Version"></p>
+<p>This release is focused on updates to the JUI framework to improve performance and make it more flexible. This includes backend changes to the way data is managed for events.</p>
+<ul>
+<li>Changes to <a class="xref" href="../api/HomeSeer.Jui.Views.GridView.html"><code>GridView</code></a>
+<ul>
+<li><a class="xref" href="../api/HomeSeer.Jui.Views.GridView.html"><code>GridViews</code></a> with <a class="xref" href="../api/HomeSeer.Jui.Views.SelectListView.html"><code>SelectListViews</code></a> inside of them were not behaving correctly in event actions and triggers. <a class="xref" href="../api/HomeSeer.Jui.Views.GridView.html"><code>GridViews</code></a> should now behave as expected. (PSDK-291) (<a href="https://github.com/HomeSeer/Plugin-SDK/issues/314">#314</a>)</li>
+<li><a class="xref" href="../api/HomeSeer.Jui.Views.GridRow.html#HomeSeer_Jui_Views_GridRow_HorizontalAlignment_"><code>GridRow.HorizontalAlignment</code></a> and <a class="xref" href="../api/HomeSeer.Jui.Views.GridRow.html#HomeSeer_Jui_Views_GridRow_VerticalAlignment_"><code>GridRow.VerticalAlignment</code></a> properties have been added to allow you to change the content alignment within a <a class="xref" href="../api/HomeSeer.Jui.Views.GridView.html"><code>GridView</code></a> <a class="xref" href="../api/HomeSeer.Jui.Views.GridRow.html"><code>GridRow</code></a>.
+Use the enums <a class="xref" href="../api/HomeSeer.Jui.Views.EHorizontalAlignment.html"><code>EHorizontalAlignment</code></a> and <a class="xref" href="../api/HomeSeer.Jui.Views.EVerticalAlignment.html"><code>EVerticalAlignment</code></a>. (PSDK-295)
+<ul>
+<li>Add <a class="xref" href="../api/HomeSeer.Jui.Views.GridRow.html#HomeSeer_Jui_Views_GridRow_HorizontalAlignment_"><code>GridRow.HorizontalAlignment</code></a></li>
+<li>Add <a class="xref" href="../api/HomeSeer.Jui.Views.GridRow.html#HomeSeer_Jui_Views_GridRow_VerticalAlignment_"><code>GridRow.VerticalAlignment</code></a></li>
+<li>Add <a class="xref" href="../api/HomeSeer.Jui.Views.EHorizontalAlignment.html"><code>EHorizontalAlignment</code></a></li>
+<li>Add <a class="xref" href="../api/HomeSeer.Jui.Views.EVerticalAlignment.html"><code>EVerticalAlignment</code></a></li>
+</ul>
+</li>
+<li><a class="xref" href="../api/HomeSeer.Jui.Views.GridView.html"><code>GridViews</code></a> did not align with other views correctly due to some extra padding being added into their HTML. This padding has been removed to better align the view on pages. (PSDK-297)</li>
+</ul>
+</li>
+<li>Changes to <a class="xref" href="../api/HomeSeer.Jui.Views.SelectListView.html"><code>SelectListView</code></a>
+<ul>
+<li>Add <a class="xref" href="../api/HomeSeer.Jui.Views.SelectListView.html#HomeSeer_Jui_Views_SelectListView_UseOptionKeyAsSelectionValue_"><code>SelectListView.UseOptionKeyAsSelectionValue</code></a> to allow <a class="xref" href="../api/HomeSeer.Jui.Views.SelectListView.html"><code>SelectListView</code></a> to use the option key as the value of the option in HTML (PSDK-299)</li>
+<li>Include <a class="xref" href="../api/HomeSeer.Jui.Views.SelectListView.html#HomeSeer_Jui_Views_SelectListView_OptionKeys"><code>OptionKeys</code></a> in <a class="xref" href="../api/HomeSeer.Jui.Views.SelectListView.html"><code>SelectListView</code></a> when posted back from HS in <a class="xref" href="../api/HomeSeer.PluginSdk.AbstractPlugin.html#HomeSeer_PluginSdk_AbstractPlugin_OnDeviceConfigChange_"><code>OnDeviceConfigChange</code></a> (PSDK-101) (<a href="https://github.com/HomeSeer/Plugin-SDK/issues/124">#124</a> <a href="https://github.com/HomeSeer/Plugin-SDK/issues/201">#201</a> <a href="https://github.com/HomeSeer/Plugin-SDK/issues/223">#223</a>)</li>
+</ul>
+</li>
+<li>Change how plugin triggers and actions are saved to events.json. Previously, the whole page (i.e. collection of JUI views) was serialized and saved to events.json. This was causing some problems for select lists that contain dynamic data (such as a list of devices)
+because the entire select list is loaded from JSON and no call to the plugin is made to refresh it.
+Now, we only save a list of key/value pairs to events.json, where the key is the id of the view and the value is the return from <a class="xref" href="../api/HomeSeer.Jui.Views.AbstractView.html#HomeSeer_Jui_Views_AbstractView_GetStringValue"><code>AbstractView.GetStringValue()</code></a>
+(the same thing as the dictionary returned by <a class="xref" href="../api/HomeSeer.Jui.Views.Page.html#HomeSeer_Jui_Views_Page_ToValueMap_"><code>Page.ToValueMap()</code></a>), and rely on the plugin the provide the translated list of key/value pairs to display to the user.
+This behavior is automatically handled using <a class="xref" href="../api/HomeSeer.PluginSdk.Events.AbstractActionType.html"><code>AbstractActionType</code></a> and <a class="xref" href="../api/HomeSeer.PluginSdk.Events.AbstractTriggerType.html"><code>AbstractTriggerType</code></a>, and <a class="xref" href="../api/HomeSeer.PluginSdk.Events.AbstractActionType2.html"><code>AbstractActionType2</code></a> and <a class="xref" href="../api/HomeSeer.PluginSdk.Events.AbstractTriggerType2.html"><code>AbstractTriggerType2</code></a>
+have been added to allow you finer control over this behavior.
+The sample plugin has been updated to include an example of this; see the &quot;Write Device PED to Log&quot; event action. (PSDK-298) (PSDK-303)
+<ul>
+<li>Add <a class="xref" href="../api/HomeSeer.PluginSdk.Events.AbstractActionType2.html"><code>AbstractActionType2</code></a></li>
+<li>Add <a class="xref" href="../api/HomeSeer.PluginSdk.Events.AbstractTriggerType2.html"><code>AbstractTriggerType2</code></a></li>
+</ul>
+</li>
+</ul>
+</article>
+      </div>
+        
+        <div class="hidden-sm col-md-2" role="complementary">
+          <div class="sideaffix" id="ps-sideaffix">
+            <div class="contribution">
+              <ul class="nav">
+              </ul>
+            </div>
+            <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <h5>In This Article</h5>
+              <div></div>
+            </nav>
+          </div>
+        </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            HomeSeer Technologies
+            
+          </div>
+        </div>
+      </footer>
+    </div>
+    <!-- Mermaid -->
+    <!-- Lets you create diagrams and visualizations using text and code. -->
+    <!-- https://mermaid-js.github.io/mermaid/ -->
+    
+    <!-- Required styles -->
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+    <!-- Load v9.1.3 of Mermaid -->
+    <!-- Hash obtained via https://www.srihash.org/ -->
+    <script type="text/javascript" src="https://unpkg.com/mermaid@9.1.3/dist/mermaid.min.js" integrity="sha384-LnGjpNDrP4cp7MIk4CpRa/lPNclrf839ryYVFx1T1mPSV3RGAZ7nlBa7pqcyGY/K" crossorigin="anonymous"></script>
+    <!-- Initialize Mermaid -->
+    <script>
+        mermaid.initialize({
+            startOnLoad: false
+        });
+        mermaid.init(undefined, ".lang-mermaid");
+    </script>  </body>
+</html>

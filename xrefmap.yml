@@ -331,6 +331,19 @@ references:
   commentId: F:HomeSeer.Jui.Views.AbstractView.NonAllowedCharactersForId
   fullName: HomeSeer.Jui.Views.AbstractView.NonAllowedCharactersForId
   nameWithType: AbstractView.NonAllowedCharactersForId
+- uid: HomeSeer.Jui.Views.AbstractView.ShallowCopy
+  name: ShallowCopy()
+  href: api/HomeSeer.Jui.Views.AbstractView.html#HomeSeer_Jui_Views_AbstractView_ShallowCopy
+  commentId: M:HomeSeer.Jui.Views.AbstractView.ShallowCopy
+  fullName: HomeSeer.Jui.Views.AbstractView.ShallowCopy()
+  nameWithType: AbstractView.ShallowCopy()
+- uid: HomeSeer.Jui.Views.AbstractView.ShallowCopy*
+  name: ShallowCopy
+  href: api/HomeSeer.Jui.Views.AbstractView.html#HomeSeer_Jui_Views_AbstractView_ShallowCopy_
+  commentId: Overload:HomeSeer.Jui.Views.AbstractView.ShallowCopy
+  isSpec: "True"
+  fullName: HomeSeer.Jui.Views.AbstractView.ShallowCopy
+  nameWithType: AbstractView.ShallowCopy
 - uid: HomeSeer.Jui.Views.AbstractView.ToHtml(System.Int32)
   name: ToHtml(Int32)
   href: api/HomeSeer.Jui.Views.AbstractView.html#HomeSeer_Jui_Views_AbstractView_ToHtml_System_Int32_
@@ -479,6 +492,78 @@ references:
   commentId: F:HomeSeer.Jui.Views.EColSize.None
   fullName: HomeSeer.Jui.Views.EColSize.None
   nameWithType: EColSize.None
+- uid: HomeSeer.Jui.Views.EHorizontalAlignment
+  name: EHorizontalAlignment
+  href: api/HomeSeer.Jui.Views.EHorizontalAlignment.html
+  commentId: T:HomeSeer.Jui.Views.EHorizontalAlignment
+  fullName: HomeSeer.Jui.Views.EHorizontalAlignment
+  nameWithType: EHorizontalAlignment
+- uid: HomeSeer.Jui.Views.EHorizontalAlignment.JustifyContentAround
+  name: JustifyContentAround
+  href: api/HomeSeer.Jui.Views.EHorizontalAlignment.html#HomeSeer_Jui_Views_EHorizontalAlignment_JustifyContentAround
+  commentId: F:HomeSeer.Jui.Views.EHorizontalAlignment.JustifyContentAround
+  fullName: HomeSeer.Jui.Views.EHorizontalAlignment.JustifyContentAround
+  nameWithType: EHorizontalAlignment.JustifyContentAround
+- uid: HomeSeer.Jui.Views.EHorizontalAlignment.JustifyContentBetween
+  name: JustifyContentBetween
+  href: api/HomeSeer.Jui.Views.EHorizontalAlignment.html#HomeSeer_Jui_Views_EHorizontalAlignment_JustifyContentBetween
+  commentId: F:HomeSeer.Jui.Views.EHorizontalAlignment.JustifyContentBetween
+  fullName: HomeSeer.Jui.Views.EHorizontalAlignment.JustifyContentBetween
+  nameWithType: EHorizontalAlignment.JustifyContentBetween
+- uid: HomeSeer.Jui.Views.EHorizontalAlignment.JustifyContentCenter
+  name: JustifyContentCenter
+  href: api/HomeSeer.Jui.Views.EHorizontalAlignment.html#HomeSeer_Jui_Views_EHorizontalAlignment_JustifyContentCenter
+  commentId: F:HomeSeer.Jui.Views.EHorizontalAlignment.JustifyContentCenter
+  fullName: HomeSeer.Jui.Views.EHorizontalAlignment.JustifyContentCenter
+  nameWithType: EHorizontalAlignment.JustifyContentCenter
+- uid: HomeSeer.Jui.Views.EHorizontalAlignment.JustifyContentEnd
+  name: JustifyContentEnd
+  href: api/HomeSeer.Jui.Views.EHorizontalAlignment.html#HomeSeer_Jui_Views_EHorizontalAlignment_JustifyContentEnd
+  commentId: F:HomeSeer.Jui.Views.EHorizontalAlignment.JustifyContentEnd
+  fullName: HomeSeer.Jui.Views.EHorizontalAlignment.JustifyContentEnd
+  nameWithType: EHorizontalAlignment.JustifyContentEnd
+- uid: HomeSeer.Jui.Views.EHorizontalAlignment.JustifyContentStart
+  name: JustifyContentStart
+  href: api/HomeSeer.Jui.Views.EHorizontalAlignment.html#HomeSeer_Jui_Views_EHorizontalAlignment_JustifyContentStart
+  commentId: F:HomeSeer.Jui.Views.EHorizontalAlignment.JustifyContentStart
+  fullName: HomeSeer.Jui.Views.EHorizontalAlignment.JustifyContentStart
+  nameWithType: EHorizontalAlignment.JustifyContentStart
+- uid: HomeSeer.Jui.Views.EHorizontalAlignment.None
+  name: None
+  href: api/HomeSeer.Jui.Views.EHorizontalAlignment.html#HomeSeer_Jui_Views_EHorizontalAlignment_None
+  commentId: F:HomeSeer.Jui.Views.EHorizontalAlignment.None
+  fullName: HomeSeer.Jui.Views.EHorizontalAlignment.None
+  nameWithType: EHorizontalAlignment.None
+- uid: HomeSeer.Jui.Views.EVerticalAlignment
+  name: EVerticalAlignment
+  href: api/HomeSeer.Jui.Views.EVerticalAlignment.html
+  commentId: T:HomeSeer.Jui.Views.EVerticalAlignment
+  fullName: HomeSeer.Jui.Views.EVerticalAlignment
+  nameWithType: EVerticalAlignment
+- uid: HomeSeer.Jui.Views.EVerticalAlignment.AlignItemsCenter
+  name: AlignItemsCenter
+  href: api/HomeSeer.Jui.Views.EVerticalAlignment.html#HomeSeer_Jui_Views_EVerticalAlignment_AlignItemsCenter
+  commentId: F:HomeSeer.Jui.Views.EVerticalAlignment.AlignItemsCenter
+  fullName: HomeSeer.Jui.Views.EVerticalAlignment.AlignItemsCenter
+  nameWithType: EVerticalAlignment.AlignItemsCenter
+- uid: HomeSeer.Jui.Views.EVerticalAlignment.AlignItemsEnd
+  name: AlignItemsEnd
+  href: api/HomeSeer.Jui.Views.EVerticalAlignment.html#HomeSeer_Jui_Views_EVerticalAlignment_AlignItemsEnd
+  commentId: F:HomeSeer.Jui.Views.EVerticalAlignment.AlignItemsEnd
+  fullName: HomeSeer.Jui.Views.EVerticalAlignment.AlignItemsEnd
+  nameWithType: EVerticalAlignment.AlignItemsEnd
+- uid: HomeSeer.Jui.Views.EVerticalAlignment.AlignItemsStart
+  name: AlignItemsStart
+  href: api/HomeSeer.Jui.Views.EVerticalAlignment.html#HomeSeer_Jui_Views_EVerticalAlignment_AlignItemsStart
+  commentId: F:HomeSeer.Jui.Views.EVerticalAlignment.AlignItemsStart
+  fullName: HomeSeer.Jui.Views.EVerticalAlignment.AlignItemsStart
+  nameWithType: EVerticalAlignment.AlignItemsStart
+- uid: HomeSeer.Jui.Views.EVerticalAlignment.None
+  name: None
+  href: api/HomeSeer.Jui.Views.EVerticalAlignment.html#HomeSeer_Jui_Views_EVerticalAlignment_None
+  commentId: F:HomeSeer.Jui.Views.EVerticalAlignment.None
+  fullName: HomeSeer.Jui.Views.EVerticalAlignment.None
+  nameWithType: EVerticalAlignment.None
 - uid: HomeSeer.Jui.Views.GridRow
   name: GridRow
   href: api/HomeSeer.Jui.Views.GridRow.html
@@ -517,6 +602,45 @@ references:
   isSpec: "True"
   fullName: HomeSeer.Jui.Views.GridRow.AddItem
   nameWithType: GridRow.AddItem
+- uid: HomeSeer.Jui.Views.GridRow.GetHorizontalAlignmentClass
+  name: GetHorizontalAlignmentClass()
+  href: api/HomeSeer.Jui.Views.GridRow.html#HomeSeer_Jui_Views_GridRow_GetHorizontalAlignmentClass
+  commentId: M:HomeSeer.Jui.Views.GridRow.GetHorizontalAlignmentClass
+  fullName: HomeSeer.Jui.Views.GridRow.GetHorizontalAlignmentClass()
+  nameWithType: GridRow.GetHorizontalAlignmentClass()
+- uid: HomeSeer.Jui.Views.GridRow.GetHorizontalAlignmentClass*
+  name: GetHorizontalAlignmentClass
+  href: api/HomeSeer.Jui.Views.GridRow.html#HomeSeer_Jui_Views_GridRow_GetHorizontalAlignmentClass_
+  commentId: Overload:HomeSeer.Jui.Views.GridRow.GetHorizontalAlignmentClass
+  isSpec: "True"
+  fullName: HomeSeer.Jui.Views.GridRow.GetHorizontalAlignmentClass
+  nameWithType: GridRow.GetHorizontalAlignmentClass
+- uid: HomeSeer.Jui.Views.GridRow.GetVerticalAlignmentClass
+  name: GetVerticalAlignmentClass()
+  href: api/HomeSeer.Jui.Views.GridRow.html#HomeSeer_Jui_Views_GridRow_GetVerticalAlignmentClass
+  commentId: M:HomeSeer.Jui.Views.GridRow.GetVerticalAlignmentClass
+  fullName: HomeSeer.Jui.Views.GridRow.GetVerticalAlignmentClass()
+  nameWithType: GridRow.GetVerticalAlignmentClass()
+- uid: HomeSeer.Jui.Views.GridRow.GetVerticalAlignmentClass*
+  name: GetVerticalAlignmentClass
+  href: api/HomeSeer.Jui.Views.GridRow.html#HomeSeer_Jui_Views_GridRow_GetVerticalAlignmentClass_
+  commentId: Overload:HomeSeer.Jui.Views.GridRow.GetVerticalAlignmentClass
+  isSpec: "True"
+  fullName: HomeSeer.Jui.Views.GridRow.GetVerticalAlignmentClass
+  nameWithType: GridRow.GetVerticalAlignmentClass
+- uid: HomeSeer.Jui.Views.GridRow.HorizontalAlignment
+  name: HorizontalAlignment
+  href: api/HomeSeer.Jui.Views.GridRow.html#HomeSeer_Jui_Views_GridRow_HorizontalAlignment
+  commentId: P:HomeSeer.Jui.Views.GridRow.HorizontalAlignment
+  fullName: HomeSeer.Jui.Views.GridRow.HorizontalAlignment
+  nameWithType: GridRow.HorizontalAlignment
+- uid: HomeSeer.Jui.Views.GridRow.HorizontalAlignment*
+  name: HorizontalAlignment
+  href: api/HomeSeer.Jui.Views.GridRow.html#HomeSeer_Jui_Views_GridRow_HorizontalAlignment_
+  commentId: Overload:HomeSeer.Jui.Views.GridRow.HorizontalAlignment
+  isSpec: "True"
+  fullName: HomeSeer.Jui.Views.GridRow.HorizontalAlignment
+  nameWithType: GridRow.HorizontalAlignment
 - uid: HomeSeer.Jui.Views.GridRow.ToHtml(System.Int32)
   name: ToHtml(Int32)
   href: api/HomeSeer.Jui.Views.GridRow.html#HomeSeer_Jui_Views_GridRow_ToHtml_System_Int32_
@@ -530,6 +654,19 @@ references:
   isSpec: "True"
   fullName: HomeSeer.Jui.Views.GridRow.ToHtml
   nameWithType: GridRow.ToHtml
+- uid: HomeSeer.Jui.Views.GridRow.VerticalAlignment
+  name: VerticalAlignment
+  href: api/HomeSeer.Jui.Views.GridRow.html#HomeSeer_Jui_Views_GridRow_VerticalAlignment
+  commentId: P:HomeSeer.Jui.Views.GridRow.VerticalAlignment
+  fullName: HomeSeer.Jui.Views.GridRow.VerticalAlignment
+  nameWithType: GridRow.VerticalAlignment
+- uid: HomeSeer.Jui.Views.GridRow.VerticalAlignment*
+  name: VerticalAlignment
+  href: api/HomeSeer.Jui.Views.GridRow.html#HomeSeer_Jui_Views_GridRow_VerticalAlignment_
+  commentId: Overload:HomeSeer.Jui.Views.GridRow.VerticalAlignment
+  isSpec: "True"
+  fullName: HomeSeer.Jui.Views.GridRow.VerticalAlignment
+  nameWithType: GridRow.VerticalAlignment
 - uid: HomeSeer.Jui.Views.GridRow.Views
   name: Views
   href: api/HomeSeer.Jui.Views.GridRow.html#HomeSeer_Jui_Views_GridRow_Views
@@ -1181,6 +1318,12 @@ references:
   isSpec: "True"
   fullName: HomeSeer.Jui.Views.Page.AddView
   nameWithType: Page.AddView
+- uid: HomeSeer.Jui.Views.Page.AddViewDelta(HomeSeer.Jui.Views.AbstractView,System.Object)
+  name: AddViewDelta(AbstractView, Object)
+  href: api/HomeSeer.Jui.Views.Page.html#HomeSeer_Jui_Views_Page_AddViewDelta_HomeSeer_Jui_Views_AbstractView_System_Object_
+  commentId: M:HomeSeer.Jui.Views.Page.AddViewDelta(HomeSeer.Jui.Views.AbstractView,System.Object)
+  fullName: HomeSeer.Jui.Views.Page.AddViewDelta(HomeSeer.Jui.Views.AbstractView, System.Object)
+  nameWithType: Page.AddViewDelta(AbstractView, Object)
 - uid: HomeSeer.Jui.Views.Page.AddViewDelta(System.String,System.Int32,System.Object)
   name: AddViewDelta(String, Int32, Object)
   href: api/HomeSeer.Jui.Views.Page.html#HomeSeer_Jui_Views_Page_AddViewDelta_System_String_System_Int32_System_Object_
@@ -2167,6 +2310,19 @@ references:
   isSpec: "True"
   fullName: HomeSeer.Jui.Views.SelectListView.UpdateValue
   nameWithType: SelectListView.UpdateValue
+- uid: HomeSeer.Jui.Views.SelectListView.UseOptionKeyAsSelectionValue
+  name: UseOptionKeyAsSelectionValue
+  href: api/HomeSeer.Jui.Views.SelectListView.html#HomeSeer_Jui_Views_SelectListView_UseOptionKeyAsSelectionValue
+  commentId: P:HomeSeer.Jui.Views.SelectListView.UseOptionKeyAsSelectionValue
+  fullName: HomeSeer.Jui.Views.SelectListView.UseOptionKeyAsSelectionValue
+  nameWithType: SelectListView.UseOptionKeyAsSelectionValue
+- uid: HomeSeer.Jui.Views.SelectListView.UseOptionKeyAsSelectionValue*
+  name: UseOptionKeyAsSelectionValue
+  href: api/HomeSeer.Jui.Views.SelectListView.html#HomeSeer_Jui_Views_SelectListView_UseOptionKeyAsSelectionValue_
+  commentId: Overload:HomeSeer.Jui.Views.SelectListView.UseOptionKeyAsSelectionValue
+  isSpec: "True"
+  fullName: HomeSeer.Jui.Views.SelectListView.UseOptionKeyAsSelectionValue
+  nameWithType: SelectListView.UseOptionKeyAsSelectionValue
 - uid: HomeSeer.Jui.Views.SettingsCollection
   name: SettingsCollection
   href: api/HomeSeer.Jui.Views.SettingsCollection.html
@@ -11248,6 +11404,110 @@ references:
   isSpec: "True"
   fullName: HomeSeer.PluginSdk.Events.AbstractActionType.ToHtml
   nameWithType: AbstractActionType.ToHtml
+- uid: HomeSeer.PluginSdk.Events.AbstractActionType2
+  name: AbstractActionType2
+  href: api/HomeSeer.PluginSdk.Events.AbstractActionType2.html
+  commentId: T:HomeSeer.PluginSdk.Events.AbstractActionType2
+  fullName: HomeSeer.PluginSdk.Events.AbstractActionType2
+  nameWithType: AbstractActionType2
+- uid: HomeSeer.PluginSdk.Events.AbstractActionType2.#ctor
+  name: AbstractActionType2()
+  href: api/HomeSeer.PluginSdk.Events.AbstractActionType2.html#HomeSeer_PluginSdk_Events_AbstractActionType2__ctor
+  commentId: M:HomeSeer.PluginSdk.Events.AbstractActionType2.#ctor
+  fullName: HomeSeer.PluginSdk.Events.AbstractActionType2.AbstractActionType2()
+  nameWithType: AbstractActionType2.AbstractActionType2()
+- uid: HomeSeer.PluginSdk.Events.AbstractActionType2.#ctor(System.Int32,System.Int32,System.Byte[],HomeSeer.PluginSdk.Events.ActionTypeCollection.IActionTypeListener)
+  name: AbstractActionType2(Int32, Int32, Byte[], ActionTypeCollection.IActionTypeListener)
+  href: api/HomeSeer.PluginSdk.Events.AbstractActionType2.html#HomeSeer_PluginSdk_Events_AbstractActionType2__ctor_System_Int32_System_Int32_System_Byte___HomeSeer_PluginSdk_Events_ActionTypeCollection_IActionTypeListener_
+  commentId: M:HomeSeer.PluginSdk.Events.AbstractActionType2.#ctor(System.Int32,System.Int32,System.Byte[],HomeSeer.PluginSdk.Events.ActionTypeCollection.IActionTypeListener)
+  name.vb: AbstractActionType2(Int32, Int32, Byte(), ActionTypeCollection.IActionTypeListener)
+  fullName: HomeSeer.PluginSdk.Events.AbstractActionType2.AbstractActionType2(System.Int32, System.Int32, System.Byte[], HomeSeer.PluginSdk.Events.ActionTypeCollection.IActionTypeListener)
+  fullName.vb: HomeSeer.PluginSdk.Events.AbstractActionType2.AbstractActionType2(System.Int32, System.Int32, System.Byte(), HomeSeer.PluginSdk.Events.ActionTypeCollection.IActionTypeListener)
+  nameWithType: AbstractActionType2.AbstractActionType2(Int32, Int32, Byte[], ActionTypeCollection.IActionTypeListener)
+  nameWithType.vb: AbstractActionType2.AbstractActionType2(Int32, Int32, Byte(), ActionTypeCollection.IActionTypeListener)
+- uid: HomeSeer.PluginSdk.Events.AbstractActionType2.#ctor(System.Int32,System.Int32,System.Byte[],HomeSeer.PluginSdk.Events.ActionTypeCollection.IActionTypeListener,System.Boolean)
+  name: AbstractActionType2(Int32, Int32, Byte[], ActionTypeCollection.IActionTypeListener, Boolean)
+  href: api/HomeSeer.PluginSdk.Events.AbstractActionType2.html#HomeSeer_PluginSdk_Events_AbstractActionType2__ctor_System_Int32_System_Int32_System_Byte___HomeSeer_PluginSdk_Events_ActionTypeCollection_IActionTypeListener_System_Boolean_
+  commentId: M:HomeSeer.PluginSdk.Events.AbstractActionType2.#ctor(System.Int32,System.Int32,System.Byte[],HomeSeer.PluginSdk.Events.ActionTypeCollection.IActionTypeListener,System.Boolean)
+  name.vb: AbstractActionType2(Int32, Int32, Byte(), ActionTypeCollection.IActionTypeListener, Boolean)
+  fullName: HomeSeer.PluginSdk.Events.AbstractActionType2.AbstractActionType2(System.Int32, System.Int32, System.Byte[], HomeSeer.PluginSdk.Events.ActionTypeCollection.IActionTypeListener, System.Boolean)
+  fullName.vb: HomeSeer.PluginSdk.Events.AbstractActionType2.AbstractActionType2(System.Int32, System.Int32, System.Byte(), HomeSeer.PluginSdk.Events.ActionTypeCollection.IActionTypeListener, System.Boolean)
+  nameWithType: AbstractActionType2.AbstractActionType2(Int32, Int32, Byte[], ActionTypeCollection.IActionTypeListener, Boolean)
+  nameWithType.vb: AbstractActionType2.AbstractActionType2(Int32, Int32, Byte(), ActionTypeCollection.IActionTypeListener, Boolean)
+- uid: HomeSeer.PluginSdk.Events.AbstractActionType2.#ctor(System.Int32,System.Int32,System.Int32,System.Byte[],HomeSeer.PluginSdk.Events.ActionTypeCollection.IActionTypeListener)
+  name: AbstractActionType2(Int32, Int32, Int32, Byte[], ActionTypeCollection.IActionTypeListener)
+  href: api/HomeSeer.PluginSdk.Events.AbstractActionType2.html#HomeSeer_PluginSdk_Events_AbstractActionType2__ctor_System_Int32_System_Int32_System_Int32_System_Byte___HomeSeer_PluginSdk_Events_ActionTypeCollection_IActionTypeListener_
+  commentId: M:HomeSeer.PluginSdk.Events.AbstractActionType2.#ctor(System.Int32,System.Int32,System.Int32,System.Byte[],HomeSeer.PluginSdk.Events.ActionTypeCollection.IActionTypeListener)
+  name.vb: AbstractActionType2(Int32, Int32, Int32, Byte(), ActionTypeCollection.IActionTypeListener)
+  fullName: HomeSeer.PluginSdk.Events.AbstractActionType2.AbstractActionType2(System.Int32, System.Int32, System.Int32, System.Byte[], HomeSeer.PluginSdk.Events.ActionTypeCollection.IActionTypeListener)
+  fullName.vb: HomeSeer.PluginSdk.Events.AbstractActionType2.AbstractActionType2(System.Int32, System.Int32, System.Int32, System.Byte(), HomeSeer.PluginSdk.Events.ActionTypeCollection.IActionTypeListener)
+  nameWithType: AbstractActionType2.AbstractActionType2(Int32, Int32, Int32, Byte[], ActionTypeCollection.IActionTypeListener)
+  nameWithType.vb: AbstractActionType2.AbstractActionType2(Int32, Int32, Int32, Byte(), ActionTypeCollection.IActionTypeListener)
+- uid: HomeSeer.PluginSdk.Events.AbstractActionType2.#ctor*
+  name: AbstractActionType2
+  href: api/HomeSeer.PluginSdk.Events.AbstractActionType2.html#HomeSeer_PluginSdk_Events_AbstractActionType2__ctor_
+  commentId: Overload:HomeSeer.PluginSdk.Events.AbstractActionType2.#ctor
+  isSpec: "True"
+  fullName: HomeSeer.PluginSdk.Events.AbstractActionType2.AbstractActionType2
+  nameWithType: AbstractActionType2.AbstractActionType2
+- uid: HomeSeer.PluginSdk.Events.AbstractActionType2.GetData
+  name: GetData()
+  href: api/HomeSeer.PluginSdk.Events.AbstractActionType2.html#HomeSeer_PluginSdk_Events_AbstractActionType2_GetData
+  commentId: M:HomeSeer.PluginSdk.Events.AbstractActionType2.GetData
+  fullName: HomeSeer.PluginSdk.Events.AbstractActionType2.GetData()
+  nameWithType: AbstractActionType2.GetData()
+- uid: HomeSeer.PluginSdk.Events.AbstractActionType2.GetData*
+  name: GetData
+  href: api/HomeSeer.PluginSdk.Events.AbstractActionType2.html#HomeSeer_PluginSdk_Events_AbstractActionType2_GetData_
+  commentId: Overload:HomeSeer.PluginSdk.Events.AbstractActionType2.GetData
+  isSpec: "True"
+  fullName: HomeSeer.PluginSdk.Events.AbstractActionType2.GetData
+  nameWithType: AbstractActionType2.GetData
+- uid: HomeSeer.PluginSdk.Events.AbstractActionType2.OnInstantiateAction(System.Collections.Generic.Dictionary{System.String,System.String})
+  name: OnInstantiateAction(Dictionary<String, String>)
+  href: api/HomeSeer.PluginSdk.Events.AbstractActionType2.html#HomeSeer_PluginSdk_Events_AbstractActionType2_OnInstantiateAction_System_Collections_Generic_Dictionary_System_String_System_String__
+  commentId: M:HomeSeer.PluginSdk.Events.AbstractActionType2.OnInstantiateAction(System.Collections.Generic.Dictionary{System.String,System.String})
+  name.vb: OnInstantiateAction(Dictionary(Of String, String))
+  fullName: HomeSeer.PluginSdk.Events.AbstractActionType2.OnInstantiateAction(System.Collections.Generic.Dictionary<System.String, System.String>)
+  fullName.vb: HomeSeer.PluginSdk.Events.AbstractActionType2.OnInstantiateAction(System.Collections.Generic.Dictionary(Of System.String, System.String))
+  nameWithType: AbstractActionType2.OnInstantiateAction(Dictionary<String, String>)
+  nameWithType.vb: AbstractActionType2.OnInstantiateAction(Dictionary(Of String, String))
+- uid: HomeSeer.PluginSdk.Events.AbstractActionType2.OnInstantiateAction*
+  name: OnInstantiateAction
+  href: api/HomeSeer.PluginSdk.Events.AbstractActionType2.html#HomeSeer_PluginSdk_Events_AbstractActionType2_OnInstantiateAction_
+  commentId: Overload:HomeSeer.PluginSdk.Events.AbstractActionType2.OnInstantiateAction
+  isSpec: "True"
+  fullName: HomeSeer.PluginSdk.Events.AbstractActionType2.OnInstantiateAction
+  nameWithType: AbstractActionType2.OnInstantiateAction
+- uid: HomeSeer.PluginSdk.Events.AbstractActionType2.OnNewAction
+  name: OnNewAction()
+  href: api/HomeSeer.PluginSdk.Events.AbstractActionType2.html#HomeSeer_PluginSdk_Events_AbstractActionType2_OnNewAction
+  commentId: M:HomeSeer.PluginSdk.Events.AbstractActionType2.OnNewAction
+  fullName: HomeSeer.PluginSdk.Events.AbstractActionType2.OnNewAction()
+  nameWithType: AbstractActionType2.OnNewAction()
+- uid: HomeSeer.PluginSdk.Events.AbstractActionType2.OnNewAction*
+  name: OnNewAction
+  href: api/HomeSeer.PluginSdk.Events.AbstractActionType2.html#HomeSeer_PluginSdk_Events_AbstractActionType2_OnNewAction_
+  commentId: Overload:HomeSeer.PluginSdk.Events.AbstractActionType2.OnNewAction
+  isSpec: "True"
+  fullName: HomeSeer.PluginSdk.Events.AbstractActionType2.OnNewAction
+  nameWithType: AbstractActionType2.OnNewAction
+- uid: HomeSeer.PluginSdk.Events.AbstractActionType2.ProcessData(System.Byte[])
+  name: ProcessData(Byte[])
+  href: api/HomeSeer.PluginSdk.Events.AbstractActionType2.html#HomeSeer_PluginSdk_Events_AbstractActionType2_ProcessData_System_Byte___
+  commentId: M:HomeSeer.PluginSdk.Events.AbstractActionType2.ProcessData(System.Byte[])
+  name.vb: ProcessData(Byte())
+  fullName: HomeSeer.PluginSdk.Events.AbstractActionType2.ProcessData(System.Byte[])
+  fullName.vb: HomeSeer.PluginSdk.Events.AbstractActionType2.ProcessData(System.Byte())
+  nameWithType: AbstractActionType2.ProcessData(Byte[])
+  nameWithType.vb: AbstractActionType2.ProcessData(Byte())
+- uid: HomeSeer.PluginSdk.Events.AbstractActionType2.ProcessData*
+  name: ProcessData
+  href: api/HomeSeer.PluginSdk.Events.AbstractActionType2.html#HomeSeer_PluginSdk_Events_AbstractActionType2_ProcessData_
+  commentId: Overload:HomeSeer.PluginSdk.Events.AbstractActionType2.ProcessData
+  isSpec: "True"
+  fullName: HomeSeer.PluginSdk.Events.AbstractActionType2.ProcessData
+  nameWithType: AbstractActionType2.ProcessData
 - uid: HomeSeer.PluginSdk.Events.AbstractTriggerType
   name: AbstractTriggerType
   href: api/HomeSeer.PluginSdk.Events.AbstractTriggerType.html
@@ -11713,6 +11973,107 @@ references:
   isSpec: "True"
   fullName: HomeSeer.PluginSdk.Events.AbstractTriggerType.TriggerListener
   nameWithType: AbstractTriggerType.TriggerListener
+- uid: HomeSeer.PluginSdk.Events.AbstractTriggerType2
+  name: AbstractTriggerType2
+  href: api/HomeSeer.PluginSdk.Events.AbstractTriggerType2.html
+  commentId: T:HomeSeer.PluginSdk.Events.AbstractTriggerType2
+  fullName: HomeSeer.PluginSdk.Events.AbstractTriggerType2
+  nameWithType: AbstractTriggerType2
+- uid: HomeSeer.PluginSdk.Events.AbstractTriggerType2.#ctor
+  name: AbstractTriggerType2()
+  href: api/HomeSeer.PluginSdk.Events.AbstractTriggerType2.html#HomeSeer_PluginSdk_Events_AbstractTriggerType2__ctor
+  commentId: M:HomeSeer.PluginSdk.Events.AbstractTriggerType2.#ctor
+  fullName: HomeSeer.PluginSdk.Events.AbstractTriggerType2.AbstractTriggerType2()
+  nameWithType: AbstractTriggerType2.AbstractTriggerType2()
+- uid: HomeSeer.PluginSdk.Events.AbstractTriggerType2.#ctor(HomeSeer.PluginSdk.Events.TrigActInfo,HomeSeer.PluginSdk.Events.TriggerTypeCollection.ITriggerTypeListener,System.Boolean)
+  name: AbstractTriggerType2(TrigActInfo, TriggerTypeCollection.ITriggerTypeListener, Boolean)
+  href: api/HomeSeer.PluginSdk.Events.AbstractTriggerType2.html#HomeSeer_PluginSdk_Events_AbstractTriggerType2__ctor_HomeSeer_PluginSdk_Events_TrigActInfo_HomeSeer_PluginSdk_Events_TriggerTypeCollection_ITriggerTypeListener_System_Boolean_
+  commentId: M:HomeSeer.PluginSdk.Events.AbstractTriggerType2.#ctor(HomeSeer.PluginSdk.Events.TrigActInfo,HomeSeer.PluginSdk.Events.TriggerTypeCollection.ITriggerTypeListener,System.Boolean)
+  fullName: HomeSeer.PluginSdk.Events.AbstractTriggerType2.AbstractTriggerType2(HomeSeer.PluginSdk.Events.TrigActInfo, HomeSeer.PluginSdk.Events.TriggerTypeCollection.ITriggerTypeListener, System.Boolean)
+  nameWithType: AbstractTriggerType2.AbstractTriggerType2(TrigActInfo, TriggerTypeCollection.ITriggerTypeListener, Boolean)
+- uid: HomeSeer.PluginSdk.Events.AbstractTriggerType2.#ctor(System.Int32,System.Int32,System.Int32,System.Byte[],HomeSeer.PluginSdk.Events.TriggerTypeCollection.ITriggerTypeListener)
+  name: AbstractTriggerType2(Int32, Int32, Int32, Byte[], TriggerTypeCollection.ITriggerTypeListener)
+  href: api/HomeSeer.PluginSdk.Events.AbstractTriggerType2.html#HomeSeer_PluginSdk_Events_AbstractTriggerType2__ctor_System_Int32_System_Int32_System_Int32_System_Byte___HomeSeer_PluginSdk_Events_TriggerTypeCollection_ITriggerTypeListener_
+  commentId: M:HomeSeer.PluginSdk.Events.AbstractTriggerType2.#ctor(System.Int32,System.Int32,System.Int32,System.Byte[],HomeSeer.PluginSdk.Events.TriggerTypeCollection.ITriggerTypeListener)
+  name.vb: AbstractTriggerType2(Int32, Int32, Int32, Byte(), TriggerTypeCollection.ITriggerTypeListener)
+  fullName: HomeSeer.PluginSdk.Events.AbstractTriggerType2.AbstractTriggerType2(System.Int32, System.Int32, System.Int32, System.Byte[], HomeSeer.PluginSdk.Events.TriggerTypeCollection.ITriggerTypeListener)
+  fullName.vb: HomeSeer.PluginSdk.Events.AbstractTriggerType2.AbstractTriggerType2(System.Int32, System.Int32, System.Int32, System.Byte(), HomeSeer.PluginSdk.Events.TriggerTypeCollection.ITriggerTypeListener)
+  nameWithType: AbstractTriggerType2.AbstractTriggerType2(Int32, Int32, Int32, Byte[], TriggerTypeCollection.ITriggerTypeListener)
+  nameWithType.vb: AbstractTriggerType2.AbstractTriggerType2(Int32, Int32, Int32, Byte(), TriggerTypeCollection.ITriggerTypeListener)
+- uid: HomeSeer.PluginSdk.Events.AbstractTriggerType2.#ctor(System.Int32,System.Int32,System.Int32,System.Byte[],HomeSeer.PluginSdk.Events.TriggerTypeCollection.ITriggerTypeListener,System.Boolean)
+  name: AbstractTriggerType2(Int32, Int32, Int32, Byte[], TriggerTypeCollection.ITriggerTypeListener, Boolean)
+  href: api/HomeSeer.PluginSdk.Events.AbstractTriggerType2.html#HomeSeer_PluginSdk_Events_AbstractTriggerType2__ctor_System_Int32_System_Int32_System_Int32_System_Byte___HomeSeer_PluginSdk_Events_TriggerTypeCollection_ITriggerTypeListener_System_Boolean_
+  commentId: M:HomeSeer.PluginSdk.Events.AbstractTriggerType2.#ctor(System.Int32,System.Int32,System.Int32,System.Byte[],HomeSeer.PluginSdk.Events.TriggerTypeCollection.ITriggerTypeListener,System.Boolean)
+  name.vb: AbstractTriggerType2(Int32, Int32, Int32, Byte(), TriggerTypeCollection.ITriggerTypeListener, Boolean)
+  fullName: HomeSeer.PluginSdk.Events.AbstractTriggerType2.AbstractTriggerType2(System.Int32, System.Int32, System.Int32, System.Byte[], HomeSeer.PluginSdk.Events.TriggerTypeCollection.ITriggerTypeListener, System.Boolean)
+  fullName.vb: HomeSeer.PluginSdk.Events.AbstractTriggerType2.AbstractTriggerType2(System.Int32, System.Int32, System.Int32, System.Byte(), HomeSeer.PluginSdk.Events.TriggerTypeCollection.ITriggerTypeListener, System.Boolean)
+  nameWithType: AbstractTriggerType2.AbstractTriggerType2(Int32, Int32, Int32, Byte[], TriggerTypeCollection.ITriggerTypeListener, Boolean)
+  nameWithType.vb: AbstractTriggerType2.AbstractTriggerType2(Int32, Int32, Int32, Byte(), TriggerTypeCollection.ITriggerTypeListener, Boolean)
+- uid: HomeSeer.PluginSdk.Events.AbstractTriggerType2.#ctor*
+  name: AbstractTriggerType2
+  href: api/HomeSeer.PluginSdk.Events.AbstractTriggerType2.html#HomeSeer_PluginSdk_Events_AbstractTriggerType2__ctor_
+  commentId: Overload:HomeSeer.PluginSdk.Events.AbstractTriggerType2.#ctor
+  isSpec: "True"
+  fullName: HomeSeer.PluginSdk.Events.AbstractTriggerType2.AbstractTriggerType2
+  nameWithType: AbstractTriggerType2.AbstractTriggerType2
+- uid: HomeSeer.PluginSdk.Events.AbstractTriggerType2.GetData
+  name: GetData()
+  href: api/HomeSeer.PluginSdk.Events.AbstractTriggerType2.html#HomeSeer_PluginSdk_Events_AbstractTriggerType2_GetData
+  commentId: M:HomeSeer.PluginSdk.Events.AbstractTriggerType2.GetData
+  fullName: HomeSeer.PluginSdk.Events.AbstractTriggerType2.GetData()
+  nameWithType: AbstractTriggerType2.GetData()
+- uid: HomeSeer.PluginSdk.Events.AbstractTriggerType2.GetData*
+  name: GetData
+  href: api/HomeSeer.PluginSdk.Events.AbstractTriggerType2.html#HomeSeer_PluginSdk_Events_AbstractTriggerType2_GetData_
+  commentId: Overload:HomeSeer.PluginSdk.Events.AbstractTriggerType2.GetData
+  isSpec: "True"
+  fullName: HomeSeer.PluginSdk.Events.AbstractTriggerType2.GetData
+  nameWithType: AbstractTriggerType2.GetData
+- uid: HomeSeer.PluginSdk.Events.AbstractTriggerType2.OnInstantiateTrigger(System.Collections.Generic.Dictionary{System.String,System.String})
+  name: OnInstantiateTrigger(Dictionary<String, String>)
+  href: api/HomeSeer.PluginSdk.Events.AbstractTriggerType2.html#HomeSeer_PluginSdk_Events_AbstractTriggerType2_OnInstantiateTrigger_System_Collections_Generic_Dictionary_System_String_System_String__
+  commentId: M:HomeSeer.PluginSdk.Events.AbstractTriggerType2.OnInstantiateTrigger(System.Collections.Generic.Dictionary{System.String,System.String})
+  name.vb: OnInstantiateTrigger(Dictionary(Of String, String))
+  fullName: HomeSeer.PluginSdk.Events.AbstractTriggerType2.OnInstantiateTrigger(System.Collections.Generic.Dictionary<System.String, System.String>)
+  fullName.vb: HomeSeer.PluginSdk.Events.AbstractTriggerType2.OnInstantiateTrigger(System.Collections.Generic.Dictionary(Of System.String, System.String))
+  nameWithType: AbstractTriggerType2.OnInstantiateTrigger(Dictionary<String, String>)
+  nameWithType.vb: AbstractTriggerType2.OnInstantiateTrigger(Dictionary(Of String, String))
+- uid: HomeSeer.PluginSdk.Events.AbstractTriggerType2.OnInstantiateTrigger*
+  name: OnInstantiateTrigger
+  href: api/HomeSeer.PluginSdk.Events.AbstractTriggerType2.html#HomeSeer_PluginSdk_Events_AbstractTriggerType2_OnInstantiateTrigger_
+  commentId: Overload:HomeSeer.PluginSdk.Events.AbstractTriggerType2.OnInstantiateTrigger
+  isSpec: "True"
+  fullName: HomeSeer.PluginSdk.Events.AbstractTriggerType2.OnInstantiateTrigger
+  nameWithType: AbstractTriggerType2.OnInstantiateTrigger
+- uid: HomeSeer.PluginSdk.Events.AbstractTriggerType2.OnNewTrigger
+  name: OnNewTrigger()
+  href: api/HomeSeer.PluginSdk.Events.AbstractTriggerType2.html#HomeSeer_PluginSdk_Events_AbstractTriggerType2_OnNewTrigger
+  commentId: M:HomeSeer.PluginSdk.Events.AbstractTriggerType2.OnNewTrigger
+  fullName: HomeSeer.PluginSdk.Events.AbstractTriggerType2.OnNewTrigger()
+  nameWithType: AbstractTriggerType2.OnNewTrigger()
+- uid: HomeSeer.PluginSdk.Events.AbstractTriggerType2.OnNewTrigger*
+  name: OnNewTrigger
+  href: api/HomeSeer.PluginSdk.Events.AbstractTriggerType2.html#HomeSeer_PluginSdk_Events_AbstractTriggerType2_OnNewTrigger_
+  commentId: Overload:HomeSeer.PluginSdk.Events.AbstractTriggerType2.OnNewTrigger
+  isSpec: "True"
+  fullName: HomeSeer.PluginSdk.Events.AbstractTriggerType2.OnNewTrigger
+  nameWithType: AbstractTriggerType2.OnNewTrigger
+- uid: HomeSeer.PluginSdk.Events.AbstractTriggerType2.ProcessData(System.Byte[])
+  name: ProcessData(Byte[])
+  href: api/HomeSeer.PluginSdk.Events.AbstractTriggerType2.html#HomeSeer_PluginSdk_Events_AbstractTriggerType2_ProcessData_System_Byte___
+  commentId: M:HomeSeer.PluginSdk.Events.AbstractTriggerType2.ProcessData(System.Byte[])
+  name.vb: ProcessData(Byte())
+  fullName: HomeSeer.PluginSdk.Events.AbstractTriggerType2.ProcessData(System.Byte[])
+  fullName.vb: HomeSeer.PluginSdk.Events.AbstractTriggerType2.ProcessData(System.Byte())
+  nameWithType: AbstractTriggerType2.ProcessData(Byte[])
+  nameWithType.vb: AbstractTriggerType2.ProcessData(Byte())
+- uid: HomeSeer.PluginSdk.Events.AbstractTriggerType2.ProcessData*
+  name: ProcessData
+  href: api/HomeSeer.PluginSdk.Events.AbstractTriggerType2.html#HomeSeer_PluginSdk_Events_AbstractTriggerType2_ProcessData_
+  commentId: Overload:HomeSeer.PluginSdk.Events.AbstractTriggerType2.ProcessData
+  isSpec: "True"
+  fullName: HomeSeer.PluginSdk.Events.AbstractTriggerType2.ProcessData
+  nameWithType: AbstractTriggerType2.ProcessData
 - uid: HomeSeer.PluginSdk.Events.ActionTypeCollection
   name: ActionTypeCollection
   href: api/HomeSeer.PluginSdk.Events.ActionTypeCollection.html

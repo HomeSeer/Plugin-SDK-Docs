@@ -10,7 +10,7 @@
     <meta name="viewport" content="width=device-width">
     <meta name="title" content="Class SelectListView
    | HomeSeer PluginSdk Docs ">
-    <meta name="generator" content="docfx 2.58.0.0">
+    <meta name="generator" content="docfx 2.59.4.0">
     
     <link rel="shortcut icon" href="../images/favicon.ico">
     <link rel="stylesheet" href="../styles/docfx.vendor.css">
@@ -136,6 +136,9 @@
       <a class="xref" href="HomeSeer.Jui.Views.AbstractView.html#HomeSeer_Jui_Views_AbstractView_IdContainsNonAllowedCharacters">AbstractView.IdContainsNonAllowedCharacters()</a>
     </div>
     <div>
+      <a class="xref" href="HomeSeer.Jui.Views.AbstractView.html#HomeSeer_Jui_Views_AbstractView_ShallowCopy">AbstractView.ShallowCopy()</a>
+    </div>
+    <div>
       <span class="xref">System.Object.ToString()</span>
     </div>
     <div>
@@ -171,7 +174,7 @@
   </h3>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Jui/Views/SelectListView.cs/#L74">View Source</a>
+    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Jui/Views/SelectListView.cs/#L81">View Source</a>
   </span>
   <a id="HomeSeer_Jui_Views_SelectListView__ctor_" data-uid="HomeSeer.Jui.Views.SelectListView.#ctor*"></a>
   <h4 id="HomeSeer_Jui_Views_SelectListView__ctor_System_String_System_String_System_Collections_Generic_List_System_String__HomeSeer_Jui_Types_ESelectListType_System_Int32_" data-uid="HomeSeer.Jui.Views.SelectListView.#ctor(System.String,System.String,System.Collections.Generic.List{System.String},HomeSeer.Jui.Types.ESelectListType,System.Int32)">SelectListView(String, String, List&lt;String&gt;, ESelectListType, Int32)</h4>
@@ -264,7 +267,7 @@
   </table>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Jui/Views/SelectListView.cs/#L103">View Source</a>
+    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Jui/Views/SelectListView.cs/#L110">View Source</a>
   </span>
   <a id="HomeSeer_Jui_Views_SelectListView__ctor_" data-uid="HomeSeer.Jui.Views.SelectListView.#ctor*"></a>
   <h4 id="HomeSeer_Jui_Views_SelectListView__ctor_System_String_System_String_System_Collections_Generic_List_System_String__System_Collections_Generic_List_System_String__HomeSeer_Jui_Types_ESelectListType_System_Int32_" data-uid="HomeSeer.Jui.Views.SelectListView.#ctor(System.String,System.String,System.Collections.Generic.List{System.String},System.Collections.Generic.List{System.String},HomeSeer.Jui.Types.ESelectListType,System.Int32)">SelectListView(String, String, List&lt;String&gt;, List&lt;String&gt;, ESelectListType, Int32)</h4>
@@ -658,11 +661,57 @@ For internal use by a plugin.  This is not displayed or used in any fashion othe
       </tr>
     </tbody>
   </table>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Jui/Views/SelectListView.cs/#L67">View Source</a>
+  </span>
+  <a id="HomeSeer_Jui_Views_SelectListView_UseOptionKeyAsSelectionValue_" data-uid="HomeSeer.Jui.Views.SelectListView.UseOptionKeyAsSelectionValue*"></a>
+  <h4 id="HomeSeer_Jui_Views_SelectListView_UseOptionKeyAsSelectionValue" data-uid="HomeSeer.Jui.Views.SelectListView.UseOptionKeyAsSelectionValue">UseOptionKeyAsSelectionValue</h4>
+  <div class="markdown level1 summary"><p>When this property is true, <a class="xref" href="HomeSeer.Jui.Views.SelectListView.html#HomeSeer_Jui_Views_SelectListView_GetStringValue">GetStringValue()</a>  returns the selected option key instead of the selected option index,
+and <a class="xref" href="HomeSeer.Jui.Views.SelectListView.html#HomeSeer_Jui_Views_SelectListView_UpdateValue_System_String_">UpdateValue(String)</a> expects an option key as parameter instead of an option index.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="tabGroup" id="tabgroup_syntax">
+      <ul role="tablist">
+          <li role="presentation">
+              <a href="#tabpanel_syntax_cs" tabindex="0" role="tab" aria-controls="tabpanel_syntax_cs" data-tab="cs" aria-selected="true">C#</a>
+          </li>
+          <li role="presentation">
+              <a href="#tabpanel_syntax_vb" tabindex="-1" role="tab" aria-controls="tabpanel_syntax_vb" data-tab="vb">Visual Basic</a>
+          </li>
+      </ul>
+      <section id="tabpanel_syntax_cs" role="tabpanel" data-tab="cs">
+          <div class="codewrapper">
+            <pre><code class="lang-csharp hljs">public bool UseOptionKeyAsSelectionValue { get; set; }</code></pre>
+          </div>
+      </section>
+      <section id="tabpanel_syntax_vb" role="tabpanel" data-tab="vb" aria-hidden="true" hidden="">
+          <div class="codewrapper">
+            <pre><code class="lang-vb hljs">Public Property UseOptionKeyAsSelectionValue As Boolean</code></pre>
+          </div>
+      </section>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
   <h3 id="methods">Methods
   </h3>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Jui/Views/SelectListView.cs/#L165">View Source</a>
+    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Jui/Views/SelectListView.cs/#L187">View Source</a>
   </span>
   <a id="HomeSeer_Jui_Views_SelectListView_GetSelectedOption_" data-uid="HomeSeer.Jui.Views.SelectListView.GetSelectedOption*"></a>
   <h4 id="HomeSeer_Jui_Views_SelectListView_GetSelectedOption" data-uid="HomeSeer.Jui.Views.SelectListView.GetSelectedOption">GetSelectedOption()</h4>
@@ -708,7 +757,7 @@ For internal use by a plugin.  This is not displayed or used in any fashion othe
   </table>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Jui/Views/SelectListView.cs/#L177">View Source</a>
+    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Jui/Views/SelectListView.cs/#L199">View Source</a>
   </span>
   <a id="HomeSeer_Jui_Views_SelectListView_GetSelectedOptionKey_" data-uid="HomeSeer.Jui.Views.SelectListView.GetSelectedOptionKey*"></a>
   <h4 id="HomeSeer_Jui_Views_SelectListView_GetSelectedOptionKey" data-uid="HomeSeer.Jui.Views.SelectListView.GetSelectedOptionKey">GetSelectedOptionKey()</h4>
@@ -754,7 +803,7 @@ For internal use by a plugin.  This is not displayed or used in any fashion othe
   </table>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Jui/Views/SelectListView.cs/#L157">View Source</a>
+    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Jui/Views/SelectListView.cs/#L174">View Source</a>
   </span>
   <a id="HomeSeer_Jui_Views_SelectListView_GetStringValue_" data-uid="HomeSeer.Jui.Views.SelectListView.GetStringValue*"></a>
   <h4 id="HomeSeer_Jui_Views_SelectListView_GetStringValue" data-uid="HomeSeer.Jui.Views.SelectListView.GetStringValue">GetStringValue()</h4>
@@ -801,11 +850,11 @@ For internal use by a plugin.  This is not displayed or used in any fashion othe
   <h5 class="overrides">Overrides</h5>
   <div><a class="xref" href="HomeSeer.Jui.Views.AbstractView.html#HomeSeer_Jui_Views_AbstractView_GetStringValue">AbstractView.GetStringValue()</a></div>
   <h5 id="HomeSeer_Jui_Views_SelectListView_GetStringValue_remarks">Remarks</h5>
-  <div class="markdown level1 remarks"><p>Get the selected index as a string</p>
+  <div class="markdown level1 remarks"><p>Returns the selected option key if <a class="xref" href="HomeSeer.Jui.Views.SelectListView.html#HomeSeer_Jui_Views_SelectListView_UseOptionKeyAsSelectionValue">UseOptionKeyAsSelectionValue</a> is true, else returns the selected index as a string</p>
 </div>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Jui/Views/SelectListView.cs/#L190">View Source</a>
+    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Jui/Views/SelectListView.cs/#L212">View Source</a>
   </span>
   <a id="HomeSeer_Jui_Views_SelectListView_ToHtml_" data-uid="HomeSeer.Jui.Views.SelectListView.ToHtml*"></a>
   <h4 id="HomeSeer_Jui_Views_SelectListView_ToHtml_System_Int32_" data-uid="HomeSeer.Jui.Views.SelectListView.ToHtml(System.Int32)">ToHtml(Int32)</h4>
@@ -870,7 +919,7 @@ For internal use by a plugin.  This is not displayed or used in any fashion othe
   <div><a class="xref" href="HomeSeer.Jui.Views.AbstractView.html#HomeSeer_Jui_Views_AbstractView_ToHtml_System_Int32_">AbstractView.ToHtml(Int32)</a></div>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Jui/Views/SelectListView.cs/#L130">View Source</a>
+    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Jui/Views/SelectListView.cs/#L137">View Source</a>
   </span>
   <a id="HomeSeer_Jui_Views_SelectListView_Update_" data-uid="HomeSeer.Jui.Views.SelectListView.Update*"></a>
   <h4 id="HomeSeer_Jui_Views_SelectListView_Update_HomeSeer_Jui_Views_AbstractView_" data-uid="HomeSeer.Jui.Views.SelectListView.Update(HomeSeer.Jui.Views.AbstractView)">Update(AbstractView)</h4>
@@ -937,7 +986,7 @@ This view's ID and Type must match the calling view exactly</p>
   </table>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Jui/Views/SelectListView.cs/#L142">View Source</a>
+    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Jui/Views/SelectListView.cs/#L149">View Source</a>
   </span>
   <a id="HomeSeer_Jui_Views_SelectListView_UpdateValue_" data-uid="HomeSeer.Jui.Views.SelectListView.UpdateValue*"></a>
   <h4 id="HomeSeer_Jui_Views_SelectListView_UpdateValue_System_String_" data-uid="HomeSeer.Jui.Views.SelectListView.UpdateValue(System.String)">UpdateValue(String)</h4>

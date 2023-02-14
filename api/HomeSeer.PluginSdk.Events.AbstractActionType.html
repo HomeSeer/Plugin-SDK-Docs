@@ -10,7 +10,7 @@
     <meta name="viewport" content="width=device-width">
     <meta name="title" content="Class AbstractActionType
    | HomeSeer PluginSdk Docs ">
-    <meta name="generator" content="docfx 2.58.0.0">
+    <meta name="generator" content="docfx 2.59.4.0">
     
     <link rel="shortcut icon" href="../images/favicon.ico">
     <link rel="stylesheet" href="../styles/docfx.vendor.css">
@@ -109,6 +109,7 @@
     <h5>Inheritance</h5>
     <div class="level0"><span class="xref">System.Object</span></div>
     <div class="level1"><span class="xref">AbstractActionType</span></div>
+      <div class="level2"><a class="xref" href="HomeSeer.PluginSdk.Events.AbstractActionType2.html">AbstractActionType2</a></div>
   </div>
   <div class="inheritedMembers">
     <h5>Inherited Members</h5>
@@ -203,7 +204,7 @@ Inherit from this class to define your own action types and store them in your p
   </h3>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Events/AbstractActionType.cs/#L146">View Source</a>
+    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Events/AbstractActionType.cs/#L151">View Source</a>
   </span>
   <a id="HomeSeer_PluginSdk_Events_AbstractActionType__ctor_" data-uid="HomeSeer.PluginSdk.Events.AbstractActionType.#ctor*"></a>
   <h4 id="HomeSeer_PluginSdk_Events_AbstractActionType__ctor" data-uid="HomeSeer.PluginSdk.Events.AbstractActionType.#ctor">AbstractActionType()</h4>
@@ -237,7 +238,7 @@ This is called through reflection by the <a class="xref" href="HomeSeer.PluginSd
   </div>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Events/AbstractActionType.cs/#L131">View Source</a>
+    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Events/AbstractActionType.cs/#L136">View Source</a>
   </span>
   <a id="HomeSeer_PluginSdk_Events_AbstractActionType__ctor_" data-uid="HomeSeer.PluginSdk.Events.AbstractActionType.#ctor*"></a>
   <h4 id="HomeSeer_PluginSdk_Events_AbstractActionType__ctor_System_Int32_System_Int32_System_Byte___HomeSeer_PluginSdk_Events_ActionTypeCollection_IActionTypeListener_" data-uid="HomeSeer.PluginSdk.Events.AbstractActionType.#ctor(System.Int32,System.Int32,System.Byte[],HomeSeer.PluginSdk.Events.ActionTypeCollection.IActionTypeListener)">AbstractActionType(Int32, Int32, Byte[], ActionTypeCollection.IActionTypeListener)</h4>
@@ -305,13 +306,14 @@ You MUST implement one of these constructors in any class that derives from <a c
       <tr>
         <td><a class="xref" href="HomeSeer.PluginSdk.Events.ActionTypeCollection.IActionTypeListener.html">ActionTypeCollection.IActionTypeListener</a></td>
         <td><span class="parametername">listener</span></td>
-        <td></td>
+        <td><p>The listener that facilitates the communication with <a class="xref" href="HomeSeer.PluginSdk.AbstractPlugin.html">AbstractPlugin</a></p>
+</td>
       </tr>
     </tbody>
   </table>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Events/AbstractActionType.cs/#L107">View Source</a>
+    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Events/AbstractActionType.cs/#L111">View Source</a>
   </span>
   <a id="HomeSeer_PluginSdk_Events_AbstractActionType__ctor_" data-uid="HomeSeer.PluginSdk.Events.AbstractActionType.#ctor*"></a>
   <h4 id="HomeSeer_PluginSdk_Events_AbstractActionType__ctor_System_Int32_System_Int32_System_Byte___HomeSeer_PluginSdk_Events_ActionTypeCollection_IActionTypeListener_System_Boolean_" data-uid="HomeSeer.PluginSdk.Events.AbstractActionType.#ctor(System.Int32,System.Int32,System.Byte[],HomeSeer.PluginSdk.Events.ActionTypeCollection.IActionTypeListener,System.Boolean)">AbstractActionType(Int32, Int32, Byte[], ActionTypeCollection.IActionTypeListener, Boolean)</h4>
@@ -379,18 +381,20 @@ You MUST implement this constructor in any class that derives from <a class="xre
       <tr>
         <td><a class="xref" href="HomeSeer.PluginSdk.Events.ActionTypeCollection.IActionTypeListener.html">ActionTypeCollection.IActionTypeListener</a></td>
         <td><span class="parametername">listener</span></td>
-        <td></td>
+        <td><p>The listener that facilitates the communication with <a class="xref" href="HomeSeer.PluginSdk.AbstractPlugin.html">AbstractPlugin</a></p>
+</td>
       </tr>
       <tr>
         <td><span class="xref">System.Boolean</span></td>
         <td><span class="parametername">logDebug</span></td>
-        <td></td>
+        <td><p>If true debug messages will be written to the console</p>
+</td>
       </tr>
     </tbody>
   </table>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Events/AbstractActionType.cs/#L83">View Source</a>
+    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Events/AbstractActionType.cs/#L85">View Source</a>
   </span>
   <a id="HomeSeer_PluginSdk_Events_AbstractActionType__ctor_" data-uid="HomeSeer.PluginSdk.Events.AbstractActionType.#ctor*"></a>
   <h4 id="HomeSeer_PluginSdk_Events_AbstractActionType__ctor_System_Int32_System_Int32_System_Int32_System_Byte___HomeSeer_PluginSdk_Events_ActionTypeCollection_IActionTypeListener_" data-uid="HomeSeer.PluginSdk.Events.AbstractActionType.#ctor(System.Int32,System.Int32,System.Int32,System.Byte[],HomeSeer.PluginSdk.Events.ActionTypeCollection.IActionTypeListener)">AbstractActionType(Int32, Int32, Int32, Byte[], ActionTypeCollection.IActionTypeListener)</h4>
@@ -446,7 +450,8 @@ You MUST implement one of these constructors in any class that derives from <a c
       <tr>
         <td><span class="xref">System.Int32</span></td>
         <td><span class="parametername">subTypeNumber</span></td>
-        <td></td>
+        <td><p>The action subtype number</p>
+</td>
       </tr>
       <tr>
         <td><span class="xref">System.Int32</span></td>
@@ -463,7 +468,8 @@ You MUST implement one of these constructors in any class that derives from <a c
       <tr>
         <td><a class="xref" href="HomeSeer.PluginSdk.Events.ActionTypeCollection.IActionTypeListener.html">ActionTypeCollection.IActionTypeListener</a></td>
         <td><span class="parametername">listener</span></td>
-        <td></td>
+        <td><p>The listener that facilitates the communication with <a class="xref" href="HomeSeer.PluginSdk.AbstractPlugin.html">AbstractPlugin</a></p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -471,7 +477,7 @@ You MUST implement one of these constructors in any class that derives from <a c
   </h3>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Events/AbstractActionType.cs/#L180">View Source</a>
+    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Events/AbstractActionType.cs/#L185">View Source</a>
   </span>
   <h4 id="HomeSeer_PluginSdk_Events_AbstractActionType__configPage" data-uid="HomeSeer.PluginSdk.Events.AbstractActionType._configPage">_configPage</h4>
   <div class="markdown level1 summary"></div>
@@ -514,7 +520,7 @@ You MUST implement one of these constructors in any class that derives from <a c
   </table>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Events/AbstractActionType.cs/#L179">View Source</a>
+    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Events/AbstractActionType.cs/#L184">View Source</a>
   </span>
   <h4 id="HomeSeer_PluginSdk_Events_AbstractActionType__data" data-uid="HomeSeer.PluginSdk.Events.AbstractActionType._data">_data</h4>
   <div class="markdown level1 summary"></div>
@@ -557,7 +563,7 @@ You MUST implement one of these constructors in any class that derives from <a c
   </table>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Events/AbstractActionType.cs/#L178">View Source</a>
+    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Events/AbstractActionType.cs/#L183">View Source</a>
   </span>
   <h4 id="HomeSeer_PluginSdk_Events_AbstractActionType__eventRef" data-uid="HomeSeer.PluginSdk.Events.AbstractActionType._eventRef">_eventRef</h4>
   <div class="markdown level1 summary"></div>
@@ -600,7 +606,7 @@ You MUST implement one of these constructors in any class that derives from <a c
   </table>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Events/AbstractActionType.cs/#L177">View Source</a>
+    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Events/AbstractActionType.cs/#L182">View Source</a>
   </span>
   <h4 id="HomeSeer_PluginSdk_Events_AbstractActionType__id" data-uid="HomeSeer.PluginSdk.Events.AbstractActionType._id">_id</h4>
   <div class="markdown level1 summary"></div>
@@ -643,7 +649,7 @@ You MUST implement one of these constructors in any class that derives from <a c
   </table>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Events/AbstractActionType.cs/#L182">View Source</a>
+    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Events/AbstractActionType.cs/#L187">View Source</a>
   </span>
   <h4 id="HomeSeer_PluginSdk_Events_AbstractActionType__inData" data-uid="HomeSeer.PluginSdk.Events.AbstractActionType._inData">_inData</h4>
   <div class="markdown level1 summary"></div>
@@ -741,7 +747,7 @@ This is usually used to have the plugin handle running the action.
   </table>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Events/AbstractActionType.cs/#L162">View Source</a>
+    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Events/AbstractActionType.cs/#L167">View Source</a>
   </span>
   <a id="HomeSeer_PluginSdk_Events_AbstractActionType_ConfigPage_" data-uid="HomeSeer.PluginSdk.Events.AbstractActionType.ConfigPage*"></a>
   <h4 id="HomeSeer_PluginSdk_Events_AbstractActionType_ConfigPage" data-uid="HomeSeer.PluginSdk.Events.AbstractActionType.ConfigPage">ConfigPage</h4>
@@ -1021,7 +1027,7 @@ a user can select from on the events page.</p>
   </table>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Events/AbstractActionType.cs/#L151">View Source</a>
+    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Events/AbstractActionType.cs/#L156">View Source</a>
   </span>
   <a id="HomeSeer_PluginSdk_Events_AbstractActionType_PageId_" data-uid="HomeSeer.PluginSdk.Events.AbstractActionType.PageId*"></a>
   <h4 id="HomeSeer_PluginSdk_Events_AbstractActionType_PageId" data-uid="HomeSeer.PluginSdk.Events.AbstractActionType.PageId">PageId</h4>
@@ -1116,7 +1122,7 @@ a user can select from on the events page.</p>
   </h3>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Events/AbstractActionType.cs/#L360">View Source</a>
+    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Events/AbstractActionType.cs/#L365">View Source</a>
   </span>
   <a id="HomeSeer_PluginSdk_Events_AbstractActionType_ConvertLegacyData_" data-uid="HomeSeer.PluginSdk.Events.AbstractActionType.ConvertLegacyData*"></a>
   <h4 id="HomeSeer_PluginSdk_Events_AbstractActionType_ConvertLegacyData_System_Byte___" data-uid="HomeSeer.PluginSdk.Events.AbstractActionType.ConvertLegacyData(System.Byte[])">ConvertLegacyData(Byte[])</h4>
@@ -1191,7 +1197,7 @@ Override this if you need to support legacy actions. Convert the UI to the new f
 </div>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Events/AbstractActionType.cs/#L390">View Source</a>
+    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Events/AbstractActionType.cs/#L396">View Source</a>
   </span>
   <a id="HomeSeer_PluginSdk_Events_AbstractActionType_Equals_" data-uid="HomeSeer.PluginSdk.Events.AbstractActionType.Equals*"></a>
   <h4 id="HomeSeer_PluginSdk_Events_AbstractActionType_Equals_System_Object_" data-uid="HomeSeer.PluginSdk.Events.AbstractActionType.Equals(System.Object)">Equals(Object)</h4>
@@ -1254,7 +1260,7 @@ Override this if you need to support legacy actions. Convert the UI to the new f
   <div><span class="xref">System.Object.Equals(System.Object)</span></div>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Events/AbstractActionType.cs/#L385">View Source</a>
+    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Events/AbstractActionType.cs/#L390">View Source</a>
   </span>
   <a id="HomeSeer_PluginSdk_Events_AbstractActionType_GetData_" data-uid="HomeSeer.PluginSdk.Events.AbstractActionType.GetData*"></a>
   <h4 id="HomeSeer_PluginSdk_Events_AbstractActionType_GetData" data-uid="HomeSeer.PluginSdk.Events.AbstractActionType.GetData">GetData()</h4>
@@ -1272,12 +1278,12 @@ Override this if you need to support legacy actions. Convert the UI to the new f
       </ul>
       <section id="tabpanel_syntax_cs" role="tabpanel" data-tab="cs">
           <div class="codewrapper">
-            <pre><code class="lang-csharp hljs">byte[] GetData()</code></pre>
+            <pre><code class="lang-csharp hljs">virtual byte[] GetData()</code></pre>
           </div>
       </section>
       <section id="tabpanel_syntax_vb" role="tabpanel" data-tab="vb" aria-hidden="true" hidden="">
           <div class="codewrapper">
-            <pre><code class="lang-vb hljs">Function GetData As Byte()</code></pre>
+            <pre><code class="lang-vb hljs">Overridable Function GetData As Byte()</code></pre>
           </div>
       </section>
   </div>
@@ -1298,7 +1304,7 @@ Override this if you need to support legacy actions. Convert the UI to the new f
   </table>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Events/AbstractActionType.cs/#L414">View Source</a>
+    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Events/AbstractActionType.cs/#L421">View Source</a>
   </span>
   <a id="HomeSeer_PluginSdk_Events_AbstractActionType_GetHashCode_" data-uid="HomeSeer.PluginSdk.Events.AbstractActionType.GetHashCode*"></a>
   <h4 id="HomeSeer_PluginSdk_Events_AbstractActionType_GetHashCode" data-uid="HomeSeer.PluginSdk.Events.AbstractActionType.GetHashCode">GetHashCode()</h4>
@@ -1344,7 +1350,7 @@ Override this if you need to support legacy actions. Convert the UI to the new f
   <div><span class="xref">System.Object.GetHashCode()</span></div>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Events/AbstractActionType.cs/#L188">View Source</a>
+    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Events/AbstractActionType.cs/#L193">View Source</a>
   </span>
   <a id="HomeSeer_PluginSdk_Events_AbstractActionType_GetName_" data-uid="HomeSeer.PluginSdk.Events.AbstractActionType.GetName*"></a>
   <h4 id="HomeSeer_PluginSdk_Events_AbstractActionType_GetName" data-uid="HomeSeer.PluginSdk.Events.AbstractActionType.GetName">GetName()</h4>
@@ -1390,7 +1396,7 @@ Override this if you need to support legacy actions. Convert the UI to the new f
   </table>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Events/AbstractActionType.cs/#L250">View Source</a>
+    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Events/AbstractActionType.cs/#L255">View Source</a>
   </span>
   <a id="HomeSeer_PluginSdk_Events_AbstractActionType_GetPrettyString_" data-uid="HomeSeer.PluginSdk.Events.AbstractActionType.GetPrettyString*"></a>
   <h4 id="HomeSeer_PluginSdk_Events_AbstractActionType_GetPrettyString" data-uid="HomeSeer.PluginSdk.Events.AbstractActionType.GetPrettyString">GetPrettyString()</h4>
@@ -1437,7 +1443,7 @@ easy to read sentence that flows with an IF... THEN... format.</p>
   </table>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Events/AbstractActionType.cs/#L364">View Source</a>
+    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Events/AbstractActionType.cs/#L369">View Source</a>
   </span>
   <a id="HomeSeer_PluginSdk_Events_AbstractActionType_InflateActionFromData_" data-uid="HomeSeer.PluginSdk.Events.AbstractActionType.InflateActionFromData*"></a>
   <h4 id="HomeSeer_PluginSdk_Events_AbstractActionType_InflateActionFromData" data-uid="HomeSeer.PluginSdk.Events.AbstractActionType.InflateActionFromData">InflateActionFromData()</h4>
@@ -1466,7 +1472,7 @@ easy to read sentence that flows with an IF... THEN... format.</p>
   </div>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Events/AbstractActionType.cs/#L209">View Source</a>
+    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Events/AbstractActionType.cs/#L214">View Source</a>
   </span>
   <a id="HomeSeer_PluginSdk_Events_AbstractActionType_IsFullyConfigured_" data-uid="HomeSeer.PluginSdk.Events.AbstractActionType.IsFullyConfigured*"></a>
   <h4 id="HomeSeer_PluginSdk_Events_AbstractActionType_IsFullyConfigured" data-uid="HomeSeer.PluginSdk.Events.AbstractActionType.IsFullyConfigured">IsFullyConfigured()</h4>
@@ -1513,7 +1519,7 @@ FALSE if there are more options to configure before the action can be used.</p>
   </table>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Events/AbstractActionType.cs/#L241">View Source</a>
+    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Events/AbstractActionType.cs/#L246">View Source</a>
   </span>
   <a id="HomeSeer_PluginSdk_Events_AbstractActionType_OnConfigItemUpdate_" data-uid="HomeSeer.PluginSdk.Events.AbstractActionType.OnConfigItemUpdate*"></a>
   <h4 id="HomeSeer_PluginSdk_Events_AbstractActionType_OnConfigItemUpdate_HomeSeer_Jui_Views_AbstractView_" data-uid="HomeSeer.PluginSdk.Events.AbstractActionType.OnConfigItemUpdate(HomeSeer.Jui.Views.AbstractView)">OnConfigItemUpdate(AbstractView)</h4>
@@ -1578,7 +1584,7 @@ FALSE to discard the change.</p>
   </table>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Events/AbstractActionType.cs/#L215">View Source</a>
+    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Events/AbstractActionType.cs/#L220">View Source</a>
   </span>
   <a id="HomeSeer_PluginSdk_Events_AbstractActionType_OnEditAction_" data-uid="HomeSeer.PluginSdk.Events.AbstractActionType.OnEditAction*"></a>
   <h4 id="HomeSeer_PluginSdk_Events_AbstractActionType_OnEditAction_HomeSeer_Jui_Views_Page_" data-uid="HomeSeer.PluginSdk.Events.AbstractActionType.OnEditAction(HomeSeer.Jui.Views.Page)">OnEditAction(Page)</h4>
@@ -1626,7 +1632,7 @@ FALSE to discard the change.</p>
   </table>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Events/AbstractActionType.cs/#L200">View Source</a>
+    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Events/AbstractActionType.cs/#L205">View Source</a>
   </span>
   <a id="HomeSeer_PluginSdk_Events_AbstractActionType_OnNewAction_" data-uid="HomeSeer.PluginSdk.Events.AbstractActionType.OnNewAction*"></a>
   <h4 id="HomeSeer_PluginSdk_Events_AbstractActionType_OnNewAction" data-uid="HomeSeer.PluginSdk.Events.AbstractActionType.OnNewAction">OnNewAction()</h4>
@@ -1663,7 +1669,7 @@ Initialize a new <a class="xref" href="HomeSeer.PluginSdk.Events.AbstractActionT
   </div>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Events/AbstractActionType.cs/#L256">View Source</a>
+    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Events/AbstractActionType.cs/#L261">View Source</a>
   </span>
   <a id="HomeSeer_PluginSdk_Events_AbstractActionType_OnRunAction_" data-uid="HomeSeer.PluginSdk.Events.AbstractActionType.OnRunAction*"></a>
   <h4 id="HomeSeer_PluginSdk_Events_AbstractActionType_OnRunAction" data-uid="HomeSeer.PluginSdk.Events.AbstractActionType.OnRunAction">OnRunAction()</h4>
@@ -1708,7 +1714,7 @@ Initialize a new <a class="xref" href="HomeSeer.PluginSdk.Events.AbstractActionT
   </table>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Events/AbstractActionType.cs/#L317">View Source</a>
+    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Events/AbstractActionType.cs/#L322">View Source</a>
   </span>
   <a id="HomeSeer_PluginSdk_Events_AbstractActionType_ProcessData_" data-uid="HomeSeer.PluginSdk.Events.AbstractActionType.ProcessData*"></a>
   <h4 id="HomeSeer_PluginSdk_Events_AbstractActionType_ProcessData_System_Byte___" data-uid="HomeSeer.PluginSdk.Events.AbstractActionType.ProcessData(System.Byte[])">ProcessData(Byte[])</h4>
@@ -1726,12 +1732,12 @@ Initialize a new <a class="xref" href="HomeSeer.PluginSdk.Events.AbstractActionT
       </ul>
       <section id="tabpanel_syntax_cs" role="tabpanel" data-tab="cs">
           <div class="codewrapper">
-            <pre><code class="lang-csharp hljs">byte[] ProcessData(byte[] inData)</code></pre>
+            <pre><code class="lang-csharp hljs">virtual byte[] ProcessData(byte[] inData)</code></pre>
           </div>
       </section>
       <section id="tabpanel_syntax_vb" role="tabpanel" data-tab="vb" aria-hidden="true" hidden="">
           <div class="codewrapper">
-            <pre><code class="lang-vb hljs">Function ProcessData(inData As Byte()) As Byte()</code></pre>
+            <pre><code class="lang-vb hljs">Overridable Function ProcessData(inData As Byte()) As Byte()</code></pre>
           </div>
       </section>
   </div>
@@ -1769,7 +1775,7 @@ Initialize a new <a class="xref" href="HomeSeer.PluginSdk.Events.AbstractActionT
   </table>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Events/AbstractActionType.cs/#L280">View Source</a>
+    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Events/AbstractActionType.cs/#L285">View Source</a>
   </span>
   <a id="HomeSeer_PluginSdk_Events_AbstractActionType_ProcessPostData_" data-uid="HomeSeer.PluginSdk.Events.AbstractActionType.ProcessPostData*"></a>
   <h4 id="HomeSeer_PluginSdk_Events_AbstractActionType_ProcessPostData_System_Collections_Generic_Dictionary_System_String_System_String__" data-uid="HomeSeer.PluginSdk.Events.AbstractActionType.ProcessPostData(System.Collections.Generic.Dictionary{System.String,System.String})">ProcessPostData(Dictionary&lt;String, String&gt;)</h4>
@@ -1830,7 +1836,7 @@ Initialize a new <a class="xref" href="HomeSeer.PluginSdk.Events.AbstractActionT
   </table>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Events/AbstractActionType.cs/#L266">View Source</a>
+    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Events/AbstractActionType.cs/#L271">View Source</a>
   </span>
   <a id="HomeSeer_PluginSdk_Events_AbstractActionType_ReferencesDeviceOrFeature_" data-uid="HomeSeer.PluginSdk.Events.AbstractActionType.ReferencesDeviceOrFeature*"></a>
   <h4 id="HomeSeer_PluginSdk_Events_AbstractActionType_ReferencesDeviceOrFeature_System_Int32_" data-uid="HomeSeer.PluginSdk.Events.AbstractActionType.ReferencesDeviceOrFeature(System.Int32)">ReferencesDeviceOrFeature(Int32)</h4>
@@ -1895,7 +1901,7 @@ FALSE if it does not.</p>
   </table>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Events/AbstractActionType.cs/#L276">View Source</a>
+    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Events/AbstractActionType.cs/#L281">View Source</a>
   </span>
   <a id="HomeSeer_PluginSdk_Events_AbstractActionType_ToHtml_" data-uid="HomeSeer.PluginSdk.Events.AbstractActionType.ToHtml*"></a>
   <h4 id="HomeSeer_PluginSdk_Events_AbstractActionType_ToHtml" data-uid="HomeSeer.PluginSdk.Events.AbstractActionType.ToHtml">ToHtml()</h4>

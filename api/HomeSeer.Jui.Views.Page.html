@@ -10,7 +10,7 @@
     <meta name="viewport" content="width=device-width">
     <meta name="title" content="Class Page
    | HomeSeer PluginSdk Docs ">
-    <meta name="generator" content="docfx 2.58.0.0">
+    <meta name="generator" content="docfx 2.59.4.0">
     
     <link rel="shortcut icon" href="../images/favicon.ico">
     <link rel="stylesheet" href="../styles/docfx.vendor.css">
@@ -709,6 +709,90 @@ Use <a class="xref" href="HomeSeer.Jui.Views.Page.html#HomeSeer_Jui_Views_Page_A
     <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Jui/Views/Page.cs/#L264">View Source</a>
   </span>
   <a id="HomeSeer_Jui_Views_Page_AddViewDelta_" data-uid="HomeSeer.Jui.Views.Page.AddViewDelta*"></a>
+  <h4 id="HomeSeer_Jui_Views_Page_AddViewDelta_HomeSeer_Jui_Views_AbstractView_System_Object_" data-uid="HomeSeer.Jui.Views.Page.AddViewDelta(HomeSeer.Jui.Views.AbstractView,System.Object)">AddViewDelta(AbstractView, Object)</h4>
+  <div class="markdown level1 summary"><p>Add a view change to the page</p>
+<p>
+Used to log value changes for views on settings, device config, event trigger and event action pages.
+This method performs a shallow copy of the original view and update it with the new value before adding it to the page.
+</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="tabGroup" id="tabgroup_syntax">
+      <ul role="tablist">
+          <li role="presentation">
+              <a href="#tabpanel_syntax_cs" tabindex="0" role="tab" aria-controls="tabpanel_syntax_cs" data-tab="cs" aria-selected="true">C#</a>
+          </li>
+          <li role="presentation">
+              <a href="#tabpanel_syntax_vb" tabindex="-1" role="tab" aria-controls="tabpanel_syntax_vb" data-tab="vb">Visual Basic</a>
+          </li>
+      </ul>
+      <section id="tabpanel_syntax_cs" role="tabpanel" data-tab="cs">
+          <div class="codewrapper">
+            <pre><code class="lang-csharp hljs">public void AddViewDelta(AbstractView originalView, object newValue)</code></pre>
+          </div>
+      </section>
+      <section id="tabpanel_syntax_vb" role="tabpanel" data-tab="vb" aria-hidden="true" hidden="">
+          <div class="codewrapper">
+            <pre><code class="lang-vb hljs">Public Sub AddViewDelta(originalView As AbstractView, newValue As Object)</code></pre>
+          </div>
+      </section>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="HomeSeer.Jui.Views.AbstractView.html">AbstractView</a></td>
+        <td><span class="parametername">originalView</span></td>
+        <td><p>The original view before the change</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Object</span></td>
+        <td><span class="parametername">newValue</span></td>
+        <td><p>The new value for the view</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p>A valid original view was not specified</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.ArgumentOutOfRangeException</span></td>
+        <td><p>The type or integer value is invalid</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.ArgumentException</span></td>
+        <td><p>The value type doesn't match the view type</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Jui/Views/Page.cs/#L321">View Source</a>
+  </span>
+  <a id="HomeSeer_Jui_Views_Page_AddViewDelta_" data-uid="HomeSeer.Jui.Views.Page.AddViewDelta*"></a>
   <h4 id="HomeSeer_Jui_Views_Page_AddViewDelta_System_String_System_Int32_System_Object_" data-uid="HomeSeer.Jui.Views.Page.AddViewDelta(System.String,System.Int32,System.Object)">AddViewDelta(String, Int32, Object)</h4>
   <div class="markdown level1 summary"><p>Add a view change to the page</p>
 <p>
@@ -795,7 +879,7 @@ Used to log value changes for views on settings pages.  All names are left blank
   </table>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Jui/Views/Page.cs/#L368">View Source</a>
+    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Jui/Views/Page.cs/#L417">View Source</a>
   </span>
   <a id="HomeSeer_Jui_Views_Page_AddViews_" data-uid="HomeSeer.Jui.Views.Page.AddViews*"></a>
   <h4 id="HomeSeer_Jui_Views_Page_AddViews_System_Collections_Generic_IEnumerable_HomeSeer_Jui_Views_AbstractView__" data-uid="HomeSeer.Jui.Views.Page.AddViews(System.Collections.Generic.IEnumerable{HomeSeer.Jui.Views.AbstractView})">AddViews(IEnumerable&lt;AbstractView&gt;)</h4>
@@ -858,7 +942,7 @@ Used to log value changes for views on settings pages.  All names are left blank
   </table>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Jui/Views/Page.cs/#L387">View Source</a>
+    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Jui/Views/Page.cs/#L436">View Source</a>
   </span>
   <a id="HomeSeer_Jui_Views_Page_ContainsViewWithId_" data-uid="HomeSeer.Jui.Views.Page.ContainsViewWithId*"></a>
   <h4 id="HomeSeer_Jui_Views_Page_ContainsViewWithId_System_String_" data-uid="HomeSeer.Jui.Views.Page.ContainsViewWithId(System.String)">ContainsViewWithId(String)</h4>
@@ -942,7 +1026,7 @@ Used to log value changes for views on settings pages.  All names are left blank
   </table>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Jui/Views/Page.cs/#L469">View Source</a>
+    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Jui/Views/Page.cs/#L518">View Source</a>
   </span>
   <a id="HomeSeer_Jui_Views_Page_Equals_" data-uid="HomeSeer.Jui.Views.Page.Equals*"></a>
   <h4 id="HomeSeer_Jui_Views_Page_Equals_System_Object_" data-uid="HomeSeer.Jui.Views.Page.Equals(System.Object)">Equals(Object)</h4>
@@ -1089,7 +1173,7 @@ This should always be wrapped in a try/catch in case the data received is malfor
   </table>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Jui/Views/Page.cs/#L496">View Source</a>
+    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Jui/Views/Page.cs/#L545">View Source</a>
   </span>
   <a id="HomeSeer_Jui_Views_Page_GetHashCode_" data-uid="HomeSeer.Jui.Views.Page.GetHashCode*"></a>
   <h4 id="HomeSeer_Jui_Views_Page_GetHashCode" data-uid="HomeSeer.Jui.Views.Page.GetHashCode">GetHashCode()</h4>
@@ -1136,7 +1220,7 @@ This should always be wrapped in a try/catch in case the data received is malfor
   <div><span class="xref">System.Object.GetHashCode()</span></div>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Jui/Views/Page.cs/#L404">View Source</a>
+    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Jui/Views/Page.cs/#L453">View Source</a>
   </span>
   <a id="HomeSeer_Jui_Views_Page_GetViewById_" data-uid="HomeSeer.Jui.Views.Page.GetViewById*"></a>
   <h4 id="HomeSeer_Jui_Views_Page_GetViewById_System_String_" data-uid="HomeSeer.Jui.Views.Page.GetViewById(System.String)">GetViewById(String)</h4>
@@ -1232,7 +1316,7 @@ This should be cast to the appropriate view type before use.</p>
   </table>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Jui/Views/Page.cs/#L420">View Source</a>
+    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Jui/Views/Page.cs/#L469">View Source</a>
   </span>
   <a id="HomeSeer_Jui_Views_Page_GetViewById_" data-uid="HomeSeer.Jui.Views.Page.GetViewById*"></a>
   <h4 id="HomeSeer_Jui_Views_Page_GetViewById__1_System_String_" data-uid="HomeSeer.Jui.Views.Page.GetViewById``1(System.String)">GetViewById&lt;TViewType&gt;(String)</h4>
@@ -1469,7 +1553,7 @@ This should be cast to the appropriate view type before use.</p>
   </table>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Jui/Views/Page.cs/#L457">View Source</a>
+    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Jui/Views/Page.cs/#L506">View Source</a>
   </span>
   <a id="HomeSeer_Jui_Views_Page_RemoveAllViews_" data-uid="HomeSeer.Jui.Views.Page.RemoveAllViews*"></a>
   <h4 id="HomeSeer_Jui_Views_Page_RemoveAllViews" data-uid="HomeSeer.Jui.Views.Page.RemoveAllViews">RemoveAllViews()</h4>
@@ -1499,7 +1583,7 @@ This should be cast to the appropriate view type before use.</p>
   </div>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Jui/Views/Page.cs/#L446">View Source</a>
+    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Jui/Views/Page.cs/#L495">View Source</a>
   </span>
   <a id="HomeSeer_Jui_Views_Page_RemoveViewById_" data-uid="HomeSeer.Jui.Views.Page.RemoveViewById*"></a>
   <h4 id="HomeSeer_Jui_Views_Page_RemoveViewById_System_String_" data-uid="HomeSeer.Jui.Views.Page.RemoveViewById(System.String)">RemoveViewById(String)</h4>
@@ -1575,7 +1659,7 @@ Remaining views at indexes greater than the specified view will be moved down on
   </table>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Jui/Views/Page.cs/#L452">View Source</a>
+    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Jui/Views/Page.cs/#L501">View Source</a>
   </span>
   <a id="HomeSeer_Jui_Views_Page_RemoveViewsAfterId_" data-uid="HomeSeer.Jui.Views.Page.RemoveViewsAfterId*"></a>
   <h4 id="HomeSeer_Jui_Views_Page_RemoveViewsAfterId_System_String_" data-uid="HomeSeer.Jui.Views.Page.RemoveViewsAfterId(System.String)">RemoveViewsAfterId(String)</h4>
@@ -1643,7 +1727,7 @@ Remaining views at indexes greater than the specified view will be moved down on
   </table>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Jui/Views/Page.cs/#L377">View Source</a>
+    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Jui/Views/Page.cs/#L426">View Source</a>
   </span>
   <a id="HomeSeer_Jui_Views_Page_SetViews_" data-uid="HomeSeer.Jui.Views.Page.SetViews*"></a>
   <h4 id="HomeSeer_Jui_Views_Page_SetViews_System_Collections_Generic_IEnumerable_HomeSeer_Jui_Views_AbstractView__" data-uid="HomeSeer.Jui.Views.Page.SetViews(System.Collections.Generic.IEnumerable{HomeSeer.Jui.Views.AbstractView})">SetViews(IEnumerable&lt;AbstractView&gt;)</h4>
@@ -1864,7 +1948,7 @@ These include: InputViews, SelectListViews, and ToggleViews
   </table>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Jui/Views/Page.cs/#L430">View Source</a>
+    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Jui/Views/Page.cs/#L479">View Source</a>
   </span>
   <a id="HomeSeer_Jui_Views_Page_UpdateViewById_" data-uid="HomeSeer.Jui.Views.Page.UpdateViewById*"></a>
   <h4 id="HomeSeer_Jui_Views_Page_UpdateViewById_HomeSeer_Jui_Views_AbstractView_" data-uid="HomeSeer.Jui.Views.Page.UpdateViewById(HomeSeer.Jui.Views.AbstractView)">UpdateViewById(AbstractView)</h4>
@@ -1942,7 +2026,7 @@ These include: InputViews, SelectListViews, and ToggleViews
   </table>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Jui/Views/Page.cs/#L436">View Source</a>
+    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Jui/Views/Page.cs/#L485">View Source</a>
   </span>
   <a id="HomeSeer_Jui_Views_Page_UpdateViewValueById_" data-uid="HomeSeer.Jui.Views.Page.UpdateViewValueById*"></a>
   <h4 id="HomeSeer_Jui_Views_Page_UpdateViewValueById_System_String_System_String_" data-uid="HomeSeer.Jui.Views.Page.UpdateViewValueById(System.String,System.String)">UpdateViewValueById(String, String)</h4>

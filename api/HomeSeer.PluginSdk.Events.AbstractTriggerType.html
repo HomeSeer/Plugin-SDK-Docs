@@ -10,7 +10,7 @@
     <meta name="viewport" content="width=device-width">
     <meta name="title" content="Class AbstractTriggerType
    | HomeSeer PluginSdk Docs ">
-    <meta name="generator" content="docfx 2.58.0.0">
+    <meta name="generator" content="docfx 2.59.4.0">
     
     <link rel="shortcut icon" href="../images/favicon.ico">
     <link rel="stylesheet" href="../styles/docfx.vendor.css">
@@ -109,6 +109,7 @@
     <h5>Inheritance</h5>
     <div class="level0"><span class="xref">System.Object</span></div>
     <div class="level1"><span class="xref">AbstractTriggerType</span></div>
+      <div class="level2"><a class="xref" href="HomeSeer.PluginSdk.Events.AbstractTriggerType2.html">AbstractTriggerType2</a></div>
   </div>
   <div class="inheritedMembers">
     <h5>Inherited Members</h5>
@@ -203,7 +204,7 @@ Inherit from this class to define your own trigger types and store them in your 
   </h3>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Events/AbstractTriggerType.cs/#L141">View Source</a>
+    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Events/AbstractTriggerType.cs/#L159">View Source</a>
   </span>
   <a id="HomeSeer_PluginSdk_Events_AbstractTriggerType__ctor_" data-uid="HomeSeer.PluginSdk.Events.AbstractTriggerType.#ctor*"></a>
   <h4 id="HomeSeer_PluginSdk_Events_AbstractTriggerType__ctor" data-uid="HomeSeer.PluginSdk.Events.AbstractTriggerType.#ctor">AbstractTriggerType()</h4>
@@ -237,11 +238,21 @@ This is called through reflection by the <a class="xref" href="HomeSeer.PluginSd
   </div>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Events/AbstractTriggerType.cs/#L124">View Source</a>
+    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Events/AbstractTriggerType.cs/#L142">View Source</a>
   </span>
   <a id="HomeSeer_PluginSdk_Events_AbstractTriggerType__ctor_" data-uid="HomeSeer.PluginSdk.Events.AbstractTriggerType.#ctor*"></a>
   <h4 id="HomeSeer_PluginSdk_Events_AbstractTriggerType__ctor_HomeSeer_PluginSdk_Events_TrigActInfo_HomeSeer_PluginSdk_Events_TriggerTypeCollection_ITriggerTypeListener_System_Boolean_" data-uid="HomeSeer.PluginSdk.Events.AbstractTriggerType.#ctor(HomeSeer.PluginSdk.Events.TrigActInfo,HomeSeer.PluginSdk.Events.TriggerTypeCollection.ITriggerTypeListener,System.Boolean)">AbstractTriggerType(TrigActInfo, TriggerTypeCollection.ITriggerTypeListener, Boolean)</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Initialize a new <a class="xref" href="HomeSeer.PluginSdk.Events.AbstractTriggerType.html">AbstractTriggerType</a> from a <a class="xref" href="HomeSeer.PluginSdk.Events.TrigActInfo.html">TrigActInfo</a> and with the specified listener, and logDebug flag.
+The byte array in <code data-dev-comment-type="paramref" class="paramref">trigInfo</code> will be automatically parsed for a <a class="xref" href="HomeSeer.Jui.Views.Page.html">Page</a>, and a new one will be created if
+the array is empty.</p>
+<p>
+This is called through reflection by the <a class="xref" href="HomeSeer.PluginSdk.Events.TriggerTypeCollection.html">TriggerTypeCollection</a> class if a class that
+ derives from this type is added to its list.
+</p>
+<p>
+You MUST implement one of these constructor signatures in any class that derives from <a class="xref" href="HomeSeer.PluginSdk.Events.AbstractTriggerType.html">AbstractTriggerType</a>
+</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="tabGroup" id="tabgroup_syntax">
@@ -277,27 +288,30 @@ This is called through reflection by the <a class="xref" href="HomeSeer.PluginSd
       <tr>
         <td><a class="xref" href="HomeSeer.PluginSdk.Events.TrigActInfo.html">TrigActInfo</a></td>
         <td><span class="parametername">trigInfo</span></td>
-        <td></td>
+        <td><p>The <a class="xref" href="HomeSeer.PluginSdk.Events.TrigActInfo.html">TrigActInfo</a> containing all the trigger information</p>
+</td>
       </tr>
       <tr>
         <td><a class="xref" href="HomeSeer.PluginSdk.Events.TriggerTypeCollection.ITriggerTypeListener.html">TriggerTypeCollection.ITriggerTypeListener</a></td>
         <td><span class="parametername">listener</span></td>
-        <td></td>
+        <td><p>The listener that facilitates the communication with <a class="xref" href="HomeSeer.PluginSdk.AbstractPlugin.html">AbstractPlugin</a></p>
+</td>
       </tr>
       <tr>
         <td><span class="xref">System.Boolean</span></td>
         <td><span class="parametername">logDebug</span></td>
-        <td></td>
+        <td><p>If true debug messages will be written to the console</p>
+</td>
       </tr>
     </tbody>
   </table>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Events/AbstractTriggerType.cs/#L115">View Source</a>
+    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Events/AbstractTriggerType.cs/#L118">View Source</a>
   </span>
   <a id="HomeSeer_PluginSdk_Events_AbstractTriggerType__ctor_" data-uid="HomeSeer.PluginSdk.Events.AbstractTriggerType.#ctor*"></a>
   <h4 id="HomeSeer_PluginSdk_Events_AbstractTriggerType__ctor_System_Int32_System_Int32_System_Int32_System_Byte___HomeSeer_PluginSdk_Events_TriggerTypeCollection_ITriggerTypeListener_" data-uid="HomeSeer.PluginSdk.Events.AbstractTriggerType.#ctor(System.Int32,System.Int32,System.Int32,System.Byte[],HomeSeer.PluginSdk.Events.TriggerTypeCollection.ITriggerTypeListener)">AbstractTriggerType(Int32, Int32, Int32, Byte[], TriggerTypeCollection.ITriggerTypeListener)</h4>
-  <div class="markdown level1 summary"><p>Initialize a new <a class="xref" href="HomeSeer.PluginSdk.Events.AbstractTriggerType.html">AbstractTriggerType</a> with the specified ID, Event Ref, and Data byte array.
+  <div class="markdown level1 summary"><p>Initialize a new <a class="xref" href="HomeSeer.PluginSdk.Events.AbstractTriggerType.html">AbstractTriggerType</a> with the specified ID, Event Ref, Data byte array and listener.
 The byte array will be automatically parsed for a <a class="xref" href="HomeSeer.Jui.Views.Page.html">Page</a>, and a new one will be created if
 the array is empty.</p>
 <p>
@@ -367,17 +381,18 @@ You MUST implement one of these constructor signatures in any class that derives
       <tr>
         <td><a class="xref" href="HomeSeer.PluginSdk.Events.TriggerTypeCollection.ITriggerTypeListener.html">TriggerTypeCollection.ITriggerTypeListener</a></td>
         <td><span class="parametername">listener</span></td>
-        <td></td>
+        <td><p>The listener that facilitates the communication with <a class="xref" href="HomeSeer.PluginSdk.AbstractPlugin.html">AbstractPlugin</a></p>
+</td>
       </tr>
     </tbody>
   </table>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Events/AbstractTriggerType.cs/#L89">View Source</a>
+    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Events/AbstractTriggerType.cs/#L91">View Source</a>
   </span>
   <a id="HomeSeer_PluginSdk_Events_AbstractTriggerType__ctor_" data-uid="HomeSeer.PluginSdk.Events.AbstractTriggerType.#ctor*"></a>
   <h4 id="HomeSeer_PluginSdk_Events_AbstractTriggerType__ctor_System_Int32_System_Int32_System_Int32_System_Byte___HomeSeer_PluginSdk_Events_TriggerTypeCollection_ITriggerTypeListener_System_Boolean_" data-uid="HomeSeer.PluginSdk.Events.AbstractTriggerType.#ctor(System.Int32,System.Int32,System.Int32,System.Byte[],HomeSeer.PluginSdk.Events.TriggerTypeCollection.ITriggerTypeListener,System.Boolean)">AbstractTriggerType(Int32, Int32, Int32, Byte[], TriggerTypeCollection.ITriggerTypeListener, Boolean)</h4>
-  <div class="markdown level1 summary"><p>Initialize a new <a class="xref" href="HomeSeer.PluginSdk.Events.AbstractTriggerType.html">AbstractTriggerType</a> with the specified ID, Event Ref, and Data byte array.
+  <div class="markdown level1 summary"><p>Initialize a new <a class="xref" href="HomeSeer.PluginSdk.Events.AbstractTriggerType.html">AbstractTriggerType</a> with the specified ID, Event Ref, Data byte array, listener, and logDebug flag.
 The byte array will be automatically parsed for a <a class="xref" href="HomeSeer.Jui.Views.Page.html">Page</a>, and a new one will be created if
 the array is empty.</p>
 <p>
@@ -447,12 +462,14 @@ You MUST implement one of these constructor signatures in any class that derives
       <tr>
         <td><a class="xref" href="HomeSeer.PluginSdk.Events.TriggerTypeCollection.ITriggerTypeListener.html">TriggerTypeCollection.ITriggerTypeListener</a></td>
         <td><span class="parametername">listener</span></td>
-        <td></td>
+        <td><p>The listener that facilitates the communication with <a class="xref" href="HomeSeer.PluginSdk.AbstractPlugin.html">AbstractPlugin</a></p>
+</td>
       </tr>
       <tr>
         <td><span class="xref">System.Boolean</span></td>
         <td><span class="parametername">logDebug</span></td>
-        <td></td>
+        <td><p>If true debug messages will be written to the console</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -460,7 +477,7 @@ You MUST implement one of these constructor signatures in any class that derives
   </h3>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Events/AbstractTriggerType.cs/#L181">View Source</a>
+    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Events/AbstractTriggerType.cs/#L199">View Source</a>
   </span>
   <h4 id="HomeSeer_PluginSdk_Events_AbstractTriggerType__configPage" data-uid="HomeSeer.PluginSdk.Events.AbstractTriggerType._configPage">_configPage</h4>
   <div class="markdown level1 summary"></div>
@@ -503,7 +520,7 @@ You MUST implement one of these constructor signatures in any class that derives
   </table>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Events/AbstractTriggerType.cs/#L180">View Source</a>
+    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Events/AbstractTriggerType.cs/#L198">View Source</a>
   </span>
   <h4 id="HomeSeer_PluginSdk_Events_AbstractTriggerType__data" data-uid="HomeSeer.PluginSdk.Events.AbstractTriggerType._data">_data</h4>
   <div class="markdown level1 summary"></div>
@@ -546,7 +563,7 @@ You MUST implement one of these constructor signatures in any class that derives
   </table>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Events/AbstractTriggerType.cs/#L179">View Source</a>
+    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Events/AbstractTriggerType.cs/#L197">View Source</a>
   </span>
   <h4 id="HomeSeer_PluginSdk_Events_AbstractTriggerType__eventRef" data-uid="HomeSeer.PluginSdk.Events.AbstractTriggerType._eventRef">_eventRef</h4>
   <div class="markdown level1 summary"></div>
@@ -589,7 +606,7 @@ You MUST implement one of these constructor signatures in any class that derives
   </table>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Events/AbstractTriggerType.cs/#L178">View Source</a>
+    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Events/AbstractTriggerType.cs/#L196">View Source</a>
   </span>
   <h4 id="HomeSeer_PluginSdk_Events_AbstractTriggerType__id" data-uid="HomeSeer.PluginSdk.Events.AbstractTriggerType._id">_id</h4>
   <div class="markdown level1 summary"></div>
@@ -675,7 +692,7 @@ You MUST implement one of these constructor signatures in any class that derives
   </table>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Events/AbstractTriggerType.cs/#L182">View Source</a>
+    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Events/AbstractTriggerType.cs/#L200">View Source</a>
   </span>
   <h4 id="HomeSeer_PluginSdk_Events_AbstractTriggerType__selectedSubTriggerIndex" data-uid="HomeSeer.PluginSdk.Events.AbstractTriggerType._selectedSubTriggerIndex">_selectedSubTriggerIndex</h4>
   <div class="markdown level1 summary"></div>
@@ -766,7 +783,7 @@ A condition is a trigger that operates in conjunction with another trigger in an
   </table>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Events/AbstractTriggerType.cs/#L157">View Source</a>
+    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Events/AbstractTriggerType.cs/#L175">View Source</a>
   </span>
   <a id="HomeSeer_PluginSdk_Events_AbstractTriggerType_ConfigPage_" data-uid="HomeSeer.PluginSdk.Events.AbstractTriggerType.ConfigPage*"></a>
   <h4 id="HomeSeer_PluginSdk_Events_AbstractTriggerType_ConfigPage" data-uid="HomeSeer.PluginSdk.Events.AbstractTriggerType.ConfigPage">ConfigPage</h4>
@@ -1046,7 +1063,7 @@ a user can select from on the events page.</p>
   </table>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Events/AbstractTriggerType.cs/#L146">View Source</a>
+    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Events/AbstractTriggerType.cs/#L164">View Source</a>
   </span>
   <a id="HomeSeer_PluginSdk_Events_AbstractTriggerType_PageId_" data-uid="HomeSeer.PluginSdk.Events.AbstractTriggerType.PageId*"></a>
   <h4 id="HomeSeer_PluginSdk_Events_AbstractTriggerType_PageId" data-uid="HomeSeer.PluginSdk.Events.AbstractTriggerType.PageId">PageId</h4>
@@ -1181,7 +1198,7 @@ a user can select from on the events page.</p>
   </table>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Events/AbstractTriggerType.cs/#L176">View Source</a>
+    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Events/AbstractTriggerType.cs/#L194">View Source</a>
   </span>
   <a id="HomeSeer_PluginSdk_Events_AbstractTriggerType_SubTriggerTypeNames_" data-uid="HomeSeer.PluginSdk.Events.AbstractTriggerType.SubTriggerTypeNames*"></a>
   <h4 id="HomeSeer_PluginSdk_Events_AbstractTriggerType_SubTriggerTypeNames" data-uid="HomeSeer.PluginSdk.Events.AbstractTriggerType.SubTriggerTypeNames">SubTriggerTypeNames</h4>
@@ -1279,7 +1296,7 @@ Define your own interface that inherits from <a class="xref" href="HomeSeer.Plug
   </h3>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Events/AbstractTriggerType.cs/#L396">View Source</a>
+    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Events/AbstractTriggerType.cs/#L414">View Source</a>
   </span>
   <a id="HomeSeer_PluginSdk_Events_AbstractTriggerType_ConvertLegacyData_" data-uid="HomeSeer.PluginSdk.Events.AbstractTriggerType.ConvertLegacyData*"></a>
   <h4 id="HomeSeer_PluginSdk_Events_AbstractTriggerType_ConvertLegacyData_System_Byte___" data-uid="HomeSeer.PluginSdk.Events.AbstractTriggerType.ConvertLegacyData(System.Byte[])">ConvertLegacyData(Byte[])</h4>
@@ -1352,7 +1369,7 @@ Override this if you need to support legacy triggers. Convert the UI to the new 
 </div>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Events/AbstractTriggerType.cs/#L427">View Source</a>
+    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Events/AbstractTriggerType.cs/#L446">View Source</a>
   </span>
   <a id="HomeSeer_PluginSdk_Events_AbstractTriggerType_Equals_" data-uid="HomeSeer.PluginSdk.Events.AbstractTriggerType.Equals*"></a>
   <h4 id="HomeSeer_PluginSdk_Events_AbstractTriggerType_Equals_System_Object_" data-uid="HomeSeer.PluginSdk.Events.AbstractTriggerType.Equals(System.Object)">Equals(Object)</h4>
@@ -1415,7 +1432,7 @@ Override this if you need to support legacy triggers. Convert the UI to the new 
   <div><span class="xref">System.Object.Equals(System.Object)</span></div>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Events/AbstractTriggerType.cs/#L422">View Source</a>
+    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Events/AbstractTriggerType.cs/#L440">View Source</a>
   </span>
   <a id="HomeSeer_PluginSdk_Events_AbstractTriggerType_GetData_" data-uid="HomeSeer.PluginSdk.Events.AbstractTriggerType.GetData*"></a>
   <h4 id="HomeSeer_PluginSdk_Events_AbstractTriggerType_GetData" data-uid="HomeSeer.PluginSdk.Events.AbstractTriggerType.GetData">GetData()</h4>
@@ -1433,12 +1450,12 @@ Override this if you need to support legacy triggers. Convert the UI to the new 
       </ul>
       <section id="tabpanel_syntax_cs" role="tabpanel" data-tab="cs">
           <div class="codewrapper">
-            <pre><code class="lang-csharp hljs">byte[] GetData()</code></pre>
+            <pre><code class="lang-csharp hljs">virtual byte[] GetData()</code></pre>
           </div>
       </section>
       <section id="tabpanel_syntax_vb" role="tabpanel" data-tab="vb" aria-hidden="true" hidden="">
           <div class="codewrapper">
-            <pre><code class="lang-vb hljs">Function GetData As Byte()</code></pre>
+            <pre><code class="lang-vb hljs">Overridable Function GetData As Byte()</code></pre>
           </div>
       </section>
   </div>
@@ -1459,7 +1476,7 @@ Override this if you need to support legacy triggers. Convert the UI to the new 
   </table>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Events/AbstractTriggerType.cs/#L451">View Source</a>
+    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Events/AbstractTriggerType.cs/#L471">View Source</a>
   </span>
   <a id="HomeSeer_PluginSdk_Events_AbstractTriggerType_GetHashCode_" data-uid="HomeSeer.PluginSdk.Events.AbstractTriggerType.GetHashCode*"></a>
   <h4 id="HomeSeer_PluginSdk_Events_AbstractTriggerType_GetHashCode" data-uid="HomeSeer.PluginSdk.Events.AbstractTriggerType.GetHashCode">GetHashCode()</h4>
@@ -1505,7 +1522,7 @@ Override this if you need to support legacy triggers. Convert the UI to the new 
   <div><span class="xref">System.Object.GetHashCode()</span></div>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Events/AbstractTriggerType.cs/#L188">View Source</a>
+    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Events/AbstractTriggerType.cs/#L206">View Source</a>
   </span>
   <a id="HomeSeer_PluginSdk_Events_AbstractTriggerType_GetName_" data-uid="HomeSeer.PluginSdk.Events.AbstractTriggerType.GetName*"></a>
   <h4 id="HomeSeer_PluginSdk_Events_AbstractTriggerType_GetName" data-uid="HomeSeer.PluginSdk.Events.AbstractTriggerType.GetName">GetName()</h4>
@@ -1551,7 +1568,7 @@ Override this if you need to support legacy triggers. Convert the UI to the new 
   </table>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Events/AbstractTriggerType.cs/#L280">View Source</a>
+    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Events/AbstractTriggerType.cs/#L298">View Source</a>
   </span>
   <a id="HomeSeer_PluginSdk_Events_AbstractTriggerType_GetPrettyString_" data-uid="HomeSeer.PluginSdk.Events.AbstractTriggerType.GetPrettyString*"></a>
   <h4 id="HomeSeer_PluginSdk_Events_AbstractTriggerType_GetPrettyString" data-uid="HomeSeer.PluginSdk.Events.AbstractTriggerType.GetPrettyString">GetPrettyString()</h4>
@@ -1603,7 +1620,7 @@ This is currently a WIP (Work in Progress) The end goal is to provide a StringBu
   </table>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Events/AbstractTriggerType.cs/#L198">View Source</a>
+    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Events/AbstractTriggerType.cs/#L216">View Source</a>
   </span>
   <a id="HomeSeer_PluginSdk_Events_AbstractTriggerType_GetSubTriggerName_" data-uid="HomeSeer.PluginSdk.Events.AbstractTriggerType.GetSubTriggerName*"></a>
   <h4 id="HomeSeer_PluginSdk_Events_AbstractTriggerType_GetSubTriggerName_System_Int32_" data-uid="HomeSeer.PluginSdk.Events.AbstractTriggerType.GetSubTriggerName(System.Int32)">GetSubTriggerName(Int32)</h4>
@@ -1683,7 +1700,7 @@ This is currently a WIP (Work in Progress) The end goal is to provide a StringBu
   </table>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Events/AbstractTriggerType.cs/#L400">View Source</a>
+    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Events/AbstractTriggerType.cs/#L418">View Source</a>
   </span>
   <a id="HomeSeer_PluginSdk_Events_AbstractTriggerType_InflateTriggerFromData_" data-uid="HomeSeer.PluginSdk.Events.AbstractTriggerType.InflateTriggerFromData*"></a>
   <h4 id="HomeSeer_PluginSdk_Events_AbstractTriggerType_InflateTriggerFromData" data-uid="HomeSeer.PluginSdk.Events.AbstractTriggerType.InflateTriggerFromData">InflateTriggerFromData()</h4>
@@ -1712,7 +1729,7 @@ This is currently a WIP (Work in Progress) The end goal is to provide a StringBu
   </div>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Events/AbstractTriggerType.cs/#L230">View Source</a>
+    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Events/AbstractTriggerType.cs/#L248">View Source</a>
   </span>
   <a id="HomeSeer_PluginSdk_Events_AbstractTriggerType_IsFullyConfigured_" data-uid="HomeSeer.PluginSdk.Events.AbstractTriggerType.IsFullyConfigured*"></a>
   <h4 id="HomeSeer_PluginSdk_Events_AbstractTriggerType_IsFullyConfigured" data-uid="HomeSeer.PluginSdk.Events.AbstractTriggerType.IsFullyConfigured">IsFullyConfigured()</h4>
@@ -1759,7 +1776,7 @@ FALSE if there are more options to configure before the trigger can be used.</p>
   </table>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Events/AbstractTriggerType.cs/#L294">View Source</a>
+    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Events/AbstractTriggerType.cs/#L312">View Source</a>
   </span>
   <a id="HomeSeer_PluginSdk_Events_AbstractTriggerType_IsTriggerTrue_" data-uid="HomeSeer.PluginSdk.Events.AbstractTriggerType.IsTriggerTrue*"></a>
   <h4 id="HomeSeer_PluginSdk_Events_AbstractTriggerType_IsTriggerTrue_System_Boolean_" data-uid="HomeSeer.PluginSdk.Events.AbstractTriggerType.IsTriggerTrue(System.Boolean)">IsTriggerTrue(Boolean)</h4>
@@ -1828,7 +1845,7 @@ manually executed by a user.</p>
 </div>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Events/AbstractTriggerType.cs/#L266">View Source</a>
+    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Events/AbstractTriggerType.cs/#L284">View Source</a>
   </span>
   <a id="HomeSeer_PluginSdk_Events_AbstractTriggerType_OnConfigItemUpdate_" data-uid="HomeSeer.PluginSdk.Events.AbstractTriggerType.OnConfigItemUpdate*"></a>
   <h4 id="HomeSeer_PluginSdk_Events_AbstractTriggerType_OnConfigItemUpdate_HomeSeer_Jui_Views_AbstractView_" data-uid="HomeSeer.PluginSdk.Events.AbstractTriggerType.OnConfigItemUpdate(HomeSeer.Jui.Views.AbstractView)">OnConfigItemUpdate(AbstractView)</h4>
@@ -1893,7 +1910,7 @@ FALSE to discard the change.</p>
   </table>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Events/AbstractTriggerType.cs/#L240">View Source</a>
+    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Events/AbstractTriggerType.cs/#L258">View Source</a>
   </span>
   <a id="HomeSeer_PluginSdk_Events_AbstractTriggerType_OnEditTrigger_" data-uid="HomeSeer.PluginSdk.Events.AbstractTriggerType.OnEditTrigger*"></a>
   <h4 id="HomeSeer_PluginSdk_Events_AbstractTriggerType_OnEditTrigger_HomeSeer_Jui_Views_Page_" data-uid="HomeSeer.PluginSdk.Events.AbstractTriggerType.OnEditTrigger(HomeSeer.Jui.Views.Page)">OnEditTrigger(Page)</h4>
@@ -1945,7 +1962,7 @@ We do not recommend overriding this method unless you specifically want to adjus
   </table>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Events/AbstractTriggerType.cs/#L221">View Source</a>
+    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Events/AbstractTriggerType.cs/#L239">View Source</a>
   </span>
   <a id="HomeSeer_PluginSdk_Events_AbstractTriggerType_OnNewTrigger_" data-uid="HomeSeer.PluginSdk.Events.AbstractTriggerType.OnNewTrigger*"></a>
   <h4 id="HomeSeer_PluginSdk_Events_AbstractTriggerType_OnNewTrigger" data-uid="HomeSeer.PluginSdk.Events.AbstractTriggerType.OnNewTrigger">OnNewTrigger()</h4>
@@ -1986,7 +2003,7 @@ If no page is set, a blank page will be auto initialized.
   </div>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Events/AbstractTriggerType.cs/#L355">View Source</a>
+    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Events/AbstractTriggerType.cs/#L373">View Source</a>
   </span>
   <a id="HomeSeer_PluginSdk_Events_AbstractTriggerType_ProcessData_" data-uid="HomeSeer.PluginSdk.Events.AbstractTriggerType.ProcessData*"></a>
   <h4 id="HomeSeer_PluginSdk_Events_AbstractTriggerType_ProcessData_System_Byte___" data-uid="HomeSeer.PluginSdk.Events.AbstractTriggerType.ProcessData(System.Byte[])">ProcessData(Byte[])</h4>
@@ -2004,12 +2021,12 @@ If no page is set, a blank page will be auto initialized.
       </ul>
       <section id="tabpanel_syntax_cs" role="tabpanel" data-tab="cs">
           <div class="codewrapper">
-            <pre><code class="lang-csharp hljs">byte[] ProcessData(byte[] inData)</code></pre>
+            <pre><code class="lang-csharp hljs">virtual byte[] ProcessData(byte[] inData)</code></pre>
           </div>
       </section>
       <section id="tabpanel_syntax_vb" role="tabpanel" data-tab="vb" aria-hidden="true" hidden="">
           <div class="codewrapper">
-            <pre><code class="lang-vb hljs">Function ProcessData(inData As Byte()) As Byte()</code></pre>
+            <pre><code class="lang-vb hljs">Overridable Function ProcessData(inData As Byte()) As Byte()</code></pre>
           </div>
       </section>
   </div>
@@ -2047,7 +2064,7 @@ If no page is set, a blank page will be auto initialized.
   </table>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Events/AbstractTriggerType.cs/#L318">View Source</a>
+    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Events/AbstractTriggerType.cs/#L336">View Source</a>
   </span>
   <a id="HomeSeer_PluginSdk_Events_AbstractTriggerType_ProcessPostData_" data-uid="HomeSeer.PluginSdk.Events.AbstractTriggerType.ProcessPostData*"></a>
   <h4 id="HomeSeer_PluginSdk_Events_AbstractTriggerType_ProcessPostData_System_Collections_Generic_Dictionary_System_String_System_String__" data-uid="HomeSeer.PluginSdk.Events.AbstractTriggerType.ProcessPostData(System.Collections.Generic.Dictionary{System.String,System.String})">ProcessPostData(Dictionary&lt;String, String&gt;)</h4>
@@ -2108,7 +2125,7 @@ If no page is set, a blank page will be auto initialized.
   </table>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Events/AbstractTriggerType.cs/#L304">View Source</a>
+    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Events/AbstractTriggerType.cs/#L322">View Source</a>
   </span>
   <a id="HomeSeer_PluginSdk_Events_AbstractTriggerType_ReferencesDeviceOrFeature_" data-uid="HomeSeer.PluginSdk.Events.AbstractTriggerType.ReferencesDeviceOrFeature*"></a>
   <h4 id="HomeSeer_PluginSdk_Events_AbstractTriggerType_ReferencesDeviceOrFeature_System_Int32_" data-uid="HomeSeer.PluginSdk.Events.AbstractTriggerType.ReferencesDeviceOrFeature(System.Int32)">ReferencesDeviceOrFeature(Int32)</h4>
@@ -2173,7 +2190,7 @@ FALSE if it does not.</p>
   </table>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Events/AbstractTriggerType.cs/#L314">View Source</a>
+    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Events/AbstractTriggerType.cs/#L332">View Source</a>
   </span>
   <a id="HomeSeer_PluginSdk_Events_AbstractTriggerType_ToHtml_" data-uid="HomeSeer.PluginSdk.Events.AbstractTriggerType.ToHtml*"></a>
   <h4 id="HomeSeer_PluginSdk_Events_AbstractTriggerType_ToHtml" data-uid="HomeSeer.PluginSdk.Events.AbstractTriggerType.ToHtml">ToHtml()</h4>
