@@ -18,7 +18,7 @@
       "output": {
         ".html": {
           "relative_path": "README.html",
-          "hash": "kmzFhic5Jn+zDZXg4+BDlom2IGGDZN9Cyu2UJp20+yk="
+          "hash": "zEzVJxKfW1c49/h3afDsM8XN1DOrmGhNnPiz0nXcf08="
         }
       },
       "is_incremental": false,
@@ -750,7 +750,7 @@
       "output": {
         ".html": {
           "relative_path": "api/HomeSeer.PluginSdk.Devices.Controls.EControlType.html",
-          "hash": "THoSasB2TqZBpHDVV/+P1+XrVgGt9rAsY1ktiNhsNQU="
+          "hash": "od3qwwCOyrEW5aO9YSAzmEuCln50VvtliKPbFRnxFF8="
         }
       },
       "is_incremental": false,
@@ -894,7 +894,7 @@
       "output": {
         ".html": {
           "relative_path": "api/HomeSeer.PluginSdk.Devices.FeatureFactory.html",
-          "hash": "6gD1O9b/V14l2OOCk+4Gs8d1pWDAkSWp9gS0SUzEVug="
+          "hash": "HfpVltbIycWcILKjufcrm1uzDWwS3bxziSrK8qf3bxY="
         }
       },
       "is_incremental": false,
@@ -1146,7 +1146,7 @@
       "output": {
         ".html": {
           "relative_path": "api/HomeSeer.PluginSdk.Devices.ValueRange.html",
-          "hash": "GbuBE4457Ihow3IPD0pEST6/TtDZBwdN/nzmIA6Fb90="
+          "hash": "1qYy6/zb3kVCxoohq0K+DLMWBzgESvfkvjmh5Y+Es7A="
         }
       },
       "is_incremental": false,
@@ -1338,7 +1338,7 @@
       "output": {
         ".html": {
           "relative_path": "api/HomeSeer.PluginSdk.Events.EventData.html",
-          "hash": "7+wuZ+BoOl3YG7TE87vM28v1ea7iWmB/5pbRyroYYaY="
+          "hash": "Uz1smJQxD3plKVRWmBQVpfSNi7m/HiGccKHlQL3YCig="
         }
       },
       "is_incremental": false,
@@ -2066,7 +2066,7 @@
       "output": {
         ".html": {
           "relative_path": "release_notes/index.html",
-          "hash": "yOyH0554g7/D0ZtElbt3viV4ovSn8daOd+A/Z8MqtDQ="
+          "hash": "bboGaJ/8zxoMS06WDSt5XfscmC+u/gHq57H+e4AfcCY="
         }
       },
       "is_incremental": false,
@@ -2289,12 +2289,24 @@
       "version": ""
     },
     {
+      "type": "Conceptual",
+      "source_relative_path": "release_notes/pluginsdk_releasenotes_1_4_4_0.md",
+      "output": {
+        ".html": {
+          "relative_path": "release_notes/pluginsdk_releasenotes_1_4_4_0.html",
+          "hash": "OOCKbWP9m+lEebHksvCLJA/b5aoYIlmKq5AtzdtcMmI="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
       "type": "Toc",
       "source_relative_path": "release_notes/toc.yml",
       "output": {
         ".html": {
           "relative_path": "release_notes/toc.html",
-          "hash": "x/0jlxfzKutwv8DEE1oRb/uEX7ituv5bK/G70MsAK28="
+          "hash": "T708UylyfuBzI6ipNiGAumFSJC2UO3J+W+i6ZCw4aFs="
         }
       },
       "is_incremental": false,
@@ -2325,8 +2337,8 @@
         "ConceptualDocumentProcessor": {
           "can_incremental": true,
           "incrementalPhase": "build",
-          "total_file_count": 22,
-          "skipped_file_count": 22
+          "total_file_count": 23,
+          "skipped_file_count": 23
         },
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": true,

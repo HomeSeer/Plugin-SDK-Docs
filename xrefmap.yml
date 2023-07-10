@@ -10298,6 +10298,12 @@ references:
   commentId: F:HomeSeer.PluginSdk.Devices.ValueRange._decimalPlaces
   fullName: HomeSeer.PluginSdk.Devices.ValueRange._decimalPlaces
   nameWithType: ValueRange._decimalPlaces
+- uid: HomeSeer.PluginSdk.Devices.ValueRange._divisor
+  name: _divisor
+  href: api/HomeSeer.PluginSdk.Devices.ValueRange.html#HomeSeer_PluginSdk_Devices_ValueRange__divisor
+  commentId: F:HomeSeer.PluginSdk.Devices.ValueRange._divisor
+  fullName: HomeSeer.PluginSdk.Devices.ValueRange._divisor
+  nameWithType: ValueRange._divisor
 - uid: HomeSeer.PluginSdk.Devices.ValueRange._max
   name: _max
   href: api/HomeSeer.PluginSdk.Devices.ValueRange.html#HomeSeer_PluginSdk_Devices_ValueRange__max
@@ -10354,6 +10360,19 @@ references:
   isSpec: "True"
   fullName: HomeSeer.PluginSdk.Devices.ValueRange.DecimalPlaces
   nameWithType: ValueRange.DecimalPlaces
+- uid: HomeSeer.PluginSdk.Devices.ValueRange.Divisor
+  name: Divisor
+  href: api/HomeSeer.PluginSdk.Devices.ValueRange.html#HomeSeer_PluginSdk_Devices_ValueRange_Divisor
+  commentId: P:HomeSeer.PluginSdk.Devices.ValueRange.Divisor
+  fullName: HomeSeer.PluginSdk.Devices.ValueRange.Divisor
+  nameWithType: ValueRange.Divisor
+- uid: HomeSeer.PluginSdk.Devices.ValueRange.Divisor*
+  name: Divisor
+  href: api/HomeSeer.PluginSdk.Devices.ValueRange.html#HomeSeer_PluginSdk_Devices_ValueRange_Divisor_
+  commentId: Overload:HomeSeer.PluginSdk.Devices.ValueRange.Divisor
+  isSpec: "True"
+  fullName: HomeSeer.PluginSdk.Devices.ValueRange.Divisor
+  nameWithType: ValueRange.Divisor
 - uid: HomeSeer.PluginSdk.Devices.ValueRange.Equals(System.Object)
   name: Equals(Object)
   href: api/HomeSeer.PluginSdk.Devices.ValueRange.html#HomeSeer_PluginSdk_Devices_ValueRange_Equals_System_Object_
@@ -12577,6 +12596,24 @@ references:
   commentId: F:HomeSeer.PluginSdk.Events.EventData.Flag_Security
   fullName: HomeSeer.PluginSdk.Events.EventData.Flag_Security
   nameWithType: EventData.Flag_Security
+- uid: HomeSeer.PluginSdk.Events.EventData.FlagAlexaDiscoveryEnabled
+  name: FlagAlexaDiscoveryEnabled
+  href: api/HomeSeer.PluginSdk.Events.EventData.html#HomeSeer_PluginSdk_Events_EventData_FlagAlexaDiscoveryEnabled
+  commentId: F:HomeSeer.PluginSdk.Events.EventData.FlagAlexaDiscoveryEnabled
+  fullName: HomeSeer.PluginSdk.Events.EventData.FlagAlexaDiscoveryEnabled
+  nameWithType: EventData.FlagAlexaDiscoveryEnabled
+- uid: HomeSeer.PluginSdk.Events.EventData.FlagGoogleDiscoveryEnabled
+  name: FlagGoogleDiscoveryEnabled
+  href: api/HomeSeer.PluginSdk.Events.EventData.html#HomeSeer_PluginSdk_Events_EventData_FlagGoogleDiscoveryEnabled
+  commentId: F:HomeSeer.PluginSdk.Events.EventData.FlagGoogleDiscoveryEnabled
+  fullName: HomeSeer.PluginSdk.Events.EventData.FlagGoogleDiscoveryEnabled
+  nameWithType: EventData.FlagGoogleDiscoveryEnabled
+- uid: HomeSeer.PluginSdk.Events.EventData.FlagVoiceCommand
+  name: FlagVoiceCommand
+  href: api/HomeSeer.PluginSdk.Events.EventData.html#HomeSeer_PluginSdk_Events_EventData_FlagVoiceCommand
+  commentId: F:HomeSeer.PluginSdk.Events.EventData.FlagVoiceCommand
+  fullName: HomeSeer.PluginSdk.Events.EventData.FlagVoiceCommand
+  nameWithType: EventData.FlagVoiceCommand
 - uid: HomeSeer.PluginSdk.Events.EventData.GroupID
   name: GroupID
   href: api/HomeSeer.PluginSdk.Events.EventData.html#HomeSeer_PluginSdk_Events_EventData_GroupID
