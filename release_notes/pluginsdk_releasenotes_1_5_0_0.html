@@ -5,9 +5,9 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Plugin SDK Release Notes | HomeSeer PluginSdk Docs </title>
+    <title>Plugin SDK v1.5.0.0 Release Notes | HomeSeer PluginSdk Docs </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Plugin SDK Release Notes | HomeSeer PluginSdk Docs ">
+    <meta name="title" content="Plugin SDK v1.5.0.0 Release Notes | HomeSeer PluginSdk Docs ">
     <meta name="generator" content="docfx 2.59.4.0">
     
     <link rel="shortcut icon" href="../images/favicon.ico">
@@ -79,44 +79,14 @@
       <div class="col-md-1"></div>
       <div class="col-md-8 card">
         <article class="content wrap" id="_content" data-uid="">
-<h1 id="plugin-sdk-release-notes">Plugin SDK Release Notes</h1>
+<h1 id="plugin-sdk-v1500-release-notes">Plugin SDK v1.5.0.0 Release Notes</h1>
 
-<p>Pick a version to view release notes.</p>
-<h2 id="latest-release">Latest Release</h2>
-<p><strong><a href="pluginsdk_releasenotes_1_5_0_0.html">Plugin SDK v1.5.0.0</a></strong></p>
-<h2 id="previous-releases">Previous Releases</h2>
+<p><img src="https://img.shields.io/badge/Requires-HomeSeer%20v4.2.20.0-blue" alt="Required HS Core Version"></p>
+<p>This release contains a small change to devices and an update to Newtonsoft. The <a class="xref" href="../api/HomeSeer.PluginSdk.Devices.AbstractHsDevice.html#HomeSeer_PluginSdk_Devices_AbstractHsDevice_Version_"><code>Version</code></a> was exposed on <a class="xref" href="../api/HomeSeer.PluginSdk.Devices.AbstractHsDevice.html"><code>AbstractHsDevice</code></a>. This property can be used to seamlessly migrate devices from a legacy configuration without having to recreate the entire device. This ensures that existing events and other links to that device remain the same. When setting the <a class="xref" href="../api/HomeSeer.PluginSdk.Devices.AbstractHsDevice.html#HomeSeer_PluginSdk_Devices_AbstractHsDevice_Version_"><code>Version</code></a> property to &quot;4.0&quot;, make sure you clear all <a class="xref" href="../api/HomeSeer.PluginSdk.Devices.Controls.StatusControl.html"><code>StatusControls</code></a> and <a class="xref" href="../api/HomeSeer.PluginSdk.Devices.StatusGraphic.html"><code>StatusGraphics</code></a> on <a class="xref" href="../api/HomeSeer.PluginSdk.Devices.HsDevice.html"><code>HsDevices</code></a> first. For <a class="xref" href="../api/HomeSeer.PluginSdk.Devices.HsFeature.html"><code>HsFeatures</code></a>, recreate the <a class="xref" href="../api/HomeSeer.PluginSdk.Devices.Controls.StatusControl.html"><code>StatusControls</code></a> and <a class="xref" href="../api/HomeSeer.PluginSdk.Devices.StatusGraphic.html"><code>StatusGraphics</code></a> before setting the <a class="xref" href="../api/HomeSeer.PluginSdk.Devices.AbstractHsDevice.html#HomeSeer_PluginSdk_Devices_AbstractHsDevice_Version_"><code>Version</code></a>.</p>
 <ul>
-<li><a href="pluginsdk_releasenotes_1_4_4_0.html">Plugin SDK v1.4.4.0</a>
-<ul>
-<li><a href="pluginsdk_releasenotes_1_4_3_0.html">Plugin SDK v1.4.3.0</a></li>
-<li><a href="pluginsdk_releasenotes_1_4_2_0.html">Plugin SDK v1.4.2.0</a></li>
-<li><a href="pluginsdk_releasenotes_1_4_1_0.html">Plugin SDK v1.4.1.0</a></li>
-<li><a href="pluginsdk_releasenotes_1_4_0_0.html">Plugin SDK v1.4.0.0</a></li>
-</ul>
-</li>
-<li><a href="pluginsdk_releasenotes_1_3_1_0.html">Plugin SDK v1.3.1.0</a>
-<ul>
-<li><a href="pluginsdk_releasenotes_1_3_0_0.html">Plugin SDK v1.3.0.0</a></li>
-</ul>
-</li>
-<li><a href="pluginsdk_releasenotes_1_2_5_0.html">Plugin SDK v1.2.5.0</a>
-<ul>
-<li><a href="pluginsdk_releasenotes_1_2_4_0.html">Plugin SDK v1.2.4.0</a></li>
-<li><a href="pluginsdk_releasenotes_1_2_3_0.html">Plugin SDK v1.2.3.0</a></li>
-<li><a href="pluginsdk_releasenotes_1_2_2_0.html">Plugin SDK v1.2.2.0</a></li>
-<li><a href="pluginsdk_releasenotes_1_2_1_0.html">Plugin SDK v1.2.1.0</a></li>
-<li><a href="pluginsdk_releasenotes_1_2_0_0.html">Plugin SDK v1.2.0.0</a></li>
-</ul>
-</li>
-<li><a href="pluginsdk_releasenotes_1_1_0_0.html">Plugin SDK v1.1.0.0</a></li>
-<li><a href="pluginsdk_releasenotes_1_0_9_0.html">Plugin SDK v1.0.9.0</a>
-<ul>
-<li><a href="pluginsdk_releasenotes_1_0_8_1.html">Plugin SDK v1.0.8.1</a></li>
-<li><a href="pluginsdk_releasenotes_1_0_8_0.html">Plugin SDK v1.0.8.0</a></li>
-<li><a href="pluginsdk_releasenotes_1_0_7_1.html">Plugin SDK v1.0.7.1</a></li>
-<li><a href="pluginsdk_releasenotes_1_0_5_0.html">Plugin SDK v1.0.5.0</a></li>
-</ul>
-</li>
+<li>Update Newtonsoft to v13.0.3</li>
+<li>Add <a class="xref" href="../api/HomeSeer.PluginSdk.Devices.AbstractHsDevice.html#HomeSeer_PluginSdk_Devices_AbstractHsDevice_Version_"><code>AbstractHsDevice.Version</code></a></li>
+<li>Add <a class="xref" href="../api/HomeSeer.PluginSdk.Devices.EProperty.html#HomeSeer_PluginSdk_Devices_EProperty_Version"><code>EProperty.Version</code></a></li>
 </ul>
 </article>
       </div>

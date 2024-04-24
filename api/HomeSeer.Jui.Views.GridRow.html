@@ -167,12 +167,14 @@
       </ul>
       <section id="tabpanel_syntax_cs" role="tabpanel" data-tab="cs">
           <div class="codewrapper">
-            <pre><code class="lang-csharp hljs">public GridRow()</code></pre>
+            <pre><code class="lang-csharp hljs">[JsonConstructor]
+public GridRow()</code></pre>
           </div>
       </section>
       <section id="tabpanel_syntax_vb" role="tabpanel" data-tab="vb" aria-hidden="true" hidden="">
           <div class="codewrapper">
-            <pre><code class="lang-vb hljs">Public Sub New</code></pre>
+            <pre><code class="lang-vb hljs">&lt;JsonConstructor&gt;
+Public Sub New</code></pre>
           </div>
       </section>
   </div>
@@ -198,12 +200,14 @@
       </ul>
       <section id="tabpanel_syntax_cs" role="tabpanel" data-tab="cs">
           <div class="codewrapper">
-            <pre><code class="lang-csharp hljs">List&lt;GridRowItem&gt; _items</code></pre>
+            <pre><code class="lang-csharp hljs">[JsonProperty(&quot;items&quot;)]
+List&lt;GridRowItem&gt; _items</code></pre>
           </div>
       </section>
       <section id="tabpanel_syntax_vb" role="tabpanel" data-tab="vb" aria-hidden="true" hidden="">
           <div class="codewrapper">
-            <pre><code class="lang-vb hljs">_items As List(Of GridRowItem)</code></pre>
+            <pre><code class="lang-vb hljs">&lt;JsonProperty(&quot;items&quot;)&gt;
+_items As List(Of GridRowItem)</code></pre>
           </div>
       </section>
   </div>
@@ -245,12 +249,14 @@
       </ul>
       <section id="tabpanel_syntax_cs" role="tabpanel" data-tab="cs">
           <div class="codewrapper">
-            <pre><code class="lang-csharp hljs">public EHorizontalAlignment HorizontalAlignment { get; set; }</code></pre>
+            <pre><code class="lang-csharp hljs">[JsonProperty(&quot;horizontal_alignment&quot;)]
+public EHorizontalAlignment HorizontalAlignment { get; set; }</code></pre>
           </div>
       </section>
       <section id="tabpanel_syntax_vb" role="tabpanel" data-tab="vb" aria-hidden="true" hidden="">
           <div class="codewrapper">
-            <pre><code class="lang-vb hljs">Public Property HorizontalAlignment As EHorizontalAlignment</code></pre>
+            <pre><code class="lang-vb hljs">&lt;JsonProperty(&quot;horizontal_alignment&quot;)&gt;
+Public Property HorizontalAlignment As EHorizontalAlignment</code></pre>
           </div>
       </section>
   </div>
@@ -290,12 +296,14 @@
       </ul>
       <section id="tabpanel_syntax_cs" role="tabpanel" data-tab="cs">
           <div class="codewrapper">
-            <pre><code class="lang-csharp hljs">public EVerticalAlignment VerticalAlignment { get; set; }</code></pre>
+            <pre><code class="lang-csharp hljs">[JsonProperty(&quot;vertical_alignment&quot;)]
+public EVerticalAlignment VerticalAlignment { get; set; }</code></pre>
           </div>
       </section>
       <section id="tabpanel_syntax_vb" role="tabpanel" data-tab="vb" aria-hidden="true" hidden="">
           <div class="codewrapper">
-            <pre><code class="lang-vb hljs">Public Property VerticalAlignment As EVerticalAlignment</code></pre>
+            <pre><code class="lang-vb hljs">&lt;JsonProperty(&quot;vertical_alignment&quot;)&gt;
+Public Property VerticalAlignment As EVerticalAlignment</code></pre>
           </div>
       </section>
   </div>
@@ -335,12 +343,14 @@
       </ul>
       <section id="tabpanel_syntax_cs" role="tabpanel" data-tab="cs">
           <div class="codewrapper">
-            <pre><code class="lang-csharp hljs">public ReadOnlyCollection&lt;AbstractView&gt; Views { get; }</code></pre>
+            <pre><code class="lang-csharp hljs">[JsonIgnore]
+public ReadOnlyCollection&lt;AbstractView&gt; Views { get; }</code></pre>
           </div>
       </section>
       <section id="tabpanel_syntax_vb" role="tabpanel" data-tab="vb" aria-hidden="true" hidden="">
           <div class="codewrapper">
-            <pre><code class="lang-vb hljs">Public ReadOnly Property Views As ReadOnlyCollection(Of AbstractView)</code></pre>
+            <pre><code class="lang-vb hljs">&lt;JsonIgnore&gt;
+Public ReadOnly Property Views As ReadOnlyCollection(Of AbstractView)</code></pre>
           </div>
       </section>
   </div>

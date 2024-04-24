@@ -200,12 +200,14 @@ the page they are on. It disrupts the workflow for editing and creating actions 
       </ul>
       <section id="tabpanel_syntax_cs" role="tabpanel" data-tab="cs">
           <div class="codewrapper">
-            <pre><code class="lang-csharp hljs">public NavigateButtonView(string id, string name, string homeSeerUrl)</code></pre>
+            <pre><code class="lang-csharp hljs">[JsonConstructor]
+public NavigateButtonView(string id, string name, string homeSeerUrl)</code></pre>
           </div>
       </section>
       <section id="tabpanel_syntax_vb" role="tabpanel" data-tab="vb" aria-hidden="true" hidden="">
           <div class="codewrapper">
-            <pre><code class="lang-vb hljs">Public Sub New(id As String, name As String, homeSeerUrl As String)</code></pre>
+            <pre><code class="lang-vb hljs">&lt;JsonConstructor&gt;
+Public Sub New(id As String, name As String, homeSeerUrl As String)</code></pre>
           </div>
       </section>
   </div>

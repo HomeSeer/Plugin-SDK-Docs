@@ -5593,6 +5593,12 @@ references:
   commentId: F:HomeSeer.PluginSdk.Devices.AbstractHsDevice._value
   fullName: HomeSeer.PluginSdk.Devices.AbstractHsDevice._value
   nameWithType: AbstractHsDevice._value
+- uid: HomeSeer.PluginSdk.Devices.AbstractHsDevice._version
+  name: _version
+  href: api/HomeSeer.PluginSdk.Devices.AbstractHsDevice.html#HomeSeer_PluginSdk_Devices_AbstractHsDevice__version
+  commentId: F:HomeSeer.PluginSdk.Devices.AbstractHsDevice._version
+  fullName: HomeSeer.PluginSdk.Devices.AbstractHsDevice._version
+  nameWithType: AbstractHsDevice._version
 - uid: HomeSeer.PluginSdk.Devices.AbstractHsDevice._voiceCommand
   name: _voiceCommand
   href: api/HomeSeer.PluginSdk.Devices.AbstractHsDevice.html#HomeSeer_PluginSdk_Devices_AbstractHsDevice__voiceCommand
@@ -6005,6 +6011,19 @@ references:
   isSpec: "True"
   fullName: HomeSeer.PluginSdk.Devices.AbstractHsDevice.Value
   nameWithType: AbstractHsDevice.Value
+- uid: HomeSeer.PluginSdk.Devices.AbstractHsDevice.Version
+  name: Version
+  href: api/HomeSeer.PluginSdk.Devices.AbstractHsDevice.html#HomeSeer_PluginSdk_Devices_AbstractHsDevice_Version
+  commentId: P:HomeSeer.PluginSdk.Devices.AbstractHsDevice.Version
+  fullName: HomeSeer.PluginSdk.Devices.AbstractHsDevice.Version
+  nameWithType: AbstractHsDevice.Version
+- uid: HomeSeer.PluginSdk.Devices.AbstractHsDevice.Version*
+  name: Version
+  href: api/HomeSeer.PluginSdk.Devices.AbstractHsDevice.html#HomeSeer_PluginSdk_Devices_AbstractHsDevice_Version_
+  commentId: Overload:HomeSeer.PluginSdk.Devices.AbstractHsDevice.Version
+  isSpec: "True"
+  fullName: HomeSeer.PluginSdk.Devices.AbstractHsDevice.Version
+  nameWithType: AbstractHsDevice.Version
 - uid: HomeSeer.PluginSdk.Devices.AbstractHsDevice.VoiceCommand
   name: VoiceCommand
   href: api/HomeSeer.PluginSdk.Devices.AbstractHsDevice.html#HomeSeer_PluginSdk_Devices_AbstractHsDevice_VoiceCommand
@@ -7915,6 +7934,12 @@ references:
   commentId: F:HomeSeer.PluginSdk.Devices.EProperty.Value
   fullName: HomeSeer.PluginSdk.Devices.EProperty.Value
   nameWithType: EProperty.Value
+- uid: HomeSeer.PluginSdk.Devices.EProperty.Version
+  name: Version
+  href: api/HomeSeer.PluginSdk.Devices.EProperty.html#HomeSeer_PluginSdk_Devices_EProperty_Version
+  commentId: F:HomeSeer.PluginSdk.Devices.EProperty.Version
+  fullName: HomeSeer.PluginSdk.Devices.EProperty.Version
+  nameWithType: EProperty.Version
 - uid: HomeSeer.PluginSdk.Devices.EProperty.VoiceCommand
   name: VoiceCommand
   href: api/HomeSeer.PluginSdk.Devices.EProperty.html#HomeSeer_PluginSdk_Devices_EProperty_VoiceCommand

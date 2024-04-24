@@ -237,12 +237,14 @@ It uses the <a href="https://mdbootstrap.com/docs/standard/layout/grid/">bootstr
       </ul>
       <section id="tabpanel_syntax_cs" role="tabpanel" data-tab="cs">
           <div class="codewrapper">
-            <pre><code class="lang-csharp hljs">protected GridView(string id)</code></pre>
+            <pre><code class="lang-csharp hljs">[JsonConstructor]
+protected GridView(string id)</code></pre>
           </div>
       </section>
       <section id="tabpanel_syntax_vb" role="tabpanel" data-tab="vb" aria-hidden="true" hidden="">
           <div class="codewrapper">
-            <pre><code class="lang-vb hljs">Protected Sub New(id As String)</code></pre>
+            <pre><code class="lang-vb hljs">&lt;JsonConstructor&gt;
+Protected Sub New(id As String)</code></pre>
           </div>
       </section>
   </div>
@@ -372,12 +374,14 @@ It uses the <a href="https://mdbootstrap.com/docs/standard/layout/grid/">bootstr
       </ul>
       <section id="tabpanel_syntax_cs" role="tabpanel" data-tab="cs">
           <div class="codewrapper">
-            <pre><code class="lang-csharp hljs">List&lt;GridRow&gt; _rows</code></pre>
+            <pre><code class="lang-csharp hljs">[JsonProperty(&quot;rows&quot;)]
+List&lt;GridRow&gt; _rows</code></pre>
           </div>
       </section>
       <section id="tabpanel_syntax_vb" role="tabpanel" data-tab="vb" aria-hidden="true" hidden="">
           <div class="codewrapper">
-            <pre><code class="lang-vb hljs">_rows As List(Of GridRow)</code></pre>
+            <pre><code class="lang-vb hljs">&lt;JsonProperty(&quot;rows&quot;)&gt;
+_rows As List(Of GridRow)</code></pre>
           </div>
       </section>
   </div>

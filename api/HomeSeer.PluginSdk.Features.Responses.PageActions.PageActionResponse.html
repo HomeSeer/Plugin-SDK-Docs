@@ -96,12 +96,14 @@
       </ul>
       <section id="tabpanel_syntax_cs" role="tabpanel" data-tab="cs">
           <div class="codewrapper">
-            <pre><code class="lang-System.Object[] hljs">public class PageActionResponse : JsonResponse</code></pre>
+            <pre><code class="lang-System.Object[] hljs">[JsonObject]
+public class PageActionResponse : JsonResponse</code></pre>
           </div>
       </section>
       <section id="tabpanel_syntax_vb" role="tabpanel" data-tab="vb" aria-hidden="true" hidden="">
           <div class="codewrapper">
-            <pre><code class="lang-System.Object[] hljs">Public Class PageActionResponse
+            <pre><code class="lang-System.Object[] hljs">&lt;JsonObject&gt;
+Public Class PageActionResponse
     Inherits JsonResponse</code></pre>
           </div>
       </section>
@@ -208,12 +210,14 @@ actions that will be executed by JavaScript</p>
       </ul>
       <section id="tabpanel_syntax_cs" role="tabpanel" data-tab="cs">
           <div class="codewrapper">
-            <pre><code class="lang-csharp hljs">public PageActionResponse()</code></pre>
+            <pre><code class="lang-csharp hljs">[JsonConstructor]
+public PageActionResponse()</code></pre>
           </div>
       </section>
       <section id="tabpanel_syntax_vb" role="tabpanel" data-tab="vb" aria-hidden="true" hidden="">
           <div class="codewrapper">
-            <pre><code class="lang-vb hljs">Public Sub New</code></pre>
+            <pre><code class="lang-vb hljs">&lt;JsonConstructor&gt;
+Public Sub New</code></pre>
           </div>
       </section>
   </div>
@@ -333,12 +337,14 @@ actions that will be executed by JavaScript</p>
       </ul>
       <section id="tabpanel_syntax_cs" role="tabpanel" data-tab="cs">
           <div class="codewrapper">
-            <pre><code class="lang-csharp hljs">public List&lt;FeaturePageAction&gt; PageActions { get; set; }</code></pre>
+            <pre><code class="lang-csharp hljs">[JsonIgnore]
+public List&lt;FeaturePageAction&gt; PageActions { get; set; }</code></pre>
           </div>
       </section>
       <section id="tabpanel_syntax_vb" role="tabpanel" data-tab="vb" aria-hidden="true" hidden="">
           <div class="codewrapper">
-            <pre><code class="lang-vb hljs">Public Property PageActions As List(Of FeaturePageAction)</code></pre>
+            <pre><code class="lang-vb hljs">&lt;JsonIgnore&gt;
+Public Property PageActions As List(Of FeaturePageAction)</code></pre>
           </div>
       </section>
   </div>

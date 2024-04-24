@@ -201,12 +201,14 @@ that a particular property is set to a given value.</p>
       </ul>
       <section id="tabpanel_syntax_cs" role="tabpanel" data-tab="cs">
           <div class="codewrapper">
-            <pre><code class="lang-csharp hljs">public LabelView(string id, string name)</code></pre>
+            <pre><code class="lang-csharp hljs">[JsonConstructor]
+public LabelView(string id, string name)</code></pre>
           </div>
       </section>
       <section id="tabpanel_syntax_vb" role="tabpanel" data-tab="vb" aria-hidden="true" hidden="">
           <div class="codewrapper">
-            <pre><code class="lang-vb hljs">Public Sub New(id As String, name As String)</code></pre>
+            <pre><code class="lang-vb hljs">&lt;JsonConstructor&gt;
+Public Sub New(id As String, name As String)</code></pre>
           </div>
       </section>
   </div>
@@ -349,12 +351,14 @@ that a particular property is set to a given value.</p>
       </ul>
       <section id="tabpanel_syntax_cs" role="tabpanel" data-tab="cs">
           <div class="codewrapper">
-            <pre><code class="lang-csharp hljs">public ELabelType LabelType { get; set; }</code></pre>
+            <pre><code class="lang-csharp hljs">[JsonProperty(&quot;label_type&quot;)]
+public ELabelType LabelType { get; set; }</code></pre>
           </div>
       </section>
       <section id="tabpanel_syntax_vb" role="tabpanel" data-tab="vb" aria-hidden="true" hidden="">
           <div class="codewrapper">
-            <pre><code class="lang-vb hljs">Public Property LabelType As ELabelType</code></pre>
+            <pre><code class="lang-vb hljs">&lt;JsonProperty(&quot;label_type&quot;)&gt;
+Public Property LabelType As ELabelType</code></pre>
           </div>
       </section>
   </div>
@@ -394,12 +398,14 @@ that a particular property is set to a given value.</p>
       </ul>
       <section id="tabpanel_syntax_cs" role="tabpanel" data-tab="cs">
           <div class="codewrapper">
-            <pre><code class="lang-csharp hljs">public string Value { get; set; }</code></pre>
+            <pre><code class="lang-csharp hljs">[JsonProperty(&quot;value&quot;)]
+public string Value { get; set; }</code></pre>
           </div>
       </section>
       <section id="tabpanel_syntax_vb" role="tabpanel" data-tab="vb" aria-hidden="true" hidden="">
           <div class="codewrapper">
-            <pre><code class="lang-vb hljs">Public Property Value As String</code></pre>
+            <pre><code class="lang-vb hljs">&lt;JsonProperty(&quot;value&quot;)&gt;
+Public Property Value As String</code></pre>
           </div>
       </section>
   </div>

@@ -96,12 +96,14 @@
       </ul>
       <section id="tabpanel_syntax_cs" role="tabpanel" data-tab="cs">
           <div class="codewrapper">
-            <pre><code class="lang-System.Object[] hljs">public class JsonError : JsonResponse</code></pre>
+            <pre><code class="lang-System.Object[] hljs">[JsonObject]
+public class JsonError : JsonResponse</code></pre>
           </div>
       </section>
       <section id="tabpanel_syntax_vb" role="tabpanel" data-tab="vb" aria-hidden="true" hidden="">
           <div class="codewrapper">
-            <pre><code class="lang-System.Object[] hljs">Public Class JsonError
+            <pre><code class="lang-System.Object[] hljs">&lt;JsonObject&gt;
+Public Class JsonError
     Inherits JsonResponse</code></pre>
           </div>
       </section>
@@ -213,12 +215,14 @@ A default handler is provided for you in the FeaturePagePost.js page. Include th
       </ul>
       <section id="tabpanel_syntax_cs" role="tabpanel" data-tab="cs">
           <div class="codewrapper">
-            <pre><code class="lang-csharp hljs">public JsonError()</code></pre>
+            <pre><code class="lang-csharp hljs">[JsonConstructor]
+public JsonError()</code></pre>
           </div>
       </section>
       <section id="tabpanel_syntax_vb" role="tabpanel" data-tab="vb" aria-hidden="true" hidden="">
           <div class="codewrapper">
-            <pre><code class="lang-vb hljs">Public Sub New</code></pre>
+            <pre><code class="lang-vb hljs">&lt;JsonConstructor&gt;
+Public Sub New</code></pre>
           </div>
       </section>
   </div>
@@ -430,12 +434,14 @@ A default handler is provided for you in the FeaturePagePost.js page. Include th
       </ul>
       <section id="tabpanel_syntax_cs" role="tabpanel" data-tab="cs">
           <div class="codewrapper">
-            <pre><code class="lang-csharp hljs">public string Error { get; set; }</code></pre>
+            <pre><code class="lang-csharp hljs">[JsonIgnore]
+public string Error { get; set; }</code></pre>
           </div>
       </section>
       <section id="tabpanel_syntax_vb" role="tabpanel" data-tab="vb" aria-hidden="true" hidden="">
           <div class="codewrapper">
-            <pre><code class="lang-vb hljs">Public Property Error As String</code></pre>
+            <pre><code class="lang-vb hljs">&lt;JsonIgnore&gt;
+Public Property Error As String</code></pre>
           </div>
       </section>
   </div>

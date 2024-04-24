@@ -193,12 +193,14 @@
       </ul>
       <section id="tabpanel_syntax_cs" role="tabpanel" data-tab="cs">
           <div class="codewrapper">
-            <pre><code class="lang-csharp hljs">public SelectListView(string id, string name, List&lt;string&gt; options, ESelectListType style = ESelectListType.DropDown, int selection = -1)</code></pre>
+            <pre><code class="lang-csharp hljs">[JsonConstructor]
+public SelectListView(string id, string name, List&lt;string&gt; options, ESelectListType style = ESelectListType.DropDown, int selection = -1)</code></pre>
           </div>
       </section>
       <section id="tabpanel_syntax_vb" role="tabpanel" data-tab="vb" aria-hidden="true" hidden="">
           <div class="codewrapper">
-            <pre><code class="lang-vb hljs">Public Sub New(id As String, name As String, options As List(Of String), style As ESelectListType = ESelectListType.DropDown, selection As Integer = -1)</code></pre>
+            <pre><code class="lang-vb hljs">&lt;JsonConstructor&gt;
+Public Sub New(id As String, name As String, options As List(Of String), style As ESelectListType = ESelectListType.DropDown, selection As Integer = -1)</code></pre>
           </div>
       </section>
   </div>
@@ -432,12 +434,14 @@
       </ul>
       <section id="tabpanel_syntax_cs" role="tabpanel" data-tab="cs">
           <div class="codewrapper">
-            <pre><code class="lang-csharp hljs">public string DefaultSelectionText { get; set; }</code></pre>
+            <pre><code class="lang-csharp hljs">[JsonProperty(&quot;default_selection_text&quot;)]
+public string DefaultSelectionText { get; set; }</code></pre>
           </div>
       </section>
       <section id="tabpanel_syntax_vb" role="tabpanel" data-tab="vb" aria-hidden="true" hidden="">
           <div class="codewrapper">
-            <pre><code class="lang-vb hljs">Public Property DefaultSelectionText As String</code></pre>
+            <pre><code class="lang-vb hljs">&lt;JsonProperty(&quot;default_selection_text&quot;)&gt;
+Public Property DefaultSelectionText As String</code></pre>
           </div>
       </section>
   </div>
@@ -483,12 +487,14 @@ For internal use by a plugin.  This is not displayed or used in any fashion othe
       </ul>
       <section id="tabpanel_syntax_cs" role="tabpanel" data-tab="cs">
           <div class="codewrapper">
-            <pre><code class="lang-csharp hljs">public List&lt;string&gt; OptionKeys { get; }</code></pre>
+            <pre><code class="lang-csharp hljs">[JsonProperty(&quot;keys&quot;)]
+public List&lt;string&gt; OptionKeys { get; }</code></pre>
           </div>
       </section>
       <section id="tabpanel_syntax_vb" role="tabpanel" data-tab="vb" aria-hidden="true" hidden="">
           <div class="codewrapper">
-            <pre><code class="lang-vb hljs">Public ReadOnly Property OptionKeys As List(Of String)</code></pre>
+            <pre><code class="lang-vb hljs">&lt;JsonProperty(&quot;keys&quot;)&gt;
+Public ReadOnly Property OptionKeys As List(Of String)</code></pre>
           </div>
       </section>
   </div>
@@ -528,12 +534,14 @@ For internal use by a plugin.  This is not displayed or used in any fashion othe
       </ul>
       <section id="tabpanel_syntax_cs" role="tabpanel" data-tab="cs">
           <div class="codewrapper">
-            <pre><code class="lang-csharp hljs">public List&lt;string&gt; Options { get; }</code></pre>
+            <pre><code class="lang-csharp hljs">[JsonProperty(&quot;options&quot;)]
+public List&lt;string&gt; Options { get; }</code></pre>
           </div>
       </section>
       <section id="tabpanel_syntax_vb" role="tabpanel" data-tab="vb" aria-hidden="true" hidden="">
           <div class="codewrapper">
-            <pre><code class="lang-vb hljs">Public ReadOnly Property Options As List(Of String)</code></pre>
+            <pre><code class="lang-vb hljs">&lt;JsonProperty(&quot;options&quot;)&gt;
+Public ReadOnly Property Options As List(Of String)</code></pre>
           </div>
       </section>
   </div>
@@ -573,12 +581,14 @@ For internal use by a plugin.  This is not displayed or used in any fashion othe
       </ul>
       <section id="tabpanel_syntax_cs" role="tabpanel" data-tab="cs">
           <div class="codewrapper">
-            <pre><code class="lang-csharp hljs">public int Selection { get; set; }</code></pre>
+            <pre><code class="lang-csharp hljs">[JsonProperty(&quot;selection&quot;)]
+public int Selection { get; set; }</code></pre>
           </div>
       </section>
       <section id="tabpanel_syntax_vb" role="tabpanel" data-tab="vb" aria-hidden="true" hidden="">
           <div class="codewrapper">
-            <pre><code class="lang-vb hljs">Public Property Selection As Integer</code></pre>
+            <pre><code class="lang-vb hljs">&lt;JsonProperty(&quot;selection&quot;)&gt;
+Public Property Selection As Integer</code></pre>
           </div>
       </section>
   </div>
@@ -637,12 +647,14 @@ For internal use by a plugin.  This is not displayed or used in any fashion othe
       </ul>
       <section id="tabpanel_syntax_cs" role="tabpanel" data-tab="cs">
           <div class="codewrapper">
-            <pre><code class="lang-csharp hljs">public ESelectListType Style { get; set; }</code></pre>
+            <pre><code class="lang-csharp hljs">[JsonProperty(&quot;style&quot;)]
+public ESelectListType Style { get; set; }</code></pre>
           </div>
       </section>
       <section id="tabpanel_syntax_vb" role="tabpanel" data-tab="vb" aria-hidden="true" hidden="">
           <div class="codewrapper">
-            <pre><code class="lang-vb hljs">Public Property Style As ESelectListType</code></pre>
+            <pre><code class="lang-vb hljs">&lt;JsonProperty(&quot;style&quot;)&gt;
+Public Property Style As ESelectListType</code></pre>
           </div>
       </section>
   </div>
@@ -683,12 +695,14 @@ and <a class="xref" href="HomeSeer.Jui.Views.SelectListView.html#HomeSeer_Jui_Vi
       </ul>
       <section id="tabpanel_syntax_cs" role="tabpanel" data-tab="cs">
           <div class="codewrapper">
-            <pre><code class="lang-csharp hljs">public bool UseOptionKeyAsSelectionValue { get; set; }</code></pre>
+            <pre><code class="lang-csharp hljs">[JsonProperty(&quot;use_option_key_as_selection_value&quot;)]
+public bool UseOptionKeyAsSelectionValue { get; set; }</code></pre>
           </div>
       </section>
       <section id="tabpanel_syntax_vb" role="tabpanel" data-tab="vb" aria-hidden="true" hidden="">
           <div class="codewrapper">
-            <pre><code class="lang-vb hljs">Public Property UseOptionKeyAsSelectionValue As Boolean</code></pre>
+            <pre><code class="lang-vb hljs">&lt;JsonProperty(&quot;use_option_key_as_selection_value&quot;)&gt;
+Public Property UseOptionKeyAsSelectionValue As Boolean</code></pre>
           </div>
       </section>
   </div>

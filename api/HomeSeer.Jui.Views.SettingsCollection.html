@@ -207,12 +207,14 @@ the AbstractPlugin class and automatically initialized to an empty collection.</
       </ul>
       <section id="tabpanel_syntax_cs" role="tabpanel" data-tab="cs">
           <div class="codewrapper">
-            <pre><code class="lang-csharp hljs">public SettingsCollection(List&lt;Page&gt; pages)</code></pre>
+            <pre><code class="lang-csharp hljs">[JsonConstructor]
+public SettingsCollection(List&lt;Page&gt; pages)</code></pre>
           </div>
       </section>
       <section id="tabpanel_syntax_vb" role="tabpanel" data-tab="vb" aria-hidden="true" hidden="">
           <div class="codewrapper">
-            <pre><code class="lang-vb hljs">Public Sub New(pages As List(Of Page))</code></pre>
+            <pre><code class="lang-vb hljs">&lt;JsonConstructor&gt;
+Public Sub New(pages As List(Of Page))</code></pre>
           </div>
       </section>
   </div>
@@ -259,12 +261,14 @@ the AbstractPlugin class and automatically initialized to an empty collection.</
       </ul>
       <section id="tabpanel_syntax_cs" role="tabpanel" data-tab="cs">
           <div class="codewrapper">
-            <pre><code class="lang-csharp hljs">Dictionary&lt;string, Page&gt; _hiddenPages</code></pre>
+            <pre><code class="lang-csharp hljs">[JsonIgnore]
+Dictionary&lt;string, Page&gt; _hiddenPages</code></pre>
           </div>
       </section>
       <section id="tabpanel_syntax_vb" role="tabpanel" data-tab="vb" aria-hidden="true" hidden="">
           <div class="codewrapper">
-            <pre><code class="lang-vb hljs">_hiddenPages As Dictionary(Of String, Page)</code></pre>
+            <pre><code class="lang-vb hljs">&lt;JsonIgnore&gt;
+_hiddenPages As Dictionary(Of String, Page)</code></pre>
           </div>
       </section>
   </div>
@@ -302,12 +306,14 @@ the AbstractPlugin class and automatically initialized to an empty collection.</
       </ul>
       <section id="tabpanel_syntax_cs" role="tabpanel" data-tab="cs">
           <div class="codewrapper">
-            <pre><code class="lang-csharp hljs">List&lt;string&gt; _pageOrder</code></pre>
+            <pre><code class="lang-csharp hljs">[JsonIgnore]
+List&lt;string&gt; _pageOrder</code></pre>
           </div>
       </section>
       <section id="tabpanel_syntax_vb" role="tabpanel" data-tab="vb" aria-hidden="true" hidden="">
           <div class="codewrapper">
-            <pre><code class="lang-vb hljs">_pageOrder As List(Of String)</code></pre>
+            <pre><code class="lang-vb hljs">&lt;JsonIgnore&gt;
+_pageOrder As List(Of String)</code></pre>
           </div>
       </section>
   </div>
@@ -345,12 +351,14 @@ the AbstractPlugin class and automatically initialized to an empty collection.</
       </ul>
       <section id="tabpanel_syntax_cs" role="tabpanel" data-tab="cs">
           <div class="codewrapper">
-            <pre><code class="lang-csharp hljs">Dictionary&lt;string, Page&gt; _pages</code></pre>
+            <pre><code class="lang-csharp hljs">[JsonIgnore]
+Dictionary&lt;string, Page&gt; _pages</code></pre>
           </div>
       </section>
       <section id="tabpanel_syntax_vb" role="tabpanel" data-tab="vb" aria-hidden="true" hidden="">
           <div class="codewrapper">
-            <pre><code class="lang-vb hljs">_pages As Dictionary(Of String, Page)</code></pre>
+            <pre><code class="lang-vb hljs">&lt;JsonIgnore&gt;
+_pages As Dictionary(Of String, Page)</code></pre>
           </div>
       </section>
   </div>
@@ -392,12 +400,14 @@ the AbstractPlugin class and automatically initialized to an empty collection.</
       </ul>
       <section id="tabpanel_syntax_cs" role="tabpanel" data-tab="cs">
           <div class="codewrapper">
-            <pre><code class="lang-csharp hljs">public List&lt;Page&gt; AllPages { get; }</code></pre>
+            <pre><code class="lang-csharp hljs">[JsonIgnore]
+public List&lt;Page&gt; AllPages { get; }</code></pre>
           </div>
       </section>
       <section id="tabpanel_syntax_vb" role="tabpanel" data-tab="vb" aria-hidden="true" hidden="">
           <div class="codewrapper">
-            <pre><code class="lang-vb hljs">Public ReadOnly Property AllPages As List(Of Page)</code></pre>
+            <pre><code class="lang-vb hljs">&lt;JsonIgnore&gt;
+Public ReadOnly Property AllPages As List(Of Page)</code></pre>
           </div>
       </section>
   </div>
@@ -437,12 +447,14 @@ the AbstractPlugin class and automatically initialized to an empty collection.</
       </ul>
       <section id="tabpanel_syntax_cs" role="tabpanel" data-tab="cs">
           <div class="codewrapper">
-            <pre><code class="lang-csharp hljs">public int Count { get; }</code></pre>
+            <pre><code class="lang-csharp hljs">[JsonIgnore]
+public int Count { get; }</code></pre>
           </div>
       </section>
       <section id="tabpanel_syntax_vb" role="tabpanel" data-tab="vb" aria-hidden="true" hidden="">
           <div class="codewrapper">
-            <pre><code class="lang-vb hljs">Public ReadOnly Property Count As Integer</code></pre>
+            <pre><code class="lang-vb hljs">&lt;JsonIgnore&gt;
+Public ReadOnly Property Count As Integer</code></pre>
           </div>
       </section>
   </div>
@@ -549,12 +561,14 @@ the AbstractPlugin class and automatically initialized to an empty collection.</
       </ul>
       <section id="tabpanel_syntax_cs" role="tabpanel" data-tab="cs">
           <div class="codewrapper">
-            <pre><code class="lang-csharp hljs">public List&lt;Page&gt; Pages { get; set; }</code></pre>
+            <pre><code class="lang-csharp hljs">[JsonProperty(&quot;pages&quot;)]
+public List&lt;Page&gt; Pages { get; set; }</code></pre>
           </div>
       </section>
       <section id="tabpanel_syntax_vb" role="tabpanel" data-tab="vb" aria-hidden="true" hidden="">
           <div class="codewrapper">
-            <pre><code class="lang-vb hljs">Public Property Pages As List(Of Page)</code></pre>
+            <pre><code class="lang-vb hljs">&lt;JsonProperty(&quot;pages&quot;)&gt;
+Public Property Pages As List(Of Page)</code></pre>
           </div>
       </section>
   </div>
@@ -598,12 +612,14 @@ the AbstractPlugin class and automatically initialized to an empty collection.</
       </ul>
       <section id="tabpanel_syntax_cs" role="tabpanel" data-tab="cs">
           <div class="codewrapper">
-            <pre><code class="lang-csharp hljs">public int SelectedPageIndex { get; set; }</code></pre>
+            <pre><code class="lang-csharp hljs">[JsonProperty(&quot;selected_page&quot;)]
+public int SelectedPageIndex { get; set; }</code></pre>
           </div>
       </section>
       <section id="tabpanel_syntax_vb" role="tabpanel" data-tab="vb" aria-hidden="true" hidden="">
           <div class="codewrapper">
-            <pre><code class="lang-vb hljs">Public Property SelectedPageIndex As Integer</code></pre>
+            <pre><code class="lang-vb hljs">&lt;JsonProperty(&quot;selected_page&quot;)&gt;
+Public Property SelectedPageIndex As Integer</code></pre>
           </div>
       </section>
   </div>

@@ -193,12 +193,14 @@
       </ul>
       <section id="tabpanel_syntax_cs" role="tabpanel" data-tab="cs">
           <div class="codewrapper">
-            <pre><code class="lang-csharp hljs">public TimeSpanView(string id, string name)</code></pre>
+            <pre><code class="lang-csharp hljs">[JsonConstructor]
+public TimeSpanView(string id, string name)</code></pre>
           </div>
       </section>
       <section id="tabpanel_syntax_vb" role="tabpanel" data-tab="vb" aria-hidden="true" hidden="">
           <div class="codewrapper">
-            <pre><code class="lang-vb hljs">Public Sub New(id As String, name As String)</code></pre>
+            <pre><code class="lang-vb hljs">&lt;JsonConstructor&gt;
+Public Sub New(id As String, name As String)</code></pre>
           </div>
       </section>
   </div>
@@ -325,12 +327,14 @@
       </ul>
       <section id="tabpanel_syntax_cs" role="tabpanel" data-tab="cs">
           <div class="codewrapper">
-            <pre><code class="lang-csharp hljs">public bool ShowDays { get; set; }</code></pre>
+            <pre><code class="lang-csharp hljs">[JsonProperty(&quot;show_days&quot;)]
+public bool ShowDays { get; set; }</code></pre>
           </div>
       </section>
       <section id="tabpanel_syntax_vb" role="tabpanel" data-tab="vb" aria-hidden="true" hidden="">
           <div class="codewrapper">
-            <pre><code class="lang-vb hljs">Public Property ShowDays As Boolean</code></pre>
+            <pre><code class="lang-vb hljs">&lt;JsonProperty(&quot;show_days&quot;)&gt;
+Public Property ShowDays As Boolean</code></pre>
           </div>
       </section>
   </div>
@@ -370,12 +374,14 @@
       </ul>
       <section id="tabpanel_syntax_cs" role="tabpanel" data-tab="cs">
           <div class="codewrapper">
-            <pre><code class="lang-csharp hljs">public bool ShowSeconds { get; set; }</code></pre>
+            <pre><code class="lang-csharp hljs">[JsonProperty(&quot;show_seconds&quot;)]
+public bool ShowSeconds { get; set; }</code></pre>
           </div>
       </section>
       <section id="tabpanel_syntax_vb" role="tabpanel" data-tab="vb" aria-hidden="true" hidden="">
           <div class="codewrapper">
-            <pre><code class="lang-vb hljs">Public Property ShowSeconds As Boolean</code></pre>
+            <pre><code class="lang-vb hljs">&lt;JsonProperty(&quot;show_seconds&quot;)&gt;
+Public Property ShowSeconds As Boolean</code></pre>
           </div>
       </section>
   </div>
@@ -415,12 +421,14 @@
       </ul>
       <section id="tabpanel_syntax_cs" role="tabpanel" data-tab="cs">
           <div class="codewrapper">
-            <pre><code class="lang-csharp hljs">public TimeSpan Value { get; set; }</code></pre>
+            <pre><code class="lang-csharp hljs">[JsonProperty(&quot;value&quot;)]
+public TimeSpan Value { get; set; }</code></pre>
           </div>
       </section>
       <section id="tabpanel_syntax_vb" role="tabpanel" data-tab="vb" aria-hidden="true" hidden="">
           <div class="codewrapper">
-            <pre><code class="lang-vb hljs">Public Property Value As TimeSpan</code></pre>
+            <pre><code class="lang-vb hljs">&lt;JsonProperty(&quot;value&quot;)&gt;
+Public Property Value As TimeSpan</code></pre>
           </div>
       </section>
   </div>

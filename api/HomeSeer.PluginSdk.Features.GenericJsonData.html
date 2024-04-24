@@ -97,12 +97,14 @@
       <section id="tabpanel_syntax_cs" role="tabpanel" data-tab="cs">
           <div class="codewrapper">
             <pre><code class="lang-System.Object[] hljs">[Serializable]
+[JsonObject]
 public class GenericJsonData</code></pre>
           </div>
       </section>
       <section id="tabpanel_syntax_vb" role="tabpanel" data-tab="vb" aria-hidden="true" hidden="">
           <div class="codewrapper">
             <pre><code class="lang-System.Object[] hljs">&lt;Serializable&gt;
+&lt;JsonObject&gt;
 Public Class GenericJsonData</code></pre>
           </div>
       </section>
@@ -171,12 +173,14 @@ See <a class="xref" href="HomeSeer.PluginSdk.Features.JsonRequest.html">JsonRequ
       </ul>
       <section id="tabpanel_syntax_cs" role="tabpanel" data-tab="cs">
           <div class="codewrapper">
-            <pre><code class="lang-csharp hljs">public GenericJsonData()</code></pre>
+            <pre><code class="lang-csharp hljs">[JsonConstructor]
+public GenericJsonData()</code></pre>
           </div>
       </section>
       <section id="tabpanel_syntax_vb" role="tabpanel" data-tab="vb" aria-hidden="true" hidden="">
           <div class="codewrapper">
-            <pre><code class="lang-vb hljs">Public Sub New</code></pre>
+            <pre><code class="lang-vb hljs">&lt;JsonConstructor&gt;
+Public Sub New</code></pre>
           </div>
       </section>
   </div>
@@ -250,12 +254,14 @@ See <a class="xref" href="HomeSeer.PluginSdk.Features.JsonRequest.html">JsonRequ
       </ul>
       <section id="tabpanel_syntax_cs" role="tabpanel" data-tab="cs">
           <div class="codewrapper">
-            <pre><code class="lang-csharp hljs">public Dictionary&lt;string, string&gt; Data { get; set; }</code></pre>
+            <pre><code class="lang-csharp hljs">[JsonProperty(&quot;data&quot;)]
+public Dictionary&lt;string, string&gt; Data { get; set; }</code></pre>
           </div>
       </section>
       <section id="tabpanel_syntax_vb" role="tabpanel" data-tab="vb" aria-hidden="true" hidden="">
           <div class="codewrapper">
-            <pre><code class="lang-vb hljs">Public Property Data As Dictionary(Of String, String)</code></pre>
+            <pre><code class="lang-vb hljs">&lt;JsonProperty(&quot;data&quot;)&gt;
+Public Property Data As Dictionary(Of String, String)</code></pre>
           </div>
       </section>
   </div>

@@ -168,12 +168,14 @@ A size can be associated to this item for each <a href="https://mdbootstrap.com/
       </ul>
       <section id="tabpanel_syntax_cs" role="tabpanel" data-tab="cs">
           <div class="codewrapper">
-            <pre><code class="lang-csharp hljs">public GridRowItem(AbstractView view, EColSize extraSmallSize = EColSize.Col, EColSize smallSize = EColSize.None, EColSize mediumSize = EColSize.None, EColSize largeSize = EColSize.None, EColSize extraLargeSize = EColSize.None)</code></pre>
+            <pre><code class="lang-csharp hljs">[JsonConstructor]
+public GridRowItem(AbstractView view, EColSize extraSmallSize = EColSize.Col, EColSize smallSize = EColSize.None, EColSize mediumSize = EColSize.None, EColSize largeSize = EColSize.None, EColSize extraLargeSize = EColSize.None)</code></pre>
           </div>
       </section>
       <section id="tabpanel_syntax_vb" role="tabpanel" data-tab="vb" aria-hidden="true" hidden="">
           <div class="codewrapper">
-            <pre><code class="lang-vb hljs">Public Sub New(view As AbstractView, extraSmallSize As EColSize = EColSize.Col, smallSize As EColSize = EColSize.None, mediumSize As EColSize = EColSize.None, largeSize As EColSize = EColSize.None, extraLargeSize As EColSize = EColSize.None)</code></pre>
+            <pre><code class="lang-vb hljs">&lt;JsonConstructor&gt;
+Public Sub New(view As AbstractView, extraSmallSize As EColSize = EColSize.Col, smallSize As EColSize = EColSize.None, mediumSize As EColSize = EColSize.None, largeSize As EColSize = EColSize.None, extraLargeSize As EColSize = EColSize.None)</code></pre>
           </div>
       </section>
   </div>
@@ -242,12 +244,14 @@ A size can be associated to this item for each <a href="https://mdbootstrap.com/
       </ul>
       <section id="tabpanel_syntax_cs" role="tabpanel" data-tab="cs">
           <div class="codewrapper">
-            <pre><code class="lang-csharp hljs">public EColSize ExtraLargeSize { get; set; }</code></pre>
+            <pre><code class="lang-csharp hljs">[JsonProperty(&quot;extra_large_size&quot;)]
+public EColSize ExtraLargeSize { get; set; }</code></pre>
           </div>
       </section>
       <section id="tabpanel_syntax_vb" role="tabpanel" data-tab="vb" aria-hidden="true" hidden="">
           <div class="codewrapper">
-            <pre><code class="lang-vb hljs">Public Property ExtraLargeSize As EColSize</code></pre>
+            <pre><code class="lang-vb hljs">&lt;JsonProperty(&quot;extra_large_size&quot;)&gt;
+Public Property ExtraLargeSize As EColSize</code></pre>
           </div>
       </section>
   </div>
@@ -288,12 +292,14 @@ If the same size is used for all screen width, use this property to set it, and 
       </ul>
       <section id="tabpanel_syntax_cs" role="tabpanel" data-tab="cs">
           <div class="codewrapper">
-            <pre><code class="lang-csharp hljs">public EColSize ExtraSmallSize { get; set; }</code></pre>
+            <pre><code class="lang-csharp hljs">[JsonProperty(&quot;extra_small_size&quot;)]
+public EColSize ExtraSmallSize { get; set; }</code></pre>
           </div>
       </section>
       <section id="tabpanel_syntax_vb" role="tabpanel" data-tab="vb" aria-hidden="true" hidden="">
           <div class="codewrapper">
-            <pre><code class="lang-vb hljs">Public Property ExtraSmallSize As EColSize</code></pre>
+            <pre><code class="lang-vb hljs">&lt;JsonProperty(&quot;extra_small_size&quot;)&gt;
+Public Property ExtraSmallSize As EColSize</code></pre>
           </div>
       </section>
   </div>
@@ -333,12 +339,14 @@ If the same size is used for all screen width, use this property to set it, and 
       </ul>
       <section id="tabpanel_syntax_cs" role="tabpanel" data-tab="cs">
           <div class="codewrapper">
-            <pre><code class="lang-csharp hljs">public EColSize LargeSize { get; set; }</code></pre>
+            <pre><code class="lang-csharp hljs">[JsonProperty(&quot;large_size&quot;)]
+public EColSize LargeSize { get; set; }</code></pre>
           </div>
       </section>
       <section id="tabpanel_syntax_vb" role="tabpanel" data-tab="vb" aria-hidden="true" hidden="">
           <div class="codewrapper">
-            <pre><code class="lang-vb hljs">Public Property LargeSize As EColSize</code></pre>
+            <pre><code class="lang-vb hljs">&lt;JsonProperty(&quot;large_size&quot;)&gt;
+Public Property LargeSize As EColSize</code></pre>
           </div>
       </section>
   </div>
@@ -378,12 +386,14 @@ If the same size is used for all screen width, use this property to set it, and 
       </ul>
       <section id="tabpanel_syntax_cs" role="tabpanel" data-tab="cs">
           <div class="codewrapper">
-            <pre><code class="lang-csharp hljs">public EColSize MediumSize { get; set; }</code></pre>
+            <pre><code class="lang-csharp hljs">[JsonProperty(&quot;medium_size&quot;)]
+public EColSize MediumSize { get; set; }</code></pre>
           </div>
       </section>
       <section id="tabpanel_syntax_vb" role="tabpanel" data-tab="vb" aria-hidden="true" hidden="">
           <div class="codewrapper">
-            <pre><code class="lang-vb hljs">Public Property MediumSize As EColSize</code></pre>
+            <pre><code class="lang-vb hljs">&lt;JsonProperty(&quot;medium_size&quot;)&gt;
+Public Property MediumSize As EColSize</code></pre>
           </div>
       </section>
   </div>
@@ -423,12 +433,14 @@ If the same size is used for all screen width, use this property to set it, and 
       </ul>
       <section id="tabpanel_syntax_cs" role="tabpanel" data-tab="cs">
           <div class="codewrapper">
-            <pre><code class="lang-csharp hljs">public EColSize SmallSize { get; set; }</code></pre>
+            <pre><code class="lang-csharp hljs">[JsonProperty(&quot;small_size&quot;)]
+public EColSize SmallSize { get; set; }</code></pre>
           </div>
       </section>
       <section id="tabpanel_syntax_vb" role="tabpanel" data-tab="vb" aria-hidden="true" hidden="">
           <div class="codewrapper">
-            <pre><code class="lang-vb hljs">Public Property SmallSize As EColSize</code></pre>
+            <pre><code class="lang-vb hljs">&lt;JsonProperty(&quot;small_size&quot;)&gt;
+Public Property SmallSize As EColSize</code></pre>
           </div>
       </section>
   </div>
@@ -468,12 +480,14 @@ If the same size is used for all screen width, use this property to set it, and 
       </ul>
       <section id="tabpanel_syntax_cs" role="tabpanel" data-tab="cs">
           <div class="codewrapper">
-            <pre><code class="lang-csharp hljs">public AbstractView View { get; set; }</code></pre>
+            <pre><code class="lang-csharp hljs">[JsonProperty(&quot;view&quot;, IsReference = true)]
+public AbstractView View { get; set; }</code></pre>
           </div>
       </section>
       <section id="tabpanel_syntax_vb" role="tabpanel" data-tab="vb" aria-hidden="true" hidden="">
           <div class="codewrapper">
-            <pre><code class="lang-vb hljs">Public Property View As AbstractView</code></pre>
+            <pre><code class="lang-vb hljs">&lt;JsonProperty(&quot;view&quot;, IsReference:=True)&gt;
+Public Property View As AbstractView</code></pre>
           </div>
       </section>
   </div>

@@ -193,12 +193,14 @@
       </ul>
       <section id="tabpanel_syntax_cs" role="tabpanel" data-tab="cs">
           <div class="codewrapper">
-            <pre><code class="lang-csharp hljs">public TextAreaView(string id, string name, int rows = 5)</code></pre>
+            <pre><code class="lang-csharp hljs">[JsonConstructor]
+public TextAreaView(string id, string name, int rows = 5)</code></pre>
           </div>
       </section>
       <section id="tabpanel_syntax_vb" role="tabpanel" data-tab="vb" aria-hidden="true" hidden="">
           <div class="codewrapper">
-            <pre><code class="lang-vb hljs">Public Sub New(id As String, name As String, rows As Integer = 5)</code></pre>
+            <pre><code class="lang-vb hljs">&lt;JsonConstructor&gt;
+Public Sub New(id As String, name As String, rows As Integer = 5)</code></pre>
           </div>
       </section>
   </div>
@@ -398,12 +400,14 @@
       </ul>
       <section id="tabpanel_syntax_cs" role="tabpanel" data-tab="cs">
           <div class="codewrapper">
-            <pre><code class="lang-csharp hljs">public int Rows { get; set; }</code></pre>
+            <pre><code class="lang-csharp hljs">[JsonProperty(&quot;rows&quot;)]
+public int Rows { get; set; }</code></pre>
           </div>
       </section>
       <section id="tabpanel_syntax_vb" role="tabpanel" data-tab="vb" aria-hidden="true" hidden="">
           <div class="codewrapper">
-            <pre><code class="lang-vb hljs">Public Property Rows As Integer</code></pre>
+            <pre><code class="lang-vb hljs">&lt;JsonProperty(&quot;rows&quot;)&gt;
+Public Property Rows As Integer</code></pre>
           </div>
       </section>
   </div>
@@ -459,12 +463,14 @@
       </ul>
       <section id="tabpanel_syntax_cs" role="tabpanel" data-tab="cs">
           <div class="codewrapper">
-            <pre><code class="lang-csharp hljs">public string Value { get; set; }</code></pre>
+            <pre><code class="lang-csharp hljs">[JsonProperty(&quot;value&quot;)]
+public string Value { get; set; }</code></pre>
           </div>
       </section>
       <section id="tabpanel_syntax_vb" role="tabpanel" data-tab="vb" aria-hidden="true" hidden="">
           <div class="codewrapper">
-            <pre><code class="lang-vb hljs">Public Property Value As String</code></pre>
+            <pre><code class="lang-vb hljs">&lt;JsonProperty(&quot;value&quot;)&gt;
+Public Property Value As String</code></pre>
           </div>
       </section>
   </div>
