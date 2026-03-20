@@ -85,6 +85,24 @@ references:
   commentId: F:HomeSeer.Jui.Types.ELabelType.Preformatted
   fullName: HomeSeer.Jui.Types.ELabelType.Preformatted
   nameWithType: ELabelType.Preformatted
+- uid: HomeSeer.Jui.Types.EMultiSelectListType
+  name: EMultiSelectListType
+  href: api/HomeSeer.Jui.Types.EMultiSelectListType.html
+  commentId: T:HomeSeer.Jui.Types.EMultiSelectListType
+  fullName: HomeSeer.Jui.Types.EMultiSelectListType
+  nameWithType: EMultiSelectListType
+- uid: HomeSeer.Jui.Types.EMultiSelectListType.DropDown
+  name: DropDown
+  href: api/HomeSeer.Jui.Types.EMultiSelectListType.html#HomeSeer_Jui_Types_EMultiSelectListType_DropDown
+  commentId: F:HomeSeer.Jui.Types.EMultiSelectListType.DropDown
+  fullName: HomeSeer.Jui.Types.EMultiSelectListType.DropDown
+  nameWithType: EMultiSelectListType.DropDown
+- uid: HomeSeer.Jui.Types.EMultiSelectListType.SearchableDropDown
+  name: SearchableDropDown
+  href: api/HomeSeer.Jui.Types.EMultiSelectListType.html#HomeSeer_Jui_Types_EMultiSelectListType_SearchableDropDown
+  commentId: F:HomeSeer.Jui.Types.EMultiSelectListType.SearchableDropDown
+  fullName: HomeSeer.Jui.Types.EMultiSelectListType.SearchableDropDown
+  nameWithType: EMultiSelectListType.SearchableDropDown
 - uid: HomeSeer.Jui.Types.EPageType
   name: EPageType
   href: api/HomeSeer.Jui.Types.EPageType.html
@@ -193,6 +211,12 @@ references:
   commentId: F:HomeSeer.Jui.Types.EViewType.Label
   fullName: HomeSeer.Jui.Types.EViewType.Label
   nameWithType: EViewType.Label
+- uid: HomeSeer.Jui.Types.EViewType.MultiSelectList
+  name: MultiSelectList
+  href: api/HomeSeer.Jui.Types.EViewType.html#HomeSeer_Jui_Types_EViewType_MultiSelectList
+  commentId: F:HomeSeer.Jui.Types.EViewType.MultiSelectList
+  fullName: HomeSeer.Jui.Types.EViewType.MultiSelectList
+  nameWithType: EViewType.MultiSelectList
 - uid: HomeSeer.Jui.Types.EViewType.SelectList
   name: SelectList
   href: api/HomeSeer.Jui.Types.EViewType.html#HomeSeer_Jui_Types_EViewType_SelectList
@@ -1197,6 +1221,186 @@ references:
   isSpec: "True"
   fullName: HomeSeer.Jui.Views.LabelView.Value
   nameWithType: LabelView.Value
+- uid: HomeSeer.Jui.Views.MultiSelectListView
+  name: MultiSelectListView
+  href: api/HomeSeer.Jui.Views.MultiSelectListView.html
+  commentId: T:HomeSeer.Jui.Views.MultiSelectListView
+  fullName: HomeSeer.Jui.Views.MultiSelectListView
+  nameWithType: MultiSelectListView
+- uid: HomeSeer.Jui.Views.MultiSelectListView.#ctor(System.String,System.String,System.Collections.Generic.List{System.String},System.Collections.Generic.List{System.String},HomeSeer.Jui.Types.EMultiSelectListType,System.Collections.Generic.List{System.Int32})
+  name: MultiSelectListView(String, String, List<String>, List<String>, EMultiSelectListType, List<Int32>)
+  href: api/HomeSeer.Jui.Views.MultiSelectListView.html#HomeSeer_Jui_Views_MultiSelectListView__ctor_System_String_System_String_System_Collections_Generic_List_System_String__System_Collections_Generic_List_System_String__HomeSeer_Jui_Types_EMultiSelectListType_System_Collections_Generic_List_System_Int32__
+  commentId: M:HomeSeer.Jui.Views.MultiSelectListView.#ctor(System.String,System.String,System.Collections.Generic.List{System.String},System.Collections.Generic.List{System.String},HomeSeer.Jui.Types.EMultiSelectListType,System.Collections.Generic.List{System.Int32})
+  name.vb: MultiSelectListView(String, String, List(Of String), List(Of String), EMultiSelectListType, List(Of Int32))
+  fullName: HomeSeer.Jui.Views.MultiSelectListView.MultiSelectListView(System.String, System.String, System.Collections.Generic.List<System.String>, System.Collections.Generic.List<System.String>, HomeSeer.Jui.Types.EMultiSelectListType, System.Collections.Generic.List<System.Int32>)
+  fullName.vb: HomeSeer.Jui.Views.MultiSelectListView.MultiSelectListView(System.String, System.String, System.Collections.Generic.List(Of System.String), System.Collections.Generic.List(Of System.String), HomeSeer.Jui.Types.EMultiSelectListType, System.Collections.Generic.List(Of System.Int32))
+  nameWithType: MultiSelectListView.MultiSelectListView(String, String, List<String>, List<String>, EMultiSelectListType, List<Int32>)
+  nameWithType.vb: MultiSelectListView.MultiSelectListView(String, String, List(Of String), List(Of String), EMultiSelectListType, List(Of Int32))
+- uid: HomeSeer.Jui.Views.MultiSelectListView.#ctor(System.String,System.String,System.Collections.Generic.List{System.String},System.Collections.Generic.List{System.String},HomeSeer.Jui.Types.EMultiSelectListType,System.Collections.Generic.List{System.String})
+  name: MultiSelectListView(String, String, List<String>, List<String>, EMultiSelectListType, List<String>)
+  href: api/HomeSeer.Jui.Views.MultiSelectListView.html#HomeSeer_Jui_Views_MultiSelectListView__ctor_System_String_System_String_System_Collections_Generic_List_System_String__System_Collections_Generic_List_System_String__HomeSeer_Jui_Types_EMultiSelectListType_System_Collections_Generic_List_System_String__
+  commentId: M:HomeSeer.Jui.Views.MultiSelectListView.#ctor(System.String,System.String,System.Collections.Generic.List{System.String},System.Collections.Generic.List{System.String},HomeSeer.Jui.Types.EMultiSelectListType,System.Collections.Generic.List{System.String})
+  name.vb: MultiSelectListView(String, String, List(Of String), List(Of String), EMultiSelectListType, List(Of String))
+  fullName: HomeSeer.Jui.Views.MultiSelectListView.MultiSelectListView(System.String, System.String, System.Collections.Generic.List<System.String>, System.Collections.Generic.List<System.String>, HomeSeer.Jui.Types.EMultiSelectListType, System.Collections.Generic.List<System.String>)
+  fullName.vb: HomeSeer.Jui.Views.MultiSelectListView.MultiSelectListView(System.String, System.String, System.Collections.Generic.List(Of System.String), System.Collections.Generic.List(Of System.String), HomeSeer.Jui.Types.EMultiSelectListType, System.Collections.Generic.List(Of System.String))
+  nameWithType: MultiSelectListView.MultiSelectListView(String, String, List<String>, List<String>, EMultiSelectListType, List<String>)
+  nameWithType.vb: MultiSelectListView.MultiSelectListView(String, String, List(Of String), List(Of String), EMultiSelectListType, List(Of String))
+- uid: HomeSeer.Jui.Views.MultiSelectListView.#ctor*
+  name: MultiSelectListView
+  href: api/HomeSeer.Jui.Views.MultiSelectListView.html#HomeSeer_Jui_Views_MultiSelectListView__ctor_
+  commentId: Overload:HomeSeer.Jui.Views.MultiSelectListView.#ctor
+  isSpec: "True"
+  fullName: HomeSeer.Jui.Views.MultiSelectListView.MultiSelectListView
+  nameWithType: MultiSelectListView.MultiSelectListView
+- uid: HomeSeer.Jui.Views.MultiSelectListView._selection
+  name: _selection
+  href: api/HomeSeer.Jui.Views.MultiSelectListView.html#HomeSeer_Jui_Views_MultiSelectListView__selection
+  commentId: F:HomeSeer.Jui.Views.MultiSelectListView._selection
+  fullName: HomeSeer.Jui.Views.MultiSelectListView._selection
+  nameWithType: MultiSelectListView._selection
+- uid: HomeSeer.Jui.Views.MultiSelectListView.DefaultSelectionText
+  name: DefaultSelectionText
+  href: api/HomeSeer.Jui.Views.MultiSelectListView.html#HomeSeer_Jui_Views_MultiSelectListView_DefaultSelectionText
+  commentId: P:HomeSeer.Jui.Views.MultiSelectListView.DefaultSelectionText
+  fullName: HomeSeer.Jui.Views.MultiSelectListView.DefaultSelectionText
+  nameWithType: MultiSelectListView.DefaultSelectionText
+- uid: HomeSeer.Jui.Views.MultiSelectListView.DefaultSelectionText*
+  name: DefaultSelectionText
+  href: api/HomeSeer.Jui.Views.MultiSelectListView.html#HomeSeer_Jui_Views_MultiSelectListView_DefaultSelectionText_
+  commentId: Overload:HomeSeer.Jui.Views.MultiSelectListView.DefaultSelectionText
+  isSpec: "True"
+  fullName: HomeSeer.Jui.Views.MultiSelectListView.DefaultSelectionText
+  nameWithType: MultiSelectListView.DefaultSelectionText
+- uid: HomeSeer.Jui.Views.MultiSelectListView.GetSelectedOptionKeys
+  name: GetSelectedOptionKeys()
+  href: api/HomeSeer.Jui.Views.MultiSelectListView.html#HomeSeer_Jui_Views_MultiSelectListView_GetSelectedOptionKeys
+  commentId: M:HomeSeer.Jui.Views.MultiSelectListView.GetSelectedOptionKeys
+  fullName: HomeSeer.Jui.Views.MultiSelectListView.GetSelectedOptionKeys()
+  nameWithType: MultiSelectListView.GetSelectedOptionKeys()
+- uid: HomeSeer.Jui.Views.MultiSelectListView.GetSelectedOptionKeys*
+  name: GetSelectedOptionKeys
+  href: api/HomeSeer.Jui.Views.MultiSelectListView.html#HomeSeer_Jui_Views_MultiSelectListView_GetSelectedOptionKeys_
+  commentId: Overload:HomeSeer.Jui.Views.MultiSelectListView.GetSelectedOptionKeys
+  isSpec: "True"
+  fullName: HomeSeer.Jui.Views.MultiSelectListView.GetSelectedOptionKeys
+  nameWithType: MultiSelectListView.GetSelectedOptionKeys
+- uid: HomeSeer.Jui.Views.MultiSelectListView.GetSelectedOptions
+  name: GetSelectedOptions()
+  href: api/HomeSeer.Jui.Views.MultiSelectListView.html#HomeSeer_Jui_Views_MultiSelectListView_GetSelectedOptions
+  commentId: M:HomeSeer.Jui.Views.MultiSelectListView.GetSelectedOptions
+  fullName: HomeSeer.Jui.Views.MultiSelectListView.GetSelectedOptions()
+  nameWithType: MultiSelectListView.GetSelectedOptions()
+- uid: HomeSeer.Jui.Views.MultiSelectListView.GetSelectedOptions*
+  name: GetSelectedOptions
+  href: api/HomeSeer.Jui.Views.MultiSelectListView.html#HomeSeer_Jui_Views_MultiSelectListView_GetSelectedOptions_
+  commentId: Overload:HomeSeer.Jui.Views.MultiSelectListView.GetSelectedOptions
+  isSpec: "True"
+  fullName: HomeSeer.Jui.Views.MultiSelectListView.GetSelectedOptions
+  nameWithType: MultiSelectListView.GetSelectedOptions
+- uid: HomeSeer.Jui.Views.MultiSelectListView.GetStringValue
+  name: GetStringValue()
+  href: api/HomeSeer.Jui.Views.MultiSelectListView.html#HomeSeer_Jui_Views_MultiSelectListView_GetStringValue
+  commentId: M:HomeSeer.Jui.Views.MultiSelectListView.GetStringValue
+  fullName: HomeSeer.Jui.Views.MultiSelectListView.GetStringValue()
+  nameWithType: MultiSelectListView.GetStringValue()
+- uid: HomeSeer.Jui.Views.MultiSelectListView.GetStringValue*
+  name: GetStringValue
+  href: api/HomeSeer.Jui.Views.MultiSelectListView.html#HomeSeer_Jui_Views_MultiSelectListView_GetStringValue_
+  commentId: Overload:HomeSeer.Jui.Views.MultiSelectListView.GetStringValue
+  isSpec: "True"
+  fullName: HomeSeer.Jui.Views.MultiSelectListView.GetStringValue
+  nameWithType: MultiSelectListView.GetStringValue
+- uid: HomeSeer.Jui.Views.MultiSelectListView.OptionKeys
+  name: OptionKeys
+  href: api/HomeSeer.Jui.Views.MultiSelectListView.html#HomeSeer_Jui_Views_MultiSelectListView_OptionKeys
+  commentId: P:HomeSeer.Jui.Views.MultiSelectListView.OptionKeys
+  fullName: HomeSeer.Jui.Views.MultiSelectListView.OptionKeys
+  nameWithType: MultiSelectListView.OptionKeys
+- uid: HomeSeer.Jui.Views.MultiSelectListView.OptionKeys*
+  name: OptionKeys
+  href: api/HomeSeer.Jui.Views.MultiSelectListView.html#HomeSeer_Jui_Views_MultiSelectListView_OptionKeys_
+  commentId: Overload:HomeSeer.Jui.Views.MultiSelectListView.OptionKeys
+  isSpec: "True"
+  fullName: HomeSeer.Jui.Views.MultiSelectListView.OptionKeys
+  nameWithType: MultiSelectListView.OptionKeys
+- uid: HomeSeer.Jui.Views.MultiSelectListView.Options
+  name: Options
+  href: api/HomeSeer.Jui.Views.MultiSelectListView.html#HomeSeer_Jui_Views_MultiSelectListView_Options
+  commentId: P:HomeSeer.Jui.Views.MultiSelectListView.Options
+  fullName: HomeSeer.Jui.Views.MultiSelectListView.Options
+  nameWithType: MultiSelectListView.Options
+- uid: HomeSeer.Jui.Views.MultiSelectListView.Options*
+  name: Options
+  href: api/HomeSeer.Jui.Views.MultiSelectListView.html#HomeSeer_Jui_Views_MultiSelectListView_Options_
+  commentId: Overload:HomeSeer.Jui.Views.MultiSelectListView.Options
+  isSpec: "True"
+  fullName: HomeSeer.Jui.Views.MultiSelectListView.Options
+  nameWithType: MultiSelectListView.Options
+- uid: HomeSeer.Jui.Views.MultiSelectListView.Selection
+  name: Selection
+  href: api/HomeSeer.Jui.Views.MultiSelectListView.html#HomeSeer_Jui_Views_MultiSelectListView_Selection
+  commentId: P:HomeSeer.Jui.Views.MultiSelectListView.Selection
+  fullName: HomeSeer.Jui.Views.MultiSelectListView.Selection
+  nameWithType: MultiSelectListView.Selection
+- uid: HomeSeer.Jui.Views.MultiSelectListView.Selection*
+  name: Selection
+  href: api/HomeSeer.Jui.Views.MultiSelectListView.html#HomeSeer_Jui_Views_MultiSelectListView_Selection_
+  commentId: Overload:HomeSeer.Jui.Views.MultiSelectListView.Selection
+  isSpec: "True"
+  fullName: HomeSeer.Jui.Views.MultiSelectListView.Selection
+  nameWithType: MultiSelectListView.Selection
+- uid: HomeSeer.Jui.Views.MultiSelectListView.Style
+  name: Style
+  href: api/HomeSeer.Jui.Views.MultiSelectListView.html#HomeSeer_Jui_Views_MultiSelectListView_Style
+  commentId: P:HomeSeer.Jui.Views.MultiSelectListView.Style
+  fullName: HomeSeer.Jui.Views.MultiSelectListView.Style
+  nameWithType: MultiSelectListView.Style
+- uid: HomeSeer.Jui.Views.MultiSelectListView.Style*
+  name: Style
+  href: api/HomeSeer.Jui.Views.MultiSelectListView.html#HomeSeer_Jui_Views_MultiSelectListView_Style_
+  commentId: Overload:HomeSeer.Jui.Views.MultiSelectListView.Style
+  isSpec: "True"
+  fullName: HomeSeer.Jui.Views.MultiSelectListView.Style
+  nameWithType: MultiSelectListView.Style
+- uid: HomeSeer.Jui.Views.MultiSelectListView.ToHtml(System.Int32)
+  name: ToHtml(Int32)
+  href: api/HomeSeer.Jui.Views.MultiSelectListView.html#HomeSeer_Jui_Views_MultiSelectListView_ToHtml_System_Int32_
+  commentId: M:HomeSeer.Jui.Views.MultiSelectListView.ToHtml(System.Int32)
+  fullName: HomeSeer.Jui.Views.MultiSelectListView.ToHtml(System.Int32)
+  nameWithType: MultiSelectListView.ToHtml(Int32)
+- uid: HomeSeer.Jui.Views.MultiSelectListView.ToHtml*
+  name: ToHtml
+  href: api/HomeSeer.Jui.Views.MultiSelectListView.html#HomeSeer_Jui_Views_MultiSelectListView_ToHtml_
+  commentId: Overload:HomeSeer.Jui.Views.MultiSelectListView.ToHtml
+  isSpec: "True"
+  fullName: HomeSeer.Jui.Views.MultiSelectListView.ToHtml
+  nameWithType: MultiSelectListView.ToHtml
+- uid: HomeSeer.Jui.Views.MultiSelectListView.Update(HomeSeer.Jui.Views.AbstractView)
+  name: Update(AbstractView)
+  href: api/HomeSeer.Jui.Views.MultiSelectListView.html#HomeSeer_Jui_Views_MultiSelectListView_Update_HomeSeer_Jui_Views_AbstractView_
+  commentId: M:HomeSeer.Jui.Views.MultiSelectListView.Update(HomeSeer.Jui.Views.AbstractView)
+  fullName: HomeSeer.Jui.Views.MultiSelectListView.Update(HomeSeer.Jui.Views.AbstractView)
+  nameWithType: MultiSelectListView.Update(AbstractView)
+- uid: HomeSeer.Jui.Views.MultiSelectListView.Update*
+  name: Update
+  href: api/HomeSeer.Jui.Views.MultiSelectListView.html#HomeSeer_Jui_Views_MultiSelectListView_Update_
+  commentId: Overload:HomeSeer.Jui.Views.MultiSelectListView.Update
+  isSpec: "True"
+  fullName: HomeSeer.Jui.Views.MultiSelectListView.Update
+  nameWithType: MultiSelectListView.Update
+- uid: HomeSeer.Jui.Views.MultiSelectListView.UpdateValue(System.String)
+  name: UpdateValue(String)
+  href: api/HomeSeer.Jui.Views.MultiSelectListView.html#HomeSeer_Jui_Views_MultiSelectListView_UpdateValue_System_String_
+  commentId: M:HomeSeer.Jui.Views.MultiSelectListView.UpdateValue(System.String)
+  fullName: HomeSeer.Jui.Views.MultiSelectListView.UpdateValue(System.String)
+  nameWithType: MultiSelectListView.UpdateValue(String)
+- uid: HomeSeer.Jui.Views.MultiSelectListView.UpdateValue*
+  name: UpdateValue
+  href: api/HomeSeer.Jui.Views.MultiSelectListView.html#HomeSeer_Jui_Views_MultiSelectListView_UpdateValue_
+  commentId: Overload:HomeSeer.Jui.Views.MultiSelectListView.UpdateValue
+  isSpec: "True"
+  fullName: HomeSeer.Jui.Views.MultiSelectListView.UpdateValue
+  nameWithType: MultiSelectListView.UpdateValue
 - uid: HomeSeer.Jui.Views.NavigateButtonView
   name: NavigateButtonView
   href: api/HomeSeer.Jui.Views.NavigateButtonView.html
@@ -1968,6 +2172,22 @@ references:
   isSpec: "True"
   fullName: HomeSeer.Jui.Views.PageFactory.WithCheckBox
   nameWithType: PageFactory.WithCheckBox
+- uid: HomeSeer.Jui.Views.PageFactory.WithDropDownMultiSelectList(System.String,System.String,System.Collections.Generic.List{System.String},System.Collections.Generic.List{System.String},System.Collections.Generic.List{System.String})
+  name: WithDropDownMultiSelectList(String, String, List<String>, List<String>, List<String>)
+  href: api/HomeSeer.Jui.Views.PageFactory.html#HomeSeer_Jui_Views_PageFactory_WithDropDownMultiSelectList_System_String_System_String_System_Collections_Generic_List_System_String__System_Collections_Generic_List_System_String__System_Collections_Generic_List_System_String__
+  commentId: M:HomeSeer.Jui.Views.PageFactory.WithDropDownMultiSelectList(System.String,System.String,System.Collections.Generic.List{System.String},System.Collections.Generic.List{System.String},System.Collections.Generic.List{System.String})
+  name.vb: WithDropDownMultiSelectList(String, String, List(Of String), List(Of String), List(Of String))
+  fullName: HomeSeer.Jui.Views.PageFactory.WithDropDownMultiSelectList(System.String, System.String, System.Collections.Generic.List<System.String>, System.Collections.Generic.List<System.String>, System.Collections.Generic.List<System.String>)
+  fullName.vb: HomeSeer.Jui.Views.PageFactory.WithDropDownMultiSelectList(System.String, System.String, System.Collections.Generic.List(Of System.String), System.Collections.Generic.List(Of System.String), System.Collections.Generic.List(Of System.String))
+  nameWithType: PageFactory.WithDropDownMultiSelectList(String, String, List<String>, List<String>, List<String>)
+  nameWithType.vb: PageFactory.WithDropDownMultiSelectList(String, String, List(Of String), List(Of String), List(Of String))
+- uid: HomeSeer.Jui.Views.PageFactory.WithDropDownMultiSelectList*
+  name: WithDropDownMultiSelectList
+  href: api/HomeSeer.Jui.Views.PageFactory.html#HomeSeer_Jui_Views_PageFactory_WithDropDownMultiSelectList_
+  commentId: Overload:HomeSeer.Jui.Views.PageFactory.WithDropDownMultiSelectList
+  isSpec: "True"
+  fullName: HomeSeer.Jui.Views.PageFactory.WithDropDownMultiSelectList
+  nameWithType: PageFactory.WithDropDownMultiSelectList
 - uid: HomeSeer.Jui.Views.PageFactory.WithDropDownSelectList(System.String,System.String,System.Collections.Generic.List{System.String},System.Collections.Generic.List{System.String},System.Int32)
   name: WithDropDownSelectList(String, String, List<String>, List<String>, Int32)
   href: api/HomeSeer.Jui.Views.PageFactory.html#HomeSeer_Jui_Views_PageFactory_WithDropDownSelectList_System_String_System_String_System_Collections_Generic_List_System_String__System_Collections_Generic_List_System_String__System_Int32_
@@ -6531,6 +6751,18 @@ references:
   commentId: F:HomeSeer.PluginSdk.Devices.Controls.EControlUse.ColorControl
   fullName: HomeSeer.PluginSdk.Devices.Controls.EControlUse.ColorControl
   nameWithType: EControlUse.ColorControl
+- uid: HomeSeer.PluginSdk.Devices.Controls.EControlUse.ColorTemp
+  name: ColorTemp
+  href: api/HomeSeer.PluginSdk.Devices.Controls.EControlUse.html#HomeSeer_PluginSdk_Devices_Controls_EControlUse_ColorTemp
+  commentId: F:HomeSeer.PluginSdk.Devices.Controls.EControlUse.ColorTemp
+  fullName: HomeSeer.PluginSdk.Devices.Controls.EControlUse.ColorTemp
+  nameWithType: EControlUse.ColorTemp
+- uid: HomeSeer.PluginSdk.Devices.Controls.EControlUse.ColorTempPreset
+  name: ColorTempPreset
+  href: api/HomeSeer.PluginSdk.Devices.Controls.EControlUse.html#HomeSeer_PluginSdk_Devices_Controls_EControlUse_ColorTempPreset
+  commentId: F:HomeSeer.PluginSdk.Devices.Controls.EControlUse.ColorTempPreset
+  fullName: HomeSeer.PluginSdk.Devices.Controls.EControlUse.ColorTempPreset
+  nameWithType: EControlUse.ColorTempPreset
 - uid: HomeSeer.PluginSdk.Devices.Controls.EControlUse.ContactActive
   name: ContactActive
   href: api/HomeSeer.PluginSdk.Devices.Controls.EControlUse.html#HomeSeer_PluginSdk_Devices_Controls_EControlUse_ContactActive
@@ -6585,6 +6817,54 @@ references:
   commentId: F:HomeSeer.PluginSdk.Devices.Controls.EControlUse.Forward
   fullName: HomeSeer.PluginSdk.Devices.Controls.EControlUse.Forward
   nameWithType: EControlUse.Forward
+- uid: HomeSeer.PluginSdk.Devices.Controls.EControlUse.GarageDoorClose
+  name: GarageDoorClose
+  href: api/HomeSeer.PluginSdk.Devices.Controls.EControlUse.html#HomeSeer_PluginSdk_Devices_Controls_EControlUse_GarageDoorClose
+  commentId: F:HomeSeer.PluginSdk.Devices.Controls.EControlUse.GarageDoorClose
+  fullName: HomeSeer.PluginSdk.Devices.Controls.EControlUse.GarageDoorClose
+  nameWithType: EControlUse.GarageDoorClose
+- uid: HomeSeer.PluginSdk.Devices.Controls.EControlUse.GarageDoorOpen
+  name: GarageDoorOpen
+  href: api/HomeSeer.PluginSdk.Devices.Controls.EControlUse.html#HomeSeer_PluginSdk_Devices_Controls_EControlUse_GarageDoorOpen
+  commentId: F:HomeSeer.PluginSdk.Devices.Controls.EControlUse.GarageDoorOpen
+  fullName: HomeSeer.PluginSdk.Devices.Controls.EControlUse.GarageDoorOpen
+  nameWithType: EControlUse.GarageDoorOpen
+- uid: HomeSeer.PluginSdk.Devices.Controls.EControlUse.GeneralNoUnit
+  name: GeneralNoUnit
+  href: api/HomeSeer.PluginSdk.Devices.Controls.EControlUse.html#HomeSeer_PluginSdk_Devices_Controls_EControlUse_GeneralNoUnit
+  commentId: F:HomeSeer.PluginSdk.Devices.Controls.EControlUse.GeneralNoUnit
+  fullName: HomeSeer.PluginSdk.Devices.Controls.EControlUse.GeneralNoUnit
+  nameWithType: EControlUse.GeneralNoUnit
+- uid: HomeSeer.PluginSdk.Devices.Controls.EControlUse.GeneralPercent
+  name: GeneralPercent
+  href: api/HomeSeer.PluginSdk.Devices.Controls.EControlUse.html#HomeSeer_PluginSdk_Devices_Controls_EControlUse_GeneralPercent
+  commentId: F:HomeSeer.PluginSdk.Devices.Controls.EControlUse.GeneralPercent
+  fullName: HomeSeer.PluginSdk.Devices.Controls.EControlUse.GeneralPercent
+  nameWithType: EControlUse.GeneralPercent
+- uid: HomeSeer.PluginSdk.Devices.Controls.EControlUse.GenericBinaryActive
+  name: GenericBinaryActive
+  href: api/HomeSeer.PluginSdk.Devices.Controls.EControlUse.html#HomeSeer_PluginSdk_Devices_Controls_EControlUse_GenericBinaryActive
+  commentId: F:HomeSeer.PluginSdk.Devices.Controls.EControlUse.GenericBinaryActive
+  fullName: HomeSeer.PluginSdk.Devices.Controls.EControlUse.GenericBinaryActive
+  nameWithType: EControlUse.GenericBinaryActive
+- uid: HomeSeer.PluginSdk.Devices.Controls.EControlUse.GenericBinaryInactive
+  name: GenericBinaryInactive
+  href: api/HomeSeer.PluginSdk.Devices.Controls.EControlUse.html#HomeSeer_PluginSdk_Devices_Controls_EControlUse_GenericBinaryInactive
+  commentId: F:HomeSeer.PluginSdk.Devices.Controls.EControlUse.GenericBinaryInactive
+  fullName: HomeSeer.PluginSdk.Devices.Controls.EControlUse.GenericBinaryInactive
+  nameWithType: EControlUse.GenericBinaryInactive
+- uid: HomeSeer.PluginSdk.Devices.Controls.EControlUse.GenericClose
+  name: GenericClose
+  href: api/HomeSeer.PluginSdk.Devices.Controls.EControlUse.html#HomeSeer_PluginSdk_Devices_Controls_EControlUse_GenericClose
+  commentId: F:HomeSeer.PluginSdk.Devices.Controls.EControlUse.GenericClose
+  fullName: HomeSeer.PluginSdk.Devices.Controls.EControlUse.GenericClose
+  nameWithType: EControlUse.GenericClose
+- uid: HomeSeer.PluginSdk.Devices.Controls.EControlUse.GenericOpen
+  name: GenericOpen
+  href: api/HomeSeer.PluginSdk.Devices.Controls.EControlUse.html#HomeSeer_PluginSdk_Devices_Controls_EControlUse_GenericOpen
+  commentId: F:HomeSeer.PluginSdk.Devices.Controls.EControlUse.GenericOpen
+  fullName: HomeSeer.PluginSdk.Devices.Controls.EControlUse.GenericOpen
+  nameWithType: EControlUse.GenericOpen
 - uid: HomeSeer.PluginSdk.Devices.Controls.EControlUse.HeatSetPoint
   name: HeatSetPoint
   href: api/HomeSeer.PluginSdk.Devices.Controls.EControlUse.html#HomeSeer_PluginSdk_Devices_Controls_EControlUse_HeatSetPoint
@@ -6597,6 +6877,36 @@ references:
   commentId: F:HomeSeer.PluginSdk.Devices.Controls.EControlUse.IncrementValue
   fullName: HomeSeer.PluginSdk.Devices.Controls.EControlUse.IncrementValue
   nameWithType: EControlUse.IncrementValue
+- uid: HomeSeer.PluginSdk.Devices.Controls.EControlUse.MediaMuted
+  name: MediaMuted
+  href: api/HomeSeer.PluginSdk.Devices.Controls.EControlUse.html#HomeSeer_PluginSdk_Devices_Controls_EControlUse_MediaMuted
+  commentId: F:HomeSeer.PluginSdk.Devices.Controls.EControlUse.MediaMuted
+  fullName: HomeSeer.PluginSdk.Devices.Controls.EControlUse.MediaMuted
+  nameWithType: EControlUse.MediaMuted
+- uid: HomeSeer.PluginSdk.Devices.Controls.EControlUse.MediaPaused
+  name: MediaPaused
+  href: api/HomeSeer.PluginSdk.Devices.Controls.EControlUse.html#HomeSeer_PluginSdk_Devices_Controls_EControlUse_MediaPaused
+  commentId: F:HomeSeer.PluginSdk.Devices.Controls.EControlUse.MediaPaused
+  fullName: HomeSeer.PluginSdk.Devices.Controls.EControlUse.MediaPaused
+  nameWithType: EControlUse.MediaPaused
+- uid: HomeSeer.PluginSdk.Devices.Controls.EControlUse.MediaPlaying
+  name: MediaPlaying
+  href: api/HomeSeer.PluginSdk.Devices.Controls.EControlUse.html#HomeSeer_PluginSdk_Devices_Controls_EControlUse_MediaPlaying
+  commentId: F:HomeSeer.PluginSdk.Devices.Controls.EControlUse.MediaPlaying
+  fullName: HomeSeer.PluginSdk.Devices.Controls.EControlUse.MediaPlaying
+  nameWithType: EControlUse.MediaPlaying
+- uid: HomeSeer.PluginSdk.Devices.Controls.EControlUse.MediaStopped
+  name: MediaStopped
+  href: api/HomeSeer.PluginSdk.Devices.Controls.EControlUse.html#HomeSeer_PluginSdk_Devices_Controls_EControlUse_MediaStopped
+  commentId: F:HomeSeer.PluginSdk.Devices.Controls.EControlUse.MediaStopped
+  fullName: HomeSeer.PluginSdk.Devices.Controls.EControlUse.MediaStopped
+  nameWithType: EControlUse.MediaStopped
+- uid: HomeSeer.PluginSdk.Devices.Controls.EControlUse.MediaUnmuted
+  name: MediaUnmuted
+  href: api/HomeSeer.PluginSdk.Devices.Controls.EControlUse.html#HomeSeer_PluginSdk_Devices_Controls_EControlUse_MediaUnmuted
+  commentId: F:HomeSeer.PluginSdk.Devices.Controls.EControlUse.MediaUnmuted
+  fullName: HomeSeer.PluginSdk.Devices.Controls.EControlUse.MediaUnmuted
+  nameWithType: EControlUse.MediaUnmuted
 - uid: HomeSeer.PluginSdk.Devices.Controls.EControlUse.MotionActive
   name: MotionActive
   href: api/HomeSeer.PluginSdk.Devices.Controls.EControlUse.html#HomeSeer_PluginSdk_Devices_Controls_EControlUse_MotionActive
@@ -6657,6 +6967,12 @@ references:
   commentId: F:HomeSeer.PluginSdk.Devices.Controls.EControlUse.Pause
   fullName: HomeSeer.PluginSdk.Devices.Controls.EControlUse.Pause
   nameWithType: EControlUse.Pause
+- uid: HomeSeer.PluginSdk.Devices.Controls.EControlUse.PercentHumidity
+  name: PercentHumidity
+  href: api/HomeSeer.PluginSdk.Devices.Controls.EControlUse.html#HomeSeer_PluginSdk_Devices_Controls_EControlUse_PercentHumidity
+  commentId: F:HomeSeer.PluginSdk.Devices.Controls.EControlUse.PercentHumidity
+  fullName: HomeSeer.PluginSdk.Devices.Controls.EControlUse.PercentHumidity
+  nameWithType: EControlUse.PercentHumidity
 - uid: HomeSeer.PluginSdk.Devices.Controls.EControlUse.Play
   name: Play
   href: api/HomeSeer.PluginSdk.Devices.Controls.EControlUse.html#HomeSeer_PluginSdk_Devices_Controls_EControlUse_Play
@@ -6675,30 +6991,96 @@ references:
   commentId: F:HomeSeer.PluginSdk.Devices.Controls.EControlUse.Repeat
   fullName: HomeSeer.PluginSdk.Devices.Controls.EControlUse.Repeat
   nameWithType: EControlUse.Repeat
+- uid: HomeSeer.PluginSdk.Devices.Controls.EControlUse.RepeatOff
+  name: RepeatOff
+  href: api/HomeSeer.PluginSdk.Devices.Controls.EControlUse.html#HomeSeer_PluginSdk_Devices_Controls_EControlUse_RepeatOff
+  commentId: F:HomeSeer.PluginSdk.Devices.Controls.EControlUse.RepeatOff
+  fullName: HomeSeer.PluginSdk.Devices.Controls.EControlUse.RepeatOff
+  nameWithType: EControlUse.RepeatOff
 - uid: HomeSeer.PluginSdk.Devices.Controls.EControlUse.Rewind
   name: Rewind
   href: api/HomeSeer.PluginSdk.Devices.Controls.EControlUse.html#HomeSeer_PluginSdk_Devices_Controls_EControlUse_Rewind
   commentId: F:HomeSeer.PluginSdk.Devices.Controls.EControlUse.Rewind
   fullName: HomeSeer.PluginSdk.Devices.Controls.EControlUse.Rewind
   nameWithType: EControlUse.Rewind
+- uid: HomeSeer.PluginSdk.Devices.Controls.EControlUse.SensorBinaryActive
+  name: SensorBinaryActive
+  href: api/HomeSeer.PluginSdk.Devices.Controls.EControlUse.html#HomeSeer_PluginSdk_Devices_Controls_EControlUse_SensorBinaryActive
+  commentId: F:HomeSeer.PluginSdk.Devices.Controls.EControlUse.SensorBinaryActive
+  fullName: HomeSeer.PluginSdk.Devices.Controls.EControlUse.SensorBinaryActive
+  nameWithType: EControlUse.SensorBinaryActive
+- uid: HomeSeer.PluginSdk.Devices.Controls.EControlUse.SensorBinaryInactive
+  name: SensorBinaryInactive
+  href: api/HomeSeer.PluginSdk.Devices.Controls.EControlUse.html#HomeSeer_PluginSdk_Devices_Controls_EControlUse_SensorBinaryInactive
+  commentId: F:HomeSeer.PluginSdk.Devices.Controls.EControlUse.SensorBinaryInactive
+  fullName: HomeSeer.PluginSdk.Devices.Controls.EControlUse.SensorBinaryInactive
+  nameWithType: EControlUse.SensorBinaryInactive
 - uid: HomeSeer.PluginSdk.Devices.Controls.EControlUse.Shuffle
   name: Shuffle
   href: api/HomeSeer.PluginSdk.Devices.Controls.EControlUse.html#HomeSeer_PluginSdk_Devices_Controls_EControlUse_Shuffle
   commentId: F:HomeSeer.PluginSdk.Devices.Controls.EControlUse.Shuffle
   fullName: HomeSeer.PluginSdk.Devices.Controls.EControlUse.Shuffle
   nameWithType: EControlUse.Shuffle
+- uid: HomeSeer.PluginSdk.Devices.Controls.EControlUse.ShuffleOff
+  name: ShuffleOff
+  href: api/HomeSeer.PluginSdk.Devices.Controls.EControlUse.html#HomeSeer_PluginSdk_Devices_Controls_EControlUse_ShuffleOff
+  commentId: F:HomeSeer.PluginSdk.Devices.Controls.EControlUse.ShuffleOff
+  fullName: HomeSeer.PluginSdk.Devices.Controls.EControlUse.ShuffleOff
+  nameWithType: EControlUse.ShuffleOff
+- uid: HomeSeer.PluginSdk.Devices.Controls.EControlUse.SimpleEventSource
+  name: SimpleEventSource
+  href: api/HomeSeer.PluginSdk.Devices.Controls.EControlUse.html#HomeSeer_PluginSdk_Devices_Controls_EControlUse_SimpleEventSource
+  commentId: F:HomeSeer.PluginSdk.Devices.Controls.EControlUse.SimpleEventSource
+  fullName: HomeSeer.PluginSdk.Devices.Controls.EControlUse.SimpleEventSource
+  nameWithType: EControlUse.SimpleEventSource
+- uid: HomeSeer.PluginSdk.Devices.Controls.EControlUse.StartOver
+  name: StartOver
+  href: api/HomeSeer.PluginSdk.Devices.Controls.EControlUse.html#HomeSeer_PluginSdk_Devices_Controls_EControlUse_StartOver
+  commentId: F:HomeSeer.PluginSdk.Devices.Controls.EControlUse.StartOver
+  fullName: HomeSeer.PluginSdk.Devices.Controls.EControlUse.StartOver
+  nameWithType: EControlUse.StartOver
 - uid: HomeSeer.PluginSdk.Devices.Controls.EControlUse.Stop
   name: Stop
   href: api/HomeSeer.PluginSdk.Devices.Controls.EControlUse.html#HomeSeer_PluginSdk_Devices_Controls_EControlUse_Stop
   commentId: F:HomeSeer.PluginSdk.Devices.Controls.EControlUse.Stop
   fullName: HomeSeer.PluginSdk.Devices.Controls.EControlUse.Stop
   nameWithType: EControlUse.Stop
+- uid: HomeSeer.PluginSdk.Devices.Controls.EControlUse.Temperature
+  name: Temperature
+  href: api/HomeSeer.PluginSdk.Devices.Controls.EControlUse.html#HomeSeer_PluginSdk_Devices_Controls_EControlUse_Temperature
+  commentId: F:HomeSeer.PluginSdk.Devices.Controls.EControlUse.Temperature
+  fullName: HomeSeer.PluginSdk.Devices.Controls.EControlUse.Temperature
+  nameWithType: EControlUse.Temperature
+- uid: HomeSeer.PluginSdk.Devices.Controls.EControlUse.TemperatureC
+  name: TemperatureC
+  href: api/HomeSeer.PluginSdk.Devices.Controls.EControlUse.html#HomeSeer_PluginSdk_Devices_Controls_EControlUse_TemperatureC
+  commentId: F:HomeSeer.PluginSdk.Devices.Controls.EControlUse.TemperatureC
+  fullName: HomeSeer.PluginSdk.Devices.Controls.EControlUse.TemperatureC
+  nameWithType: EControlUse.TemperatureC
+- uid: HomeSeer.PluginSdk.Devices.Controls.EControlUse.TemperatureF
+  name: TemperatureF
+  href: api/HomeSeer.PluginSdk.Devices.Controls.EControlUse.html#HomeSeer_PluginSdk_Devices_Controls_EControlUse_TemperatureF
+  commentId: F:HomeSeer.PluginSdk.Devices.Controls.EControlUse.TemperatureF
+  fullName: HomeSeer.PluginSdk.Devices.Controls.EControlUse.TemperatureF
+  nameWithType: EControlUse.TemperatureF
+- uid: HomeSeer.PluginSdk.Devices.Controls.EControlUse.TemperatureK
+  name: TemperatureK
+  href: api/HomeSeer.PluginSdk.Devices.Controls.EControlUse.html#HomeSeer_PluginSdk_Devices_Controls_EControlUse_TemperatureK
+  commentId: F:HomeSeer.PluginSdk.Devices.Controls.EControlUse.TemperatureK
+  fullName: HomeSeer.PluginSdk.Devices.Controls.EControlUse.TemperatureK
+  nameWithType: EControlUse.TemperatureK
 - uid: HomeSeer.PluginSdk.Devices.Controls.EControlUse.ThermFanAuto
   name: ThermFanAuto
   href: api/HomeSeer.PluginSdk.Devices.Controls.EControlUse.html#HomeSeer_PluginSdk_Devices_Controls_EControlUse_ThermFanAuto
   commentId: F:HomeSeer.PluginSdk.Devices.Controls.EControlUse.ThermFanAuto
   fullName: HomeSeer.PluginSdk.Devices.Controls.EControlUse.ThermFanAuto
   nameWithType: EControlUse.ThermFanAuto
+- uid: HomeSeer.PluginSdk.Devices.Controls.EControlUse.ThermFanCirculate
+  name: ThermFanCirculate
+  href: api/HomeSeer.PluginSdk.Devices.Controls.EControlUse.html#HomeSeer_PluginSdk_Devices_Controls_EControlUse_ThermFanCirculate
+  commentId: F:HomeSeer.PluginSdk.Devices.Controls.EControlUse.ThermFanCirculate
+  fullName: HomeSeer.PluginSdk.Devices.Controls.EControlUse.ThermFanCirculate
+  nameWithType: EControlUse.ThermFanCirculate
 - uid: HomeSeer.PluginSdk.Devices.Controls.EControlUse.ThermFanOn
   name: ThermFanOn
   href: api/HomeSeer.PluginSdk.Devices.Controls.EControlUse.html#HomeSeer_PluginSdk_Devices_Controls_EControlUse_ThermFanOn
@@ -6717,6 +7099,18 @@ references:
   commentId: F:HomeSeer.PluginSdk.Devices.Controls.EControlUse.ThermModeCool
   fullName: HomeSeer.PluginSdk.Devices.Controls.EControlUse.ThermModeCool
   nameWithType: EControlUse.ThermModeCool
+- uid: HomeSeer.PluginSdk.Devices.Controls.EControlUse.ThermModeEco
+  name: ThermModeEco
+  href: api/HomeSeer.PluginSdk.Devices.Controls.EControlUse.html#HomeSeer_PluginSdk_Devices_Controls_EControlUse_ThermModeEco
+  commentId: F:HomeSeer.PluginSdk.Devices.Controls.EControlUse.ThermModeEco
+  fullName: HomeSeer.PluginSdk.Devices.Controls.EControlUse.ThermModeEco
+  nameWithType: EControlUse.ThermModeEco
+- uid: HomeSeer.PluginSdk.Devices.Controls.EControlUse.ThermModeEMHeat
+  name: ThermModeEMHeat
+  href: api/HomeSeer.PluginSdk.Devices.Controls.EControlUse.html#HomeSeer_PluginSdk_Devices_Controls_EControlUse_ThermModeEMHeat
+  commentId: F:HomeSeer.PluginSdk.Devices.Controls.EControlUse.ThermModeEMHeat
+  fullName: HomeSeer.PluginSdk.Devices.Controls.EControlUse.ThermModeEMHeat
+  nameWithType: EControlUse.ThermModeEMHeat
 - uid: HomeSeer.PluginSdk.Devices.Controls.EControlUse.ThermModeHeat
   name: ThermModeHeat
   href: api/HomeSeer.PluginSdk.Devices.Controls.EControlUse.html#HomeSeer_PluginSdk_Devices_Controls_EControlUse_ThermModeHeat
@@ -6741,6 +7135,144 @@ references:
   commentId: F:HomeSeer.PluginSdk.Devices.Controls.EControlUse.Volume
   fullName: HomeSeer.PluginSdk.Devices.Controls.EControlUse.Volume
   nameWithType: EControlUse.Volume
+- uid: HomeSeer.PluginSdk.Devices.Controls.EControlUse.WindowCoverClose
+  name: WindowCoverClose
+  href: api/HomeSeer.PluginSdk.Devices.Controls.EControlUse.html#HomeSeer_PluginSdk_Devices_Controls_EControlUse_WindowCoverClose
+  commentId: F:HomeSeer.PluginSdk.Devices.Controls.EControlUse.WindowCoverClose
+  fullName: HomeSeer.PluginSdk.Devices.Controls.EControlUse.WindowCoverClose
+  nameWithType: EControlUse.WindowCoverClose
+- uid: HomeSeer.PluginSdk.Devices.Controls.EControlUse.WindowCoverMoveTo
+  name: WindowCoverMoveTo
+  href: api/HomeSeer.PluginSdk.Devices.Controls.EControlUse.html#HomeSeer_PluginSdk_Devices_Controls_EControlUse_WindowCoverMoveTo
+  commentId: F:HomeSeer.PluginSdk.Devices.Controls.EControlUse.WindowCoverMoveTo
+  fullName: HomeSeer.PluginSdk.Devices.Controls.EControlUse.WindowCoverMoveTo
+  nameWithType: EControlUse.WindowCoverMoveTo
+- uid: HomeSeer.PluginSdk.Devices.Controls.EControlUse.WindowCoverOpen
+  name: WindowCoverOpen
+  href: api/HomeSeer.PluginSdk.Devices.Controls.EControlUse.html#HomeSeer_PluginSdk_Devices_Controls_EControlUse_WindowCoverOpen
+  commentId: F:HomeSeer.PluginSdk.Devices.Controls.EControlUse.WindowCoverOpen
+  fullName: HomeSeer.PluginSdk.Devices.Controls.EControlUse.WindowCoverOpen
+  nameWithType: EControlUse.WindowCoverOpen
+- uid: HomeSeer.PluginSdk.Devices.Controls.EControlUse.WindowCoverPreset
+  name: WindowCoverPreset
+  href: api/HomeSeer.PluginSdk.Devices.Controls.EControlUse.html#HomeSeer_PluginSdk_Devices_Controls_EControlUse_WindowCoverPreset
+  commentId: F:HomeSeer.PluginSdk.Devices.Controls.EControlUse.WindowCoverPreset
+  fullName: HomeSeer.PluginSdk.Devices.Controls.EControlUse.WindowCoverPreset
+  nameWithType: EControlUse.WindowCoverPreset
+- uid: HomeSeer.PluginSdk.Devices.Controls.EControlUse.WindowCoverStopHold
+  name: WindowCoverStopHold
+  href: api/HomeSeer.PluginSdk.Devices.Controls.EControlUse.html#HomeSeer_PluginSdk_Devices_Controls_EControlUse_WindowCoverStopHold
+  commentId: F:HomeSeer.PluginSdk.Devices.Controls.EControlUse.WindowCoverStopHold
+  fullName: HomeSeer.PluginSdk.Devices.Controls.EControlUse.WindowCoverStopHold
+  nameWithType: EControlUse.WindowCoverStopHold
+- uid: HomeSeer.PluginSdk.Devices.Controls.EControlUse.WindowCoverTiltAngle
+  name: WindowCoverTiltAngle
+  href: api/HomeSeer.PluginSdk.Devices.Controls.EControlUse.html#HomeSeer_PluginSdk_Devices_Controls_EControlUse_WindowCoverTiltAngle
+  commentId: F:HomeSeer.PluginSdk.Devices.Controls.EControlUse.WindowCoverTiltAngle
+  fullName: HomeSeer.PluginSdk.Devices.Controls.EControlUse.WindowCoverTiltAngle
+  nameWithType: EControlUse.WindowCoverTiltAngle
+- uid: HomeSeer.PluginSdk.Devices.Controls.EControlUse.WindowCoverTiltValue
+  name: WindowCoverTiltValue
+  href: api/HomeSeer.PluginSdk.Devices.Controls.EControlUse.html#HomeSeer_PluginSdk_Devices_Controls_EControlUse_WindowCoverTiltValue
+  commentId: F:HomeSeer.PluginSdk.Devices.Controls.EControlUse.WindowCoverTiltValue
+  fullName: HomeSeer.PluginSdk.Devices.Controls.EControlUse.WindowCoverTiltValue
+  nameWithType: EControlUse.WindowCoverTiltValue
+- uid: HomeSeer.PluginSdk.Devices.Controls.LabelAttribute
+  name: LabelAttribute
+  href: api/HomeSeer.PluginSdk.Devices.Controls.LabelAttribute.html
+  commentId: T:HomeSeer.PluginSdk.Devices.Controls.LabelAttribute
+  fullName: HomeSeer.PluginSdk.Devices.Controls.LabelAttribute
+  nameWithType: LabelAttribute
+- uid: HomeSeer.PluginSdk.Devices.Controls.LabelAttribute.#ctor(System.String)
+  name: LabelAttribute(String)
+  href: api/HomeSeer.PluginSdk.Devices.Controls.LabelAttribute.html#HomeSeer_PluginSdk_Devices_Controls_LabelAttribute__ctor_System_String_
+  commentId: M:HomeSeer.PluginSdk.Devices.Controls.LabelAttribute.#ctor(System.String)
+  fullName: HomeSeer.PluginSdk.Devices.Controls.LabelAttribute.LabelAttribute(System.String)
+  nameWithType: LabelAttribute.LabelAttribute(String)
+- uid: HomeSeer.PluginSdk.Devices.Controls.LabelAttribute.#ctor*
+  name: LabelAttribute
+  href: api/HomeSeer.PluginSdk.Devices.Controls.LabelAttribute.html#HomeSeer_PluginSdk_Devices_Controls_LabelAttribute__ctor_
+  commentId: Overload:HomeSeer.PluginSdk.Devices.Controls.LabelAttribute.#ctor
+  isSpec: "True"
+  fullName: HomeSeer.PluginSdk.Devices.Controls.LabelAttribute.LabelAttribute
+  nameWithType: LabelAttribute.LabelAttribute
+- uid: HomeSeer.PluginSdk.Devices.Controls.LabelAttribute.Label
+  name: Label
+  href: api/HomeSeer.PluginSdk.Devices.Controls.LabelAttribute.html#HomeSeer_PluginSdk_Devices_Controls_LabelAttribute_Label
+  commentId: P:HomeSeer.PluginSdk.Devices.Controls.LabelAttribute.Label
+  fullName: HomeSeer.PluginSdk.Devices.Controls.LabelAttribute.Label
+  nameWithType: LabelAttribute.Label
+- uid: HomeSeer.PluginSdk.Devices.Controls.LabelAttribute.Label*
+  name: Label
+  href: api/HomeSeer.PluginSdk.Devices.Controls.LabelAttribute.html#HomeSeer_PluginSdk_Devices_Controls_LabelAttribute_Label_
+  commentId: Overload:HomeSeer.PluginSdk.Devices.Controls.LabelAttribute.Label
+  isSpec: "True"
+  fullName: HomeSeer.PluginSdk.Devices.Controls.LabelAttribute.Label
+  nameWithType: LabelAttribute.Label
+- uid: HomeSeer.PluginSdk.Devices.Controls.ScaleAttribute
+  name: ScaleAttribute
+  href: api/HomeSeer.PluginSdk.Devices.Controls.ScaleAttribute.html
+  commentId: T:HomeSeer.PluginSdk.Devices.Controls.ScaleAttribute
+  fullName: HomeSeer.PluginSdk.Devices.Controls.ScaleAttribute
+  nameWithType: ScaleAttribute
+- uid: HomeSeer.PluginSdk.Devices.Controls.ScaleAttribute.#ctor(System.String)
+  name: ScaleAttribute(String)
+  href: api/HomeSeer.PluginSdk.Devices.Controls.ScaleAttribute.html#HomeSeer_PluginSdk_Devices_Controls_ScaleAttribute__ctor_System_String_
+  commentId: M:HomeSeer.PluginSdk.Devices.Controls.ScaleAttribute.#ctor(System.String)
+  fullName: HomeSeer.PluginSdk.Devices.Controls.ScaleAttribute.ScaleAttribute(System.String)
+  nameWithType: ScaleAttribute.ScaleAttribute(String)
+- uid: HomeSeer.PluginSdk.Devices.Controls.ScaleAttribute.#ctor*
+  name: ScaleAttribute
+  href: api/HomeSeer.PluginSdk.Devices.Controls.ScaleAttribute.html#HomeSeer_PluginSdk_Devices_Controls_ScaleAttribute__ctor_
+  commentId: Overload:HomeSeer.PluginSdk.Devices.Controls.ScaleAttribute.#ctor
+  isSpec: "True"
+  fullName: HomeSeer.PluginSdk.Devices.Controls.ScaleAttribute.ScaleAttribute
+  nameWithType: ScaleAttribute.ScaleAttribute
+- uid: HomeSeer.PluginSdk.Devices.Controls.ScaleAttribute.Scale
+  name: Scale
+  href: api/HomeSeer.PluginSdk.Devices.Controls.ScaleAttribute.html#HomeSeer_PluginSdk_Devices_Controls_ScaleAttribute_Scale
+  commentId: P:HomeSeer.PluginSdk.Devices.Controls.ScaleAttribute.Scale
+  fullName: HomeSeer.PluginSdk.Devices.Controls.ScaleAttribute.Scale
+  nameWithType: ScaleAttribute.Scale
+- uid: HomeSeer.PluginSdk.Devices.Controls.ScaleAttribute.Scale*
+  name: Scale
+  href: api/HomeSeer.PluginSdk.Devices.Controls.ScaleAttribute.html#HomeSeer_PluginSdk_Devices_Controls_ScaleAttribute_Scale_
+  commentId: Overload:HomeSeer.PluginSdk.Devices.Controls.ScaleAttribute.Scale
+  isSpec: "True"
+  fullName: HomeSeer.PluginSdk.Devices.Controls.ScaleAttribute.Scale
+  nameWithType: ScaleAttribute.Scale
+- uid: HomeSeer.PluginSdk.Devices.Controls.ScaleHtmlAttribute
+  name: ScaleHtmlAttribute
+  href: api/HomeSeer.PluginSdk.Devices.Controls.ScaleHtmlAttribute.html
+  commentId: T:HomeSeer.PluginSdk.Devices.Controls.ScaleHtmlAttribute
+  fullName: HomeSeer.PluginSdk.Devices.Controls.ScaleHtmlAttribute
+  nameWithType: ScaleHtmlAttribute
+- uid: HomeSeer.PluginSdk.Devices.Controls.ScaleHtmlAttribute.#ctor(System.String)
+  name: ScaleHtmlAttribute(String)
+  href: api/HomeSeer.PluginSdk.Devices.Controls.ScaleHtmlAttribute.html#HomeSeer_PluginSdk_Devices_Controls_ScaleHtmlAttribute__ctor_System_String_
+  commentId: M:HomeSeer.PluginSdk.Devices.Controls.ScaleHtmlAttribute.#ctor(System.String)
+  fullName: HomeSeer.PluginSdk.Devices.Controls.ScaleHtmlAttribute.ScaleHtmlAttribute(System.String)
+  nameWithType: ScaleHtmlAttribute.ScaleHtmlAttribute(String)
+- uid: HomeSeer.PluginSdk.Devices.Controls.ScaleHtmlAttribute.#ctor*
+  name: ScaleHtmlAttribute
+  href: api/HomeSeer.PluginSdk.Devices.Controls.ScaleHtmlAttribute.html#HomeSeer_PluginSdk_Devices_Controls_ScaleHtmlAttribute__ctor_
+  commentId: Overload:HomeSeer.PluginSdk.Devices.Controls.ScaleHtmlAttribute.#ctor
+  isSpec: "True"
+  fullName: HomeSeer.PluginSdk.Devices.Controls.ScaleHtmlAttribute.ScaleHtmlAttribute
+  nameWithType: ScaleHtmlAttribute.ScaleHtmlAttribute
+- uid: HomeSeer.PluginSdk.Devices.Controls.ScaleHtmlAttribute.ScaleHtml
+  name: ScaleHtml
+  href: api/HomeSeer.PluginSdk.Devices.Controls.ScaleHtmlAttribute.html#HomeSeer_PluginSdk_Devices_Controls_ScaleHtmlAttribute_ScaleHtml
+  commentId: P:HomeSeer.PluginSdk.Devices.Controls.ScaleHtmlAttribute.ScaleHtml
+  fullName: HomeSeer.PluginSdk.Devices.Controls.ScaleHtmlAttribute.ScaleHtml
+  nameWithType: ScaleHtmlAttribute.ScaleHtml
+- uid: HomeSeer.PluginSdk.Devices.Controls.ScaleHtmlAttribute.ScaleHtml*
+  name: ScaleHtml
+  href: api/HomeSeer.PluginSdk.Devices.Controls.ScaleHtmlAttribute.html#HomeSeer_PluginSdk_Devices_Controls_ScaleHtmlAttribute_ScaleHtml_
+  commentId: Overload:HomeSeer.PluginSdk.Devices.Controls.ScaleHtmlAttribute.ScaleHtml
+  isSpec: "True"
+  fullName: HomeSeer.PluginSdk.Devices.Controls.ScaleHtmlAttribute.ScaleHtml
+  nameWithType: ScaleHtmlAttribute.ScaleHtml
 - uid: HomeSeer.PluginSdk.Devices.Controls.StatusControl
   name: StatusControl
   href: api/HomeSeer.PluginSdk.Devices.Controls.StatusControl.html

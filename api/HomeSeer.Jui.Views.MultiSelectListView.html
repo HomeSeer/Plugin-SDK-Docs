@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Class Page.Factory
+    <title>Class MultiSelectListView
    | HomeSeer PluginSdk Docs </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Class Page.Factory
+    <meta name="title" content="Class MultiSelectListView
    | HomeSeer PluginSdk Docs ">
     <meta name="generator" content="docfx 2.59.4.0">
     
@@ -80,10 +80,10 @@
         <div class="article row grid-right">
       <div class="col-md-1"></div>
       <div class="col-md-8 card">
-        <article class="content wrap" id="_content" data-uid="HomeSeer.Jui.Views.Page.Factory">
+        <article class="content wrap" id="_content" data-uid="HomeSeer.Jui.Views.MultiSelectListView">
   
   
-  <h1 id="HomeSeer_Jui_Views_Page_Factory" data-uid="HomeSeer.Jui.Views.Page.Factory" class="text-break">Class Page.Factory
+  <h1 id="HomeSeer_Jui_Views_MultiSelectListView" data-uid="HomeSeer.Jui.Views.MultiSelectListView" class="text-break">Class MultiSelectListView
   </h1>
   <div class="tabGroup" id="tabgroup_syntax">
       <ul role="tablist">
@@ -96,24 +96,48 @@
       </ul>
       <section id="tabpanel_syntax_cs" role="tabpanel" data-tab="cs">
           <div class="codewrapper">
-            <pre><code class="lang-System.Object[] hljs">[Obsolete(&quot;Please use HomeSeer.Jui.Views.PageFactory now.&quot;, false)]
-public static class Factory</code></pre>
+            <pre><code class="lang-System.Object[] hljs">public sealed class MultiSelectListView : AbstractView</code></pre>
           </div>
       </section>
       <section id="tabpanel_syntax_vb" role="tabpanel" data-tab="vb" aria-hidden="true" hidden="">
           <div class="codewrapper">
-            <pre><code class="lang-System.Object[] hljs">&lt;Obsolete(&quot;Please use HomeSeer.Jui.Views.PageFactory now.&quot;, False)&gt;
-Public Module Factory</code></pre>
+            <pre><code class="lang-System.Object[] hljs">Public NotInheritable Class MultiSelectListView
+    Inherits AbstractView</code></pre>
           </div>
       </section>
   </div>
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><span class="xref">System.Object</span></div>
-    <div class="level1"><span class="xref">Page.Factory</span></div>
+    <div class="level1"><a class="xref" href="HomeSeer.Jui.Views.AbstractView.html">AbstractView</a></div>
+    <div class="level2"><span class="xref">MultiSelectListView</span></div>
   </div>
   <div class="inheritedMembers">
     <h5>Inherited Members</h5>
+    <div>
+      <a class="xref" href="HomeSeer.Jui.Views.AbstractView.html#HomeSeer_Jui_Views_AbstractView_Id">AbstractView.Id</a>
+    </div>
+    <div>
+      <a class="xref" href="HomeSeer.Jui.Views.AbstractView.html#HomeSeer_Jui_Views_AbstractView_Name">AbstractView.Name</a>
+    </div>
+    <div>
+      <a class="xref" href="HomeSeer.Jui.Views.AbstractView.html#HomeSeer_Jui_Views_AbstractView_Type">AbstractView.Type</a>
+    </div>
+    <div>
+      <a class="xref" href="HomeSeer.Jui.Views.AbstractView.html#HomeSeer_Jui_Views_AbstractView_HtmlIndent">AbstractView.HtmlIndent</a>
+    </div>
+    <div>
+      <a class="xref" href="HomeSeer.Jui.Views.AbstractView.html#HomeSeer_Jui_Views_AbstractView_NonAllowedCharactersForId">AbstractView.NonAllowedCharactersForId</a>
+    </div>
+    <div>
+      <a class="xref" href="HomeSeer.Jui.Views.AbstractView.html#HomeSeer_Jui_Views_AbstractView_GetIndentStringFromNumber_System_Int32_">AbstractView.GetIndentStringFromNumber(Int32)</a>
+    </div>
+    <div>
+      <a class="xref" href="HomeSeer.Jui.Views.AbstractView.html#HomeSeer_Jui_Views_AbstractView_IdContainsNonAllowedCharacters">AbstractView.IdContainsNonAllowedCharacters()</a>
+    </div>
+    <div>
+      <a class="xref" href="HomeSeer.Jui.Views.AbstractView.html#HomeSeer_Jui_Views_AbstractView_ShallowCopy">AbstractView.ShallowCopy()</a>
+    </div>
     <div>
       <span class="xref">System.Object.ToString()</span>
     </div>
@@ -142,19 +166,19 @@ Public Module Factory</code></pre>
   </div>
   <hr>
   <br>
-  <div class="markdown level0 summary"><p>A factory class for creating pages</p>
+  <div class="markdown level0 summary"><p>A selection list allows a user to pick multiple values from a predefined collection.</p>
 </div>
   <div class="markdown level0 conceptual"></div>
   <br>
-  <h3 id="methods">Methods
+  <h3 id="constructors">Constructors
   </h3>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Jui/Views/Page.cs/#L609">View Source</a>
+    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Jui/Views/MultiSelectListView.cs/#L75">View Source</a>
   </span>
-  <a id="HomeSeer_Jui_Views_Page_Factory_CreateDeviceConfigPage_" data-uid="HomeSeer.Jui.Views.Page.Factory.CreateDeviceConfigPage*"></a>
-  <h4 id="HomeSeer_Jui_Views_Page_Factory_CreateDeviceConfigPage_System_String_System_String_" data-uid="HomeSeer.Jui.Views.Page.Factory.CreateDeviceConfigPage(System.String,System.String)">CreateDeviceConfigPage(String, String)</h4>
-  <div class="markdown level1 summary"><p>Create a new device configuration page</p>
+  <a id="HomeSeer_Jui_Views_MultiSelectListView__ctor_" data-uid="HomeSeer.Jui.Views.MultiSelectListView.#ctor*"></a>
+  <h4 id="HomeSeer_Jui_Views_MultiSelectListView__ctor_System_String_System_String_System_Collections_Generic_List_System_String__System_Collections_Generic_List_System_String__HomeSeer_Jui_Types_EMultiSelectListType_System_Collections_Generic_List_System_Int32__" data-uid="HomeSeer.Jui.Views.MultiSelectListView.#ctor(System.String,System.String,System.Collections.Generic.List{System.String},System.Collections.Generic.List{System.String},HomeSeer.Jui.Types.EMultiSelectListType,System.Collections.Generic.List{System.Int32})">MultiSelectListView(String, String, List&lt;String&gt;, List&lt;String&gt;, EMultiSelectListType, List&lt;Int32&gt;)</h4>
+  <div class="markdown level1 summary"><p>Create a new instance of a multi select list with the default, drop down style, an ID, Name, and the specified list of options and keys</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -169,12 +193,14 @@ Public Module Factory</code></pre>
       </ul>
       <section id="tabpanel_syntax_cs" role="tabpanel" data-tab="cs">
           <div class="codewrapper">
-            <pre><code class="lang-csharp hljs">public static Page CreateDeviceConfigPage(string id, string name)</code></pre>
+            <pre><code class="lang-csharp hljs">[JsonConstructor]
+public MultiSelectListView(string id, string name, List&lt;string&gt; options, List&lt;string&gt; optionKeys, EMultiSelectListType style = EMultiSelectListType.DropDown, List&lt;int&gt; selection = null)</code></pre>
           </div>
       </section>
       <section id="tabpanel_syntax_vb" role="tabpanel" data-tab="vb" aria-hidden="true" hidden="">
           <div class="codewrapper">
-            <pre><code class="lang-vb hljs">Public Shared Function CreateDeviceConfigPage(id As String, name As String) As Page</code></pre>
+            <pre><code class="lang-vb hljs">&lt;JsonConstructor&gt;
+Public Sub New(id As String, name As String, options As List(Of String), optionKeys As List(Of String), style As EMultiSelectListType = EMultiSelectListType.DropDown, selection As List(Of Integer) = Nothing)</code></pre>
           </div>
       </section>
   </div>
@@ -191,982 +217,37 @@ Public Module Factory</code></pre>
       <tr>
         <td><span class="xref">System.String</span></td>
         <td><span class="parametername">id</span></td>
-        <td><p>The ID for the page</p>
+        <td><p>The unique ID for this View</p>
 </td>
       </tr>
       <tr>
         <td><span class="xref">System.String</span></td>
         <td><span class="parametername">name</span></td>
-        <td><p>The name of the page</p>
+        <td><p>The name of the view</p>
 </td>
       </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="HomeSeer.Jui.Views.Page.html">Page</a></td>
-        <td><p>A new Page with its type set to EPageType.DeviceConfig</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Jui/Views/Page.cs/#L598">View Source</a>
-  </span>
-  <a id="HomeSeer_Jui_Views_Page_Factory_CreateDeviceIncPage_" data-uid="HomeSeer.Jui.Views.Page.Factory.CreateDeviceIncPage*"></a>
-  <h4 id="HomeSeer_Jui_Views_Page_Factory_CreateDeviceIncPage_System_String_System_String_" data-uid="HomeSeer.Jui.Views.Page.Factory.CreateDeviceIncPage(System.String,System.String)">CreateDeviceIncPage(String, String)</h4>
-  <div class="markdown level1 summary"><p>Create a new device inclusion page</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="tabGroup" id="tabgroup_syntax">
-      <ul role="tablist">
-          <li role="presentation">
-              <a href="#tabpanel_syntax_cs" tabindex="0" role="tab" aria-controls="tabpanel_syntax_cs" data-tab="cs" aria-selected="true">C#</a>
-          </li>
-          <li role="presentation">
-              <a href="#tabpanel_syntax_vb" tabindex="-1" role="tab" aria-controls="tabpanel_syntax_vb" data-tab="vb">Visual Basic</a>
-          </li>
-      </ul>
-      <section id="tabpanel_syntax_cs" role="tabpanel" data-tab="cs">
-          <div class="codewrapper">
-            <pre><code class="lang-csharp hljs">static Page CreateDeviceIncPage(string id, string name)</code></pre>
-          </div>
-      </section>
-      <section id="tabpanel_syntax_vb" role="tabpanel" data-tab="vb" aria-hidden="true" hidden="">
-          <div class="codewrapper">
-            <pre><code class="lang-vb hljs">Shared Function CreateDeviceIncPage(id As String, name As String) As Page</code></pre>
-          </div>
-      </section>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.String</span></td>
-        <td><span class="parametername">id</span></td>
-        <td><p>The ID for the page</p>
-</td>
-      </tr>
-      <tr>
-        <td><span class="xref">System.String</span></td>
-        <td><span class="parametername">name</span></td>
-        <td><p>The name of the page</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="HomeSeer.Jui.Views.Page.html">Page</a></td>
-        <td><p>A new Page with its type set to EPageType.DeviceInclude</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Jui/Views/Page.cs/#L653">View Source</a>
-  </span>
-  <a id="HomeSeer_Jui_Views_Page_Factory_CreateEventActionPage_" data-uid="HomeSeer.Jui.Views.Page.Factory.CreateEventActionPage*"></a>
-  <h4 id="HomeSeer_Jui_Views_Page_Factory_CreateEventActionPage_System_String_System_String_" data-uid="HomeSeer.Jui.Views.Page.Factory.CreateEventActionPage(System.String,System.String)">CreateEventActionPage(String, String)</h4>
-  <div class="markdown level1 summary"><p>Create a new, event action page</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="tabGroup" id="tabgroup_syntax">
-      <ul role="tablist">
-          <li role="presentation">
-              <a href="#tabpanel_syntax_cs" tabindex="0" role="tab" aria-controls="tabpanel_syntax_cs" data-tab="cs" aria-selected="true">C#</a>
-          </li>
-          <li role="presentation">
-              <a href="#tabpanel_syntax_vb" tabindex="-1" role="tab" aria-controls="tabpanel_syntax_vb" data-tab="vb">Visual Basic</a>
-          </li>
-      </ul>
-      <section id="tabpanel_syntax_cs" role="tabpanel" data-tab="cs">
-          <div class="codewrapper">
-            <pre><code class="lang-csharp hljs">public static Page CreateEventActionPage(string id, string name)</code></pre>
-          </div>
-      </section>
-      <section id="tabpanel_syntax_vb" role="tabpanel" data-tab="vb" aria-hidden="true" hidden="">
-          <div class="codewrapper">
-            <pre><code class="lang-vb hljs">Public Shared Function CreateEventActionPage(id As String, name As String) As Page</code></pre>
-          </div>
-      </section>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.String</span></td>
-        <td><span class="parametername">id</span></td>
-        <td><p>The ID for the page</p>
-</td>
-      </tr>
-      <tr>
-        <td><span class="xref">System.String</span></td>
-        <td><span class="parametername">name</span></td>
-        <td><p>The name of the page</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="HomeSeer.Jui.Views.Page.html">Page</a></td>
-        <td><p>A new Page with its type set to EPageType.EventAction</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Jui/Views/Page.cs/#L664">View Source</a>
-  </span>
-  <a id="HomeSeer_Jui_Views_Page_Factory_CreateEventTriggerPage_" data-uid="HomeSeer.Jui.Views.Page.Factory.CreateEventTriggerPage*"></a>
-  <h4 id="HomeSeer_Jui_Views_Page_Factory_CreateEventTriggerPage_System_String_System_String_" data-uid="HomeSeer.Jui.Views.Page.Factory.CreateEventTriggerPage(System.String,System.String)">CreateEventTriggerPage(String, String)</h4>
-  <div class="markdown level1 summary"><p>Create a new, event trigger page</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="tabGroup" id="tabgroup_syntax">
-      <ul role="tablist">
-          <li role="presentation">
-              <a href="#tabpanel_syntax_cs" tabindex="0" role="tab" aria-controls="tabpanel_syntax_cs" data-tab="cs" aria-selected="true">C#</a>
-          </li>
-          <li role="presentation">
-              <a href="#tabpanel_syntax_vb" tabindex="-1" role="tab" aria-controls="tabpanel_syntax_vb" data-tab="vb">Visual Basic</a>
-          </li>
-      </ul>
-      <section id="tabpanel_syntax_cs" role="tabpanel" data-tab="cs">
-          <div class="codewrapper">
-            <pre><code class="lang-csharp hljs">public static Page CreateEventTriggerPage(string id, string name)</code></pre>
-          </div>
-      </section>
-      <section id="tabpanel_syntax_vb" role="tabpanel" data-tab="vb" aria-hidden="true" hidden="">
-          <div class="codewrapper">
-            <pre><code class="lang-vb hljs">Public Shared Function CreateEventTriggerPage(id As String, name As String) As Page</code></pre>
-          </div>
-      </section>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.String</span></td>
-        <td><span class="parametername">id</span></td>
-        <td><p>The ID for the page</p>
-</td>
-      </tr>
-      <tr>
-        <td><span class="xref">System.String</span></td>
-        <td><span class="parametername">name</span></td>
-        <td><p>The name of the page</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="HomeSeer.Jui.Views.Page.html">Page</a></td>
-        <td><p>A new Page with its type set to EPageType.EventTrigger</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Jui/Views/Page.cs/#L587">View Source</a>
-  </span>
-  <a id="HomeSeer_Jui_Views_Page_Factory_CreateFeaturePage_" data-uid="HomeSeer.Jui.Views.Page.Factory.CreateFeaturePage*"></a>
-  <h4 id="HomeSeer_Jui_Views_Page_Factory_CreateFeaturePage_System_String_System_String_" data-uid="HomeSeer.Jui.Views.Page.Factory.CreateFeaturePage(System.String,System.String)">CreateFeaturePage(String, String)</h4>
-  <div class="markdown level1 summary"><p>Create a new feature page</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="tabGroup" id="tabgroup_syntax">
-      <ul role="tablist">
-          <li role="presentation">
-              <a href="#tabpanel_syntax_cs" tabindex="0" role="tab" aria-controls="tabpanel_syntax_cs" data-tab="cs" aria-selected="true">C#</a>
-          </li>
-          <li role="presentation">
-              <a href="#tabpanel_syntax_vb" tabindex="-1" role="tab" aria-controls="tabpanel_syntax_vb" data-tab="vb">Visual Basic</a>
-          </li>
-      </ul>
-      <section id="tabpanel_syntax_cs" role="tabpanel" data-tab="cs">
-          <div class="codewrapper">
-            <pre><code class="lang-csharp hljs">static Page CreateFeaturePage(string id, string name)</code></pre>
-          </div>
-      </section>
-      <section id="tabpanel_syntax_vb" role="tabpanel" data-tab="vb" aria-hidden="true" hidden="">
-          <div class="codewrapper">
-            <pre><code class="lang-vb hljs">Shared Function CreateFeaturePage(id As String, name As String) As Page</code></pre>
-          </div>
-      </section>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.String</span></td>
-        <td><span class="parametername">id</span></td>
-        <td><p>The ID for the page</p>
-</td>
-      </tr>
-      <tr>
-        <td><span class="xref">System.String</span></td>
-        <td><span class="parametername">name</span></td>
-        <td><p>The name of the page</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="HomeSeer.Jui.Views.Page.html">Page</a></td>
-        <td><p>A new Page with its type set to EPageType.Feature</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Jui/Views/Page.cs/#L642">View Source</a>
-  </span>
-  <a id="HomeSeer_Jui_Views_Page_Factory_CreateGenericPage_" data-uid="HomeSeer.Jui.Views.Page.Factory.CreateGenericPage*"></a>
-  <h4 id="HomeSeer_Jui_Views_Page_Factory_CreateGenericPage_System_String_System_String_" data-uid="HomeSeer.Jui.Views.Page.Factory.CreateGenericPage(System.String,System.String)">CreateGenericPage(String, String)</h4>
-  <div class="markdown level1 summary"><p>Create a new, generic page</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="tabGroup" id="tabgroup_syntax">
-      <ul role="tablist">
-          <li role="presentation">
-              <a href="#tabpanel_syntax_cs" tabindex="0" role="tab" aria-controls="tabpanel_syntax_cs" data-tab="cs" aria-selected="true">C#</a>
-          </li>
-          <li role="presentation">
-              <a href="#tabpanel_syntax_vb" tabindex="-1" role="tab" aria-controls="tabpanel_syntax_vb" data-tab="vb">Visual Basic</a>
-          </li>
-      </ul>
-      <section id="tabpanel_syntax_cs" role="tabpanel" data-tab="cs">
-          <div class="codewrapper">
-            <pre><code class="lang-csharp hljs">public static Page CreateGenericPage(string id, string name)</code></pre>
-          </div>
-      </section>
-      <section id="tabpanel_syntax_vb" role="tabpanel" data-tab="vb" aria-hidden="true" hidden="">
-          <div class="codewrapper">
-            <pre><code class="lang-vb hljs">Public Shared Function CreateGenericPage(id As String, name As String) As Page</code></pre>
-          </div>
-      </section>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.String</span></td>
-        <td><span class="parametername">id</span></td>
-        <td><p>The ID for the page</p>
-</td>
-      </tr>
-      <tr>
-        <td><span class="xref">System.String</span></td>
-        <td><span class="parametername">name</span></td>
-        <td><p>The name of the page</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="HomeSeer.Jui.Views.Page.html">Page</a></td>
-        <td><p>A new Page with its type set to EPageType.Generic</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Jui/Views/Page.cs/#L620">View Source</a>
-  </span>
-  <a id="HomeSeer_Jui_Views_Page_Factory_CreateGuidedProcessPage_" data-uid="HomeSeer.Jui.Views.Page.Factory.CreateGuidedProcessPage*"></a>
-  <h4 id="HomeSeer_Jui_Views_Page_Factory_CreateGuidedProcessPage_System_String_System_String_" data-uid="HomeSeer.Jui.Views.Page.Factory.CreateGuidedProcessPage(System.String,System.String)">CreateGuidedProcessPage(String, String)</h4>
-  <div class="markdown level1 summary"><p>Create a new guided process page</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="tabGroup" id="tabgroup_syntax">
-      <ul role="tablist">
-          <li role="presentation">
-              <a href="#tabpanel_syntax_cs" tabindex="0" role="tab" aria-controls="tabpanel_syntax_cs" data-tab="cs" aria-selected="true">C#</a>
-          </li>
-          <li role="presentation">
-              <a href="#tabpanel_syntax_vb" tabindex="-1" role="tab" aria-controls="tabpanel_syntax_vb" data-tab="vb">Visual Basic</a>
-          </li>
-      </ul>
-      <section id="tabpanel_syntax_cs" role="tabpanel" data-tab="cs">
-          <div class="codewrapper">
-            <pre><code class="lang-csharp hljs">static Page CreateGuidedProcessPage(string id, string name)</code></pre>
-          </div>
-      </section>
-      <section id="tabpanel_syntax_vb" role="tabpanel" data-tab="vb" aria-hidden="true" hidden="">
-          <div class="codewrapper">
-            <pre><code class="lang-vb hljs">Shared Function CreateGuidedProcessPage(id As String, name As String) As Page</code></pre>
-          </div>
-      </section>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.String</span></td>
-        <td><span class="parametername">id</span></td>
-        <td><p>The ID for the page</p>
-</td>
-      </tr>
-      <tr>
-        <td><span class="xref">System.String</span></td>
-        <td><span class="parametername">name</span></td>
-        <td><p>The name of the page</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="HomeSeer.Jui.Views.Page.html">Page</a></td>
-        <td><p>A new Page with its type set to EPageType.Guide</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Jui/Views/Page.cs/#L631">View Source</a>
-  </span>
-  <a id="HomeSeer_Jui_Views_Page_Factory_CreateHtmlFeaturePage_" data-uid="HomeSeer.Jui.Views.Page.Factory.CreateHtmlFeaturePage*"></a>
-  <h4 id="HomeSeer_Jui_Views_Page_Factory_CreateHtmlFeaturePage_System_String_System_String_" data-uid="HomeSeer.Jui.Views.Page.Factory.CreateHtmlFeaturePage(System.String,System.String)">CreateHtmlFeaturePage(String, String)</h4>
-  <div class="markdown level1 summary"><p>Create a new HTML feature page</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="tabGroup" id="tabgroup_syntax">
-      <ul role="tablist">
-          <li role="presentation">
-              <a href="#tabpanel_syntax_cs" tabindex="0" role="tab" aria-controls="tabpanel_syntax_cs" data-tab="cs" aria-selected="true">C#</a>
-          </li>
-          <li role="presentation">
-              <a href="#tabpanel_syntax_vb" tabindex="-1" role="tab" aria-controls="tabpanel_syntax_vb" data-tab="vb">Visual Basic</a>
-          </li>
-      </ul>
-      <section id="tabpanel_syntax_cs" role="tabpanel" data-tab="cs">
-          <div class="codewrapper">
-            <pre><code class="lang-csharp hljs">static Page CreateHtmlFeaturePage(string id, string name)</code></pre>
-          </div>
-      </section>
-      <section id="tabpanel_syntax_vb" role="tabpanel" data-tab="vb" aria-hidden="true" hidden="">
-          <div class="codewrapper">
-            <pre><code class="lang-vb hljs">Shared Function CreateHtmlFeaturePage(id As String, name As String) As Page</code></pre>
-          </div>
-      </section>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.String</span></td>
-        <td><span class="parametername">id</span></td>
-        <td><p>The ID for the page</p>
-</td>
-      </tr>
-      <tr>
-        <td><span class="xref">System.String</span></td>
-        <td><span class="parametername">name</span></td>
-        <td><p>The name of the page</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="HomeSeer.Jui.Views.Page.html">Page</a></td>
-        <td><p>A new Page with its type set to EPageType.FeatureHtml</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Jui/Views/Page.cs/#L564">View Source</a>
-  </span>
-  <a id="HomeSeer_Jui_Views_Page_Factory_CreateSettingPage_" data-uid="HomeSeer.Jui.Views.Page.Factory.CreateSettingPage*"></a>
-  <h4 id="HomeSeer_Jui_Views_Page_Factory_CreateSettingPage_System_String_System_String_" data-uid="HomeSeer.Jui.Views.Page.Factory.CreateSettingPage(System.String,System.String)">CreateSettingPage(String, String)</h4>
-  <div class="markdown level1 summary"><p>Create a new settings page</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="tabGroup" id="tabgroup_syntax">
-      <ul role="tablist">
-          <li role="presentation">
-              <a href="#tabpanel_syntax_cs" tabindex="0" role="tab" aria-controls="tabpanel_syntax_cs" data-tab="cs" aria-selected="true">C#</a>
-          </li>
-          <li role="presentation">
-              <a href="#tabpanel_syntax_vb" tabindex="-1" role="tab" aria-controls="tabpanel_syntax_vb" data-tab="vb">Visual Basic</a>
-          </li>
-      </ul>
-      <section id="tabpanel_syntax_cs" role="tabpanel" data-tab="cs">
-          <div class="codewrapper">
-            <pre><code class="lang-csharp hljs">[Obsolete(&quot;Please use CreateSettingsPage() now.&quot;, false)]
-public static Page CreateSettingPage(string id, string name)</code></pre>
-          </div>
-      </section>
-      <section id="tabpanel_syntax_vb" role="tabpanel" data-tab="vb" aria-hidden="true" hidden="">
-          <div class="codewrapper">
-            <pre><code class="lang-vb hljs">&lt;Obsolete(&quot;Please use CreateSettingsPage() now.&quot;, False)&gt;
-Public Shared Function CreateSettingPage(id As String, name As String) As Page</code></pre>
-          </div>
-      </section>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.String</span></td>
-        <td><span class="parametername">id</span></td>
-        <td><p>The ID for the page</p>
-</td>
-      </tr>
-      <tr>
-        <td><span class="xref">System.String</span></td>
-        <td><span class="parametername">name</span></td>
-        <td><p>The name of the page</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="HomeSeer.Jui.Views.Page.html">Page</a></td>
-        <td><p>A new Page with its type set to EPageType.Settings</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Jui/Views/Page.cs/#L576">View Source</a>
-  </span>
-  <a id="HomeSeer_Jui_Views_Page_Factory_CreateSettingsPage_" data-uid="HomeSeer.Jui.Views.Page.Factory.CreateSettingsPage*"></a>
-  <h4 id="HomeSeer_Jui_Views_Page_Factory_CreateSettingsPage_System_String_System_String_" data-uid="HomeSeer.Jui.Views.Page.Factory.CreateSettingsPage(System.String,System.String)">CreateSettingsPage(String, String)</h4>
-  <div class="markdown level1 summary"><p>Create a new settings page</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="tabGroup" id="tabgroup_syntax">
-      <ul role="tablist">
-          <li role="presentation">
-              <a href="#tabpanel_syntax_cs" tabindex="0" role="tab" aria-controls="tabpanel_syntax_cs" data-tab="cs" aria-selected="true">C#</a>
-          </li>
-          <li role="presentation">
-              <a href="#tabpanel_syntax_vb" tabindex="-1" role="tab" aria-controls="tabpanel_syntax_vb" data-tab="vb">Visual Basic</a>
-          </li>
-      </ul>
-      <section id="tabpanel_syntax_cs" role="tabpanel" data-tab="cs">
-          <div class="codewrapper">
-            <pre><code class="lang-csharp hljs">public static Page CreateSettingsPage(string id, string name)</code></pre>
-          </div>
-      </section>
-      <section id="tabpanel_syntax_vb" role="tabpanel" data-tab="vb" aria-hidden="true" hidden="">
-          <div class="codewrapper">
-            <pre><code class="lang-vb hljs">Public Shared Function CreateSettingsPage(id As String, name As String) As Page</code></pre>
-          </div>
-      </section>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.String</span></td>
-        <td><span class="parametername">id</span></td>
-        <td><p>The ID for the page</p>
-</td>
-      </tr>
-      <tr>
-        <td><span class="xref">System.String</span></td>
-        <td><span class="parametername">name</span></td>
-        <td><p>The name of the page</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="HomeSeer.Jui.Views.Page.html">Page</a></td>
-        <td><p>A new Page with its type set to EPageType.Settings</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Jui/Views/Page.cs/#L678">View Source</a>
-  </span>
-  <a id="HomeSeer_Jui_Views_Page_Factory_FromJsonString_" data-uid="HomeSeer.Jui.Views.Page.Factory.FromJsonString*"></a>
-  <h4 id="HomeSeer_Jui_Views_Page_Factory_FromJsonString_System_String_" data-uid="HomeSeer.Jui.Views.Page.Factory.FromJsonString(System.String)">FromJsonString(String)</h4>
-  <div class="markdown level1 summary"><p>Deserialize a JSON string to a page</p>
-<p>
-This should always be wrapped in a try/catch in case the data received is malformed
-</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="tabGroup" id="tabgroup_syntax">
-      <ul role="tablist">
-          <li role="presentation">
-              <a href="#tabpanel_syntax_cs" tabindex="0" role="tab" aria-controls="tabpanel_syntax_cs" data-tab="cs" aria-selected="true">C#</a>
-          </li>
-          <li role="presentation">
-              <a href="#tabpanel_syntax_vb" tabindex="-1" role="tab" aria-controls="tabpanel_syntax_vb" data-tab="vb">Visual Basic</a>
-          </li>
-      </ul>
-      <section id="tabpanel_syntax_cs" role="tabpanel" data-tab="cs">
-          <div class="codewrapper">
-            <pre><code class="lang-csharp hljs">[Obsolete(&quot;Please use Page.FromJsonString() instead&quot;, true)]
-public static Page FromJsonString(string jsonString)</code></pre>
-          </div>
-      </section>
-      <section id="tabpanel_syntax_vb" role="tabpanel" data-tab="vb" aria-hidden="true" hidden="">
-          <div class="codewrapper">
-            <pre><code class="lang-vb hljs">&lt;Obsolete(&quot;Please use Page.FromJsonString() instead&quot;, True)&gt;
-Public Shared Function FromJsonString(jsonString As String) As Page</code></pre>
-          </div>
-      </section>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.String</span></td>
-        <td><span class="parametername">jsonString</span></td>
-        <td><p>The JSON string containing the page</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="HomeSeer.Jui.Views.Page.html">Page</a></td>
-        <td><p>A Page</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="exceptions">Exceptions</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Condition</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="HomeSeer.Jui.Views.JsonDataException.html">JsonDataException</a></td>
-        <td><p>Thrown when there was a problem deserializing the page</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Jui/Views/Page.cs/#L701">View Source</a>
-  </span>
-  <a id="HomeSeer_Jui_Views_Page_Factory_JsonFromList_" data-uid="HomeSeer.Jui.Views.Page.Factory.JsonFromList*"></a>
-  <h4 id="HomeSeer_Jui_Views_Page_Factory_JsonFromList_System_Collections_Generic_List_HomeSeer_Jui_Views_Page__" data-uid="HomeSeer.Jui.Views.Page.Factory.JsonFromList(System.Collections.Generic.List{HomeSeer.Jui.Views.Page})">JsonFromList(List&lt;Page&gt;)</h4>
-  <div class="markdown level1 summary"><p>Serialize a list of pages to a JSON string</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="tabGroup" id="tabgroup_syntax">
-      <ul role="tablist">
-          <li role="presentation">
-              <a href="#tabpanel_syntax_cs" tabindex="0" role="tab" aria-controls="tabpanel_syntax_cs" data-tab="cs" aria-selected="true">C#</a>
-          </li>
-          <li role="presentation">
-              <a href="#tabpanel_syntax_vb" tabindex="-1" role="tab" aria-controls="tabpanel_syntax_vb" data-tab="vb">Visual Basic</a>
-          </li>
-      </ul>
-      <section id="tabpanel_syntax_cs" role="tabpanel" data-tab="cs">
-          <div class="codewrapper">
-            <pre><code class="lang-csharp hljs">[Obsolete]
-public static string JsonFromList(List&lt;Page&gt; pages)</code></pre>
-          </div>
-      </section>
-      <section id="tabpanel_syntax_vb" role="tabpanel" data-tab="vb" aria-hidden="true" hidden="">
-          <div class="codewrapper">
-            <pre><code class="lang-vb hljs">&lt;Obsolete&gt;
-Public Shared Function JsonFromList(pages As List(Of Page)) As String</code></pre>
-          </div>
-      </section>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Collections.Generic.List</span>&lt;<a class="xref" href="HomeSeer.Jui.Views.Page.html">Page</a>&gt;</td>
-        <td><span class="parametername">pages</span></td>
-        <td><p>the List of Pages to serialize</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.String</span></td>
-        <td><p>A JSON string containing the serialized pages</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="exceptions">Exceptions</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Condition</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="HomeSeer.Jui.Views.JsonDataException.html">JsonDataException</a></td>
-        <td><p>Thrown when there was a problem serializing the page</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Jui/Views/Page.cs/#L724">View Source</a>
-  </span>
-  <a id="HomeSeer_Jui_Views_Page_Factory_ListFromJson_" data-uid="HomeSeer.Jui.Views.Page.Factory.ListFromJson*"></a>
-  <h4 id="HomeSeer_Jui_Views_Page_Factory_ListFromJson_System_String_" data-uid="HomeSeer.Jui.Views.Page.Factory.ListFromJson(System.String)">ListFromJson(String)</h4>
-  <div class="markdown level1 summary"><p>Deserialize a JSON string to a List of Pages</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="tabGroup" id="tabgroup_syntax">
-      <ul role="tablist">
-          <li role="presentation">
-              <a href="#tabpanel_syntax_cs" tabindex="0" role="tab" aria-controls="tabpanel_syntax_cs" data-tab="cs" aria-selected="true">C#</a>
-          </li>
-          <li role="presentation">
-              <a href="#tabpanel_syntax_vb" tabindex="-1" role="tab" aria-controls="tabpanel_syntax_vb" data-tab="vb">Visual Basic</a>
-          </li>
-      </ul>
-      <section id="tabpanel_syntax_cs" role="tabpanel" data-tab="cs">
-          <div class="codewrapper">
-            <pre><code class="lang-csharp hljs">[Obsolete(&quot;Please use Page.ListFromJson() instead&quot;, true)]
-public static List&lt;Page&gt; ListFromJson(string jsonString)</code></pre>
-          </div>
-      </section>
-      <section id="tabpanel_syntax_vb" role="tabpanel" data-tab="vb" aria-hidden="true" hidden="">
-          <div class="codewrapper">
-            <pre><code class="lang-vb hljs">&lt;Obsolete(&quot;Please use Page.ListFromJson() instead&quot;, True)&gt;
-Public Shared Function ListFromJson(jsonString As String) As List(Of Page)</code></pre>
-          </div>
-      </section>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.String</span></td>
-        <td><span class="parametername">jsonString</span></td>
-        <td><p>The JSON string containing the list of pages</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Collections.Generic.List</span>&lt;<a class="xref" href="HomeSeer.Jui.Views.Page.html">Page</a>&gt;</td>
-        <td><p>A List of Jui.Page objects</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="exceptions">Exceptions</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Condition</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="HomeSeer.Jui.Views.JsonDataException.html">JsonDataException</a></td>
-        <td><p>Thrown when there was a problem deserializing the page</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Jui/Views/Page.cs/#L748">View Source</a>
-  </span>
-  <a id="HomeSeer_Jui_Views_Page_Factory_PageListToHtml_" data-uid="HomeSeer.Jui.Views.Page.Factory.PageListToHtml*"></a>
-  <h4 id="HomeSeer_Jui_Views_Page_Factory_PageListToHtml_System_Collections_Generic_List_System_String__System_Int32_" data-uid="HomeSeer.Jui.Views.Page.Factory.PageListToHtml(System.Collections.Generic.List{System.String},System.Int32)">PageListToHtml(List&lt;String&gt;, Int32)</h4>
-  <div class="markdown level1 summary"><p>Convert a list of JSON pages into a tabbed HTML page.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="tabGroup" id="tabgroup_syntax">
-      <ul role="tablist">
-          <li role="presentation">
-              <a href="#tabpanel_syntax_cs" tabindex="0" role="tab" aria-controls="tabpanel_syntax_cs" data-tab="cs" aria-selected="true">C#</a>
-          </li>
-          <li role="presentation">
-              <a href="#tabpanel_syntax_vb" tabindex="-1" role="tab" aria-controls="tabpanel_syntax_vb" data-tab="vb">Visual Basic</a>
-          </li>
-      </ul>
-      <section id="tabpanel_syntax_cs" role="tabpanel" data-tab="cs">
-          <div class="codewrapper">
-            <pre><code class="lang-csharp hljs">[Obsolete(&quot;Please use a SettingsCollection instead&quot;, true)]
-public static string PageListToHtml(List&lt;string&gt; jsonPages, int selectedPage = 0)</code></pre>
-          </div>
-      </section>
-      <section id="tabpanel_syntax_vb" role="tabpanel" data-tab="vb" aria-hidden="true" hidden="">
-          <div class="codewrapper">
-            <pre><code class="lang-vb hljs">&lt;Obsolete(&quot;Please use a SettingsCollection instead&quot;, True)&gt;
-Public Shared Function PageListToHtml(jsonPages As List(Of String), selectedPage As Integer = 0) As String</code></pre>
-          </div>
-      </section>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
       <tr>
         <td><span class="xref">System.Collections.Generic.List</span>&lt;<span class="xref">System.String</span>&gt;</td>
-        <td><span class="parametername">jsonPages</span></td>
-        <td><p>A list of pages serialized as JSON strings</p>
+        <td><span class="parametername">options</span></td>
+        <td><p>The list of options</p>
 </td>
       </tr>
       <tr>
-        <td><span class="xref">System.Int32</span></td>
-        <td><span class="parametername">selectedPage</span></td>
-        <td><p>The index of the page that should be selected by default</p>
+        <td><span class="xref">System.Collections.Generic.List</span>&lt;<span class="xref">System.String</span>&gt;</td>
+        <td><span class="parametername">optionKeys</span></td>
+        <td><p>The list of keys corresponding to the list of options</p>
 </td>
       </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
       <tr>
-        <th>Type</th>
-        <th>Description</th>
+        <td><a class="xref" href="HomeSeer.Jui.Types.EMultiSelectListType.html">EMultiSelectListType</a></td>
+        <td><span class="parametername">style</span></td>
+        <td><p>The display style of the select list. DEFAULT: drop down</p>
+</td>
       </tr>
-    </thead>
-    <tbody>
       <tr>
-        <td><span class="xref">System.String</span></td>
-        <td><p>A string containing a tabbed HTML page</p>
+        <td><span class="xref">System.Collections.Generic.List</span>&lt;<span class="xref">System.Int32</span>&gt;</td>
+        <td><span class="parametername">selection</span></td>
+        <td><p>The list of indexes of the currently selected options in the list. DEFAULT: null</p>
 </td>
       </tr>
     </tbody>
@@ -1182,16 +263,738 @@ Public Shared Function PageListToHtml(jsonPages As List(Of String), selectedPage
     <tbody>
       <tr>
         <td><span class="xref">System.ArgumentNullException</span></td>
-        <td><p>Thrown if the supplied list of pages is null</p>
+        <td><p>Thrown if multi select list is create with an invalid list of options or option keys</p>
 </td>
       </tr>
       <tr>
-        <td><span class="xref">System.ArgumentException</span></td>
-        <td><p>Thrown if the list of pages is empty</p>
+        <td><span class="xref">System.ArgumentOutOfRangeException</span></td>
+        <td><p>Thrown if multi select list is created with invalid indexes for the currently selected options</p>
 </td>
       </tr>
     </tbody>
   </table>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Jui/Views/MultiSelectListView.cs/#L113">View Source</a>
+  </span>
+  <a id="HomeSeer_Jui_Views_MultiSelectListView__ctor_" data-uid="HomeSeer.Jui.Views.MultiSelectListView.#ctor*"></a>
+  <h4 id="HomeSeer_Jui_Views_MultiSelectListView__ctor_System_String_System_String_System_Collections_Generic_List_System_String__System_Collections_Generic_List_System_String__HomeSeer_Jui_Types_EMultiSelectListType_System_Collections_Generic_List_System_String__" data-uid="HomeSeer.Jui.Views.MultiSelectListView.#ctor(System.String,System.String,System.Collections.Generic.List{System.String},System.Collections.Generic.List{System.String},HomeSeer.Jui.Types.EMultiSelectListType,System.Collections.Generic.List{System.String})">MultiSelectListView(String, String, List&lt;String&gt;, List&lt;String&gt;, EMultiSelectListType, List&lt;String&gt;)</h4>
+  <div class="markdown level1 summary"><p>Create a new instance of a multi select list with the default, drop down style, an ID, Name, and the specified list of options and keys</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="tabGroup" id="tabgroup_syntax">
+      <ul role="tablist">
+          <li role="presentation">
+              <a href="#tabpanel_syntax_cs" tabindex="0" role="tab" aria-controls="tabpanel_syntax_cs" data-tab="cs" aria-selected="true">C#</a>
+          </li>
+          <li role="presentation">
+              <a href="#tabpanel_syntax_vb" tabindex="-1" role="tab" aria-controls="tabpanel_syntax_vb" data-tab="vb">Visual Basic</a>
+          </li>
+      </ul>
+      <section id="tabpanel_syntax_cs" role="tabpanel" data-tab="cs">
+          <div class="codewrapper">
+            <pre><code class="lang-csharp hljs">public MultiSelectListView(string id, string name, List&lt;string&gt; options, List&lt;string&gt; optionKeys, EMultiSelectListType style = EMultiSelectListType.DropDown, List&lt;string&gt; selectedKeys = null)</code></pre>
+          </div>
+      </section>
+      <section id="tabpanel_syntax_vb" role="tabpanel" data-tab="vb" aria-hidden="true" hidden="">
+          <div class="codewrapper">
+            <pre><code class="lang-vb hljs">Public Sub New(id As String, name As String, options As List(Of String), optionKeys As List(Of String), style As EMultiSelectListType = EMultiSelectListType.DropDown, selectedKeys As List(Of String) = Nothing)</code></pre>
+          </div>
+      </section>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">id</span></td>
+        <td><p>The unique ID for this View</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">name</span></td>
+        <td><p>The name of the view</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.List</span>&lt;<span class="xref">System.String</span>&gt;</td>
+        <td><span class="parametername">options</span></td>
+        <td><p>The list of options</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.List</span>&lt;<span class="xref">System.String</span>&gt;</td>
+        <td><span class="parametername">optionKeys</span></td>
+        <td><p>The list of keys corresponding to the list of options</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="HomeSeer.Jui.Types.EMultiSelectListType.html">EMultiSelectListType</a></td>
+        <td><span class="parametername">style</span></td>
+        <td><p>The display style of the select list. DEFAULT: drop down</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.List</span>&lt;<span class="xref">System.String</span>&gt;</td>
+        <td><span class="parametername">selectedKeys</span></td>
+        <td><p>The list of selected option keys</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p>Thrown if multi select list is create with an invalid list of options or option keys</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="fields">Fields
+  </h3>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Jui/Views/MultiSelectListView.cs/#L55">View Source</a>
+  </span>
+  <h4 id="HomeSeer_Jui_Views_MultiSelectListView__selection" data-uid="HomeSeer.Jui.Views.MultiSelectListView._selection">_selection</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="tabGroup" id="tabgroup_syntax">
+      <ul role="tablist">
+          <li role="presentation">
+              <a href="#tabpanel_syntax_cs" tabindex="0" role="tab" aria-controls="tabpanel_syntax_cs" data-tab="cs" aria-selected="true">C#</a>
+          </li>
+          <li role="presentation">
+              <a href="#tabpanel_syntax_vb" tabindex="-1" role="tab" aria-controls="tabpanel_syntax_vb" data-tab="vb">Visual Basic</a>
+          </li>
+      </ul>
+      <section id="tabpanel_syntax_cs" role="tabpanel" data-tab="cs">
+          <div class="codewrapper">
+            <pre><code class="lang-csharp hljs">List&lt;int&gt; _selection</code></pre>
+          </div>
+      </section>
+      <section id="tabpanel_syntax_vb" role="tabpanel" data-tab="vb" aria-hidden="true" hidden="">
+          <div class="codewrapper">
+            <pre><code class="lang-vb hljs">_selection As List(Of Integer)</code></pre>
+          </div>
+      </section>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.List</span>&lt;<span class="xref">System.Int32</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="properties">Properties
+  </h3>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Jui/Views/MultiSelectListView.cs/#L60">View Source</a>
+  </span>
+  <a id="HomeSeer_Jui_Views_MultiSelectListView_DefaultSelectionText_" data-uid="HomeSeer.Jui.Views.MultiSelectListView.DefaultSelectionText*"></a>
+  <h4 id="HomeSeer_Jui_Views_MultiSelectListView_DefaultSelectionText" data-uid="HomeSeer.Jui.Views.MultiSelectListView.DefaultSelectionText">DefaultSelectionText</h4>
+  <div class="markdown level1 summary"><p>The text displayed when <a class="xref" href="HomeSeer.Jui.Views.MultiSelectListView.html#HomeSeer_Jui_Views_MultiSelectListView_Selection">Selection</a> equals null or an emptyl List. If this property is null or empty, &quot;Select options&quot; is displayed.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="tabGroup" id="tabgroup_syntax">
+      <ul role="tablist">
+          <li role="presentation">
+              <a href="#tabpanel_syntax_cs" tabindex="0" role="tab" aria-controls="tabpanel_syntax_cs" data-tab="cs" aria-selected="true">C#</a>
+          </li>
+          <li role="presentation">
+              <a href="#tabpanel_syntax_vb" tabindex="-1" role="tab" aria-controls="tabpanel_syntax_vb" data-tab="vb">Visual Basic</a>
+          </li>
+      </ul>
+      <section id="tabpanel_syntax_cs" role="tabpanel" data-tab="cs">
+          <div class="codewrapper">
+            <pre><code class="lang-csharp hljs">[JsonProperty(&quot;default_selection_text&quot;)]
+public string DefaultSelectionText { get; set; }</code></pre>
+          </div>
+      </section>
+      <section id="tabpanel_syntax_vb" role="tabpanel" data-tab="vb" aria-hidden="true" hidden="">
+          <div class="codewrapper">
+            <pre><code class="lang-vb hljs">&lt;JsonProperty(&quot;default_selection_text&quot;)&gt;
+Public Property DefaultSelectionText As String</code></pre>
+          </div>
+      </section>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Jui/Views/MultiSelectListView.cs/#L24">View Source</a>
+  </span>
+  <a id="HomeSeer_Jui_Views_MultiSelectListView_OptionKeys_" data-uid="HomeSeer.Jui.Views.MultiSelectListView.OptionKeys*"></a>
+  <h4 id="HomeSeer_Jui_Views_MultiSelectListView_OptionKeys" data-uid="HomeSeer.Jui.Views.MultiSelectListView.OptionKeys">OptionKeys</h4>
+  <div class="markdown level1 summary"><p>A list of keys that corresponds to the <a class="xref" href="HomeSeer.Jui.Views.MultiSelectListView.html#HomeSeer_Jui_Views_MultiSelectListView_Options">Options</a> list.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="tabGroup" id="tabgroup_syntax">
+      <ul role="tablist">
+          <li role="presentation">
+              <a href="#tabpanel_syntax_cs" tabindex="0" role="tab" aria-controls="tabpanel_syntax_cs" data-tab="cs" aria-selected="true">C#</a>
+          </li>
+          <li role="presentation">
+              <a href="#tabpanel_syntax_vb" tabindex="-1" role="tab" aria-controls="tabpanel_syntax_vb" data-tab="vb">Visual Basic</a>
+          </li>
+      </ul>
+      <section id="tabpanel_syntax_cs" role="tabpanel" data-tab="cs">
+          <div class="codewrapper">
+            <pre><code class="lang-csharp hljs">[JsonProperty(&quot;keys&quot;)]
+public List&lt;string&gt; OptionKeys { get; }</code></pre>
+          </div>
+      </section>
+      <section id="tabpanel_syntax_vb" role="tabpanel" data-tab="vb" aria-hidden="true" hidden="">
+          <div class="codewrapper">
+            <pre><code class="lang-vb hljs">&lt;JsonProperty(&quot;keys&quot;)&gt;
+Public ReadOnly Property OptionKeys As List(Of String)</code></pre>
+          </div>
+      </section>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.List</span>&lt;<span class="xref">System.String</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Jui/Views/MultiSelectListView.cs/#L18">View Source</a>
+  </span>
+  <a id="HomeSeer_Jui_Views_MultiSelectListView_Options_" data-uid="HomeSeer.Jui.Views.MultiSelectListView.Options*"></a>
+  <h4 id="HomeSeer_Jui_Views_MultiSelectListView_Options" data-uid="HomeSeer.Jui.Views.MultiSelectListView.Options">Options</h4>
+  <div class="markdown level1 summary"><p>A list of options that the user can select from</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="tabGroup" id="tabgroup_syntax">
+      <ul role="tablist">
+          <li role="presentation">
+              <a href="#tabpanel_syntax_cs" tabindex="0" role="tab" aria-controls="tabpanel_syntax_cs" data-tab="cs" aria-selected="true">C#</a>
+          </li>
+          <li role="presentation">
+              <a href="#tabpanel_syntax_vb" tabindex="-1" role="tab" aria-controls="tabpanel_syntax_vb" data-tab="vb">Visual Basic</a>
+          </li>
+      </ul>
+      <section id="tabpanel_syntax_cs" role="tabpanel" data-tab="cs">
+          <div class="codewrapper">
+            <pre><code class="lang-csharp hljs">[JsonProperty(&quot;options&quot;)]
+public List&lt;string&gt; Options { get; }</code></pre>
+          </div>
+      </section>
+      <section id="tabpanel_syntax_vb" role="tabpanel" data-tab="vb" aria-hidden="true" hidden="">
+          <div class="codewrapper">
+            <pre><code class="lang-vb hljs">&lt;JsonProperty(&quot;options&quot;)&gt;
+Public ReadOnly Property Options As List(Of String)</code></pre>
+          </div>
+      </section>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.List</span>&lt;<span class="xref">System.String</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Jui/Views/MultiSelectListView.cs/#L40">View Source</a>
+  </span>
+  <a id="HomeSeer_Jui_Views_MultiSelectListView_Selection_" data-uid="HomeSeer.Jui.Views.MultiSelectListView.Selection*"></a>
+  <h4 id="HomeSeer_Jui_Views_MultiSelectListView_Selection" data-uid="HomeSeer.Jui.Views.MultiSelectListView.Selection">Selection</h4>
+  <div class="markdown level1 summary"><p>The indexes of the currently selected options in the list. This is the value for this view.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="tabGroup" id="tabgroup_syntax">
+      <ul role="tablist">
+          <li role="presentation">
+              <a href="#tabpanel_syntax_cs" tabindex="0" role="tab" aria-controls="tabpanel_syntax_cs" data-tab="cs" aria-selected="true">C#</a>
+          </li>
+          <li role="presentation">
+              <a href="#tabpanel_syntax_vb" tabindex="-1" role="tab" aria-controls="tabpanel_syntax_vb" data-tab="vb">Visual Basic</a>
+          </li>
+      </ul>
+      <section id="tabpanel_syntax_cs" role="tabpanel" data-tab="cs">
+          <div class="codewrapper">
+            <pre><code class="lang-csharp hljs">[JsonProperty(&quot;selection&quot;)]
+public List&lt;int&gt; Selection { get; set; }</code></pre>
+          </div>
+      </section>
+      <section id="tabpanel_syntax_vb" role="tabpanel" data-tab="vb" aria-hidden="true" hidden="">
+          <div class="codewrapper">
+            <pre><code class="lang-vb hljs">&lt;JsonProperty(&quot;selection&quot;)&gt;
+Public Property Selection As List(Of Integer)</code></pre>
+          </div>
+      </section>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.List</span>&lt;<span class="xref">System.Int32</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="HomeSeer_Jui_Views_MultiSelectListView_Selection_remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>Set this to null or an emptyl List to display a default &quot;Select an option&quot; text</p>
+</div>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentOutOfRangeException</span></td>
+        <td><p>Thrown when the selection is set to an index that does not work for the current <a class="xref" href="HomeSeer.Jui.Views.MultiSelectListView.html#HomeSeer_Jui_Views_MultiSelectListView_Options">Options</a></p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Jui/Views/MultiSelectListView.cs/#L30">View Source</a>
+  </span>
+  <a id="HomeSeer_Jui_Views_MultiSelectListView_Style_" data-uid="HomeSeer.Jui.Views.MultiSelectListView.Style*"></a>
+  <h4 id="HomeSeer_Jui_Views_MultiSelectListView_Style" data-uid="HomeSeer.Jui.Views.MultiSelectListView.Style">Style</h4>
+  <div class="markdown level1 summary"><p>The display style for the list of options</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="tabGroup" id="tabgroup_syntax">
+      <ul role="tablist">
+          <li role="presentation">
+              <a href="#tabpanel_syntax_cs" tabindex="0" role="tab" aria-controls="tabpanel_syntax_cs" data-tab="cs" aria-selected="true">C#</a>
+          </li>
+          <li role="presentation">
+              <a href="#tabpanel_syntax_vb" tabindex="-1" role="tab" aria-controls="tabpanel_syntax_vb" data-tab="vb">Visual Basic</a>
+          </li>
+      </ul>
+      <section id="tabpanel_syntax_cs" role="tabpanel" data-tab="cs">
+          <div class="codewrapper">
+            <pre><code class="lang-csharp hljs">[JsonProperty(&quot;style&quot;)]
+public EMultiSelectListType Style { get; set; }</code></pre>
+          </div>
+      </section>
+      <section id="tabpanel_syntax_vb" role="tabpanel" data-tab="vb" aria-hidden="true" hidden="">
+          <div class="codewrapper">
+            <pre><code class="lang-vb hljs">&lt;JsonProperty(&quot;style&quot;)&gt;
+Public Property Style As EMultiSelectListType</code></pre>
+          </div>
+      </section>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="HomeSeer.Jui.Types.EMultiSelectListType.html">EMultiSelectListType</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+  </h3>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Jui/Views/MultiSelectListView.cs/#L208">View Source</a>
+  </span>
+  <a id="HomeSeer_Jui_Views_MultiSelectListView_GetSelectedOptionKeys_" data-uid="HomeSeer.Jui.Views.MultiSelectListView.GetSelectedOptionKeys*"></a>
+  <h4 id="HomeSeer_Jui_Views_MultiSelectListView_GetSelectedOptionKeys" data-uid="HomeSeer.Jui.Views.MultiSelectListView.GetSelectedOptionKeys">GetSelectedOptionKeys()</h4>
+  <div class="markdown level1 summary"><p>Get the currently selected option keys</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="tabGroup" id="tabgroup_syntax">
+      <ul role="tablist">
+          <li role="presentation">
+              <a href="#tabpanel_syntax_cs" tabindex="0" role="tab" aria-controls="tabpanel_syntax_cs" data-tab="cs" aria-selected="true">C#</a>
+          </li>
+          <li role="presentation">
+              <a href="#tabpanel_syntax_vb" tabindex="-1" role="tab" aria-controls="tabpanel_syntax_vb" data-tab="vb">Visual Basic</a>
+          </li>
+      </ul>
+      <section id="tabpanel_syntax_cs" role="tabpanel" data-tab="cs">
+          <div class="codewrapper">
+            <pre><code class="lang-csharp hljs">public List&lt;string&gt; GetSelectedOptionKeys()</code></pre>
+          </div>
+      </section>
+      <section id="tabpanel_syntax_vb" role="tabpanel" data-tab="vb" aria-hidden="true" hidden="">
+          <div class="codewrapper">
+            <pre><code class="lang-vb hljs">Public Function GetSelectedOptionKeys As List(Of String)</code></pre>
+          </div>
+      </section>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.List</span>&lt;<span class="xref">System.String</span>&gt;</td>
+        <td><p>The list of keys of the option at the indexes specified by <a class="xref" href="HomeSeer.Jui.Views.MultiSelectListView.html#HomeSeer_Jui_Views_MultiSelectListView_Selection">Selection</a>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Jui/Views/MultiSelectListView.cs/#L191">View Source</a>
+  </span>
+  <a id="HomeSeer_Jui_Views_MultiSelectListView_GetSelectedOptions_" data-uid="HomeSeer.Jui.Views.MultiSelectListView.GetSelectedOptions*"></a>
+  <h4 id="HomeSeer_Jui_Views_MultiSelectListView_GetSelectedOptions" data-uid="HomeSeer.Jui.Views.MultiSelectListView.GetSelectedOptions">GetSelectedOptions()</h4>
+  <div class="markdown level1 summary"><p>Get the currently selected options.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="tabGroup" id="tabgroup_syntax">
+      <ul role="tablist">
+          <li role="presentation">
+              <a href="#tabpanel_syntax_cs" tabindex="0" role="tab" aria-controls="tabpanel_syntax_cs" data-tab="cs" aria-selected="true">C#</a>
+          </li>
+          <li role="presentation">
+              <a href="#tabpanel_syntax_vb" tabindex="-1" role="tab" aria-controls="tabpanel_syntax_vb" data-tab="vb">Visual Basic</a>
+          </li>
+      </ul>
+      <section id="tabpanel_syntax_cs" role="tabpanel" data-tab="cs">
+          <div class="codewrapper">
+            <pre><code class="lang-csharp hljs">public List&lt;string&gt; GetSelectedOptions()</code></pre>
+          </div>
+      </section>
+      <section id="tabpanel_syntax_vb" role="tabpanel" data-tab="vb" aria-hidden="true" hidden="">
+          <div class="codewrapper">
+            <pre><code class="lang-vb hljs">Public Function GetSelectedOptions As List(Of String)</code></pre>
+          </div>
+      </section>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.List</span>&lt;<span class="xref">System.String</span>&gt;</td>
+        <td><p>The list of the options at the indexes specified by <a class="xref" href="HomeSeer.Jui.Views.MultiSelectListView.html#HomeSeer_Jui_Views_MultiSelectListView_Selection">Selection</a>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Jui/Views/MultiSelectListView.cs/#L177">View Source</a>
+  </span>
+  <a id="HomeSeer_Jui_Views_MultiSelectListView_GetStringValue_" data-uid="HomeSeer.Jui.Views.MultiSelectListView.GetStringValue*"></a>
+  <h4 id="HomeSeer_Jui_Views_MultiSelectListView_GetStringValue" data-uid="HomeSeer.Jui.Views.MultiSelectListView.GetStringValue">GetStringValue()</h4>
+  <div class="markdown level1 summary"><p>Get the value associated with this view as a string if there is one.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="tabGroup" id="tabgroup_syntax">
+      <ul role="tablist">
+          <li role="presentation">
+              <a href="#tabpanel_syntax_cs" tabindex="0" role="tab" aria-controls="tabpanel_syntax_cs" data-tab="cs" aria-selected="true">C#</a>
+          </li>
+          <li role="presentation">
+              <a href="#tabpanel_syntax_vb" tabindex="-1" role="tab" aria-controls="tabpanel_syntax_vb" data-tab="vb">Visual Basic</a>
+          </li>
+      </ul>
+      <section id="tabpanel_syntax_cs" role="tabpanel" data-tab="cs">
+          <div class="codewrapper">
+            <pre><code class="lang-csharp hljs">public override string GetStringValue()</code></pre>
+          </div>
+      </section>
+      <section id="tabpanel_syntax_vb" role="tabpanel" data-tab="vb" aria-hidden="true" hidden="">
+          <div class="codewrapper">
+            <pre><code class="lang-vb hljs">Public Overrides Function GetStringValue As String</code></pre>
+          </div>
+      </section>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><p>The value stored in this view as a string or NULL if there is no value stored.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="HomeSeer.Jui.Views.AbstractView.html#HomeSeer_Jui_Views_AbstractView_GetStringValue">AbstractView.GetStringValue()</a></div>
+  <h5 id="HomeSeer_Jui_Views_MultiSelectListView_GetStringValue_remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>Returns a comma separated list of selected option keys</p>
+</div>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Jui/Views/MultiSelectListView.cs/#L222">View Source</a>
+  </span>
+  <a id="HomeSeer_Jui_Views_MultiSelectListView_ToHtml_" data-uid="HomeSeer.Jui.Views.MultiSelectListView.ToHtml*"></a>
+  <h4 id="HomeSeer_Jui_Views_MultiSelectListView_ToHtml_System_Int32_" data-uid="HomeSeer.Jui.Views.MultiSelectListView.ToHtml(System.Int32)">ToHtml(Int32)</h4>
+  <div class="markdown level1 summary"><p>Get a string representation of this view converted into HTML</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="tabGroup" id="tabgroup_syntax">
+      <ul role="tablist">
+          <li role="presentation">
+              <a href="#tabpanel_syntax_cs" tabindex="0" role="tab" aria-controls="tabpanel_syntax_cs" data-tab="cs" aria-selected="true">C#</a>
+          </li>
+          <li role="presentation">
+              <a href="#tabpanel_syntax_vb" tabindex="-1" role="tab" aria-controls="tabpanel_syntax_vb" data-tab="vb">Visual Basic</a>
+          </li>
+      </ul>
+      <section id="tabpanel_syntax_cs" role="tabpanel" data-tab="cs">
+          <div class="codewrapper">
+            <pre><code class="lang-csharp hljs">public override string ToHtml(int indent = 0)</code></pre>
+          </div>
+      </section>
+      <section id="tabpanel_syntax_vb" role="tabpanel" data-tab="vb" aria-hidden="true" hidden="">
+          <div class="codewrapper">
+            <pre><code class="lang-vb hljs">Public Overrides Function ToHtml(indent As Integer = 0) As String</code></pre>
+          </div>
+      </section>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">indent</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><p>An HTML representation of the view as a string</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="HomeSeer.Jui.Views.AbstractView.html#HomeSeer_Jui_Views_AbstractView_ToHtml_System_Int32_">AbstractView.ToHtml(Int32)</a></div>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Jui/Views/MultiSelectListView.cs/#L148">View Source</a>
+  </span>
+  <a id="HomeSeer_Jui_Views_MultiSelectListView_Update_" data-uid="HomeSeer.Jui.Views.MultiSelectListView.Update*"></a>
+  <h4 id="HomeSeer_Jui_Views_MultiSelectListView_Update_HomeSeer_Jui_Views_AbstractView_" data-uid="HomeSeer.Jui.Views.MultiSelectListView.Update(HomeSeer.Jui.Views.AbstractView)">Update(AbstractView)</h4>
+  <div class="markdown level1 summary"><p>Update the view to the new state.  This will change the selected options</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="tabGroup" id="tabgroup_syntax">
+      <ul role="tablist">
+          <li role="presentation">
+              <a href="#tabpanel_syntax_cs" tabindex="0" role="tab" aria-controls="tabpanel_syntax_cs" data-tab="cs" aria-selected="true">C#</a>
+          </li>
+          <li role="presentation">
+              <a href="#tabpanel_syntax_vb" tabindex="-1" role="tab" aria-controls="tabpanel_syntax_vb" data-tab="vb">Visual Basic</a>
+          </li>
+      </ul>
+      <section id="tabpanel_syntax_cs" role="tabpanel" data-tab="cs">
+          <div class="codewrapper">
+            <pre><code class="lang-csharp hljs">public override void Update(AbstractView newViewState)</code></pre>
+          </div>
+      </section>
+      <section id="tabpanel_syntax_vb" role="tabpanel" data-tab="vb" aria-hidden="true" hidden="">
+          <div class="codewrapper">
+            <pre><code class="lang-vb hljs">Public Overrides Sub Update(newViewState As AbstractView)</code></pre>
+          </div>
+      </section>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="HomeSeer.Jui.Views.AbstractView.html">AbstractView</a></td>
+        <td><span class="parametername">newViewState</span></td>
+        <td><p>The new state of the view being updated.
+This view's ID and Type must match the calling view exactly</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="HomeSeer.Jui.Views.AbstractView.html#HomeSeer_Jui_Views_AbstractView_Update_HomeSeer_Jui_Views_AbstractView_">AbstractView.Update(AbstractView)</a></div>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="HomeSeer.Jui.Views.ViewTypeMismatchException.html">ViewTypeMismatchException</a></td>
+        <td><p>Thrown when the new view's class doesn't match the calling view</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Jui/Views/MultiSelectListView.cs/#L159">View Source</a>
+  </span>
+  <a id="HomeSeer_Jui_Views_MultiSelectListView_UpdateValue_" data-uid="HomeSeer.Jui.Views.MultiSelectListView.UpdateValue*"></a>
+  <h4 id="HomeSeer_Jui_Views_MultiSelectListView_UpdateValue_System_String_" data-uid="HomeSeer.Jui.Views.MultiSelectListView.UpdateValue(System.String)">UpdateValue(String)</h4>
+  <div class="markdown level1 summary"><p>Update the value of the view</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="tabGroup" id="tabgroup_syntax">
+      <ul role="tablist">
+          <li role="presentation">
+              <a href="#tabpanel_syntax_cs" tabindex="0" role="tab" aria-controls="tabpanel_syntax_cs" data-tab="cs" aria-selected="true">C#</a>
+          </li>
+          <li role="presentation">
+              <a href="#tabpanel_syntax_vb" tabindex="-1" role="tab" aria-controls="tabpanel_syntax_vb" data-tab="vb">Visual Basic</a>
+          </li>
+      </ul>
+      <section id="tabpanel_syntax_cs" role="tabpanel" data-tab="cs">
+          <div class="codewrapper">
+            <pre><code class="lang-csharp hljs">public override void UpdateValue(string value)</code></pre>
+          </div>
+      </section>
+      <section id="tabpanel_syntax_vb" role="tabpanel" data-tab="vb" aria-hidden="true" hidden="">
+          <div class="codewrapper">
+            <pre><code class="lang-vb hljs">Public Overrides Sub UpdateValue(value As String)</code></pre>
+          </div>
+      </section>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">value</span></td>
+        <td><p>The new value</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="HomeSeer.Jui.Views.AbstractView.html#HomeSeer_Jui_Views_AbstractView_UpdateValue_System_String_">AbstractView.UpdateValue(String)</a></div>
 </article>
       </div>
         
@@ -1200,7 +1003,7 @@ Public Shared Function PageListToHtml(jsonPages As List(Of String), selectedPage
             <div class="contribution">
               <ul class="nav">
                 <li>
-                  <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Jui/Views/Page.cs/#L555" class="contribution-link">View Source</a>
+                  <a href="https://github.com/HomeSeer/Plugin-SDK/blob/master/Jui/Views/MultiSelectListView.cs/#L13" class="contribution-link">View Source</a>
                 </li>
               </ul>
             </div>
